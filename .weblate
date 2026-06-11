@@ -1,0 +1,5 @@
+[weblate]
+# wlc command-line client config. Fill `url` once the Hosted Weblate (Libre plan)
+# instance is provisioned, then `wlc pull` / `wlc commit` from this repo.
+# url = https://hosted.weblate.org/api/
+translation = compcon/ui

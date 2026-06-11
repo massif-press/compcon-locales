@@ -1,0 +1,54 @@
+# Weblate component configuration for compcon-locales
+#
+# Weblate does NOT auto-read this file. It is the source-of-truth that a maintainer
+# transcribes into the Weblate UI (Project -> Add component) or applies via the API /
+# `wlc` client. Keep it in sync with the live Weblate project so the config is reviewable
+# in git. Derived from theme-L-i18n-l10n-plan.md section 5.3.
+#
+# CRITICAL: file format is monolingual nested JSON. Do NOT pick the "i18next" format.
+# i18next uses {{x}} interpolation and _one/_other plural suffixes; vue-i18n uses {x} and
+# the `|` pipe. Selecting i18next breaks the placeholder and plural checks for every string.
+
+project:
+  name: CompCon
+  slug: compcon
+  # Translations are committed back as PRs to a `weblate` branch, never pushed to main.
+  # Configure in Weblate: Repository -> "Push branch" = weblate, enable "Open pull request".
+  push_branch: weblate
+  source_language: en
+
+# Shared check / placeholder settings applied to every component below.
+defaults:
+  file_format: json            # Weblate "JSON nested structure" (monolingual)
+  base_is_readonly: true       # lock en.json / content/en from edits; they change only via app-repo CI push
+  # vue-i18n named interpolation {param} (single brace) + linked messages @:some.key
+  placeholder_regex: '\{[A-Za-z0-9_]+\}|@:[\w.]+'
+  # vue-i18n plurals are the `|` pipe form; rely on Weblate CLDR plural expansion.
+  plural_style: pipe
+  checks:
+    - placeholders          # params must be preserved verbatim
+    - same                  # flag untranslated copies (soft)
+    - punctuation_spacing
+
+components:
+  # ---- UI strings (priority 1, the L2 round-trip target) ----
+  - name: UI
+    slug: ui
+    filemask: ui/*.json
+    template: ui/en.json      # monolingual base / source
+    new_base: ui/en.json
+    # No markup check here: UI strings are plain text + {params}. Embedded emphasis is
+    # handled app-side via <i18n-t> slots, not raw tags in the catalog.
+
+  # ---- Content (priority 2, wired in L3 once extract-content-en.ts emits content/en/*) ----
+  # Use Weblate's "Component discovery" addon on the UI component to auto-create one
+  # component per collection, so a lancer-data bump re-flags only the affected collection.
+  # Addon: Component discovery
+  #   Regex:    content/(?P<language>[^/]+)/(?P<component>[^/]+)\.json
+  #   Format:   json
+  #   Name:     Content: {{ component }}
+  #   Base:     content/en/{{ component }}.json
+  #   Language: en is the source; exclude it from the translation language set.
+  # Content components ADD an HTML/markup check (translations must preserve <br>, <p>,
+  # and cc:/glossary tokens):
+  #   checks: [placeholders, safe-html, same]

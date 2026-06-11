@@ -1,0 +1,4 @@
+# wlc may cache credentials here
+.weblate.local
+*.log
+.DS_Store
