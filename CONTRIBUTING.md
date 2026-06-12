@@ -1,16 +1,12 @@
 # Translating COMP/CON
 
-Thank you for helping localize COMP/CON! All translation happens in **Weblate**. You should not
-edit JSON files in this repo by hand. This guide covers the rules that keep translations from
-breaking the app.
+Thank you for helping localize COMP/CON! All translation happens in [**Weblate**](https://hosted.weblate.org/engage/compcon/). You should not edit JSON files in this repo by hand. This guide covers the rules that keep translations from breaking the app.
 
 PRs to this repo should only be made for editing of this readme or other guidance documents.
 
 ## Where to translate
 
-Go to the COMP/CON project on Hosted Weblate and pick a language (or request a new one). Weblate
-gives you the source English, a place for your translation, suggestions, and automatic checks. If a
-check fails, fix it before submitting. Failing strings are not merged.
+Go to the COMP/CON project on Hosted Weblate and pick a language (or request a new one). Weblate gives you the source English, a place for your translation, suggestions, and automatic checks. If a check fails, fix it before submitting. Failing strings are not merged.
 
 ## Guidelines
 
