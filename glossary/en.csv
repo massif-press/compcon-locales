@@ -1,41 +1,41 @@
-source,target,developer_comments
-LANCER,LANCER,"Game title. Never translate. Brand term: mark read-only in Weblate."
-COMP/CON,COMP/CON,"Product name. Never translate. Brand term: mark read-only in Weblate."
-Massif Press,Massif Press,"Publisher name. Never translate. Brand term: mark read-only in Weblate."
-GMS,GMS,"General Massive Systems (manufacturer). Keep abbreviation; full name in a parenthetical only. Brand term: mark read-only in Weblate."
-IPS-N,IPS-N,"IPS-Northstar (manufacturer). Keep abbreviation. Brand term: mark read-only in Weblate."
-SSC,SSC,"Smith-Shimano Corpro (manufacturer). Keep abbreviation. Brand term: mark read-only in Weblate."
-HORUS,HORUS,"Manufacturer. Keep as-is. Brand term: mark read-only in Weblate."
-HA,HA,"Harrison Armory (manufacturer). Keep abbreviation; full name in a parenthetical only. Brand term: mark read-only in Weblate."
-Lancer Core Book,Lancer Core Book,"Content-pack identity name, not prose. Do not translate. Brand term: mark read-only in Weblate."
-Pilot,Pilot,"The character a player controls."
-Mech,Mech,"The combat machine a Pilot deploys."
-Frame,Frame,"A mech chassis model."
-License,License,"Unlocks a manufacturer's frame and gear by level."
-Talent,Talent,"A Pilot ability track."
-Skill Trigger,Skill Trigger,"A Pilot skill used for checks. Keep one agreed term per language."
-Core Bonus,Core Bonus,"A permanent Pilot upgrade from a manufacturer."
-Reserve,Reserve,"A pre-mission resource a Pilot banks."
-System,System,"Mech equipment occupying system points."
-Mod,Mod,"A weapon modification."
-Weapon,Weapon,"Mech or Pilot armament."
-Mount,Mount,"A weapon mount slot on a frame (the noun). Not the verb 'to mount'."
-Structure,Structure,"Mech durability track (rolled when HP is depleted)."
-Stress,Stress,"Mech reactor track (rolled when Heat caps out)."
-Heat,Heat,"Mech heat track."
-Overcharge,Overcharge,"Spend Heat for an extra action."
-Hull,Hull,"HULL mech stat. Keep consistent with the stat block."
-Agility,Agility,"AGILITY mech stat."
-Systems,Systems,"SYSTEMS mech stat."
-Engineering,Engineering,"ENGINEERING mech stat."
-Armor,Armor,"Damage reduction stat."
-Evasion,Evasion,"Defense vs attacks stat."
-Speed,Speed,"Movement stat."
-Size,Size,"Mech size stat."
-Sensors,Sensors,"Detection range stat."
-Grit,Grit,"Pilot combat bonus derived from License Level."
-Save,Save,"The SAVE stat / Save Target. Do NOT use the disk-Save word here; this is the defense stat. Keep distinct from the Save (store) action."
-None,None,"Status / empty-value word. It inflects for gender and number of its referent in many languages; translate per context, do not assume one form."
-Active,Active,"Status word; agrees with its referent. Keep consistent within a locale."
-Pending,Pending,"Status word; agrees with its referent."
-Custom,Custom,"'User-defined' sense; agrees with its referent."
+source,target,explanation,flags
+LANCER,LANCER,"Game title. Never translate.",read-only
+COMP/CON,COMP/CON,"Product name. Never translate.",read-only
+Massif Press,Massif Press,"Publisher name. Never translate.",read-only
+GMS,GMS,"General Massive Systems (manufacturer). Keep abbreviation; full name in a parenthetical only.",read-only
+IPS-N,IPS-N,"IPS-Northstar (manufacturer). Keep abbreviation.",read-only
+SSC,SSC,"Smith-Shimano Corpro (manufacturer). Keep abbreviation.",read-only
+HORUS,HORUS,"Manufacturer. Keep as-is.",read-only
+HA,HA,"Harrison Armory (manufacturer). Keep abbreviation; full name in a parenthetical only.",read-only
+Lancer Core Book,Lancer Core Book,"Content-pack identity name, not prose. Do not translate.",read-only
+Pilot,,"The character a player controls.",terminology
+Mech,,"The combat machine a Pilot deploys.",terminology
+Frame,,"A mech chassis model.",terminology
+License,,"Unlocks a manufacturer's frame and gear by level.",terminology
+Talent,,"A Pilot ability track.",terminology
+Skill Trigger,,"A Pilot skill used for checks. Keep one agreed term per language.",terminology
+Core Bonus,,"A permanent Pilot upgrade from a manufacturer.",terminology
+Reserve,,"A pre-mission resource a Pilot banks.",terminology
+System,,"Mech equipment occupying system points.",terminology
+Mod,,"A weapon modification.",terminology
+Weapon,,"Mech or Pilot armament.",terminology
+Mount,,"A weapon mount slot on a frame (the noun). Not the verb 'to mount'.",terminology
+Structure,,"Mech durability track (rolled when HP is depleted).",terminology
+Stress,,"Mech reactor track (rolled when Heat caps out).",terminology
+Heat,,"Mech heat track.",terminology
+Overcharge,,"Spend Heat for an extra action.",terminology
+Hull,,"HULL mech stat. Keep consistent with the stat block.",terminology
+Agility,,"AGILITY mech stat.",terminology
+Systems,,"SYSTEMS mech stat.",terminology
+Engineering,,"ENGINEERING mech stat.",terminology
+Armor,,"Damage reduction stat.",terminology
+Evasion,,"Defense vs attacks stat.",terminology
+Speed,,"Movement stat.",terminology
+Size,,"Mech size stat.",terminology
+Sensors,,"Detection range stat.",terminology
+Grit,,"Pilot combat bonus derived from License Level.",terminology
+Save,,"The SAVE stat / Save Target. Do NOT use the disk-Save word here; this is the defense stat. Keep distinct from the Save (store) action.",terminology
+None,,"Status / empty-value word. It inflects for gender and number of its referent in many languages; translate per context, do not assume one form.",terminology
+Active,,"Status word; agrees with its referent. Keep consistent within a locale.",terminology
+Pending,,"Status word; agrees with its referent.",terminology
+Custom,,"'User-defined' sense; agrees with its referent.",terminology
