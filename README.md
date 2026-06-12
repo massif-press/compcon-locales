@@ -1,5 +1,7 @@
 # compcon-locales
 
+[![Translation status](https://hosted.weblate.org/widget/compcon/multi-auto.svg)](https://hosted.weblate.org/engage/compcon/)
+
 Translation catalogs for [COMP/CON](https://github.com/massif-press/compcon), the digital companion
 for the LANCER TTRPG. This repo is **translation data**.
 

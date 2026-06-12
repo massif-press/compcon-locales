@@ -48,7 +48,25 @@
     "remove": "Remove",
     "unlock": "Unlock",
     "clear": "Clear",
-    "skipToMainContent": "Skip to main content"
+    "skipToMainContent": "Skip to main content",
+    "mainMenu": "Main Menu",
+    "pilotRoster": "Pilot Roster",
+    "compendium": "Compendium",
+    "manageContent": "Manage Content",
+    "campaignLibrary": "Campaign Library",
+    "versionHistory": "Version History",
+    "pilotLoadout": "Pilot Loadout",
+    "copyToClipboard": "Copy to Clipboard",
+    "copyShareCode": "Copy Share Code",
+    "closePreview": "Close Preview",
+    "fileImport": "File Import",
+    "saveAndExit": "Save and Exit",
+    "saveAndClose": "Save and Close",
+    "convertToLocal": "Convert to Local",
+    "importCampaign": "Import Campaign",
+    "ok": "OK",
+    "loading": "Loading…",
+    "website": "Website"
   },
   "language": {
     "selectLanguage": "Language",
@@ -129,16 +147,7 @@
       "moreCount": "+{count} more",
       "forceImportNotice": "This will import the {type} with all unresolvable items removed. The following dependencies cannot be found and will be stripped:"
     },
-    "common": {
-      "ok": "OK",
-      "cancel": "Cancel",
-      "save": "Save",
-      "delete": "Delete",
-      "loading": "Loading...",
-      "dismiss": "Dismiss",
-      "confirm": "Confirm",
-      "website": "Website"
-    },
+    "common": {},
     "nav": {
       "navigateBack": "Navigate Back",
       "navigateForward": "Navigate Forward",
@@ -377,7 +386,7 @@
       "upgradeFromTo": "Upgrade from {from} to {to}",
       "downgradeTo": "Downgrade to {version}",
       "noChange": "No change ({from} to {to})",
-      "installingPacks": "Installing {count} content pack... | Installing {count} content packs...",
+      "installingPacks": "Installing {count} content pack… | Installing {count} content packs…",
       "willUpgradeTo": "It will be upgraded to v.{version}",
       "willDowngradeTo": "It will be downgraded to {version}"
     },
@@ -468,7 +477,7 @@
       "dialogTitle": "Migration Data Repair",
       "buttonLabel": "Migration Repair Tool",
       "buttonTooltip": "Scan for and repair common issues with v2-migrated data.",
-      "scanning": "Scanning data...",
+      "scanning": "Scanning data…",
       "noIssues": "No migration issues found.",
       "experimentalTitle": "Experimental Feature",
       "experimentalBody": "This is an experimental tool that can automatically fix certain common issues with data migrated from v2, but has not yet been thoroughly tested. It is ",
@@ -537,14 +546,11 @@
       "v2BackupText": "{count} encounter(s) saved to v2 Imports for later import."
     },
     "sync": {
-      "syncCompleteTitle": "Sync Complete",
-      "syncFailedTitle": "Sync Failed",
       "syncCompleteText": "{itemType} {name} synced.",
       "syncFailedText": "Failed to sync {itemType} {name}. {err}"
     },
     "campaign": {
       "managedIn": "Imported campaigns are managed in the {library}",
-      "campaignLibrary": "Campaign Library",
       "yourCampaigns": "Your Campaigns",
       "noData": "No data",
       "versionLabel": "v{version}",
@@ -559,17 +565,13 @@
       "jsonFile": "JSON file",
       "lcdExt": ".lcd",
       "campaignCollection": "Campaign Collection",
-      "manageContent": "Manage Content",
       "stagedData": "Staged Campaign Data",
       "existingNewer": "The existing campaign is newer than the imported data.",
       "overwriteWarn": "This import data will overwrite an existing campaign with the same ID ({title}). The existing campaign was last updated on {date}.",
       "lastUpdated": "Last Updated:",
-      "importCampaign": "Import Campaign",
-      "newCampaign": "New Campaign",
       "errNoCampaign": "ERR: NO CAMPAIGN LOADED",
       "currentlyViewing": "Currently viewing",
       "credits": "Credits",
-      "closePreview": "Close Preview",
       "addSectionBtn": "Add Section",
       "addSubsectionBtn": "Add Subsection",
       "addContent": "Add Content",
@@ -597,7 +599,6 @@
       "exportLcdHelp": "Download a Lancer Campaign Distributable (.lcd) file that can be imported into another user's COMP/CON",
       "saveLocal": "Save to Local Collection",
       "saveLocalHelp": "Save a read-only copy of this campaign into your local Campaign Library for use in active mode or online play",
-      "copyShareCode": "Copy Share Code",
       "copyShareCodeHelp": "Copy this share code for this campaign to your clipboard. Share codes can be used to import this campaign into another COMP/CON instance.",
       "generateShareCode": "Generate Share Code",
       "generateShareCodeHelp": "Upload this campaign to the cloud repository to generate a share code for other users to import this campaign into their COMP/CON instance. Generating a share code will automatically update the cloud repository with the latest version of this campaign whenever a new version is published.",
@@ -685,8 +686,7 @@
       "organize": "ORGANIZE",
       "itemsHidden": "{n} items hidden by filter",
       "addType": "Add {type}",
-      "createNewType": "Create New {type}",
-      "fileImport": "File Import"
+      "createNewType": "Create New {type}"
     },
     "itemCard": {
       "tierShort": "T{tier}",
@@ -727,7 +727,6 @@
       "addContact": "Add New Contact",
       "coverImage": "Campaign Cover Image",
       "setCoverImage": "Set Cover Image",
-      "versionHistory": "Version History",
       "deleteHistory": "Delete History (v.{ver})"
     },
     "pageContent": {
@@ -788,8 +787,7 @@
       "objective": "Objective",
       "obstruction": "Obstruction",
       "player": "Player",
-      "enemy": "Enemy",
-      "saveAndExit": "Save and Exit"
+      "enemy": "Enemy"
     },
     "combatant": {
       "combatants": "COMBATANTS",
@@ -825,8 +823,7 @@
       "editorHeading": "ENCOUNTER EDITOR",
       "details": "ENCOUNTER DETAILS",
       "noMapData": "NO MAP DATA",
-      "additionalNotes": "ADDITIONAL NOTES",
-      "saveAndExit": "Save and Exit"
+      "additionalNotes": "ADDITIONAL NOTES"
     },
     "sitrep": {
       "heading": "SITREP",
@@ -932,7 +929,6 @@
       "selectTag": "Select NPC Tag"
     },
     "npcClass": {
-      "npcClasses": "NPC Classes",
       "tierN": "Tier {n}"
     },
     "eidolon": {
@@ -950,8 +946,7 @@
       "noData": "No Eidolon data found!",
       "help1": "Eidolon data are included with the No Room for a Wallflower Campaign Book and are therefore not included with COMP/CON by default. You can find Eidolon data as additional downloadable content on the {link} Campaign Book page.",
       "linkText": "No Room for a Wallflower",
-      "help2": "If you have already downloaded the Eidolon data, you can import it into COMP/CON via the Content Manager available on the Main Menu or in the Options menu on the right side of the nav bar.",
-      "mechWeapons": "Mech Weapons"
+      "help2": "If you have already downloaded the Eidolon data, you can import it into COMP/CON via the Content Manager available on the Main Menu or in the Options menu on the right side of the nav bar."
     },
     "eidolonData": {
       "noData": "No Eidolon editor data found!",
@@ -975,20 +970,6 @@
     },
     "npcStats": {
       "tier": "Tier {n}",
-      "hull": "HULL",
-      "agi": "AGI",
-      "sys": "SYS",
-      "eng": "ENG",
-      "structure": "STRUCTURE",
-      "hp": "HP",
-      "armor": "ARMOR",
-      "stress": "STRESS",
-      "heat": "HEAT",
-      "save": "SAVE",
-      "speed": "SPEED",
-      "edef": "E-DEF",
-      "evasion": "EVASION",
-      "sensors": "SENSORS",
       "activations": "ACTIVATIONS/ROUND"
     },
     "eidolonPrint": {
@@ -1021,9 +1002,6 @@
     "npcEditor": {
       "v2Export": "v2 Export",
       "statblock": "Statblock"
-    },
-    "npcStatblock": {
-      "copyToClipboard": "Copy to Clipboard"
     }
   },
   "active": {
@@ -1083,12 +1061,6 @@
       "npcDisengagedTitle": "NPC Disengaged",
       "npcDisengagedText": "{name} has DISENGAGED."
     },
-    "statblock": {
-      "copiedTitle": "Statblock Copied to Clipboard",
-      "copiedText": "Copy Success",
-      "errorTitle": "Error",
-      "errorText": "Unable to copy statblock"
-    },
     "pcSheet": {
       "activeMechChangedTitle": "Active Mech Changed",
       "activeMechChangedText": "Active mech changed to {mechName}. Character sheet state has been reset.",
@@ -1099,15 +1071,7 @@
     },
     "stats": {
       "grit": "GRIT",
-      "armor": "ARMOR",
-      "hitPoints": "HIT POINTS",
-      "eDefense": "E-DEFENSE",
-      "evasion": "EVASION",
-      "speed": "SPEED",
-      "hull": "HULL",
-      "agility": "AGILITY",
-      "systems": "SYSTEMS",
-      "engineering": "ENGINEERING"
+      "hitPoints": "HIT POINTS"
     },
     "common": {
       "none": "None",
@@ -1130,21 +1094,17 @@
       "playedBy": "Played By",
       "licenseLevel": "License Level",
       "pilotCombatStats": "Pilot Combat Stats",
-      "pilotLoadout": "Pilot Loadout",
-      "pilotTalents": "Pilot Talents",
       "activeMech": "ACTIVE MECH",
       "activeMechTooltip": "The active mech will be instantiated for use in this encounter. Once the encounter is started, the active mech cannot be changed without resetting the mech's stats",
       "pilotNoMech": "Pilot will be instanced without a mech",
       "mechStats": "Mech Stats",
       "frameTraits": "Frame Traits",
-      "coreBonuses": "Core Bonuses",
       "coreSystem": "Core System",
       "activeLoadout": "Active Loadout",
       "selectPilot": "Select a Pilot",
       "removedTitle": "Removed {callsign} from encounter",
       "removalSuccess": "Removal Success",
       "addedTitle": "Added {callsign} to encounter",
-      "addSuccess": "Success",
       "ll": "LL {n}"
     },
     "labels": {
@@ -1194,8 +1154,7 @@
     "newEnc": {
       "title": "New Local Active Encounter",
       "encounterData": "ENCOUNTER DATA",
-      "additionalNpcs": "Additional NPCs can be added in the Encounter Runner after creation.",
-      "newEncounter": "New Encounter"
+      "additionalNpcs": "Additional NPCs can be added in the Encounter Runner after creation."
     },
     "tableConfig": {
       "note1": "name, description, owner info (prepopulate with user info)",
@@ -1229,7 +1188,6 @@
       "llLevel": "LL{n}",
       "createNewPilot": "Create New Pilot",
       "str": "STR",
-      "hp": "HP",
       "stress": "Stress",
       "heat": "Heat",
       "repCap": "RepCap",
@@ -1280,8 +1238,7 @@
     },
     "leaveDialog": {
       "prompt": "Do you want to save this encounter before exiting?",
-      "exitWithoutSaving": "Exit Without Saving",
-      "saveAndExit": "Save and Exit"
+      "exitWithoutSaving": "Exit Without Saving"
     },
     "endRound": {
       "endRound": "End Round",
@@ -1346,7 +1303,7 @@
       "noSelected": "No equipment selected."
     },
     "pilotRunner": {
-      "loading": "Loading pilot sheet..."
+      "loading": "Loading pilot sheet…"
     },
     "gmOptions": {
       "exportState": "Export Encounter State",
@@ -1384,7 +1341,7 @@
       "allTags": "All Tags"
     },
     "gmRunner": {
-      "loading": "Loading encounter instance...",
+      "loading": "Loading encounter instance…",
       "roundN": "Round {n}"
     },
     "diceRoller": {
@@ -1553,11 +1510,9 @@
       "addCustom": "Add Custom Status"
     },
     "scan": {
-      "scan": "Scan",
-      "copyClipboard": "Copy to Clipboard"
+      "scan": "Scan"
     },
     "miniPanel": {
-      "reset": "Reset",
       "resetBase": "Reset to Base Value"
     },
     "activeEffect": {
@@ -1750,13 +1705,8 @@
   },
   "mainMenu": {
     "account": {
-      "imageDeletedTitle": "Image Deleted",
       "imageDeletedText": "Removed {itemType} {name}.",
-      "deletionFailedTitle": "Deletion Failed",
-      "deletionFailedText": "Unable to communicate with server. {err}",
-      "lcpUpdatedTitle": "LCP Updated",
       "lcpUpdatedText": "The latest version of {title} has been downloaded and installed.",
-      "lcpUpdateErrorTitle": "Error Updating LCP",
       "lcpUpdateErrorText": "An error occurred while attempting to download {title}.",
       "allLcpsUpdatedTitle": "LCPs Updated",
       "allLcpsUpdatedText": "All LCPs have been updated.",
@@ -1783,7 +1733,6 @@
     "auth": {
       "accountCreated": "User Account created successfully. Redirecting to Sign-In.",
       "verificationSent": "New verification e-mail sent to {email}",
-      "passwordChangedTitle": "Success",
       "passwordChangedText": "Password changed successfully.",
       "passwordResetErrorText": "Unable to send reset e-mail: {msg}",
       "passwordChangeErrorText": "Unable to change password: {msg}",
@@ -1813,8 +1762,6 @@
       "setNewPassword": "Set New Password"
     },
     "menu": {
-      "compendium": "Compendium",
-      "pilotRoster": "Pilot Roster",
       "gmToolkit": "GM Toolkit",
       "activeMode": "Active Mode",
       "contentManager": "Content Manager",
@@ -1830,7 +1777,7 @@
     },
     "ui": {
       "viewChangelog": "View changelog",
-      "linkingAccount": "Linking account...",
+      "linkingAccount": "Linking account…",
       "subscribe": "subscribe",
       "refreshList": "Refresh List",
       "doesNotSync": "(This does not sync)",
@@ -1857,9 +1804,7 @@
       "noItemWithIdLabel": "No item with ID:",
       "foundInCompendium": "found in Compendium",
       "lcpHint": "If this item is part of a Lancer Content Pack, please ensure that the pack is installed and enabled.",
-      "requestedLcp": "Requested LCP:",
-      "mainMenuLabel": "Main Menu",
-      "copyLink": "Copy link"
+      "requestedLcp": "Requested LCP:"
     },
     "dataUsage": {
       "title": "DATA USAGE",
@@ -1876,7 +1821,6 @@
     "syncSettings": {
       "frequency": "Frequency",
       "syncItems": "Sync Items",
-      "all": "All",
       "pilotsOnly": "Pilots Only",
       "custom": "Custom",
       "updateSyncSettings": "Update Sync Settings",
@@ -1916,7 +1860,7 @@
       "lastUpdated": "Last updated:",
       "changePassword": "Change password",
       "changeEmail": "Change Account E-Mail",
-      "working": "working...",
+      "working": "working…",
       "verifyEmailSent": "A verification e-mail has been sent to {email}. Please check your inbox and enter the verification code below to finalize your changes.",
       "signOut": "Sign Out",
       "deleteCloudAccount": "Delete Cloud Account"
@@ -1954,11 +1898,9 @@
       "purchasesLinked": "COMP/CON has linked the following itch.io purchases to your account:",
       "eligibleUpdates": "Your COMP/CON cloud account is eligible for the following automatic updates:",
       "manageContentHint": "Unlinked LCPs and other content can still be manually added via the {link} page.",
-      "manageContent": "Manage Content",
       "noAutoTrack": "COMP/CON does not automatically track new itch.io data.",
       "updateHint": "If you have new purchases or download keys on your itch.io account click the {update} button below to add these to COMP/CON. Unfortunately, it is not possible to link non-Massif purchases at this time due to limitations in the itch.io API.",
-      "lastPolled": "COMP/CON last polled your itch account on {date}",
-      "updateBtn": "Update"
+      "lastPolled": "COMP/CON last polled your itch account on {date}"
     },
     "subscriptions": {
       "upToDate": "Up to Date",
@@ -1980,7 +1922,6 @@
       "iosStep2": "Scroll down and tap {target}",
       "addToHomeScreen": "Add to Home Screen",
       "iosStep3": "Tap {target}",
-      "addLabel": "Add",
       "onceInstalled": "Once installed, open COMP/CON from your home screen icon.",
       "continueAnyway": "Continue Anyway",
       "noStorageWarning": "The current browser does not appear to support persistent storage. It is {recommended} to run COMP/CON on a browser that is capable of storing persistent app data, or, saving and running COMP/CON {pwaLink}",
@@ -1989,7 +1930,7 @@
       "v3StorageWarning": "As of the v3 update, COMP/CON requires more local device storage than is available by default. Functionality will be impaired unless COMP/CON is granted the {permission} for this browser.",
       "persistentStoragePermission": "Persistent Storage Permission",
       "denialNotice": "COMP/CON has detected that persistent storage has been denied for this app. Persistent storage must be enabled for COMP/CON to operate correctly",
-      "activated": "Persistent storage activated! Closing alert..."
+      "activated": "Persistent storage activated! Closing alert…"
     },
     "migration": {
       "title": "v3 Account Migration",
@@ -2002,7 +1943,7 @@
       "contentPacksAvailable": "Content packs (if available)",
       "v2NotModified": "Your v2 data will {not} be modified or deleted by this process.",
       "notLabel": "not",
-      "downloading": "Downloading and importing v2 data...",
+      "downloading": "Downloading and importing v2 data…",
       "noData": "No importable data was found in your v2 cloud storage.",
       "pilotsImported": "{count} pilot imported | {count} pilots imported",
       "pilotsPending": "{count} pilot pending (missing LCPs) | {count} pilots pending (missing LCPs)",
@@ -2058,7 +1999,6 @@
       "publishMinor": "Publish Minor Version ({version})",
       "publishMajor": "Publish Major Version ({version})",
       "collectionShareCode": "COLLECTION SHARE CODE",
-      "copyShareCode": "Copy Share Code",
       "lastUpdateOn": "Last update on {date}",
       "mustPublish": "Collection must be published to generate a share code.",
       "deleteCollection": "Delete Collection",
@@ -2091,9 +2031,7 @@
       "localOnly": "Local only — not yet synced.",
       "pendingSync": "Pending sync.",
       "editableCampaignDesc": "This is an editable campaign you have created in the GM Campaign Editor. This data can be synced to the cloud for safekeeping and sharing with other devices, but are not sharable via the Share Code system.",
-      "copyShareCode": "Copy Share Code",
       "retryConnection": "Retry Connection",
-      "convertToLocal": "Convert to Local",
       "convertToLocalDesc": "Remove the remote link. Data is kept locally.",
       "restore": "Restore",
       "restoreLocalDesc": "Restore this item locally.",
@@ -2153,7 +2091,6 @@
       "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "UNION ARMORY EQUIPMENT AUTHORIZATION: FRAME EQUIPMENT//COMBAT SYSTEM",
       "noSELECTION": "NO SELECTION",
       "equipmentIDINVALIDORMISSING": "[ EQUIPMENT ID INVALID OR MISSING ]",
-      "mechWeapons": "Mech Weapons",
       "weapon": "Weapon",
       "noMODINSTALLED": "NO MOD INSTALLED",
       "profileACTIONS": "//PROFILE ACTIONS",
@@ -2185,9 +2122,7 @@
       "gmsArmoryPrintid": "GMS ARMORY PRINTID:"
     },
     "import": {
-      "v2BackupTitle": "v2 Import Backup",
       "importSuccessTitle": "Import Successful",
-      "importErrorTitle": "Import Error",
       "importSuccessText": "{name} // {callsign} successfully added to roster.",
       "importErrorText": "Unable to read file: {error}",
       "importPilotErrorText": "Unable to import Pilot: {error}",
@@ -2201,18 +2136,11 @@
       "exportErrorText": "COMP/CON was unable to export pilot data",
       "exportSuccessText": "Pilot data saved as \"{callsign}.json\""
     },
-    "sync": {
-      "syncCompleteTitle": "Sync Complete",
-      "syncFailedTitle": "Sync Failed",
-      "syncCompleteText": "Pilot {callsign} // {name} synced.",
-      "syncFailedText": "Failed to sync Pilot {callsign} // {name}. {err}"
-    },
     "level": {
       "overview": "Overview",
       "skills": "Skills",
       "talents": "Talents",
       "mechSkills": "Mech Skills",
-      "licenses": "Licenses",
       "coreBonuses": "CORE Bonuses",
       "levelUpOverview": "Level Up (Overview)",
       "mv2LicenseAcquisitionRequest": "MV-2 License Acquisition Request",
@@ -2242,7 +2170,6 @@
       "up": "up",
       "down": "down",
       "identification": "Identification",
-      "coreBonuses": "Core Bonuses",
       "newPilotRegistration": "New Pilot Registration",
       "uadIDENTService": "UAD IDENT Service",
       "rm4PersonnelPilotC": "RM-4 Personnel::Pilot (C)",
@@ -2280,8 +2207,7 @@
       "icon": "icon",
       "mechARTCOURTESYOF": "MECH ART COURTESY OF",
       "selectTemplate": "SELECT {name} TEMPLATE",
-      "templateSelected": "{name} TEMPLATE SELECTED",
-      "mount": "Mount"
+      "templateSelected": "{name} TEMPLATE SELECTED"
     },
     "sheet": {
       "pilotOptions": "Pilot Options",
@@ -2294,7 +2220,6 @@
       "exportThisPilotAsAV2": "Export this pilot as a v2 JSON file compatible with VTT\n          systems and v2 apps",
       "sharePilot": "Share Pilot",
       "shareThisPilotSDataWith": "Share this pilot's data with other users via a share\n                  code",
-      "convertToLocal": "Convert to Local",
       "convertThisPilotToAnEditable": "Convert this Pilot to an editable local data instance",
       "clone": "Clone",
       "duplicateOrFlashCloneThisCharacter": "Duplicate or Flash Clone this character",
@@ -2367,7 +2292,6 @@
       "errTALENTAUDITINCOMPLETE": "ERR TALENT AUDIT INCOMPLETE",
       "includePilotNETDiscordEmoji": "Include Pilot NET Discord Emoji",
       "doesnTWorkInCodeBlock": "(Doesn't work in code block format)",
-      "copyToClipboard": "Copy to Clipboard",
       "errorINVALIDPILOT": "ERROR // INVALID PILOT",
       "powers": "Powers",
       "allSelectedPowers": "All Selected Powers",
@@ -2377,7 +2301,6 @@
       "additionalFeaturesBeyondTheRecommendedGuidelines": "Additional features beyond the recommended guidelines can be added by toggling the\n                  \"Ignore Limit\" option above",
       "noBondPowersAssigned": "No Bond Powers assigned",
       "noBondPowersAvailable": "No Bond Powers available",
-      "pilotBonds": "Pilot Bonds",
       "bondsAvailableAfterLicenseLevel1": "Bonds available after License Level 1",
       "overrideAllowLL0Bond": "[OVERRIDE]:// Allow LL0 Bond",
       "selectBond": "Select Bond",
@@ -2420,7 +2343,6 @@
       "setPilotPortrait": "Set Pilot Portrait",
       "addEquipment": "Add Equipment",
       "addExoticEquipment": "Add Exotic Equipment",
-      "rank": "RANK",
       "loadoutSlashes": "Loadout//",
       "loadoutSlashesLower": "loadout //",
       "unionAdministrativeIdentRecord": "Union Administrative RM-4 Pilot Identification Protocol (IDENT) Record",
@@ -2460,7 +2382,6 @@
       "veteranPOWER2": "(VETERAN POWER)",
       "downtimeREFERENCE": "DOWNTIME REFERENCE",
       "skillTRIGGERDETAIL": "SKILL TRIGGER DETAIL",
-      "closePreview": "Close Preview",
       "options": "Options",
       "techATTACK": "TECH ATTACK",
       "sensorRANGE": "SENSOR RANGE",
@@ -2521,7 +2442,6 @@
       "weapon2": "//WEAPON",
       "pilotWeapon": "Pilot Weapon",
       "gear": "//GEAR",
-      "pilotGear": "Pilot Gear",
       "reserves": "RESERVES",
       "bonus": "BONUS",
       "resource": "RESOURCE",
@@ -2570,7 +2490,6 @@
       "transferPilots": "Transfer Pilots",
       "createNewPilot": "Create New Pilot",
       "addANewPilotToThe": "Add a new pilot to the roster",
-      "fileImport": "File Import",
       "uadCAVCOMOfficeOfRecords": "UAD/CAVCOM Office of Records",
       "i7aSelfServiceUnitRegistration": "I-7a Self-Service Unit Registration",
       "identCR7aCAVALRYUNITREGISTRATION": "IDENT-CR-7a (CAVALRY UNIT REGISTRATION) is a self-directed registration form for the purpose\n        of registering a new unit designation for one or more IDENT-registered pilots. This form is\n        to be used by pilots who are not currently assigned to a unit or who are registering a new\n        unit designation for the first time. If you wish to register a new designation for an\n        existing unit, please submit form CR-7b (CAVALRY UNIT DOCUMENTATION UPDATE) instead.",
@@ -2581,7 +2500,6 @@
       "cr702aATTACHEDNDAPCOMP": "CR-7-02a // ATTACHED NDAP COMP/DISP ANALYSIS RESULTS",
       "addGroupDescription": "Add Group Description",
       "editGroupDescription": "Edit Group Description",
-      "saveAndClose": "Save and Close",
       "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // ATTACHED TACANALYSIS RECORDS (SUPPLEMENTAL)",
       "addGroupHistory": "Add Group History",
       "editGroupHistory": "Edit Group History",
@@ -2608,7 +2526,6 @@
       "thisPilotMayBeImportedBut": "This Pilot may be imported, but some items from missing content packs will be instanced\n            from saved data. If removed, these items will not be able to be re-equipped without the\n            missing content packs.",
       "and": "and",
       "doneReordering": "Done Reordering",
-      "pilotRoster": "Pilot Roster",
       "hidden": "hidden",
       "organize": "Organize",
       "addGroup": "Add Group",
@@ -2670,7 +2587,6 @@
       "registerNewPilot": "Register New Pilot // {callsign} ({name})",
       "updatePilotRecord": "Update Pilot Record // {callsign} ({name})",
       "registrationOverride": "Registration Override",
-      "pilotTalents": "Pilot Talents",
       "addCOREBonus": "Add CORE Bonus",
       "rm4cS2CoreModification": "RM-4c (S-2) Core Modification Supplemental",
       "mv2ACORESupplemental": "MV-2(a) CORE Supplemental",
@@ -2691,7 +2607,6 @@
       "mv2CFrameConfigurationUpdate": "MV-2//c Frame Configuration Update",
       "theRM4bPILOTSELFASSESSMENT": "The RM-4b PILOT SELF ASSESSMENT (Mech Skills) will be transmitted to print staff to finalize\n      the configuration of your issued GMS-SP1 EVEREST.",
       "bySubmittingThisFormYouAttest": "By submitting this form you attest that your responses are truthful and accurate to the best\n        of your knowledge. Knowingly providing false or incomplete information is punishable\n        under DoJ/HR AR 303-J.",
-      "pilotSkillTriggers": "Pilot Skill Triggers",
       "improveSkillTriggers": "Improve Skill Triggers",
       "rm4bPilotSelfAssessment1": "RM-4b Pilot Self Assessment (1/3)",
       "mv2ASkillImprovementAssessment": "MV-2//a Skill Improvement Assessment",
@@ -2735,8 +2650,6 @@
       "pilotAppearance": "Pilot Appearance",
       "notes": "Notes",
       "bond": "Bond",
-      "reserves": "Reserves",
-      "pilotLoadout": "Pilot Loadout",
       "theDailyRequestLimitHasBeen": "The daily request limit has been reached. Please try again tomorrow.",
       "tooManyRequestsPleaseTryAgain": "Too many requests. Please try again in",
       "tooManyRequestsPleaseTryAgain2": "Too many requests. Please try again shortly.",
@@ -2745,8 +2658,7 @@
       "couldNotBeFound": "could not be found.",
       "pilotRequiresReSync": "Pilot requires re-sync",
       "withShareCode": "with share code",
-      "mustBeReSyncedToThe": "must be re-synced to the author's account before it can be viewed.",
-      "mainMenu": "Main Menu"
+      "mustBeReSyncedToThe": "must be re-synced to the author's account before it can be viewed."
     },
     "common": {
       "commaLl": ", LL",
@@ -2787,9 +2699,7 @@
       "campaignLibrary": "CAMPAIGN LIBRARY"
     },
     "nav": {
-      "compendium": "Compendium",
-      "systemReference": "System Reference",
-      "campaignLibrary": "Campaign Library"
+      "systemReference": "System Reference"
     },
     "reference": {
       "actions": "Actions",
@@ -2817,7 +2727,6 @@
       "experimentalLangNote": "This is an experimental preview of the language selection feature. Non-English translation is currently machine-generated and may be inaccurate."
     },
     "search": {
-      "search": "Search",
       "switchToReference": "Switch to reference search",
       "switchToCompendium": "Switch to compendium search",
       "resultCount": "{count} result | {count} results"
@@ -2836,7 +2745,6 @@
       "updateCampaign": "Update Campaign",
       "removeFromCollection": "Remove from Collection",
       "removeConfirm": "This will remove the campaign from your collection. Are you sure?",
-      "remove": "Remove",
       "openCampaign": "Open Campaign",
       "recommendedPlayers": "Recommended Players",
       "recommendedLicenseLevel": "Recommended License Level",
@@ -2848,13 +2756,10 @@
       "sortByLicenseLevel": "Sort by License Level",
       "lancerCampaignDirectory": "LANCER Campaign Directory",
       "directoryComingSoon": "After v3 release this will be a searchable directory of Massif and community-created campaigns. If you're logged in and have linked an itch.io account, you'll be able to import campaigns directly from the directory. Otherwise you'll be directed to the itch.io page to purchase and download the campaign.",
-      "fileImport": "File Import",
       "stagedCampaignData": "Staged Campaign Data",
-      "warning": "Warning",
       "existingNewer": "The existing campaign is newer than the imported data.",
       "overwriteWarning": "This import data will overwrite an existing campaign with the same ID ({title}). The existing campaign was last updated on {date}.",
       "lastUpdated": "Last Updated:",
-      "importCampaign": "Import Campaign",
       "version": "Version",
       "published": "published",
       "recommendedForLine": "Recommended for {players} players at License Level {levels}",
@@ -2864,7 +2769,6 @@
       "byAuthor": "By {author}",
       "campaignForLine": "A {lancer} campaign for {players} pilots starting at License Level {levels}.",
       "tableOfContents": "Table of Contents",
-      "versionHistory": "Version History",
       "addCampaign": "Add Campaign"
     }
   },
@@ -3004,7 +2908,6 @@
       "previous": "previous"
     },
     "print": {
-      "closePreview": "Close Preview",
       "options": "Options"
     },
     "ref": {
@@ -3022,7 +2925,6 @@
       "toClose": "TO CLOSE",
       "versionLabel": "v{version}",
       "noDescription": "No description given.",
-      "saveAndClose": "Save and Close",
       "environment": "ENVIRONMENT",
       "detail": "DETAIL",
       "other": "Other",

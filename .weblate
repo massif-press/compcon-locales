@@ -1,5 +1,5 @@
 [weblate]
-# wlc command-line client config. Fill `url` once the Hosted Weblate (Libre plan)
-# instance is provisioned, then `wlc pull` / `wlc commit` from this repo.
-# url = https://hosted.weblate.org/api/
+# wlc command-line client config. `wlc pull` / `wlc commit` from this repo against the
+# Hosted Weblate (Libre plan) instance. An API token is read from $WLC_TOKEN or ~/.config/weblate.
+url = https://hosted.weblate.org/api/
 translation = compcon/ui
