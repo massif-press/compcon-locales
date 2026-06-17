@@ -117,7 +117,12 @@
         "alert": "Внимание",
         "pilotLoadout": "Снаряжение пилота",
         "effect": "Эффект",
-        "logLevel": "Степень логирования:"
+        "logLevel": "Степень логирования:",
+        "selectAll": "Выбрать все",
+        "warning": "Предупреждение",
+        "preview": "Предпросмотр",
+        "updateAll": "Обновить все",
+        "help": "Справка"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -126,8 +131,52 @@
         "newBurden": "Новое бремя",
         "newEncounter": "Новое столкновение",
         "newCollection": "Новая коллекция",
-        "unknownStatus": "Неизвестный статус",
+        "unknownStatus": "Неизвестный cтатус",
         "unknownLicense": "Неизвестная лицензия",
         "newSkillTrigger": "Новый триггер"
+    },
+    "language": {
+        "selectLanguage": "Язык"
+    },
+    "nav": {
+        "v2Import": {
+            "deleteTitle": "Удалить резервную копию"
+        },
+        "nav": {
+            "achievements": "Достижения",
+            "help": "Справка"
+        },
+        "help": {
+            "faq": "Часто задаваемые вопросы"
+        },
+        "achievements": {
+            "common": "Общие",
+            "rarity": "Редкость"
+        },
+        "settingsPage": {
+            "logLevel": "Уровень логов",
+            "errorReporting": "Отчет об ошибках",
+            "overwriteStrategy": "Перезаписать существующие данные?"
+        },
+        "storage": {
+            "neverLabel": "никогда",
+            "storageSettings": "Настройки хранилища",
+            "userData": "Данные пользователя",
+            "areYouSure": "Вы уверены, что хотите продолжить?"
+        },
+        "deletedItems": {
+            "permanentlyDeleteAll": "Удалить навсегда"
+        },
+        "userDataViewer": {
+            "value": "Значение"
+        },
+        "packInstall": {
+            "install": "Установить",
+            "success": "Успех"
+        },
+        "packsDirectory": {
+            "officialContent": "Официальный",
+            "clickHere": "нажмите здесь"
+        }
     }
 }
