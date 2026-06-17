@@ -43,7 +43,7 @@
         "copyLink": "Копировать ссылку",
         "attackBonus": "Бонус к броску атаки",
         "roll": "Бросок",
-        "mainMenu": "Основное меню",
+        "mainMenu": "Главное меню",
         "pilotRoster": "Ростер пилотов",
         "compendium": "Компендиум",
         "campaignLibrary": "Библиотека кампаний",
@@ -70,6 +70,13 @@
         "detail": "Детали",
         "action": "Действие",
         "actions": "Действия",
-        "trigger": "Триггер"
+        "trigger": "Триггер",
+        "none": "Отсуствует",
+        "sitrep": "Боевой отчёт",
+        "deployment": "Развёртывание",
+        "objective": "Боевая задача",
+        "reinforcement": "Подкрепления",
+        "weapon": "Оружие",
+        "frame": "Шасси"
     }
 }
