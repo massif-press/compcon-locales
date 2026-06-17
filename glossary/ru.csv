@@ -1,5 +1,5 @@
 'location' 'source' 'target'
-'Talent,,A' 'Pilot' ''
+'Talent,,A' 'Pilot' 'Пилот'
 'Overcharge,,Spend' 'Heat' 'Нагрев'
 '' 'Active' 'Активный'
 '' 'Agility' 'Ловкость'
@@ -19,3 +19,6 @@
 '' 'Reserve' 'Резерв'
 '' 'Save' 'Спас-порог'
 '' 'Save1' 'Сохранить'
+'' 'Armor' 'Броня'
+'' 'Custom' 'Пользовательский'
+'' 'Sensors' 'Сенсоры'
