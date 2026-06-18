@@ -411,7 +411,8 @@
             "statblock": "Статблок"
         },
         "fields": {
-            "authors": "Автор(ы)"
+            "authors": "Автор(ы)",
+            "folder": "Папка"
         },
         "pageContent": {
             "quote": "Цитата",
