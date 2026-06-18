@@ -261,6 +261,22 @@
         "pageContent": {
             "quote": "Цитировать",
             "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие необратимо."
+        },
+        "encounterContent": {
+            "image": "Изображение"
+        },
+        "combatant": {
+            "sourceUnavailable": "Источник недоступен"
+        },
+        "sitrep": {
+            "condition": "Условие",
+            "savePreset": "Сохранить шаблон"
+        },
+        "encounterIndex": {
+            "addFolder": "Добавить папку"
+        },
+        "npcBuilder": {
+            "templates": "Шаблоны"
         }
     },
     "active": {
@@ -273,7 +289,10 @@
             "override": "Заменить"
         },
         "runnerHeader": {
-            "autosave": "Автосохранение"
+            "autosave": "Автосохранение",
+            "lastSaved": "Последнее сохранение:",
+            "never": "Никогда",
+            "manualSave": "Ручное сохранение"
         },
         "leaveDialog": {
             "exitWithoutSaving": "Вы&йти без сохранения"
@@ -283,7 +302,8 @@
             "quickAction": "Быстрое действие"
         },
         "joinTable": {
-            "players": "Игроки"
+            "players": "Игроки",
+            "connect": "Соединить"
         },
         "diceRoller": {
             "sessionHistory": "История сессии:"
@@ -313,6 +333,12 @@
         },
         "eidolon": {
             "activeLayer": "Активный слой"
+        },
+        "labels": {
+            "lastUpdate": "Последнее обновление"
+        },
+        "organizer": {
+            "selected": "выбрано"
         }
     },
     "mainMenu": {
