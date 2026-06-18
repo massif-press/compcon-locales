@@ -305,7 +305,15 @@
             "createAccount": "Создать аккаунт",
             "passwordRecovery": "Восстановление пароля",
             "verifyEmailTitle": "Подтверждение адреса электронной почты",
-            "sendVerificationCode": "Проверочный код"
+            "sendVerificationCode": "Проверочный код",
+            "resetPassword": "Сбросить пароль"
+        },
+        "dataUsage": {
+            "title": "Использование данных"
+        },
+        "syncSettings": {
+            "custom": "Пользовательский",
+            "updateSyncSettings": "Настройки обновления"
         }
     }
 }
