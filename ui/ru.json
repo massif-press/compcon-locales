@@ -241,7 +241,8 @@
             "byRarity": "По редкости:",
             "byLabel": "По меткам:",
             "secretAchievements": "Секретные достижения",
-            "mythic": "Мифические"
+            "mythic": "Мифические",
+            "hidden": "Скрыто"
         },
         "settingsPage": {
             "logLevel": "Уровень логов",
@@ -336,7 +337,8 @@
         },
         "settings": {
             "clearData": "@:{'common.clearAllData'}",
-            "importData": "Импорт данных"
+            "importData": "Импорт данных",
+            "reset": "Сброс к настройкам по умолчанию"
         },
         "about": {
             "description": "@:{'common.appName'} является бесплатным цифровым инструментом с открытым исходным кодом, который используется для помощи в проведении игр @:{'common.gameName'}.",
@@ -441,7 +443,7 @@
         "eidolon": {
             "noLayers": "слои отсутствуют",
             "layers": "Слои",
-            "addLayer": "Добавка слоя"
+            "addLayer": "добавить слой"
         },
         "itemCard": {
             "tierShort": "О{tier}"
@@ -458,10 +460,10 @@
         },
         "titles": {
             "confirmTierChange": "Подтвердить изменение опасности",
-            "selectImage": "Выберите изображение",
-            "deletePreset": "Удалить набор",
-            "importData": "Импорт данных",
-            "selectTemplate": "Выбрать шаблон"
+            "selectImage": "выберите изображение",
+            "deletePreset": "удалить шаблон",
+            "importData": "импорт данных",
+            "selectTemplate": "выбрать шаблон"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
