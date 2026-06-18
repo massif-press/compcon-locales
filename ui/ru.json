@@ -156,7 +156,9 @@
         "settingsPage": {
             "logLevel": "Уровень логов",
             "errorReporting": "Отчет об ошибках",
-            "overwriteStrategy": "Перезаписать существующие данные?"
+            "overwriteStrategy": "Перезаписать существующие данные?",
+            "font": "Шрифт",
+            "disabled": "отключено"
         },
         "storage": {
             "neverLabel": "никогда",
@@ -165,7 +167,9 @@
             "areYouSure": "Вы уверены, что хотите продолжить?"
         },
         "deletedItems": {
-            "permanentlyDeleteAll": "Удалить навсегда"
+            "permanentlyDeleteAll": "Удалить навсегда",
+            "itemName": "Название предмета",
+            "restoreAll": "Восстановить все"
         },
         "userDataViewer": {
             "value": "Значение"
@@ -186,6 +190,15 @@
         },
         "optionsPage": {
             "tabStorage": "Хранилище"
+        },
+        "packInfo": {
+            "changelog": "Список изменений"
+        },
+        "communityTable": {
+            "currentVersion": "Текущая версия:"
+        },
+        "search": {
+            "searchResults": "результаты поиска"
         }
     },
     "gm": {
@@ -196,7 +209,10 @@
             "jsonFile": "JSON-файл",
             "moveUp": "Сдвинуть вверх",
             "moveDown": "Сдвинуть вниз",
-            "moveToBottom": "на задний план"
+            "moveToBottom": "на задний план",
+            "addSectionBtn": "Добавить раздел",
+            "latestVersion": "Последняя версия",
+            "latestChanges": "Последние изменения"
         },
         "labels": {
             "labels": "Метки",
@@ -241,6 +257,9 @@
         },
         "fields": {
             "authors": "Автор(ы)"
+        },
+        "pageContent": {
+            "quote": "Цитировать"
         }
     },
     "active": {
