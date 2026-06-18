@@ -251,6 +251,12 @@
             "exportAsJson": "Экспорт в формате JSON",
             "apply": "Применить",
             "override": "Заменить"
+        },
+        "runnerHeader": {
+            "autosave": "Автосохранение"
+        },
+        "leaveDialog": {
+            "exitWithoutSaving": "Вы&йти без сохранения"
         }
     }
 }
