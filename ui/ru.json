@@ -41,7 +41,7 @@
         "mount": "Платформа",
         "rank": "Ранг",
         "copyLink": "Копировать ссылку",
-        "attackBonus": "Бонус к броску атаки",
+        "attackBonus": "Бонус к атаке",
         "roll": "Бросок",
         "mainMenu": "Главное меню",
         "pilotRoster": "Ростер пилотов",
@@ -144,19 +144,25 @@
         },
         "nav": {
             "achievements": "Достижения",
-            "help": "Справка"
+            "help": "Справка",
+            "quickReference": "Быстрая справка"
         },
         "help": {
             "faq": "Часто задаваемые вопросы"
         },
         "achievements": {
             "common": "Общие",
-            "rarity": "Редкость"
+            "rarity": "Редкость",
+            "unlocked": "разблокировано",
+            "discovered": "Открыто",
+            "epic": "Эпичные",
+            "legendary": "Легендарные",
+            "locked": "Скрыто"
         },
         "settingsPage": {
             "logLevel": "Уровень логов",
             "errorReporting": "Отчет об ошибках",
-            "overwriteStrategy": "Перезаписать существующие данные?",
+            "overwriteStrategy": "Перезаписать существующие данные",
             "font": "Шрифт",
             "disabled": "отключено"
         },
@@ -164,7 +170,8 @@
             "neverLabel": "никогда",
             "storageSettings": "Настройки хранилища",
             "userData": "Данные пользователя",
-            "areYouSure": "Вы уверены, что хотите продолжить?"
+            "areYouSure": "Вы уверены, что хотите продолжить?",
+            "daysCount": "{count} дней."
         },
         "deletedItems": {
             "permanentlyDeleteAll": "Удалить навсегда",
@@ -180,10 +187,12 @@
         },
         "packsDirectory": {
             "officialContent": "Официальный",
-            "clickHere": "нажмите здесь"
+            "clickHere": "нажмите здесь.",
+            "content": "Материалы"
         },
         "packConfig": {
-            "createConfig": "Создать новую конфигурацию"
+            "createConfig": "Создать новую конфигурацию",
+            "noConfigs": "Конфигурации не найдены."
         },
         "migrationRepair": {
             "colCategory": "Категория"
@@ -195,15 +204,27 @@
             "changelog": "Список изменений"
         },
         "communityTable": {
-            "currentVersion": "Текущая версия:"
+            "currentVersion": "Текущая версия:",
+            "free": "Бесплатное"
         },
         "search": {
             "searchResults": "результаты поиска"
+        },
+        "credits": {
+            "with": "А также:"
+        },
+        "achievementItem": {
+            "createdBy": "Создано:"
+        },
+        "packsList": {
+            "activated": "активировано",
+            "deactivated": "деактивировано"
         }
     },
     "gm": {
         "import": {
-            "collection": "Коллекция"
+            "collection": "Коллекция",
+            "importErrorTitle": "Не удалось импортировать"
         },
         "campaign": {
             "jsonFile": "JSON-файл",
@@ -212,7 +233,9 @@
             "moveToBottom": "на задний план",
             "addSectionBtn": "Добавить раздел",
             "latestVersion": "Последняя версия",
-            "latestChanges": "Последние изменения"
+            "latestChanges": "Последние изменения",
+            "unpublished": "Неопубликованное",
+            "permanentlyDeleted": "Удалённое навсегда"
         },
         "labels": {
             "labels": "Метки",
@@ -244,7 +267,8 @@
         "resolution": "Разрешение",
         "overview": {
             "addContact": "Добавить контакт",
-            "setCoverImage": "Задать изображение для обложки"
+            "setCoverImage": "Задать изображение для обложки",
+            "players": "игроки"
         },
         "npcFeatures": {
             "saveConfig": "Сохранить настройки"
@@ -259,8 +283,8 @@
             "authors": "Автор(ы)"
         },
         "pageContent": {
-            "quote": "Цитировать",
-            "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие необратимо."
+            "quote": "Цитата",
+            "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить."
         },
         "encounterContent": {
             "image": "Изображение"
@@ -270,23 +294,34 @@
         },
         "sitrep": {
             "condition": "Условие",
-            "savePreset": "Сохранить шаблон"
+            "savePreset": "Сохранить шаблон",
+            "presets": "Шаблоны"
         },
         "encounterIndex": {
             "addFolder": "Добавить папку"
         },
         "npcBuilder": {
             "templates": "Шаблоны"
+        },
+        "reinforcements": "Подкрепления",
+        "encPrint": {
+            "neutral": "Нейтральный"
+        },
+        "eidolon": {
+            "noLayers": "слои отсутствуют"
         }
     },
     "active": {
         "encounter": {
-            "failedToCopyTitle": "Не удалось скопировать."
+            "failedToCopyTitle": "Не удалось скопировать"
         },
         "common": {
             "exportAsJson": "Экспорт в формате JSON",
             "apply": "Применить",
-            "override": "Заменить"
+            "override": "заменить",
+            "dangerZone": "Зона риска",
+            "target": "Цель",
+            "condition": "Состояние"
         },
         "runnerHeader": {
             "autosave": "Автосохранение",
@@ -295,7 +330,7 @@
             "manualSave": "Ручное сохранение"
         },
         "leaveDialog": {
-            "exitWithoutSaving": "Вы&йти без сохранения"
+            "exitWithoutSaving": "Выйти без сохранения"
         },
         "actionChips": {
             "protocol": "Протокол",
@@ -303,10 +338,11 @@
         },
         "joinTable": {
             "players": "Игроки",
-            "connect": "Соединить"
+            "connect": "Присоединиться",
+            "online": "Онлайн"
         },
         "diceRoller": {
-            "sessionHistory": "История сессии:"
+            "sessionHistory": "История сессий"
         },
         "damageMenu": {
             "totalDamage": "Общий урон",
@@ -316,10 +352,10 @@
             "telemetry": "Сбор данных"
         },
         "statblockExport": {
-            "include": "Включить"
+            "include": "// Включить"
         },
         "scan": {
-            "scan": "Сканирование"
+            "scan": "Скан"
         },
         "actions": {
             "allActions": "Все действия"
@@ -327,17 +363,21 @@
         "skillCheck": {
             "modifiers": "Модификаторы",
             "difficult": "Сложный",
-            "selectTarget": "Выберите цель",
-            "result": "Результат"
+            "selectTarget": "Выбор цели",
+            "result": "Результат:",
+            "standard": "Стандартная",
+            "targetValue": "Целевое значение"
         },
         "mechCore": {
-            "passive": "Пассивный"
+            "passive": "Пассивный эффект"
         },
         "eidolon": {
-            "activeLayer": "Активный слой"
+            "activeLayer": "Активный слой",
+            "active": "(Активный)"
         },
         "labels": {
-            "lastUpdate": "Последнее обновление"
+            "lastUpdate": "Последнее обновление",
+            "round": "Раунд"
         },
         "organizer": {
             "selected": "выбрано"
@@ -347,6 +387,15 @@
         },
         "dmgCond": {
             "resistance": "Сопротивление"
+        },
+        "gmOptions": {
+            "current": "Текущий"
+        },
+        "panelBase": {
+            "counters": "Счётчики"
+        },
+        "equipCmd": {
+            "reload": "Перезарядить"
         }
     },
     "mainMenu": {
@@ -359,16 +408,17 @@
             "createAccount": "Создать аккаунт",
             "passwordRecovery": "Восстановление пароля",
             "verifyEmailTitle": "Подтверждение адреса электронной почты",
-            "sendVerificationCode": "Проверочный код",
+            "sendVerificationCode": "Отправить проверочный код",
             "resetPassword": "Сбросить пароль",
-            "copyLog": "Копировать журнал"
+            "copyLog": "Копировать логи",
+            "retry": "Поппрбовать снова"
         },
         "dataUsage": {
             "title": "Использование данных"
         },
         "syncSettings": {
             "custom": "Пользовательский",
-            "updateSyncSettings": "Настройки обновления"
+            "updateSyncSettings": "Обновить настройки синхронизации"
         },
         "collection": {
             "colLastUpdate": "Последнее обновление",
@@ -381,7 +431,8 @@
         "management": {
             "notifications": "Уведомления",
             "changePassword": "Изменить пароль",
-            "signOut": "Выйти"
+            "signOut": "Выйти",
+            "working": "в процессе…"
         },
         "storage": {
             "addToHomeScreen": "На домашний экран"
@@ -391,32 +442,32 @@
         },
         "archive": {
             "deleteArchive": "Удалить архив",
-            "deleteConfirm": "Вы уверены что хотите это удалить? Это действие необратимо.",
-            "storageLimit": "Предел хранения"
+            "deleteConfirm": "Вы уверены что хотите удалить этот архив? Это действие нельзя отменить.",
+            "storageLimit": "Предел хранилища"
         },
         "publishing": {
-            "addNew": "Добавить Новый",
+            "addNew": "Добавить новое",
             "currentVersion": "Текущая версия",
             "versionN": "версия {version}",
-            "saveDraft": "Сохранить черновик:",
+            "saveDraft": "Сохранить черновик",
             "deleteCollection": "Удалить коллекцию",
             "actionUndone": "Это действие нельзя отменить.",
-            "deleteCollectionBtn": "Удалить коллекцию"
+            "deleteCollectionBtn": "удалить коллекцию"
         },
         "dataItem": {
-            "retryConnection": "Повторная попытка подключения…"
+            "retryConnection": "Повторная попытка подключения"
         }
     },
     "pm": {
         "new": {
             "down": "вниз",
             "identification": "Идентификация",
-            "background": "Фон",
+            "background": "Предыстория",
             "biography": "Биография",
             "appearance": "Внешний вид"
         },
         "sheet": {
-            "background": "Фон"
+            "background": "предыстория"
         }
     }
 }
