@@ -72,7 +72,7 @@
         "actions": "Действия",
         "trigger": "Триггер",
         "none": "Отсуствует",
-        "sitrep": "Боевой отчёт",
+        "sitrep": "Тактическая сводка",
         "deployment": "Развёртывание",
         "objective": "Боевая задача",
         "reinforcement": "Подкрепления",
@@ -233,7 +233,7 @@
             "moveToBottom": "на задний план",
             "addSectionBtn": "Добавить раздел",
             "latestVersion": "Последняя версия",
-            "latestChanges": "Последние изменения",
+            "latestChanges": "Последние изменения:",
             "unpublished": "Неопубликованное",
             "permanentlyDeleted": "Удалённое навсегда"
         },
@@ -411,7 +411,7 @@
             "sendVerificationCode": "Отправить проверочный код",
             "resetPassword": "Сбросить пароль",
             "copyLog": "Копировать логи",
-            "retry": "Поппрбовать снова"
+            "retry": "Попрбовать снова"
         },
         "dataUsage": {
             "title": "Использование данных"
