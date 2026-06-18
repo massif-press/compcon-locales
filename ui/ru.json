@@ -257,6 +257,16 @@
         },
         "leaveDialog": {
             "exitWithoutSaving": "Вы&йти без сохранения"
+        },
+        "actionChips": {
+            "protocol": "Протокол",
+            "quickAction": "Быстрое действие"
+        },
+        "joinTable": {
+            "players": "Игроки"
+        },
+        "diceRoller": {
+            "sessionHistory": "История сессии:"
         }
     }
 }
