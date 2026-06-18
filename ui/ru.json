@@ -343,7 +343,10 @@
             "addNew": "Добавить Новый",
             "currentVersion": "Текущая версия",
             "versionN": "версия {version}",
-            "saveDraft": "Сохранить черновик:"
+            "saveDraft": "Сохранить черновик:",
+            "deleteCollection": "Удалить коллекцию",
+            "actionUndone": "Это действие нельзя отменить.",
+            "deleteCollectionBtn": "Удалить коллекцию"
         }
     }
 }
