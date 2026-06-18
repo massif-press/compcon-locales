@@ -314,6 +314,29 @@
         "syncSettings": {
             "custom": "Пользовательский",
             "updateSyncSettings": "Настройки обновления"
+        },
+        "collection": {
+            "colLastUpdate": "Последнее обновление",
+            "changelog": "Список изменений",
+            "colChanges": "Изменения"
+        },
+        "cloudData": {
+            "imagesTab": "Изображения"
+        },
+        "management": {
+            "notifications": "Уведомления",
+            "changePassword": "Изменить пароль",
+            "signOut": "Выйти"
+        },
+        "storage": {
+            "addToHomeScreen": "На домашний экран"
+        },
+        "migration": {
+            "migrateNow": "Перенести сейчас"
+        },
+        "archive": {
+            "deleteArchive": "Удалить архив",
+            "deleteConfirm": "Вы уверены что хотите это удалить? Это действие необратимо."
         }
     }
 }
