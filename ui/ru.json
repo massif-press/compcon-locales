@@ -340,7 +340,10 @@
             "storageLimit": "Предел хранения"
         },
         "publishing": {
-            "addNew": "Добавить Новый"
+            "addNew": "Добавить Новый",
+            "currentVersion": "Текущая версия",
+            "versionN": "версия {version}",
+            "saveDraft": "Сохранить черновик:"
         }
     }
 }
