@@ -459,7 +459,8 @@
         "titles": {
             "confirmTierChange": "Подтвердить изменение опасности",
             "selectImage": "Выберите изображение",
-            "deletePreset": "Удалить набор"
+            "deletePreset": "Удалить набор",
+            "importData": "Импорт данных"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
