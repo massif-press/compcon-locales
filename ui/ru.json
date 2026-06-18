@@ -327,7 +327,8 @@
         "skillCheck": {
             "modifiers": "Модификаторы",
             "difficult": "Сложный",
-            "selectTarget": "Выберите цель"
+            "selectTarget": "Выберите цель",
+            "result": "Результат"
         },
         "mechCore": {
             "passive": "Пассивный"
