@@ -177,6 +177,75 @@
         "packsDirectory": {
             "officialContent": "Официальный",
             "clickHere": "нажмите здесь"
+        },
+        "packConfig": {
+            "createConfig": "Создать новую конфигурацию"
+        },
+        "migrationRepair": {
+            "colCategory": "Категория"
+        },
+        "optionsPage": {
+            "tabStorage": "Хранилище"
+        }
+    },
+    "gm": {
+        "import": {
+            "collection": "Коллекция"
+        },
+        "campaign": {
+            "jsonFile": "JSON-файл",
+            "moveUp": "Сдвинуть вверх",
+            "moveDown": "Сдвинуть вниз",
+            "moveToBottom": "на задний план"
+        },
+        "labels": {
+            "labels": "Метки",
+            "label": "Метка",
+            "addLabel": "Добавить метку",
+            "sortAlphabetically": "Сортировать по алфавиту"
+        },
+        "stats": {
+            "custom": "Пользовательский"
+        },
+        "relationships": {
+            "heading": "Отношения",
+            "addRelationship": "Добавить отношение",
+            "label": "Отношения"
+        },
+        "folder": {
+            "setFolder": "Задать папку"
+        },
+        "filter": {
+            "filters": "Фильтры",
+            "labels": "Метки",
+            "showAll": "Показать все",
+            "hideAll": "Скрыть все",
+            "clearAllFilters": "Очистите все фильтры"
+        },
+        "noItem": {
+            "noItemSelected": "Ничего не выбрано"
+        },
+        "resolution": "Разрешение",
+        "overview": {
+            "addContact": "Добавить контакт",
+            "setCoverImage": "Задать изображение для обложки"
+        },
+        "npcFeatures": {
+            "saveConfig": "Сохранить настройки"
+        },
+        "eidolonPrint": {
+            "layer": "Слой"
+        },
+        "npcEditor": {
+            "statblock": "Статблок"
+        },
+        "fields": {
+            "authors": "Автор(ы)"
+        }
+    },
+    "active": {
+        "encounter": {
+            "failedToCopyTitle": "Не удалось скопировать."
         }
     }
 }
