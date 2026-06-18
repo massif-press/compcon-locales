@@ -277,6 +277,9 @@
         },
         "statblockExport": {
             "include": "Включить"
+        },
+        "scan": {
+            "scan": "Сканирование"
         }
     }
 }
