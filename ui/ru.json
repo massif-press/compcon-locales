@@ -267,6 +267,16 @@
         },
         "diceRoller": {
             "sessionHistory": "История сессии:"
+        },
+        "damageMenu": {
+            "totalDamage": "Общий урон",
+            "applyClose": "Применить и закрыть"
+        },
+        "telemetry": {
+            "telemetry": "Сбор данных"
+        },
+        "statblockExport": {
+            "include": "Включить"
         }
     }
 }
