@@ -154,7 +154,8 @@
         "clearAllData": "Очистить все данные",
         "encounters": "Столкновения",
         "activeMode": "Активный режим",
-        "compconPrompt": ">>COMP/CON//"
+        "compconPrompt": ">>COMP/CON//",
+        "deletePermanently": "Удалить безвозвратно"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -249,7 +250,9 @@
             "font": "Шрифт",
             "disabled": "отключено",
             "showExoticsTooltip": "Выбор этой опции может раскрыть для вас спойлеры игровой кампании, данную опцию лучше оставлять ВЫКЛЮЧЕННОЙ, если вы не являетесь ведущим",
-            "logLevelLabel": "@:{'common.logLevel'}"
+            "logLevelLabel": "@:{'common.logLevel'}",
+            "theme": "Тема",
+            "errorReportingPrefix": "Отчёты об ошибках"
         },
         "storage": {
             "neverLabel": "никогда",
@@ -319,7 +322,7 @@
             "addContent": "@:{'common.addContent'}",
             "removeContent": "@:{'common.remove'}",
             "updateAll": "@:{'common.updateAll'}",
-            "deleteAll": "Удалить все",
+            "deleteAll": "Удалить всё",
             "noPacksInstalled": "Отсутствуют установленные контент-паки.",
             "lcpDirectory": "@:{'common.lcpDirectory'}",
             "installLcp": "Установить файл .LCP",
@@ -332,13 +335,18 @@
             "title": "@:{'common.pilotRoster'}"
         },
         "settings": {
-            "clearData": "@:{'common.clearAllData'}"
+            "clearData": "@:{'common.clearAllData'}",
+            "importData": "Импорт данных"
         },
         "about": {
             "description": "@:{'common.appName'} является бесплатным цифровым инструментом с открытым исходным кодом, который используется для помощи в проведении игр @:{'common.gameName'}.",
             "coreBookInfo": "Основная книга правил @:{'common.gameName'}, @:{'common.appName'}, а также сопуствующие материалы можно найти по ссылке",
             "title": "@:{'common.appName'}",
             "ccVersion": "Версия C/C:"
+        },
+        "titles": {
+            "selectAll": "Выбрать все",
+            "warning": "Предупреждение"
         }
     },
     "gm": {
@@ -411,7 +419,9 @@
             "image": "Изображение"
         },
         "combatant": {
-            "sourceUnavailable": "Источник недоступен"
+            "sourceUnavailable": "Источник недоступен",
+            "noChanges": "Без изменений",
+            "clickToEdit": "Нажмите для редактирования"
         },
         "sitrep": {
             "condition": "Условие",
@@ -429,7 +439,9 @@
             "neutral": "Нейтральный"
         },
         "eidolon": {
-            "noLayers": "слои отсутствуют"
+            "noLayers": "слои отсутствуют",
+            "layers": "Слои",
+            "addLayer": "Добавка слоя"
         },
         "itemCard": {
             "tierShort": "О{tier}"
@@ -451,6 +463,9 @@
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
             "changeTierAndKeepEdited": "Изменить опасность и сохранить отредактированные значения характеристик, даже если они меньше базовых значений для новой опасности.",
             "changeTierAndDiscardAll": "Изменить опасность и сбросить все отредактированные значения характеристик."
+        },
+        "encounterEditor": {
+            "additionalNotes": "Дополнительные примечания"
         }
     },
     "active": {
