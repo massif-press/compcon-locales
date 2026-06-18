@@ -290,6 +290,22 @@
         },
         "mechCore": {
             "passive": "Пассивный"
+        },
+        "eidolon": {
+            "activeLayer": "Активный слой"
+        }
+    },
+    "mainMenu": {
+        "auth": {
+            "passwordChangedText": "Пароль успешно изменён.",
+            "abort": "Отмена",
+            "email": "Электронная почта",
+            "password": "Пароль",
+            "signIn": "Войти",
+            "createAccount": "Создать аккаунт",
+            "passwordRecovery": "Восстановление пароля",
+            "verifyEmailTitle": "Подтверждение адреса электронной почты",
+            "sendVerificationCode": "Проверочный код"
         }
     }
 }
