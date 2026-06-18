@@ -351,5 +351,17 @@
         "dataItem": {
             "retryConnection": "Повторная попытка подключения…"
         }
+    },
+    "pm": {
+        "new": {
+            "down": "вниз",
+            "identification": "Идентификация",
+            "background": "Фон",
+            "biography": "Биография",
+            "appearance": "Внешний вид"
+        },
+        "sheet": {
+            "background": "Фон"
+        }
     }
 }
