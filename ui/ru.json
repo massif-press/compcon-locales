@@ -88,7 +88,7 @@
         "electronicDefense": "Тех. защита",
         "ignoreLimit": "Игнорировать лимит",
         "npcs": "НИПы",
-        "overcharge": "Разгон",
+        "overcharge": "Форсаж",
         "overshield": "Сверхщиты",
         "cloudAccount": "Облачный аккаунт",
         "confirmImport": "Подтвердить импорт",
@@ -102,7 +102,7 @@
         "pilotBonds": "Узы пилота",
         "pilotGroup": "Группа пилотов",
         "pilotSheet": "Лист пилота игрока",
-        "pilotSkillTriggers": "Триггеры пилота",
+        "pilotSkillTriggers": "Навыки пилота",
         "pilotTalents": "Таланты пилота",
         "removeName": "Убрать {name}",
         "reserves": "Резервы",
@@ -166,7 +166,7 @@
         "newCollection": "Новая коллекция",
         "unknownStatus": "Неизвестный cтатус",
         "unknownLicense": "Неизвестная лицензия",
-        "newSkillTrigger": "Новый триггер",
+        "newSkillTrigger": "Новый навык пилота",
         "newContent": "Новый контент",
         "newCampaign": "Новая кампания",
         "newSection": "Новый раздел",
@@ -231,7 +231,7 @@
             "discordLinkText": "неофициальный дискорд-сервер @:{'common.gameName'}"
         },
         "achievements": {
-            "common": "Общие",
+            "common": "Обычные",
             "rarity": "Редкость",
             "unlocked": "разблокировано",
             "discovered": "Открыто",
@@ -246,7 +246,7 @@
         "settingsPage": {
             "logLevel": "Уровень логов",
             "errorReporting": "Отчет об ошибках",
-            "overwriteStrategy": "Перезаписать существующие данные",
+            "overwriteStrategy": "Перезаписать все существующие данные",
             "font": "Шрифт",
             "disabled": "отключено",
             "showExoticsTooltip": "Выбор этой опции может раскрыть для вас спойлеры игровой кампании, данную опцию лучше оставлять ВЫКЛЮЧЕННОЙ, если вы не являетесь ведущим",
@@ -310,7 +310,7 @@
             "anonymousPatron": "анонимных подписчиков"
         },
         "achievementItem": {
-            "createdBy": "Создано:"
+            "createdBy": "Создатель:"
         },
         "packsList": {
             "activated": "активировано",
@@ -424,7 +424,7 @@
             "clickToEdit": "Нажмите для редактирования"
         },
         "sitrep": {
-            "condition": "Условие",
+            "condition": "Условия",
             "savePreset": "Сохранить шаблон",
             "presets": "Шаблоны"
         },
