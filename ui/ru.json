@@ -326,7 +326,8 @@
         },
         "skillCheck": {
             "modifiers": "Модификаторы",
-            "difficult": "Сложный"
+            "difficult": "Сложный",
+            "selectTarget": "Выберите цель"
         },
         "mechCore": {
             "passive": "Пассивный"
@@ -339,6 +340,12 @@
         },
         "organizer": {
             "selected": "выбрано"
+        },
+        "trackable": {
+            "unavailable": "Недоступно"
+        },
+        "dmgCond": {
+            "resistance": "Сопротивление"
         }
     },
     "mainMenu": {
