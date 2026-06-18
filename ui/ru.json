@@ -149,10 +149,13 @@
         "nav": {
             "achievements": "Достижения",
             "help": "Справка",
-            "quickReference": "Быстрая справка"
+            "quickReference": "Быстрая справка",
+            "navigateBack": "Перейти назад",
+            "navigateForward": "Перейти вперед"
         },
         "help": {
-            "faq": "Часто задаваемые вопросы"
+            "faq": "Часто задаваемые вопросы",
+            "reportBug": "Сообщить об ошибке (Report a Bug)"
         },
         "achievements": {
             "common": "Общие",
@@ -223,6 +226,9 @@
         "packsList": {
             "activated": "активировано",
             "deactivated": "деактивировано"
+        },
+        "contentManager": {
+            "refreshContent": "Обновить"
         }
     },
     "gm": {
