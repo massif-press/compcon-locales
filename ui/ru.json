@@ -280,6 +280,16 @@
         },
         "scan": {
             "scan": "Сканирование"
+        },
+        "actions": {
+            "allActions": "Все действия"
+        },
+        "skillCheck": {
+            "modifiers": "Модификаторы",
+            "difficult": "Сложный"
+        },
+        "mechCore": {
+            "passive": "Пассивный"
         }
     }
 }
