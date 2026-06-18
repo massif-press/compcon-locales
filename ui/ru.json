@@ -360,7 +360,8 @@
             "passwordRecovery": "Восстановление пароля",
             "verifyEmailTitle": "Подтверждение адреса электронной почты",
             "sendVerificationCode": "Проверочный код",
-            "resetPassword": "Сбросить пароль"
+            "resetPassword": "Сбросить пароль",
+            "copyLog": "Копировать журнал"
         },
         "dataUsage": {
             "title": "Использование данных"
