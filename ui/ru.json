@@ -246,6 +246,11 @@
     "active": {
         "encounter": {
             "failedToCopyTitle": "Не удалось скопировать."
+        },
+        "common": {
+            "exportAsJson": "Экспорт в формате JSON",
+            "apply": "Применить",
+            "override": "Заменить"
         }
     }
 }
