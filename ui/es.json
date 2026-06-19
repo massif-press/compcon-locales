@@ -6,6 +6,8 @@
         "gameName": "LANCER",
         "save": "Guardar",
         "close": "Cerrar",
-        "delete": "Eliminar"
+        "delete": "Eliminar",
+        "confirm": "Confirmar",
+        "search": "Búsqueda"
     }
 }
