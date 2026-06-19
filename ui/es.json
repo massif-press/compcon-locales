@@ -62,6 +62,8 @@
         "roll": "Tirada",
         "unlock": "Desbloquear",
         "clear": "Limpiar",
-        "skipToMainContent": "Saltar al contenido principal"
+        "skipToMainContent": "Saltar al contenido principal",
+        "changeImage": "Cambiar imagen",
+        "attackBonus": "Bono de ataque"
     }
 }
