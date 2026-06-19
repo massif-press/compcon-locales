@@ -8,6 +8,27 @@
         "close": "Cerrar",
         "delete": "Eliminar",
         "confirm": "Confirmar",
-        "search": "Búsqueda"
+        "search": "Buscar",
+        "continue": "Continuar",
+        "back": "Regresar",
+        "tier": "Grado",
+        "shareCode": "Compartir con Código",
+        "alert": "Alerta",
+        "mount": "Montura",
+        "rank": "Rango",
+        "mainMenu": "Menú Principal",
+        "pilotRoster": "Lista de Pilotos",
+        "compendium": "Compendio",
+        "manageContent": "Gestionar Contenido",
+        "campaignLibrary": "Biblioteca de Campaña",
+        "versionHistory": "Historial de Versiones",
+        "pilotLoadout": "Equipo del Piloto",
+        "copyToClipboard": "Copiar al Portapapeles",
+        "copyShareCode": "Copiar Código para Compartir",
+        "closePreview": "Cerrar Vista Previa",
+        "fileImport": "Importar Archivo",
+        "saveAndExit": "Guardar y Salir",
+        "saveAndClose": "Guardar y Cerrar",
+        "importCampaign": "Importar Campaña"
     }
 }
