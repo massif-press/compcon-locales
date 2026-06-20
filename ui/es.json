@@ -787,7 +787,8 @@
         "pilotsPanel": {
             "title": "Pilotos",
             "ll": "LL",
-            "activeMech": "Active Mech"
+            "activeMech": "Active Mech",
+            "addFromFile": "Añadir desde el archivo"
         }
     }
 }
