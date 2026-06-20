@@ -745,7 +745,8 @@
             "activeMechTooltip": "El mech activo será instantánea para su uso en este encuentro. Una vez iniciado el encuentro, el mech activo no se puede cambiar sin restablecer las estadísticas del mech",
             "pilotNoMech": "Piloto será presentado sin un mech",
             "mechStats": "Mech Stats",
-            "frameTraits": "Frame Traits"
+            "frameTraits": "Frame Traits",
+            "coreSystem": "Sistema básico"
         }
     }
 }
