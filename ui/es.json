@@ -653,7 +653,8 @@
         "eidolonPrint": {
             "classLabel": "Clase {class}",
             "persistentTraits": "Traits persistentes",
-            "layer": "LAYER"
+            "layer": "LAYER",
+            "newShards": "Nuevos Shards: {n}"
         }
     }
 }
