@@ -688,7 +688,8 @@
             "preparedTitle": "Mech Prepared",
             "ejectFailedTitle": "Eject Failed",
             "ejectFailedText": "{name} no se monta.",
-            "pilotEjectedTitle": "Pilot Ejected"
+            "pilotEjectedTitle": "Pilot Ejected",
+            "pilotEjectedText": "{name} ha sido expulsado del mech y ahora es IMPAIRED."
         }
     }
 }
