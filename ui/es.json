@@ -1240,7 +1240,9 @@
             "sortOnline": "Ordenar por Estado en línea",
             "sortGm": "Ordenar por GM",
             "sortLastOnline": "Ordenar por Last Online",
-            "sortNextSession": "Ordenar por próxima sesión"
+            "sortNextSession": "Ordenar por próxima sesión",
+            "online": "En línea",
+            "gm": "GM"
         }
     }
 }
