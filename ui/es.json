@@ -747,7 +747,10 @@
             "mechStats": "Mech Stats",
             "frameTraits": "Frame Traits",
             "coreSystem": "Sistema básico",
-            "activeLoadout": "Active Loadout"
+            "activeLoadout": "Active Loadout",
+            "selectPilot": "Seleccione un Piloto",
+            "removedTitle": "Quitado {callsign} del encuentro",
+            "removalSuccess": "Suceso de eliminación"
         }
     }
 }
