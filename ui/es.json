@@ -1247,7 +1247,9 @@
             "cdt": "CDT",
             "nextSession": "Siguiente período de sesiones",
             "at8pm": "a las 8 PM CDT",
-            "currentlyRunning": "Actualmente"
+            "currentlyRunning": "Actualmente",
+            "players": "Jugadores",
+            "connect": "Connect"
         }
     }
 }
