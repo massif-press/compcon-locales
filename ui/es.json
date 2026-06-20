@@ -699,7 +699,8 @@
             "bootUpFailedText": "{name} no es SHUT DOWN.",
             "mechBootedUpTitle": "Mech Booted Up",
             "mechBootedUpText": "{name} ha subido.",
-            "selfDestructFailedTitle": "Autodestrucción fallada"
+            "selfDestructFailedTitle": "Autodestrucción fallada",
+            "selfDestructFailedText": "{name} ya está en SELF DESTRUCT."
         }
     }
 }
