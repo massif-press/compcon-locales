@@ -806,6 +806,9 @@
         },
         "sheet": {
             "newCharacterSheet": "Nueva hoja de caracteres"
+        },
+        "sheetMgr": {
+            "characterSheets": "Hojas de carácter"
         }
     }
 }
