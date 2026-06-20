@@ -1256,7 +1256,8 @@
         "pcOptions": {
             "exportState": "Carácter de exportación Sheet State",
             "importState": "Carácter de importación Sheet State",
-            "importFileLabel": "Hoja de caracteres Archivo de importación (.json)"
+            "importFileLabel": "Hoja de caracteres Archivo de importación (.json)",
+            "stagedImport": "Importación fija:"
         }
     }
 }
