@@ -828,7 +828,8 @@
         "sheetItem": {
             "archiveSheet": "Ficha de archivo",
             "exportSheet": "Hoja de exportación",
-            "deleteSheet": "Suprímase la hoja de cálculo"
+            "deleteSheet": "Suprímase la hoja de cálculo",
+            "mounted": "MOUNTED"
         }
     }
 }
