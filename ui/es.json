@@ -693,7 +693,8 @@
             "dismountFailedText": "{name} no se monta.",
             "pilotDismountedTitle": "Pilot Dismount",
             "pilotDismountedText": "{name} ha desmontado del mech.",
-            "mechHiddenTitle": "Mech Hidden"
+            "mechHiddenTitle": "Mech Hidden",
+            "mechDisengagedTitle": "Mech Disengaged"
         }
     }
 }
