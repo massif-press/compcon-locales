@@ -687,7 +687,8 @@
         "mechActions": {
             "preparedTitle": "Mech Prepared",
             "ejectFailedTitle": "Eject Failed",
-            "ejectFailedText": "{name} no se monta."
+            "ejectFailedText": "{name} no se monta.",
+            "pilotEjectedTitle": "Pilot Ejected"
         }
     }
 }
