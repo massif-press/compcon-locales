@@ -809,7 +809,8 @@
         },
         "sheetMgr": {
             "characterSheets": "Hojas de carácter",
-            "archivedSheets": "Fichas archivadas ({n})"
+            "archivedSheets": "Fichas archivadas ({n})",
+            "noArchivedFound": "No hay hojas archivadas encontradas"
         }
     }
 }
