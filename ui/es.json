@@ -416,7 +416,9 @@
             "subscribedTooltip": "Actualmente suscrito a las últimas actualizaciones. Presione para darse de baja.",
             "subscribeTooltip": "Presione para permitir que @:{'common.appName'} actualice este LCP siempre que se publique una nueva versión",
             "payWhatYouWant": "Pague lo que quiera",
-            "itchStorePage": "Página de la Tienda itch.io"
+            "itchStorePage": "Página de la Tienda itch.io",
+            "free": "Libre",
+            "currentVersion": "Versión actual:"
         },
         "roster": {
             "newPilot": "Nuevo Piloto",
@@ -477,7 +479,12 @@
             "scanning": "Explorando datos…",
             "colIssue": "Inconveniente",
             "colFixable": "Reparable",
-            "noIssues": "No se han encontrado problemas de migración."
+            "noIssues": "No se han encontrado problemas de migración.",
+            "colCategory": "Categoría"
+        },
+        "search": {
+            "searchResults": "resultados de la búsqueda",
+            "recentSearches": "búsquedas recientes"
         }
     }
 }
