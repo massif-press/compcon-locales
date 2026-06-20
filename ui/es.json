@@ -770,7 +770,8 @@
             "copyReport": "Informe de copia",
             "logsTelemetry": "Logs \" Telemetry",
             "battlefieldTelemetry": "BATTLEFIELD TELEMETRY",
-            "combatLogs": "COMBAT LOGS"
+            "combatLogs": "COMBAT LOGS",
+            "deleteArchivePrompt": "Eliminar este archivo?"
         }
     }
 }
