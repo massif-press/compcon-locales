@@ -709,7 +709,8 @@
             "overwatchText": "{name} está ahora en OVERWATCH."
         },
         "npcActions": {
-            "npcPreparedTitle": "NPC Preparados"
+            "npcPreparedTitle": "NPC Preparados",
+            "npcStabilizedTitle": "NPC Stabilized"
         }
     }
 }
