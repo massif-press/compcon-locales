@@ -779,7 +779,9 @@
         },
         "encSummary": {
             "pilots": "pilotos",
-            "turnN": "(TURN {n})"
+            "turnN": "(TURN {n})",
+            "requiresPilot": "Un encuentro requiere al menos un piloto.",
+            "createAndLaunch": "Crear y lanzar contador"
         }
     }
 }
