@@ -649,6 +649,10 @@
         },
         "npcStats": {
             "activations": "ACTIVATIONS/ROUND"
+        },
+        "eidolonPrint": {
+            "classLabel": "Clase {class}",
+            "persistentTraits": "Traits persistentes"
         }
     }
 }
