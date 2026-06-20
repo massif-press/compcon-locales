@@ -1198,6 +1198,10 @@
             "confirmEndEncounter": "Confirmar Encounter",
             "endEncounterLower": "encuentro final",
             "confirmEndEncounterLower": "Confirme el encuentro final"
+        },
+        "sortBar": {
+            "sortByRecent": "Ordenar por Reciente",
+            "sortByCreated": "Ordenar por timestamp creado"
         }
     }
 }
