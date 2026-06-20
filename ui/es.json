@@ -810,7 +810,8 @@
         "sheetMgr": {
             "characterSheets": "Hojas de carácter",
             "archivedSheets": "Fichas archivadas ({n})",
-            "noArchivedFound": "No hay hojas archivadas encontradas"
+            "noArchivedFound": "No hay hojas archivadas encontradas",
+            "noArchivedFoundFiltered": "No hay hojas archivadas encontradas incluyendo \"{search}\""
         }
     }
 }
