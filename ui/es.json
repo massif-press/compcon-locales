@@ -726,7 +726,10 @@
         },
         "common": {
             "currentlySelected": "Actualmente seleccionado:",
-            "destroyed": "DESTROYED"
+            "destroyed": "DESTROYED",
+            "exportAsJson": "Exportar como JSON",
+            "dangerZone": "Zona De Peligro",
+            "apply": "Aceptar"
         }
     }
 }
