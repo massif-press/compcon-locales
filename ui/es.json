@@ -1208,7 +1208,9 @@
             "selected": "seleccionada"
         },
         "runnerHeader": {
-            "lastSaved": "Guardado por última vez:"
+            "lastSaved": "Guardado por última vez:",
+            "never": "Nunca",
+            "manualSave": "Guardado manual"
         }
     }
 }
