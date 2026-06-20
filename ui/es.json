@@ -700,7 +700,8 @@
             "mechBootedUpTitle": "Mech Booted Up",
             "mechBootedUpText": "{name} ha subido.",
             "selfDestructFailedTitle": "Autodestrucción fallada",
-            "selfDestructFailedText": "{name} ya está en SELF DESTRUCT."
+            "selfDestructFailedText": "{name} ya está en SELF DESTRUCT.",
+            "selfDestructInitiatedTitle": "Mech Self-Destruct"
         }
     }
 }
