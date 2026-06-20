@@ -558,7 +558,35 @@
             "h2": "H2",
             "h3": "H3",
             "h4": "H4",
-            "hideTitle": "Ocultar el título"
+            "hideTitle": "Ocultar el título",
+            "tonal": "Tonal",
+            "deleteItemConfirm": "¿Quieres eliminar este artículo? Esta acción no se puede deshacer."
+        },
+        "encounterContent": {
+            "map": "Mapa"
+        },
+        "encPrint": {
+            "extraction": "Extracción"
+        },
+        "combatantSelector": {
+            "doodads": "Doodads",
+            "eidolons": "Eidolons"
+        },
+        "encImport": {
+            "notEncounterFile": "El archivo seleccionado no contiene datos de encuentro."
+        },
+        "npcFeature": {
+            "nameFeatures": "{name} Características"
+        },
+        "npcAlert": {
+            "selectionsComplete": "{source} selecciones completas"
+        },
+        "npcTemplate": {
+            "cannotAssign": "No se puede asignar (conflictos con {conflict})"
+        },
+        "eidolon": {
+            "addLayer": "añadir capa",
+            "addRandomLayer": "Agregar capa aleatoria"
         }
     }
 }
