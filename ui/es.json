@@ -702,7 +702,8 @@
             "selfDestructFailedTitle": "Autodestrucción fallada",
             "selfDestructFailedText": "{name} ya está en SELF DESTRUCT.",
             "selfDestructInitiatedTitle": "Mech Self-Destruct",
-            "selfDestructInitiatedText": "{name} está a punto de SELF DESTRUCT."
+            "selfDestructInitiatedText": "{name} está a punto de SELF DESTRUCT.",
+            "mechBracedTitle": "Mech Braced"
         }
     }
 }
