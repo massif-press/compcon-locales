@@ -760,7 +760,8 @@
             "archived": "ARCHIVED"
         },
         "encMgr": {
-            "localActiveEncounters": "Local Active Encounters"
+            "localActiveEncounters": "Local Active Encounters",
+            "deleteEncounter": "Delete Encounter"
         }
     }
 }
