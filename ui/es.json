@@ -792,7 +792,8 @@
             "addPlaceholder": "añadir piloto placeholder"
         },
         "newEnc": {
-            "title": "Nuevo contador activo local"
+            "title": "Nuevo contador activo local",
+            "encounterData": "ENCOUNTER DATA"
         }
     }
 }
