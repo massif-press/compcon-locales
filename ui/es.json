@@ -1189,6 +1189,9 @@
         },
         "campaignDialog": {
             "setCampaign": "Set Campaign"
+        },
+        "landing": {
+            "resumeRound": "{name} (Round {n})"
         }
     }
 }
