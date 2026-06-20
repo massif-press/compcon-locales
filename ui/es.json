@@ -681,7 +681,11 @@
         },
         "addCombatant": {
             "doodadAddedTitle": "Doodad Añadido",
-            "eidolonAddedTitle": "Eidolón añadido"
+            "eidolonAddedTitle": "Eidolón añadido",
+            "addedText": "{name} se ha añadido al encuentro."
+        },
+        "mechActions": {
+            "preparedTitle": "Mech Prepared"
         }
     }
 }
