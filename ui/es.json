@@ -758,6 +758,9 @@
             "round": "ROUND",
             "lastUpdate": "ÚLTIMO UPDATE",
             "archived": "ARCHIVED"
+        },
+        "encMgr": {
+            "localActiveEncounters": "Local Active Encounters"
         }
     }
 }
