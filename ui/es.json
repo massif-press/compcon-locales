@@ -797,7 +797,8 @@
             "additionalNpcs": "Los NPC adicionales pueden ser añadidos en el corredor del contador después de la creación."
         },
         "tableManager": {
-            "published": "lista de cuadros publicados"
+            "published": "lista de cuadros publicados",
+            "offline": "lista de tablas sin conexión"
         }
     }
 }
