@@ -669,5 +669,11 @@
             "v2Export": "v2 Export",
             "statblock": "Estadísticas"
         }
+    },
+    "active": {
+        "encounter": {
+            "saveSuccessfulText": "Encuentro guardado: {name} en la Ronda {round}",
+            "saveFailedText": "Failed to save Encounter: {name}"
+        }
     }
 }
