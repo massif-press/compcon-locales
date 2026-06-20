@@ -1252,6 +1252,9 @@
             "connect": "Connect",
             "gmOffline": "GM OFFLINE",
             "archivedTables": "Cuadros archivados"
+        },
+        "pcOptions": {
+            "exportState": "Carácter de exportación Sheet State"
         }
     }
 }
