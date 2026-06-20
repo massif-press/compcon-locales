@@ -1211,10 +1211,12 @@
             "lastSaved": "Guardado por última vez:",
             "never": "Nunca",
             "manualSave": "Guardado manual",
-            "layoutOptions": "Opciones de diseño"
+            "layoutOptions": "Opciones de diseño",
+            "autosave": "Autoguardado"
         },
         "leaveDialog": {
-            "prompt": "¿Quieres salvar este encuentro antes de salir?"
+            "prompt": "¿Quieres salvar este encuentro antes de salir?",
+            "exitWithoutSaving": "&Salir sin Guardar"
         }
     }
 }
