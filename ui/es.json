@@ -762,7 +762,8 @@
         "encMgr": {
             "localActiveEncounters": "Local Active Encounters",
             "deleteEncounter": "Delete Encounter",
-            "createNewEncounter": "Crear nuevo contador"
+            "createNewEncounter": "Crear nuevo contador",
+            "archivedEncounters": "Encuentros archivados ({n})"
         }
     }
 }
