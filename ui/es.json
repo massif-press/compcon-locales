@@ -812,7 +812,9 @@
             "archivedSheets": "Fichas archivadas ({n})",
             "noArchivedFound": "No hay hojas archivadas encontradas",
             "noArchivedFoundFiltered": "No hay hojas archivadas encontradas incluyendo \"{search}\"",
-            "active": "ACTIVO"
+            "active": "ACTIVO",
+            "kia": "KIA",
+            "savePilotHistory": "Guardar historia piloto"
         }
     }
 }
