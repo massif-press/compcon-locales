@@ -716,7 +716,8 @@
             "npcDisengagedTitle": "NPC Disengaged"
         },
         "pcSheet": {
-            "activeMechChangedTitle": "Active Mech Changed"
+            "activeMechChangedTitle": "Active Mech Changed",
+            "activeMechChangedText": "Mech activo cambió a {mechName}. El estado de la hoja de caracteres ha sido reajustado."
         }
     }
 }
