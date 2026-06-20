@@ -65,5 +65,76 @@
         "skipToMainContent": "Saltar al contenido principal",
         "changeImage": "Cambiar imagen",
         "attackBonus": "Bono de ataque"
+    },
+    "language": {
+        "selectLanguage": "Idioma"
+    },
+    "classes": {
+        "newCollection": "Nueva Colección"
+    },
+    "nav": {
+        "contentManager": {
+            "refreshContent": "Actualizar",
+            "deleteAll": "Borrar Todo"
+        },
+        "settings": {
+            "reset": "Restablecer valores predeterminados"
+        },
+        "v2Import": {
+            "deleteTitle": "Eliminar Respaldo"
+        },
+        "nav": {
+            "navigateForward": "Navegar hacia adelante",
+            "achievements": "Logros",
+            "about": "Acerca de",
+            "help": "Ayuda"
+        },
+        "help": {
+            "faq": "Preguntas más frecuentes",
+            "discussionForum": "Foro de Discusión"
+        },
+        "credits": {
+            "with": "Con:"
+        },
+        "achievements": {
+            "unlocked": "desbloqueado",
+            "common": "Común",
+            "epic": "Épico",
+            "legendary": "Legendario",
+            "locked": "Bloqueado",
+            "rarity": "Rareza",
+            "hidden": "Oculto"
+        },
+        "settingsPage": {
+            "errorReporting": "Error al reportar",
+            "enabled": "activado",
+            "disabled": "desactivado"
+        },
+        "storage": {
+            "neverLabel": "nunca",
+            "userData": "Datos del usuario"
+        },
+        "deletedItems": {
+            "deletedOn": "Eliminado en",
+            "restoreAll": "Restaurar todo"
+        },
+        "userDataViewer": {
+            "value": "Valor"
+        },
+        "packInstall": {
+            "install": "Instalar"
+        },
+        "packsDirectory": {
+            "officialContent": "Oficial",
+            "content": "Contenido"
+        },
+        "packInfo": {
+            "changelog": "Historial de cambios"
+        },
+        "communityTable": {
+            "noData": "No hay paquetes de contenido disponibles.",
+            "notInstalled": "No instalado",
+            "openWebsite": "Abrir sitio web"
+        }
     }
 }
