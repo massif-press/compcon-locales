@@ -697,7 +697,8 @@
             "mechDisengagedTitle": "Mech Disengaged",
             "bootUpFailedTitle": "Boot Up Failed",
             "bootUpFailedText": "{name} no es SHUT DOWN.",
-            "mechBootedUpTitle": "Mech Booted Up"
+            "mechBootedUpTitle": "Mech Booted Up",
+            "mechBootedUpText": "{name} ha subido."
         }
     }
 }
