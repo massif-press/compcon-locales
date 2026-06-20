@@ -643,7 +643,8 @@
         },
         "npcFeatures": {
             "saveConfig": "Guardar configuración.",
-            "reorder": "Características de reordenamiento"
+            "reorder": "Características de reordenamiento",
+            "selectClassToAdd": "Seleccione una clase para añadir características"
         }
     }
 }
