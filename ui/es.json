@@ -658,6 +658,9 @@
         },
         "featurePrint": {
             "weaponAttacks": "Este arma puede hacer ataques {count} a la vez."
+        },
+        "eidolonTier": {
+            "heading": "EIDOLON TIER"
         }
     }
 }
