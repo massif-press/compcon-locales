@@ -830,7 +830,9 @@
             "exportSheet": "Hoja de exportación",
             "deleteSheet": "Suprímase la hoja de cálculo",
             "mounted": "MOUNTED",
-            "unmounted": "UNMOUNTED"
+            "unmounted": "UNMOUNTED",
+            "roundN": "Ronda {n}",
+            "started": "comenzado"
         }
     }
 }
