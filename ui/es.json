@@ -795,6 +795,9 @@
             "title": "Nuevo contador activo local",
             "encounterData": "ENCOUNTER DATA",
             "additionalNpcs": "Los NPC adicionales pueden ser añadidos en el corredor del contador después de la creación."
+        },
+        "tableManager": {
+            "published": "lista de cuadros publicados"
         }
     }
 }
