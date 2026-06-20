@@ -593,6 +593,10 @@
         "layerSelector": {
             "noData": "¡No se han encontrado datos de Eidolon!",
             "help1": "Los datos de Eidolon se incluyen con el No Room for a Wallflower Campaign Book y por lo tanto no se incluyen con COMP/CON por defecto. Puede encontrar datos de Eidolon como contenido descargable adicional en el {link} Página del libro de campaña."
+        },
+        "eidolonData": {
+            "noData": "¡No se han encontrado datos del editor de Eidolon!",
+            "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room para un Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en el {link}"
         }
     }
 }
