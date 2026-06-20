@@ -1212,6 +1212,9 @@
             "never": "Nunca",
             "manualSave": "Guardado manual",
             "layoutOptions": "Opciones de diseño"
+        },
+        "leaveDialog": {
+            "prompt": "¿Quieres salvar este encuentro antes de salir?"
         }
     }
 }
