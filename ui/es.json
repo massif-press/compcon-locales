@@ -1242,7 +1242,8 @@
             "sortLastOnline": "Ordenar por Last Online",
             "sortNextSession": "Ordenar por próxima sesión",
             "online": "En línea",
-            "gm": "GM"
+            "gm": "GM",
+            "lastOnline": "Último online"
         }
     }
 }
