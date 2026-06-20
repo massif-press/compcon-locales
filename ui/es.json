@@ -527,6 +527,10 @@
         },
         "folder": {
             "noFolder": "No hay carpeta"
+        },
+        "filter": {
+            "showItemsWith": "Mostrar artículos con:",
+            "clearAllFilters": "Limpiar todos los filtros"
         }
     }
 }
