@@ -1254,7 +1254,8 @@
             "archivedTables": "Cuadros archivados"
         },
         "pcOptions": {
-            "exportState": "Carácter de exportación Sheet State"
+            "exportState": "Carácter de exportación Sheet State",
+            "importState": "Carácter de importación Sheet State"
         }
     }
 }
