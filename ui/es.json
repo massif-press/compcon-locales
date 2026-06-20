@@ -765,7 +765,8 @@
             "createNewEncounter": "Crear nuevo contador",
             "archivedEncounters": "Encuentros archivados ({n})",
             "noArchivedFound": "No hay encuentros archivados encontrados",
-            "roundsCount": "Rondas"
+            "roundsCount": "Rondas",
+            "afterActionReport": "After-Action Report"
         }
     }
 }
