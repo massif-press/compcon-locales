@@ -788,7 +788,8 @@
             "title": "Pilotos",
             "ll": "LL",
             "activeMech": "Active Mech",
-            "addFromFile": "Añadir desde el archivo"
+            "addFromFile": "Añadir desde el archivo",
+            "addPlaceholder": "añadir piloto placeholder"
         }
     }
 }
