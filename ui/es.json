@@ -1194,7 +1194,8 @@
             "resumeRound": "{name} (Round {n})"
         },
         "endEnc": {
-            "endEncounter": "End Encounter"
+            "endEncounter": "End Encounter",
+            "confirmEndEncounter": "Confirmar Encounter"
         }
     }
 }
