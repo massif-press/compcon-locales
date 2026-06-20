@@ -767,7 +767,8 @@
             "noArchivedFound": "No hay encuentros archivados encontrados",
             "roundsCount": "Rondas",
             "afterActionReport": "After-Action Report",
-            "copyReport": "Informe de copia"
+            "copyReport": "Informe de copia",
+            "logsTelemetry": "Logs \" Telemetry"
         }
     }
 }
