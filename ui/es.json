@@ -769,7 +769,8 @@
             "afterActionReport": "After-Action Report",
             "copyReport": "Informe de copia",
             "logsTelemetry": "Logs \" Telemetry",
-            "battlefieldTelemetry": "BATTLEFIELD TELEMETRY"
+            "battlefieldTelemetry": "BATTLEFIELD TELEMETRY",
+            "combatLogs": "COMBAT LOGS"
         }
     }
 }
