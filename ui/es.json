@@ -731,7 +731,11 @@
             "dangerZone": "Zona De Peligro",
             "apply": "Aceptar",
             "target": "Destino",
-            "override": "anulación"
+            "override": "anulación",
+            "playedBy": "Jugado por"
+        },
+        "roster": {
+            "addFromRoster": "añadir de la lista"
         }
     }
 }
