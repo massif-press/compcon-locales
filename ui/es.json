@@ -1217,6 +1217,9 @@
         "leaveDialog": {
             "prompt": "¿Quieres salvar este encuentro antes de salir?",
             "exitWithoutSaving": "&Salir sin Guardar"
+        },
+        "endRound": {
+            "endRound": "Ronda final"
         }
     }
 }
