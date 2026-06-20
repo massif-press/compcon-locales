@@ -766,7 +766,8 @@
             "archivedEncounters": "Encuentros archivados ({n})",
             "noArchivedFound": "No hay encuentros archivados encontrados",
             "roundsCount": "Rondas",
-            "afterActionReport": "After-Action Report"
+            "afterActionReport": "After-Action Report",
+            "copyReport": "Informe de copia"
         }
     }
 }
