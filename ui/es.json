@@ -162,7 +162,12 @@
         "newBurden": "Nuevo Lastre",
         "newEncounter": "Nuevo Encuentro",
         "unknownStatus": "Estado Desconocido",
-        "unknownLicense": "Licencia Desconocida"
+        "unknownLicense": "Licencia Desconocida",
+        "newCampaign": "Nueva campaña",
+        "newFaction": "Nueva Facción",
+        "newEidolon": "Nuevo Eidolon",
+        "newDoodad": "Nuevo Doodad",
+        "newSitrep": "Nuevo Sitrep"
     },
     "nav": {
         "contentManager": {
@@ -171,11 +176,13 @@
             "packManagement": "Gestión de Paquetes de Contenido",
             "installedPacks": "Paquetes de Contenido Instalados",
             "installLcp": "Instalar Archivo .LCP",
-            "deletePackConfirm": "Esto eliminará este paquete y todo su contenido de @:{'common.appName'}. Los datos de usuario que se basan en este contenido seguirán disponibles. ¿Seguro que quiere continuar?"
+            "deletePackConfirm": "Esto eliminará este paquete y todo su contenido de @:{'common.appName'}. Los datos de usuario que se basan en este contenido seguirán disponibles. ¿Seguro que quiere continuar?",
+            "noPacksInstalled": "No hay paquetes de contenido instalados."
         },
         "settings": {
             "reset": "Restablecer valores predeterminados",
-            "importData": "Importar Datos"
+            "importData": "Importar Datos",
+            "exportData": "Exportar todos los datos"
         },
         "v2Import": {
             "deleteTitle": "Eliminar Respaldo",
@@ -187,7 +194,10 @@
             "deleteConfirm": "¿Eliminar esta copia de seguridad v2 pendiente? Esta acción no se puede deshacer.",
             "strippedTitle": "Artículos Removidos por la Importación Forzada",
             "strippedBody": "Se quitaron los siguientes artículos porque no pudieron resolverse:",
-            "forceImportNotice": "Esto importará el {type} con todos los artículos no resueltos eliminados. No se pueden encontrar las siguientes dependencias y serán quitadas:"
+            "forceImportNotice": "Esto importará el {type} con todos los artículos no resueltos eliminados. No se pueden encontrar las siguientes dependencias y serán quitadas:",
+            "panelTitle": "Importaciones V2 pendientes",
+            "importAll": "Importar todo",
+            "moreCount": "+{count} más"
         },
         "nav": {
             "navigateForward": "Navegar hacia adelante",
@@ -204,7 +214,8 @@
             "storageWarningTooltip": "@:{'common.appName'} ha superado el umbral de advertencia de almacenamiento. Hay más detalles disponibles en la pestaña Almacenamiento del Menú Opciones.",
             "storageAlertTooltip": "@:{'common.appName'} ha superado el umbral máximo de almacenamiento.",
             "storageDetails": "Hay más detalles disponibles en la pestaña <b>Almacenamiento</b> del Menú de Opciones.",
-            "supportCompcon": "Soporte @:{'common.appName'}"
+            "supportCompcon": "Soporte @:{'common.appName'}",
+            "encounters": "Encuentros"
         },
         "help": {
             "faq": "Preguntas más frecuentes",
@@ -224,7 +235,12 @@
             "cloudAccountFaqBody": "Las cuentas en la nube de @:{'common.appName'} son gratuitas para todos los usuarios. Para los mecenas de Patreon, las cuentas de nube obtienen acceso a características adicionales, como el almacenamiento en la nube ampliado y las instancias adicionales de mesa activa.",
             "additionalHelpBody": "¡El {faqLink} puede tener una respuesta a su pregunta! Si todavía no puede encontrar lo que está buscando, por favor, pase por {discordLink} (y específicamente el canal #comp-con) con sus preguntas o comentarios para los desarrolladores.",
             "faqLinkText": "PREGUNTAS FRECUENTES @:{'common.appName'}",
-            "discordLinkText": "Discord no oficial de @:{'common.gameName'}"
+            "discordLinkText": "Discord no oficial de @:{'common.gameName'}",
+            "troubleshootingFaq": "Preguntas frecuentes sobre solución de problemas",
+            "howToSeeExotics": "¿Cómo puedo ver artículos exóticos en el Compendio?",
+            "additionalHelp": "Ayuda adicional",
+            "downloadDemo": "Descargar demo",
+            "showExoticsToggleLabel": "\"Mostrar elementos exóticos en el Compendio\""
         },
         "credits": {
             "with": "Con:",
@@ -232,7 +248,9 @@
             "compconBy": "@:{'common.appName'} por:",
             "patronThanks": "El desarrollo continuo de @:{'common.appName'} no sería posible sin el generoso",
             "supportOf": "de:",
-            "anonymousPatron": "Mecenas Anónimo"
+            "anonymousPatron": "Mecenas Anónimo",
+            "graphicDesignBy": "Diseño gráfico por:",
+            "additionalArtBy": "Arte adicional por:"
         },
         "achievements": {
             "unlocked": "desbloqueado",
@@ -259,7 +277,12 @@
             "cannotAddTitle": "No se puede añadir logro",
             "hiddenCount": "{count} logro no mostrado | {count} logros no mostrados",
             "cannot": "no puede",
-            "warningDataFull": "Esto {emphasis} los datos de progreso del usuario."
+            "warningDataFull": "Esto {emphasis} los datos de progreso del usuario.",
+            "notShown": "no mostrado",
+            "cannotAddText": "Código Inválido o ya desbloqueado",
+            "progress": "{count} de {total} desbloqueado",
+            "othersCount": "(+{count} otros)",
+            "cannotBeUndoneFull": "Este {emphasis} será deshecho. Es muy recomendable crear una copia de seguridad primero."
         },
         "settingsPage": {
             "errorReporting": "Error al reportar",
@@ -287,7 +310,17 @@
             "v2BackupDescription": "Este es un archivo de copia de seguridad @:{'common.appName'} V2. Se procesará utilizando el sistema de importación v2: se instalarán primero paquetes de contenido, seguidos de pilotos, PNJs y encuentros. Los artículos que requieran LCPs no presentes en esta copia de seguridad serán guardados a las importaciones pendientes v2 en el Gestor de Contenidos.",
             "importV2Backup": "Importar Respaldo v2",
             "resetV2Migration": "Reiniciar Estado de Migración V2",
-            "resetV2Tooltip": "Reinicia el estado de la migración v2, permitiendo que el botón V2 Data aparezca de nuevo si fue retirado."
+            "resetV2Tooltip": "Reinicia el estado de la migración v2, permitiendo que el botón V2 Data aparezca de nuevo si fue retirado.",
+            "showUpdateMessages": "Mostrar mensajes de actualización",
+            "showExoticsLabel": "Mostrar artículos exóticos en el Compendium",
+            "errorReportingTooltip": "El reporte de errores permite enviar datos de error anónimos al desarrollador para ayudar a identificar y resolver errores y otros problemas.",
+            "errorReportingPiiNote": "No se recopila información personal identificable a este nivel.",
+            "enhancedReportingNotNecessary": "no necesario",
+            "communityThemesBy": "Temas comunitarios por {vialra} {asger} {thecrystalwoods} y {suji}",
+            "mergeStrategy": "Combinar con los datos existentes",
+            "overwriteStrategy": "Sobreescribir todos los datos existentes",
+            "overwriteWarning": "La estrategia de sobreescritura reemplazará todos sus datos locales existentes con los datos del archivo importado y no se puede deshacer. Se recomienda encarecidamente crear una copia de seguridad antes de utilizar esta opción.",
+            "v2AppendNote": "las importaciones de copia de seguridad v2 siempre se procesan utilizando la estrategia de \"apéndice\"."
         },
         "storage": {
             "neverLabel": "nunca",
@@ -306,7 +339,17 @@
             "deletedItems": "Artículos eliminados (sólo datos locales)",
             "deleteWarningBanner": "Advertencia // advertencia // advertencia",
             "deleteAllConfirm": "TODO",
-            "areYouSure": "¿Está usted seguro de que desea continuar?"
+            "areYouSure": "¿Está usted seguro de que desea continuar?",
+            "daysCount": "{count} días.",
+            "deleteConfirmUndone": "Este {undone}",
+            "warningThresholdPct": "Umbral de alerta (%)",
+            "maxThresholdPct": "Umbral máximo (%)",
+            "warningThresholdMb": "Umbral de alerta (MB)",
+            "maxThresholdMb": "Umbral máximo (MB)",
+            "hasBeenUsed": ") se ha utilizado",
+            "neverAutoDelete": "eliminar automáticamente los datos marcados para la eliminación.",
+            "cannotBeUndone": "deshacerse.",
+            "deleteAllUserData": "Eliminar todos los datos de usuario"
         },
         "deletedItems": {
             "deletedOn": "Eliminado en",
@@ -314,12 +357,14 @@
             "noItemsFound": "No se han encontrado artículos",
             "itemType": "Tipo de Artículo",
             "itemName": "Nombre de Artículo",
-            "permanentlyDeleteAll": "Eliminar Todo Permanentemente"
+            "permanentlyDeleteAll": "Eliminar Todo Permanentemente",
+            "permanentlyDelete": "Eliminar permanentemente"
         },
         "userDataViewer": {
             "value": "Valor",
             "description": "Estos son los datos de usuario almacenados localmente. Estos artículos generalmente no deben ser reiniciados, pero pueden ser útiles para depurar o aclarar un problema de carga persistente.",
-            "achievementNote": "Reiniciar datos de usuario no restablecerá los logros desbloqueados (eso puede hacerse en el Explorador de Logros)."
+            "achievementNote": "Reiniciar datos de usuario no restablecerá los logros desbloqueados (eso puede hacerse en el Explorador de Logros).",
+            "resetUserData": "Restablecer datos de usuario"
         },
         "packInstall": {
             "install": "Instalar",
@@ -332,7 +377,15 @@
             "byAuthorRequires": "por {author} requiere",
             "downgradeTo": "Degradar a {version}",
             "installingPacks": "Instalar {count} paquete de contenido... | Instalar {count} paquetes de contenido…",
-            "willDowngradeTo": "Se degradará a {version}"
+            "willDowngradeTo": "Se degradará a {version}",
+            "selectFile": "Seleccione un archivo .LCP",
+            "v3Warning": "El siguiente contenido no ha sido registrado como compatible con v3. Estos paquetes todavía funcionarán, pero no podrán aprovechar las funciones v3, especialmente en modo activo.",
+            "noPackSelected": "No hay paquete de contenido seleccionado",
+            "alreadyInstalledNote": "Un paquete con este mismo nombre y autor ya está instalado.",
+            "successText": "Paquetes de contenido instalados con éxito",
+            "upgradeFromTo": "Actualización de {from} a {to}",
+            "noChange": "No hay cambio ({from} a {to})",
+            "willUpgradeTo": "Se actualizará a v.{version}"
         },
         "packsDirectory": {
             "officialContent": "Oficial",
@@ -349,7 +402,10 @@
             "v2ContentTitle": "Contenido v2",
             "v2ContentDescription": "Este paquete de contenido no ha sido registrado como compatible con v3. Este paquete seguirá funcionando correctamente, pero no será capaz de aprovechar las ventajas de las características de la v3.",
             "contentHeading": "Contenido",
-            "dependencies": "Dependencias"
+            "dependencies": "Dependencias",
+            "dependenciesTooltip": "Las dependencias son otros paquetes de contenido que este paquete requiere para funcionar correctamente. Deben ser instalados y activados para que este paquete se cargue correctamente.",
+            "authorsWebsite": "Sitio web del autor",
+            "dependencyInstalled": "Dependencia instalada"
         },
         "communityTable": {
             "noData": "No hay paquetes de contenido disponibles.",
@@ -370,7 +426,8 @@
         "about": {
             "lancerCoreVersion": "Versión del núcleo de @:{'common.gameName'}:",
             "description": "@:{'common.appName'} es una herramienta digital gratuita de código abierto, y asistente de juego para construir y jugar @:{'common.gameName'} TTRPG.",
-            "coreBookInfo": "El libro BASE @:{'common.gameName'} , @:{'common.appName'}, y el contenido asociado se pueden encontrar en"
+            "coreBookInfo": "El libro BASE @:{'common.gameName'} , @:{'common.appName'}, y el contenido asociado se pueden encontrar en",
+            "ccVersion": "Versión C/C:"
         },
         "log": {
             "trace": "Trazo",
@@ -385,7 +442,13 @@
             "noConfigs": "No se hallaron configuraciones.",
             "coreBookOnly": "Únicamente Contenido del libro Lancer Core",
             "addLcp": "Agregar LCP",
-            "removeFromConfig": "Retirar este paquete de la configuración"
+            "removeFromConfig": "Retirar este paquete de la configuración",
+            "lcpsInConfig": "LCPs en esta configuración:",
+            "noLcpsPrefix": "No hay LCPs añadidos. Sólo contenido del",
+            "willBeAvailable": "estará disponible.",
+            "createConfig": "Crear configuración",
+            "deleteConfig": "Eliminar esta configuración",
+            "editConfig": "Editar esta configuración"
         },
         "v2Auto": {
             "v2Data": "Datos V2",
@@ -399,7 +462,9 @@
             "lcpsImported": "{count} paquete de contenido importado | {count} paquetes de contenido importado",
             "pendingNote": "Los elementos pendientes pueden ser reimportados en el panel Paquetes de Contenido después de instalar los LCP requeridos.",
             "errorsDuringMigration": "{count} error durante la migración | {count} errores durante la migración",
-            "downloadBackup": "Descargar Respaldo v2"
+            "downloadBackup": "Descargar Respaldo v2",
+            "autoMigrated": "Tus datos v2 se migraron automáticamente a v3 en el inicio.",
+            "downloadBackupTooltip": "Este archivo .compcon se puede utilizar en un entorno v2 en https://old.compcon.app. Esto se puede descargar en cualquier momento desde el menú Opciones"
         },
         "cloudNotifications": {
             "dismissAll": "Rechazar todas las notificaciones",
@@ -411,7 +476,8 @@
             "buttonTooltip": "Escaneo y reparación de problemas comunes con datos v2 migrados.",
             "scanning": "Explorando datos…",
             "colIssue": "Inconveniente",
-            "colFixable": "Reparable"
+            "colFixable": "Reparable",
+            "noIssues": "No se han encontrado problemas de migración."
         }
     }
 }
