@@ -750,7 +750,12 @@
             "activeLoadout": "Active Loadout",
             "selectPilot": "Seleccione un Piloto",
             "removedTitle": "Quitado {callsign} del encuentro",
-            "removalSuccess": "Suceso de eliminación"
+            "removalSuccess": "Suceso de eliminación",
+            "addedTitle": "Añadido {callsign} al encuentro",
+            "ll": "LL {n}"
+        },
+        "labels": {
+            "round": "ROUND"
         }
     }
 }
