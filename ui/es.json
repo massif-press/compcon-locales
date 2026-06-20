@@ -815,7 +815,8 @@
             "active": "ACTIVO",
             "kia": "KIA",
             "savePilotHistory": "Guardar historia piloto",
-            "featureInDev": "Gráficos en el desarrollo (v3.1)"
+            "featureInDev": "Gráficos en el desarrollo (v3.1)",
+            "encounterHash": "encuentro"
         }
     }
 }
