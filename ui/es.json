@@ -800,6 +800,12 @@
             "published": "lista de cuadros publicados",
             "offline": "lista de tablas sin conexión",
             "addNew": "añadir nuevo cuadro"
+        },
+        "addShare": {
+            "addToEncounter": "añadir al encuentro"
+        },
+        "sheet": {
+            "newCharacterSheet": "Nueva hoja de caracteres"
         }
     }
 }
