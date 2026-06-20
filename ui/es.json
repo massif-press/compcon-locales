@@ -764,7 +764,8 @@
             "deleteEncounter": "Delete Encounter",
             "createNewEncounter": "Crear nuevo contador",
             "archivedEncounters": "Encuentros archivados ({n})",
-            "noArchivedFound": "No hay encuentros archivados encontrados"
+            "noArchivedFound": "No hay encuentros archivados encontrados",
+            "roundsCount": "Rondas"
         }
     }
 }
