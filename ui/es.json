@@ -732,10 +732,12 @@
             "apply": "Aceptar",
             "target": "Destino",
             "override": "anulación",
-            "playedBy": "Jugado por"
+            "playedBy": "Jugado por",
+            "condition": "Condición"
         },
         "roster": {
-            "addFromRoster": "añadir de la lista"
+            "addFromRoster": "añadir de la lista",
+            "addToEncounter": "Agregar al encuentro"
         }
     }
 }
