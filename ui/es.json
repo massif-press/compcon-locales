@@ -826,7 +826,8 @@
             "createAndLaunch": "Crear y lanzar el modo ACtive"
         },
         "sheetItem": {
-            "archiveSheet": "Ficha de archivo"
+            "archiveSheet": "Ficha de archivo",
+            "exportSheet": "Hoja de exportación"
         }
     }
 }
