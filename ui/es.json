@@ -746,7 +746,8 @@
             "pilotNoMech": "Piloto será presentado sin un mech",
             "mechStats": "Mech Stats",
             "frameTraits": "Frame Traits",
-            "coreSystem": "Sistema básico"
+            "coreSystem": "Sistema básico",
+            "activeLoadout": "Active Loadout"
         }
     }
 }
