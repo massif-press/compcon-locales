@@ -720,6 +720,9 @@
             "activeMechChangedText": "Mech activo cambió a {mechName}. El estado de la hoja de caracteres ha sido reajustado.",
             "saveSuccessfulText": "Personaje guardado Hoja: {callsign} en la Ronda {round}",
             "saveFailedText": "Failed to save Character Sheet: {callsign}"
+        },
+        "stats": {
+            "hitPoints": "HIT POINTS"
         }
     }
 }
