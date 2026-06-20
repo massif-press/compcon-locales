@@ -531,6 +531,34 @@
         "filter": {
             "showItemsWith": "Mostrar artículos con:",
             "clearAllFilters": "Limpiar todos los filtros"
+        },
+        "split": {
+            "addType": "Añadir {type}",
+            "createNewType": "Crear nuevo {type}"
+        },
+        "itemCard": {
+            "tierShort": "T{tier}"
+        },
+        "noItem": {
+            "noItemSelected": "No se ha seleccionado ningún artículo"
+        },
+        "narrative": {
+            "itemTypePlural": "{type}s"
+        },
+        "print": {
+            "othersCount": "(+{n} otros)"
+        },
+        "overview": {
+            "recommendedFor": "Recomendado para",
+            "to": "a",
+            "players": "jugadores"
+        },
+        "pageContent": {
+            "h1": "H1",
+            "h2": "H2",
+            "h3": "H3",
+            "h4": "H4",
+            "hideTitle": "Ocultar el título"
         }
     }
 }
