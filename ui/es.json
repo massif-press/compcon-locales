@@ -1235,6 +1235,10 @@
             "braceExit": "Usted sale {braced} y entra {cooldown} estado.",
             "braced": "BRACED",
             "braceCooldown": "BRACE COOLDOWN"
+        },
+        "joinTable": {
+            "sortOnline": "Ordenar por Estado en línea",
+            "sortGm": "Ordenar por GM"
         }
     }
 }
