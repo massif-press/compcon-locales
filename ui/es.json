@@ -725,7 +725,8 @@
             "hitPoints": "HIT POINTS"
         },
         "common": {
-            "currentlySelected": "Actualmente seleccionado:"
+            "currentlySelected": "Actualmente seleccionado:",
+            "destroyed": "DESTROYED"
         }
     }
 }
