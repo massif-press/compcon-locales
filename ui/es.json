@@ -705,7 +705,8 @@
             "selfDestructInitiatedText": "{name} está a punto de SELF DESTRUCT.",
             "mechBracedTitle": "Mech Braced",
             "mechBracedText": "{name} ahora es BRACED.",
-            "overwatchTitle": "Mech Overwatch"
+            "overwatchTitle": "Mech Overwatch",
+            "overwatchText": "{name} está ahora en OVERWATCH."
         }
     }
 }
