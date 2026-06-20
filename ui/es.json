@@ -714,6 +714,9 @@
             "npcStabilizedText": "{name} ha despejado todo HEAT, ya no es EXPOSADO, y ha recargado sus armas.",
             "npcHiddenTitle": "NPC Hidden",
             "npcDisengagedTitle": "NPC Disengaged"
+        },
+        "pcSheet": {
+            "activeMechChangedTitle": "Active Mech Changed"
         }
     }
 }
