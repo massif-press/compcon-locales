@@ -1229,7 +1229,10 @@
         "pcEndRound": {
             "forfeitActions": "Terminar la ronda perderá cualquier acción no utilizada.",
             "nextRound": "Siguiente ronda:",
-            "willLoseStatuses": "perderá los siguientes estatus:"
+            "willLoseStatuses": "perderá los siguientes estatus:",
+            "atThe": "en el",
+            "endsOnTurn": "{when} de tu turno",
+            "braceExit": "Usted sale {braced} y entra {cooldown} estado."
         }
     }
 }
