@@ -1225,6 +1225,9 @@
         "actionChips": {
             "protocol": "Protocolo",
             "quickAction": "Acción rápida"
+        },
+        "pcEndRound": {
+            "forfeitActions": "Terminar la ronda perderá cualquier acción no utilizada."
         }
     }
 }
