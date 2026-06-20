@@ -695,7 +695,8 @@
             "pilotDismountedText": "{name} ha desmontado del mech.",
             "mechHiddenTitle": "Mech Hidden",
             "mechDisengagedTitle": "Mech Disengaged",
-            "bootUpFailedTitle": "Boot Up Failed"
+            "bootUpFailedTitle": "Boot Up Failed",
+            "bootUpFailedText": "{name} no es SHUT DOWN."
         }
     }
 }
