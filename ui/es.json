@@ -1210,7 +1210,8 @@
         "runnerHeader": {
             "lastSaved": "Guardado por última vez:",
             "never": "Nunca",
-            "manualSave": "Guardado manual"
+            "manualSave": "Guardado manual",
+            "layoutOptions": "Opciones de diseño"
         }
     }
 }
