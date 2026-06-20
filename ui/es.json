@@ -1195,7 +1195,8 @@
         },
         "endEnc": {
             "endEncounter": "End Encounter",
-            "confirmEndEncounter": "Confirmar Encounter"
+            "confirmEndEncounter": "Confirmar Encounter",
+            "endEncounterLower": "encuentro final"
         }
     }
 }
