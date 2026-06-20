@@ -644,7 +644,8 @@
         "npcFeatures": {
             "saveConfig": "Guardar configuración.",
             "reorder": "Características de reordenamiento",
-            "selectClassToAdd": "Seleccione una clase para añadir características"
+            "selectClassToAdd": "Seleccione una clase para añadir características",
+            "noFeatures": "No NPC características"
         }
     }
 }
