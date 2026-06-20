@@ -776,6 +776,10 @@
             "devNoteLogs": "Esta característica sigue en desarrollo. Los datos adicionales y las opciones de exportación estarán disponibles en futuros cálculos.",
             "deleteArchiveDetail": "Esto marcará el archivo para la eliminación. Ya no aparecerá en esta lista, pero será eliminado permanentemente sobre la base de sus opciones de retención en el Menú Opciones.",
             "noArchivedFoundFiltered": "No hay encuentros archivados encontrados incluyendo \"{search}\""
+        },
+        "encSummary": {
+            "pilots": "pilotos",
+            "turnN": "(TURN {n})"
         }
     }
 }
