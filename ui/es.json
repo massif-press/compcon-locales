@@ -808,7 +808,8 @@
             "newCharacterSheet": "Nueva hoja de caracteres"
         },
         "sheetMgr": {
-            "characterSheets": "Hojas de carácter"
+            "characterSheets": "Hojas de carácter",
+            "archivedSheets": "Fichas archivadas ({n})"
         }
     }
 }
