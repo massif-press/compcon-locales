@@ -763,7 +763,8 @@
             "localActiveEncounters": "Local Active Encounters",
             "deleteEncounter": "Delete Encounter",
             "createNewEncounter": "Crear nuevo contador",
-            "archivedEncounters": "Encuentros archivados ({n})"
+            "archivedEncounters": "Encuentros archivados ({n})",
+            "noArchivedFound": "No hay encuentros archivados encontrados"
         }
     }
 }
