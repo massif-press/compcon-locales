@@ -739,7 +739,8 @@
             "addFromRoster": "añadir de la lista",
             "addToEncounter": "Agregar al encuentro",
             "removeFromEncounter": "Eliminar del Encuentro",
-            "playedBy": "Jugado por"
+            "playedBy": "Jugado por",
+            "pilotCombatStats": "Pilot Combat Stats"
         }
     }
 }
