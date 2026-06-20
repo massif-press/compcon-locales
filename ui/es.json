@@ -1221,6 +1221,10 @@
         "endRound": {
             "endRound": "Ronda final",
             "confirmEndRound": "Confirmación final"
+        },
+        "actionChips": {
+            "protocol": "Protocolo",
+            "quickAction": "Acción rápida"
         }
     }
 }
