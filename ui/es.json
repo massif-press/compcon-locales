@@ -666,7 +666,8 @@
             "whatIs": "¿Qué es un Doodad?"
         },
         "npcEditor": {
-            "v2Export": "v2 Export"
+            "v2Export": "v2 Export",
+            "statblock": "Estadísticas"
         }
     }
 }
