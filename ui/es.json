@@ -690,7 +690,8 @@
             "ejectFailedText": "{name} no se monta.",
             "pilotEjectedTitle": "Pilot Ejected",
             "pilotEjectedText": "{name} ha sido expulsado del mech y ahora es IMPAIRED.",
-            "dismountFailedText": "{name} no se monta."
+            "dismountFailedText": "{name} no se monta.",
+            "pilotDismountedTitle": "Pilot Dismount"
         }
     }
 }
