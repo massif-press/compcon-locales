@@ -741,7 +741,8 @@
             "removeFromEncounter": "Eliminar del Encuentro",
             "playedBy": "Jugado por",
             "pilotCombatStats": "Pilot Combat Stats",
-            "activeMech": "ACTIVE MECH"
+            "activeMech": "ACTIVE MECH",
+            "activeMechTooltip": "El mech activo será instantánea para su uso en este encuentro. Una vez iniciado el encuentro, el mech activo no se puede cambiar sin restablecer las estadísticas del mech"
         }
     }
 }
