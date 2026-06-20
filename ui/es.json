@@ -1238,7 +1238,8 @@
         },
         "joinTable": {
             "sortOnline": "Ordenar por Estado en línea",
-            "sortGm": "Ordenar por GM"
+            "sortGm": "Ordenar por GM",
+            "sortLastOnline": "Ordenar por Last Online"
         }
     }
 }
