@@ -756,7 +756,8 @@
         },
         "labels": {
             "round": "ROUND",
-            "lastUpdate": "ÚLTIMO UPDATE"
+            "lastUpdate": "ÚLTIMO UPDATE",
+            "archived": "ARCHIVED"
         }
     }
 }
