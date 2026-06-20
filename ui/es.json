@@ -599,6 +599,9 @@
             "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room para un Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en el {link}",
             "linkText": "No hay espacio para una página Wallflower: Act 1 itch.io.",
             "help2": "Si ya ha descargado el LCP GM de Wallflower, puede importarlo a COMP/CON a través del Administrador de Contenidos disponible en el menú principal o en el menú Opciones en el lado derecho de la barra de navegación."
+        },
+        "npcBuilder": {
+            "noClass": "No NPC Clase"
         }
     }
 }
