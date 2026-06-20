@@ -603,7 +603,8 @@
         "npcBuilder": {
             "noClass": "No NPC Clase",
             "setClass": "Establecer NPC Clase",
-            "npcTag": "NPC TAG"
+            "npcTag": "NPC TAG",
+            "templates": "TEMPLATES"
         }
     }
 }
