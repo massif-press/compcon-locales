@@ -717,7 +717,8 @@
         },
         "pcSheet": {
             "activeMechChangedTitle": "Active Mech Changed",
-            "activeMechChangedText": "Mech activo cambió a {mechName}. El estado de la hoja de caracteres ha sido reajustado."
+            "activeMechChangedText": "Mech activo cambió a {mechName}. El estado de la hoja de caracteres ha sido reajustado.",
+            "saveSuccessfulText": "Personaje guardado Hoja: {callsign} en la Ronda {round}"
         }
     }
 }
