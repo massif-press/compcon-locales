@@ -1243,7 +1243,9 @@
             "sortNextSession": "Ordenar por próxima sesión",
             "online": "En línea",
             "gm": "GM",
-            "lastOnline": "Último online"
+            "lastOnline": "Último online",
+            "cdt": "CDT",
+            "nextSession": "Siguiente período de sesiones"
         }
     }
 }
