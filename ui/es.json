@@ -730,7 +730,8 @@
             "exportAsJson": "Exportar como JSON",
             "dangerZone": "Zona De Peligro",
             "apply": "Aceptar",
-            "target": "Destino"
+            "target": "Destino",
+            "override": "anulación"
         }
     }
 }
