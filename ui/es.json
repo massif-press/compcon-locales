@@ -601,7 +601,8 @@
             "help2": "Si ya ha descargado el LCP GM de Wallflower, puede importarlo a COMP/CON a través del Administrador de Contenidos disponible en el menú principal o en el menú Opciones en el lado derecho de la barra de navegación."
         },
         "npcBuilder": {
-            "noClass": "No NPC Clase"
+            "noClass": "No NPC Clase",
+            "setClass": "Establecer NPC Clase"
         }
     }
 }
