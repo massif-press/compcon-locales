@@ -685,7 +685,8 @@
             "addedText": "{name} se ha añadido al encuentro."
         },
         "mechActions": {
-            "preparedTitle": "Mech Prepared"
+            "preparedTitle": "Mech Prepared",
+            "ejectFailedTitle": "Eject Failed"
         }
     }
 }
