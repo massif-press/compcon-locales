@@ -832,7 +832,8 @@
             "mounted": "MOUNTED",
             "unmounted": "UNMOUNTED",
             "roundN": "Ronda {n}",
-            "started": "comenzado"
+            "started": "comenzado",
+            "lastTurn": "última vuelta"
         }
     }
 }
