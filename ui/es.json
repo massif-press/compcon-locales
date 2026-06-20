@@ -1228,7 +1228,8 @@
         },
         "pcEndRound": {
             "forfeitActions": "Terminar la ronda perderá cualquier acción no utilizada.",
-            "nextRound": "Siguiente ronda:"
+            "nextRound": "Siguiente ronda:",
+            "willLoseStatuses": "perderá los siguientes estatus:"
         }
     }
 }
