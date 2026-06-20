@@ -711,7 +711,8 @@
         "npcActions": {
             "npcPreparedTitle": "NPC Preparados",
             "npcStabilizedTitle": "NPC Stabilized",
-            "npcStabilizedText": "{name} ha despejado todo HEAT, ya no es EXPOSADO, y ha recargado sus armas."
+            "npcStabilizedText": "{name} ha despejado todo HEAT, ya no es EXPOSADO, y ha recargado sus armas.",
+            "npcHiddenTitle": "NPC Hidden"
         }
     }
 }
