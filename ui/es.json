@@ -652,7 +652,8 @@
         },
         "eidolonPrint": {
             "classLabel": "Clase {class}",
-            "persistentTraits": "Traits persistentes"
+            "persistentTraits": "Traits persistentes",
+            "layer": "LAYER"
         }
     }
 }
