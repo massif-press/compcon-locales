@@ -1232,7 +1232,8 @@
             "willLoseStatuses": "perderá los siguientes estatus:",
             "atThe": "en el",
             "endsOnTurn": "{when} de tu turno",
-            "braceExit": "Usted sale {braced} y entra {cooldown} estado."
+            "braceExit": "Usted sale {braced} y entra {cooldown} estado.",
+            "braced": "BRACED"
         }
     }
 }
