@@ -1185,7 +1185,8 @@
             "unmounted": "Sin Montar",
             "roundN": "Ronda {n}",
             "started": "iniciado",
-            "lastTurn": "último turno"
+            "lastTurn": "último turno",
+            "na": "N/A"
         },
         "campaignDialog": {
             "setCampaign": "Set Campaign"
@@ -1202,6 +1203,12 @@
         "sortBar": {
             "sortByRecent": "Ordenar por Reciente",
             "sortByCreated": "Ordenar por timestamp creado"
+        },
+        "organizer": {
+            "selected": "seleccionada"
+        },
+        "runnerHeader": {
+            "lastSaved": "Guardado por última vez:"
         }
     }
 }
