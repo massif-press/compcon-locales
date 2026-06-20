@@ -723,6 +723,9 @@
         },
         "stats": {
             "hitPoints": "HIT POINTS"
+        },
+        "common": {
+            "currentlySelected": "Actualmente seleccionado:"
         }
     }
 }
