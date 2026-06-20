@@ -729,7 +729,8 @@
             "destroyed": "DESTROYED",
             "exportAsJson": "Exportar como JSON",
             "dangerZone": "Zona De Peligro",
-            "apply": "Aceptar"
+            "apply": "Aceptar",
+            "target": "Destino"
         }
     }
 }
