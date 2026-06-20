@@ -1250,7 +1250,8 @@
             "currentlyRunning": "Actualmente",
             "players": "Jugadores",
             "connect": "Connect",
-            "gmOffline": "GM OFFLINE"
+            "gmOffline": "GM OFFLINE",
+            "archivedTables": "Cuadros archivados"
         }
     }
 }
