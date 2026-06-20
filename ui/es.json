@@ -824,6 +824,9 @@
             "repCap": "RepCap",
             "campaignName": "Nombre de la campaña",
             "createAndLaunch": "Crear y lanzar el modo ACtive"
+        },
+        "sheetItem": {
+            "archiveSheet": "Ficha de archivo"
         }
     }
 }
