@@ -494,11 +494,18 @@
         "v2ImportNotify": {
             "importedSuccessfully": "Importado con éxito.",
             "importFailedText": "La importación falló: {error}"
+        },
+        "optionsPage": {
+            "tabStorage": "Almacenamiento"
+        },
+        "packsList": {
+            "activated": "activado"
         }
     },
     "gm": {
         "import": {
-            "completeImport": "Importación completa ({n} Artículos)"
+            "completeImport": "Importación completa ({n} Artículos)",
+            "collection": "Colección"
         },
         "campaign": {
             "versionLabel": "v{version}",
@@ -509,28 +516,40 @@
             "currentlyViewing": "Actualmente viendo",
             "exportEditableHelp": "Puede exportar esta campaña editable como archivo JSON para copia de seguridad, transferencia de dispositivos o edición colaborativa.",
             "toProduce": "Para producir un paquete de campaña adecuado para la distribución, seleccione {publish} en su lugar.",
-            "deletePageConfirm": "¿Quieres borrar el {type} \"{title}\"? Esta acción no se puede deshacer."
+            "deletePageConfirm": "¿Quieres borrar el {type} \"{title}\"? Esta acción no se puede deshacer.",
+            "jsonFile": "Archivo JSON",
+            "addSectionBtn": "Añadir sección",
+            "major": "Mayor",
+            "minor": "Menor"
         },
         "encounter": {
             "combatantAddedTitle": "{name} Añadido",
             "combatantAddedText": "Se agregó una instancia de {name} a {encounterName}."
         },
         "labels": {
-            "valueOptional": "Valor (opcional)"
+            "valueOptional": "Valor (opcional)",
+            "labels": "Etiquetas",
+            "label": "Etiqueta",
+            "addLabel": "Añadir etiqueta",
+            "sortAlphabetically": "Ordenar alfabéticamente"
         },
         "stats": {
-            "noStats": "No hay estadísticas para mostrar"
+            "noStats": "No hay estadísticas para mostrar",
+            "custom": "Personalizado"
         },
         "labelDialog": {
             "addOverwrite": "Esto añadirá {emphasis} el valor de la etiqueta para todos los elementos seleccionados.",
             "deleteText": "Esto {emphasis} el valor de la etiqueta para todos los elementos seleccionados."
         },
         "folder": {
-            "noFolder": "No hay carpeta"
+            "noFolder": "No hay carpeta",
+            "setFolder": "Seleccionar carpeta"
         },
         "filter": {
             "showItemsWith": "Mostrar artículos con:",
-            "clearAllFilters": "Limpiar todos los filtros"
+            "clearAllFilters": "Limpiar todos los filtros",
+            "filters": "Filtros",
+            "labels": "Etiquetas"
         },
         "split": {
             "addType": "Añadir {type}",
@@ -560,23 +579,30 @@
             "h4": "H4",
             "hideTitle": "Ocultar el título",
             "tonal": "Tonal",
-            "deleteItemConfirm": "¿Quieres eliminar este artículo? Esta acción no se puede deshacer."
+            "deleteItemConfirm": "¿Quieres eliminar este artículo? Esta acción no se puede deshacer.",
+            "block": "Bloque",
+            "quote": "Cita"
         },
         "encounterContent": {
-            "map": "Mapa"
+            "map": "Mapa",
+            "image": "Imagen"
         },
         "encPrint": {
-            "extraction": "Extracción"
+            "extraction": "Extracción",
+            "neutral": "Neutral"
         },
         "combatantSelector": {
             "doodads": "Doodads",
             "eidolons": "Eidolons"
         },
         "encImport": {
-            "notEncounterFile": "El archivo seleccionado no contiene datos de encuentro."
+            "notEncounterFile": "El archivo seleccionado no contiene datos de encuentro.",
+            "combatants": "Combatientes"
         },
         "npcFeature": {
-            "nameFeatures": "{name} Características"
+            "nameFeatures": "{name} Características",
+            "base": "Base",
+            "optional": "Opcional"
         },
         "npcAlert": {
             "selectionsComplete": "{source} selecciones completas"
@@ -588,7 +614,8 @@
             "addLayer": "añadir capa",
             "addRandomLayer": "Agregar capa aleatoria",
             "orderLower": "Orden bajo",
-            "orderHigher": "Orden superior"
+            "orderHigher": "Orden superior",
+            "noLayers": "sin capas"
         },
         "layerSelector": {
             "noData": "¡No se han encontrado datos de Eidolon!",
@@ -605,6 +632,17 @@
             "setClass": "Establecer NPC Clase",
             "npcTag": "NPC TAG",
             "templates": "TEMPLATES"
+        },
+        "relationships": {
+            "addRelationship": "Añadir Relación",
+            "label": "Relaciones"
+        },
+        "resolution": "Resolución",
+        "sitrep": {
+            "condition": "Condición"
+        },
+        "npcFeatures": {
+            "saveConfig": "Guardar configuración."
         }
     }
 }
