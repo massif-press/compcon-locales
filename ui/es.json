@@ -707,6 +707,9 @@
             "mechBracedText": "{name} ahora es BRACED.",
             "overwatchTitle": "Mech Overwatch",
             "overwatchText": "{name} está ahora en OVERWATCH."
+        },
+        "npcActions": {
+            "npcPreparedTitle": "NPC Preparados"
         }
     }
 }
