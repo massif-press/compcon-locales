@@ -1174,7 +1174,8 @@
             "str": "STR",
             "repCap": "RepCap",
             "campaignName": "Nombre de la Campaña",
-            "createAndLaunch": "Crear y Lanzar Modo Activo"
+            "createAndLaunch": "Crear y Lanzar Modo Activo",
+            "heat": "Calor"
         },
         "sheetItem": {
             "archiveSheet": "Archivar Hoja",
