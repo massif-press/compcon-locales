@@ -822,7 +822,8 @@
             "llLevel": "LL{n}",
             "str": "STR",
             "repCap": "RepCap",
-            "campaignName": "Nombre de la campaña"
+            "campaignName": "Nombre de la campaña",
+            "createAndLaunch": "Crear y lanzar el modo ACtive"
         }
     }
 }
