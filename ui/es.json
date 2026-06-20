@@ -642,7 +642,8 @@
             "condition": "Condición"
         },
         "npcFeatures": {
-            "saveConfig": "Guardar configuración."
+            "saveConfig": "Guardar configuración.",
+            "reorder": "Características de reordenamiento"
         }
     }
 }
