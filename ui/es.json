@@ -772,7 +772,8 @@
             "battlefieldTelemetry": "BATTLEFIELD TELEMETRY",
             "combatLogs": "COMBAT LOGS",
             "deleteArchivePrompt": "Eliminar este archivo?",
-            "devNoteReport": "Esta característica sigue en desarrollo. Los informes posteriores a la acción se ampliarán en futuros trabajos."
+            "devNoteReport": "Esta característica sigue en desarrollo. Los informes posteriores a la acción se ampliarán en futuros trabajos.",
+            "devNoteLogs": "Esta característica sigue en desarrollo. Los datos adicionales y las opciones de exportación estarán disponibles en futuros cálculos."
         }
     }
 }
