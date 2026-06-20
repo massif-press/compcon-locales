@@ -790,6 +790,9 @@
             "activeMech": "Active Mech",
             "addFromFile": "Añadir desde el archivo",
             "addPlaceholder": "añadir piloto placeholder"
+        },
+        "newEnc": {
+            "title": "Nuevo contador activo local"
         }
     }
 }
