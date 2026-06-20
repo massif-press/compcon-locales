@@ -781,7 +781,13 @@
             "pilots": "pilotos",
             "turnN": "(TURN {n})",
             "requiresPilot": "Un encuentro requiere al menos un piloto.",
-            "createAndLaunch": "Crear y lanzar contador"
+            "createAndLaunch": "Crear y lanzar contador",
+            "createReturnLibrary": "Crear y volver a la biblioteca"
+        },
+        "pilotsPanel": {
+            "title": "Pilotos",
+            "ll": "LL",
+            "activeMech": "Active Mech"
         }
     }
 }
