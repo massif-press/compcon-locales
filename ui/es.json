@@ -661,6 +661,12 @@
         },
         "eidolonTier": {
             "heading": "EIDOLON TIER"
+        },
+        "doodad": {
+            "whatIs": "¿Qué es un Doodad?"
+        },
+        "npcEditor": {
+            "v2Export": "v2 Export"
         }
     }
 }
