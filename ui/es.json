@@ -1233,7 +1233,8 @@
             "atThe": "en el",
             "endsOnTurn": "{when} de tu turno",
             "braceExit": "Usted sale {braced} y entra {cooldown} estado.",
-            "braced": "BRACED"
+            "braced": "BRACED",
+            "braceCooldown": "BRACE COOLDOWN"
         }
     }
 }
