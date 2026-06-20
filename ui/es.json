@@ -586,7 +586,8 @@
         },
         "eidolon": {
             "addLayer": "añadir capa",
-            "addRandomLayer": "Agregar capa aleatoria"
+            "addRandomLayer": "Agregar capa aleatoria",
+            "orderLower": "Orden bajo"
         }
     }
 }
