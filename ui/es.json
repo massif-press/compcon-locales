@@ -1186,6 +1186,9 @@
             "roundN": "Ronda {n}",
             "started": "iniciado",
             "lastTurn": "último turno"
+        },
+        "campaignDialog": {
+            "setCampaign": "Set Campaign"
         }
     }
 }
