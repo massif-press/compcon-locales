@@ -817,6 +817,12 @@
             "savePilotHistory": "Guardar historia piloto",
             "featureInDev": "Gráficos en el desarrollo (v3.1)",
             "encounterHash": "encuentro"
+        },
+        "newSheet": {
+            "llLevel": "LL{n}",
+            "str": "STR",
+            "repCap": "RepCap",
+            "campaignName": "Nombre de la campaña"
         }
     }
 }
