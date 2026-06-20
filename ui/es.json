@@ -761,7 +761,8 @@
         },
         "encMgr": {
             "localActiveEncounters": "Local Active Encounters",
-            "deleteEncounter": "Delete Encounter"
+            "deleteEncounter": "Delete Encounter",
+            "createNewEncounter": "Crear nuevo contador"
         }
     }
 }
