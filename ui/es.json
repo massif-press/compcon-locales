@@ -480,11 +480,53 @@
             "colIssue": "Inconveniente",
             "colFixable": "Reparable",
             "noIssues": "No se han encontrado problemas de migración.",
-            "colCategory": "Categoría"
+            "colCategory": "Categoría",
+            "manualActionRequired": "Medidas manuales necesarias",
+            "catLcpOrigin": "LCP Origen"
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
             "recentSearches": "búsquedas recientes"
+        },
+        "achievementItem": {
+            "hiddenNote": "Este logro está oculto y será revelado una vez desbloqueado"
+        },
+        "v2ImportNotify": {
+            "importedSuccessfully": "Importado con éxito.",
+            "importFailedText": "La importación falló: {error}"
+        }
+    },
+    "gm": {
+        "import": {
+            "completeImport": "Importación completa ({n} Artículos)"
+        },
+        "campaign": {
+            "versionLabel": "v{version}",
+            "deleteWarn1": "Esta campaña será {strong}. Esta acción no se puede deshacer. Si estás seguro de que quieres borrar",
+            "permanentlyDeleted": "eliminada permanente",
+            "deletePermanently": "Eliminar la campaña permanente",
+            "lcdExt": ".lcd",
+            "currentlyViewing": "Actualmente viendo",
+            "exportEditableHelp": "Puede exportar esta campaña editable como archivo JSON para copia de seguridad, transferencia de dispositivos o edición colaborativa.",
+            "toProduce": "Para producir un paquete de campaña adecuado para la distribución, seleccione {publish} en su lugar.",
+            "deletePageConfirm": "¿Quieres borrar el {type} \"{title}\"? Esta acción no se puede deshacer."
+        },
+        "encounter": {
+            "combatantAddedTitle": "{name} Añadido",
+            "combatantAddedText": "Se agregó una instancia de {name} a {encounterName}."
+        },
+        "labels": {
+            "valueOptional": "Valor (opcional)"
+        },
+        "stats": {
+            "noStats": "No hay estadísticas para mostrar"
+        },
+        "labelDialog": {
+            "addOverwrite": "Esto añadirá {emphasis} el valor de la etiqueta para todos los elementos seleccionados.",
+            "deleteText": "Esto {emphasis} el valor de la etiqueta para todos los elementos seleccionados."
+        },
+        "folder": {
+            "noFolder": "No hay carpeta"
         }
     }
 }
