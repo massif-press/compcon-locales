@@ -829,7 +829,8 @@
             "archiveSheet": "Ficha de archivo",
             "exportSheet": "Hoja de exportación",
             "deleteSheet": "Suprímase la hoja de cálculo",
-            "mounted": "MOUNTED"
+            "mounted": "MOUNTED",
+            "unmounted": "UNMOUNTED"
         }
     }
 }
