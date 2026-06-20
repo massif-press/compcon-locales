@@ -596,7 +596,8 @@
         },
         "eidolonData": {
             "noData": "¡No se han encontrado datos del editor de Eidolon!",
-            "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room para un Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en el {link}"
+            "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room para un Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en el {link}",
+            "linkText": "No hay espacio para una página Wallflower: Act 1 itch.io."
         }
     }
 }
