@@ -1227,7 +1227,8 @@
             "quickAction": "Acción rápida"
         },
         "pcEndRound": {
-            "forfeitActions": "Terminar la ronda perderá cualquier acción no utilizada."
+            "forfeitActions": "Terminar la ronda perderá cualquier acción no utilizada.",
+            "nextRound": "Siguiente ronda:"
         }
     }
 }
