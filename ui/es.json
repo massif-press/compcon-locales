@@ -740,7 +740,8 @@
             "addToEncounter": "Agregar al encuentro",
             "removeFromEncounter": "Eliminar del Encuentro",
             "playedBy": "Jugado por",
-            "pilotCombatStats": "Pilot Combat Stats"
+            "pilotCombatStats": "Pilot Combat Stats",
+            "activeMech": "ACTIVE MECH"
         }
     }
 }
