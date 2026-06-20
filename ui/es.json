@@ -678,6 +678,10 @@
             "saveSuccessfulText": "Encuentro guardado: {name} en la Ronda {round}",
             "saveFailedText": "Failed to save Encounter: {name}",
             "failedToCopyTitle": "Error de copia."
+        },
+        "addCombatant": {
+            "doodadAddedTitle": "Doodad Añadido",
+            "eidolonAddedTitle": "Eidolón añadido"
         }
     }
 }
