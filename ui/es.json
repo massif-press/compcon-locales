@@ -1249,7 +1249,8 @@
             "at8pm": "a las 8 PM CDT",
             "currentlyRunning": "Actualmente",
             "players": "Jugadores",
-            "connect": "Connect"
+            "connect": "Connect",
+            "gmOffline": "GM OFFLINE"
         }
     }
 }
