@@ -655,6 +655,9 @@
             "persistentTraits": "Traits persistentes",
             "layer": "LAYER",
             "newShards": "Nuevos Shards: {n}"
+        },
+        "featurePrint": {
+            "weaponAttacks": "Este arma puede hacer ataques {count} a la vez."
         }
     }
 }
