@@ -482,30 +482,73 @@
             "noIssues": "No se han encontrado problemas de migración.",
             "colCategory": "Categoría",
             "manualActionRequired": "Medidas manuales necesarias",
-            "catLcpOrigin": "LCP Origen"
+            "catLcpOrigin": "LCP Origen",
+            "catFlavorText": "Texto Descriptivo",
+            "catNpcStats": "Estadísticas PNJ",
+            "foundFixable": "Hallado {count} problema reparable | Hallados {count} problemas reparables",
+            "andRequiringManual": " y {count} problema que requiere medidas manuales | y {count} problemas que requieren medidas manuales",
+            "applyFixesButton": "Aplicar {count} Reparación | Aplicar {count} Reparaciones"
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
             "recentSearches": "búsquedas recientes"
         },
         "achievementItem": {
-            "hiddenNote": "Este logro está oculto y será revelado una vez desbloqueado"
+            "hiddenNote": "Este logro está oculto y será revelado una vez desbloqueado",
+            "dataRedacted": "Datos censurados",
+            "secretLabel": "Logro secreto",
+            "unlockedLabel": "Desbloqueado",
+            "createdBy": "Creado por:"
         },
         "v2ImportNotify": {
             "importedSuccessfully": "Importado con éxito.",
-            "importFailedText": "La importación falló: {error}"
+            "importFailedText": "La importación falló: {error}",
+            "reimportSuccessText": "{count} artículo importado con éxito. | {count} artículos importados con éxito.",
+            "reimportPendingText": "{count} artículo aún pendiente contenido faltante. | {count} artículos aún pendientes contenido faltante.",
+            "noItemsToReimport": "No hay artículos para reimportar.",
+            "reimportFailedText": "Fallo en la re-importación: {error}",
+            "missingDependencies": "Las dependencias faltantes no están disponibles aún.",
+            "forceImportComplete": "Importación forzada completa.",
+            "forceImportFailedText": "Fallo en importación forzada: {error}"
         },
         "optionsPage": {
-            "tabStorage": "Almacenamiento"
+            "tabStorage": "Almacenamiento",
+            "tabLog": "Bitácora"
         },
         "packsList": {
-            "activated": "activado"
+            "activated": "activado",
+            "toggleSuccessText": "Paquete {action} exitosamente.",
+            "deactivated": "desactivado",
+            "toggleErrorText": "No habilitado para activar LCP: {error}",
+            "deleteAllSuccess": "Borrados exitosamente todos los paquetes de contenido.",
+            "missingDependencies": "Falta una o más dependencias de este paquete y no se puede activar."
+        },
+        "alt": {
+            "netlifyStatus": "Estado Netlify",
+            "joinTheLancerDiscord": "Unirse al discord LANCER",
+            "supportCompconOnPatreon": "Apoyar a COMP/CON en Patreon"
+        },
+        "titles": {
+            "selectAll": "Seleccionar Todo",
+            "version": "VERSIÓN",
+            "warning": "Advertencia",
+            "resetAchievements": "restablecer logros",
+            "v2DataMigration": "Migración de Datos V2"
         }
     },
     "gm": {
         "import": {
             "completeImport": "Importación completa ({n} Artículos)",
-            "collection": "Colección"
+            "collection": "Colección",
+            "stagedItems": "Artículos preparados",
+            "readyForImport": "El artículo está listo para importar",
+            "missingPacks": "Faltan paquetes de contenido necesarios para el artículo. Este artículo se guardará en la colección Importados v2 en el Gestor de Contenidos, y se podrá importar una vez instalados y activados los paquetes de contenido necesarios.",
+            "oldVersionWarning": "Algunos datos a ser importados se crearon usando una versión anterior de @:{'common.appName'} y no incluye información anidada de los paquetes de contenido. Estos datos se guardarán en la colección Importados v2 del Gestor de Contenidos, pero no se podrán importar hasta que se instalen y activen los paquetes de contenido necesarios. Estos artículos pueden ser importados una vez los paquetes de contenido requeridos sean instalados y activados, o importados por la fuerza en el Gestor de Contenidos.",
+            "missingContentPacks": "Paquetes de contenido faltantes:",
+            "importErrorTitle": "Importación Fallida",
+            "encounterImportErrorText": "Fallo al importar encuentro:{error}",
+            "v2BackupTitle": "Respaldos Importados a v2",
+            "v2BackupText": "{count} encuentro guardado en Importados v2 para posterior importación. | {count} encuentros guardados en Importados v2 para posterior importación."
         },
         "campaign": {
             "versionLabel": "v{version}",
@@ -520,7 +563,45 @@
             "jsonFile": "Archivo JSON",
             "addSectionBtn": "Añadir sección",
             "major": "Mayor",
-            "minor": "Menor"
+            "minor": "Menor",
+            "managedIn": "Las campañas importadas se gestionan en la {library}",
+            "yourCampaigns": "Sus campañas",
+            "unpublished": "Inédito",
+            "permanentDeletion": "Eliminación Permanente",
+            "deleteWarn2": "escriba el título de la campaña en el campo de entrada de texto a continuación y presione {confirm}.",
+            "importJsonTitle": "Importar Datos JSON de Campaña",
+            "importHelp": "Esta herramienta importará una campaña editable e inédita {jsonFile} desde su dispositivo.{br}Para importar un archivo de campaña publicado con la extensión {lcd} a su colección, utilice la herramienta de importación de archivos en el menú {campaignCollection}, o la herramienta Importar Campaña en el cuadro de diálogo {manageContent} bajo el menú principal.",
+            "campaignCollection": "Colección de Campañas",
+            "addSubsectionBtn": "Añadir Sub-sección",
+            "campaignInfo": "Información de campaña",
+            "saveCampaign": "Guardar Campaña",
+            "exportCampaign": "Exportar Campaña",
+            "currentPublishedVersion": "Versión Publicada Actual",
+            "publishCampaign": "Publicar Campaña",
+            "exportCampaignJson": "Exportar Campaña a JSON",
+            "returnToIndex": "Volver al Índice",
+            "notPublishedHelp": "Esta campaña no ha sido publicada. Publique una primera versión de esta campaña para exportar un paquete de campaña a través de un archivo o del código para compartir.",
+            "releaseFor": "Lanzar para",
+            "patch": "Parche",
+            "versionExists": "¡Versión {version} ya existe!",
+            "releaseNotes": "Notas de lanzamiento y cambios:",
+            "publishNewVersion": "Publicar Nueva Versión",
+            "latestVersion": "Versión mas reciente",
+            "latestChanges": "Cambios más recientes:",
+            "exportLcd": "Exportar Paquete .lcd",
+            "exportLcdHelp": "Descargar un archivo Lancer Campaign Distributable (.lcd) que se puede importar en @:{'common.appName'} por otro usuario",
+            "saveLocal": "Guardar en la Colección Local",
+            "saveLocalHelp": "Guardar una copia de solo lectura de esta campaña en su Biblioteca de Campañas local para usarla en modo activo o en jugando en línea",
+            "copyShareCodeHelp": "Copie este código a su portapapeles para compartir esta campaña. Los códigos compartidos se pueden utilizar para importar esta campaña en otra instancia @:{'common.appName'}.",
+            "generateShareCode": "Generar Código para Compartir",
+            "generateShareCodeHelp": "Subir esta campaña al repositorio de la nube para generar un código para compartir para que otros usuarios puedan importar esta campaña en su instancia @:{'common.appName'}. Generar un código para compartir actualizará automáticamente el repositorio en la nube con la versión más reciente de esta campaña cuando se publique una nueva versión.",
+            "changeSectionType": "Cambiar Tipo de Sección",
+            "movePage": "Mover Página",
+            "moveToTop": "mover al principio",
+            "moveUp": "mover arriba",
+            "moveDown": "mover abajo",
+            "moveToBottom": "mover al final",
+            "selectEncounter": "Seleccionar Encuentro"
         },
         "encounter": {
             "combatantAddedTitle": "{name} Añadido",
@@ -531,38 +612,60 @@
             "labels": "Etiquetas",
             "label": "Etiqueta",
             "addLabel": "Añadir etiqueta",
-            "sortAlphabetically": "Ordenar alfabéticamente"
+            "sortAlphabetically": "Ordenar alfabéticamente",
+            "heading": "Etiquetas DJ",
+            "labelPalette": "Paleta de Etiqueta",
+            "paletteHeading": "Paleta de Etiqueta",
+            "sortByUsage": "Ordenar por Uso",
+            "noLabelsAvailable": "Sin Etiquetas Disponibles",
+            "noLabels": "Sin Etiquetas"
         },
         "stats": {
             "noStats": "No hay estadísticas para mostrar",
-            "custom": "Personalizado"
+            "custom": "Personalizado",
+            "resetConfirm": "Esto restablecerá todas las estadísticas a los valores predeterminados para T{tier} {name}. ¿Estás seguro?",
+            "confirmResetStats": "Confirme Reinicio de las Estadísticas",
+            "addStat": "Añadir Estadística",
+            "statCountSuffix": "{n} Estadística | {n} Estadísticas"
         },
         "labelDialog": {
             "addOverwrite": "Esto añadirá {emphasis} el valor de la etiqueta para todos los elementos seleccionados.",
-            "deleteText": "Esto {emphasis} el valor de la etiqueta para todos los elementos seleccionados."
+            "deleteText": "Esto {emphasis} el valor de la etiqueta para todos los elementos seleccionados.",
+            "orOverwrite": "o sobre-escribirá"
         },
         "folder": {
-            "noFolder": "No hay carpeta",
-            "setFolder": "Seleccionar carpeta"
+            "noFolder": "No hay Carpeta",
+            "setFolder": "Seleccionar carpeta",
+            "collectionFolder": "Directorio de colección"
         },
         "filter": {
             "showItemsWith": "Mostrar artículos con:",
-            "clearAllFilters": "Limpiar todos los filtros",
+            "clearAllFilters": "Limpiar Todos los Filtros",
             "filters": "Filtros",
-            "labels": "Etiquetas"
+            "labels": "Etiquetas",
+            "hideItemsWith": "Ocultar artículos con:",
+            "showAll": "Mostrar Todos",
+            "hideAll": "Ocultar Todos"
         },
         "split": {
             "addType": "Añadir {type}",
-            "createNewType": "Crear nuevo {type}"
+            "createNewType": "Crear nuevo {type}",
+            "itemsHidden": "{n} artículos ocultos por filtrado"
         },
         "itemCard": {
-            "tierShort": "T{tier}"
+            "tierShort": "T{tier}",
+            "classLabel": "Clase {class}"
         },
         "noItem": {
-            "noItemSelected": "No se ha seleccionado ningún artículo"
+            "noItemSelected": "No se ha seleccionado ningún artículo",
+            "missingContent": "Contenido del DJ Faltante"
         },
         "narrative": {
-            "itemTypePlural": "{type}s"
+            "itemTypePlural": "{type}s",
+            "additionalDetail": "Detalle adicional",
+            "clocks": "Relojes",
+            "addTable": "Añadir Nueva Mesa",
+            "viewCollections": "Ver Colecciones"
         },
         "print": {
             "othersCount": "(+{n} otros)"
@@ -570,18 +673,34 @@
         "overview": {
             "recommendedFor": "Recomendado para",
             "to": "a",
-            "players": "jugadores"
+            "players": "jugadores",
+            "bannerImage": "Imagen del Banderín de la Campaña",
+            "setBannerImage": "Seleccionar Imagen de Banderín",
+            "imagesMustLink": "Las imágenes de la campaña deben estar vinculadas, y no pueden provenir de datos locales de @:{'common.appName'} .",
+            "fromLicenseLevels": "Desde los Niveles de Licencia",
+            "authorContact": "Información de contacto del Autor (Opcional)",
+            "addContact": "Agregar Nuevo Contacto",
+            "coverImage": "Imagen de Portada de Campaña",
+            "setCoverImage": "Configurar Imagen de Portada",
+            "deleteHistory": "Eliminar Historia (v.{ver})"
         },
         "pageContent": {
             "h1": "H1",
             "h2": "H2",
             "h3": "H3",
             "h4": "H4",
-            "hideTitle": "Ocultar el título",
+            "hideTitle": "Ocultar el Título",
             "tonal": "Tonal",
             "deleteItemConfirm": "¿Quieres eliminar este artículo? Esta acción no se puede deshacer.",
             "block": "Bloque",
-            "quote": "Cita"
+            "quote": "Cita",
+            "outlined": "Delineado",
+            "clippedBlock": "Bloque Recortado",
+            "themeAwareColors": "Colores Sensibles al Tema",
+            "palette": "Paleta",
+            "themeColorsHelp": "Estos colores cambiarán según el tema @:{'common.appName'} seleccionado por el usuario",
+            "paletteColorsHelp": "Estos colores {strong} cambian con base en el tema @:{'common.appName'} seleccionado por el usuario",
+            "noImage": "Sin Imagen"
         },
         "encounterContent": {
             "map": "Mapa",
@@ -589,251 +708,483 @@
         },
         "encPrint": {
             "extraction": "Extracción",
-            "neutral": "Neutral"
+            "neutral": "Neutral",
+            "enemies": "Enemigos",
+            "allies": "Aliados",
+            "atLeastPcs": "Con {count} o más PJs",
+            "reinforcesOnTurn": "Refuerzos en Tuno {turn}",
+            "npcTracking": "Rastreo de PNJ",
+            "pcsAllies": "PJs/alliados"
         },
         "combatantSelector": {
             "doodads": "Doodads",
-            "eidolons": "Eidolons"
+            "eidolons": "Eidolons",
+            "selectNpc": "Seleccione un PNJ"
         },
         "encImport": {
             "notEncounterFile": "El archivo seleccionado no contiene datos de encuentro.",
-            "combatants": "Combatientes"
+            "combatants": "Combatientes",
+            "stagedEncounters": "Encuentros escenificados",
+            "readyForImport": "Encuentro listo para importar",
+            "missingNpcs": "Este encuentro hace referencia a PNJs que aún no han sido importados. Se guardará en la colección Importados v2 en el Gestor de Contenidos y se podrá importar una vez que estén disponibles los PNJs requeridos.",
+            "someMissingNpcs": "Algunos encuentros hacen referencia a PNJs que aún no han sido importados. Estos encuentros se guardarán en la colección Importados v2 en el Gestor de Contenidos y podrán ser importados cuando estén disponibles los PNJs requeridos.",
+            "importCount": "Importar ({n} Encuentro{plural})"
         },
         "npcFeature": {
             "nameFeatures": "{name} Características",
             "base": "Base",
-            "optional": "Opcional"
+            "optional": "Opcional",
+            "setFeatures": "Seleccionar Características de PNJ",
+            "resetFeatures": "Restablecer Características",
+            "allAvailableFeatures": "Todas las Características Disponibles",
+            "allAssignedFeatures": "Todas las Características Asignadas",
+            "selectedClass": "Clase seleccionada",
+            "selectedTemplate": "Plantilla{plural} seleccionada{plural}",
+            "otherNpcClasses": "Otras Clases de PNJ",
+            "otherNpcTemplates": "Otras Plantillas de PNJ",
+            "otherFeatures": "Otras Características",
+            "featureType": "{type} Característica",
+            "noSelectionsRemaining": "Sin selecciones de Característica de PNJ restantes",
+            "ignoreLimitHint": "Características adicionales más allá de las recomendadas por las directrices se pueden añadir alternando la opción arriba \"Ignorar Límite\"",
+            "noAssigned": "Sin Características de PNJ asignadas",
+            "noneFound": "No se encontraron Características de PNJ para esta selección"
         },
         "npcAlert": {
-            "selectionsComplete": "{source} selecciones completas"
+            "selectionsComplete": "{source} selecciones completas",
+            "selectUpTo": "Puede seleccionar hasta {n} característica adicional | Puede seleccionar hasta {n} características adicionales",
+            "selectN": "Seleccione {n} característica adicional | Seleccione {n} características adicionales"
         },
         "npcTemplate": {
-            "cannotAssign": "No se puede asignar (conflictos con {conflict})"
+            "cannotAssign": "No se puede asignar (conflictos con {conflict})",
+            "noTemplates": "Sin Plantillas",
+            "editTemplates": "Editar Plantillas de PNJ",
+            "assignTemplates": "Asignar Plantillas de PNJ",
+            "removeTemplate": "Quitar Plantilla",
+            "assignTemplate": "Asignar Plantilla",
+            "selectNpcTemplate": "seleccionar plantilla de pnj"
         },
         "eidolon": {
             "addLayer": "añadir capa",
-            "addRandomLayer": "Agregar capa aleatoria",
-            "orderLower": "Orden bajo",
-            "orderHigher": "Orden superior",
-            "noLayers": "sin capas"
+            "addRandomLayer": "Añadir capa aleatoria",
+            "orderLower": "Ordenar por lo bajo",
+            "orderHigher": "Ordenar por lo alto",
+            "noLayers": "sin capas",
+            "layers": "Capas",
+            "layerDescription": "Descripción de la Capa",
+            "persistentTraitsHeading": "Rasgos persistentes"
         },
         "layerSelector": {
             "noData": "¡No se han encontrado datos de Eidolon!",
-            "help1": "Los datos de Eidolon se incluyen con el No Room for a Wallflower Campaign Book y por lo tanto no se incluyen con COMP/CON por defecto. Puede encontrar datos de Eidolon como contenido descargable adicional en el {link} Página del libro de campaña."
+            "help1": "Los datos de Eidolon se incluyen con el Libro de Campaña No Room for a Wallflower y por lo tanto no se incluyen con @:{'common.appName'} por defecto. Puede encontrar datos de Eidolon como contenido descargable adicional en la {link} página del Libro de Campaña.",
+            "help2": "Si ya ha descargado los datos de Eidolon, puede importarlo a @:{'common.appName'} a través del Gestor de Contenidos disponible en el Menú Principal o en el menú Opciones en el lado derecho de la barra de navegación."
         },
         "eidolonData": {
             "noData": "¡No se han encontrado datos del editor de Eidolon!",
-            "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room para un Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en el {link}",
-            "linkText": "No hay espacio para una página Wallflower: Act 1 itch.io.",
-            "help2": "Si ya ha descargado el LCP GM de Wallflower, puede importarlo a COMP/CON a través del Administrador de Contenidos disponible en el menú principal o en el menú Opciones en el lado derecho de la barra de navegación."
+            "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room para un Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en {link}",
+            "linkText": "Página itch.io de No Room for a Wallflower: Act 1.",
+            "help2": "Si ya ha descargado el LCP de DJ para Wallflower, puede importarlo a @:{'common.appName'} a través del Gestor de Contenidos disponible en el Menú Principal o en el menú Opciones en el lado derecho de la barra de navegación."
         },
         "npcBuilder": {
-            "noClass": "No NPC Clase",
-            "setClass": "Establecer NPC Clase",
-            "npcTag": "NPC TAG",
-            "templates": "TEMPLATES"
+            "noClass": "Sin Clase de NPC",
+            "setClass": "Seleccionar Clase de PNJ",
+            "npcTag": "Chapa PNJ",
+            "templates": "Plantillas",
+            "npcClass": "Clase de PNJ"
         },
         "relationships": {
             "addRelationship": "Añadir Relación",
-            "label": "Relaciones"
+            "label": "Relaciones",
+            "heading": "Relaciones",
+            "linkedEntities": "Entidades Vinculadas"
         },
         "resolution": "Resolución",
         "sitrep": {
-            "condition": "Condición"
+            "condition": "Condición",
+            "presets": "Pre-configuraciones",
+            "myPresets": "Mis pre-configuraciones",
+            "savePreset": "Guardar la Pre-configuración",
+            "modifiedWarning": "Este sitrep ha sido modificado. Cargar una nueva pre-selección eliminará estos cambios. ¿Seguro que quiere continuar?",
+            "deletePresetConfirm": "Eliminar pre-selección {name}? Esto no puede deshacerse."
         },
         "npcFeatures": {
-            "saveConfig": "Guardar configuración.",
-            "reorder": "Características de reordenamiento",
-            "selectClassToAdd": "Seleccione una clase para añadir características",
-            "noFeatures": "No NPC características"
+            "saveConfig": "Guardar Configuración",
+            "reorder": "Reordenar Características",
+            "selectClassToAdd": "Seleccione una Clase para añadir Características",
+            "noFeatures": "Sin Características de PNJ"
         },
         "npcStats": {
-            "activations": "ACTIVATIONS/ROUND"
+            "activations": "Activaciones/ronda"
         },
         "eidolonPrint": {
             "classLabel": "Clase {class}",
-            "persistentTraits": "Traits persistentes",
-            "layer": "LAYER",
-            "newShards": "Nuevos Shards: {n}"
+            "persistentTraits": "Rasgos Persistentes",
+            "layer": "Capa",
+            "newShards": "Nuevos Fragmentos: {n}"
         },
         "featurePrint": {
-            "weaponAttacks": "Este arma puede hacer ataques {count} a la vez."
+            "weaponAttacks": "Esta arma puede hacer {count} ataques a la vez."
         },
         "eidolonTier": {
-            "heading": "EIDOLON TIER"
+            "heading": "Grado de Eidolon"
         },
         "doodad": {
             "whatIs": "¿Qué es un Doodad?"
         },
         "npcEditor": {
-            "v2Export": "v2 Export",
-            "statblock": "Estadísticas"
+            "v2Export": "Exportar v2",
+            "statblock": "Bloque de Estadísticas"
         },
         "fields": {
-            "authors": "Autor(es)"
+            "authors": "Autor(es)",
+            "selectDataFile": "Seleccionar Archivo de Datos",
+            "title": "Título",
+            "newTitle": "Nuevo Título",
+            "statName": "Nombre de Estadística",
+            "folder": "Directorio",
+            "label": "Etiqueta",
+            "value": "Valor",
+            "group": "Grupo",
+            "sort": "Orden",
+            "moveIntoSection": "Mover a sección",
+            "imageUrl": "URL de Imagen",
+            "caption": "Rótulo",
+            "subtitle": "Subtítulo",
+            "campaignDescription": "Descripción de la Campaña",
+            "websiteUrl": "URL del Sitio Red",
+            "service": "Servicio",
+            "contactInformation": "Información de Contacto",
+            "selectEncounterFile": "Seleccionar Archivo de Encuentro",
+            "controlZone": "Zona de Control",
+            "extraction": "Extracción",
+            "conditions": "Condiciones",
+            "enemyForces": "FUERZAS ENEMIGAS",
+            "alliedForces": "FUERZAS ALIADAS",
+            "neutral": "NEUTRAL",
+            "optional": "Opcional",
+            "groupBy": "Agrupar por",
+            "sortBy": "Ordenar por",
+            "encounter": "Encuentro",
+            "pronouns": "Pronombres",
+            "organizationType": "Tipo de Organización",
+            "alias": "Alias",
+            "items": "Artículos",
+            "allowDuplicates": "Permitir Duplicados",
+            "npc": "Pnj",
+            "gmNotes": "notas dj",
+            "mustBeAnItchioUrl": "Debe ser una URL de itch.io para habilitar gestión automática en COMP/CON"
+        },
+        "sync": {
+            "syncCompleteText": "{itemType} {name} sincronizado.",
+            "syncFailedText": "Fallo al sincronizar {itemType} {name}. {err}"
+        },
+        "editorFooter": {
+            "upToDate": "El artículo está al día con los cambios remotos",
+            "downloadRemote": "Descargar todos los cambios remotos para este artículo, sobre-escribiendo datos locales.",
+            "mustLogin": "Debe iniciar sesión para actualizar"
+        },
+        "sectionEditor": {
+            "confirmDelete": "¿Quieres eliminar el artículo de texto titulado \"{title}\"? Esta acción no se puede deshacer.",
+            "addSection": "Agregar Nueva Sección de Texto"
+        },
+        "editorBase": {
+            "descriptionHeading": "{type} descripción",
+            "setLcpConfig": "Establecer Configuración de LCP"
+        },
+        "organizer": {
+            "itemCount": "{n} artículos"
+        },
+        "reinforcements": "Refuerzos",
+        "narrativeLink": {
+            "noElementSelected": "No hay Elemento Seleccionado",
+            "noEncounterSelected": "No hay Encuentro Seleccionado",
+            "linkedHelp": "Este artículo está actualmente vinculado a un Elemento Narrativo en su Colección DJ. Como las modificaciones se hacen al elemento vinculado, este artículo recibirá automáticamente actualizaciones. Pulse el botón para desvincular este artículo de la Colección DJ y almacenarlo como una instancia de elemento en los datos de la campaña.",
+            "relinkHelp": "Para re-vincular este artículo, selecciónelo en el menú \"Seleccionar Elemento Narrativo\".",
+            "notLinkedHelp": "Este artículo no está vinculado a un elemento narrativo en su Colección DJ y no recibirá actualizaciones automáticas, pero se guardará como una instancia de elemento en los datos de la campaña.",
+            "linkHelp": "Para vincular este artículo a un Elemento Narrativo, selecciónelo en el menú \"Seleccionar Elemento Narrativo\".",
+            "unlinkElement": "Des-vincular Elemento",
+            "setNarrativeElement": "Seleccionar Elemento Narrativo",
+            "setEncounter": "Seleccionar Encuentro"
+        },
+        "landing": {
+            "toolkit": "Caja de Herramientas del DJ"
+        },
+        "combatant": {
+            "combatants": "Combatientes",
+            "addNpc": "Agregar PNJ",
+            "selectNpc": "Seleccionar PNJ",
+            "currentlyEditing": "Editando actualmente",
+            "encounterInstance": "(Instancia de Encuentro #{n})",
+            "uniqueInstanceHelp": "Esta es una instancia única de este PNJ enlazado a los datos de este Encuentro. Editar este PNJ no afectará los datos originales del PNJ.",
+            "linkedSource": "La fuente de esta instancia de PNJ está presente en su lista de PNJ ({name}) y puede recibir actualizaciones del original",
+            "notLinkedSource": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ",
+            "notLinkedSourceDot": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ.",
+            "sourceLinked": "Origen Vinculado",
+            "sourceUnavailable": "Origen no disponible",
+            "instanceSource": "Origen de Instancia",
+            "change": "Cambiar",
+            "thisInstance": "Esta Instancia",
+            "source": "Origen",
+            "updateInstanceTooltip": "Actualizar la propiedad de esta instancia con el origen",
+            "updateAllTooltip": "Actualizar todas las propiedades de instancia con el origen",
+            "noChanges": "Sin cambios",
+            "mainForce": "Fuerza Principal",
+            "pcsCount": "({n}+ PJs)",
+            "clickToEdit": "Presione para editar",
+            "atPcCount": "Al Conteo de PJs",
+            "atPcCountHelp": "Este PNJ será marcado como parte del encuentro únicamente si hay al menos tantos Personajes Jugadores como se indica. Dejar esto en blanco indica que será parte del encuentro en cualquier conteo de PJs.",
+            "onTurn": "En Turno",
+            "onTurnHelp": "Este personaje será marcado para unirse al encuentro en el turno especificado. Dejar esto en blanco indica que este PNJ puede ser usado como refuerzo a discreción del DJ.",
+            "addToRoster": "Copiar a la Lista",
+            "addToRosterTooltip": "Agrega una copia de este PNJ a su lista y vincula esta instancia a la nueva entrada de la lista."
+        },
+        "encounterEditor": {
+            "editorHeading": "Editor de Encuentro",
+            "details": "Detalles del encuentro",
+            "noMapData": "Sin datos de mapa",
+            "additionalNotes": "Notas adicionales"
+        },
+        "environment": {
+            "modifiedWarning": "Este entorno ha sido modificado. Cargar una nueva pre-selección eliminará estos cambios. ¿Seguro que quiere continuar?"
+        },
+        "encounterIndex": {
+            "addFolder": "Añadir Carpeta",
+            "addNew": "Añadir Nuevo Encuentro"
+        },
+        "gmNotes": "Notas DJ",
+        "tier": {
+            "changeTo": "Cambio a Grado {n}",
+            "detectedEdits": "@:{'common.appName'} ha detectado valores de estadísticas editados. ¿Cómo quiere proceder?",
+            "projectEdits": "Cambiar Grado y Ediciones de Proyecto",
+            "preserveEdits": "Cambiar Grado y Preservar Ediciones",
+            "resetStats": "Cambiar Grado y Restablecer Estadísticas"
+        },
+        "npcTag": {
+            "setTag": "Seleccionar Chapa de PNJ",
+            "lockedBy": "Bloqueado por selección de plantillas ({name})",
+            "limitedBy": "Selección de Chapa limitada por plantilla ({name})",
+            "selectTag": "Seleccionar Chapa de PNJ"
+        },
+        "titles": {
+            "missingContentPacks": "Paquetes de Contenido Faltantes",
+            "setFolder": "Seleccionar Directorio",
+            "setGmLabel": "Seleccionar Etiqueta de DJ",
+            "addSubsection": "Añadir Sub-sección",
+            "addMission": "Añadir Misión",
+            "addCombat": "Añadir Combate",
+            "textSection": "Sección de Texto",
+            "image": "Imagen",
+            "rollableTable": "Tabla de Tiradas",
+            "narrativeElement": "Elemento Narrativo",
+            "combatEncounter": "Encuentro de Combate",
+            "setMapImage": "Seleccionar Imagen de Mapa",
+            "missingNpcs": "PNJs Faltantes",
+            "doodads": "Doodads",
+            "selectLayer": "Seleccionar Capa",
+            "setNpcFeatures": "Seleccionar Caraterísticas de PNJ",
+            "confirmTierChange": "Confirmar Cambio de Grado",
+            "npcStatblock": "Bloque de Estadísticas de PNJ",
+            "selectImage": "seleccionar imagen",
+            "environmentDataModified": "datos de entorno modificados",
+            "deletePreset": "eliminar pre-selección",
+            "sitrepModified": "sitrep modificado",
+            "organizeEncounters": "ordenar encuentros",
+            "importData": "importar datos",
+            "selectTemplate": "seleccionar plantilla",
+            "selectNpcClass": "seleccionar clase de PNJ"
+        },
+        "subtitles": {
+            "setItemFolder": "Seleccionar directorio del artículo",
+            "generateItemPrintables": "Generar imprimibles del artículo",
+            "addSetOrDeleteA": "Añadir, seleccionar o eliminar una Etiqueta de DJ",
+            "addANewEmptyFreeform": "Añadir una nueva sección de forma libre vacía bajo esta página. Una sección es un contenedor para otros artículos de contenido, y puede usarse para organizar su campaña en la manera que encuentre apropiada.",
+            "addANewEmptyBeat": "Añade un nuevo Pulso bajo esta sección. Un Pulso es una sección para un evento o momento importante en la historia.",
+            "addANewEmptyMission": "Añade una nueva Misión vacía bajo esta página. Una Misión contiene objetivos y metas específicas que pueden ser completadas dentro de un periodo de tiempo discreto, y típicamente contiene Combates.",
+            "addANewEmptyCombat": "Añade un Combate nuevo vacío bajo esta página. Un Combate contiene Encuentros, así como también directrices para DJ, detalles narrativos pertinentes a la batalla, y resultados potenciales."
+        },
+        "actions": {
+            "noncharacterObjectsSuchAsTerrain": "Objetos no-personaje (tales como artículos del terreno) que pueden ser monitoreados en encuentros de combate."
+        },
+        "tooltips": {
+            "changeTierAndAdjustEdited": "Cambiar grado y ajustar estadísticas editadas por el mismo monto al de los cambios de estadísticas por defecto.",
+            "changeTierAndKeepEdited": "Cambiar grado y mantener los valores de estadísticas editados, incluso si estas caen por debajo de los valores por defecto del nuevo grado.",
+            "changeTierAndDiscardAll": "Cambiar grado y descartar todos los valores editados de estadísticas."
         }
     },
     "active": {
         "encounter": {
             "saveSuccessfulText": "Encuentro guardado: {name} en la Ronda {round}",
-            "saveFailedText": "Failed to save Encounter: {name}",
-            "failedToCopyTitle": "Error de copia."
+            "saveFailedText": "Fallo al guardar Encuentro: {name}",
+            "failedToCopyTitle": "Fallo al Copiar."
         },
         "addCombatant": {
             "doodadAddedTitle": "Doodad Añadido",
-            "eidolonAddedTitle": "Eidolón añadido",
+            "eidolonAddedTitle": "Eidolón Añadido",
             "addedText": "{name} se ha añadido al encuentro."
         },
         "mechActions": {
-            "preparedTitle": "Mech Prepared",
-            "ejectFailedTitle": "Eject Failed",
-            "ejectFailedText": "{name} no se monta.",
-            "pilotEjectedTitle": "Pilot Ejected",
-            "pilotEjectedText": "{name} ha sido expulsado del mech y ahora es IMPAIRED.",
-            "dismountFailedText": "{name} no se monta.",
-            "pilotDismountedTitle": "Pilot Dismount",
-            "pilotDismountedText": "{name} ha desmontado del mech.",
-            "mechHiddenTitle": "Mech Hidden",
-            "mechDisengagedTitle": "Mech Disengaged",
-            "bootUpFailedTitle": "Boot Up Failed",
-            "bootUpFailedText": "{name} no es SHUT DOWN.",
-            "mechBootedUpTitle": "Mech Booted Up",
-            "mechBootedUpText": "{name} ha subido.",
-            "selfDestructFailedTitle": "Autodestrucción fallada",
-            "selfDestructFailedText": "{name} ya está en SELF DESTRUCT.",
-            "selfDestructInitiatedTitle": "Mech Self-Destruct",
-            "selfDestructInitiatedText": "{name} está a punto de SELF DESTRUCT.",
-            "mechBracedTitle": "Mech Braced",
-            "mechBracedText": "{name} ahora es BRACED.",
-            "overwatchTitle": "Mech Overwatch",
-            "overwatchText": "{name} está ahora en OVERWATCH."
+            "preparedTitle": "Mecha Preparado",
+            "ejectFailedTitle": "Eyección Fallida",
+            "ejectFailedText": "{name} no está montada.",
+            "pilotEjectedTitle": "Piloto Eyectado",
+            "pilotEjectedText": "{name} ha sido eyectado del mecha y ahora esta IMPEDIDO.",
+            "dismountFailedText": "{name} no está montada.",
+            "pilotDismountedTitle": "Piloto Desmontado",
+            "pilotDismountedText": "{name} ha desmontado del mecha.",
+            "mechHiddenTitle": "Mecha Oculto",
+            "mechDisengagedTitle": "Mecha Desenganchado",
+            "bootUpFailedTitle": "Fallo Iniciar Sistema",
+            "bootUpFailedText": "{name} no está APAGADO.",
+            "mechBootedUpTitle": "Sistema del Mecha Iniciado",
+            "mechBootedUpText": "{name} ha INICIADO SISTEMA.",
+            "selfDestructFailedTitle": "Autodestrucción Falló",
+            "selfDestructFailedText": "{name} se ha AUTO DESTRUIDO.",
+            "selfDestructInitiatedTitle": "Auto-Destrucción del Mecha Iniciada",
+            "selfDestructInitiatedText": "{name} está a punto de AUTO DESTRUIRSE.",
+            "mechBracedTitle": "Mecha Fortalecido",
+            "mechBracedText": "{name} ahora está FORTALECIDO.",
+            "overwatchTitle": "Mecha Vigilante",
+            "overwatchText": "{name} está ahora en VIGILANCIA.",
+            "dismountFailedTitle": "Fallo al Desmontar"
         },
         "npcActions": {
-            "npcPreparedTitle": "NPC Preparados",
-            "npcStabilizedTitle": "NPC Stabilized",
-            "npcStabilizedText": "{name} ha despejado todo HEAT, ya no es EXPOSADO, y ha recargado sus armas.",
-            "npcHiddenTitle": "NPC Hidden",
-            "npcDisengagedTitle": "NPC Disengaged"
+            "npcPreparedTitle": "PNJ Preparado",
+            "npcStabilizedTitle": "PNJ Estabilizado",
+            "npcStabilizedText": "{name} ha disipado todo CALOR, ya no está EXPUESTO, y ha recargado sus armas.",
+            "npcHiddenTitle": "PNJ Oculto",
+            "npcDisengagedTitle": "PNJ Desenganchado"
         },
         "pcSheet": {
-            "activeMechChangedTitle": "Active Mech Changed",
-            "activeMechChangedText": "Mech activo cambió a {mechName}. El estado de la hoja de caracteres ha sido reajustado.",
-            "saveSuccessfulText": "Personaje guardado Hoja: {callsign} en la Ronda {round}",
-            "saveFailedText": "Failed to save Character Sheet: {callsign}"
+            "activeMechChangedTitle": "Mecha Activo Cambiado",
+            "activeMechChangedText": "Mecha activo cambiado a {mechName}. El estado en la hoja de Personaje ha sido reajustado.",
+            "saveSuccessfulText": "Hoja de Personaje Guardada : {callsign} en la Ronda {round}",
+            "saveFailedText": "Fallo al guardar Hoja de Personaje: {callsign}"
         },
         "stats": {
-            "hitPoints": "HIT POINTS"
+            "hitPoints": "Puntos de golpe"
         },
         "common": {
-            "currentlySelected": "Actualmente seleccionado:",
-            "destroyed": "DESTROYED",
+            "currentlySelected": "Actualmente Seleccionado:",
+            "destroyed": "Destruido",
             "exportAsJson": "Exportar como JSON",
             "dangerZone": "Zona De Peligro",
-            "apply": "Aceptar",
-            "target": "Destino",
-            "override": "anulación",
+            "apply": "Aplicar",
+            "target": "Blanco",
+            "override": "anular",
             "playedBy": "Jugado por",
-            "condition": "Condición"
+            "condition": "Condición",
+            "prepared": "Preparado",
+            "preparedText": "{name} ha sido marcado como PREPARADO.",
+            "hiddenText": "{name} ahora está OCULTO.",
+            "disengageFailed": "Desenganche Fallido",
+            "disengageFailedText": "{name} no está ENGANCHADO.",
+            "disengagedText": "{name} se ha DESENGANCHADO.",
+            "saveSuccessful": "Guardado Exitoso",
+            "saveFailed": "Guardado Fallido",
+            "copiedToClipboard": "Copiado al Portapapeles",
+            "noMapData": "Sin Datos de Mapa",
+            "nominal": "Nominal",
+            "halfDamage": "Mitad de Daño"
         },
         "roster": {
-            "addFromRoster": "añadir de la lista",
-            "addToEncounter": "Agregar al encuentro",
+            "addFromRoster": "añadir desde la lista",
+            "addToEncounter": "Agregar al Encuentro",
             "removeFromEncounter": "Eliminar del Encuentro",
-            "playedBy": "Jugado por",
-            "pilotCombatStats": "Pilot Combat Stats",
-            "activeMech": "ACTIVE MECH",
-            "activeMechTooltip": "El mech activo será instantánea para su uso en este encuentro. Una vez iniciado el encuentro, el mech activo no se puede cambiar sin restablecer las estadísticas del mech",
-            "pilotNoMech": "Piloto será presentado sin un mech",
-            "mechStats": "Mech Stats",
-            "frameTraits": "Frame Traits",
-            "coreSystem": "Sistema básico",
-            "activeLoadout": "Active Loadout",
+            "playedBy": "Jugado Por",
+            "pilotCombatStats": "Estadistícas de Combate del Piloto",
+            "activeMech": "Mecha activo",
+            "activeMechTooltip": "El mecha activo será instanciado para su uso en este encuentro. Una vez iniciado el encuentro, el mecha activo no se puede cambiar sin restablecer las estadísticas del mecha",
+            "pilotNoMech": "Piloto será instanciado sin un mecha",
+            "mechStats": "Estadísticas de Mecha",
+            "frameTraits": "Rasgos del Chasis",
+            "coreSystem": "Sistema Base",
+            "activeLoadout": "Carga Activa",
             "selectPilot": "Seleccione un Piloto",
             "removedTitle": "Quitado {callsign} del encuentro",
-            "removalSuccess": "Suceso de eliminación",
+            "removalSuccess": "Quitado Exitosamente",
             "addedTitle": "Añadido {callsign} al encuentro",
             "ll": "LL {n}"
         },
         "labels": {
-            "round": "ROUND",
-            "lastUpdate": "ÚLTIMO UPDATE",
-            "archived": "ARCHIVED"
+            "round": "Ronda",
+            "lastUpdate": "Última actualización",
+            "archived": "Archivado"
         },
         "encMgr": {
-            "localActiveEncounters": "Local Active Encounters",
-            "deleteEncounter": "Delete Encounter",
-            "createNewEncounter": "Crear nuevo contador",
-            "archivedEncounters": "Encuentros archivados ({n})",
-            "noArchivedFound": "No hay encuentros archivados encontrados",
-            "roundsCount": "Rondas",
-            "afterActionReport": "After-Action Report",
-            "copyReport": "Informe de copia",
-            "logsTelemetry": "Logs \" Telemetry",
-            "battlefieldTelemetry": "BATTLEFIELD TELEMETRY",
-            "combatLogs": "COMBAT LOGS",
-            "deleteArchivePrompt": "Eliminar este archivo?",
-            "devNoteReport": "Esta característica sigue en desarrollo. Los informes posteriores a la acción se ampliarán en futuros trabajos.",
-            "devNoteLogs": "Esta característica sigue en desarrollo. Los datos adicionales y las opciones de exportación estarán disponibles en futuros cálculos.",
-            "deleteArchiveDetail": "Esto marcará el archivo para la eliminación. Ya no aparecerá en esta lista, pero será eliminado permanentemente sobre la base de sus opciones de retención en el Menú Opciones.",
-            "noArchivedFoundFiltered": "No hay encuentros archivados encontrados incluyendo \"{search}\""
+            "localActiveEncounters": "Encuentros Locales Activos",
+            "deleteEncounter": "Eliminar Encuentro",
+            "createNewEncounter": "Crear Nuevo Encuentro",
+            "archivedEncounters": "Encuentros Archivados ({n})",
+            "noArchivedFound": "No se hallaron encuentros archivados",
+            "roundsCount": "{n} Rondas",
+            "afterActionReport": "Reporte Post-Acción",
+            "copyReport": "Copiar Reporte",
+            "logsTelemetry": "Bitácoras & Telemetría",
+            "battlefieldTelemetry": "Telemetría del campo de batalla",
+            "combatLogs": "Bitácoras de combate",
+            "deleteArchivePrompt": "¿Eliminar este archivo?",
+            "devNoteReport": "Esta característica sigue en desarrollo. Los reportes post-acción se ampliarán en futuras entregas.",
+            "devNoteLogs": "Esta característica sigue en desarrollo. Los datos adicionales y las opciones de exportación estarán disponibles en futuras entregas.",
+            "deleteArchiveDetail": "Esto marcará el archivo para la eliminación. Ya no aparecerá en esta lista, pero será eliminado permanentemente basado en sus opciones de retención en el Menú Opciones.",
+            "noArchivedFoundFiltered": "No se hallaron encuentros archivados que incluyan \"{search}\""
         },
         "encSummary": {
             "pilots": "pilotos",
-            "turnN": "(TURN {n})",
+            "turnN": "(Turno {n})",
             "requiresPilot": "Un encuentro requiere al menos un piloto.",
-            "createAndLaunch": "Crear y lanzar contador",
+            "createAndLaunch": "Crear y Lanzar Encuentro",
             "createReturnLibrary": "Crear y volver a la biblioteca"
         },
         "pilotsPanel": {
             "title": "Pilotos",
             "ll": "LL",
-            "activeMech": "Active Mech",
-            "addFromFile": "Añadir desde el archivo",
-            "addPlaceholder": "añadir piloto placeholder"
+            "activeMech": "Mecha Activo",
+            "addFromFile": "Añadir desde Archivo",
+            "addPlaceholder": "añadir marcador de posición de piloto",
+            "placeholderN": "Marcador de Posición de Piloto #{n}"
         },
         "newEnc": {
-            "title": "Nuevo contador activo local",
-            "encounterData": "ENCOUNTER DATA",
-            "additionalNpcs": "Los NPC adicionales pueden ser añadidos en el corredor del contador después de la creación."
+            "title": "Nuevo Encuentro Local Activo",
+            "encounterData": "Datos de encuentro",
+            "additionalNpcs": "Los NPC adicionales pueden ser añadidos en el corredor de encuentros después de la creación."
         },
         "tableManager": {
-            "published": "lista de cuadros publicados",
-            "offline": "lista de tablas sin conexión",
-            "addNew": "añadir nuevo cuadro"
+            "published": "lista de mesas publicadas",
+            "offline": "lista de mesas fuera de línea",
+            "addNew": "añadir nueva mesa"
         },
         "addShare": {
             "addToEncounter": "añadir al encuentro"
         },
         "sheet": {
-            "newCharacterSheet": "Nueva hoja de caracteres"
+            "newCharacterSheet": "Nueva Hoja de Personaje"
         },
         "sheetMgr": {
-            "characterSheets": "Hojas de carácter",
-            "archivedSheets": "Fichas archivadas ({n})",
-            "noArchivedFound": "No hay hojas archivadas encontradas",
-            "noArchivedFoundFiltered": "No hay hojas archivadas encontradas incluyendo \"{search}\"",
-            "active": "ACTIVO",
+            "characterSheets": "Hojas de Personaje",
+            "archivedSheets": "Hojas Archivadas ({n})",
+            "noArchivedFound": "No se hallaron hojas archivadas",
+            "noArchivedFoundFiltered": "No se hallaron hojas archivadas incluyendo \"{search}\"",
+            "active": "Activo",
             "kia": "KIA",
-            "savePilotHistory": "Guardar historia piloto",
-            "featureInDev": "Gráficos en el desarrollo (v3.1)",
-            "encounterHash": "encuentro"
+            "savePilotHistory": "Guardar Historia de Piloto",
+            "featureInDev": "Característica en desarrollo (v3.1)",
+            "encounterHash": "encuentro #"
         },
         "newSheet": {
             "llLevel": "LL{n}",
             "str": "STR",
             "repCap": "RepCap",
-            "campaignName": "Nombre de la campaña",
-            "createAndLaunch": "Crear y lanzar el modo ACtive"
+            "campaignName": "Nombre de la Campaña",
+            "createAndLaunch": "Crear y Lanzar Modo Activo"
         },
         "sheetItem": {
-            "archiveSheet": "Ficha de archivo",
-            "exportSheet": "Hoja de exportación",
-            "deleteSheet": "Suprímase la hoja de cálculo",
-            "mounted": "MOUNTED",
-            "unmounted": "UNMOUNTED",
+            "archiveSheet": "Archivar Hoja",
+            "exportSheet": "Exportar Hoja",
+            "deleteSheet": "Eliminar Hoja",
+            "mounted": "Montada",
+            "unmounted": "Sin Montar",
             "roundN": "Ronda {n}",
-            "started": "comenzado",
-            "lastTurn": "última vuelta"
+            "started": "iniciado",
+            "lastTurn": "último turno"
         }
     }
 }
