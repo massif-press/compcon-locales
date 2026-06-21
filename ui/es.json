@@ -1314,7 +1314,9 @@
         "toolPalette": {
             "deployables": "Despliegueables",
             "diceRoller": "Tirador de dados",
-            "rollableTables": "Cuadros enrollables"
+            "rollableTables": "Cuadros enrollables",
+            "encounterInfo": "Información del Encuentro",
+            "tagReference": "Referencia de la etiqueta"
         }
     }
 }
