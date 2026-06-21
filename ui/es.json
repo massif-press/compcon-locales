@@ -1446,7 +1446,8 @@
             "resetBase": "Reset to Base Value"
         },
         "activeEffect": {
-            "title": "EFECTOS ACTIVOS"
+            "title": "EFECTOS ACTIVOS",
+            "hiddenEffects": "Efectos ocultos"
         }
     }
 }
