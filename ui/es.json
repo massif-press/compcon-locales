@@ -1392,7 +1392,8 @@
         "trackable": {
             "corePower": "Central Power",
             "ready": "Preparado",
-            "unavailable": "Indisponible"
+            "unavailable": "Indisponible",
+            "clearMechCore": "Despejar este mech's"
         }
     }
 }
