@@ -1390,7 +1390,8 @@
             "applyClose": "Aplicar y cerrar"
         },
         "trackable": {
-            "corePower": "Central Power"
+            "corePower": "Central Power",
+            "ready": "Preparado"
         }
     }
 }
