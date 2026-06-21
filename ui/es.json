@@ -1257,7 +1257,9 @@
             "exportState": "Carácter de exportación Sheet State",
             "importState": "Carácter de importación Sheet State",
             "importFileLabel": "Hoja de caracteres Archivo de importación (.json)",
-            "stagedImport": "Importación fija:"
+            "stagedImport": "Importación fija:",
+            "atRound": "en la Ronda",
+            "warningReplace": "Advertencia: El estado importado de la hoja de caracteres sustituirá el estado actual de la hoja de caracteres."
         }
     }
 }
