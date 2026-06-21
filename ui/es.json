@@ -1479,6 +1479,9 @@
         "overcharge": {
             "cost": "OVERCHARGE Costo",
             "willIncur": "Sobrecargar incurre"
+        },
+        "unitLoadout": {
+            "hiddenFeatures": "Características ocultas"
         }
     }
 }
