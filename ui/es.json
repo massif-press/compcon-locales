@@ -1399,14 +1399,17 @@
         },
         "customStat": {
             "editStats": "Editar Stats",
-            "removeStat": "Remove Stat"
+            "removeStat": "Remove Stat",
+            "trackable": "Rastreable",
+            "static": "Estática"
         },
         "telemetry": {
             "devNote": "Esta característica sigue en desarrollo. Se publicarán datos adicionales de telemetría.",
             "collectedNote": "Los datos de telemetría se recopilan al final de cada ronda",
             "encounterInstance": "encuentro Instance",
             "lifetime": "por vida",
-            "exportText": "Exportar como texto"
+            "exportText": "Exportar como texto",
+            "telemetry": "Telemetría"
         },
         "actorLogs": {
             "log": "Log",
@@ -1421,7 +1424,11 @@
             "noDamage": "No hay daño",
             "halfDamage": "Medio daño",
             "doubleDamage": "Daño doble",
-            "fullDamage": "Daño completo"
+            "fullDamage": "Daño completo",
+            "resistance": "Resistencia"
+        },
+        "timedEffect": {
+            "pending": "pendiente"
         }
     }
 }
