@@ -1419,7 +1419,9 @@
             "immunity": "Inmunity",
             "vulnerability": "Vulnerabilidad",
             "noDamage": "No hay daño",
-            "halfDamage": "Medio daño"
+            "halfDamage": "Medio daño",
+            "doubleDamage": "Daño doble",
+            "fullDamage": "Daño completo"
         }
     }
 }
