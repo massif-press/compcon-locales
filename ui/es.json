@@ -1375,7 +1375,8 @@
             "hard": "Difícil",
             "hardCover": "Cubierta dura",
             "resistances": "Resistencias",
-            "statusesConditions": "Situación/Condiciones"
+            "statusesConditions": "Situación/Condiciones",
+            "counters": "PAÍSES"
         }
     }
 }
