@@ -1393,7 +1393,8 @@
             "corePower": "Central Power",
             "ready": "Preparado",
             "unavailable": "Indisponible",
-            "clearMechCore": "Despejar este mech's"
+            "clearMechCore": "Despejar este mech's",
+            "restoreMechCore": "Restaurar este mech's"
         }
     }
 }
