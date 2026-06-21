@@ -1312,7 +1312,8 @@
             "sessionHistory": "Historia del período de sesiones"
         },
         "toolPalette": {
-            "deployables": "Despliegueables"
+            "deployables": "Despliegueables",
+            "diceRoller": "Tirador de dados"
         }
     }
 }
