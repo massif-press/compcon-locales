@@ -1386,7 +1386,8 @@
             "irreducible": "Irreducible",
             "defenderStatus": "Defender Status",
             "armorN": "Armadura",
-            "totalDamage": "Daño total"
+            "totalDamage": "Daño total",
+            "applyClose": "Aplicar y cerrar"
         }
     }
 }
