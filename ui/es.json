@@ -1398,7 +1398,8 @@
             "corePowerQ": "¿poder de núcleo?"
         },
         "customStat": {
-            "editStats": "Editar Stats"
+            "editStats": "Editar Stats",
+            "removeStat": "Remove Stat"
         }
     }
 }
