@@ -1268,7 +1268,8 @@
             "sessionNotes": "Notas de sesión"
         },
         "pcDeploy": {
-            "deployedEquipment": "Equipo desplegado:"
+            "deployedEquipment": "Equipo desplegado:",
+            "noActive": "No hay equipo activo."
         }
     }
 }
