@@ -1404,7 +1404,9 @@
         "telemetry": {
             "devNote": "Esta característica sigue en desarrollo. Se publicarán datos adicionales de telemetría.",
             "collectedNote": "Los datos de telemetría se recopilan al final de cada ronda",
-            "encounterInstance": "encuentro Instance"
+            "encounterInstance": "encuentro Instance",
+            "lifetime": "por vida",
+            "exportText": "Exportar como texto"
         }
     }
 }
