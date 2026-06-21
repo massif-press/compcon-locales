@@ -1297,7 +1297,8 @@
         },
         "gmNotes": {
             "gmNotes": "Notas del MM",
-            "encounterClocks": "Encounter Clocks"
+            "encounterClocks": "Encounter Clocks",
+            "addClock": "Agregar reloj"
         }
     }
 }
