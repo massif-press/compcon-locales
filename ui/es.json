@@ -1391,7 +1391,8 @@
         },
         "trackable": {
             "corePower": "Central Power",
-            "ready": "Preparado"
+            "ready": "Preparado",
+            "unavailable": "Indisponible"
         }
     }
 }
