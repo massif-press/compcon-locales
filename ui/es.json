@@ -1276,7 +1276,8 @@
             "loading": "Carga de hoja piloto…"
         },
         "gmOptions": {
-            "exportState": "Export Encounter Estado"
+            "exportState": "Export Encounter Estado",
+            "importState": "Import Encounter State"
         }
     }
 }
