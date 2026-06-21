@@ -1365,7 +1365,8 @@
         "panelBase": {
             "itemDestroyed": "{type} DESTROYED",
             "markActivation": "¿Marcar una activación como completa?",
-            "reduceActivations": "Esto reducirá las activaciones restantes para 1 y restablecerá todas las acciones."
+            "reduceActivations": "Esto reducirá las activaciones restantes para 1 y restablecerá todas las acciones.",
+            "endTurn": "Esto terminará el turno."
         }
     }
 }
