@@ -1369,7 +1369,8 @@
             "reduceActivations": "Esto reducirá las activaciones restantes para 1 y restablecerá todas las acciones.",
             "endTurn": "Esto terminará el turno.",
             "cover": "Cubrir",
-            "noCover": "Sin cobertura"
+            "noCover": "Sin cobertura",
+            "soft": "Suave (con rodaduras apenas visibles entre la vegetación)"
         }
     }
 }
