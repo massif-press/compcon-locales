@@ -1313,7 +1313,8 @@
         },
         "toolPalette": {
             "deployables": "Despliegueables",
-            "diceRoller": "Tirador de dados"
+            "diceRoller": "Tirador de dados",
+            "rollableTables": "Cuadros enrollables"
         }
     }
 }
