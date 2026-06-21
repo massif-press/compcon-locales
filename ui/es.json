@@ -1448,6 +1448,12 @@
         "activeEffect": {
             "title": "EFECTOS ACTIVOS",
             "hiddenEffects": "Efectos ocultos"
+        },
+        "scan": {
+            "scan": "Escanear"
+        },
+        "actions": {
+            "allActions": "Todas las acciones"
         }
     }
 }
