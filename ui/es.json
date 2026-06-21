@@ -1290,7 +1290,9 @@
             "max": "Máximo"
         },
         "encInfo": {
-            "reinforcements": "¡Les llegan refuerzos!…"
+            "reinforcements": "¡Les llegan refuerzos!…",
+            "noReinforcements": "No hay refuerzos de encuentro.",
+            "turnN": "Gire {n}"
         }
     }
 }
