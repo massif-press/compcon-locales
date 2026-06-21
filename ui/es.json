@@ -1444,6 +1444,9 @@
         },
         "miniPanel": {
             "resetBase": "Reset to Base Value"
+        },
+        "activeEffect": {
+            "title": "EFECTOS ACTIVOS"
         }
     }
 }
