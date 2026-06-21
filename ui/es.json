@@ -1371,7 +1371,8 @@
             "cover": "Cubrir",
             "noCover": "Sin cobertura",
             "soft": "Suave (con rodaduras apenas visibles entre la vegetación)",
-            "softCover": "Funda suave"
+            "softCover": "Funda suave",
+            "hard": "Difícil"
         }
     }
 }
