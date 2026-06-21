@@ -1394,7 +1394,11 @@
             "ready": "Preparado",
             "unavailable": "Indisponible",
             "clearMechCore": "Despejar este mech's",
-            "restoreMechCore": "Restaurar este mech's"
+            "restoreMechCore": "Restaurar este mech's",
+            "corePowerQ": "¿poder de núcleo?"
+        },
+        "customStat": {
+            "editStats": "Editar Stats"
         }
     }
 }
