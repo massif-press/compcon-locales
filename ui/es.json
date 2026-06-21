@@ -1432,6 +1432,9 @@
             "pending": "pendiente",
             "roundsRemaining": "{n} Rondas restantes",
             "override": "// Anulación"
+        },
+        "statblockExport": {
+            "title": "Combat Statblock"
         }
     }
 }
