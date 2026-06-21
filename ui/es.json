@@ -1400,6 +1400,9 @@
         "customStat": {
             "editStats": "Editar Stats",
             "removeStat": "Remove Stat"
+        },
+        "telemetry": {
+            "devNote": "Esta característica sigue en desarrollo. Se publicarán datos adicionales de telemetría."
         }
     }
 }
