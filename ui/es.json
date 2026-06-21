@@ -1385,7 +1385,8 @@
             "armorPiercing": "Armor Piercing",
             "irreducible": "Irreducible",
             "defenderStatus": "Defender Status",
-            "armorN": "Armadura"
+            "armorN": "Armadura",
+            "totalDamage": "Daño total"
         }
     }
 }
