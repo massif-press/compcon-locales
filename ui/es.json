@@ -1411,7 +1411,8 @@
         "actorLogs": {
             "log": "Log",
             "noEntries": "No hay registros de combate.",
-            "exportText": "Exportar texto"
+            "exportText": "Exportar texto",
+            "exportJson": "Exportar JSON Log"
         }
     }
 }
