@@ -1437,6 +1437,9 @@
             "title": "Combat Statblock",
             "include": "// Incluido",
             "exportText": "Exportar texto Statblock"
+        },
+        "statusCond": {
+            "title": "Situación / Condiciones"
         }
     }
 }
