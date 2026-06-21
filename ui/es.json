@@ -1323,7 +1323,11 @@
             "title": "CUADRO INDEX",
             "encounterTables": "Cuadros de contabilidad",
             "otherTables": "Otros cuadros",
-            "coreOnly": "Actualmente solo se admiten tablas Lancer Core Book. LCP y tablas personalizadas tendrán que ser resueltas manualmente"
+            "coreOnly": "Actualmente solo se admiten tablas Lancer Core Book. LCP y tablas personalizadas tendrán que ser resueltas manualmente",
+            "selectTable": "Seleccione una tabla para ver su contenido."
+        },
+        "initiative": {
+            "reinforcementsN": "({n})"
         }
     }
 }
