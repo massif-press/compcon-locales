@@ -1318,6 +1318,9 @@
             "encounterInfo": "Información del Encuentro",
             "tagReference": "Referencia de la etiqueta",
             "combatQuickRef": "Combate rápido Referencia"
+        },
+        "tableIndex": {
+            "title": "CUADRO INDEX"
         }
     }
 }
