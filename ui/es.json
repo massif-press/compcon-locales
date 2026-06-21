@@ -1341,7 +1341,8 @@
             "coverLabel": "{cover} COVER",
             "activationsRemaining": "{n} Activaciones restantes de esta ronda",
             "aiControl": "Mech bajo control AI",
-            "selfDestructInitiated": "SELF DESTRUCT INITIATED"
+            "selfDestructInitiated": "SELF DESTRUCT INITIATED",
+            "prepared": "Preparado"
         },
         "addRoster": {
             "addPc": "Agregar PC",
@@ -1366,7 +1367,8 @@
             "itemDestroyed": "{type} DESTROYED",
             "markActivation": "¿Marcar una activación como completa?",
             "reduceActivations": "Esto reducirá las activaciones restantes para 1 y restablecerá todas las acciones.",
-            "endTurn": "Esto terminará el turno."
+            "endTurn": "Esto terminará el turno.",
+            "cover": "Cubrir"
         }
     }
 }
