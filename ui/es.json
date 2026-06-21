@@ -1463,7 +1463,12 @@
             "activationAction": "{n} Action"
         },
         "deploy": {
-            "deployNamed": "Despliegue {name}"
+            "deployNamed": "Despliegue {name}",
+            "generateInstance": "Esto generará y desplegará una nueva instancia de {name} para {actor} como un {action}"
+        },
+        "equipCmd": {
+            "markUsedHint": "Haga clic para marcar como {used} . Las armas con la etiqueta LOADING deben ser recargadas antes de que puedan ser cargadas de nuevo",
+            "reloadHint": "Haga clic en {reload} este arma."
         }
     }
 }
