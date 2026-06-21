@@ -1331,7 +1331,8 @@
             "destroyedN": "Destruido ({n})"
         },
         "runnerItem": {
-            "deploysOnRound": "Deploys on Round {n}"
+            "deploysOnRound": "Deploys on Round {n}",
+            "deploysNextRound": "Deplora la próxima ronda"
         }
     }
 }
