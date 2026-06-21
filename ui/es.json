@@ -1299,6 +1299,9 @@
             "gmNotes": "Notas del MM",
             "encounterClocks": "Encounter Clocks",
             "addClock": "Agregar reloj"
+        },
+        "refTag": {
+            "yourTags": "Sus etiquetas ({name})"
         }
     }
 }
