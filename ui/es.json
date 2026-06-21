@@ -1283,7 +1283,8 @@
             "setRound": "Set Round",
             "overrides": "Ajuste manual",
             "current": "Intensidad",
-            "removeFromEncounter": "Quitar {name} De Encounter"
+            "removeFromEncounter": "Quitar {name} De Encounter",
+            "noStatController": "No encontrado controlador de Stat"
         }
     }
 }
