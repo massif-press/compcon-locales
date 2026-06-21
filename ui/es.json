@@ -1296,7 +1296,8 @@
             "freeDeployment": "Despliegue gratuito"
         },
         "gmNotes": {
-            "gmNotes": "Notas del MM"
+            "gmNotes": "Notas del MM",
+            "encounterClocks": "Encounter Clocks"
         }
     }
 }
