@@ -1332,7 +1332,8 @@
         },
         "runnerItem": {
             "deploysOnRound": "Deploys on Round {n}",
-            "deploysNextRound": "Deplora la próxima ronda"
+            "deploysNextRound": "Deplora la próxima ronda",
+            "readyToDeploy": "Listo para desplegar"
         }
     }
 }
