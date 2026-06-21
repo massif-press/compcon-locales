@@ -1357,7 +1357,8 @@
             "addPlaceholder": "Add Placeholder"
         },
         "gmEndRound": {
-            "endsOnTargetTurn": "{when} de {target} turn"
+            "endsOnTargetTurn": "{when} de {target} turn",
+            "braceExit": "salidas {braced} y entra {cooldown} estado."
         }
     }
 }
