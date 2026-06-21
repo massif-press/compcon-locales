@@ -1316,7 +1316,8 @@
             "diceRoller": "Tirador de dados",
             "rollableTables": "Cuadros enrollables",
             "encounterInfo": "Información del Encuentro",
-            "tagReference": "Referencia de la etiqueta"
+            "tagReference": "Referencia de la etiqueta",
+            "combatQuickRef": "Combate rápido Referencia"
         }
     }
 }
