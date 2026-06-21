@@ -1382,7 +1382,9 @@
             "takeDamageLower": "Daño",
             "takeDamage": "Coge los daños",
             "incomingValue": "Valor de daños entrantes",
-            "armorPiercing": "Armor Piercing"
+            "armorPiercing": "Armor Piercing",
+            "irreducible": "Irreducible",
+            "defenderStatus": "Defender Status"
         }
     }
 }
