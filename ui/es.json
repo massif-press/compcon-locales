@@ -1260,7 +1260,8 @@
             "stagedImport": "Importación fija:",
             "atRound": "en la Ronda",
             "warningReplace": "Advertencia: El estado importado de la hoja de caracteres sustituirá el estado actual de la hoja de caracteres.",
-            "changeActiveMech": "Cambio Active Mech"
+            "changeActiveMech": "Cambio Active Mech",
+            "applySave": "Aplicar \" Guardar \""
         }
     }
 }
