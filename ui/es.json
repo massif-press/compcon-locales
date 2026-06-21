@@ -1418,7 +1418,8 @@
             "title": "RESISTA / MMUNE / VULN.",
             "immunity": "Inmunity",
             "vulnerability": "Vulnerabilidad",
-            "noDamage": "No hay daño"
+            "noDamage": "No hay daño",
+            "halfDamage": "Medio daño"
         }
     }
 }
