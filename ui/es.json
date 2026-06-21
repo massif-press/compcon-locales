@@ -1321,7 +1321,8 @@
         },
         "tableIndex": {
             "title": "CUADRO INDEX",
-            "encounterTables": "Cuadros de contabilidad"
+            "encounterTables": "Cuadros de contabilidad",
+            "otherTables": "Otros cuadros"
         }
     }
 }
