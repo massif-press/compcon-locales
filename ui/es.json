@@ -1281,7 +1281,8 @@
             "importFileLabel": "Archivo de importación (.json)",
             "warningReplace": "Advertencia: El estado de encuentro importado sustituirá al actual estado de encuentro.",
             "setRound": "Set Round",
-            "overrides": "Ajuste manual"
+            "overrides": "Ajuste manual",
+            "current": "Intensidad"
         }
     }
 }
