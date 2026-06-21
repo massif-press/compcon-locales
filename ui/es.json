@@ -1416,7 +1416,9 @@
         },
         "dmgCond": {
             "title": "RESISTA / MMUNE / VULN.",
-            "immunity": "Inmunity"
+            "immunity": "Inmunity",
+            "vulnerability": "Vulnerabilidad",
+            "noDamage": "No hay daño"
         }
     }
 }
