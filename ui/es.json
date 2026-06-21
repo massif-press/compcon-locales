@@ -1277,7 +1277,8 @@
         },
         "gmOptions": {
             "exportState": "Export Encounter Estado",
-            "importState": "Import Encounter State"
+            "importState": "Import Encounter State",
+            "importFileLabel": "Archivo de importación (.json)"
         }
     }
 }
