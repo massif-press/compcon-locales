@@ -1340,7 +1340,8 @@
             "bracedDesc": "Usted cuenta como tener RESISTENCIA a todo daño, calor y quemadura del ataque que provocó este Brace, y hasta el final de su próximo turno, todos los otros ataques contra usted se hacen en +1 Dificultad.",
             "coverLabel": "{cover} COVER",
             "activationsRemaining": "{n} Activaciones restantes de esta ronda",
-            "aiControl": "Mech bajo control AI"
+            "aiControl": "Mech bajo control AI",
+            "selfDestructInitiated": "SELF DESTRUCT INITIATED"
         }
     }
 }
