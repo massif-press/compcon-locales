@@ -1453,7 +1453,8 @@
             "scan": "Escanear"
         },
         "actions": {
-            "allActions": "Todas las acciones"
+            "allActions": "Todas las acciones",
+            "selectIcon": "Elegir icono"
         }
     }
 }
