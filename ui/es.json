@@ -1350,7 +1350,11 @@
             "licenseLevelN": "Nivel de licencia {n}"
         },
         "addOther": {
-            "addOther": "Add Other"
+            "addOther": "Add Other",
+            "doodad": "Doodad"
+        },
+        "addStub": {
+            "addPlaceholder": "Add Placeholder"
         }
     }
 }
