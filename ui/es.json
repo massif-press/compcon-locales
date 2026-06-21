@@ -1292,7 +1292,8 @@
         "encInfo": {
             "reinforcements": "¡Les llegan refuerzos!…",
             "noReinforcements": "No hay refuerzos de encuentro.",
-            "turnN": "Gire {n}"
+            "turnN": "Gire {n}",
+            "freeDeployment": "Despliegue gratuito"
         }
     }
 }
