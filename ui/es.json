@@ -1307,7 +1307,8 @@
             "count": "Cantidad",
             "die": "Morir",
             "rollDice": "Rollo dados",
-            "rollResult": "Resultado del rodillo"
+            "rollResult": "Resultado del rodillo",
+            "noRolls": "Todavía no hay rollos."
         }
     }
 }
