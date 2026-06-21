@@ -1304,7 +1304,8 @@
             "yourTags": "Sus etiquetas ({name})"
         },
         "diceRoller": {
-            "count": "Cantidad"
+            "count": "Cantidad",
+            "die": "Morir"
         }
     }
 }
