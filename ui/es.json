@@ -1384,7 +1384,8 @@
             "incomingValue": "Valor de daños entrantes",
             "armorPiercing": "Armor Piercing",
             "irreducible": "Irreducible",
-            "defenderStatus": "Defender Status"
+            "defenderStatus": "Defender Status",
+            "armorN": "Armadura"
         }
     }
 }
