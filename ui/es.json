@@ -1439,7 +1439,8 @@
             "exportText": "Exportar texto Statblock"
         },
         "statusCond": {
-            "title": "Situación / Condiciones"
+            "title": "Situación / Condiciones",
+            "addCustom": "Add Custom Status"
         }
     }
 }
