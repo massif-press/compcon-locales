@@ -1415,7 +1415,8 @@
             "exportJson": "Exportar JSON Log"
         },
         "dmgCond": {
-            "title": "RESISTA / MMUNE / VULN."
+            "title": "RESISTA / MMUNE / VULN.",
+            "immunity": "Inmunity"
         }
     }
 }
