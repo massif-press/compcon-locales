@@ -1413,6 +1413,9 @@
             "noEntries": "No hay registros de combate.",
             "exportText": "Exportar texto",
             "exportJson": "Exportar JSON Log"
+        },
+        "dmgCond": {
+            "title": "RESISTA / MMUNE / VULN."
         }
     }
 }
