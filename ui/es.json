@@ -1358,7 +1358,12 @@
         },
         "gmEndRound": {
             "endsOnTargetTurn": "{when} de {target} turn",
-            "braceExit": "salidas {braced} y entra {cooldown} estado."
+            "braceExit": "salidas {braced} y entra {cooldown} estado.",
+            "reinforcementsReady": "refuerzos listos la siguiente ronda:",
+            "willBeReady": "estará listo para desplegarse."
+        },
+        "panelBase": {
+            "itemDestroyed": "{type} DESTROYED"
         }
     }
 }
