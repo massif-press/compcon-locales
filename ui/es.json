@@ -1189,306 +1189,332 @@
             "na": "N/A"
         },
         "campaignDialog": {
-            "setCampaign": "Set Campaign"
+            "setCampaign": "Seleccionar Campaña"
         },
         "landing": {
-            "resumeRound": "{name} (Round {n})"
+            "resumeRound": "reanuda {name} (Ronda {n})"
         },
         "endEnc": {
-            "endEncounter": "End Encounter",
-            "confirmEndEncounter": "Confirmar Encounter",
-            "endEncounterLower": "encuentro final",
-            "confirmEndEncounterLower": "Confirme el encuentro final"
+            "endEncounter": "Finalizar Encuentro",
+            "confirmEndEncounter": "Confirmar Finalización del Encuentro",
+            "endEncounterLower": "finalizar encuentro",
+            "confirmEndEncounterLower": "Confirme finalización del encuentro"
         },
         "sortBar": {
             "sortByRecent": "Ordenar por Reciente",
-            "sortByCreated": "Ordenar por timestamp creado"
+            "sortByCreated": "Ordenar por tiempo de creación"
         },
         "organizer": {
             "selected": "seleccionada"
         },
         "runnerHeader": {
-            "lastSaved": "Guardado por última vez:",
+            "lastSaved": "Guardado por Última Vez:",
             "never": "Nunca",
-            "manualSave": "Guardado manual",
-            "layoutOptions": "Opciones de diseño",
+            "manualSave": "Guardado Manual",
+            "layoutOptions": "Opciones de Diseño",
             "autosave": "Autoguardado"
         },
         "leaveDialog": {
-            "prompt": "¿Quieres salvar este encuentro antes de salir?",
-            "exitWithoutSaving": "&Salir sin Guardar"
+            "prompt": "¿Quieres guardar este encuentro antes de salir?",
+            "exitWithoutSaving": "Salir Sin Guardar"
         },
         "endRound": {
-            "endRound": "Ronda final",
-            "confirmEndRound": "Confirmación final"
+            "endRound": "Ronda Final",
+            "confirmEndRound": "Confirmar Ronda Final"
         },
         "actionChips": {
             "protocol": "Protocolo",
-            "quickAction": "Acción rápida"
+            "quickAction": "Acción Rápida"
         },
         "pcEndRound": {
-            "forfeitActions": "Terminar la ronda perderá cualquier acción no utilizada.",
-            "nextRound": "Siguiente ronda:",
-            "willLoseStatuses": "perderá los siguientes estatus:",
+            "forfeitActions": "Al terminar la ronda perderá cualquier acción no utilizada.",
+            "nextRound": "Siguiente Ronda:",
+            "willLoseStatuses": "perderá los siguientes estados:",
             "atThe": "en el",
             "endsOnTurn": "{when} de tu turno",
-            "braceExit": "Usted sale {braced} y entra {cooldown} estado.",
-            "braced": "BRACED",
-            "braceCooldown": "BRACE COOLDOWN"
+            "braceExit": "Usted sale del estado {braced} y entra en {cooldown}.",
+            "braced": "Fortalecido",
+            "braceCooldown": "Enfriamiento de Fortalecer"
         },
         "joinTable": {
             "sortOnline": "Ordenar por Estado en línea",
-            "sortGm": "Ordenar por GM",
-            "sortLastOnline": "Ordenar por Last Online",
-            "sortNextSession": "Ordenar por próxima sesión",
+            "sortGm": "Ordenar por DJ",
+            "sortLastOnline": "Ordenar por Última Conexión",
+            "sortNextSession": "Ordenar por Próxima Sesión",
             "online": "En línea",
-            "gm": "GM",
-            "lastOnline": "Último online",
+            "gm": "DJ",
+            "lastOnline": "Última Conexión",
             "cdt": "CDT",
-            "nextSession": "Siguiente período de sesiones",
+            "nextSession": "Siguiente Sesión",
             "at8pm": "a las 8 PM CDT",
-            "currentlyRunning": "Actualmente",
+            "currentlyRunning": "Llevando Actualmente",
             "players": "Jugadores",
-            "connect": "Connect",
-            "gmOffline": "GM OFFLINE",
-            "archivedTables": "Cuadros archivados"
+            "connect": "Conectar",
+            "gmOffline": "DJ fuera de línea",
+            "archivedTables": "Mesas Archivadas"
         },
         "pcOptions": {
-            "exportState": "Carácter de exportación Sheet State",
-            "importState": "Carácter de importación Sheet State",
-            "importFileLabel": "Hoja de caracteres Archivo de importación (.json)",
-            "stagedImport": "Importación fija:",
+            "exportState": "Exportar Estado de Hoja de Personaje",
+            "importState": "Importar Estado de Hoja de Personaje",
+            "importFileLabel": "Importar Archivo de Instancia de Hoja de Personaje (.json)",
+            "stagedImport": "Importación por Etapas:",
             "atRound": "en la Ronda",
-            "warningReplace": "Advertencia: El estado importado de la hoja de caracteres sustituirá el estado actual de la hoja de caracteres.",
-            "changeActiveMech": "Cambio Active Mech",
-            "applySave": "Aplicar \" Guardar \""
+            "warningReplace": "Advertencia: El estado importado de la Hoja de Personaje sustituirá el estado actual de la Hoja de Personaje.",
+            "changeActiveMech": "Cambiar Mecha Activo",
+            "applySave": "Aplicar & Guardar"
         },
         "pcNotes": {
-            "playerNotes": "Notas de jugador",
-            "sessionNotes": "Notas de sesión"
+            "playerNotes": "Notas de Jugador",
+            "sessionNotes": "Notas de Sesión"
         },
         "pcDeploy": {
-            "deployedEquipment": "Equipo desplegado:",
-            "noActive": "No hay equipo activo.",
-            "noSelected": "No hay equipo seleccionado."
+            "deployedEquipment": "Equipamento desplegado:",
+            "noActive": "Sin equipamiento activo.",
+            "noSelected": "No hay equipamiento seleccionado."
         },
         "pilotRunner": {
-            "loading": "Carga de hoja piloto…"
+            "loading": "Cargando hoja de piloto…"
         },
         "gmOptions": {
-            "exportState": "Export Encounter Estado",
-            "importState": "Import Encounter State",
-            "importFileLabel": "Archivo de importación (.json)",
-            "warningReplace": "Advertencia: El estado de encuentro importado sustituirá al actual estado de encuentro.",
-            "setRound": "Set Round",
-            "overrides": "Ajuste manual",
-            "current": "Intensidad",
-            "removeFromEncounter": "Quitar {name} De Encounter",
-            "noStatController": "No encontrado controlador de Stat",
-            "editReinforcements": "Editar refuerzos",
-            "noReinforcementSchedule": "No hay calendario de ejecución",
+            "exportState": "Exportar Estado del Encuentro",
+            "importState": "Importar Estado de Encuentro",
+            "importFileLabel": "importar Archivo de Instancia de Encuentro (.json)",
+            "warningReplace": "Advertencia: El estado de encuentro importado sustituirá al actual estado del encuentro.",
+            "setRound": "Seleccionar Ronda",
+            "overrides": "Anula",
+            "current": "Actual",
+            "removeFromEncounter": "Quitar {name} Del Encuentro",
+            "noStatController": "No se halló Controlador de Estadística",
+            "editReinforcements": "Editar Refuerzos",
+            "noReinforcementSchedule": "No hay Agenda de Refuerzos",
             "max": "Máximo"
         },
         "encInfo": {
-            "reinforcements": "¡Les llegan refuerzos!…",
+            "reinforcements": "Refuerzos",
             "noReinforcements": "No hay refuerzos de encuentro.",
-            "turnN": "Gire {n}",
-            "freeDeployment": "Despliegue gratuito"
+            "turnN": "Turno {n}",
+            "freeDeployment": "Libre Despliegue"
         },
         "gmNotes": {
-            "gmNotes": "Notas del MM",
-            "encounterClocks": "Encounter Clocks",
-            "addClock": "Agregar reloj"
+            "gmNotes": "Notas del DJ",
+            "encounterClocks": "Cronómetros del Encuentro",
+            "addClock": "Agregar Reloj"
         },
         "refTag": {
-            "yourTags": "Sus etiquetas ({name})"
+            "yourTags": "Sus Chapas ({name})",
+            "relevantTags": "Chapas Relevantes ({name})",
+            "noTagsFound": "No se Hallaron Chapas",
+            "relevantTagsEncounter": "Chapas Relevantes (Encuentro)",
+            "allTags": "Todas las Chapas"
         },
         "diceRoller": {
-            "count": "Cantidad",
-            "die": "Morir",
-            "rollDice": "Rollo dados",
-            "rollResult": "Resultado del rodillo",
-            "noRolls": "Todavía no hay rollos.",
-            "sessionHistory": "Historia del período de sesiones"
+            "count": "Conteo",
+            "die": "Dado",
+            "rollDice": "Lanzar Dados",
+            "rollResult": "Resultado de la Tirada",
+            "noRolls": "Todavía no hay tiradas.",
+            "sessionHistory": "Historial de Sesión",
+            "title": "Lanzador de Dados",
+            "quickRoll": "Lanzada Rápida:",
+            "hullCheck": "Prueba de Casco",
+            "agilityCheck": "Prueba de Agilidad",
+            "systemsCheck": "Prueba de Sistemas",
+            "engineeringCheck": "Prueba de Ingeniería"
         },
         "toolPalette": {
-            "deployables": "Despliegueables",
-            "diceRoller": "Tirador de dados",
-            "rollableTables": "Cuadros enrollables",
+            "deployables": "Desplegables",
+            "diceRoller": "Lanzador de Dados",
+            "rollableTables": "Tablas de Tiradas",
             "encounterInfo": "Información del Encuentro",
-            "tagReference": "Referencia de la etiqueta",
-            "combatQuickRef": "Combate rápido Referencia"
+            "tagReference": "Referencia de la Chapa",
+            "combatQuickRef": "Referencia Rápida de Combate"
         },
         "tableIndex": {
-            "title": "CUADRO INDEX",
-            "encounterTables": "Cuadros de contabilidad",
-            "otherTables": "Otros cuadros",
-            "coreOnly": "Actualmente solo se admiten tablas Lancer Core Book. LCP y tablas personalizadas tendrán que ser resueltas manualmente",
+            "title": "Índice de Tabla",
+            "encounterTables": "Tablas de Encuentro",
+            "otherTables": "Otras Tablas",
+            "coreOnly": "Actualmente solo se admiten tablas de Lancer Core Book. LCP y tablas personalizadas tendrán que ser resueltas manualmente",
             "selectTable": "Seleccione una tabla para ver su contenido."
         },
         "initiative": {
-            "reinforcementsN": "({n})",
+            "reinforcementsN": "refuerzos ({n})",
             "destroyedN": "Destruido ({n})"
         },
         "runnerItem": {
-            "deploysOnRound": "Deploys on Round {n}",
-            "deploysNextRound": "Deplora la próxima ronda",
-            "readyToDeploy": "Listo para desplegar",
-            "forceDeploy": "Despliegue de la fuerza",
+            "deploysOnRound": "Despliegue en Ronda {n}",
+            "deploysNextRound": "Despliega en la Próxima Ronda",
+            "readyToDeploy": "Listo para Desplegar",
+            "forceDeploy": "Despliegue de la Fuerza",
             "resistanceLine": "{condition} a {type} daño",
-            "reactorDestroyed": "REACTOR DESTROYED",
-            "bracedDesc": "Usted cuenta como tener RESISTENCIA a todo daño, calor y quemadura del ataque que provocó este Brace, y hasta el final de su próximo turno, todos los otros ataques contra usted se hacen en +1 Dificultad.",
-            "coverLabel": "{cover} COVER",
-            "activationsRemaining": "{n} Activaciones restantes de esta ronda",
-            "aiControl": "Mech bajo control AI",
-            "selfDestructInitiated": "SELF DESTRUCT INITIATED",
-            "prepared": "Preparado"
+            "reactorDestroyed": "Reactor destruido",
+            "bracedDesc": "Usted cuenta como si tuviera RESISTENCIA a todo daño, calor y quemadura del ataque que provocó este Fortalecimiento, y hasta el final de su próximo turno, todos los otros ataques contra usted se hacen con +1 Dificultad.",
+            "coverLabel": "{cover} cobertura",
+            "activationsRemaining": "{n} Activaciones restantes en esta ronda",
+            "aiControl": "Mecha Controlado por IA",
+            "selfDestructInitiated": "Auto destrucción iniciada",
+            "prepared": "Preparado",
+            "bracedHeading": "Fortalecido"
         },
         "addRoster": {
-            "addPc": "Agregar PC",
-            "addNpcFull": "Agregar carácter no jugador",
-            "addPcFull": "Agregar personaje de jugador",
-            "licenseLevelN": "Nivel de licencia {n}"
+            "addPc": "Agregar PJ",
+            "addNpcFull": "Agregar Personaje No Jugador",
+            "addPcFull": "Agregar Personaje de Jugador",
+            "licenseLevelN": "Nivel de Licencia {n}"
         },
         "addOther": {
-            "addOther": "Add Other",
+            "addOther": "Añadir Otro",
             "doodad": "Doodad"
         },
         "addStub": {
-            "addPlaceholder": "Add Placeholder"
+            "addPlaceholder": "Añadir Marcador de Posicion",
+            "description": "Los Marcadores de Posición son contenedores de estadísticas ad-hoc usados para rastrear entidades dentro de un encuentro que no están en su lista de @:{'common.appName'}, o, no pueden ser representadas dentro de @:{'common.appName'}. Pueden ser usados para PJ, PNJs, elementos complejos del encuentro, riesgos ambientales, y así. {emphasis}",
+            "noPersist": "Los Marcadores de Posición no persisten fuera del encuentro en el que fueron creados."
         },
         "gmEndRound": {
-            "endsOnTargetTurn": "{when} de {target} turn",
-            "braceExit": "salidas {braced} y entra {cooldown} estado.",
+            "endsOnTargetTurn": "{when} de {target} turno",
+            "braceExit": "sale del estado {braced} y entra en {cooldown}.",
             "reinforcementsReady": "refuerzos listos la siguiente ronda:",
-            "willBeReady": "estará listo para desplegarse."
+            "willBeReady": "estará listo para desplegarse.",
+            "unusedActions": "acciones sin usar:"
         },
         "panelBase": {
-            "itemDestroyed": "{type} DESTROYED",
+            "itemDestroyed": "{type} destruido",
             "markActivation": "¿Marcar una activación como completa?",
-            "reduceActivations": "Esto reducirá las activaciones restantes para 1 y restablecerá todas las acciones.",
-            "endTurn": "Esto terminará el turno.",
-            "cover": "Cubrir",
-            "noCover": "Sin cobertura",
-            "soft": "Suave (con rodaduras apenas visibles entre la vegetación)",
-            "softCover": "Funda suave",
-            "hard": "Difícil",
-            "hardCover": "Cubierta dura",
+            "reduceActivations": "Esto reducirá las activaciones restantes en 1 y restablecerá todas las acciones.",
+            "endTurn": "Esto finalizará el turno de {name}.",
+            "cover": "Cobertura",
+            "noCover": "Sin Cobertura",
+            "soft": "Suave",
+            "softCover": "Cobertura Suave",
+            "hard": "Dura",
+            "hardCover": "Cobertura Dura",
             "resistances": "Resistencias",
-            "statusesConditions": "Situación/Condiciones",
-            "counters": "PAÍSES"
+            "statusesConditions": "Estados/Condiciones",
+            "counters": "Contadores"
         },
         "damageMenu": {
-            "takeDamageLower": "Daño",
-            "takeDamage": "Coge los daños",
-            "incomingValue": "Valor de daños entrantes",
-            "armorPiercing": "Armor Piercing",
+            "takeDamageLower": "Recibe daño",
+            "takeDamage": "Recibe Daño",
+            "incomingValue": "Valor de Daño Entrante",
+            "armorPiercing": "Perfora Armadura",
             "irreducible": "Irreducible",
-            "defenderStatus": "Defender Status",
-            "armorN": "Armadura",
-            "totalDamage": "Daño total",
-            "applyClose": "Aplicar y cerrar"
+            "defenderStatus": "Estado del Defensor",
+            "armorN": "{n} Armadura",
+            "totalDamage": "Daño Total",
+            "applyClose": "Aplicar y Cerrar"
         },
         "trackable": {
-            "corePower": "Central Power",
-            "ready": "Preparado",
-            "unavailable": "Indisponible",
-            "clearMechCore": "Despejar este mech's",
-            "restoreMechCore": "Restaurar este mech's",
+            "corePower": "Poder del Núcleo",
+            "ready": "Listo",
+            "unavailable": "No Disponible",
+            "clearMechCore": "Limpiar los de este mecha",
+            "restoreMechCore": "Restaurar los de este mecha",
             "corePowerQ": "¿poder de núcleo?"
         },
         "customStat": {
-            "editStats": "Editar Stats",
-            "removeStat": "Remove Stat",
+            "editStats": "Editar Estadísticas",
+            "removeStat": "Quitar Estadística",
             "trackable": "Rastreable",
             "static": "Estática"
         },
         "telemetry": {
-            "devNote": "Esta característica sigue en desarrollo. Se publicarán datos adicionales de telemetría.",
+            "devNote": "Esta característica sigue en desarrollo. Se publicarán datos adicionales de telemetría.{emphasis}",
             "collectedNote": "Los datos de telemetría se recopilan al final de cada ronda",
-            "encounterInstance": "encuentro Instance",
+            "encounterInstance": "instanciaEncuentro",
             "lifetime": "por vida",
-            "exportText": "Exportar como texto",
+            "exportText": "Exportar como Texto",
             "telemetry": "Telemetría"
         },
         "actorLogs": {
-            "log": "Log",
+            "log": "Bitácora",
             "noEntries": "No hay registros de combate.",
-            "exportText": "Exportar texto",
-            "exportJson": "Exportar JSON Log"
+            "exportText": "Exportar Texto de Bitácora",
+            "exportJson": "Exportar Bitácora a JSON"
         },
         "dmgCond": {
-            "title": "RESISTA / MMUNE / VULN.",
-            "immunity": "Inmunity",
+            "title": "Resist / inmune / vuln.",
+            "immunity": "Inmunidad",
             "vulnerability": "Vulnerabilidad",
-            "noDamage": "No hay daño",
-            "halfDamage": "Medio daño",
+            "noDamage": "Sin daño",
+            "halfDamage": "Mitad del daño",
             "doubleDamage": "Daño doble",
-            "fullDamage": "Daño completo",
+            "fullDamage": "Daño Completo",
             "resistance": "Resistencia",
             "fromAttacks": "de ataques {type}."
         },
         "timedEffect": {
-            "pending": "pendiente",
+            "pending": "Pendiente",
             "roundsRemaining": "{n} Rondas restantes",
-            "override": "// Anulación"
+            "override": "// Anular"
         },
         "statblockExport": {
-            "title": "Combat Statblock",
-            "include": "// Incluido",
-            "exportText": "Exportar texto Statblock"
+            "title": "Bloque de Estadísticas de Combate",
+            "include": "// Incluir",
+            "exportText": "Exportar Texto de Bloque de Estadísticas"
         },
         "statusCond": {
-            "title": "Situación / Condiciones",
-            "addCustom": "Add Custom Status"
+            "title": "Estados / Condiciones",
+            "addCustom": "Añadir Estado Personalizado"
         },
         "miniPanel": {
-            "resetBase": "Reset to Base Value"
+            "resetBase": "Restablecer al Valor Base"
         },
         "activeEffect": {
-            "title": "EFECTOS ACTIVOS",
-            "hiddenEffects": "Efectos ocultos"
+            "title": "Efectos activos",
+            "hiddenEffects": "Efectos Ocultos"
         },
         "scan": {
             "scan": "Escanear"
         },
         "actions": {
-            "allActions": "Todas las acciones",
-            "selectIcon": "Elegir icono"
+            "allActions": "Todas las Acciones",
+            "selectIcon": "Elegir Icono",
+            "mounted": "Montada",
+            "braced": "Fortalecido",
+            "overwatch": "Vigilancia",
+            "prepared": "Preparado",
+            "aiControl": "Control IA",
+            "activeEffect": "Efecto Activo",
+            "passiveBonus": "Bono Pasivo",
+            "equipmentDeployableInstance": "Equipamiento Desplegable (Instancia)"
         },
         "combatAction": {
-            "alreadyUsed": "Esta acción ya se ha utilizado este giro.",
+            "alreadyUsed": "Esta acción ya se ha utilizado en este turno.",
             "insufficient": "Insuficiente",
-            "actionsRemaining": "acciones que siguen siendo este turno.",
-            "activationAction": "{n} Action"
+            "actionsRemaining": "acciones restantes para este turno.",
+            "activationAction": "{n} Acción"
         },
         "deploy": {
-            "deployNamed": "Despliegue {name}",
+            "deployNamed": "Desplegar {name}",
             "generateInstance": "Esto generará y desplegará una nueva instancia de {name} para {actor} como un {action}"
         },
         "equipCmd": {
             "markUsedHint": "Haga clic para marcar como {used} . Las armas con la etiqueta LOADING deben ser recargadas antes de que puedan ser cargadas de nuevo",
-            "reloadHint": "Haga clic en {reload} este arma.",
-            "clickUnused": "Haga clic para marcar Desuso",
+            "reloadHint": "Haga clic para {reload} esta arma.",
+            "clickUnused": "Haga clic para marcar Sin uso",
             "clickUsed": "Haga clic para marcar Usado"
         },
         "mountBonus": {
             "not": "NO",
-            "warning": "Los efectos de bonificación de montaje en los ataques de armas son {not} automáticamente aplicados por COMP/CON. Por favor, asegúrese de aplicar manualmente cualquier efecto relevante durante el juego."
+            "warning": "Los efectos de bonificación de Montura en los ataques de armas son {not} automáticamente aplicados por @:{'common.appName'}. Por favor, asegúrese de aplicar manualmente cualquier efecto relevante durante el juego."
         },
         "overcharge": {
             "cost": "OVERCHARGE Costo",
-            "willIncur": "Sobrecargar incurre"
+            "willIncur": "Sobrecargar incurrirá"
         },
         "unitLoadout": {
-            "hiddenFeatures": "Características ocultas",
-            "rollRecharge": "Recarga",
-            "rechargeResult": "Resultado de recarga (d6)",
+            "hiddenFeatures": "Características Ocultas",
+            "rollRecharge": "Tirada de Recarga",
+            "rechargeResult": "Resultado de Recarga (d6)",
             "rechargesFeatures": "Recarga las siguientes características:",
-            "rechargesOn": "(Recargas en {n}+)",
-            "clickToRoll": "Haga clic para rodar. NPC Las características se recargarán en rollos iguales o superiores a su valor de rollo.",
-            "reroll": "reinscripción",
-            "applyLower": "aplicación"
+            "rechargesOn": "(Recarga en {n}+)",
+            "clickToRoll": "Haga clic para lanzar. Las características de PNJ se recargarán en lanzamientos iguales o superiores a su valor de tirada.",
+            "reroll": "relanzar",
+            "applyLower": "aplicar"
+        },
+        "gmRunner": {
+            "loading": "Cargando instancia de encuentro…",
+            "roundN": "Ronda {n}"
         }
     }
 }
