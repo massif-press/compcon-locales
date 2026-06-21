@@ -1274,6 +1274,9 @@
         },
         "pilotRunner": {
             "loading": "Carga de hoja piloto…"
+        },
+        "gmOptions": {
+            "exportState": "Export Encounter Estado"
         }
     }
 }
