@@ -1381,7 +1381,8 @@
         "damageMenu": {
             "takeDamageLower": "Daño",
             "takeDamage": "Coge los daños",
-            "incomingValue": "Valor de daños entrantes"
+            "incomingValue": "Valor de daños entrantes",
+            "armorPiercing": "Armor Piercing"
         }
     }
 }
