@@ -1327,7 +1327,11 @@
             "selectTable": "Seleccione una tabla para ver su contenido."
         },
         "initiative": {
-            "reinforcementsN": "({n})"
+            "reinforcementsN": "({n})",
+            "destroyedN": "Destruido ({n})"
+        },
+        "runnerItem": {
+            "deploysOnRound": "Deploys on Round {n}"
         }
     }
 }
