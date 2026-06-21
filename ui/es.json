@@ -1435,7 +1435,8 @@
         },
         "statblockExport": {
             "title": "Combat Statblock",
-            "include": "// Incluido"
+            "include": "// Incluido",
+            "exportText": "Exportar texto Statblock"
         }
     }
 }
