@@ -1280,7 +1280,8 @@
             "importState": "Import Encounter State",
             "importFileLabel": "Archivo de importación (.json)",
             "warningReplace": "Advertencia: El estado de encuentro importado sustituirá al actual estado de encuentro.",
-            "setRound": "Set Round"
+            "setRound": "Set Round",
+            "overrides": "Ajuste manual"
         }
     }
 }
