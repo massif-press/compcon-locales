@@ -1492,7 +1492,8 @@
             "markUsedHint": "Haga clic para marcar como {used} . Las armas con la etiqueta LOADING deben ser recargadas antes de que puedan ser cargadas de nuevo",
             "reloadHint": "Haga clic para {reload} esta arma.",
             "clickUnused": "Haga clic para marcar Sin uso",
-            "clickUsed": "Haga clic para marcar Usado"
+            "clickUsed": "Haga clic para marcar Usado",
+            "reload": "recargar"
         },
         "mountBonus": {
             "not": "NO",
