@@ -1302,6 +1302,9 @@
         },
         "refTag": {
             "yourTags": "Sus etiquetas ({name})"
+        },
+        "diceRoller": {
+            "count": "Cantidad"
         }
     }
 }
