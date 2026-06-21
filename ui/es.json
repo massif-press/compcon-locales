@@ -1306,7 +1306,8 @@
         "diceRoller": {
             "count": "Cantidad",
             "die": "Morir",
-            "rollDice": "Rollo dados"
+            "rollDice": "Rollo dados",
+            "rollResult": "Resultado del rodillo"
         }
     }
 }
