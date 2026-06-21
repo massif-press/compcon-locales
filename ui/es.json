@@ -1294,6 +1294,9 @@
             "noReinforcements": "No hay refuerzos de encuentro.",
             "turnN": "Gire {n}",
             "freeDeployment": "Despliegue gratuito"
+        },
+        "gmNotes": {
+            "gmNotes": "Notas del MM"
         }
     }
 }
