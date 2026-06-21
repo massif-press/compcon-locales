@@ -1334,7 +1334,9 @@
             "deploysOnRound": "Deploys on Round {n}",
             "deploysNextRound": "Deplora la próxima ronda",
             "readyToDeploy": "Listo para desplegar",
-            "forceDeploy": "Despliegue de la fuerza"
+            "forceDeploy": "Despliegue de la fuerza",
+            "resistanceLine": "{condition} a {type} daño",
+            "reactorDestroyed": "REACTOR DESTROYED"
         }
     }
 }
