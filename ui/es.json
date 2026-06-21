@@ -1388,6 +1388,9 @@
             "armorN": "Armadura",
             "totalDamage": "Daño total",
             "applyClose": "Aplicar y cerrar"
+        },
+        "trackable": {
+            "corePower": "Central Power"
         }
     }
 }
