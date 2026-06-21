@@ -1344,7 +1344,8 @@
             "selfDestructInitiated": "SELF DESTRUCT INITIATED"
         },
         "addRoster": {
-            "addPc": "Agregar PC"
+            "addPc": "Agregar PC",
+            "addNpcFull": "Agregar carácter no jugador"
         }
     }
 }
