@@ -1377,6 +1377,9 @@
             "resistances": "Resistencias",
             "statusesConditions": "Situación/Condiciones",
             "counters": "PAÍSES"
+        },
+        "damageMenu": {
+            "takeDamageLower": "Daño"
         }
     }
 }
