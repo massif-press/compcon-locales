@@ -1407,6 +1407,9 @@
             "encounterInstance": "encuentro Instance",
             "lifetime": "por vida",
             "exportText": "Exportar como texto"
+        },
+        "actorLogs": {
+            "log": "Log"
         }
     }
 }
