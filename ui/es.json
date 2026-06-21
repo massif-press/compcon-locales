@@ -1483,7 +1483,9 @@
         "unitLoadout": {
             "hiddenFeatures": "Características ocultas",
             "rollRecharge": "Recarga",
-            "rechargeResult": "Resultado de recarga (d6)"
+            "rechargeResult": "Resultado de recarga (d6)",
+            "rechargesFeatures": "Recarga las siguientes características:",
+            "rechargesOn": "(Recargas en {n}+)"
         }
     }
 }
