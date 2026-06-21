@@ -1305,7 +1305,8 @@
         },
         "diceRoller": {
             "count": "Cantidad",
-            "die": "Morir"
+            "die": "Morir",
+            "rollDice": "Rollo dados"
         }
     }
 }
