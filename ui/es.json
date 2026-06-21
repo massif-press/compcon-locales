@@ -1285,7 +1285,8 @@
             "current": "Intensidad",
             "removeFromEncounter": "Quitar {name} De Encounter",
             "noStatController": "No encontrado controlador de Stat",
-            "editReinforcements": "Editar refuerzos"
+            "editReinforcements": "Editar refuerzos",
+            "noReinforcementSchedule": "No hay calendario de ejecución"
         }
     }
 }
