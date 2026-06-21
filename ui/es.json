@@ -1373,7 +1373,9 @@
             "soft": "Suave (con rodaduras apenas visibles entre la vegetación)",
             "softCover": "Funda suave",
             "hard": "Difícil",
-            "hardCover": "Cubierta dura"
+            "hardCover": "Cubierta dura",
+            "resistances": "Resistencias",
+            "statusesConditions": "Situación/Condiciones"
         }
     }
 }
