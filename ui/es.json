@@ -1269,7 +1269,8 @@
         },
         "pcDeploy": {
             "deployedEquipment": "Equipo desplegado:",
-            "noActive": "No hay equipo activo."
+            "noActive": "No hay equipo activo.",
+            "noSelected": "No hay equipo seleccionado."
         }
     }
 }
