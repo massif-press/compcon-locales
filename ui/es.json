@@ -1380,7 +1380,8 @@
         },
         "damageMenu": {
             "takeDamageLower": "Daño",
-            "takeDamage": "Coge los daños"
+            "takeDamage": "Coge los daños",
+            "incomingValue": "Valor de daños entrantes"
         }
     }
 }
