@@ -1337,7 +1337,8 @@
             "forceDeploy": "Despliegue de la fuerza",
             "resistanceLine": "{condition} a {type} daño",
             "reactorDestroyed": "REACTOR DESTROYED",
-            "bracedDesc": "Usted cuenta como tener RESISTENCIA a todo daño, calor y quemadura del ataque que provocó este Brace, y hasta el final de su próximo turno, todos los otros ataques contra usted se hacen en +1 Dificultad."
+            "bracedDesc": "Usted cuenta como tener RESISTENCIA a todo daño, calor y quemadura del ataque que provocó este Brace, y hasta el final de su próximo turno, todos los otros ataques contra usted se hacen en +1 Dificultad.",
+            "coverLabel": "{cover} COVER"
         }
     }
 }
