@@ -1346,7 +1346,8 @@
         "addRoster": {
             "addPc": "Agregar PC",
             "addNpcFull": "Agregar carácter no jugador",
-            "addPcFull": "Agregar personaje de jugador"
+            "addPcFull": "Agregar personaje de jugador",
+            "licenseLevelN": "Nivel de licencia {n}"
         }
     }
 }
