@@ -1282,7 +1282,8 @@
             "warningReplace": "Advertencia: El estado de encuentro importado sustituirá al actual estado de encuentro.",
             "setRound": "Set Round",
             "overrides": "Ajuste manual",
-            "current": "Intensidad"
+            "current": "Intensidad",
+            "removeFromEncounter": "Quitar {name} De Encounter"
         }
     }
 }
