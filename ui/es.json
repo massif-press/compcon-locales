@@ -1434,7 +1434,8 @@
             "override": "// Anulación"
         },
         "statblockExport": {
-            "title": "Combat Statblock"
+            "title": "Combat Statblock",
+            "include": "// Incluido"
         }
     }
 }
