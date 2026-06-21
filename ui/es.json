@@ -1481,7 +1481,8 @@
             "willIncur": "Sobrecargar incurre"
         },
         "unitLoadout": {
-            "hiddenFeatures": "Características ocultas"
+            "hiddenFeatures": "Características ocultas",
+            "rollRecharge": "Recarga"
         }
     }
 }
