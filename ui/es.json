@@ -1355,6 +1355,9 @@
         },
         "addStub": {
             "addPlaceholder": "Add Placeholder"
+        },
+        "gmEndRound": {
+            "endsOnTargetTurn": "{when} de {target} turn"
         }
     }
 }
