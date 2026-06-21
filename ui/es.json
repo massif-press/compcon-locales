@@ -1409,7 +1409,9 @@
             "exportText": "Exportar como texto"
         },
         "actorLogs": {
-            "log": "Log"
+            "log": "Log",
+            "noEntries": "No hay registros de combate.",
+            "exportText": "Exportar texto"
         }
     }
 }
