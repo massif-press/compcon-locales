@@ -1286,7 +1286,11 @@
             "removeFromEncounter": "Quitar {name} De Encounter",
             "noStatController": "No encontrado controlador de Stat",
             "editReinforcements": "Editar refuerzos",
-            "noReinforcementSchedule": "No hay calendario de ejecución"
+            "noReinforcementSchedule": "No hay calendario de ejecución",
+            "max": "Máximo"
+        },
+        "encInfo": {
+            "reinforcements": "¡Les llegan refuerzos!…"
         }
     }
 }
