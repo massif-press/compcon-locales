@@ -1468,7 +1468,8 @@
         },
         "equipCmd": {
             "markUsedHint": "Haga clic para marcar como {used} . Las armas con la etiqueta LOADING deben ser recargadas antes de que puedan ser cargadas de nuevo",
-            "reloadHint": "Haga clic en {reload} este arma."
+            "reloadHint": "Haga clic en {reload} este arma.",
+            "clickUnused": "Haga clic para marcar Desuso"
         }
     }
 }
