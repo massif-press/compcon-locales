@@ -1345,7 +1345,8 @@
         },
         "addRoster": {
             "addPc": "Agregar PC",
-            "addNpcFull": "Agregar carácter no jugador"
+            "addNpcFull": "Agregar carácter no jugador",
+            "addPcFull": "Agregar personaje de jugador"
         }
     }
 }
