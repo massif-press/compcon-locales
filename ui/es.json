@@ -1266,6 +1266,9 @@
         "pcNotes": {
             "playerNotes": "Notas de jugador",
             "sessionNotes": "Notas de sesión"
+        },
+        "pcDeploy": {
+            "deployedEquipment": "Equipo desplegado:"
         }
     }
 }
