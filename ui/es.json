@@ -1368,7 +1368,8 @@
             "markActivation": "¿Marcar una activación como completa?",
             "reduceActivations": "Esto reducirá las activaciones restantes para 1 y restablecerá todas las acciones.",
             "endTurn": "Esto terminará el turno.",
-            "cover": "Cubrir"
+            "cover": "Cubrir",
+            "noCover": "Sin cobertura"
         }
     }
 }
