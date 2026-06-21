@@ -1333,7 +1333,8 @@
         "runnerItem": {
             "deploysOnRound": "Deploys on Round {n}",
             "deploysNextRound": "Deplora la próxima ronda",
-            "readyToDeploy": "Listo para desplegar"
+            "readyToDeploy": "Listo para desplegar",
+            "forceDeploy": "Despliegue de la fuerza"
         }
     }
 }
