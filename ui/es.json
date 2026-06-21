@@ -1441,6 +1441,9 @@
         "statusCond": {
             "title": "Situación / Condiciones",
             "addCustom": "Add Custom Status"
+        },
+        "miniPanel": {
+            "resetBase": "Reset to Base Value"
         }
     }
 }
