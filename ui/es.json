@@ -1455,6 +1455,9 @@
         "actions": {
             "allActions": "Todas las acciones",
             "selectIcon": "Elegir icono"
+        },
+        "combatAction": {
+            "alreadyUsed": "Esta acción ya se ha utilizado este giro."
         }
     }
 }
