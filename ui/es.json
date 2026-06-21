@@ -1457,7 +1457,9 @@
             "selectIcon": "Elegir icono"
         },
         "combatAction": {
-            "alreadyUsed": "Esta acción ya se ha utilizado este giro."
+            "alreadyUsed": "Esta acción ya se ha utilizado este giro.",
+            "insufficient": "Insuficiente",
+            "actionsRemaining": "acciones que siguen siendo este turno."
         }
     }
 }
