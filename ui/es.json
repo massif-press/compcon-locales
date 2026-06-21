@@ -1308,7 +1308,8 @@
             "die": "Morir",
             "rollDice": "Rollo dados",
             "rollResult": "Resultado del rodillo",
-            "noRolls": "Todavía no hay rollos."
+            "noRolls": "Todavía no hay rollos.",
+            "sessionHistory": "Historia del período de sesiones"
         }
     }
 }
