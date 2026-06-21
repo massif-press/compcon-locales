@@ -1487,7 +1487,8 @@
             "rechargesFeatures": "Recarga las siguientes características:",
             "rechargesOn": "(Recargas en {n}+)",
             "clickToRoll": "Haga clic para rodar. NPC Las características se recargarán en rollos iguales o superiores a su valor de rollo.",
-            "reroll": "reinscripción"
+            "reroll": "reinscripción",
+            "applyLower": "aplicación"
         }
     }
 }
