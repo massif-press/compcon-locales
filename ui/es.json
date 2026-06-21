@@ -1425,10 +1425,13 @@
             "halfDamage": "Medio daño",
             "doubleDamage": "Daño doble",
             "fullDamage": "Daño completo",
-            "resistance": "Resistencia"
+            "resistance": "Resistencia",
+            "fromAttacks": "de ataques {type}."
         },
         "timedEffect": {
-            "pending": "pendiente"
+            "pending": "pendiente",
+            "roundsRemaining": "{n} Rondas restantes",
+            "override": "// Anulación"
         }
     }
 }
