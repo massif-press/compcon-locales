@@ -1284,7 +1284,8 @@
             "overrides": "Ajuste manual",
             "current": "Intensidad",
             "removeFromEncounter": "Quitar {name} De Encounter",
-            "noStatController": "No encontrado controlador de Stat"
+            "noStatController": "No encontrado controlador de Stat",
+            "editReinforcements": "Editar refuerzos"
         }
     }
 }
