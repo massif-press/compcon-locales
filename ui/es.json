@@ -1475,6 +1475,10 @@
         "mountBonus": {
             "not": "NO",
             "warning": "Los efectos de bonificación de montaje en los ataques de armas son {not} automáticamente aplicados por COMP/CON. Por favor, asegúrese de aplicar manualmente cualquier efecto relevante durante el juego."
+        },
+        "overcharge": {
+            "cost": "OVERCHARGE Costo",
+            "willIncur": "Sobrecargar incurre"
         }
     }
 }
