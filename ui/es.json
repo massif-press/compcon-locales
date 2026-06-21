@@ -1485,7 +1485,8 @@
             "rollRecharge": "Recarga",
             "rechargeResult": "Resultado de recarga (d6)",
             "rechargesFeatures": "Recarga las siguientes características:",
-            "rechargesOn": "(Recargas en {n}+)"
+            "rechargesOn": "(Recargas en {n}+)",
+            "clickToRoll": "Haga clic para rodar. NPC Las características se recargarán en rollos iguales o superiores a su valor de rollo."
         }
     }
 }
