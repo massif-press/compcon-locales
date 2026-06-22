@@ -1573,7 +1573,8 @@
             "mustRecharge": "Debe ser recargado antes de que pueda ser utilizado de nuevo.",
             "ordnanceMech": "Este mech ha tomado acciones no-protocolo este giro. Este arma de artillería no puede activarse.",
             "ordnanceUnit": "Esta unidad ha tomado acciones no-protocolo este giro. Este arma de artillería no puede activarse.",
-            "ordnancePilot": "Este piloto ha tomado acciones no-protocolo. Este arma de artillería no puede activarse."
+            "ordnancePilot": "Este piloto ha tomado acciones no-protocolo. Este arma de artillería no puede activarse.",
+            "outOfUses": "Este arma está fuera de uso y no se puede activar este giro."
         }
     }
 }
