@@ -1535,7 +1535,8 @@
             "loses": "Pérdidas",
             "skillCheckRoll": "Rollo de control de habilidades",
             "rollResults": "Resultados",
-            "difficultMod": "-1 (Difícil)"
+            "difficultMod": "-1 (Difícil)",
+            "result": "Resultado:"
         },
         "stabilize": {
             "chooseOne": "elegir uno"
@@ -1594,7 +1595,8 @@
         },
         "eidolon": {
             "tierEidolon": "Tier {n} Eidolon",
-            "nameLayer": "Layer"
+            "nameLayer": "Layer",
+            "activeLayer": "Capa activa"
         }
     }
 }
