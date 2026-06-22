@@ -1665,7 +1665,8 @@
             "verifyEmail": "Verificar E-Mail",
             "createAccount": "Crear Cuenta",
             "passwordRecovery": "Recuperación de contraseña",
-            "verifyEmailTitle": "VERIFY E-MAIL ADDRESS"
+            "verifyEmailTitle": "VERIFY E-MAIL ADDRESS",
+            "codeSentToLabel": "Se envió un código de verificación"
         }
     }
 }
