@@ -1617,7 +1617,8 @@
             "noReserves": "No hay reservas disponibles"
         },
         "pilotActions": {
-            "preparedTitle": "Pilot Prepared"
+            "preparedTitle": "Pilot Prepared",
+            "mountFailedTitle": "El monte falló"
         }
     }
 }
