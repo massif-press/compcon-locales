@@ -1750,6 +1750,9 @@
             "addItem": "Añadir un elemento",
             "addCollectionItem": "Add Collection Item",
             "distributeWarning": "Distribuir contenido que no está autorizado a estar en contra de los términos de servicio de COMP/CON y resultará en una prohibición del servicio de nube, eliminación de su cuenta de nube y datos, y eliminación y bloqueo de la membresía de COMP/CON Patreon."
+        },
+        "cloudData": {
+            "reloadData": "Recargar datos"
         }
     }
 }
