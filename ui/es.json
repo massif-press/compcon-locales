@@ -1539,6 +1539,10 @@
         },
         "stabilize": {
             "chooseOne": "elegir uno"
+        },
+        "invade": {
+            "invade": "Invade",
+            "available": "Acciones disponibles de invasión"
         }
     }
 }
