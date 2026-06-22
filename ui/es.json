@@ -1588,7 +1588,8 @@
             "recalledAwaiting": "{type} ha sido recordado, esperando {redeployment}",
             "redeployment": "redistribución",
             "redeploy": "Redistribución",
-            "ownedBy": "Propietario por"
+            "ownedBy": "Propietario por",
+            "recall": "Recordad"
         }
     }
 }
