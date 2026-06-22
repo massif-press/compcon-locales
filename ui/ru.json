@@ -665,7 +665,12 @@
             "compareTo": "Сравнить с",
             "selectTarget": "Выбор цели",
             "segments": "Сегменты",
-            "linear": "Линейная"
+            "linear": "Линейная",
+            "resolution": "Разрешение",
+            "showDeleted": "Показать удаленные"
+        },
+        "image": {
+            "upload": "Загрузка"
         }
     },
     "notify": {
