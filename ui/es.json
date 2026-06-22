@@ -1692,7 +1692,8 @@
             "linkingAccount": "Cuenta de enlace…",
             "viewChangelog": "Ver registro de modificaciones.",
             "subscribe": "suscribirse",
-            "refreshList": "Actualizar lista"
+            "refreshList": "Actualizar lista",
+            "doesNotSync": "(Esto no sincroniza)"
         }
     }
 }
