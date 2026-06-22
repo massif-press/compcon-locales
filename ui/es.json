@@ -1642,7 +1642,10 @@
             "deletionFailedBulkText": "Se produjo un error al eliminar los elementos marcados.",
             "collectionErrorTitle": "Colección de actualización de errores",
             "collectionUpdatedTitle": "Colección actualizada",
-            "itemAddedTitle": "Item añadido"
+            "itemAddedTitle": "Item añadido",
+            "collectionErrorText": "Hubo un error actualizando la colección. Por favor, intente de nuevo más tarde.",
+            "collectionUpdatedText": "Los artículos de colección se han actualizado con éxito.",
+            "itemAddedText": "Tema {name} añadido a la colección"
         }
     }
 }
