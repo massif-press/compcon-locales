@@ -1620,7 +1620,8 @@
             "preparedTitle": "Pilot Prepared",
             "mountFailedTitle": "El monte falló",
             "mountFailedText": "Ya está montado.",
-            "mountedTitle": "Piloto montado"
+            "mountedTitle": "Piloto montado",
+            "mountedText": "{name} ha montado su Mech."
         }
     }
 }
