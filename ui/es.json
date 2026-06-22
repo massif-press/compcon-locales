@@ -1600,6 +1600,9 @@
             "active": "(Activo)",
             "generateN": "Generar {n}",
             "persistentTraits": "Traits persistentes ({n})"
+        },
+        "mechPanel": {
+            "meltdown": "Este mech ha sufrido un derretimiento del reactor. Se destruye permanentemente y no se puede reparar."
         }
     }
 }
