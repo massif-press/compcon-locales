@@ -1520,7 +1520,11 @@
         "skillCheck": {
             "checkType": "Tipo de cheque",
             "contested": "Concurso",
-            "risky": "Riesgo"
+            "risky": "Riesgo",
+            "standard": "Estándar",
+            "modifiers": "Modificadores",
+            "difficult": "Difícil",
+            "selectTarget": "Seleccionar destino"
         }
     }
 }
