@@ -1528,7 +1528,8 @@
             "heroic": "Heroico",
             "vs": "VS",
             "targetValue": "Valor de destino",
-            "noCheckRolled": "No Check Rolled"
+            "noCheckRolled": "No Check Rolled",
+            "checkSuccess": "Check Successful"
         }
     }
 }
