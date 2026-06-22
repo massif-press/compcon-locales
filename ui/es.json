@@ -1544,6 +1544,9 @@
             "invade": "Invade",
             "available": "Acciones disponibles de invasión",
             "select": "Seleccione una acción invadida"
+        },
+        "jockey": {
+            "available": "Acciones disponibles Jockey"
         }
     }
 }
