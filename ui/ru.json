@@ -645,6 +645,17 @@
     "ui": {
         "card": {
             "tierColumns": "О1 / О2 / О3"
+        },
+        "tooltips": {
+            "resetCounter": "Сброс счётчика"
+        },
+        "fields": {
+            "linkImage": "Ссылка на изображение",
+            "size": "Размер",
+            "license": "Лицензия",
+            "systemType": "Тип системы",
+            "addNewImage": "Добавить новое изображение",
+            "imageType": "&Формат:"
         }
     },
     "notify": {
