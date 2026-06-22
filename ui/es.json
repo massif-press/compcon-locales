@@ -1702,7 +1702,8 @@
             "contentSubscriptions": "Suscripciones al contenido",
             "contentPublishing": "Publicación de contenidos",
             "viewImage": "Ver Imagen",
-            "unlinked": "Desenlazado"
+            "unlinked": "Desenlazado",
+            "unlink": "Desconectar"
         }
     }
 }
