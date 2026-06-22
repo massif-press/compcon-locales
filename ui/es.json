@@ -1516,6 +1516,9 @@
         "gmRunner": {
             "loading": "Cargando instancia de encuentro…",
             "roundN": "Ronda {n}"
+        },
+        "skillCheck": {
+            "checkType": "Tipo de cheque"
         }
     }
 }
