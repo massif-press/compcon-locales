@@ -1596,7 +1596,10 @@
         "eidolon": {
             "tierEidolon": "Tier {n} Eidolon",
             "nameLayer": "Layer",
-            "activeLayer": "Capa activa"
+            "activeLayer": "Capa activa",
+            "active": "(Activo)",
+            "generateN": "Generar {n}",
+            "persistentTraits": "Traits persistentes ({n})"
         }
     }
 }
