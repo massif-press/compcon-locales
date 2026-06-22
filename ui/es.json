@@ -1685,10 +1685,14 @@
             "connected": "Conectado",
             "logIn": "Iniciar sesión",
             "supportProject": "Apoyo a este proyecto",
-            "markAllRead": "Marcar todos los mensajes como leídos"
+            "markAllRead": "Marcar todos los mensajes como leídos",
+            "markAsRead": "Marcar como leído"
         },
         "ui": {
-            "linkingAccount": "Cuenta de enlace…"
+            "linkingAccount": "Cuenta de enlace…",
+            "viewChangelog": "Ver registro de modificaciones.",
+            "subscribe": "suscribirse",
+            "refreshList": "Actualizar lista"
         }
     }
 }
