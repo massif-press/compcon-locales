@@ -1684,7 +1684,11 @@
             "gmToolkit": "GM Toolkit",
             "connected": "Conectado",
             "logIn": "Iniciar sesión",
-            "supportProject": "Apoyo a este proyecto"
+            "supportProject": "Apoyo a este proyecto",
+            "markAllRead": "Marcar todos los mensajes como leídos"
+        },
+        "ui": {
+            "linkingAccount": "Cuenta de enlace…"
         }
     }
 }
