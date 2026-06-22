@@ -1576,6 +1576,9 @@
             "ordnancePilot": "Este piloto ha tomado acciones no-protocolo. Este arma de artillería no puede activarse.",
             "outOfUses": "Este arma está fuera de uso y no se puede activar este giro.",
             "canMake": "Este arma puede hacer ataques {n} por activación."
+        },
+        "mechLoadout": {
+            "weapons": "// WEAPONS"
         }
     }
 }
