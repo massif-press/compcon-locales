@@ -1550,7 +1550,8 @@
             "select": "Seleccione una acción de Jockey"
         },
         "barrage": {
-            "selectWeapon": "select barrage weapon"
+            "selectWeapon": "select barrage weapon",
+            "additionalAux": "armas adicionales {name}"
         }
     }
 }
