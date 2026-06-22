@@ -1716,6 +1716,9 @@
             "foundInCompendium": "encontrado en Compendium",
             "lcpHint": "Si este artículo es parte de un paquete de contenido de Lancer, por favor asegúrese de que el paquete está instalado y habilitado.",
             "requestedLcp": "Requested LCP:"
+        },
+        "dataUsage": {
+            "title": "DATA USAGE"
         }
     }
 }
