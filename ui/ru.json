@@ -682,6 +682,12 @@
         "account": {
             "noSubscriptionText": "Ваш аккаунт Patreon был успешно привязан, но не удалось обнаружить действующий уровень подписки. Пожалуйста, подпишитесь на Patreon @:{'common.appName'} и попробуйте снова.",
             "updateCompleteTitle": "Обновление завершено!"
+        },
+        "gm": {
+            "importCompleteTitle": "Импорт завершен",
+            "importErrorTitle": "Ошибка импорта",
+            "loginRequiredTitle": "Требуется вход в систему",
+            "uploadErrorTitle": "Ошибка загрузки:"
         }
     },
     "print": {
