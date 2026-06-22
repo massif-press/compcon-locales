@@ -1664,7 +1664,8 @@
             "signIn": "Regístrate",
             "verifyEmail": "Verificar E-Mail",
             "createAccount": "Crear Cuenta",
-            "passwordRecovery": "Recuperación de contraseña"
+            "passwordRecovery": "Recuperación de contraseña",
+            "verifyEmailTitle": "VERIFY E-MAIL ADDRESS"
         }
     }
 }
