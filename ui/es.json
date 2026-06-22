@@ -1734,7 +1734,12 @@
             "updateSyncSettings": "Actualizar Configuración de sincronización",
             "cloudFullSync": "¡El almacenamiento en la nube está lleno! Incapaz de sincronizar nuevos datos.",
             "lastSynced": "Última sincronización: {label}",
-            "syncWithSettings": "sincronización con la configuración actual"
+            "syncWithSettings": "sincronización con la configuración actual",
+            "syncOverridesNote": "Las siguientes operaciones anulan la configuración de sincronización y deben usarse con precaución."
+        },
+        "collection": {
+            "byAuthor": "Por {author}",
+            "changelog": "CHANGELOG"
         }
     }
 }
