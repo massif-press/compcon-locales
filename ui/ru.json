@@ -655,7 +655,11 @@
             "license": "Лицензия",
             "systemType": "Тип системы",
             "addNewImage": "Добавить новое изображение",
-            "imageType": "&Формат:"
+            "imageType": "&Формат:",
+            "role": "Роль",
+            "organizationName": "Название организации",
+            "organizationType": "Тип организации",
+            "used": "Используется"
         }
     },
     "notify": {
