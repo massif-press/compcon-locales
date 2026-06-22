@@ -1730,7 +1730,8 @@
         },
         "syncSettings": {
             "syncItems": "Sync Items",
-            "pilotsOnly": "Pilots Only"
+            "pilotsOnly": "Pilots Only",
+            "updateSyncSettings": "Actualizar Configuración de sincronización"
         }
     }
 }
