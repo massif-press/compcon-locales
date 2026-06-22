@@ -1661,7 +1661,8 @@
             "retry": "Reintentar",
             "email": "Correo electrónico",
             "password": "Contraseña",
-            "signIn": "Regístrate"
+            "signIn": "Regístrate",
+            "verifyEmail": "Verificar E-Mail"
         }
     }
 }
