@@ -1704,7 +1704,16 @@
             "viewImage": "Ver Imagen",
             "unlinked": "Desenlazado",
             "unlink": "Desconectar",
-            "upgrade": "Actualizar"
+            "upgrade": "Actualizar",
+            "downloadCopy": "Descargar Copia",
+            "imageDeleteWarning": "Tenga en cuenta que esto romperá cualquier referencia a esta imagen en sus datos. Esta acción no se puede deshacer."
+        },
+        "unit": {
+            "mb": "MB"
+        },
+        "itemLink": {
+            "noItemWithIdLabel": "Ningún artículo con ID:",
+            "foundInCompendium": "encontrado en Compendium"
         }
     }
 }
