@@ -1668,7 +1668,8 @@
             "verifyEmailTitle": "VERIFY E-MAIL ADDRESS",
             "codeSentToLabel": "Se envió un código de verificación",
             "sendCodeToLabel": "Enviar un código de verificación a:",
-            "resendVerificationCode": "Reenviar verificación Código"
+            "resendVerificationCode": "Reenviar verificación Código",
+            "sendVerificationCode": "Enviar verificación Código"
         }
     }
 }
