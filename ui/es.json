@@ -1555,6 +1555,9 @@
         },
         "skirmish": {
             "selectWeapon": "select arma escaramuza"
+        },
+        "fight": {
+            "selectWeapon": "select weapon"
         }
     }
 }
