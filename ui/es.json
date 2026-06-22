@@ -1656,7 +1656,8 @@
             "verificationSent": "Nuevo correo electrónico de verificación enviado a {email}",
             "passwordResetErrorText": "Incapaz de enviar el correo electrónico de reset: {msg}",
             "passwordChangeErrorText": "Incapaz de cambiar la contraseña: {msg}",
-            "copyLog": "Copiar registro"
+            "copyLog": "Copiar registro",
+            "abort": "Cancelar"
         }
     }
 }
