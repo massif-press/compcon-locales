@@ -244,7 +244,8 @@
             "byLabel": "По меткам:",
             "secretAchievements": "Секретные достижения",
             "mythic": "Мифические",
-            "hidden": "Скрыто"
+            "hidden": "Скрыто",
+            "overwriteAllWarning": "Перезаписать все"
         },
         "settingsPage": {
             "logLevel": "Уровень логов",
@@ -255,7 +256,8 @@
             "showExoticsTooltip": "Выбор этой опции может раскрыть для вас спойлеры игровой кампании, данную опцию лучше оставлять ВЫКЛЮЧЕННОЙ, если вы не являетесь ведущим",
             "logLevelLabel": "@:{'common.logLevel'}",
             "theme": "Тема",
-            "errorReportingPrefix": "Отчёты об ошибках"
+            "errorReportingPrefix": "Отчёты об ошибках",
+            "enabled": "включено"
         },
         "storage": {
             "neverLabel": "никогда",
@@ -652,7 +654,14 @@
     },
     "print": {
         "titles": {
-            "orientation": "Ориентация"
-        }
+            "orientation": "Ориентация",
+            "paper": "Лист"
+        },
+        "extras": "Дополнительно"
+    },
+    "stats": {
+        "agility": "Ловкость",
+        "systems": "Системы",
+        "engineering": "Инженерный"
     }
 }
