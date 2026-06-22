@@ -1546,7 +1546,8 @@
             "select": "Seleccione una acción invadida"
         },
         "jockey": {
-            "available": "Acciones disponibles Jockey"
+            "available": "Acciones disponibles Jockey",
+            "select": "Seleccione una acción de Jockey"
         }
     }
 }
