@@ -1527,7 +1527,8 @@
             "selectTarget": "Seleccionar destino",
             "heroic": "Heroico",
             "vs": "VS",
-            "targetValue": "Valor de destino"
+            "targetValue": "Valor de destino",
+            "noCheckRolled": "No Check Rolled"
         }
     }
 }
