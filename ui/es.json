@@ -1613,7 +1613,11 @@
         },
         "pcPanel": {
             "pilotMounted": "PILOT MOUNTED",
-            "pilotUnmounted": "PILOT UNMOUNTED"
+            "pilotUnmounted": "PILOT UNMOUNTED",
+            "noReserves": "No hay reservas disponibles"
+        },
+        "pilotActions": {
+            "preparedTitle": "Pilot Prepared"
         }
     }
 }
