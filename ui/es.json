@@ -1647,7 +1647,8 @@
             "collectionUpdatedText": "Los artículos de colección se han actualizado con éxito.",
             "itemAddedText": "Tema {name} añadido a la colección",
             "jwtCopiedTitle": "JWT Copiado",
-            "jwtCopiedText": "ID token copiado a portapapeles"
+            "jwtCopiedText": "ID token copiado a portapapeles",
+            "jwtCopyFailedTitle": "JWT Copia fallada"
         }
     }
 }
