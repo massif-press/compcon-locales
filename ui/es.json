@@ -1621,7 +1621,8 @@
             "mountFailedTitle": "El monte falló",
             "mountFailedText": "Ya está montado.",
             "mountedTitle": "Piloto montado",
-            "mountedText": "{name} ha montado su Mech."
+            "mountedText": "{name} ha montado su Mech.",
+            "hiddenTitle": "Piloto oculto"
         }
     }
 }
