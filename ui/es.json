@@ -1593,7 +1593,8 @@
             "removeType": "Quitar {type}"
         },
         "eidolon": {
-            "tierEidolon": "Tier {n} Eidolon"
+            "tierEidolon": "Tier {n} Eidolon",
+            "nameLayer": "Layer"
         }
     }
 }
