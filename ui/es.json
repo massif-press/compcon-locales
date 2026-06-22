@@ -1746,7 +1746,8 @@
             "colLastUpdate": "Última Actualización",
             "colChanges": "Cambios",
             "showLess": "Mostrar menos",
-            "showMore": "Mostrar más"
+            "showMore": "Mostrar más",
+            "addItem": "Añadir un elemento"
         }
     }
 }
