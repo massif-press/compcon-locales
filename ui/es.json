@@ -1558,6 +1558,10 @@
         },
         "fight": {
             "selectWeapon": "select weapon"
+        },
+        "reload": {
+            "selectWeapon": "Seleccione un arma para recargar",
+            "noTargets": "No hay objetivos válidos para la recarga"
         }
     }
 }
