@@ -1604,7 +1604,8 @@
         "mechPanel": {
             "meltdown": "Este mech ha sufrido un derretimiento del reactor. Se destruye permanentemente y no se puede reparar.",
             "frameTraits": "Frame Traits ({n})",
-            "coreBonuses": "Bonos básicos ({n})"
+            "coreBonuses": "Bonos básicos ({n})",
+            "pilotTalents": "Talentos piloto ({n})"
         }
     }
 }
