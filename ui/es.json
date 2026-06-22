@@ -1699,7 +1699,8 @@
             "requiresItchPurchase": "Requerimientos relacionados itch.io compra",
             "accountManagement": "Gestión de cuentas",
             "cloudData": "Datos de nube",
-            "contentSubscriptions": "Suscripciones al contenido"
+            "contentSubscriptions": "Suscripciones al contenido",
+            "contentPublishing": "Publicación de contenidos"
         }
     }
 }
