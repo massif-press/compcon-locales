@@ -1532,7 +1532,8 @@
             "checkSuccess": "Check Successful",
             "checkFail": "Check Failed",
             "wins": "Gana",
-            "loses": "Pérdidas"
+            "loses": "Pérdidas",
+            "skillCheckRoll": "Rollo de control de habilidades"
         }
     }
 }
