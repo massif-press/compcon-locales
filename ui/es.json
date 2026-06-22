@@ -1530,7 +1530,9 @@
             "targetValue": "Valor de destino",
             "noCheckRolled": "No Check Rolled",
             "checkSuccess": "Check Successful",
-            "checkFail": "Check Failed"
+            "checkFail": "Check Failed",
+            "wins": "Gana",
+            "loses": "Pérdidas"
         }
     }
 }
