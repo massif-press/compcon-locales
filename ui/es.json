@@ -1745,7 +1745,8 @@
             "changelog": "CHANGELOG",
             "colLastUpdate": "Última Actualización",
             "colChanges": "Cambios",
-            "showLess": "Mostrar menos"
+            "showLess": "Mostrar menos",
+            "showMore": "Mostrar más"
         }
     }
 }
