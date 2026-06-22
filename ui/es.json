@@ -1652,7 +1652,9 @@
         },
         "auth": {
             "accountCreated": "Cuenta de usuario creada con éxito. Redirección a Sign-In.",
-            "passwordChangedText": "Clave de acceso cambiada con éxito."
+            "passwordChangedText": "Clave de acceso cambiada con éxito.",
+            "verificationSent": "Nuevo correo electrónico de verificación enviado a {email}",
+            "passwordResetErrorText": "Incapaz de enviar el correo electrónico de reset: {msg}"
         }
     }
 }
