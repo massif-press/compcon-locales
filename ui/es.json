@@ -1695,7 +1695,8 @@
             "refreshList": "Actualizar lista",
             "doesNotSync": "(Esto no sincroniza)",
             "downloadInstallLatest": "Descargar e instalar la última versión",
-            "directDownloadRequiresAccount": "Descarga directa requiere una cuenta COMP/CON"
+            "directDownloadRequiresAccount": "Descarga directa requiere una cuenta COMP/CON",
+            "requiresItchPurchase": "Requerimientos relacionados itch.io compra"
         }
     }
 }
