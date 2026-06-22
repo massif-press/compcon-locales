@@ -1662,7 +1662,9 @@
             "email": "Correo electrónico",
             "password": "Contraseña",
             "signIn": "Regístrate",
-            "verifyEmail": "Verificar E-Mail"
+            "verifyEmail": "Verificar E-Mail",
+            "createAccount": "Crear Cuenta",
+            "passwordRecovery": "Recuperación de contraseña"
         }
     }
 }
