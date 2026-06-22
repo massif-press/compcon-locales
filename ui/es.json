@@ -1519,7 +1519,8 @@
         },
         "skillCheck": {
             "checkType": "Tipo de cheque",
-            "contested": "Concurso"
+            "contested": "Concurso",
+            "risky": "Riesgo"
         }
     }
 }
