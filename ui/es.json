@@ -1606,6 +1606,10 @@
             "frameTraits": "Frame Traits ({n})",
             "coreBonuses": "Bonos básicos ({n})",
             "pilotTalents": "Talentos piloto ({n})"
+        },
+        "pilotPanel": {
+            "killed": "Este piloto ha sido asesinado en acción.",
+            "unconscious": "Piloto está inconsciente, y cualquier daño adicional los matará."
         }
     }
 }
