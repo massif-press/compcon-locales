@@ -1677,10 +1677,13 @@
             "signupPrivacyInfo": "Estamos comprometidos a mantener su dirección de correo electrónico confidencial. No vendemos, alquilamos o alquilamos datos de contacto o listas a terceros, y nunca proporcionaremos su información personal a ningún tercero individual, agencia gubernamental o empresa en cualquier momento, por ningún motivo.",
             "sendPasswordResetEmail": "Enviar contraseña Reiniciar E-Mail",
             "resetCodeSentTo": "Código de reajuste de contraseña enviado a {email}",
-            "setNewPassword": "Establecer contraseña nueva"
+            "setNewPassword": "Establecer contraseña nueva",
+            "resetPassword": "Restablecer Contraseña"
         },
         "menu": {
-            "gmToolkit": "GM Toolkit"
+            "gmToolkit": "GM Toolkit",
+            "connected": "Conectado",
+            "logIn": "Iniciar sesión"
         }
     }
 }
