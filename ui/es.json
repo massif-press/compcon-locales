@@ -1567,7 +1567,8 @@
             "passive": "PASSIVE"
         },
         "weaponAttack": {
-            "destroyed": "Este arma ha sido destruida y debe ser reparada antes de que pueda ser activada."
+            "destroyed": "Este arma ha sido destruida y debe ser reparada antes de que pueda ser activada.",
+            "alreadyActivated": "Este arma ya ha sido activada."
         }
     }
 }
