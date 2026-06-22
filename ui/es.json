@@ -1612,7 +1612,8 @@
             "unconscious": "Piloto está inconsciente, y cualquier daño adicional los matará."
         },
         "pcPanel": {
-            "pilotMounted": "PILOT MOUNTED"
+            "pilotMounted": "PILOT MOUNTED",
+            "pilotUnmounted": "PILOT UNMOUNTED"
         }
     }
 }
