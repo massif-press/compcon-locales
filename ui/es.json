@@ -1649,6 +1649,9 @@
             "jwtCopiedTitle": "JWT Copiado",
             "jwtCopiedText": "ID token copiado a portapapeles",
             "jwtCopyFailedTitle": "JWT Copia fallada"
+        },
+        "auth": {
+            "accountCreated": "Cuenta de usuario creada con éxito. Redirección a Sign-In."
         }
     }
 }
