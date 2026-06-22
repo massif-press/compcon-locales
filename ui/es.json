@@ -1628,7 +1628,8 @@
     },
     "mainMenu": {
         "account": {
-            "allLcpsUpdatedTitle": "LCPs Actualizado"
+            "allLcpsUpdatedTitle": "LCPs Actualizado",
+            "allLcpsUpdatedText": "Todos los PCL han sido actualizados."
         }
     }
 }
