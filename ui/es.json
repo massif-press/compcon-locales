@@ -1586,7 +1586,8 @@
         },
         "deployPanel": {
             "recalledAwaiting": "{type} ha sido recordado, esperando {redeployment}",
-            "redeployment": "redistribución"
+            "redeployment": "redistribución",
+            "redeploy": "Redistribución"
         }
     }
 }
