@@ -1631,7 +1631,8 @@
             "allLcpsUpdatedTitle": "LCPs Actualizado",
             "allLcpsUpdatedText": "Todos los PCL han sido actualizados.",
             "allLcpsUpdateErrorTitle": "Actualización de errores LCP",
-            "allLcpsUpdateErrorText": "Se produjo un error al intentar actualizar sus PCL."
+            "allLcpsUpdateErrorText": "Se produjo un error al intentar actualizar sus PCL.",
+            "syncPartialTitle": "{synced}/{total} Artículos sincronizados"
         }
     }
 }
