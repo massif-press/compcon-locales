@@ -1731,7 +1731,8 @@
         "syncSettings": {
             "syncItems": "Sync Items",
             "pilotsOnly": "Pilots Only",
-            "updateSyncSettings": "Actualizar Configuración de sincronización"
+            "updateSyncSettings": "Actualizar Configuración de sincronización",
+            "cloudFullSync": "¡El almacenamiento en la nube está lleno! Incapaz de sincronizar nuevos datos."
         }
     }
 }
