@@ -1718,7 +1718,8 @@
             "requestedLcp": "Requested LCP:"
         },
         "dataUsage": {
-            "title": "DATA USAGE"
+            "title": "DATA USAGE",
+            "ofMaxMb": "{max} MB"
         }
     }
 }
