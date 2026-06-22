@@ -1641,7 +1641,8 @@
             "noFlaggedText": "No se registraron objetos para su eliminación.",
             "deletionFailedBulkText": "Se produjo un error al eliminar los elementos marcados.",
             "collectionErrorTitle": "Colección de actualización de errores",
-            "collectionUpdatedTitle": "Colección actualizada"
+            "collectionUpdatedTitle": "Colección actualizada",
+            "itemAddedTitle": "Item añadido"
         }
     }
 }
