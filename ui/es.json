@@ -1674,7 +1674,8 @@
             "inputCodeToFinish": "Ingrese el código de verificación para terminar de crear su cuenta",
             "confirmVerificationCode": "Confirmación Código",
             "signupEmailInfo": "La dirección de correo electrónico que ingrese se utilizará para enviarle un código de confirmación para finalizar la creación de su cuenta. Desde allí, su correo electrónico solo se utilizará para iniciar sesión en su cuenta COMP/CON.",
-            "signupPrivacyInfo": "Estamos comprometidos a mantener su dirección de correo electrónico confidencial. No vendemos, alquilamos o alquilamos datos de contacto o listas a terceros, y nunca proporcionaremos su información personal a ningún tercero individual, agencia gubernamental o empresa en cualquier momento, por ningún motivo."
+            "signupPrivacyInfo": "Estamos comprometidos a mantener su dirección de correo electrónico confidencial. No vendemos, alquilamos o alquilamos datos de contacto o listas a terceros, y nunca proporcionaremos su información personal a ningún tercero individual, agencia gubernamental o empresa en cualquier momento, por ningún motivo.",
+            "sendPasswordResetEmail": "Enviar contraseña Reiniciar E-Mail"
         }
     }
 }
