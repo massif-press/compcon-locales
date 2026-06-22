@@ -1721,6 +1721,11 @@
             "title": "DATA USAGE",
             "ofMaxMb": "{max} MB",
             "resetMigrationTool": "Reset Account Migration Tool"
+        },
+        "patreon": {
+            "accountLabel": "Cuenta Patreon:",
+            "linkPatreon": "Enlace Patreon",
+            "linkInfo": "Si usted está suscrito al COMP/CON Patreon, vincular su cuenta Patreon aumentará su espacio máximo de almacenamiento en la nube y desbloqueará la creación de mesa en tiempo real en modo GM."
         }
     }
 }
