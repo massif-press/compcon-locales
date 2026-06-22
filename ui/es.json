@@ -1552,6 +1552,9 @@
         "barrage": {
             "selectWeapon": "select barrage weapon",
             "additionalAux": "armas adicionales {name}"
+        },
+        "skirmish": {
+            "selectWeapon": "select arma escaramuza"
         }
     }
 }
