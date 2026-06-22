@@ -1625,5 +1625,10 @@
             "hiddenTitle": "Piloto oculto",
             "disengagedTitle": "Pilot Disengaged"
         }
+    },
+    "mainMenu": {
+        "account": {
+            "allLcpsUpdatedTitle": "LCPs Actualizado"
+        }
     }
 }
