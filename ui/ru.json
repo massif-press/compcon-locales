@@ -659,7 +659,13 @@
             "role": "Роль",
             "organizationName": "Название организации",
             "organizationType": "Тип организации",
-            "used": "Используется"
+            "used": "Используется",
+            "xAxis": "Ось X",
+            "yAxis": "Ось Y",
+            "compareTo": "Сравнить с",
+            "selectTarget": "Выбор цели",
+            "segments": "Сегменты",
+            "linear": "Линейная"
         }
     },
     "notify": {
