@@ -1542,7 +1542,8 @@
         },
         "invade": {
             "invade": "Invade",
-            "available": "Acciones disponibles de invasión"
+            "available": "Acciones disponibles de invasión",
+            "select": "Seleccione una acción invadida"
         }
     }
 }
