@@ -1719,7 +1719,8 @@
         },
         "dataUsage": {
             "title": "DATA USAGE",
-            "ofMaxMb": "{max} MB"
+            "ofMaxMb": "{max} MB",
+            "resetMigrationTool": "Reset Account Migration Tool"
         }
     }
 }
