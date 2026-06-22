@@ -1583,6 +1583,9 @@
         "cards": {
             "equipmentDestroyed": "EQUIPMENT DESTROYED",
             "staged": "// Estadio"
+        },
+        "deployPanel": {
+            "recalledAwaiting": "{type} ha sido recordado, esperando {redeployment}"
         }
     }
 }
