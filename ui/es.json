@@ -1524,7 +1524,10 @@
             "standard": "Estándar",
             "modifiers": "Modificadores",
             "difficult": "Difícil",
-            "selectTarget": "Seleccionar destino"
+            "selectTarget": "Seleccionar destino",
+            "heroic": "Heroico",
+            "vs": "VS",
+            "targetValue": "Valor de destino"
         }
     }
 }
