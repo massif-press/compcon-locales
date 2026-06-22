@@ -1589,7 +1589,11 @@
             "redeployment": "redistribución",
             "redeploy": "Redistribución",
             "ownedBy": "Propietario por",
-            "recall": "Recordad"
+            "recall": "Recordad",
+            "removeType": "Quitar {type}"
+        },
+        "eidolon": {
+            "tierEidolon": "Tier {n} Eidolon"
         }
     }
 }
