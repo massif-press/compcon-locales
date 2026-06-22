@@ -1694,7 +1694,8 @@
             "subscribe": "suscribirse",
             "refreshList": "Actualizar lista",
             "doesNotSync": "(Esto no sincroniza)",
-            "downloadInstallLatest": "Descargar e instalar la última versión"
+            "downloadInstallLatest": "Descargar e instalar la última versión",
+            "directDownloadRequiresAccount": "Descarga directa requiere una cuenta COMP/CON"
         }
     }
 }
