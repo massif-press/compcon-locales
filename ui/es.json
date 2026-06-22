@@ -1657,7 +1657,11 @@
             "passwordResetErrorText": "Incapaz de enviar el correo electrónico de reset: {msg}",
             "passwordChangeErrorText": "Incapaz de cambiar la contraseña: {msg}",
             "copyLog": "Copiar registro",
-            "abort": "Cancelar"
+            "abort": "Cancelar",
+            "retry": "Reintentar",
+            "email": "Correo electrónico",
+            "password": "Contraseña",
+            "signIn": "Regístrate"
         }
     }
 }
