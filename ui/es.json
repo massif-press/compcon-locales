@@ -1709,7 +1709,8 @@
             "imageDeleteWarning": "Tenga en cuenta que esto romperá cualquier referencia a esta imagen en sus datos. Esta acción no se puede deshacer."
         },
         "unit": {
-            "mb": "MB"
+            "mb": "MB",
+            "kb": "KB"
         },
         "itemLink": {
             "noItemWithIdLabel": "Ningún artículo con ID:",
@@ -1735,11 +1736,16 @@
             "cloudFullSync": "¡El almacenamiento en la nube está lleno! Incapaz de sincronizar nuevos datos.",
             "lastSynced": "Última sincronización: {label}",
             "syncWithSettings": "sincronización con la configuración actual",
-            "syncOverridesNote": "Las siguientes operaciones anulan la configuración de sincronización y deben usarse con precaución."
+            "syncOverridesNote": "Las siguientes operaciones anulan la configuración de sincronización y deben usarse con precaución.",
+            "frequency": "Frecuencia",
+            "custom": "Personalizado"
         },
         "collection": {
             "byAuthor": "Por {author}",
-            "changelog": "CHANGELOG"
+            "changelog": "CHANGELOG",
+            "colLastUpdate": "Última Actualización",
+            "colChanges": "Cambios",
+            "showLess": "Mostrar menos"
         }
     }
 }
