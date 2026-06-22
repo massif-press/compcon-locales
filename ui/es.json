@@ -1670,7 +1670,9 @@
             "sendCodeToLabel": "Enviar un código de verificación a:",
             "resendVerificationCode": "Reenviar verificación Código",
             "sendVerificationCode": "Enviar verificación Código",
-            "alreadyHaveCode": "Ya tengo un código de verificación"
+            "alreadyHaveCode": "Ya tengo un código de verificación",
+            "inputCodeToFinish": "Ingrese el código de verificación para terminar de crear su cuenta",
+            "confirmVerificationCode": "Confirmación Código"
         }
     }
 }
