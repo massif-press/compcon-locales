@@ -1570,7 +1570,8 @@
             "destroyed": "Este arma ha sido destruida y debe ser reparada antes de que pueda ser activada.",
             "alreadyActivated": "Este arma ya ha sido activada.",
             "mustReload": "Debe ser recargado antes de que pueda ser utilizado de nuevo.",
-            "mustRecharge": "Debe ser recargado antes de que pueda ser utilizado de nuevo."
+            "mustRecharge": "Debe ser recargado antes de que pueda ser utilizado de nuevo.",
+            "ordnanceMech": "Este mech ha tomado acciones no-protocolo este giro. Este arma de artillería no puede activarse."
         }
     }
 }
