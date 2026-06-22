@@ -1585,7 +1585,8 @@
             "staged": "// Estadio"
         },
         "deployPanel": {
-            "recalledAwaiting": "{type} ha sido recordado, esperando {redeployment}"
+            "recalledAwaiting": "{type} ha sido recordado, esperando {redeployment}",
+            "redeployment": "redistribución"
         }
     }
 }
