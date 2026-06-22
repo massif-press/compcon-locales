@@ -1529,7 +1529,8 @@
             "vs": "VS",
             "targetValue": "Valor de destino",
             "noCheckRolled": "No Check Rolled",
-            "checkSuccess": "Check Successful"
+            "checkSuccess": "Check Successful",
+            "checkFail": "Check Failed"
         }
     }
 }
