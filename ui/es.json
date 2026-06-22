@@ -1747,7 +1747,8 @@
             "colChanges": "Cambios",
             "showLess": "Mostrar menos",
             "showMore": "Mostrar más",
-            "addItem": "Añadir un elemento"
+            "addItem": "Añadir un elemento",
+            "addCollectionItem": "Add Collection Item"
         }
     }
 }
