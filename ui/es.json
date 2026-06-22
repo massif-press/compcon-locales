@@ -1698,7 +1698,8 @@
             "directDownloadRequiresAccount": "Descarga directa requiere una cuenta COMP/CON",
             "requiresItchPurchase": "Requerimientos relacionados itch.io compra",
             "accountManagement": "Gestión de cuentas",
-            "cloudData": "Datos de nube"
+            "cloudData": "Datos de nube",
+            "contentSubscriptions": "Suscripciones al contenido"
         }
     }
 }
