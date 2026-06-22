@@ -1703,7 +1703,8 @@
             "contentPublishing": "Publicación de contenidos",
             "viewImage": "Ver Imagen",
             "unlinked": "Desenlazado",
-            "unlink": "Desconectar"
+            "unlink": "Desconectar",
+            "upgrade": "Actualizar"
         }
     }
 }
