@@ -1581,7 +1581,8 @@
             "weapons": "// WEAPONS"
         },
         "cards": {
-            "equipmentDestroyed": "EQUIPMENT DESTROYED"
+            "equipmentDestroyed": "EQUIPMENT DESTROYED",
+            "staged": "// Estadio"
         }
     }
 }
