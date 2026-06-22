@@ -1713,7 +1713,8 @@
         },
         "itemLink": {
             "noItemWithIdLabel": "Ningún artículo con ID:",
-            "foundInCompendium": "encontrado en Compendium"
+            "foundInCompendium": "encontrado en Compendium",
+            "lcpHint": "Si este artículo es parte de un paquete de contenido de Lancer, por favor asegúrese de que el paquete está instalado y habilitado."
         }
     }
 }
