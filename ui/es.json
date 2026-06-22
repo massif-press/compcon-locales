@@ -1534,7 +1534,11 @@
             "wins": "Gana",
             "loses": "Pérdidas",
             "skillCheckRoll": "Rollo de control de habilidades",
-            "rollResults": "Resultados"
+            "rollResults": "Resultados",
+            "difficultMod": "-1 (Difícil)"
+        },
+        "stabilize": {
+            "chooseOne": "elegir uno"
         }
     }
 }
