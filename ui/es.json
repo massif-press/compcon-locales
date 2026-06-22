@@ -1645,7 +1645,9 @@
             "itemAddedTitle": "Item añadido",
             "collectionErrorText": "Hubo un error actualizando la colección. Por favor, intente de nuevo más tarde.",
             "collectionUpdatedText": "Los artículos de colección se han actualizado con éxito.",
-            "itemAddedText": "Tema {name} añadido a la colección"
+            "itemAddedText": "Tema {name} añadido a la colección",
+            "jwtCopiedTitle": "JWT Copiado",
+            "jwtCopiedText": "ID token copiado a portapapeles"
         }
     }
 }
