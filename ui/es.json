@@ -1672,7 +1672,8 @@
             "sendVerificationCode": "Enviar verificación Código",
             "alreadyHaveCode": "Ya tengo un código de verificación",
             "inputCodeToFinish": "Ingrese el código de verificación para terminar de crear su cuenta",
-            "confirmVerificationCode": "Confirmación Código"
+            "confirmVerificationCode": "Confirmación Código",
+            "signupEmailInfo": "La dirección de correo electrónico que ingrese se utilizará para enviarle un código de confirmación para finalizar la creación de su cuenta. Desde allí, su correo electrónico solo se utilizará para iniciar sesión en su cuenta COMP/CON."
         }
     }
 }
