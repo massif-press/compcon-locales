@@ -1574,7 +1574,8 @@
             "ordnanceMech": "Este mech ha tomado acciones no-protocolo este giro. Este arma de artillería no puede activarse.",
             "ordnanceUnit": "Esta unidad ha tomado acciones no-protocolo este giro. Este arma de artillería no puede activarse.",
             "ordnancePilot": "Este piloto ha tomado acciones no-protocolo. Este arma de artillería no puede activarse.",
-            "outOfUses": "Este arma está fuera de uso y no se puede activar este giro."
+            "outOfUses": "Este arma está fuera de uso y no se puede activar este giro.",
+            "canMake": "Este arma puede hacer ataques {n} por activación."
         }
     }
 }
