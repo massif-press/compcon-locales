@@ -1636,7 +1636,9 @@
             "syncPartialText": "Failed to fully sync {failures} items. Esto puede deberse a la falta de datos locales.",
             "syncCompleteTitle": "{total}/{total} Artículos sincronizados",
             "syncCompleteText": "Todos los artículos fueron sincronizados con éxito.",
-            "deletionCompleteTitle": "{count} Tema permanentemente suprimido {count} Temas permanentemente suprimidos"
+            "deletionCompleteTitle": "{count} Tema permanentemente suprimido {count} Temas permanentemente suprimidos",
+            "flaggedRemovedText": "Todos los elementos marcados han sido eliminados de la nube.",
+            "noFlaggedText": "No se registraron objetos para su eliminación."
         }
     }
 }
