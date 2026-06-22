@@ -1587,7 +1587,8 @@
         "deployPanel": {
             "recalledAwaiting": "{type} ha sido recordado, esperando {redeployment}",
             "redeployment": "redistribución",
-            "redeploy": "Redistribución"
+            "redeploy": "Redistribución",
+            "ownedBy": "Propietario por"
         }
     }
 }
