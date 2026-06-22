@@ -1632,7 +1632,8 @@
             "allLcpsUpdatedText": "Todos los PCL han sido actualizados.",
             "allLcpsUpdateErrorTitle": "Actualización de errores LCP",
             "allLcpsUpdateErrorText": "Se produjo un error al intentar actualizar sus PCL.",
-            "syncPartialTitle": "{synced}/{total} Artículos sincronizados"
+            "syncPartialTitle": "{synced}/{total} Artículos sincronizados",
+            "syncPartialText": "Failed to fully sync {failures} items. Esto puede deberse a la falta de datos locales."
         }
     }
 }
