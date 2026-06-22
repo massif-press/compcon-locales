@@ -1678,6 +1678,9 @@
             "sendPasswordResetEmail": "Enviar contraseña Reiniciar E-Mail",
             "resetCodeSentTo": "Código de reajuste de contraseña enviado a {email}",
             "setNewPassword": "Establecer contraseña nueva"
+        },
+        "menu": {
+            "gmToolkit": "GM Toolkit"
         }
     }
 }
