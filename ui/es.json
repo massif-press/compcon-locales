@@ -1729,7 +1729,8 @@
             "tierSuffix": "Tier"
         },
         "syncSettings": {
-            "syncItems": "Sync Items"
+            "syncItems": "Sync Items",
+            "pilotsOnly": "Pilots Only"
         }
     }
 }
