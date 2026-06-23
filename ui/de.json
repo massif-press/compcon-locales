@@ -66,6 +66,8 @@
         "name": "Name",
         "type": "Typ",
         "action": "Aktion",
-        "actions": "Aktionen"
+        "actions": "Aktionen",
+        "changeImage": "Bild ändern",
+        "all": "Alle"
     }
 }
