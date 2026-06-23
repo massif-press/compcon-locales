@@ -284,7 +284,10 @@
             "importStrategy": "// Настройки импорта",
             "createBackup": "Создать резервную копию",
             "showUpdateMessages": "Показать информацию об обновлениях",
-            "showExoticsLabel": "Показать экзотические предметы в компендиуме"
+            "showExoticsLabel": "Показать экзотические предметы в компендиуме",
+            "errorReportingPiiNote": "На этом уровне логов персональные данные не собираются.",
+            "confirmImport": "@:{'common.confirmImport'}",
+            "importV2Backup": "Импорт резервной копии v2"
         },
         "storage": {
             "neverLabel": "никогда",
@@ -292,19 +295,23 @@
             "userData": "Данные пользователя",
             "areYouSure": "Вы уверены, что хотите продолжить?",
             "daysCount": "{count} дней.",
-            "neverAutoDeleteFull": "@:{'common.appName'} {never} будет автоматически удалять данные, помеченные для удаления."
+            "neverAutoDeleteFull": "@:{'common.appName'} {never} будет автоматически удалять данные, помеченные для удаления.",
+            "clearAllData": "@:{'common.clearAllData'}"
         },
         "deletedItems": {
             "permanentlyDeleteAll": "Удалить навсегда",
             "itemName": "Название предмета",
-            "restoreAll": "Восстановить все"
+            "restoreAll": "Восстановить все",
+            "restore": "@:{'common.restore'}"
         },
         "userDataViewer": {
-            "value": "Значение"
+            "value": "Значение",
+            "item": "@:{'common.item'}"
         },
         "packInstall": {
             "install": "Установить",
-            "success": "Успех"
+            "success": "Успех",
+            "selectFile": "Выберите .LCP файл"
         },
         "packsDirectory": {
             "officialContent": "Официальный",
@@ -388,6 +395,9 @@
         "titles": {
             "selectAll": "Выбрать все",
             "warning": "Предупреждение"
+        },
+        "log": {
+            "exportLog": "Экспорт логов"
         }
     },
     "gm": {
