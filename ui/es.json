@@ -1893,7 +1893,8 @@
             "linked": "ITCH LINKED",
             "clickForDetails": "Haga clic para obtener detalles",
             "purchasesLinked": "COMP/CON ha vinculado el siguiente pico. io compra a su cuenta:",
-            "eligibleUpdates": "Su cuenta de nube COMP/CON es elegible para las siguientes actualizaciones automáticas:"
+            "eligibleUpdates": "Su cuenta de nube COMP/CON es elegible para las siguientes actualizaciones automáticas:",
+            "manageContentHint": "Los PCL no conectados y otros contenidos pueden añadirse manualmente a través de la página {link}."
         }
     }
 }
