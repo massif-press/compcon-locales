@@ -1939,7 +1939,9 @@
             "contentPacksAvailable": "Paquetes de contenido (si está disponible)",
             "v2NotModified": "Sus datos v2 serán modificados o eliminados por este proceso.",
             "notLabel": "no",
-            "downloading": "Descarga e importación de datos v2…"
+            "downloading": "Descarga e importación de datos v2…",
+            "noData": "No se encontraron datos importables en su almacenamiento en la nube v2.",
+            "pilotsImported": "{count} piloto importado TEN {count} piloto importado"
         }
     }
 }
