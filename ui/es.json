@@ -1950,7 +1950,8 @@
             "lcpsImported": "{count} paquete de contenido importado TEN {count} paquetes de contenido importados",
             "errorsDuringMigration": "{count} error durante la migración TEN {count} errores durante la migración",
             "completedSuccess": "¡La migración terminó con éxito!",
-            "dismissNote": "Este panel puede ser desestimado con seguridad. Si necesita reingresar la migración puede repetir este proceso desde la pestaña \"Datos de ruido\"."
+            "dismissNote": "Este panel puede ser desestimado con seguridad. Si necesita reingresar la migración puede repetir este proceso desde la pestaña \"Datos de ruido\".",
+            "retryMigration": "Retry Migration"
         }
     }
 }
