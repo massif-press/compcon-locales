@@ -1999,12 +1999,15 @@
             "deleteCollection": "Eliminar colección",
             "deleteCollectionWarning": "Eliminar esta colección eliminará la colección de sus datos locales y en la nube, y eliminará el archivo de colección del almacenamiento en la nube. Los usuarios no podrán suscribirse a este contenido y los suscriptores actuales ya no podrán actualizar los datos de recogida. {willNot} eliminar cualquier contenido de colección, ya sea local o en la nube para usted o suscriptores de la colección.",
             "willNotLabel": "no",
-            "confirmDelete": "¿Estás seguro de querer borrar esta colección?"
+            "confirmDelete": "¿Estás seguro de querer borrar esta colección?",
+            "actionUndone": "Esta acción no puede deshacerse.",
+            "deleteCollectionBtn": "Eliminar colección"
         },
         "dataItem": {
             "cancelBulkSelection": "Cancel Bulk Selection",
             "bulkDelete": "Bulk Delete",
-            "deleteSelected": "Eliminado ({count})"
+            "deleteSelected": "Eliminado ({count})",
+            "remoteItem": "Elemento remoto"
         }
     }
 }
