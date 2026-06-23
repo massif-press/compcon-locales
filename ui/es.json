@@ -1769,6 +1769,11 @@
             "signOut": "Cerrar sesión",
             "verifyEmailSent": "Se ha enviado un correo electrónico de verificación a {email}. Por favor, compruebe su bandeja de entrada y escriba el código de verificación a continuación para finalizar sus cambios.",
             "deleteCloudAccount": "Eliminar la cuenta de nube"
+        },
+        "deleteAccount": {
+            "intro": "Esta herramienta eliminará su cuenta y todos los datos asociados. Esto incluye:",
+            "incCredentials": "Cuenta credenciales de inicio de sesión y ajustes",
+            "incCloudData": "Datos en la nube, incluidos pilotos, mechs y NPC y otros datos GM"
         }
     }
 }
