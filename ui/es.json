@@ -2003,7 +2003,8 @@
         },
         "dataItem": {
             "cancelBulkSelection": "Cancel Bulk Selection",
-            "bulkDelete": "Bulk Delete"
+            "bulkDelete": "Bulk Delete",
+            "deleteSelected": "Eliminado ({count})"
         }
     }
 }
