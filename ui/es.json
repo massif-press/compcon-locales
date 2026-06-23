@@ -2035,7 +2035,8 @@
             "deleteCloudData": "Eliminar Datos de Nube",
             "deleteCloudItem": "Eliminar Artículo de Nube",
             "deleteCloudItemDesc": "Eliminar este artículo lo marcará como eliminado en la nube. No eliminará este artículo localmente, pero evitará que se sincronice a la nube o a otros dispositivos.",
-            "deleteNItems": "Eliminar {count} Artículo | Eliminar {count} Artículos"
+            "deleteNItems": "Eliminar {count} Artículo | Eliminar {count} Artículos",
+            "chooseDeleteMethod": "Elija cómo eliminar los elementos seleccionados:"
         },
         "fields": {
             "doNotShowThisWarningAgain": "No mostrar esta advertencia de nuevo",
