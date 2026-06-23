@@ -1968,7 +1968,8 @@
             "deleteArchive": "Borrar archivo",
             "deleteConfirm": "¿Estás seguro de que quieres borrar esto? Esta acción no se puede deshacer.",
             "createBackup": "Crear nuevo respaldo",
-            "cloudFullArchive": "¡El almacenamiento en la nube está lleno! Incapaz de crear nuevos archivos."
+            "cloudFullArchive": "¡El almacenamiento en la nube está lleno! Incapaz de crear nuevos archivos.",
+            "archiveSettings": "Configuración de archivos"
         }
     }
 }
