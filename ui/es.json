@@ -1871,7 +1871,10 @@
             "incArchives": "Archivos de cuenta y LCP almacenados en la nube",
             "incActiveMode": "Todos los datos e historia del modo activo almacenados remotamente",
             "addNoSync": "Sus datos guardados ya no se sincronizarán entre dispositivos y navegadores",
-            "addShareExpire": "Cualquier artículo compartido ya no actualizará, y todos los códigos para compartir expirarán"
+            "addShareExpire": "Cualquier artículo compartido ya no actualizará, y todos los códigos para compartir expirarán",
+            "addSyncTerminated": "Cualquier sincronización activa será terminada",
+            "addRemovedTables": "Usted será eliminado de cualquier mesa activa",
+            "addGmTables": "Si usted es un GM, todas las tablas que posee serán archivadas y esclavizadas para la eliminación"
         }
     }
 }
