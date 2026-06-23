@@ -1982,7 +1982,10 @@
             "collectionsHeader": "COLECCIONES ({count}/{limit})",
             "addNew": "Añadir nuevo",
             "currentVersion": "Versión actual",
-            "itemModified": "Este artículo ha sido modificado localmente y será actualizado a la versión más reciente sobre publicación."
+            "itemModified": "Este artículo ha sido modificado localmente y será actualizado a la versión más reciente sobre publicación.",
+            "itemUpToDate": "Este artículo está actualizado con la versión encontrada en datos locales.",
+            "itemNotFound": "Este artículo no puede encontrarse en datos locales y no puede ser actualizado. Persistirá en la colección hasta que se retire.",
+            "removeItemTooltip": "Quitar este artículo de esta colección. Esto no elimina el artículo de sus datos locales o de almacenamiento en la nube COMP/CON."
         }
     }
 }
