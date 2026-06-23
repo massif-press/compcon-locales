@@ -1908,6 +1908,9 @@
             "newVersionAvailable": "Hay una nueva versión de esta colección disponible.",
             "deletedCollection": "Colección suprimida",
             "deletedCollectionInfo": "La colección \"{name}\" ha sido eliminada por el autor. Aunque tus datos locales no han sido eliminados, ya no recibirás actualizaciones de esta colección."
+        },
+        "storage": {
+            "iosWarning": "los navegadores iOS limitan el almacenamiento para sitios web y pueden {emphasis} después de 7 días de inactividad. Para evitar la pérdida de datos, instale COMP/CON a su pantalla de inicio:"
         }
     }
 }
