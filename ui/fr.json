@@ -23,7 +23,15 @@
         "size": "Taille",
         "copyLink": "Copier le lien",
         "attackBonus": "Bonus d'attaque",
-        "difficulty": ""
+        "difficulty": "",
+        "export": "Exporter",
+        "import": "Importer",
+        "duplicate": "Dupliquer",
+        "exit": "Quitter",
+        "description": "Description",
+        "hide": "Cacher",
+        "selectAll": "Tout sélectionner",
+        "unlock": "Débloquer"
     },
     "gm": {
         "fields": {
