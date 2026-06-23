@@ -30,6 +30,20 @@
         "clear": "Leeren",
         "skipToMainContent": "Zum Hauptinhalt springen",
         "exit": "Verlassen",
-        "unlock": "Entsperren"
+        "unlock": "Entsperren",
+        "done": "Fertig",
+        "hide": "Ausblenden",
+        "show": "Anzeigen",
+        "confirmDeletion": "Löschung bestätigen",
+        "selectAll": "Alle auswählen",
+        "warning": "Warnung",
+        "alert": "Alarm",
+        "preview": "Vorschau",
+        "size": "Größe",
+        "rank": "RANG",
+        "versionHistory": "Versionsgeschichte",
+        "copyToClipboard": "In Zwischenablage kopieren",
+        "saveAndExit": "Speichern und Beenden",
+        "saveAndClose": "Speichen und schließen"
     }
 }
