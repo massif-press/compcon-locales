@@ -1878,7 +1878,8 @@
             "addSubFeed": "Si publica un feed de suscripción, los suscriptores ya no podrán recibir actualizaciones",
             "thisWillNot": "Esto no",
             "notLocalData": "Eliminar los datos locales en el dispositivo",
-            "notPurchases": "Revoque cualquier compra a través de itch. io o terminar su suscripción a Patreon"
+            "notPurchases": "Revoque cualquier compra a través de itch. io o terminar su suscripción a Patreon",
+            "irreversible": "Esta acción es irreversible. Estos datos serán eliminados permanente e irrevocablemente."
         }
     }
 }
