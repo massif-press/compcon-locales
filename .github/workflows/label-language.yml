@@ -1,42 +1,59 @@
-name: Label by language
+name: Label by language and add to project
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  label:
+  triage:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+      projects: write
     steps:
       - uses: actions/github-script@v7
         with:
           script: |
             const body = context.payload.issue.body || '';
-            const match = body.match(/### Language\s*\n+([^\n]+)/);
-            if (!match) return;
 
-            const langMap = {
-              'Arabic (ar)':              'lang: Arabic',
-              'German (de)':              'lang: German',
-              'Spanish (es)':             'lang: Spanish',
-              'French (fr)':              'lang: French',
-              'Hindi (hi)':               'lang: Hindi',
-              'Italian (it)':             'lang: Italian',
-              'Japanese (ja)':            'lang: Japanese',
-              'Korean (ko)':              'lang: Korean',
-              'Portuguese (pt)':          'lang: Portuguese',
-              'Russian (ru)':             'lang: Russian',
-              'Chinese Simplified (zh_Hans)': 'lang: Chinese Simplified',
-            };
-
-            const label = langMap[match[1].trim()];
-            if (label) {
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.issue.number,
-                labels: [label],
-              });
+            // --- language label ---
+            const langMatch = body.match(/### Language\s*\n+([^\n]+)/);
+            if (langMatch) {
+              const langMap = {
+                'العربية - Arabic (ar)':            'lang: Arabic',
+                'Deutsch - German (de)':             'lang: German',
+                'Español - Spanish (es)':            'lang: Spanish',
+                'Français - French (fr)':            'lang: French',
+                'हिन्दी - Hindi (hi)':              'lang: Hindi',
+                'Italiano - Italian (it)':           'lang: Italian',
+                '日本語 - Japanese (ja)':             'lang: Japanese',
+                '한국어 - Korean (ko)':               'lang: Korean',
+                'Português - Portuguese (pt)':       'lang: Portuguese',
+                'Русский - Russian (ru)':            'lang: Russian',
+                '中文 - Chinese Simplified (zh_Hans)': 'lang: Chinese Simplified',
+              };
+              const label = langMap[langMatch[1].trim()];
+              if (label) {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.payload.issue.number,
+                  labels: [label],
+                });
+              }
             }
+
+            // --- add to org project #8 ---
+            const { organization } = await github.graphql(`
+              query { organization(login: "massif-press") { projectV2(number: 8) { id } } }
+            `);
+            await github.graphql(`
+              mutation($project: ID!, $issue: ID!) {
+                addProjectV2ItemById(input: { projectId: $project, contentId: $issue }) {
+                  item { id }
+                }
+              }
+            `, {
+              project: organization.projectV2.id,
+              issue: context.payload.issue.node_id,
+            });
