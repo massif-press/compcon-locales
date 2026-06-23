@@ -1907,7 +1907,8 @@
             "unsubscribeInfo": "La suscripción de esta colección la eliminará de su lista de colecciones. Ya no recibirás actualizaciones de este autor. Los datos locales de esta colección no serán eliminados.",
             "newVersionAvailable": "Hay una nueva versión de esta colección disponible.",
             "deletedCollection": "Colección suprimida",
-            "deletedCollectionInfo": "La colección \"{name}\" ha sido eliminada por el autor. Aunque tus datos locales no han sido eliminados, ya no recibirás actualizaciones de esta colección."
+            "deletedCollectionInfo": "La colección \"{name}\" ha sido eliminada por el autor. Aunque tus datos locales no han sido eliminados, ya no recibirás actualizaciones de esta colección.",
+            "unsubscribe": "Darse de baja"
         },
         "storage": {
             "iosWarning": "los navegadores iOS limitan el almacenamiento para sitios web y pueden {emphasis} después de 7 días de inactividad. Para evitar la pérdida de datos, instale COMP/CON a su pantalla de inicio:",
@@ -1915,7 +1916,10 @@
             "iosStep1": "Toque el botón {share} {icon} en la barra de herramientas de Safari",
             "iosStep2": "Desplazarse y pulsar {target}",
             "iosStep3": "Tap {target}",
-            "onceInstalled": "Una vez instalado, abra COMP/CON de su icono de pantalla de inicio."
+            "onceInstalled": "Una vez instalado, abra COMP/CON de su icono de pantalla de inicio.",
+            "shareLabel": "Compartir",
+            "addToHomeScreen": "Agregar a la Pantalla de Inicio",
+            "continueAnyway": "Continuar de todos modos"
         }
     }
 }
