@@ -1,5 +1,10 @@
 {
     "common": {
-        "save": "Speichern"
+        "save": "Speichern",
+        "appName": "COMP/CON",
+        "appShortName": "C/C",
+        "gameName": "LANCER",
+        "submit": "Senden",
+        "import": "Importieren"
     }
 }
