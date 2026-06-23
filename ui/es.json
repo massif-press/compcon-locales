@@ -1919,7 +1919,8 @@
             "onceInstalled": "Una vez instalado, abra COMP/CON de su icono de pantalla de inicio.",
             "shareLabel": "Compartir",
             "addToHomeScreen": "Agregar a la Pantalla de Inicio",
-            "continueAnyway": "Continuar de todos modos"
+            "continueAnyway": "Continuar de todos modos",
+            "noStorageWarning": "El navegador actual no parece soportar almacenamiento persistente. Es {recommended} ejecutar COMP/CON en un navegador que es capaz de almacenar datos de aplicaciones persistentes, o, guardar y ejecutar COMP/CON {pwaLink}"
         }
     }
 }
