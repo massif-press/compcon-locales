@@ -2080,5 +2080,10 @@
             "gmToolkit": "Caja de Herramientas DJ",
             "installCompconForReliableStorage": "Instalar COMP/CON para Almacenamiento Confiable"
         }
+    },
+    "pm": {
+        "loadout": {
+            "armorEquippedTitle": "Armadura piloto equipada"
+        }
     }
 }
