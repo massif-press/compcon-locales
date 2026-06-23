@@ -1,1 +1,10 @@
-{}
+{
+    "common": {
+        "rank": "Rang"
+    },
+    "gm": {
+        "fields": {
+            "authors": "Auteur·rice(s)"
+        }
+    }
+}

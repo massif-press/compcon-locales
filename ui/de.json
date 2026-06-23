@@ -1,5 +1,35 @@
 {
     "common": {
-        "save": "Speichern"
+        "save": "Speichern",
+        "appName": "COMP/CON",
+        "appShortName": "C/C",
+        "gameName": "LANCER",
+        "submit": "Senden",
+        "import": "Importieren",
+        "cancel": "Abbrechen",
+        "close": "Schließen",
+        "delete": "Löschen",
+        "confirm": "Bestätigen",
+        "search": "Suche",
+        "add": "Hinzufügen",
+        "yes": "Ja",
+        "edit": "Bearbeiten",
+        "reset": "Zurücksetzen",
+        "dismiss": "Verwerfen",
+        "continue": "Weiter",
+        "back": "Zurück",
+        "print": "Drucken",
+        "export": "Exportieren",
+        "update": "Aktualisieren",
+        "duplicate": "Duplizieren",
+        "convert": "Konvertieren",
+        "difficulty": "Schwierigkeit",
+        "accuracy": "Genauigkeit",
+        "roll": "Würfeln",
+        "remove": "Entfernen",
+        "clear": "Leeren",
+        "skipToMainContent": "Zum Hauptinhalt springen",
+        "exit": "Verlassen",
+        "unlock": "Entsperren"
     }
 }

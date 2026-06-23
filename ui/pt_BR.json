@@ -1,0 +1,29 @@
+{
+    "common": {
+        "appName": "COMP/CON",
+        "appShortName": "C/C",
+        "gameName": "LANCER",
+        "cancel": "Cancelar",
+        "save": "Salvar",
+        "close": "Fechar",
+        "delete": "Deletar",
+        "confirm": "Confirmar",
+        "search": "Procurar",
+        "add": "Adicionar",
+        "yes": "Sim",
+        "submit": "Enviar",
+        "edit": "Editar",
+        "reset": "Resetar",
+        "dismiss": "Descartar",
+        "continue": "Continuar",
+        "back": "Voltar",
+        "print": "Imprimir",
+        "export": "Exportar",
+        "import": "Importar",
+        "update": "Atualizar",
+        "duplicate": "Duplicar",
+        "convert": "Converter",
+        "exit": "Sair",
+        "done": "Feito"
+    }
+}
