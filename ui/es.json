@@ -1775,7 +1775,10 @@
             "incCredentials": "Cuenta credenciales de inicio de sesión y ajustes",
             "incCloudData": "Datos en la nube, incluidos pilotos, mechs y NPC y otros datos GM",
             "incImages": "Imágenes subidas a tu archivo de nube personal",
-            "additionally": "Adicionalmente:"
+            "additionally": "Adicionalmente:",
+            "incArchives": "Archivos de cuenta y LCP almacenados en la nube",
+            "incActiveMode": "Todos los datos e historia del modo activo almacenados remotamente",
+            "addNoSync": "Sus datos de ahorro ya no se sincronizarán entre dispositivos y navegadores"
         }
     }
 }
