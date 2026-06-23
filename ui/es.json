@@ -1971,7 +1971,8 @@
             "cloudFullArchive": "¡El almacenamiento en la nube está lleno! Incapaz de crear nuevos archivos.",
             "archiveSettings": "Configuración de archivos",
             "settingsDesc1": "COMP/CON puede crear y guardar una copia de seguridad de sus datos en el intervalo seleccionado. Estos archivos se pueden utilizar para devolver sus datos a un estado anterior.",
-            "settingsDesc2": "COMP/CON eliminará automáticamente archivos antiguos para guardar espacio. Este proceso funciona cuando se crea un nuevo archivo, o se puede activar manualmente haciendo clic en el botón Prune Items a continuación."
+            "settingsDesc2": "COMP/CON eliminará automáticamente archivos antiguos para guardar espacio. Este proceso funciona cuando se crea un nuevo archivo, o se puede activar manualmente haciendo clic en el botón Prune Items a continuación.",
+            "storageLimit": "Límite de almacenaje"
         }
     }
 }
