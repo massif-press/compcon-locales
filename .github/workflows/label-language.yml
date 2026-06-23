@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-      projects: write
     steps:
       - uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.PROJECT_TOKEN }}
           script: |
             const body = context.payload.issue.body || '';
 
