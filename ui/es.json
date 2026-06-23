@@ -1910,7 +1910,9 @@
             "deletedCollectionInfo": "La colección \"{name}\" ha sido eliminada por el autor. Aunque tus datos locales no han sido eliminados, ya no recibirás actualizaciones de esta colección."
         },
         "storage": {
-            "iosWarning": "los navegadores iOS limitan el almacenamiento para sitios web y pueden {emphasis} después de 7 días de inactividad. Para evitar la pérdida de datos, instale COMP/CON a su pantalla de inicio:"
+            "iosWarning": "los navegadores iOS limitan el almacenamiento para sitios web y pueden {emphasis} después de 7 días de inactividad. Para evitar la pérdida de datos, instale COMP/CON a su pantalla de inicio:",
+            "autoDeleteData": "eliminar automáticamente sus datos",
+            "iosStep1": "Toque el botón {share} {icon} en la barra de herramientas de Safari"
         }
     }
 }
