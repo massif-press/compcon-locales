@@ -1957,7 +1957,8 @@
         "archive": {
             "patreonOnly": "Debido a los costos del servidor asociados a la creación y almacenamiento de datos de copia de seguridad, esta función sólo está disponible para los suscriptores de Patreon. Si desea acceder a copias de seguridad de nube automatizadas, por favor considere {link} para apoyar el desarrollo de COMP/CON y obtener acceso a funciones adicionales.",
             "subscribing": "suscriptores",
-            "preventPrune": "Evitar que este artículo sea automáticamente podado. Los archivos preservados seguirán contando hacia las limitaciones de tamaño y espacio."
+            "preventPrune": "Evitar que este artículo sea automáticamente podado. Los archivos preservados seguirán contando hacia las limitaciones de tamaño y espacio.",
+            "removeProtection": "Eliminar las protecciones de auto-delete en este artículo"
         }
     }
 }
