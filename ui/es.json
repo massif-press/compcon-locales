@@ -151,7 +151,8 @@
         "electronicDefense": "Defensa Electrónica",
         "pilotSheet": "Hoja del Piloto",
         "side": "Lado",
-        "systemPoints": "Puntos de Sistema"
+        "systemPoints": "Puntos de Sistema",
+        "remove": "Eliminar"
     },
     "language": {
         "selectLanguage": "Idioma",
