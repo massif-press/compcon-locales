@@ -1901,7 +1901,8 @@
         },
         "subscriptions": {
             "upToDate": "Al día",
-            "updateAvailable": "Actualización disponible"
+            "updateAvailable": "Actualización disponible",
+            "updateToLatest": "Actualizar a la última versión"
         }
     }
 }
