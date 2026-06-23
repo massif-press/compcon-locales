@@ -1,0 +1,61 @@
+name: Translation Error
+description: Report an incorrect, missing, or broken translation
+labels: ['translation-error']
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language has the issue?
+      options:
+        - Arabic (ar)
+        - German (de)
+        - Spanish (es)
+        - French (fr)
+        - Hindi (hi)
+        - Italian (it)
+        - Japanese (ja)
+        - Korean (ko)
+        - Portuguese (pt)
+        - Russian (ru)
+        - Chinese Simplified (zh_Hans)
+    validations:
+      required: true
+
+  - type: input
+    id: string-key
+    attributes:
+      label: String key or location
+      description: The Weblate key or a short description of where the string appears in the app
+      placeholder: 'e.g. actions.boost or the Boost action description'
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current translation
+      description: Paste the current (incorrect) text
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested correction
+      description: What it should say instead
+    validations:
+      required: true
+
+  - type: input
+    id: weblate-link
+    attributes:
+      label: Weblate link
+      description: Direct link to the string in Weblate (optional)
+      placeholder: 'https://hosted.weblate.org/...'
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Screenshots, game rule references, glossary concerns, etc.

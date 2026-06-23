@@ -1,0 +1,38 @@
+name: New Language Request
+description: Request support for a language not yet in the project
+labels: ['new-language']
+body:
+  - type: input
+    id: language-name
+    attributes:
+      label: Language name
+      description: Full name of the language in English
+      placeholder: 'e.g. Polish'
+    validations:
+      required: true
+
+  - type: input
+    id: language-code
+    attributes:
+      label: BCP 47 / Weblate language code
+      description: The code Weblate uses for this language
+      placeholder: 'e.g. pl'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contributor
+    attributes:
+      label: Are you willing to contribute translations?
+      options:
+        - 'Yes, I can translate actively'
+        - 'Yes, I can review but need others to translate'
+        - 'No, requesting on behalf of others'
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Community size, existing Weblate volunteers, anything else relevant
