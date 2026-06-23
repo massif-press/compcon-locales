@@ -1879,7 +1879,8 @@
             "thisWillNot": "Esto no",
             "notLocalData": "Eliminar los datos locales en el dispositivo",
             "notPurchases": "Revoque cualquier compra a través de itch. io o terminar su suscripción a Patreon",
-            "irreversible": "Esta acción es irreversible. Estos datos serán eliminados permanente e irrevocablemente."
+            "irreversible": "Esta acción es irreversible. Estos datos serán eliminados permanente e irrevocablemente.",
+            "ensureBackup": "Por favor, asegúrese de tener una copia de seguridad local de los datos que desee guardar."
         }
     }
 }
