@@ -2008,7 +2008,8 @@
             "bulkDelete": "Bulk Delete",
             "deleteSelected": "Eliminado ({count})",
             "remoteItem": "Elemento remoto",
-            "remoteItemDesc": "Este artículo está relacionado con los datos de otro usuario. Los cambios que hagan se descargarán en sincronización."
+            "remoteItemDesc": "Este artículo está relacionado con los datos de otro usuario. Los cambios que hagan se descargarán en sincronización.",
+            "remoteItemInaccessible": "Objeto remoto inaccesible"
         }
     }
 }
