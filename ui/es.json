@@ -1921,7 +1921,9 @@
             "addToHomeScreen": "Agregar a la Pantalla de Inicio",
             "continueAnyway": "Continuar de Todos Modos",
             "noStorageWarning": "El navegador actual no parece soportar almacenamiento persistente. Es {recommended} ejecutar @:{'common.appName'} en un navegador que sea capaz de almacenar datos persistentes de aplicaciones, o, guardar y ejecutar @:{'common.appName'} {pwaLink}",
-            "stronglyRecommended": "recomendado firmemente"
+            "stronglyRecommended": "recomendado firmemente",
+            "asPwa": "como PWA",
+            "v3StorageWarning": "A partir de la actualización v3, COMP/CON requiere más almacenamiento local de dispositivos que está disponible por defecto. Funcionalidad se deteriorará a menos que se conceda el COMP/CON {permission} para este navegador."
         }
     }
 }
