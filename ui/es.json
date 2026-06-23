@@ -1952,7 +1952,8 @@
             "completedSuccess": "¡La migración terminó con éxito!",
             "dismissNote": "Este panel puede ser desestimado con seguridad. Si necesita reingresar la migración puede repetir este proceso desde la pestaña \"Datos de ruido\".",
             "retryMigration": "Retry Migration",
-            "migrateNow": "Migrar ahora"
+            "migrateNow": "Migrar ahora",
+            "later": "Más tarde"
         },
         "archive": {
             "patreonOnly": "Debido a los costos del servidor asociados a la creación y almacenamiento de datos de copia de seguridad, esta función sólo está disponible para los suscriptores de Patreon. Si desea acceder a copias de seguridad de nube automatizadas, por favor considere {link} para apoyar el desarrollo de COMP/CON y obtener acceso a funciones adicionales.",
@@ -1963,7 +1964,8 @@
             "revertTitle": "Revertir COMP/CON",
             "revertWarning1": "Esto reemplazará los datos actuales de COMP/CON con los datos de este archivo. Esta acción no se puede deshacer automáticamente, por lo que se recomienda firmemente que usted cree un nuevo archivo antes de proceder.",
             "revertWarning2": "Esta herramienta solo afecta sus datos locales. No afectará a ningún dato almacenado en la nube.",
-            "loadArchive": "Archivo de carga"
+            "loadArchive": "Archivo de carga",
+            "deleteArchive": "Borrar archivo"
         }
     }
 }
