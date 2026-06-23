@@ -15,7 +15,7 @@
         "shareCode": "Compartir con Código",
         "alert": "Alerta",
         "mount": "Montura",
-        "rank": "Rango",
+        "rank": "RANGO",
         "mainMenu": "Menú Principal",
         "pilotRoster": "Lista de Pilotos",
         "compendium": "Compendio",
@@ -188,7 +188,9 @@
             "installedPacks": "Paquetes de Contenido Instalados",
             "installLcp": "Instalar Archivo .LCP",
             "deletePackConfirm": "Esto eliminará este paquete y todo su contenido de @:{'common.appName'}. Los datos de usuario que se basan en este contenido seguirán disponibles. ¿Seguro que quiere continuar?",
-            "noPacksInstalled": "No hay paquetes de contenido instalados."
+            "noPacksInstalled": "No hay paquetes de contenido instalados.",
+            "addContent": "@:{'common.addContent'}",
+            "removeContent": "@:{'common.remove'}"
         },
         "settings": {
             "reset": "Restablecer valores predeterminados",
@@ -360,7 +362,8 @@
             "hasBeenUsed": ") se ha utilizado",
             "neverAutoDelete": "eliminar automáticamente los datos marcados para la eliminación.",
             "cannotBeUndone": "deshacerse.",
-            "deleteAllUserData": "Eliminar todos los datos de usuario"
+            "deleteAllUserData": "Eliminar todos los datos de usuario",
+            "clearAllData": "@:{'common.clearAllData'}"
         },
         "deletedItems": {
             "deletedOn": "Eliminado en",
@@ -461,7 +464,8 @@
             "willBeAvailable": "estará disponible.",
             "createConfig": "Crear configuración",
             "deleteConfig": "Eliminar esta configuración",
-            "editConfig": "Editar esta configuración"
+            "editConfig": "Editar esta configuración",
+            "lcpsSuffix": "{list} LCPs"
         },
         "v2Auto": {
             "v2Data": "Datos V2",
@@ -723,9 +727,9 @@
             "enemies": "Enemigos",
             "allies": "Aliados",
             "atLeastPcs": "Con {count} o más PJs",
-            "reinforcesOnTurn": "Refuerzos en Tuno {turn}",
+            "reinforcesOnTurn": "Refuerzos en Turno {turn}",
             "npcTracking": "Rastreo de PNJ",
-            "pcsAllies": "PJs/alliados"
+            "pcsAllies": "PJs/aliados"
         },
         "combatantSelector": {
             "doodads": "Doodads",
