@@ -2002,7 +2002,8 @@
             "confirmDelete": "¿Estás seguro de querer borrar esta colección?"
         },
         "dataItem": {
-            "cancelBulkSelection": "Cancel Bulk Selection"
+            "cancelBulkSelection": "Cancel Bulk Selection",
+            "bulkDelete": "Bulk Delete"
         }
     }
 }
