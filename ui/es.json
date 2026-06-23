@@ -1886,7 +1886,8 @@
             "deletionInProgress": "Eliminación en curso. Esto puede tomar unos momentos. COMP/CON se reiniciará una vez que este proceso esté completo."
         },
         "itch": {
-            "accountLabel": "itch. io account:"
+            "accountLabel": "itch. io account:",
+            "linkItch": "Enlace itch.io"
         }
     }
 }
