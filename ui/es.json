@@ -1900,7 +1900,8 @@
             "lastPolled": "COMP/CON última encuestado su cuenta de picazón en {date}"
         },
         "subscriptions": {
-            "upToDate": "Al día"
+            "upToDate": "Al día",
+            "updateAvailable": "Actualización disponible"
         }
     }
 }
