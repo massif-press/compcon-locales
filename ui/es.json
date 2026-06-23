@@ -1997,7 +1997,12 @@
             "lastUpdateOn": "Última actualización sobre {date}",
             "mustPublish": "La colección debe publicarse para generar un código de acciones.",
             "deleteCollection": "Eliminar colección",
-            "deleteCollectionWarning": "Eliminar esta colección eliminará la colección de sus datos locales y en la nube, y eliminará el archivo de colección del almacenamiento en la nube. Los usuarios no podrán suscribirse a este contenido y los suscriptores actuales ya no podrán actualizar los datos de recogida. {willNot} eliminar cualquier contenido de colección, ya sea local o en la nube para usted o suscriptores de la colección."
+            "deleteCollectionWarning": "Eliminar esta colección eliminará la colección de sus datos locales y en la nube, y eliminará el archivo de colección del almacenamiento en la nube. Los usuarios no podrán suscribirse a este contenido y los suscriptores actuales ya no podrán actualizar los datos de recogida. {willNot} eliminar cualquier contenido de colección, ya sea local o en la nube para usted o suscriptores de la colección.",
+            "willNotLabel": "no",
+            "confirmDelete": "¿Estás seguro de querer borrar esta colección?"
+        },
+        "dataItem": {
+            "cancelBulkSelection": "Cancel Bulk Selection"
         }
     }
 }
