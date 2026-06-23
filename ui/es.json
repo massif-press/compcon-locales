@@ -1898,6 +1898,9 @@
             "noAutoTrack": "COMP/CON no rastrea automáticamente nuevos datos itch.io.",
             "updateHint": "Si usted tiene nuevas compras o claves de descarga en su itch. io cuenta haga clic en el botón {update} a continuación para añadir estos a COMP/CON. Desafortunadamente, no es posible vincular las compras no-Massif en este momento debido a limitaciones en la itch. io API.",
             "lastPolled": "COMP/CON última encuestado su cuenta de picazón en {date}"
+        },
+        "subscriptions": {
+            "upToDate": "Al día"
         }
     }
 }
