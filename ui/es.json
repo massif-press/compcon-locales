@@ -2015,7 +2015,8 @@
             "typeCampaignData": "Datos de campaña",
             "typeActiveEncounter": "Active Encounter",
             "typeArchivedEncounter": "Archivado Encuentro",
-            "remoteLinkBroken": "Enlace remoto roto — datos del propietario no encontrado. Regresar o convertir a local."
+            "remoteLinkBroken": "Enlace remoto roto — datos del propietario no encontrado. Regresar o convertir a local.",
+            "deletedLocally": "Suprimido localmente"
         }
     }
 }
