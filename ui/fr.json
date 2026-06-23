@@ -1,7 +1,29 @@
 {
     "common": {
         "rank": "Rang",
-        "convert": "Convertir"
+        "convert": "Convertir",
+        "appName": "COMP/CON",
+        "appShortName": "C/C",
+        "gameName": "LANCER",
+        "cancel": "Annuler",
+        "save": "Sauvegarder",
+        "close": "Fermer",
+        "delete": "Supprimer",
+        "confirm": "Confirmer",
+        "search": "Rechercher",
+        "add": "Ajouter",
+        "yes": "Oui",
+        "submit": "Soumettre",
+        "edit": "Modifier",
+        "reset": "Réinitialiser",
+        "continue": "Continuer",
+        "show": "Montrer",
+        "confirmDeletion": "Confirmer la suppression",
+        "changeImage": "Changer l'image",
+        "size": "Taille",
+        "copyLink": "Copier le lien",
+        "attackBonus": "Bonus d'attaque",
+        "difficulty": ""
     },
     "gm": {
         "fields": {
