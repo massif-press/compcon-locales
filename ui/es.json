@@ -1966,7 +1966,8 @@
             "revertWarning2": "Esta herramienta solo afecta sus datos locales. No afectará a ningún dato almacenado en la nube.",
             "loadArchive": "Archivo de carga",
             "deleteArchive": "Borrar archivo",
-            "deleteConfirm": "¿Estás seguro de que quieres borrar esto? Esta acción no se puede deshacer."
+            "deleteConfirm": "¿Estás seguro de que quieres borrar esto? Esta acción no se puede deshacer.",
+            "createBackup": "Crear nuevo respaldo"
         }
     }
 }
