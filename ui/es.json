@@ -1929,7 +1929,8 @@
             "activated": "Almacenamiento persistente activado! Alerta de cierre…"
         },
         "migration": {
-            "title": "v3 Migración contable"
+            "title": "v3 Migración contable",
+            "previousError": "Un anterior intento de migración encontró un error. Puedes volver a entrar abajo."
         }
     }
 }
