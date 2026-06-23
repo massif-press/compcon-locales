@@ -44,6 +44,19 @@
         "versionHistory": "Versionsgeschichte",
         "copyToClipboard": "In Zwischenablage kopieren",
         "saveAndExit": "Speichern und Beenden",
-        "saveAndClose": "Speichen und schließen"
+        "saveAndClose": "Speichen und Schließen",
+        "set": "Setzen",
+        "description": "Beschreibung",
+        "tier": "Rang",
+        "shareCode": "Teilbarer Code",
+        "mount": "Aufsitzen",
+        "manageContent": "Inhalt verwalten",
+        "campaignLibrary": "Kampagnen-Bibliothek",
+        "pilotLoadout": "Piloten-Ausrüstung",
+        "fileImport": "Datei importieren",
+        "convertToLocal": "Zu Lokaldaten Konvertieren",
+        "importCampaign": "Kampagne Importieren",
+        "ok": "OK",
+        "loading": "Lädt…"
     }
 }
