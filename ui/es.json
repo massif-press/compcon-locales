@@ -1884,6 +1884,9 @@
             "deleteAccountBtn": "Eliminar cuenta",
             "enterTextToConfirm": "Introduzca el texto {phrase} para confirmar la eliminación de la cuenta.",
             "deletionInProgress": "Eliminación en curso. Esto puede tomar unos momentos. COMP/CON se reiniciará una vez que este proceso esté completo."
+        },
+        "itch": {
+            "accountLabel": "itch. io account:"
         }
     }
 }
