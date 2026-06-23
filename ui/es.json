@@ -1988,7 +1988,9 @@
             "removeItemTooltip": "Quitar este artículo de esta colección. Esto no elimina el artículo de sus datos locales o de almacenamiento en la nube COMP/CON.",
             "autoGenChangelog": "Genera automáticamente este cambio",
             "viewFullChangelog": "Ver Full Changelog",
-            "collectionChangelogTitle": "{name} CHANGELOG"
+            "collectionChangelogTitle": "{name} CHANGELOG",
+            "versionN": "versión {version}",
+            "saveDraft": "Guardar el borrador"
         }
     }
 }
