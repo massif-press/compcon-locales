@@ -2033,7 +2033,9 @@
             "deleteLocalData": "Eliminar los datos locales",
             "deleteLocalDataDesc": "Esto marca este artículo como eliminado localmente, y será eliminado de esta tabla y no será sincronizado. Las opciones de recuperación de elementos eliminados se pueden encontrar en la configuración del usuario.",
             "deleteCloudData": "Eliminar datos de la nube",
-            "deleteCloudItem": "Eliminar el elemento Cloud"
+            "deleteCloudItem": "Eliminar el elemento Cloud",
+            "deleteCloudItemDesc": "Eliminar este artículo lo marcará como eliminado en la nube. No eliminará este artículo localmente, pero evitará que se sincronice a la nube o a otros dispositivos.",
+            "deleteNItems": "Suprímase {count} Tema Silenciosos {count} Temas"
         }
     }
 }
