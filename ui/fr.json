@@ -1,6 +1,7 @@
 {
     "common": {
-        "rank": "Rang"
+        "rank": "Rang",
+        "convert": "Convertir"
     },
     "gm": {
         "fields": {
