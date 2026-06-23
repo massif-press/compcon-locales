@@ -1874,7 +1874,10 @@
             "addShareExpire": "Cualquier artículo compartido ya no actualizará, y todos los códigos para compartir expirarán",
             "addSyncTerminated": "Cualquier sincronización activa será terminada",
             "addRemovedTables": "Usted será eliminado de cualquier mesa activa",
-            "addGmTables": "Si usted es un GM, todas las tablas que posee serán archivadas y esclavizadas para la eliminación"
+            "addGmTables": "Si usted es un GM, todas las tablas que posee serán archivadas y esclavizadas para la eliminación",
+            "addSubFeed": "Si publica un feed de suscripción, los suscriptores ya no podrán recibir actualizaciones",
+            "thisWillNot": "Esto no",
+            "notLocalData": "Eliminar los datos locales en el dispositivo"
         }
     }
 }
