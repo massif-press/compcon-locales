@@ -1912,7 +1912,9 @@
         "storage": {
             "iosWarning": "los navegadores iOS limitan el almacenamiento para sitios web y pueden {emphasis} después de 7 días de inactividad. Para evitar la pérdida de datos, instale COMP/CON a su pantalla de inicio:",
             "autoDeleteData": "eliminar automáticamente sus datos",
-            "iosStep1": "Toque el botón {share} {icon} en la barra de herramientas de Safari"
+            "iosStep1": "Toque el botón {share} {icon} en la barra de herramientas de Safari",
+            "iosStep2": "Desplazarse y pulsar {target}",
+            "iosStep3": "Tap {target}"
         }
     }
 }
