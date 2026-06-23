@@ -2018,7 +2018,8 @@
             "remoteLinkBroken": "Enlace remoto roto — datos del propietario no encontrado. Regresar o convertir a local.",
             "deletedLocally": "Suprimido localmente",
             "markedDeletedCloud": "Marcado como eliminado en la nube.",
-            "cloudOnly": "Cloud sólo — aún no descargado."
+            "cloudOnly": "Cloud sólo — aún no descargado.",
+            "localOnly": "Local solamente — aún no sincronizado."
         }
     }
 }
