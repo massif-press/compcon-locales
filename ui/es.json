@@ -1962,7 +1962,8 @@
             "revertTooltip": "Revertir COMP/CON a esta copia de seguridad",
             "revertTitle": "Revertir COMP/CON",
             "revertWarning1": "Esto reemplazará los datos actuales de COMP/CON con los datos de este archivo. Esta acción no se puede deshacer automáticamente, por lo que se recomienda firmemente que usted cree un nuevo archivo antes de proceder.",
-            "revertWarning2": "Esta herramienta solo afecta sus datos locales. No afectará a ningún dato almacenado en la nube."
+            "revertWarning2": "Esta herramienta solo afecta sus datos locales. No afectará a ningún dato almacenado en la nube.",
+            "loadArchive": "Archivo de carga"
         }
     }
 }
