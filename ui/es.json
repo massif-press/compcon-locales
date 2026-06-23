@@ -1930,7 +1930,8 @@
         },
         "migration": {
             "title": "v3 Migración contable",
-            "previousError": "Un anterior intento de migración encontró un error. Puedes volver a entrar abajo."
+            "previousError": "Un anterior intento de migración encontró un error. Puedes volver a entrar abajo.",
+            "detectedText": "COMP/CON ha detectado que tiene una cuenta existente que aún no ha sido migrada al nuevo sistema de nube v3."
         }
     }
 }
