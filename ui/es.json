@@ -2007,7 +2007,8 @@
             "cancelBulkSelection": "Cancel Bulk Selection",
             "bulkDelete": "Bulk Delete",
             "deleteSelected": "Eliminado ({count})",
-            "remoteItem": "Elemento remoto"
+            "remoteItem": "Elemento remoto",
+            "remoteItemDesc": "Este artículo está relacionado con los datos de otro usuario. Los cambios que hagan se descargarán en sincronización."
         }
     }
 }
