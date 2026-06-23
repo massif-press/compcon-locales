@@ -1935,7 +1935,8 @@
             "migrationDesc": "{detected} La herramienta de migración de cuenta intentará transferir todos los datos de la nube v2 al nuevo backend v3. Este proceso puede tomar algún tiempo; por favor no refresque ni cierre la página durante el proceso de migración. Después de utilizar esta herramienta (o desestimarla), puede encontrarla de nuevo en la pestaña \"Cloud Data\".",
             "pilotsDetected": "{count} Piloto Silencioso {count}",
             "npcsDetected": "{count} NPC tención {count} NPCs",
-            "encountersDetected": "{count} Encuentro Silencio {count}"
+            "encountersDetected": "{count} Encuentro Silencio {count}",
+            "contentPacksAvailable": "Paquetes de contenido (si está disponible)"
         }
     }
 }
