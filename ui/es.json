@@ -1977,7 +1977,9 @@
             "nothingToPrune": "Nada para Prune"
         },
         "publishing": {
-            "accessInfo": "Debido a los costos del servidor asociados con la creación y distribución de estas colecciones, esta herramienta sólo está disponible para los suscriptores de Patreon. Si desea acceder a esta herramienta y crear y distribuir colecciones de su contenido COMP/CON, por favor considere {link} para apoyar el desarrollo de COMP/CON y obtener acceso a funciones adicionales."
+            "accessInfo": "Debido a los costos del servidor asociados con la creación y distribución de estas colecciones, esta herramienta sólo está disponible para los suscriptores de Patreon. Si desea acceder a esta herramienta y crear y distribuir colecciones de su contenido COMP/CON, por favor considere {link} para apoyar el desarrollo de COMP/CON y obtener acceso a funciones adicionales.",
+            "howeverView": "Sin embargo, todavía puede ver y suscribirse a colecciones creadas por otros usuarios.",
+            "collectionsHeader": "COLECCIONES ({count}/{limit})"
         }
     }
 }
