@@ -2030,7 +2030,9 @@
             "deletePermanentlyDesc": "Esto eliminará permanentemente el artículo del almacenamiento local. Si el artículo ha sido sincronizado con la nube, también se marcará como se elimina allí.",
             "deleteImmediately": "Eliminar inmediatamente",
             "deleteImmediatelyDesc": "Eliminar este artículo lo eliminará del almacenamiento en la nube. Esto no modificará ninguna copia local de este artículo.",
-            "deleteLocalData": "Eliminar los datos locales"
+            "deleteLocalData": "Eliminar los datos locales",
+            "deleteLocalDataDesc": "Esto marca este artículo como eliminado localmente, y será eliminado de esta tabla y no será sincronizado. Las opciones de recuperación de elementos eliminados se pueden encontrar en la configuración del usuario.",
+            "deleteCloudData": "Eliminar datos de la nube"
         }
     }
 }
