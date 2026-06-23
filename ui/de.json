@@ -28,6 +28,8 @@
         "roll": "Würfeln",
         "remove": "Entfernen",
         "clear": "Leeren",
-        "skipToMainContent": "Zum Hauptinhalt springen"
+        "skipToMainContent": "Zum Hauptinhalt springen",
+        "exit": "Verlassen",
+        "unlock": "Entsperren"
     }
 }
