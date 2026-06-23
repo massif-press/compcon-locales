@@ -1990,7 +1990,8 @@
             "viewFullChangelog": "Ver Full Changelog",
             "collectionChangelogTitle": "{name} CHANGELOG",
             "versionN": "versión {version}",
-            "saveDraft": "Guardar el borrador"
+            "saveDraft": "Guardar el borrador",
+            "publishMinor": "Publicar versión menor ({version})"
         }
     }
 }
