@@ -1942,7 +1942,8 @@
             "downloading": "Descarga e importación de datos v2…",
             "noData": "No se encontraron datos importables en su almacenamiento en la nube v2.",
             "pilotsImported": "{count} piloto importado TEN {count} piloto importado",
-            "pilotsPending": "{count} pilot pending (missing LCPs) {count} pilots pending (missing LCPs)"
+            "pilotsPending": "{count} pilot pending (missing LCPs) {count} pilots pending (missing LCPs)",
+            "npcsImported": "{count} NPC importó TEN {count} NPCs importados"
         }
     }
 }
