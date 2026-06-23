@@ -2022,7 +2022,8 @@
             "localOnly": "Solo Local — no sincronizado aún.",
             "pendingSync": "Sincronización pendiente.",
             "editableCampaignDesc": "Esta es una campaña editable que ha creado en el Editor de Campañas GM. Estos datos pueden ser sincronizados a la nube para asegurar y compartir con otros dispositivos, pero no son afeitados a través del sistema de código compartido.",
-            "retryConnection": "Reintentar conexión"
+            "retryConnection": "Reintentar conexión",
+            "convertToLocalDesc": "Retire el enlace remoto. Los datos se mantienen localmente."
         }
     }
 }
