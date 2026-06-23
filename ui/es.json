@@ -1936,7 +1936,8 @@
             "pilotsDetected": "{count} Piloto Silencioso {count}",
             "npcsDetected": "{count} NPC tención {count} NPCs",
             "encountersDetected": "{count} Encuentro Silencio {count}",
-            "contentPacksAvailable": "Paquetes de contenido (si está disponible)"
+            "contentPacksAvailable": "Paquetes de contenido (si está disponible)",
+            "v2NotModified": "Sus datos v2 serán modificados o eliminados por este proceso."
         }
     }
 }
