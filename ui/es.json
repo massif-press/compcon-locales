@@ -1887,7 +1887,8 @@
         },
         "itch": {
             "accountLabel": "itch. io account:",
-            "linkItch": "Enlace itch.io"
+            "linkItch": "Enlace itch.io",
+            "linkInfo1": "Vincular tu picazón. io cuenta le permitirá descargar el contenido de Massif desde el itch. io tienda con un clic."
         }
     }
 }
