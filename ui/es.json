@@ -2010,7 +2010,8 @@
             "remoteItem": "Elemento remoto",
             "remoteItemDesc": "Este artículo está relacionado con los datos de otro usuario. Los cambios que hagan se descargarán en sincronización.",
             "remoteItemInaccessible": "Objeto remoto inaccesible",
-            "remoteInaccessibleDesc": "Estos datos de nube para este artículo no se pueden encontrar. Esto puede ocurrir cuando el propietario elimina el artículo, o si hubo un error durante la sincronización. Puede intentar restaurar el enlace remoto o convertir este artículo a una copia local."
+            "remoteInaccessibleDesc": "Estos datos de nube para este artículo no se pueden encontrar. Esto puede ocurrir cuando el propietario elimina el artículo, o si hubo un error durante la sincronización. Puede intentar restaurar el enlace remoto o convertir este artículo a una copia local.",
+            "typeEncounterData": "Datos del Encuentro"
         }
     }
 }
