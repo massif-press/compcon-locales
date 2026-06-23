@@ -1888,7 +1888,9 @@
         "itch": {
             "accountLabel": "itch. io account:",
             "linkItch": "Enlace itch.io",
-            "linkInfo1": "Vincular tu picazón. io cuenta le permitirá descargar el contenido de Massif desde el itch. io tienda con un clic."
+            "linkInfo1": "Vincular tu picazón. io cuenta le permitirá descargar el contenido de Massif desde el itch. io tienda con un clic.",
+            "linkInfo2": "También puede suscribirse a Massif LCPs para actualizar su copia local cuando el autor publica una nueva versión.",
+            "linked": "ITCH LINKED"
         }
     }
 }
