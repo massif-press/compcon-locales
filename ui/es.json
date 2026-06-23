@@ -1943,7 +1943,8 @@
             "noData": "No se encontraron datos importables en su almacenamiento en la nube v2.",
             "pilotsImported": "{count} piloto importado | {count} pilotos importados",
             "pilotsPending": "{count} piloto pendiente (LCPs faltantes) | {count} pilotos pendientes (LCPs faltantes)",
-            "npcsImported": "{count} PNJ importado | {count} PNJs importados"
+            "npcsImported": "{count} PNJ importado | {count} PNJs importados",
+            "npcsPending": "{count} NPC pending (missing LCPs) {count} NPCs pending (missing LCPs)"
         }
     }
 }
