@@ -1937,7 +1937,9 @@
             "npcsDetected": "{count} NPC tención {count} NPCs",
             "encountersDetected": "{count} Encuentro Silencio {count}",
             "contentPacksAvailable": "Paquetes de contenido (si está disponible)",
-            "v2NotModified": "Sus datos v2 serán modificados o eliminados por este proceso."
+            "v2NotModified": "Sus datos v2 serán modificados o eliminados por este proceso.",
+            "notLabel": "no",
+            "downloading": "Descarga e importación de datos v2…"
         }
     }
 }
