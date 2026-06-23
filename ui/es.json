@@ -1773,7 +1773,8 @@
         "deleteAccount": {
             "intro": "Esta herramienta eliminará su cuenta y todos los datos asociados. Esto incluye:",
             "incCredentials": "Cuenta credenciales de inicio de sesión y ajustes",
-            "incCloudData": "Datos en la nube, incluidos pilotos, mechs y NPC y otros datos GM"
+            "incCloudData": "Datos en la nube, incluidos pilotos, mechs y NPC y otros datos GM",
+            "incImages": "Imágenes subidas a tu archivo de nube personal"
         }
     }
 }
