@@ -5,6 +5,22 @@
         "appShortName": "C/C",
         "gameName": "LANCER",
         "submit": "Senden",
-        "import": "Importieren"
+        "import": "Importieren",
+        "cancel": "Abbrechen",
+        "close": "Schließen",
+        "delete": "Löschen",
+        "confirm": "Bestätigen",
+        "search": "Suche",
+        "add": "Hinzufügen",
+        "yes": "Ja",
+        "edit": "Bearbeiten",
+        "reset": "Zurücksetzen",
+        "dismiss": "Verwerfen",
+        "continue": "Weiter",
+        "back": "Zurück",
+        "print": "Drucken",
+        "export": "Exportieren",
+        "update": "Aktualisieren",
+        "duplicate": "Duplizieren"
     }
 }
