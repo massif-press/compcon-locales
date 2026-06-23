@@ -1994,7 +1994,8 @@
             "publishMinor": "Publicar versión menor ({version})",
             "publishMajor": "Publish Major Version ({version})",
             "collectionShareCode": "COLLECTION SHARE CODE",
-            "lastUpdateOn": "Última actualización sobre {date}"
+            "lastUpdateOn": "Última actualización sobre {date}",
+            "mustPublish": "La colección debe publicarse para generar un código de acciones."
         }
     }
 }
