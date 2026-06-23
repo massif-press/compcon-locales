@@ -1914,7 +1914,8 @@
             "autoDeleteData": "eliminar automáticamente sus datos",
             "iosStep1": "Toque el botón {share} {icon} en la barra de herramientas de Safari",
             "iosStep2": "Desplazarse y pulsar {target}",
-            "iosStep3": "Tap {target}"
+            "iosStep3": "Tap {target}",
+            "onceInstalled": "Una vez instalado, abra COMP/CON de su icono de pantalla de inicio."
         }
     }
 }
