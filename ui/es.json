@@ -2083,7 +2083,11 @@
     },
     "pm": {
         "loadout": {
-            "armorEquippedTitle": "Armadura piloto equipada"
+            "armorEquippedTitle": "Armadura piloto equipada",
+            "gearEquippedTitle": "Pilot Gear Equipped",
+            "equippedText": "{itemName} equipado a {pilotName}.",
+            "not": "NO",
+            "click": "CLICK"
         }
     }
 }
