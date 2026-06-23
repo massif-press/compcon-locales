@@ -1944,7 +1944,8 @@
             "pilotsImported": "{count} piloto importado | {count} pilotos importados",
             "pilotsPending": "{count} piloto pendiente (LCPs faltantes) | {count} pilotos pendientes (LCPs faltantes)",
             "npcsImported": "{count} PNJ importado | {count} PNJs importados",
-            "npcsPending": "{count} NPC pending (missing LCPs) {count} NPCs pending (missing LCPs)"
+            "npcsPending": "{count} NPC pending (missing LCPs) {count} NPCs pending (missing LCPs)",
+            "encountersImported": "{count} encuentro importado TEN {count} encuentros importados"
         }
     }
 }
