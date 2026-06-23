@@ -1931,7 +1931,8 @@
         "migration": {
             "title": "v3 Migración contable",
             "previousError": "Un anterior intento de migración encontró un error. Puedes volver a entrar abajo.",
-            "detectedText": "COMP/CON ha detectado que tiene una cuenta existente que aún no ha sido migrada al nuevo sistema de nube v3."
+            "detectedText": "COMP/CON ha detectado que tiene una cuenta existente que aún no ha sido migrada al nuevo sistema de nube v3.",
+            "migrationDesc": "{detected} La herramienta de migración de cuenta intentará transferir todos los datos de la nube v2 al nuevo backend v3. Este proceso puede tomar algún tiempo; por favor no refresque ni cierre la página durante el proceso de migración. Después de utilizar esta herramienta (o desestimarla), puede encontrarla de nuevo en la pestaña \"Cloud Data\"."
         }
     }
 }
