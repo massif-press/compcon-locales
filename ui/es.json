@@ -1946,7 +1946,8 @@
             "npcsImported": "{count} PNJ importado | {count} PNJs importados",
             "npcsPending": "{count} NPC pending (missing LCPs) {count} NPCs pending (missing LCPs)",
             "encountersImported": "{count} encuentro importado TEN {count} encuentros importados",
-            "encountersPending": "{count} encuentro pendiente (miserando NPCs) Silencio {count} encuentros pendientes (miserando NPCs)"
+            "encountersPending": "{count} encuentro pendiente (miserando NPCs) Silencio {count} encuentros pendientes (miserando NPCs)",
+            "lcpsImported": "{count} paquete de contenido importado TEN {count} paquetes de contenido importados"
         }
     }
 }
