@@ -1904,7 +1904,9 @@
             "updateAvailable": "Actualización disponible",
             "updateToLatest": "Actualizar a la última versión",
             "updatedOn": "Actualizado en {date}",
-            "unsubscribeInfo": "La suscripción de esta colección la eliminará de su lista de colecciones. Ya no recibirás actualizaciones de este autor. Los datos locales de esta colección no serán eliminados."
+            "unsubscribeInfo": "La suscripción de esta colección la eliminará de su lista de colecciones. Ya no recibirás actualizaciones de este autor. Los datos locales de esta colección no serán eliminados.",
+            "newVersionAvailable": "Hay una nueva versión de esta colección disponible.",
+            "deletedCollection": "Colección suprimida"
         }
     }
 }
