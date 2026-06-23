@@ -8,17 +8,17 @@ body:
       label: Language
       description: Which language has the issue?
       options:
-        - Arabic (ar)
-        - German (de)
-        - Spanish (es)
-        - French (fr)
-        - Hindi (hi)
-        - Italian (it)
-        - Japanese (ja)
-        - Korean (ko)
-        - Portuguese (pt)
-        - Russian (ru)
-        - Chinese Simplified (zh_Hans)
+        - العربية - Arabic (ar)
+        - Deutsch - German (de)
+        - Español - Spanish (es)
+        - Français - French (fr)
+        - हिन्दी - Hindi (hi)
+        - Italiano - Italian (it)
+        - 日本語 - Japanese (ja)
+        - 한국어 - Korean (ko)
+        - Português - Portuguese (pt)
+        - Русский - Russian (ru)
+        - 中文 - Chinese Simplified (zh_Hans)
     validations:
       required: true
 
