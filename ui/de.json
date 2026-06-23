@@ -57,6 +57,15 @@
         "convertToLocal": "Zu Lokaldaten Konvertieren",
         "importCampaign": "Kampagne Importieren",
         "ok": "OK",
-        "loading": "Lädt…"
+        "loading": "Wird geladen …",
+        "website": "Webseite",
+        "offline": "Offline",
+        "options": "Optionen",
+        "none": "Keine",
+        "noData": "Keine Daten",
+        "name": "Name",
+        "type": "Typ",
+        "action": "Aktion",
+        "actions": "Aktionen"
     }
 }
