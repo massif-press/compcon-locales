@@ -57,7 +57,7 @@
         "convertToLocal": "Zu Lokaldaten Konvertieren",
         "importCampaign": "Kampagne Importieren",
         "ok": "OK",
-        "loading": "Wird geladen …",
+        "loading": "Wird geladen…",
         "website": "Webseite",
         "offline": "Offline",
         "options": "Optionen",
@@ -68,6 +68,22 @@
         "action": "Aktion",
         "actions": "Aktionen",
         "changeImage": "Bild ändern",
-        "all": "Alle"
+        "all": "Alle",
+        "loadout": "Ausrüstung",
+        "weapon": "Waffe",
+        "frame": "Chassis",
+        "tierN": "Rang {n}",
+        "tierShort": "R{n}",
+        "byAuthor": "von {author}",
+        "logLevel": "Logstufe:",
+        "contentManager": "Inhaltsverwaltung",
+        "deletePilot": "Pilot Löschen",
+        "clearAllData": "Alle Daten Löschen",
+        "encounters": "Gefechte",
+        "activeMode": "Aktiver Modus",
+        "confirmImport": "Import Bestätigen",
+        "forceImport": "Import Erzwingen",
+        "compconPrompt": ">>COMP/CON//",
+        "addName": "{name} Hinzufügen"
     }
 }
