@@ -1992,7 +1992,8 @@
             "versionN": "versión {version}",
             "saveDraft": "Guardar el borrador",
             "publishMinor": "Publicar versión menor ({version})",
-            "publishMajor": "Publish Major Version ({version})"
+            "publishMajor": "Publish Major Version ({version})",
+            "collectionShareCode": "COLLECTION SHARE CODE"
         }
     }
 }
