@@ -1981,7 +1981,8 @@
             "howeverView": "Sin embargo, todavía puede ver y suscribirse a colecciones creadas por otros usuarios.",
             "collectionsHeader": "COLECCIONES ({count}/{limit})",
             "addNew": "Añadir nuevo",
-            "currentVersion": "Versión actual"
+            "currentVersion": "Versión actual",
+            "itemModified": "Este artículo ha sido modificado localmente y será actualizado a la versión más reciente sobre publicación."
         }
     }
 }
