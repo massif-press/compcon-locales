@@ -1895,7 +1895,8 @@
             "purchasesLinked": "COMP/CON ha vinculado el siguiente pico. io compra a su cuenta:",
             "eligibleUpdates": "Su cuenta de nube COMP/CON es elegible para las siguientes actualizaciones automáticas:",
             "manageContentHint": "Los PCL no conectados y otros contenidos pueden añadirse manualmente a través de la página {link}.",
-            "noAutoTrack": "COMP/CON no rastrea automáticamente nuevos datos itch.io."
+            "noAutoTrack": "COMP/CON no rastrea automáticamente nuevos datos itch.io.",
+            "updateHint": "Si usted tiene nuevas compras o claves de descarga en su itch. io cuenta haga clic en el botón {update} a continuación para añadir estos a COMP/CON. Desafortunadamente, no es posible vincular las compras no-Massif en este momento debido a limitaciones en la itch. io API."
         }
     }
 }
