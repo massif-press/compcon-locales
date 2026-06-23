@@ -1759,7 +1759,9 @@
             "imagesTabDesc": "Todos los datos de imagen que has subido a tu cuenta COMP/CON."
         },
         "management": {
-            "notifications": "NOTIFICACIONES"
+            "notifications": "NOTIFICACIONES",
+            "accountCreatedV3": "Cuenta creada (v3):",
+            "changeEmail": "Cuenta de cambio E-Mail"
         }
     }
 }
