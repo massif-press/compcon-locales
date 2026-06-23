@@ -1995,7 +1995,8 @@
             "publishMajor": "Publish Major Version ({version})",
             "collectionShareCode": "COLLECTION SHARE CODE",
             "lastUpdateOn": "Última actualización sobre {date}",
-            "mustPublish": "La colección debe publicarse para generar un código de acciones."
+            "mustPublish": "La colección debe publicarse para generar un código de acciones.",
+            "deleteCollection": "Eliminar colección"
         }
     }
 }
