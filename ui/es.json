@@ -1924,7 +1924,8 @@
             "stronglyRecommended": "recomendado firmemente",
             "asPwa": "como PWA",
             "v3StorageWarning": "A partir de la actualización v3, COMP/CON requiere más almacenamiento local de dispositivos que está disponible por defecto. Funcionalidad se deteriorará a menos que se conceda el COMP/CON {permission} para este navegador.",
-            "persistentStoragePermission": "Permiso de almacenamiento persistente"
+            "persistentStoragePermission": "Permiso de almacenamiento persistente",
+            "denialNotice": "COMP/CON ha detectado que se ha negado el almacenamiento persistente para esta aplicación. El almacenamiento persistente debe estar habilitado para que COMP/CON funcione correctamente"
         }
     }
 }
