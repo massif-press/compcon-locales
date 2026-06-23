@@ -2019,7 +2019,9 @@
             "deletedLocally": "Eliminado localmente",
             "markedDeletedCloud": "Marcado como eliminado en la nube.",
             "cloudOnly": "Sólo Nube — no descargado aún.",
-            "localOnly": "Solo Local — no sincronizado aún."
+            "localOnly": "Solo Local — no sincronizado aún.",
+            "pendingSync": "Sincronización pendiente.",
+            "editableCampaignDesc": "Esta es una campaña editable que ha creado en el Editor de Campañas GM. Estos datos pueden ser sincronizados a la nube para asegurar y compartir con otros dispositivos, pero no son afeitados a través del sistema de código compartido."
         }
     }
 }
