@@ -1948,7 +1948,8 @@
             "encountersImported": "{count} encuentro importado TEN {count} encuentros importados",
             "encountersPending": "{count} encuentro pendiente (miserando NPCs) Silencio {count} encuentros pendientes (miserando NPCs)",
             "lcpsImported": "{count} paquete de contenido importado TEN {count} paquetes de contenido importados",
-            "errorsDuringMigration": "{count} error durante la migración TEN {count} errores durante la migración"
+            "errorsDuringMigration": "{count} error durante la migración TEN {count} errores durante la migración",
+            "completedSuccess": "¡La migración terminó con éxito!"
         }
     }
 }
