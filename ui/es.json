@@ -1959,7 +1959,8 @@
             "subscribing": "suscriptores",
             "preventPrune": "Evitar que este artículo sea automáticamente podado. Los archivos preservados seguirán contando hacia las limitaciones de tamaño y espacio.",
             "removeProtection": "Eliminar las protecciones de auto-delete en este artículo",
-            "revertTooltip": "Revertir COMP/CON a esta copia de seguridad"
+            "revertTooltip": "Revertir COMP/CON a esta copia de seguridad",
+            "revertTitle": "Revertir COMP/CON"
         }
     }
 }
