@@ -21,6 +21,13 @@
         "print": "Drucken",
         "export": "Exportieren",
         "update": "Aktualisieren",
-        "duplicate": "Duplizieren"
+        "duplicate": "Duplizieren",
+        "convert": "Konvertieren",
+        "difficulty": "Schwierigkeit",
+        "accuracy": "Genauigkeit",
+        "roll": "Würfeln",
+        "remove": "Entfernen",
+        "clear": "Leeren",
+        "skipToMainContent": "Zum Hauptinhalt springen"
     }
 }
