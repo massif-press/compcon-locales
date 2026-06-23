@@ -1920,7 +1920,8 @@
             "shareLabel": "Compartir",
             "addToHomeScreen": "Agregar a la Pantalla de Inicio",
             "continueAnyway": "Continuar de Todos Modos",
-            "noStorageWarning": "El navegador actual no parece soportar almacenamiento persistente. Es {recommended} ejecutar @:{'common.appName'} en un navegador que sea capaz de almacenar datos persistentes de aplicaciones, o, guardar y ejecutar @:{'common.appName'} {pwaLink}"
+            "noStorageWarning": "El navegador actual no parece soportar almacenamiento persistente. Es {recommended} ejecutar @:{'common.appName'} en un navegador que sea capaz de almacenar datos persistentes de aplicaciones, o, guardar y ejecutar @:{'common.appName'} {pwaLink}",
+            "stronglyRecommended": "recomendado firmemente"
         }
     }
 }
