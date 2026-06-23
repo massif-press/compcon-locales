@@ -1960,7 +1960,8 @@
             "preventPrune": "Evitar que este artículo sea automáticamente podado. Los archivos preservados seguirán contando hacia las limitaciones de tamaño y espacio.",
             "removeProtection": "Eliminar las protecciones de auto-delete en este artículo",
             "revertTooltip": "Revertir COMP/CON a esta copia de seguridad",
-            "revertTitle": "Revertir COMP/CON"
+            "revertTitle": "Revertir COMP/CON",
+            "revertWarning1": "Esto reemplazará los datos actuales de COMP/CON con los datos de este archivo. Esta acción no se puede deshacer automáticamente, por lo que se recomienda firmemente que usted cree un nuevo archivo antes de proceder."
         }
     }
 }
