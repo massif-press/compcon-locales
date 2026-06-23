@@ -1923,27 +1923,27 @@
             "noStorageWarning": "El navegador actual no parece soportar almacenamiento persistente. Es {recommended} ejecutar @:{'common.appName'} en un navegador que sea capaz de almacenar datos persistentes de aplicaciones, o, guardar y ejecutar @:{'common.appName'} {pwaLink}",
             "stronglyRecommended": "recomendado firmemente",
             "asPwa": "como PWA",
-            "v3StorageWarning": "A partir de la actualización v3, COMP/CON requiere más almacenamiento local de dispositivos que está disponible por defecto. Funcionalidad se deteriorará a menos que se conceda el COMP/CON {permission} para este navegador.",
-            "persistentStoragePermission": "Permiso de almacenamiento persistente",
-            "denialNotice": "COMP/CON ha detectado que se ha negado el almacenamiento persistente para esta aplicación. El almacenamiento persistente debe estar habilitado para que COMP/CON funcione correctamente",
+            "v3StorageWarning": "A partir de la actualización v3, @:{'common.appName' requiere más almacenamiento local en dispositivo del que está disponible por defecto. La funcionalidad se deteriorará a menos que se conceda a @:{'common.appName' el {permission} para este navegador.",
+            "persistentStoragePermission": "Permiso de Almacenamiento Persistente",
+            "denialNotice": "@:{'common.appName'} ha detectado que se ha negado el almacenamiento persistente para esta aplicación. El almacenamiento persistente debe estar habilitado para que @:{'common.appName'} opere correctamente",
             "activated": "Almacenamiento persistente activado! Alerta de cierre…"
         },
         "migration": {
-            "title": "v3 Migración contable",
-            "previousError": "Un anterior intento de migración encontró un error. Puedes volver a entrar abajo.",
-            "detectedText": "COMP/CON ha detectado que tiene una cuenta existente que aún no ha sido migrada al nuevo sistema de nube v3.",
-            "migrationDesc": "{detected} La herramienta de migración de cuenta intentará transferir todos los datos de la nube v2 al nuevo backend v3. Este proceso puede tomar algún tiempo; por favor no refresque ni cierre la página durante el proceso de migración. Después de utilizar esta herramienta (o desestimarla), puede encontrarla de nuevo en la pestaña \"Cloud Data\".",
-            "pilotsDetected": "{count} Piloto Silencioso {count}",
-            "npcsDetected": "{count} NPC tención {count} NPCs",
-            "encountersDetected": "{count} Encuentro Silencio {count}",
-            "contentPacksAvailable": "Paquetes de contenido (si está disponible)",
-            "v2NotModified": "Sus datos v2 serán modificados o eliminados por este proceso.",
+            "title": "Migración Cuenta v3",
+            "previousError": "Un anterior intento de migración encontró un error. Puedes volver a intentar abajo.",
+            "detectedText": "@:{'common.appName'} ha detectado que tiene una cuenta existente que aún no ha sido migrada al nuevo sistema de nube v3.",
+            "migrationDesc": "{detected} La herramienta de migración de cuenta intentará transferir todos los datos de la nube v2 a la nueva plataforma v3. Este proceso puede tomar algún tiempo; por favor no refresque ni cierre la página durante el proceso de migración. Después de utilizar esta herramienta (o cerrarla), puede encontrarla de nuevo en la pestaña \"Datos de Nube\".",
+            "pilotsDetected": "{count} Piloto | {count} Pilotos",
+            "npcsDetected": "{count} PNJ | {count} PNJs",
+            "encountersDetected": "{count} Encuentro | {count} Encuentros",
+            "contentPacksAvailable": "Paquetes de contenido (si están disponibles)",
+            "v2NotModified": "Sus datos v2 {not} serán modificados o eliminados por este proceso.",
             "notLabel": "no",
-            "downloading": "Descarga e importación de datos v2…",
+            "downloading": "Descargando e importando datos v2…",
             "noData": "No se encontraron datos importables en su almacenamiento en la nube v2.",
-            "pilotsImported": "{count} piloto importado TEN {count} piloto importado",
-            "pilotsPending": "{count} pilot pending (missing LCPs) {count} pilots pending (missing LCPs)",
-            "npcsImported": "{count} NPC importó TEN {count} NPCs importados"
+            "pilotsImported": "{count} piloto importado | {count} pilotos importados",
+            "pilotsPending": "{count} piloto pendiente (LCPs faltantes) | {count} pilotos pendientes (LCPs faltantes)",
+            "npcsImported": "{count} PNJ importado | {count} PNJs importados"
         }
     }
 }
