@@ -2016,7 +2016,9 @@
             "typeActiveEncounter": "Active Encounter",
             "typeArchivedEncounter": "Archivado Encuentro",
             "remoteLinkBroken": "Enlace remoto roto — datos del propietario no encontrado. Regresar o convertir a local.",
-            "deletedLocally": "Suprimido localmente"
+            "deletedLocally": "Suprimido localmente",
+            "markedDeletedCloud": "Marcado como eliminado en la nube.",
+            "cloudOnly": "Cloud sólo — aún no descargado."
         }
     }
 }
