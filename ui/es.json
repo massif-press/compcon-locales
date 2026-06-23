@@ -1890,7 +1890,9 @@
             "linkItch": "Enlace itch.io",
             "linkInfo1": "Vincular tu picazón. io cuenta le permitirá descargar el contenido de Massif desde el itch. io tienda con un clic.",
             "linkInfo2": "También puede suscribirse a Massif LCPs para actualizar su copia local cuando el autor publica una nueva versión.",
-            "linked": "ITCH LINKED"
+            "linked": "ITCH LINKED",
+            "clickForDetails": "Haga clic para obtener detalles",
+            "purchasesLinked": "COMP/CON ha vinculado el siguiente pico. io compra a su cuenta:"
         }
     }
 }
