@@ -1881,7 +1881,9 @@
             "notPurchases": "Revoque cualquier compra a través de itch. io o terminar su suscripción a Patreon",
             "irreversible": "Esta acción es irreversible. Estos datos serán eliminados permanente e irrevocablemente.",
             "ensureBackup": "Por favor, asegúrese de tener una copia de seguridad local de los datos que desee guardar.",
-            "deleteAccountBtn": "Eliminar cuenta"
+            "deleteAccountBtn": "Eliminar cuenta",
+            "enterTextToConfirm": "Introduzca el texto {phrase} para confirmar la eliminación de la cuenta.",
+            "deletionInProgress": "Eliminación en curso. Esto puede tomar unos momentos. COMP/CON se reiniciará una vez que este proceso esté completo."
         }
     }
 }
