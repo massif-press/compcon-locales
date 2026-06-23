@@ -1892,7 +1892,8 @@
             "linkInfo2": "También puede suscribirse a Massif LCPs para actualizar su copia local cuando el autor publica una nueva versión.",
             "linked": "ITCH LINKED",
             "clickForDetails": "Haga clic para obtener detalles",
-            "purchasesLinked": "COMP/CON ha vinculado el siguiente pico. io compra a su cuenta:"
+            "purchasesLinked": "COMP/CON ha vinculado el siguiente pico. io compra a su cuenta:",
+            "eligibleUpdates": "Su cuenta de nube COMP/CON es elegible para las siguientes actualizaciones automáticas:"
         }
     }
 }
