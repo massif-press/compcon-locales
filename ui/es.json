@@ -140,7 +140,8 @@
         "pilotTalent": "Talento de Piloto",
         "pilotArmor": "Armadura del Piloto",
         "pilotWeapon": "Arma del Piloto",
-        "repairs": "Reparaciones"
+        "repairs": "Reparaciones",
+        "all": "Todos"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -1749,10 +1750,12 @@
             "showMore": "Mostrar más",
             "addItem": "Añadir un elemento",
             "addCollectionItem": "Add Collection Item",
-            "distributeWarning": "Distribuir contenido que no está autorizado a estar en contra de los términos de servicio de COMP/CON y resultará en una prohibición del servicio de nube, eliminación de su cuenta de nube y datos, y eliminación y bloqueo de la membresía de COMP/CON Patreon."
+            "distributeWarning": "Distribuir contenido que no está autorizado a estar en contra de los términos de servicio de COMP/CON y resultará en una prohibición del servicio de nube, eliminación de su cuenta de nube y datos, y eliminación y bloqueo de la membresía de COMP/CON Patreon.",
+            "ensureRights": "Por favor, asegúrese de tener los derechos de distribuir cualquier contenido que agregue al servicio de nube. En caso de duda, comuníquese con el autor del contenido."
         },
         "cloudData": {
-            "reloadData": "Recargar datos"
+            "reloadData": "Recargar datos",
+            "dataTabDesc": "Datos PC y GM almacenados en su cuenta COMP/CON."
         }
     }
 }
