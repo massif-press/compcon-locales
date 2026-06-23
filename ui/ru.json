@@ -880,6 +880,7 @@
             "copyShareCodeToClipboard": "Скопировать публичный код в буфер обмена",
             "copyShareLinkToClipboard": "Скопировать публичную ссылку в буфер обмена"
         },
-        "publicLinkNoteBold": "публично доступная ссылка"
+        "publicLinkNoteBold": "публично доступная ссылка",
+        "upToDate": "Актуальны"
     }
 }
