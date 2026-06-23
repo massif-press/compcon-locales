@@ -2028,7 +2028,9 @@
             "restoreItemDesc": "Restaurar este artículo. Este artículo ya no será marcado como eliminado y se sincronizará con este y otros dispositivos.",
             "manualControls": "Controles manuales",
             "deletePermanentlyDesc": "Esto eliminará permanentemente el artículo del almacenamiento local. Si el artículo ha sido sincronizado con la nube, también se marcará como se elimina allí.",
-            "deleteImmediately": "Eliminar inmediatamente"
+            "deleteImmediately": "Eliminar inmediatamente",
+            "deleteImmediatelyDesc": "Eliminar este artículo lo eliminará del almacenamiento en la nube. Esto no modificará ninguna copia local de este artículo.",
+            "deleteLocalData": "Eliminar los datos locales"
         }
     }
 }
