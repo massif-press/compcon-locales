@@ -1757,6 +1757,9 @@
             "reloadData": "Recargar datos",
             "dataTabDesc": "Datos PC y GM almacenados en su cuenta COMP/CON.",
             "imagesTabDesc": "Todos los datos de imagen que has subido a tu cuenta COMP/CON."
+        },
+        "management": {
+            "notifications": "NOTIFICACIONES"
         }
     }
 }
