@@ -302,7 +302,8 @@
             "permanentlyDeleteAll": "Удалить навсегда",
             "itemName": "Название предмета",
             "restoreAll": "Восстановить все",
-            "restore": "@:{'common.restore'}"
+            "restore": "@:{'common.restore'}",
+            "permanentlyDelete": "Удалить навсегда"
         },
         "userDataViewer": {
             "value": "Значение",
