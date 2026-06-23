@@ -1877,7 +1877,8 @@
             "addGmTables": "Si usted es un GM, todas las tablas que posee serán archivadas y esclavizadas para la eliminación",
             "addSubFeed": "Si publica un feed de suscripción, los suscriptores ya no podrán recibir actualizaciones",
             "thisWillNot": "Esto no",
-            "notLocalData": "Eliminar los datos locales en el dispositivo"
+            "notLocalData": "Eliminar los datos locales en el dispositivo",
+            "notPurchases": "Revoque cualquier compra a través de itch. io o terminar su suscripción a Patreon"
         }
     }
 }
