@@ -140,7 +140,10 @@
             "newPilot": "Nouveau pilote"
         },
         "nav": {
-            "campaignManager": "Gestionnaire de Campagne"
+            "campaignManager": "Gestionnaire de campagne",
+            "encounters": "Rencontres",
+            "narrativeElements": "Éléments narratifs",
+            "storageLimitExceeded": "Limite de stockage dépassée"
         }
     }
 }
