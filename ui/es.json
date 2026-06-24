@@ -15,7 +15,7 @@
         "shareCode": "Compartir con Código",
         "alert": "Alerta",
         "mount": "Montura",
-        "rank": "Rango",
+        "rank": "RANGO",
         "mainMenu": "Menú Principal",
         "pilotRoster": "Lista de Pilotos",
         "compendium": "Compendio",
@@ -145,7 +145,14 @@
         "convertToLocal": "Convertir a Local",
         "offline": "Fuera de Línea",
         "contentManager": "Gestor de Contenido",
-        "lcpDirectory": "Directorio de LCP"
+        "lcpDirectory": "Directorio de LCP",
+        "frame": "Chasis",
+        "loadout": "Equipamiento",
+        "electronicDefense": "Defensa Electrónica",
+        "pilotSheet": "Hoja del Piloto",
+        "side": "Lado",
+        "systemPoints": "Puntos de Sistema",
+        "remove": "Eliminar"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -182,7 +189,9 @@
             "installedPacks": "Paquetes de Contenido Instalados",
             "installLcp": "Instalar Archivo .LCP",
             "deletePackConfirm": "Esto eliminará este paquete y todo su contenido de @:{'common.appName'}. Los datos de usuario que se basan en este contenido seguirán disponibles. ¿Seguro que quiere continuar?",
-            "noPacksInstalled": "No hay paquetes de contenido instalados."
+            "noPacksInstalled": "No hay paquetes de contenido instalados.",
+            "addContent": "@:{'common.addContent'}",
+            "removeContent": "@:{'common.remove'}"
         },
         "settings": {
             "reset": "Restablecer valores predeterminados",
@@ -354,7 +363,8 @@
             "hasBeenUsed": ") se ha utilizado",
             "neverAutoDelete": "eliminar automáticamente los datos marcados para la eliminación.",
             "cannotBeUndone": "deshacerse.",
-            "deleteAllUserData": "Eliminar todos los datos de usuario"
+            "deleteAllUserData": "Eliminar todos los datos de usuario",
+            "clearAllData": "@:{'common.clearAllData'}"
         },
         "deletedItems": {
             "deletedOn": "Eliminado en",
@@ -455,7 +465,8 @@
             "willBeAvailable": "estará disponible.",
             "createConfig": "Crear configuración",
             "deleteConfig": "Eliminar esta configuración",
-            "editConfig": "Editar esta configuración"
+            "editConfig": "Editar esta configuración",
+            "lcpsSuffix": "{list} LCPs"
         },
         "v2Auto": {
             "v2Data": "Datos V2",
@@ -717,9 +728,9 @@
             "enemies": "Enemigos",
             "allies": "Aliados",
             "atLeastPcs": "Con {count} o más PJs",
-            "reinforcesOnTurn": "Refuerzos en Tuno {turn}",
+            "reinforcesOnTurn": "Refuerzos en Turno {turn}",
             "npcTracking": "Rastreo de PNJ",
-            "pcsAllies": "PJs/alliados"
+            "pcsAllies": "PJs/aliados"
         },
         "combatantSelector": {
             "doodads": "Doodads",
@@ -2078,7 +2089,43 @@
             "credits": "Créditos",
             "roster": "Lista",
             "gmToolkit": "Caja de Herramientas DJ",
-            "installCompconForReliableStorage": "Instalar COMP/CON para Almacenamiento Confiable"
+            "installCompconForReliableStorage": "Instalar @:{'common.appName'} para Almacenamiento Confiable",
+            "storagePermissionRequired": "¡Permiso de Almacenamiento Requerido!",
+            "youDoNotHaveAccess": "No tiene acceso a respaldos remotos.",
+            "changeAccountEmail": "Cambiar Correo-E de Cuenta",
+            "youDoNotHaveAccess2": "No tiene acceso a la herramienta para publicación de colección.",
+            "deleteCollection": "eliminar colección",
+            "compconCloudAccount": "Cuenta de Nube @:{'common.appName'}"
+        },
+        "tooltips": {
+            "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
+            "thisIsAViewOf": "Esta una vista de sus datos @:{'common.appName'}, almacenados ambos localmente y en la nube. Puede usar esta herramienta para gestionar el estado de sus datos, y para sincronizar cambios entre sus datos locales y la nube.",
+            "paidLcpContentRequiresA": "Contenido de LCP pagado requiere una compra itch.io enlazada antes de poder ser actualizados automáticamente. De momento, únicamente son soportados LCPs publicados por Massif.",
+            "theseOptionsControlHowAnd": "Estas opciones controlan como y cuando sus datos son sincronizados con la nube. Por defecto, los datos se sincronizan solo manualmente. A diferencia de otras configuraciones de usuario, estas configuraciones son almacenadas en la nube y son aplicadas en todos los dispositivos que usted usa.",
+            "controlsHowOftenYourData": "Controla que tan seguido sus datos son sincronizados con la nube. Debido a costos de servidor, ciertas opciones están solo disponibles para suscriptores de Patreon.",
+            "controlsWhichDataTypesAre": "Controla cuales tipos de datos son sincronizados con la nube.",
+            "yourUniqueAccountIdThis": "Su ID de cuenta único. Este es usado par identificar su cuenta en la nube y puede ser solicitado para propósitos de resolución de errores.",
+            "usernameOptional": "Este es un campo <b>opcional</b> que puede usar para dar un nombre personalizado para su cuenta. Este nombre de usuario <b>va a</b> ser visible a otros usuarios en modo activo y cuando compartan datos."
+        },
+        "subtitles": {
+            "mergeAndSyncThisItem": "Combinar y sincronizar este artículo inmediatamente.",
+            "pushLocalDataToCloud": "Forzar los datos locales a la nube incondicionalmente, sobrescribiendo lo remoto.",
+            "mergeLatestCloudDataInto": "Combinar los datos de nube más recientes en este artículo, preservando cualquier campo local más nuevo.",
+            "removeTheRemoteLinkAnd": "Quitar el enlace remoto y mantener los datos localmente.",
+            "pushesAllLocalDataTo": "Forzar todos los datos locales a la nube incondicionalmente, restableciendo campos de marca de tiempo al de ahora. Usar tras una restauración o importación.",
+            "pullsAllCloudDataAnd": "Obtiene todos los datos de la nube y los combina con los datos locales. Los campos locales con marcas de tiempo más recientes son preservados.",
+            "permanentlyRemovesItemsFlaggedFor": "Borra permanentemente artículos marcados para eliminación."
+        }
+    },
+    "pm": {
+        "loadout": {
+            "armorEquippedTitle": "Armadura de Piloto Equipada",
+            "gearEquippedTitle": "Pilot Gear Equipped",
+            "equippedText": "{itemName} equipado a {pilotName}.",
+            "not": "NO",
+            "click": "Clic",
+            "weaponEquippedTitle": "Arma de Piloto Equipada",
+            "coreBonusAvailable": "Bono básico disponible"
         }
     }
 }

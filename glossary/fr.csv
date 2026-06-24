@@ -1,5 +1,5 @@
 'location' 'source' 'target'
-'Talent,,A' 'Pilot' ''
+'Talent,,A' 'Pilot' 'Pilote'
 'Overcharge,,Spend' 'Heat' ''
 '' 'Weapon' 'Arme'
 '' 'Structure' 'Structure'
@@ -14,3 +14,6 @@
 '' 'Pending' 'En attente'
 '' 'Custom' 'Personnalisé'
 '' 'Evasion' 'Esquive'
+'' 'Reserve' 'Réserve'
+'' 'System' 'Système'
+'' 'Mod' 'Mod'
