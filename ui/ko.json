@@ -90,9 +90,6 @@
     "gm": {
         "fields": {
             "authors": "작성자"
-        },
-        "combatantSelector": {
-            "eidolons": "아이돌론"
         }
     },
     "language": {

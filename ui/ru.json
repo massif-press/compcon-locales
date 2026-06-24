@@ -264,7 +264,6 @@
             "selectAll": "@:{'common.selectAll'}",
             "none": "@:{'common.none'}",
             "name": "@:{'common.name'}",
-            "sort": "Сортировка:",
             "eraseAllWarning": "Удалить все",
             "selectExportFile": "Выбрать файл для экспорта достижений в @:{'common.appName'}",
             "resetAchievements": "Сброс достижений",
@@ -272,7 +271,6 @@
             "loadBackup": "Загрузить резервную копию достижений"
         },
         "settingsPage": {
-            "logLevel": "Уровень логов",
             "errorReporting": "Отчёт об ошибках",
             "overwriteStrategy": "Перезаписать все существующие данные",
             "font": "Шрифт",
@@ -294,7 +292,6 @@
             "importV2Backup": "Импорт резервной копии v2"
         },
         "storage": {
-            "neverLabel": "никогда",
             "storageSettings": "Настройки хранилища",
             "userData": "Данные пользователя",
             "areYouSure": "Вы уверены, что хотите продолжить?",
@@ -404,13 +401,8 @@
             "ccVersion": "Версия C/C:",
             "lancerCoreVersion": "@:{'common.gameName'} версия игры:"
         },
-        "titles": {
-            "selectAll": "Выбрать все",
-            "warning": "Предупреждение"
-        },
         "log": {
-            "exportLog": "Экспорт логов",
-            "noData": "нет данных"
+            "exportLog": "Экспорт логов"
         },
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon"
@@ -443,7 +435,6 @@
             "resetConfirm": "Это приведёт к сбросу всех характеристик к дефолтным значениям О{tier} {name}. Вы уверены, что хотите это сделать?"
         },
         "relationships": {
-            "heading": "Отношения",
             "addRelationship": "Добавить отношение",
             "label": "Отношения"
         },
@@ -452,7 +443,6 @@
         },
         "filter": {
             "filters": "Фильтры",
-            "labels": "Метки",
             "showAll": "Показать все",
             "hideAll": "Скрыть все",
             "clearAllFilters": "Очистите все фильтры"
@@ -462,8 +452,7 @@
         },
         "overview": {
             "addContact": "Добавить контакт",
-            "setCoverImage": "Задать изображение для обложки",
-            "players": "игроки"
+            "setCoverImage": "Задать изображение для обложки"
         },
         "npcFeatures": {
             "saveConfig": "Сохранить настройки"
@@ -477,7 +466,6 @@
         "fields": {
             "authors": "Автор(ы)",
             "folder": "Папка",
-            "title": "Название",
             "value": "Значение",
             "group": "Группа",
             "sort": "Сортировка",
@@ -487,7 +475,6 @@
             "groupBy": "Группировать по",
             "sortBy": "Сортировать по",
             "pronouns": "Местоимения",
-            "organizationType": "Тип организации",
             "alias": "Псевдоним",
             "items": "Элементы",
             "imageUrl": "Ссылка на изображение",
@@ -497,9 +484,6 @@
         "pageContent": {
             "quote": "Цитата",
             "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить."
-        },
-        "encounterContent": {
-            "image": "Изображение"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -516,7 +500,6 @@
         "npcBuilder": {
             "templates": "Шаблоны"
         },
-        "reinforcements": "Подкрепления",
         "eidolon": {
             "noLayers": "слои отсутствуют",
             "layers": "Слои",
@@ -539,7 +522,6 @@
             "confirmTierChange": "Подтвердить изменение опасности",
             "selectImage": "выберите изображение",
             "deletePreset": "удалить шаблон",
-            "importData": "импорт данных",
             "selectTemplate": "выбрать шаблон",
             "selectLayer": "Выбрать слой"
         },
@@ -560,10 +542,8 @@
         },
         "common": {
             "exportAsJson": "Экспорт в формате JSON",
-            "apply": "Применить",
             "override": "заменить",
             "dangerZone": "Зона риска",
-            "target": "Цель",
             "saveSuccessful": "Сохранение успешно",
             "copiedToClipboard": "Скопировано в буфер обмена"
         },
@@ -608,13 +588,8 @@
         "skillCheck": {
             "modifiers": "Модификаторы",
             "difficult": "Сложный",
-            "selectTarget": "Выбор цели",
-            "result": "Результат:",
             "standard": "Стандартная",
             "targetValue": "Целевое значение"
-        },
-        "mechCore": {
-            "passive": "Пассивный эффект"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
@@ -629,7 +604,6 @@
             "selected": "выбрано"
         },
         "trackable": {
-            "unavailable": "Недоступно",
             "ready": "Готов"
         },
         "dmgCond": {
@@ -670,11 +644,7 @@
             "burn": "Ожог"
         },
         "timedEffect": {
-            "pending": "Ожидается",
             "override": "// Заменить"
-        },
-        "unitLoadout": {
-            "applyLower": "применить"
         },
         "pilotActions": {
             "mountFailedTitle": "Не удалось взобраться"
@@ -703,11 +673,9 @@
             "title": "Использование данных"
         },
         "syncSettings": {
-            "custom": "Пользовательский",
             "updateSyncSettings": "Обновить настройки синхронизации"
         },
         "collection": {
-            "colLastUpdate": "Последнее обновление",
             "colChanges": "Изменения"
         },
         "cloudData": {
@@ -732,7 +700,6 @@
         },
         "publishing": {
             "addNew": "Добавить новое",
-            "currentVersion": "Текущая версия",
             "versionN": "версия {version}",
             "saveDraft": "Сохранить черновик",
             "deleteCollection": "Удалить коллекцию",
@@ -787,7 +754,6 @@
             "forceDownload": "Принудительное скачивание",
             "confirmDelete": "Подтвердить удаление",
             "accountDeletion": "Удаление учётной записи",
-            "credits": "Информация о разработчиках",
             "storagePermissionRequired": "Требуется разрешение на сохранение!"
         },
         "deleteAccount": {
@@ -816,21 +782,13 @@
             "pilotHP": "ОЗ пилота",
             "maxHP": "Максимальные ОЗ",
             "extras": "Дополнительно",
-            "type": "ТИП",
             "range": "Дальность",
-            "damage": "Урон",
             "system": "Система",
-            "armor": "Броня:",
             "session": "Сессия",
             "resource": "Ресурс",
-            "size2": "Размер:",
-            "armor3": "Броня:",
-            "name": "ИМЯ",
-            "gain": "Получить",
-            "other": "Иное"
+            "gain": "Получить"
         },
         "roster": {
-            "pilot": "Пилот",
             "history": "История группы",
             "finishEditing": "Завершить редактирование",
             "deleteGroup": "Удалить группу",
@@ -845,8 +803,7 @@
             "resourceName": "Название ресурса",
             "projectName": "Название проекта",
             "requirements": "Требования",
-            "jumpTo": "перейти к",
-            "type": "Тип"
+            "jumpTo": "перейти к"
         }
     },
     "ui": {
@@ -857,7 +814,6 @@
         },
         "tooltips": {
             "resetCounter": "Сброс счётчика",
-            "savedConfigurations": "Сохранённые конфигурации",
             "itemFilters": "Фильтры предметов",
             "deleteCounter": "Удалить счётчик"
         },
@@ -922,19 +878,15 @@
         },
         "titles": {
             "clockEditor": "редактор счётчиков",
-            "addFromShareCode": "добавить из публичного кода",
             "activateFreeAction": "Активация (свободное действие)",
             "successfulHit": "Поадание",
-            "miss": "Промах",
-            "printOptions": "Опции для печати",
-            "setAvatar": "Выбор аватара"
+            "printOptions": "Опции для печати"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
         },
         "selector": {
             "noManufacturer": "Производитель отсутствует",
-            "metric": "Метрика",
             "select": "Выбрать {name}"
         },
         "talent": {
@@ -958,8 +910,6 @@
         },
         "widget": {
             "noDescription": "Описание отсутствует.",
-            "noDataUpper": "Нет данных",
-            "bonus": "бонус",
             "passive": "Пассивный",
             "other": "Иное",
             "noSelection": "Не выбрано",
@@ -1037,7 +987,6 @@
             "syncCompleteTitle": "Синхронизация завершена"
         },
         "common": {
-            "success": "Успех",
             "error": "Ошибка",
             "copied": "Скопировано"
         },
@@ -1063,24 +1012,16 @@
         }
     },
     "print": {
-        "titles": {
-            "orientation": "Ориентация",
-            "paper": "Лист"
-        },
-        "extras": "Дополнительно",
         "generalOptions": "Стандартные опции для печати"
     },
     "stats": {
         "agility": "Ловкость",
         "systems": "Системы",
         "engineering": "Инженерное дело",
-        "hull": "Корпус",
         "agi": "Ловкость",
-        "sys": "Системы",
         "hp": "ОЗ",
         "sensors": "Сенсоры",
-        "structure": "Структура",
-        "size": "Размер"
+        "structure": "Структура"
     },
     "share": {
         "resultAuthor": "Автор",
@@ -1095,7 +1036,6 @@
             "copyShareLinkToClipboard": "Скопировать публичную ссылку в буфер обмена"
         },
         "publicLinkNoteBold": "публично доступная ссылка",
-        "upToDate": "Актуально",
         "lastLocalUpdate": "Последнее локальное обновление",
         "lastSynced": "Дата последней синхронизации",
         "notYetSynced": "Ещё не синхронизировано",
@@ -1114,8 +1054,7 @@
         "reference": {
             "statuses": "Статусы",
             "glossary": "Словарь",
-            "pleaseNote": "Обратите внимание:",
-            "conditions": "Состояния"
+            "pleaseNote": "Обратите внимание:"
         },
         "campaign": {
             "removeFromCollection": "Удалить из подборки",
