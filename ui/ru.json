@@ -912,7 +912,9 @@
             "fromManufacturer": "От производителя",
             "fromContentPack": "Из контент-пака",
             "equipmentNotes": "Примечания к снаряжению",
-            "gmOnly": "Только для ведущего"
+            "gmOnly": "Только для ведущего",
+            "title": "Название",
+            "relationship": "Отношения"
         },
         "image": {
             "upload": "Загрузить",
@@ -991,6 +993,11 @@
         },
         "pwa": {
             "updateNow": "Обновить сейчас"
+        },
+        "filter": {
+            "clearFilters": "Очистить фильтры",
+            "equalTo": "Равен",
+            "greaterThan": "Больше чем"
         }
     },
     "notify": {
