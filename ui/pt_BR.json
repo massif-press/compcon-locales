@@ -215,18 +215,22 @@
             "contentConfig": "Config. de Conteúdo.",
             "refreshContent": "Recarregar",
             "updateAll": "@:{'common.updateAll'}",
-            "deleteAll": "Apagar Todos"
+            "deleteAll": "Apagar Todos",
+            "contentPacks": "@:{'common.contentPacks'}",
+            "addContent": "@:[common.addContent'}"
         },
         "roster": {
             "newPilot": "Novo Piloto",
             "importPilot": "Importar Piloto",
-            "clonePilot": "Clonar Piloto"
+            "clonePilot": "Clonar Piloto",
+            "deletePilot": "@:{'common.deletePilot'}"
         },
         "settings": {
             "exportData": "Exportar Todos os Dados",
             "importData": "Importar Dados",
             "title": "@:{'common.settings'}",
-            "reset": "Resetar para as Config. Padrões"
+            "reset": "Resetar para as Config. Padrões",
+            "clearData": "@:{'common.clearAllData'}"
         },
         "v2Import": {
             "panelTitle": "Importações da V2 pendentes",
@@ -240,7 +244,8 @@
             "importAllTooltip": "Tenta importar todos os itens pendentes. Itens que ainda apresentarem dependências ausentes permanecerão em estado pendente.",
             "forceImportAll": "Forçar importar Todos",
             "forceImportPanelTitle": "@:{'common.forceImport'}",
-            "confirmForceImport": "@:{'common.forceImport'}"
+            "confirmForceImport": "@:{'common.forceImport'}",
+            "importAll": "Importar Tudo"
         },
         "nav": {
             "navigateBack": "Voltar",
@@ -263,7 +268,9 @@
             "cloudAccount": "@:{'common.cloudAccount'}",
             "about": "Sobre",
             "credits": "@:{'common.credits'}",
-            "help": "Ajuda"
+            "help": "Ajuda",
+            "manageContent": "@:{'common.manageContent'}",
+            "supportCompcon": "Support @:{'common.appName'}"
         },
         "about": {
             "ccVersion": "Versão do C/C:",
@@ -326,7 +333,11 @@
             "showDesktopTablesLabel": "Forçar tabelas completas do Compêndio"
         },
         "credits": {
-            "additionalArtBy": "Arte Adicional por:"
+            "additionalArtBy": "Arte Adicional por:",
+            "lancerBy": "@:{'common.gameName'} by:",
+            "with": "Com:",
+            "graphicDesignBy": "Design Gráfico por:",
+            "tier": "@:{'common.tier'}"
         }
     }
 }
