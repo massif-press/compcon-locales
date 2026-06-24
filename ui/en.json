@@ -40,9 +40,8 @@
     "warning": "Warning",
     "alert": "Alert",
     "preview": "Preview",
-    "size": "Size",
     "mount": "Mount",
-    "rank": "RANK",
+    "rank": "Rank",
     "result": "Result",
     "copyLink": "Copy link",
     "attackBonus": "Attack Bonus",
@@ -119,7 +118,6 @@
     "cloudAccount": "Cloud Account",
     "confirmImport": "Confirm Import",
     "forceImport": "Force Import",
-    "compconPrompt": ">>COMP/CON//",
     "addName": "Add {name}",
     "addingLocalCopyTooltip": "Adding this item as a local copy will create a new, editable version of this item saved to your local @:{'common.appName'} data. Changes made to this item will not affect the author's original data, and you will not receive updates from the author.",
     "armorBonus": "Armor Bonus",
@@ -711,6 +709,7 @@
       "confirmResetStats": "Confirm Reset Stats",
       "addStat": "Add Stat",
       "custom": "Custom",
+      "core": "Core",
       "statCountSuffix": "{n} Stat | {n} Stats"
     },
     "editorFooter": {
