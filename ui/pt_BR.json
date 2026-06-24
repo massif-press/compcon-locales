@@ -583,7 +583,9 @@
         },
         "achievementItem": {
             "dataRedacted": "Dados ocultados",
-            "hiddenNote": "Esta conquista esta oculta e será revelada assim que for desbloqueada"
+            "hiddenNote": "Esta conquista esta oculta e será revelada assim que for desbloqueada",
+            "unlockedLabel": "Desbloqueado",
+            "createdBy": "Criado Por"
         }
     },
     "share": {
