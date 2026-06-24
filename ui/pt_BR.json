@@ -42,7 +42,7 @@
         "preview": "Prévia",
         "size": "Tamanho",
         "mount": "Encaixe",
-        "rank": "Ranque",
+        "rank": "Brio",
         "result": "Resultado",
         "copyLink": "Copiar link",
         "attackBonus": "Bônus de Ataque",
@@ -167,7 +167,15 @@
         "pilotTalent": "Talentos de Piloto",
         "pilotArmor": "Armadura de Piloto",
         "pilotWeapon": "Arma de Piloto",
-        "repairs": "Reparos"
+        "repairs": "Reparos",
+        "hidden": "Escondido",
+        "talents": "Talentos",
+        "roll_verb": "Rolagem",
+        "mech": "Mecha",
+        "roll_noun": "Rolagem",
+        "background": "Antecedente",
+        "changelog": "Registro de Mudanças",
+        "deployables": "Posicionáveis"
     },
     "print": {
         "titles": {
@@ -339,7 +347,7 @@
             "display": "Exibição:",
             "common": "Comum",
             "rarity": "Raridade",
-            "unlocked": "Desbloqueada",
+            "unlocked": "Desbloqueado(a)",
             "byLabel": "Por Nome:",
             "discovered": "Descoberto",
             "selectAll": "@:{'common.selectAll'}",
@@ -1011,7 +1019,8 @@
             "influence": "Influência da Organização"
         },
         "action": {
-            "compendiumEntry": "Entrada do Compêndio"
+            "compendiumEntry": "Entrada do Compêndio",
+            "frequency_action": "Frequência"
         },
         "counter": {
             "addCustom": "Adicionar Contador Personalizado"
@@ -1390,7 +1399,8 @@
             "myPresets": "Minhas predefinições",
             "savePreset": "Salvar Predefinição",
             "modifiedWarning": "Este resit foi modificado. Carregar uma nova predefinição excluirá essas alterações. Tem certeza de que deseja continuar?",
-            "deletePresetConfirm": "Excluir predefinição {name}? Isso não pode ser desfeito."
+            "deletePresetConfirm": "Excluir predefinição {name}? Isso não pode ser desfeito.",
+            "condition_sitrep": "Condição"
         },
         "environment": {
             "modifiedWarning": "Este ambiente foi modificado. Carregar uma nova predefinição excluirá essas alterações. Tem certeza de que deseja continuar?"
@@ -2599,7 +2609,8 @@
             "lastSynced": "Última sincronização: {label}",
             "syncWithSettings": "sincronizar com as configurações atuais",
             "syncOverrides": "Sobrescritas de sincronização",
-            "syncOverridesNote": "As operações a seguir substituem as configurações de sincronização e devem ser usadas com cautela."
+            "syncOverridesNote": "As operações a seguir substituem as configurações de sincronização e devem ser usadas com cautela.",
+            "frequency_sync": "Frequência"
         },
         "collection": {
             "byAuthor": "Por {author}",
@@ -2817,7 +2828,7 @@
             "verificationCode": "Código de Verificação",
             "passwordResetCode": "Código de Redefinição de Senha",
             "deleteCloudDataOnlyKeep": "Excluir apenas dados da nuvem (manter dados locais)",
-            "deleteAccount": "excluir conta",
+            "deleteAccount": "Excluir Conta",
             "newEmail": "Novo E-mail",
             "confirmNewEmail": "Confirmar Novo E-mail",
             "emailAddress": "Endereço de E-mail"
@@ -3433,7 +3444,7 @@
             "missingLicenseData": "Dados de Licença Ausentes",
             "newOrganization": "Nova Organização",
             "skillSuggestionsAvailable": "Sugestões de Perícias Disponíveis",
-            "editPilotDescription": "editar Descrição do Piloto",
+            "editPilotDescription": "Editar Descrição do Piloto",
             "convertRemotePilot": "converter piloto remoto",
             "confirmPilotDeletion": "confirmar exclusão do piloto",
             "exportV2Json": "Exportar JSON v2",
