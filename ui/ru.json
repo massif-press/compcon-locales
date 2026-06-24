@@ -158,7 +158,8 @@
         "deletePermanently": "Удалить безвозвратно",
         "features": "Возможности",
         "limitedBonus": "Доп. заряды Расходуемых систем",
-        "systemPoints": "Очки систем"
+        "systemPoints": "Очки систем",
+        "repairs": "Ремонт"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -398,7 +399,8 @@
             "warning": "Предупреждение"
         },
         "log": {
-            "exportLog": "Экспорт логов"
+            "exportLog": "Экспорт логов",
+            "noData": "Нет данных"
         }
     },
     "gm": {
