@@ -759,7 +759,12 @@
         },
         "titles": {
             "forceUpload": "Принудительно загрузить",
-            "forceDownload": "Принудительно скачать"
+            "forceDownload": "Принудительно скачать",
+            "confirmDelete": "Подтвердить удаление",
+            "accountDeletion": "Удаление учётной записи",
+            "changelog": "Список изменений",
+            "credits": "Информация о разработчиках",
+            "storagePermissionRequired": "Требуется разрешение на сохранение"
         }
     },
     "pm": {
