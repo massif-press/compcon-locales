@@ -102,7 +102,7 @@
         "tierN": "Patamar {n}",
         "tierShort": "P{n}",
         "byAuthor": "por {author}",
-        "logLevel": "Nível de Log:",
+        "logLevel": "Log level",
         "contentManager": "Gerenciador de Conteúdo",
         "contentPacks": "Pacotes de Conteúdo",
         "lcpDirectory": "Diretório de LCPs",
