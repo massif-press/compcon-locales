@@ -989,7 +989,8 @@
             "patreonLinkFailedTitle": "Не удалось привязать аккаунт на Patreon",
             "patreonLinkFailedText": "При попытке привязать ваш аккаунт на Patreon возникла ошибка",
             "patreonUnlinkedTitle": "Аккаунт на Patreon отвязан",
-            "patreonUnlinkedText": "Ваш аккаунт на Patreon был отвязан"
+            "patreonUnlinkedText": "Ваш аккаунт на Patreon был отвязан",
+            "emailChangeCompleteText": "Ваш электронный адрес был изменен."
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
