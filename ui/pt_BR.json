@@ -244,9 +244,9 @@
             "forceImport": "Forçar importação (pulando itens faltantes)",
             "attemptReimport": "Tentar Reimportar",
             "strippedTitle": "Itens Limpos na Importação Forçada",
-            "strippedBody": "Os seguintes itens foram removidos porque não puderam ser resolvidos:",
+            "strippedBody": "Os seguintes itens foram removidos porque não puderam ser resolvidos",
             "moreCount": "+{count} mais",
-            "forceImportNotice": "Isso irá importar o(a) {type} com todos os itens não resolvidos removidos. As seguintes dependências não foram encontradas e serão descartadas:",
+            "forceImportNotice": "Isso irá importar o(a) {type} com todos os itens não resolvidos removidos. As seguintes dependências não foram encontradas e serão descartadas",
             "importAllTooltip": "Tenta importar todos os itens pendentes. Itens que ainda apresentarem dependências ausentes permanecerão em estado pendente.",
             "forceImportAll": "Forçar importar Todos",
             "forceImportPanelTitle": "@:{'common.forceImport'}",
@@ -282,7 +282,7 @@
             "options": "@:{'common.options'}"
         },
         "about": {
-            "ccVersion": "Versão do C/C:",
+            "ccVersion": "Versão do C/C",
             "lancerCoreVersion": "@:{'common.gameName'} versão CORE:",
             "description": "O @:{'common.appName'} é um kit de ferramentas digital gratuito e de código aberto, além de um assistente de jogo para criar e jogar o TTRPG @:{'common.gameName'}.",
             "coreBookInfo": "O livro básico de regras do @:{'common.gameName'}, o @:{'common.appName'} e os conteúdos associados podem ser encontrados em",
@@ -389,7 +389,7 @@
             "confirmImport": "@:{'common.confirmImport'}"
         },
         "credits": {
-            "additionalArtBy": "Arte Adicional por:",
+            "additionalArtBy": "Arte Adicional por",
             "lancerBy": "@:{'common.gameName'} by:",
             "with": "Com:",
             "graphicDesignBy": "Design Gráfico por:",
@@ -431,7 +431,7 @@
             "dependencyError": "O seguinte pacote de conteúdo possui dependências não instaladas e ainda não pode ser instalado. Ele será ignorado: | Os seguintes pacotes de conteúdo possuem dependências não instaladas e ainda não podem ser instalados. Eles serão ignorados:",
             "alreadyInstalledNote": "Um pacote com este mesmo nome e autor já está instalado.",
             "willReplace": "Ele será substituído por esta cópia.",
-            "requiresContent": "Este LCP exige que o seguinte conteúdo esteja instalado antes de poder ser adicionado:",
+            "requiresContent": "Este LCP exige que o seguinte conteúdo esteja instalado antes de poder ser adicionado",
             "successText": "Pacotes de conteúdo instalados com sucesso",
             "installingPacks": "Instalando {count} pacote de conteúdo… | Instalando {count} pacotes de conteúdo…",
             "willUpgradeTo": "Ele será atualizado para a v.{version}",
@@ -522,7 +522,7 @@
             "subscribeTooltip": "Clique para permitir que o @:{'common.appName'} atualize este LCP sempre que uma nova versão for publicada",
             "payWhatYouWant": "Pague o Quanto Quiser",
             "free": "Grátis",
-            "currentVersion": "Versão atual:",
+            "currentVersion": "Versão atual",
             "itchStorePage": "Pagina do itch.io",
             "authorsWebsite": "@:{'nav.packInfo.authorsWebsite'}"
         },
@@ -574,7 +574,7 @@
             "dataRedacted": "Dados ocultados",
             "hiddenNote": "Esta conquista esta oculta e será revelada assim que for desbloqueada",
             "unlockedLabel": "Desbloqueado",
-            "createdBy": "Criado Por:",
+            "createdBy": "Criado Por",
             "secretLabel": "Conquista Secreta"
         },
         "optionsPage": {
@@ -1115,7 +1115,7 @@
             "readyForImport": "O item está pronto para importação",
             "missingPacks": "O item não possui os pacotes de conteúdo necessários. Este item será salvo na coleção de Importações v2 no Gerenciador de Conteúdo e pode ser importado assim que os pacotes de conteúdo necessários estiverem instalados e ativados.",
             "oldVersionWarning": "Alguns dados a serem importados foram criados usando uma versão mais antiga do @:{'common.appName'} e não incluem informações aninhadas do pacote de conteúdo. Estes dados serão salvos na coleção de Importações v2 no Gerenciador de Conteúdo, mas não poderão ser importados até que os pacotes de conteúdo necessários estejam instalados e ativados. Estes itens poderão ser importados assim que os pacotes de conteúdo necessários forem instalados e ativados, ou forçados a importar no Gerenciador de Conteúdo.",
-            "missingContentPacks": "Pacotes de conteúdo ausentes:",
+            "missingContentPacks": "Pacotes de conteúdo ausentes",
             "completeImport": "Concluir Importação ({n} Itens)",
             "importErrorTitle": "Falha na Importação",
             "encounterImportErrorText": "Falha ao importar encontro: {error}",
@@ -1158,10 +1158,10 @@
             "minor": "Menor",
             "patch": "Patch",
             "versionExists": "A versão {version} já existe!",
-            "releaseNotes": "Notas de lançamento e changelog:",
+            "releaseNotes": "Notas de lançamento e changelog",
             "publishNewVersion": "Publicar Nova Versão",
             "latestVersion": "Última versão",
-            "latestChanges": "Últimas Alterações:",
+            "latestChanges": "Últimas Alterações",
             "exportLcd": "Exportar Pacote .lcd",
             "exportLcdHelp": "Faça o download de um arquivo Lancer Campaign Distributable (.lcd) que pode ser importado para o @:{'common.appName'} de outro usuário",
             "saveLocal": "Salvar na Coleção Local",
@@ -1235,8 +1235,8 @@
         },
         "filter": {
             "filters": "Filtros",
-            "showItemsWith": "Mostrar itens com:",
-            "hideItemsWith": "Ocultar itens com:",
+            "showItemsWith": "Mostrar itens com",
+            "hideItemsWith": "Ocultar itens com",
             "showAll": "Mostrar Todos",
             "hideAll": "Ocultar Todos",
             "clearAllFilters": "Limpar Todos os Filtros"
@@ -1766,11 +1766,11 @@
             "saveFailedText": "Falha ao salvar a Ficha de Personagem: {callsign}"
         },
         "stats": {
-            "hitPoints": "Pontos de vida"
+            "hitPoints": "Pontos de Vida"
         },
         "common": {
             "exportAsJson": "Exportar como JSON",
-            "currentlySelected": "Atualmente Selecionado:",
+            "currentlySelected": "Atualmente Selecionado",
             "destroyed": "Destruído",
             "dangerZone": "Zona de Perigo",
             "override": "sobrescrever",
@@ -1895,7 +1895,7 @@
             "selected": "selecionado"
         },
         "runnerHeader": {
-            "lastSaved": "Último Salvamento:",
+            "lastSaved": "Último Salvamento",
             "never": "Nunca",
             "manualSave": "Salvamento Manual",
             "autosave": "Salvamento Automático",
@@ -1915,8 +1915,8 @@
         },
         "pcEndRound": {
             "forfeitActions": "Encerrar a rodada perderá quaisquer ações não utilizadas.",
-            "nextRound": "Próxima Rodada:",
-            "willLoseStatuses": "perderá os seguintes status:",
+            "nextRound": "Próxima Rodada",
+            "willLoseStatuses": "perderá os seguintes status",
             "atThe": "no",
             "endsOnTurn": "{when} do seu turno",
             "braceExit": "Você sai do estado {braced} e entra no estado {cooldown}.",
@@ -1943,7 +1943,7 @@
             "exportState": "Exportar Estado da Ficha de Personagem",
             "importState": "Importar Estado da Ficha de Personagem",
             "importFileLabel": "Arquivo de Importação de Instância de Ficha de Personagem (.json)",
-            "stagedImport": "Importação em Estágio:",
+            "stagedImport": "Importação em Estágio",
             "atRound": "na Rodada",
             "warningReplace": "Aviso: O estado da Ficha de Personagem importado substituirá o estado atual da Ficha de Personagem.",
             "changeActiveMech": "Alterar Mecha Ativo",
@@ -1954,7 +1954,7 @@
             "sessionNotes": "Notas da Sessão"
         },
         "pcDeploy": {
-            "deployedEquipment": "Equipamento Implantado:",
+            "deployedEquipment": "Equipamento Implantado",
             "noActive": "Nenhum equipamento ativo.",
             "noSelected": "Nenhum equipamento selecionado."
         },
@@ -1998,7 +1998,7 @@
         },
         "diceRoller": {
             "title": "Rolador de dados",
-            "quickRoll": "Rolagem Rápida:",
+            "quickRoll": "Rolagem Rápida",
             "hullCheck": "Teste de Casco",
             "agilityCheck": "Teste de Agilidade",
             "systemsCheck": "Teste de Sistemas",
@@ -2055,10 +2055,10 @@
             "noPersist": "Espaços reservados não persistem fora do encontro em que são criados."
         },
         "gmEndRound": {
-            "unusedActions": "ações não utilizadas:",
+            "unusedActions": "ações não utilizadas",
             "endsOnTargetTurn": "{when} do turno do {target}",
             "braceExit": "sai de {braced} e entra no estado {cooldown}.",
-            "reinforcementsReady": "reforços prontos na próxima rodada:",
+            "reinforcementsReady": "reforços prontos na próxima rodada",
             "willBeReady": "estarão prontos para implantar."
         },
         "panelBase": {
@@ -2185,7 +2185,7 @@
             "hiddenFeatures": "Sistemas Ocultas",
             "rollRecharge": "Rolar Recarga",
             "rechargeResult": "Resultado da Recarga (d6)",
-            "rechargesFeatures": "Recarrega os seguintes sistemas:",
+            "rechargesFeatures": "Recarrega os seguintes sistemas",
             "rechargesOn": "(Recarrega em {n}+)",
             "clickToRoll": "Clique para rolar. Os sitemas do PNJ recarregarão em resultados iguais ou superiores ao seu valor de rolagem.",
             "reroll": "rolar novamente"
@@ -2428,7 +2428,7 @@
             "passwordRecovery": "Recuperação de Senha",
             "verifyEmailTitle": "Verificar endereço de e-mail",
             "codeSentToLabel": "Um código de verificação foi enviado para",
-            "sendCodeToLabel": "Enviar um código de verificação para:",
+            "sendCodeToLabel": "Enviar um código de verificação para",
             "resendVerificationCode": "Reenviar Código de Verificação",
             "sendVerificationCode": "Enviar Código de Verificação",
             "alreadyHaveCode": "Já tenho um código de verificação",
@@ -2472,10 +2472,10 @@
             "kb": "KB"
         },
         "itemLink": {
-            "noItemWithIdLabel": "Nenhum item com o ID:",
+            "noItemWithIdLabel": "Nenhum item com o ID",
             "foundInCompendium": "encontrado no Compêndio",
             "lcpHint": "Se este item faz parte de um Lancer Content Pack (LCP), certifique-se de que o pacote está instalado e ativado.",
-            "requestedLcp": "LCP Solicitado:"
+            "requestedLcp": "LCP Solicitado"
         },
         "dataUsage": {
             "title": "Uso de dados",
@@ -2483,7 +2483,7 @@
             "resetMigrationTool": "Redefinir Ferramenta de Migração de Conta"
         },
         "patreon": {
-            "accountLabel": "Conta do Patreon:",
+            "accountLabel": "Conta do Patreon",
             "linkPatreon": "Vincular Patreon",
             "linkInfo": "Se você é assinante do Patreon do @:{'common.appName'}, vincular sua conta do Patreon aumentará seu espaço de armazenamento máximo na nuvem e desbloqueará a criação de tabelas em tempo real no modo do Mestre.",
             "tierSuffix": "Patamar {title}"
@@ -2517,7 +2517,7 @@
         },
         "management": {
             "notifications": "Notificações",
-            "accountCreatedV3": "Conta criada (v3):",
+            "accountCreatedV3": "Conta criada (v3)",
             "changePassword": "Mudar senha",
             "changeEmail": "Alterar E-mail da Conta",
             "working": "trabalhando…",
@@ -2526,7 +2526,7 @@
             "deleteCloudAccount": "Excluir Conta na Nuvem"
         },
         "deleteAccount": {
-            "intro": "Esta ferramenta excluirá sua conta e todos os dados associados. Isso inclui:",
+            "intro": "Esta ferramenta excluirá sua conta e todos os dados associados. Isso inclui",
             "incCredentials": "Credenciais de login e configurações da conta",
             "incCloudData": "Dados na nuvem, incluindo pilotos, mechas e PNJs salvos, além de outros dados do Mestre",
             "incImages": "Imagens enviadas para seu arquivo pessoal na nuvem",
@@ -2548,14 +2548,14 @@
             "deletionInProgress": "Exclusão em andamento. Isso pode levar alguns instantes. O @:{'common.appName'} será reiniciado assim que o processo for concluído."
         },
         "itch": {
-            "accountLabel": "Conta do itch.io:",
+            "accountLabel": "Conta do itch.io",
             "linkItch": "Vincular itch.io",
             "linkInfo1": "Vincular sua conta do itch.io permitirá baixar o conteúdo da Massif da loja itch.io com um clique.",
             "linkInfo2": "Você também pode assinar LCPs da Massif para atualizar automaticamente sua cópia local quando o autor lançar uma nova versão.",
             "linked": "Itch vinculado",
             "clickForDetails": "Clique para detalhes",
-            "purchasesLinked": "O @:{'common.appName'} vinculou as seguintes compras do itch.io à sua conta:",
-            "eligibleUpdates": "Sua conta na nuvem do @:{'common.appName'} é elegível para as seguintes atualizações automáticas:",
+            "purchasesLinked": "O @:{'common.appName'} vinculou as seguintes compras do itch.io à sua conta",
+            "eligibleUpdates": "Sua conta na nuvem do @:{'common.appName'} é elegível para as seguintes atualizações automáticas",
             "manageContentHint": "LCPs não vinculados e outros conteúdos ainda podem ser adicionados manualmente na página {link}.",
             "noAutoTrack": "O @:{'common.appName'} não rastreia automaticamente novos dados do itch.io.",
             "updateHint": "Se você tiver novas compras ou chaves de download na sua conta itch.io, clique no botão {update} abaixo para adicioná-las ao @:{'common.appName'}. Infelizmente, não é possível vincular compras não publicadas pela Massif no momento devido a limitações na API do itch.io.",
@@ -2573,7 +2573,7 @@
             "deletedCollectionInfo": "A coleção \"{name}\" foi excluída pelo autor. Embora seus dados locais não tenham sido removidos, você não receberá mais atualizações desta coleção."
         },
         "storage": {
-            "iosWarning": "Navegadores iOS limitam o armazenamento para sites e podem {emphasis} após 7 dias de inatividade. Para evitar a perda de dados, instale o @:{'common.appName'} na sua tela inicial:",
+            "iosWarning": "Navegadores iOS limitam o armazenamento para sites e podem {emphasis} após 7 dias de inatividade. Para evitar a perda de dados, instale o @:{'common.appName'} na sua tela inicial",
             "autoDeleteData": "excluir automaticamente seus dados",
             "iosStep1": "Toque no botão de {share} {icon} na barra de ferramentas do Safari",
             "shareLabel": "Compartilhar",
@@ -2693,7 +2693,7 @@
             "deleteCloudItem": "Excluir Item na Nuvem",
             "deleteCloudItemDesc": "Excluir este item o marcará como excluído na nuvem. Não excluirá este item localmente, mas impedirá que ele seja sincronizado com a nuvem ou com outros dispositivos.",
             "deleteNItems": "Excluir {count} Item | Excluir {count} Itens",
-            "chooseDeleteMethod": "Escolha como excluir os itens selecionados:"
+            "chooseDeleteMethod": "Escolha como excluir os itens selecionados"
         },
         "fields": {
             "updates": "Atualizações",
@@ -2791,7 +2791,7 @@
             "equipmentIDINVALIDORMISSING": "[ ID de equipamento inválido ou ausente ]",
             "noMODINSTALLED": "Nenhuma mod instalada",
             "emptySYSTEMSLOT": "Espaço de sistema vazio",
-            "appliedTO": "Aplicado a:",
+            "appliedTO": "Aplicado a",
             "mechSYSTEMS": "Sistemas do Mecha",
             "integratedEquipment": "Equipamento Integrado",
             "reorderSystems": "Reordenar Sistemas",
@@ -2807,8 +2807,8 @@
             "selectPilotWeapon": "Selecionar Arma do Piloto",
             "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Autorização de equipamento do arsenal da GMS: piloto/armamento pessoal::S0 - S3(LTD)",
             "toAddSlashes": "Para adicionar //",
-            "unionArmoryPrintid": "ID de impressão do arsenal da União:",
-            "gmsArmoryPrintid": "ID de impressão do arsenal da GMS:"
+            "unionArmoryPrintid": "ID de impressão do arsenal da União",
+            "gmsArmoryPrintid": "ID de impressão do arsenal da GMS"
         },
         "import": {
             "importSuccessTitle": "Importação Bem-sucedida",
@@ -2834,7 +2834,7 @@
             "unOmni18364AndesCerroboneteNode": "un_omni-18364.andes.cerrobonete.node:9",
             "submittingUnauthorizedLicensingUpdatesAndOr": "O envio de atualizações de licenciamento não autorizadas e/ou o envio de solicitações para direitos de licença não autorizados ou anteriormente retidos sem autorização prévia MV-8a/j por um Administrador da União resultará na rejeição automática do pedido de licenciamento e poderá resultar em uma auditoria de licenciamento nos termos do DoJ/HR AR 716-J",
             "theUADIDENTServiceHasDetermined": "O Serviço UAD IDENT determinou que",
-            "isEligibleForTheFollowingLicense": "é elegível para a seguinte atualização de licença:",
+            "isEligibleForTheFollowingLicense": "é elegível para a seguinte atualização de licença",
             "pilotSKILLTRIGGERIMPROVEMENT": "Melhoria de gatilho de perícia do piloto",
             "pilotTALENTUPGRADE": "Melhoria de talento do piloto",
             "mechSKILLUPGRADE": "Melhoria de perícia de mecha",
@@ -2846,7 +2846,7 @@
         "new": {
             "pilot": "Piloto",
             "skills": "Perícias",
-            "i": "I:",
+            "i": "I",
             "gmsEVEREST": "GMS Evereste",
             "up": "cima",
             "down": "baixo",
@@ -2910,7 +2910,7 @@
             "duplicatingOrCloningAPilotWill": "Duplicar ou Clonar um piloto removerá quaisquer links de Cofre, salvando o Piloto copiado como um novo personagem na sua conta",
             "duplicatePilot": "Duplicar Piloto",
             "flashClonePilot": "Clonar Rapidamente o Piloto",
-            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Quaisquer organizações, indivíduos ou tecnologias que se envolvam em ou facilitem a clonagem de fac-símile de corpo inteiro estão vinculados aos Acordos de Primeiro Contato de 3002. Quaisquer atividades que violem os princípios estabelecidos nos Acordos são proibidas, incluindo, mas não se limitando a:",
+            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Quaisquer organizações, indivíduos ou tecnologias que se envolvam em ou facilitem a clonagem de fac-símile de corpo inteiro estão vinculados aos Acordos de Primeiro Contato de 3002. Quaisquer atividades que violem os princípios estabelecidos nos Acordos são proibidas, incluindo, mas não se limitando a",
             "reproductionOfTheSubjectivePersonageOf": "Reprodução do personagem subjetivo de um ser senciente ou outra continuidade subjetiva, no todo ou em parte.",
             "transferOrTheSubjectivePersonageOf": "Transferência do personagem subjetivo de um ser senciente ou outra continuidade subjetiva para um substrato fabricado ou cultivado.",
             "emulationOfASentientIndividualS": "Emulação do personagem subjetivo de um indivíduo senciente em um substrato fabricado ou cultivado.",
@@ -2920,16 +2920,16 @@
             "cloneQUIRK": "Peculiaridade de clone",
             "rerollQuirk": "Rolar Novamente Peculiaridade",
             "decantFlashClone": "Decantar Clone Rápido",
-            "lcpConfigurations": "Configurações de LCP:",
+            "lcpConfigurations": "Configurações de LCP",
             "openConfigManager": "Abrir Gerenciador de Configuração",
-            "currentConfiguration": "Configuração Atual:",
+            "currentConfiguration": "Configuração Atual",
             "unrestrictedAccess": "Acesso Irrestrito",
             "clearConfiguration": "Limpar Configuração",
             "editingThisPilotSLevelMay": "Editar o nível deste Piloto pode impedir que certas conquistas sejam desbloqueadas com este Piloto. Se você deseja usar este Piloto para desbloquear conquistas relacionadas ao Piloto, use o assistente de Subir de Nível em vez disso.",
             "thisPilotSLevelHasBeen": "O nível deste piloto foi editado. Isso impedirá que certas conquistas sejam desbloqueadas com este Piloto.",
             "thisToolSkipsTheLevelUp": "Esta ferramenta pula o assistente de subida de nível. Os atributos do piloto ganhos ao subir de nível, como Gatilhos, licenças, talentos, perícias de mecha e bônus de núcleo terão que ser atualizados manualmente",
-            "currentLEVEL": "Nível atual:",
-            "newLEVEL": "Novo nível:",
+            "currentLEVEL": "Nível atual",
+            "newLEVEL": "Novo nível",
             "setPilotLevel": "Definir Nível do Piloto",
             "ll": "NL",
             "levelUp": "Subir de Nível",
@@ -2995,7 +2995,7 @@
             "mechOptions": "Opções do Mecha",
             "warningLICENSEMISSING": "Aviso: licença ausente",
             "gmsSTANDARDPILOTSLICENSE": "Licença de piloto padrão GMS",
-            "requiredFor": "Necessário para:",
+            "requiredFor": "Necessário para",
             "setMechImage": "Definir Imagem do Mecha",
             "killedINACTION": "Morto em ação",
             "revert": "Reverter",
@@ -3025,17 +3025,17 @@
             "downtimeREFERENCE": "Referência de Recesso",
             "skillTRIGGERDETAIL": "Detalhe de gatilho de perícia",
             "mechWEAPONMOUNT": "Montagem de arma de mecha",
-            "onMISS": "Ao Errar:",
-            "onATTACK": "Ao Atacar:",
-            "onHIT": "Ao Acertar:",
-            "onCRIT": "No Crítico:",
+            "onMISS": "Ao Errar",
+            "onATTACK": "Ao Atacar",
+            "onHIT": "Ao Acertar",
+            "onCRIT": "No Crítico",
             "mechSYSTEM": "Sistema de mecha",
             "gain": "Ganho",
             "pilotHP": "PV do Piloto",
             "maxHP": "PV Máx",
             "reserve": "Reserva",
             "deployable": "Implantável",
-            "heatCap": "Cap. Calor:",
+            "heatCap": "Cap. Calor",
             "techAtk": "Atk Tech:",
             "operatorNotes": "Notas do Operador",
             "mountLOCKED": "Montagem bloqueada",
