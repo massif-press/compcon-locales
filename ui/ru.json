@@ -304,7 +304,8 @@
             "itemName": "Название предмета",
             "restoreAll": "Восстановить все",
             "restore": "@:{'common.restore'}",
-            "permanentlyDelete": "Удалить навсегда"
+            "permanentlyDelete": "Удалить навсегда",
+            "itemType": "Тип элемента"
         },
         "userDataViewer": {
             "value": "Значение",
@@ -331,14 +332,18 @@
             "tabStorage": "Хранилище"
         },
         "packInfo": {
-            "changelog": "Список изменений"
+            "changelog": "Список изменений",
+            "contentHeading": "Содержимое",
+            "dependencies": "Зависимости"
         },
         "communityTable": {
             "currentVersion": "Текущая версия:",
-            "free": "Бесплатное"
+            "free": "Бесплатное",
+            "openWebsite": "Открыть сайт"
         },
         "search": {
-            "searchResults": "результаты поиска"
+            "searchResults": "результаты поиска",
+            "recentSearches": "недавние поиски"
         },
         "credits": {
             "with": "А также:",
