@@ -150,7 +150,10 @@
         "side": "Lado",
         "systemPoints": "Puntos de Sistema",
         "remove": "Eliminar",
-        "hidden": "Oculto"
+        "hidden": "Oculto",
+        "roll_noun": "Tira",
+        "ok": "OK",
+        "hpBonus": "Bono de Pv"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -328,7 +331,8 @@
             "mergeStrategy": "Combinar con los datos existentes",
             "overwriteStrategy": "Sobreescribir todos los datos existentes",
             "overwriteWarning": "La estrategia de sobreescritura reemplazará todos sus datos locales existentes con los datos del archivo importado y no se puede deshacer. Se recomienda encarecidamente crear una copia de seguridad antes de utilizar esta opción.",
-            "v2AppendNote": "las importaciones de copia de seguridad v2 siempre se procesan utilizando la estrategia de \"apéndice\"."
+            "v2AppendNote": "las importaciones de copia de seguridad v2 siempre se procesan utilizando la estrategia de \"apéndice\".",
+            "showDesktopTablesTooltip": "Por defecto, @:{'common.appName'} muestra una vista simplificada de las tablas de Compendio en dispósitivos móbiles para mejorar la legibilidad y desempeño. Activar esta opción mostrará la versión completa de escritorio de todas las tablas en todos los dispositivos. Esto peude hacer que algunas tablas sean difíciles de leer o causar problemas de desempeño en algunos dispositivos móbiles."
         },
         "storage": {
             "userData": "Datos del usuario",
