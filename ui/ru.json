@@ -820,7 +820,8 @@
     "ui": {
         "card": {
             "tierColumns": "О1 / О2 / О3",
-            "systemPoints": "Очки систем{plural}"
+            "systemPoints": "Очки систем{plural}",
+            "integrations": "Интеграции"
         },
         "tooltips": {
             "resetCounter": "Сброс счётчика",
@@ -921,6 +922,12 @@
         "license": {
             "noRanks": "Отсутствуют ранги лицензии",
             "allUnlocked": "Все ранги лицензии открыты"
+        },
+        "widget": {
+            "noDescription": "Описание отсутствует",
+            "noDataUpper": "Нет данных",
+            "bonus": "бонус",
+            "passive": "Пассивный"
         }
     },
     "notify": {
@@ -1010,6 +1017,12 @@
             "statuses": "Статусы",
             "glossary": "Словарь",
             "pleaseNote": "Обратите внимание"
+        },
+        "campaign": {
+            "removeFromCollection": "Удалить из подборки",
+            "sortByTitle": "Сортировать по названию",
+            "index": "Индекс",
+            "tableOfContents": "Оглавление"
         }
     }
 }
