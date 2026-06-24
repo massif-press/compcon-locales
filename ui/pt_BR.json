@@ -48,7 +48,6 @@
         "attackBonus": "Bônus de Ataque",
         "difficulty": "Dificuldade",
         "accuracy": "Precisão",
-        "roll": "Rolar",
         "remove": "Remover",
         "unlock": "Destrave",
         "clear": "Limpar",
@@ -339,7 +338,6 @@
             "secretAchievements": "Conquistas Secretas",
             "display": "Exibição:",
             "common": "Comum",
-            "hidden": "Oculta",
             "rarity": "Raridade",
             "unlocked": "Desbloqueada",
             "byLabel": "Por Nome:",
@@ -359,7 +357,6 @@
             "logLevel": "Nível de Log",
             "logLevelLabel": "@:{'common.logLevel'}",
             "errorReporting": "Reportar Erro",
-            "errorReportingPrefix": "Reporte de Erro",
             "enhancedReportingPrefix": "Relatório de erros avançado",
             "enabled": "Ativo",
             "disabled": "Desativado",
@@ -426,7 +423,6 @@
             "success": "Sucesso",
             "byAuthorVersion": "Por {author} {'@'} {version}",
             "byAuthorRequires": "Por {author} requer",
-            "byAuthor": "@:{'common.byAuthor'}",
             "upgradeFromTo": "Atualizado de {from} para {to}",
             "downgradeTo": "Downgrade para {version}",
             "noChange": "Sem alterações ({from} para {to})",
@@ -443,7 +439,6 @@
         },
         "packsDirectory": {
             "officialContent": "Oficial",
-            "content": "Conteúdo",
             "communityContent": "@:{'common.gameName'} Conteúdo da comunidade",
             "communityContentTitle": "@:{'common.gameName'} Pacotes de Conteúdo da Comunidade",
             "clickHere": "Clica aqui.",
@@ -513,15 +508,12 @@
             "v2ContentTitle": "Conteúdo v2",
             "v2ContentDescription": "Este pacote de conteúdo não foi registrado como compatível com a v3. Este pacote ainda funcionará corretamente, mas não poderá aproveitar os recursos da v3.",
             "noDescription": "@:{'ui.widget.noDescription'}",
-            "contentHeading": "Conteúdo",
             "dependencies": "Dependências",
             "dependenciesTooltip": "Dependências são outros pacotes de conteúdo que este pacote exige para funcionar corretamente. Eles devem estar instalados e ativados para que este pacote seja carregado corretamente.",
             "none": "@:{'common.none'}",
-            "changelog": "Log de Mudanças",
             "authorsWebsite": "Site do autor",
             "dependencyInstalled": "Dependências instaladas",
-            "version": "@:{'common.version'}",
-            "byAuthor": "@:{'common.byAuthor'}"
+            "version": "@:{'common.version'}"
         },
         "communityTable": {
             "noData": "Nenhum pacote de conteúdo disponível.",
@@ -621,7 +613,6 @@
             "selectAll": "Selecionar Tudo",
             "version": "VERSÃO",
             "warning": "Aviso",
-            "resetAchievements": "redefinir conquistas",
             "v2DataMigration": "Migração de Dados V2"
         }
     },
@@ -767,7 +758,6 @@
             "frameTraits": "Traços do chassi",
             "availableMounts": "Encaixes de armas disponíveis",
             "onboardCore": "Sistema de núcleo integrado",
-            "deployables": "Implantáveis",
             "integrations": "Integrações",
             "systemPoints": "Ponto{plural} de Sistema",
             "profileActions": "Ações do perfil",
@@ -779,7 +769,6 @@
             "classOptionalFeatures": "Sistemas Opcionais da Classe",
             "templateBaseFeatures": "Sistemas Base de Modelo",
             "templateOptionalFeatures": "Sistemas Opcionais de Modelo",
-            "extraction": "Extração",
             "controlZone": "Zona de Controle",
             "modification": "Modificação",
             "canBeAppliedTo": "Pode ser aplicado a",
@@ -907,8 +896,7 @@
             "masterPower": "Poder de Mestre"
         },
         "clock": {
-            "deleteConfirm": "Você deseja excluir este relógio? Esta ação não pode ser desfeita.",
-            "resolutionHeading": "Resolução"
+            "deleteConfirm": "Você deseja excluir este relógio? Esta ação não pode ser desfeita."
         },
         "confirm": {
             "heading": "// Interrupção de processo: autorização necessária //"
@@ -1023,7 +1011,6 @@
             "influence": "Influência da Organização"
         },
         "action": {
-            "frequency": "Frequência",
             "compendiumEntry": "Entrada do Compêndio"
         },
         "counter": {
@@ -1147,7 +1134,6 @@
         "edefense": "Defesa-E",
         "speed": "Velocidade",
         "size": "Tamanho",
-        "save": "Salvamento",
         "sensors": "Sensores",
         "structure": "Estrutura",
         "stress": "Estresse",
@@ -1236,7 +1222,6 @@
             "valueOptional": "Valor (opcional)",
             "addLabel": "Adicionar Etiqueta",
             "labelPalette": "Paleta de Etiquetas",
-            "paletteHeading": "Paleta de etiquetas",
             "sortAlphabetically": "Ordenar Alfabeticamente",
             "sortByUsage": "Ordenar por Uso",
             "noLabelsAvailable": "Nenhuma Etiqueta Disponível",
@@ -1315,7 +1300,6 @@
         "print": {
             "othersCount": "(+{n} outros)"
         },
-        "resolution": "Resolução",
         "overview": {
             "bannerImage": "Imagem de Banner da Campanha",
             "setBannerImage": "Definir Imagem de Banner",
@@ -1404,7 +1388,6 @@
         "sitrep": {
             "presets": "Predefinições",
             "myPresets": "Minhas predefinições",
-            "condition": "Condição",
             "savePreset": "Salvar Predefinição",
             "modifiedWarning": "Este resit foi modificado. Carregar uma nova predefinição excluirá essas alterações. Tem certeza de que deseja continuar?",
             "deletePresetConfirm": "Excluir predefinição {name}? Isso não pode ser desfeito."
@@ -1413,10 +1396,8 @@
             "modifiedWarning": "Este ambiente foi modificado. Carregar uma nova predefinição excluirá essas alterações. Tem certeza de que deseja continuar?"
         },
         "encPrint": {
-            "extraction": "Extração",
             "enemies": "Inimigos",
             "allies": "Aliados",
-            "neutral": "Neutros",
             "atLeastPcs": "Com {count} ou mais PJs",
             "reinforcesOnTurn": "Reforça no Turno {turn}",
             "npcTracking": "Rastreamento de PNJ",
@@ -1494,8 +1475,7 @@
             "noLayers": "nenhuma camada",
             "orderLower": "Ordem Mais Baixa",
             "orderHigher": "Ordem Mais Alta",
-            "layerDescription": "Descrição da Camada",
-            "persistentTraitsHeading": "Traços persistentes"
+            "layerDescription": "Descrição da Camada"
         },
         "layerSelector": {
             "noData": "Nenhum dado de Eidolon encontrado!",
@@ -1849,9 +1829,7 @@
             "dangerZone": "Zona de Perigo",
             "apply": "Aplicar",
             "target": "Alvo",
-            "condition": "Condição",
             "override": "sobrescrever",
-            "playedBy": "Jogado por",
             "prepared": "Preparado",
             "preparedText": "{name} foi marcado como PREPARADO.",
             "hiddenText": "{name} agora está ESCONDIDO.",
@@ -1917,7 +1895,6 @@
         "pilotsPanel": {
             "title": "Pilotos",
             "ll": "NL",
-            "activeMech": "Mecha Ativo",
             "placeholderN": "Espaço Reservado para Piloto #{n}",
             "addFromFile": "Adicionar de Arquivo",
             "addPlaceholder": "adicionar espaço reservado para piloto"
@@ -1931,9 +1908,6 @@
             "published": "lista de tabelas publicadas",
             "offline": "lista de tabelas offline",
             "addNew": "adicionar nova tabela"
-        },
-        "addShare": {
-            "addToEncounter": "adicionar ao encontro"
         },
         "sheet": {
             "newCharacterSheet": "Nova Ficha de Personagem"
@@ -2106,8 +2080,6 @@
             "sessionHistory": "Histórico da Sessão"
         },
         "toolPalette": {
-            "deployables": "Implantáveis",
-            "diceRoller": "Rolador de Dados",
             "rollableTables": "Tabelas Roláveis",
             "encounterInfo": "Informações do Encontro",
             "tagReference": "Referência de Tags",
@@ -2135,7 +2107,6 @@
             "bracedHeading": "Suportando",
             "bracedDesc": "Você é considerado com RESISTÊNCIA a todo dano, calor e queimadura do ataque que desencadeou este Suportar, e até o final de seu próximo turno, todos os outros ataques contra você são feitos com +1 de Dificuldade.",
             "overwatch": "Retaliar",
-            "prepared": "Preparado",
             "coverLabel": "{cover} cobertura",
             "activationsRemaining": "{n} Ativações restantes nesta rodada",
             "aiControl": "Mecha sob Controle de IA",
@@ -2223,7 +2194,6 @@
             "vulnerability": "Vulnerabilidade",
             "resistance": "Resistência",
             "noDamage": "Sem dano",
-            "halfDamage": "Metade do dano",
             "doubleDamage": "Dano duplo",
             "fullDamage": "Dano total",
             "fromAttacks": "de ataques do tipo {type}."
@@ -2258,7 +2228,6 @@
             "mounted": "Montado",
             "braced": "Suportar",
             "overwatch": "Retaliar",
-            "prepared": "Preparar",
             "aiControl": "Controle de IA",
             "activeEffect": "Efeito Ativo",
             "passiveBonus": "Bônus Passivo",
@@ -2386,7 +2355,6 @@
             "shards": "Fragmentos",
             "shard": "Fragmento",
             "noShards": "Camada não possui Fragmentos",
-            "scan": "Escanear",
             "persistentTraits": "Traços Persistentes ({n})"
         },
         "mechPanel": {
@@ -2409,7 +2377,6 @@
             "preparedTitle": "Piloto Preparado",
             "mountFailedTitle": "Falha ao Montar",
             "mountFailedText": "{name} já está montado.",
-            "mountedTitle": "Piloto Montado",
             "mountedText": "{name} montou em seu Mecha.",
             "hiddenTitle": "Piloto Escondido",
             "disengagedTitle": "Piloto Desengajado"
@@ -2461,7 +2428,6 @@
             "underAiControl": "Sob Controle de IA",
             "pilotKia": "Piloto KIA",
             "downAndOut": "Caído e Apagado",
-            "hitPoints": "Pontos de Vida",
             "heat": "Calor",
             "burn": "Queimadura",
             "movement": "Movimento",
@@ -2487,8 +2453,6 @@
             "markYourMechAsInCascade": "Marque seu mecha como EM CASCATA",
             "resetUses": "Redefinir Usos",
             "toggleDestroyed": "Alternar Destruído",
-            "deployables": "Implantáveis",
-            "diceRoller": "Rolador de Dados",
             "rollableTables": "Tabelas Roláveis",
             "encounterInfo": "Informações do Encontro",
             "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Lista de tags presentes nos personagens ou equipamentos neste encontro",
@@ -2627,7 +2591,6 @@
             "tierSuffix": "Patamar {title}"
         },
         "syncSettings": {
-            "frequency": "Frequência",
             "syncItems": "Sincronizar Itens",
             "pilotsOnly": "Apenas Pilotos",
             "custom": "Personalizado",
@@ -2641,7 +2604,6 @@
         "collection": {
             "byAuthor": "Por {author}",
             "colLastUpdate": "Última Atualização",
-            "changelog": "Notas de atualização",
             "colChanges": "Alterações",
             "showLess": "Mostrar Menos",
             "showMore": "Mostrar Mais",
@@ -2687,7 +2649,6 @@
             "irreversible": "Esta ação é irreversível. Esses dados serão excluídos de forma permanente e irrevogável.",
             "ensureBackup": "Certifique-se de ter um backup local de todos os dados que deseja manter.",
             "enterTextToConfirm": "Digite o texto {phrase} para confirmar a exclusão da conta.",
-            "deleteAccountBtn": "Excluir Conta",
             "deletionInProgress": "Exclusão em andamento. Isso pode levar alguns instantes. O @:{'common.appName'} será reiniciado assim que o processo for concluído."
         },
         "itch": {
@@ -2805,8 +2766,7 @@
             "deleteCollectionWarning": "A exclusão desta coleção a removerá de seus dados locais e em nuvem, e excluirá o arquivo da coleção do armazenamento em nuvem. Os usuários não poderão assinar este conteúdo e os assinantes atuais não poderão mais atualizar os dados da coleção. Ele {willNot} excluirá nenhum conteúdo da coleção, seja localmente ou na nuvem para você ou para os assinantes da coleção.",
             "willNotLabel": "não",
             "actionUndone": "Essa ação não pode ser desfeita.",
-            "confirmDelete": "Tem certeza de que deseja excluir esta coleção?",
-            "deleteCollectionBtn": "excluir coleção"
+            "confirmDelete": "Tem certeza de que deseja excluir esta coleção?"
         },
         "dataItem": {
             "cancelBulkSelection": "Cancelar Seleção em Lote",
@@ -2881,7 +2841,6 @@
             "membershipBenefits": "Benefícios de Assinatura",
             "removeDeletedItems": "Remover Itens Excluídos",
             "accountDeletion": "Exclusão de Conta",
-            "changelog": "Notas de Atualização",
             "credits": "Créditos",
             "roster": "Lista (Roster)",
             "gmToolkit": "Ferramentas do Mestre",
@@ -2890,7 +2849,6 @@
             "youDoNotHaveAccess": "Você não tem acesso a backups remotos.",
             "changeAccountEmail": "Alterar E-mail da Conta",
             "youDoNotHaveAccess2": "Você não tem acesso à ferramenta de publicação de coleções.",
-            "deleteCollection": "excluir coleção",
             "compconCloudAccount": "Conta na Nuvem do @:{'common.appName'}"
         },
         "tooltips": {
@@ -2982,7 +2940,6 @@
         },
         "level": {
             "skills": "Perícias",
-            "talents": "Talentos",
             "mechSkills": "Perícias de Mecha",
             "coreBonuses": "Bônus de Núcleo",
             "levelUpOverview": "Subir de Nível (Visão Geral)",
@@ -3004,7 +2961,6 @@
             "tactics": "Táticas",
             "pilot": "Piloto",
             "skills": "Perícias",
-            "talents": "Talentos",
             "i": "I:",
             "gmsEVEREST": "GMS Evereste",
             "up": "cima",
@@ -3021,7 +2977,6 @@
             "pilotNAME": "Nome do piloto",
             "rm402APPROVEDCALLSIGNOR": "RM-4-02 // codinome aprovado (ou designação de cadete, se aplicável)",
             "rm403PRIOROCCUPATIONOR": "RM-4-03 // OCUPAÇÃO OU POSIÇÃO ANTERIOR (RESPOSTA 17b NO RM-2-C)",
-            "background": "Origem",
             "rm404ATTACHEDBIOGRAPHICALDOSSIER": "RM-4-04 // DOSSIÊ BIOGRÁFICO ANEXADO (RM-4b SUPLEMENTAR)",
             "biography": "Biografia",
             "addPilotBiography": "Adicionar Biografia do Piloto",
@@ -3029,7 +2984,6 @@
             "rm405ATTACHEDOHMHEALTH": "RM-4-05 // resultados de exame de saúde OHM anexados",
             "appearance": "Aparência",
             "addPilotDescription": "Adicionar Descrição do Piloto",
-            "editPilotDescription": "Editar Descrição do Piloto",
             "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // TRANSFERÊNCIA DE DADOS DE LICENÇA EXTERNA (SE APLICÁVEL)",
             "startingLL": "NL Inicial",
             "rm406ATTACHEDOHMIMAGING": "RM-4-06 // escaneamento de imagem OHM anexado",
@@ -3095,8 +3049,6 @@
             "ll": "NL",
             "levelUp": "Subir de Nível",
             "name": "nome",
-            "background": "origem",
-            "player": "jogador",
             "rm4IDENT": "rm-4://IDENT",
             "rm6DATA": "RM-6://dados",
             "ndapSR01STATUSREPORT": "NDAP/SR-01://relatório de status",
@@ -3107,7 +3059,6 @@
             "hangar": "Hangar",
             "narrativePROFILE": "Perfil narrativo",
             "tacticalPROFILE": "Perfil tático",
-            "mechHANGAR": "Hangar de mechas",
             "errNAMENOTFOUNDUNABLETO": "Erro nome não encontrado impossível gerar uuid",
             "ndlC": "//NDL-C-",
             "nameOrLegalAlias": "Nome (ou pseudônimo legal)",
@@ -3183,7 +3134,6 @@
             "damage": "Dano",
             "system": "Sistema",
             "uses": "USOS",
-            "mech": "MECHA",
             "1d3": "+1d3",
             "1d6": "+1d6",
             "1d64": "+1d6+4",
@@ -3191,9 +3141,7 @@
             "bond": "VÍNCULO",
             "xp": "XP",
             "majorIDEAL": "Ideal maior",
-            "minorIDEAL": "Ideal menor",
             "burdens": "Fardos",
-            "otherCLOCKS": "Outros relógios",
             "veteranPOWER2": "(Poder veterano)",
             "downtimeREFERENCE": "Referência de Recesso",
             "skillTRIGGERDETAIL": "Detalhe de gatilho de perícia",
@@ -3221,12 +3169,10 @@
             "mountLOCKED": "Montagem bloqueada",
             "appliedMOD": "//Mod aplicada",
             "grit": "DETERMINAÇÃO",
-            "player": "Jogador",
             "pilotNotes": "Notas do Piloto",
             "missionLog": "Registro de Missão",
             "session": "Sessão",
             "cont": "(CONT.)",
-            "skillTRIGGERS": "Gatilhos",
             "gear": "//EQUIPAMENTO",
             "resource": "Recurso",
             "other": "Outro",
@@ -3294,7 +3240,6 @@
             "thisPilotMayBeImportedBut": "Este Piloto pode ser importado, mas alguns itens de pacotes de conteúdo ausentes serão instanciados a partir de dados salvos. Se removidos, esses itens não poderão ser reequipados sem os pacotes de conteúdo ausentes.",
             "and": "e",
             "doneReordering": "Reordenação Concluída",
-            "hidden": "oculto",
             "addGroup": "Adicionar Grupo",
             "pilots": "Pilotos",
             "pilotLower": "piloto",
@@ -3321,7 +3266,6 @@
             "talentSelectionComplete": "Seleção de Talento Concluída",
             "unavailable": "Indisponível",
             "resource": "Recurso",
-            "mech": "Mecha",
             "tactical": "Tático",
             "addReserve": "Adicionar Reserva",
             "addProject": "Adicionar Projeto",
@@ -3459,7 +3403,6 @@
             "specialEquipment": "Equipamento Especial",
             "addStandardEquipment": "Adicionar Equipamento Padrão",
             "addExoticEquipment": "Adicionar Equipamento Exótico",
-            "talents": "Talentos",
             "setPilotTalents": "Definir Talentos do Piloto",
             "layout": "Layout",
             "paper": "Papel",
@@ -3467,7 +3410,6 @@
             "bonds": "Vínculos",
             "cardOptions": "Opções de Cartão",
             "printOptions": "Opções de Impressão",
-            "mech": "MECHA",
             "groupDescription": "Descrição do Grupo",
             "setGroup": "Definir Grupo",
             "setGroupEmblem": "Definir Emblema do Grupo",
@@ -3492,13 +3434,9 @@
             "newOrganization": "Nova Organização",
             "skillSuggestionsAvailable": "Sugestões de Perícias Disponíveis",
             "editPilotDescription": "editar Descrição do Piloto",
-            "setPilotPortrait": "definir retrato do piloto",
             "convertRemotePilot": "converter piloto remoto",
             "confirmPilotDeletion": "confirmar exclusão do piloto",
             "exportV2Json": "Exportar JSON v2",
-            "editLicenseLevel": "editar nível de licença",
-            "registerNewMech": "registrar novo mecha",
-            "setMechImage": "definir imagem do mecha",
             "v2Data": "Dados v2",
             "serverErrorTooManyRequests": "Erro de Servidor - Muitas Solicitações"
         },
@@ -3511,9 +3449,7 @@
             "maximumStress": "Estresse Máximo",
             "editPilotBonds": "Editar Vínculos do Piloto",
             "showAllFrames": "Mostrar Todas as Estruturas",
-            "player": "Jogador",
             "pilot": "Piloto",
-            "mech": "Mecha",
             "groupName": "Nome do Grupo",
             "deletePilots": "Excluir pilotos",
             "selectPilotDataFile": "Selecionar Arquivo de Dados do Piloto",
@@ -3533,11 +3469,9 @@
             "selectPredefinedBackground": "Selecionar Origem Predefinida",
             "generateRandomName": "Gerar nome aleatório",
             "generateRandomCallsign": "Gerar codinome aleatório",
-            "rerollQuirk": "Rolar novamente a peculiaridade",
             "pilotOptions": "Opções do Piloto",
             "copyStatBlockToClipboard": "Copiar bloco de estatísticas para a área de transferência",
             "printMechSheet": "Imprimir Ficha do Mecha",
-            "generateRandomName2": "Gerar Nome Aleatório",
             "returnToPilotSheet": "Retornar à Ficha do Piloto",
             "mechOptions": "Opções do Mecha",
             "removeCloneQuirk": "Remover Peculiaridade de Clone",
