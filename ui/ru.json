@@ -746,7 +746,8 @@
         "fields": {
             "autoBackupFrequency": "Частота резервного копирования",
             "filter": "Фильтр",
-            "oldPassword": "Старый пароль"
+            "oldPassword": "Старый пароль",
+            "newPassword": "Новый Пароль"
         }
     },
     "pm": {
