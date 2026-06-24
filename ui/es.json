@@ -2092,7 +2092,8 @@
             "not": "NO",
             "click": "Clic",
             "weaponEquippedTitle": "Arma de Piloto Equipada",
-            "coreBonusAvailable": "Bono básico disponible"
+            "coreBonusAvailable": "Bono básico disponible",
+            "appliedTO": "APPLIED TO:"
         }
     }
 }
