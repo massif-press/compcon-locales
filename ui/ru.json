@@ -751,6 +751,14 @@
             "deleteAccount": "Удалить Аккаунт",
             "newEmail": "Новая почта",
             "emailAddress": "Адрес электронной почты"
+        },
+        "actions": {
+            "remoteBackups": "Удалённые резервные копии",
+            "syncSettings": "Настройки синхронизации",
+            "accountDetails": "Детали учетной записи"
+        },
+        "titles": {
+            "forceUpload": "Принудительно загрузить"
         }
     },
     "pm": {
