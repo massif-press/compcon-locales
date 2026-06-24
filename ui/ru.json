@@ -747,7 +747,8 @@
             "autoBackupFrequency": "Частота резервного копирования",
             "filter": "Фильтр",
             "oldPassword": "Старый пароль",
-            "newPassword": "Новый Пароль"
+            "newPassword": "Новый Пароль",
+            "deleteAccount": "Удалить Аккаунт"
         }
     },
     "pm": {
