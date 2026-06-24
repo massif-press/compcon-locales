@@ -2007,5 +2007,9 @@
             "coreBonusAvailable": "Bono básico disponible",
             "appliedTO": "Aplicado A:"
         }
+    },
+    "share": {
+        "includeMech": "Incluir Mech",
+        "sheetStyle": "Tipo de Ficha"
     }
 }
