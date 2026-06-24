@@ -156,7 +156,8 @@
         "help": "Hilfe",
         "contents": "Inhalt",
         "contentLabel": "Inhalt",
-        "attackBonus": "Angriffsbonus"
+        "attackBonus": "Angriffsbonus",
+        "callsign": "Callsign"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
