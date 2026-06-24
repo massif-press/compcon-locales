@@ -2009,7 +2009,8 @@
         }
     },
     "share": {
-        "includeMech": "Incluir Mech",
-        "sheetStyle": "Tipo de Ficha"
+        "includeMech": "INCLUIDO MECH",
+        "sheetStyle": "Tipo de Ficha",
+        "publicLinkNoteBold": "uRL accesible públicamente"
     }
 }
