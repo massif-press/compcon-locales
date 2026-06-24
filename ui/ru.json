@@ -749,7 +749,8 @@
             "oldPassword": "Старый пароль",
             "newPassword": "Новый Пароль",
             "deleteAccount": "Удалить Аккаунт",
-            "newEmail": "Новая почта"
+            "newEmail": "Новая почта",
+            "emailAddress": "Адрес электронной почты"
         }
     },
     "pm": {
