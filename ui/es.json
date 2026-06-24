@@ -2010,7 +2010,8 @@
             "not": "NO",
             "weaponEquippedTitle": "Arma de Piloto Equipada",
             "coreBonusAvailable": "Bono básico disponible",
-            "appliedTO": "Aplicado A:"
+            "appliedTO": "Aplicado A:",
+            "thisBracingMountWillBeNot": "Este montaje de fijación no será capaz de armamento de campo hasta que el arma Superheavy sea\nRetirada."
         }
     },
     "share": {
