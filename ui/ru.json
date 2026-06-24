@@ -167,7 +167,8 @@
         "hase_h": "К",
         "hase_a": "Л",
         "hase_s": "С",
-        "hase_e": "И"
+        "hase_e": "И",
+        "changelog": "Список изменений"
     },
     "classes": {
         "newFaction": "Новая фракция",
