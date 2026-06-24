@@ -807,7 +807,12 @@
             "addGroupDescription": "Добавить описание группы",
             "editGroupDescription": "Описание группы",
             "lastModified": "Последнее изменение",
-            "hidden": "скрыт"
+            "hidden": "скрыт",
+            "addGroup": "Добавить группу"
+        },
+        "fields": {
+            "resourceName": "Название ресурса",
+            "projectName": "Имя проекта"
         }
     },
     "ui": {
