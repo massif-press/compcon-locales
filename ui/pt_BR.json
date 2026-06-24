@@ -173,9 +173,9 @@
     "print": {
         "titles": {
             "orientation": "Orientation",
-            "paper": "Paper"
+            "paper": "Papel"
         },
-        "generalOptions": "General Print Options",
+        "generalOptions": "Opções Gerais de Impressão",
         "extras": "Extras"
     },
     "language": {
@@ -218,7 +218,7 @@
             "contentConfig": "Config. de Conteúdo.",
             "refreshContent": "Recarregar",
             "updateAll": "@:{'common.updateAll'}",
-            "deleteAll": "Apagar Todos",
+            "deleteAll": "Excluir Tudo",
             "contentPacks": "@:{'common.contentPacks'}",
             "addContent": "@:[common.addContent'}",
             "removeContent": "@:{'common.remove'}"
@@ -334,7 +334,7 @@
             "hiddenCount": "{count} conquista não exibida | {count} conquistas não exibidas",
             "cannot": "Não é possível",
             "warningDataFull": "Isso irá {emphasis} os dados de conquistas do usuário.",
-            "cannotBeUndoneFull": "Isso {emphasis} poderá ser desfeito. É altamente recomendado criar um backup antes.",
+            "cannotBeUndoneFull": "Isso {emphasis} não poderá ser desfeito. É altamente recomendado criar um backup antes.",
             "byRarity": "Por Raridade:",
             "secretAchievements": "Conquistas Secretas",
             "display": "Exibição:",
@@ -626,30 +626,30 @@
         }
     },
     "share": {
-        "resultAuthor": "Author",
-        "resultLastUpdated": "Last Updated",
-        "addAsRemote": "add as remote resource",
-        "addAsLocalCopy": "add as local copy",
+        "resultAuthor": "Autor",
+        "resultLastUpdated": "Última atualização",
+        "addAsRemote": "adicionar como recurso remoto",
+        "addAsLocalCopy": "adicionar como cópia local",
         "titles": {
-            "pleaseUseResponsibly": "Please use responsibly"
+            "pleaseUseResponsibly": "Por favor, use com responsabilidade"
         },
         "tooltips": {
-            "copyShareCodeToClipboard": "Copy share code to clipboard",
-            "copyShareLinkToClipboard": "Copy share link to clipboard"
+            "copyShareCodeToClipboard": "Copiar código de compartilhamento para a área de transferência",
+            "copyShareLinkToClipboard": "Copiar link de compartilhamento para a área de transferência"
         },
-        "shareCodesNote": "Share codes allow anyone with a @:{'common.appName'} account to download a copy of this item and receive updates you make. Please be conscientious when sharing data with others.",
-        "lastLocalUpdate": "Last local update",
-        "lastSynced": "Last synced",
-        "notYetSynced": "Not yet synced",
-        "syncNeeded": "Sync needed",
-        "upToDate": "Up to date",
-        "shareCodeTooltip": "This code allows other users with a @:{'common.appName'} account to download a copy of this item and subscribe to updates you make.",
-        "shareLink": "Share link",
-        "publicLinkNote": "This link is a {emphasis} that allows anyone to view this pilot's data.",
-        "publicLinkNoteBold": "publicly accessible URL",
-        "sheetStyle": "Sheet style",
-        "includeMech": "Include mech",
-        "noShareCode": "This item does not have a share code. To share it, sync it to your @:{'common.appName'} account by clicking the \"Sync Now\" button above."
+        "shareCodesNote": "Os códigos de compartilhamento permitem que qualquer pessoa com uma conta no @:{'common.appName'} baixe uma cópia deste item e receba as atualizações que você fizer. Seja consciente ao compartilhar dados com outras pessoas.",
+        "lastLocalUpdate": "Última atualização local",
+        "lastSynced": "Última sincronização",
+        "notYetSynced": "Ainda não sincronizado",
+        "syncNeeded": "Sincronização necessária",
+        "upToDate": "Atualizado",
+        "shareCodeTooltip": "Este código permite que outros usuários com uma conta no @:{'common.appName'} baixem uma cópia deste item e se inscrevam nas atualizações que você fizer.",
+        "shareLink": "Link de compartilhamento",
+        "publicLinkNote": "Este link é um {emphasis} que permite que qualquer pessoa visualize os dados deste piloto.",
+        "publicLinkNoteBold": "URL acessível publicamente",
+        "sheetStyle": "Estilo da ficha",
+        "includeMech": "Incluir mecha",
+        "noShareCode": "Este item não possui um código de compartilhamento. Para compartilhá-lo, sincronize-o com sua conta do @:{'common.appName'} clicando no botão \"Sincronizar Agora\" acima."
     },
     "compendium": {
         "returnToCompendium": "Retornar ao Compêndio",
@@ -1552,7 +1552,7 @@
             "addBeat": "Adicionar Ponto",
             "addMission": "Adicionar Missão",
             "addCombat": "Adicionar Combate",
-            "addDowntime": "Adicionar Tempo de Descanso",
+            "addDowntime": "Adicionar Recesso",
             "textSection": "Seção de Texto",
             "image": "Imagem",
             "rollableTable": "Tabela Rolável",
@@ -1753,21 +1753,21 @@
             "cloudArchiveCooldownText": "Você deve esperar {seconds} segundos antes de criar um novo arquivo."
         },
         "settings": {
-            "unableToReadFileTitle": "Não é possível ler o arquivo.",
-            "errorPrefix": "Error: {err}",
-            "v2BackupImportedTitle": "v2 backup imported",
-            "v2NoData": "No data found.",
-            "dataImportSuccessTitle": "Data import successful",
-            "dataReplaced": "All existing data has been replaced with imported data.",
-            "dataMerged": "Imported data has been merged with existing data.",
-            "unableToImportTitle": "Unable to import data"
+            "unableToReadFileTitle": "Não foi possível ler o arquivo",
+            "errorPrefix": "Erro: {err}",
+            "v2BackupImportedTitle": "Backup v2 importado",
+            "v2NoData": "Nenhum dado encontrado.",
+            "dataImportSuccessTitle": "Importação de dados bem-sucedida",
+            "dataReplaced": "Todos os dados existentes foram substituídos pelos dados importados.",
+            "dataMerged": "Os dados importados foram mesclados com os dados existentes.",
+            "unableToImportTitle": "Não foi possível importar os dados"
         },
         "lcp": {
-            "removedInvalidVersionText": "Removed {name} from import -- invalid version string breaks semver",
-            "lcpUpdatedTitle": "LCP Updated",
-            "lcpUpdatedText": "The latest version of {pack} has been downloaded and installed.",
-            "lcpUpdateErrorTitle": "Error Updating LCP",
-            "lcpUpdateErrorText": "An error occurred while attempting to download {pack}."
+            "removedInvalidVersionText": "Removido {name} da importação -- string de versão inválida quebra o semver",
+            "lcpUpdatedTitle": "LCP Atualizado",
+            "lcpUpdatedText": "A versão mais recente de {pack} foi baixada e instalada.",
+            "lcpUpdateErrorTitle": "Erro ao atualizar LCP",
+            "lcpUpdateErrorText": "Ocorreu um erro ao tentar baixar {pack}."
         },
         "compendium": {
             "campaignUpdatedText": "Campanha atualizada com sucesso",
@@ -1776,14 +1776,14 @@
         "image": {
             "uploadedTitle": "Imagem Enviada",
             "uploadedText": "Uploaded {file} ({size}MB)",
-            "deletedTitle": "Image Deleted",
+            "deletedTitle": "Imagem Excluída",
             "deletedText": "Excluído {type} {name}.",
-            "deleteFailedTitle": "Deletion Failed",
-            "deleteFailedText": "Unable to communicate with server. {err}"
+            "deleteFailedTitle": "Falha na Exclusão",
+            "deleteFailedText": "Incapaz de se comunicar com o servidor. {err}"
         },
         "link": {
-            "copiedTitle": "Link Copied",
-            "copiedText": "{name} static link has been copied to the clipboard."
+            "copiedTitle": "Link copiado",
+            "copiedText": "O link estático de {name} foi copiado para a área de transferência."
         },
         "achievement": {
             "unlockedTitle": "Conquista Desbloqueada!"
