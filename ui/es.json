@@ -2012,7 +2012,8 @@
             "coreBonusAvailable": "Bono básico disponible",
             "appliedTO": "Aplicado A:",
             "thisBracingMountWillBeNot": "Este montaje de fijación no será capaz de armamento de campo hasta que el arma Superheavy sea\nRetirada.",
-            "theSUPERHEAVYMOUNTINGCoreBonusRequires": "El SUPERHEAVY MOUNTING Bono básico requiere un sujetador en un monte pesado, si está disponible."
+            "theSUPERHEAVYMOUNTINGCoreBonusRequires": "El SUPERHEAVY MOUNTING Bono básico requiere un sujetador en un monte pesado, si está disponible.",
+            "revisions": "REVISIONES"
         }
     },
     "share": {
