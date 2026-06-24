@@ -11,7 +11,7 @@
         "pilotLoadout": "파일럿 로드아웃",
         "copyToClipboard": "클립보드에 복사",
         "cancel": "취소",
-        "rank": "재능",
+        "rank": "순위",
         "changeImage": "이미지 변경",
         "delete": "삭제",
         "result": "결과",
@@ -63,6 +63,12 @@
         "closePreview": "미리보기 닫기",
         "saveAndClose": "저장 후 닫기",
         "loading": "불러오는 중…",
-        "type": "타입"
+        "type": "타입",
+        "convert": "변환"
+    },
+    "gm": {
+        "fields": {
+            "authors": "작성자"
+        }
     }
 }
