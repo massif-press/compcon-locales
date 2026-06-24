@@ -805,7 +805,8 @@
             "transfer": "Перевести",
             "optional": "(Опционально)",
             "addGroupDescription": "Добавить описание группы",
-            "editGroupDescription": "Описание группы"
+            "editGroupDescription": "Описание группы",
+            "lastModified": "Последнее изменение"
         }
     },
     "ui": {
