@@ -2033,7 +2033,8 @@
             "theSUPERHEAVYMOUNTINGCoreBonusRequires": "El Bono de Núcleo MONTURA SUPERPESADA requiere sujeción a una Montura Pesada, si está disponible.",
             "revisions": "Revisiones",
             "selectedAMMUNITION": "Munición seleccionada",
-            "integratedEquipment": "Equipo integrado"
+            "integratedEquipment": "Equipo integrado",
+            "reorderSystems": "Reorder Systems"
         }
     },
     "share": {
