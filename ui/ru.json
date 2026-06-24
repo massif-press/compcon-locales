@@ -1001,5 +1001,15 @@
         "sheetStyle": "Стиль листа персонажа",
         "includeMech": "Включить мех",
         "shareLink": "Поделиться ссылкой"
+    },
+    "compendium": {
+        "categories": {
+            "manufacturers": "Производители"
+        },
+        "reference": {
+            "statuses": "Статусы",
+            "glossary": "Словарь",
+            "pleaseNote": "Обратите внимание"
+        }
     }
 }
