@@ -1041,7 +1041,8 @@
             "downloadCompleteTitle": "Загрузка завершена"
         },
         "settings": {
-            "v2NoData": "Данные не найдены"
+            "v2NoData": "Данные не найдены",
+            "unableToImportTitle": "Не удалось импортировать:"
         }
     },
     "print": {
