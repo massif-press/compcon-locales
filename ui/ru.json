@@ -251,7 +251,7 @@
         "achievements": {
             "common": "Обычные",
             "rarity": "Редкость",
-            "unlocked": "разблокировано",
+            "unlocked": "Разблокировано",
             "discovered": "Открыто",
             "epic": "Эпичные",
             "legendary": "Легендарные",
@@ -1050,6 +1050,14 @@
             "unableToImportTitle": "Не удалось импортировать данные",
             "unableToReadFileTitle": "Не удалось распознать файл",
             "dataImportSuccessTitle": "Данные успешно импортированы"
+        },
+        "image": {
+            "uploadedTitle": "Изображение загружено",
+            "deletedTitle": "Изображение удалено",
+            "deleteFailedTitle": "Не удалось удалить"
+        },
+        "link": {
+            "copiedTitle": "Ссылка скопирована"
         }
     },
     "print": {
