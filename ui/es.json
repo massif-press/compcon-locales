@@ -1543,7 +1543,7 @@
             "unconscious": "El piloto está inconsciente, y cualquier daño adicional les matará."
         },
         "pcPanel": {
-            "pilotMounted": "Piloto montado",
+            "pilotMounted": "Piloto Montado",
             "pilotUnmounted": "Piloto desmontado",
             "noReserves": "No hay reservas disponibles"
         },
@@ -1947,7 +1947,7 @@
             "verificationCode": "Código de Verificación",
             "passwordResetCode": "Código para Restablecer Contraseña",
             "deleteCloudDataOnlyKeep": "Eliminar datos de nube únicamente (mantener datos locales)",
-            "deleteAccount": "eliminar cuenta",
+            "deleteAccount": "Eliminar cuenta",
             "newEmail": "Nuevo Correo-E",
             "confirmNewEmail": "Confirmar Nuevo Correo-E",
             "emailAddress": "Dirección Correo-E"
