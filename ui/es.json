@@ -59,7 +59,6 @@
         "copyLink": "Copiar enlace",
         "difficulty": "Dificultad",
         "accuracy": "Precisión",
-        "roll": "Tirada",
         "unlock": "Desbloquear",
         "clear": "Limpiar",
         "skipToMainContent": "Saltar al contenido principal",
@@ -273,7 +272,6 @@
             "legendary": "Legendario",
             "locked": "Bloqueado",
             "rarity": "Rareza",
-            "hidden": "Oculto",
             "byRarity": "Por Rareza:",
             "byLabel": "Por Etiqueta:",
             "secretAchievements": "Logros Secretos",
@@ -306,7 +304,6 @@
             "theme": "Tema",
             "font": "Fuente",
             "logLevel": "Nivel de Bitácora",
-            "errorReportingPrefix": "Reportar un Error",
             "enhancedReportingPrefix": "Reporte de errores mejorado",
             "enhancedReportingTooltip": "Los informes de errores mejorados envían al desarrollador datos adicionales, incluyendo {nonAnon}. Todo el resto de la PII se remueve antes de la transmisión. Esto es {notNecessary} a menos que esté trabajando activamente con el desarrollador para resolver un problema específico y se le ha pedido que habilite este ajuste.",
             "enhancedReportingPiiNote": "información no anónima, específicamente dirección IP e ID de usuario",
@@ -404,7 +401,6 @@
         },
         "packsDirectory": {
             "officialContent": "Oficial",
-            "content": "Contenido",
             "communityContent": "Contenido comunitario de @:{'common.gameName'}",
             "communityContentTitle": "Paquetes de Contenido de la Comunidad @:{'common.gameName'}",
             "communityAbout": "@:{'common.appName'} se enorgullece de colaborar con la comunidad @:{'common.gameName'} para poner a disposición estos paquetes de contenido no oficiales. Se les ofrece tal cual como son a la discreción del autor.",
@@ -413,10 +409,8 @@
             "communityNotice": "La descarga dentro de aplicaciones y la suscripción automática a las actualizaciones de LCP de la comunidad aún no son soportadas . Una vez disponibles las herramientas de soporte del autor, los LCP comunitarios serán migrados a v3 y podrán aprovechar los mismos mecanismos de actualización y suscripción que los paquetes oficiales de contenido de Massif Press. Siga el {blog} para mantenerse al día en el progreso."
         },
         "packInfo": {
-            "changelog": "Historial de cambios",
             "v2ContentTitle": "Contenido v2",
             "v2ContentDescription": "Este paquete de contenido no ha sido registrado como compatible con v3. Este paquete seguirá funcionando correctamente, pero no será capaz de aprovechar las ventajas de las características de la v3.",
-            "contentHeading": "Contenido",
             "dependencies": "Dependencias",
             "dependenciesTooltip": "Las dependencias son otros paquetes de contenido que este paquete requiere para funcionar correctamente. Deben ser instalados y activados para que este paquete se cargue correctamente.",
             "authorsWebsite": "Sitio web del autor",
@@ -548,7 +542,6 @@
             "selectAll": "Seleccionar Todo",
             "version": "VERSIÓN",
             "warning": "Advertencia",
-            "resetAchievements": "restablecer logros",
             "v2DataMigration": "Migración de Datos V2"
         }
     },
@@ -631,7 +624,6 @@
             "sortAlphabetically": "Ordenar alfabéticamente",
             "heading": "Etiquetas DJ",
             "labelPalette": "Paleta de Etiqueta",
-            "paletteHeading": "Paleta de Etiqueta",
             "sortByUsage": "Ordenar por Uso",
             "noLabelsAvailable": "Sin Etiquetas Disponibles",
             "noLabels": "Sin Etiquetas"
@@ -723,8 +715,6 @@
             "image": "Imagen"
         },
         "encPrint": {
-            "extraction": "Extracción",
-            "neutral": "Neutral",
             "enemies": "Enemigos",
             "allies": "Aliados",
             "atLeastPcs": "Con {count} o más PJs",
@@ -786,8 +776,7 @@
             "orderHigher": "Ordenar por lo alto",
             "noLayers": "sin capas",
             "layers": "Capas",
-            "layerDescription": "Descripción de la Capa",
-            "persistentTraitsHeading": "Rasgos persistentes"
+            "layerDescription": "Descripción de la Capa"
         },
         "layerSelector": {
             "noData": "¡No se han encontrado datos de Eidolon!",
@@ -813,9 +802,7 @@
             "heading": "Relaciones",
             "linkedEntities": "Entidades Vinculadas"
         },
-        "resolution": "Resolución",
         "sitrep": {
-            "condition": "Condición",
             "presets": "Pre-configuraciones",
             "myPresets": "Mis pre-configuraciones",
             "savePreset": "Guardar la Pre-configuración",
@@ -1086,8 +1073,6 @@
             "apply": "Aplicar",
             "target": "Blanco",
             "override": "anular",
-            "playedBy": "Jugado por",
-            "condition": "Condición",
             "prepared": "Preparado",
             "preparedText": "{name} ha sido marcado como PREPARADO.",
             "hiddenText": "{name} ahora está OCULTO.",
@@ -1153,7 +1138,6 @@
         "pilotsPanel": {
             "title": "Pilotos",
             "ll": "LL",
-            "activeMech": "Mecha Activo",
             "addFromFile": "Añadir desde Archivo",
             "addPlaceholder": "añadir marcador de posición de piloto",
             "placeholderN": "Marcador de Posición de Piloto #{n}"
@@ -1167,9 +1151,6 @@
             "published": "lista de mesas publicadas",
             "offline": "lista de mesas fuera de línea",
             "addNew": "añadir nueva mesa"
-        },
-        "addShare": {
-            "addToEncounter": "añadir al encuentro"
         },
         "sheet": {
             "newCharacterSheet": "Nueva Hoja de Personaje"
@@ -1338,8 +1319,6 @@
             "engineeringCheck": "Prueba de Ingeniería"
         },
         "toolPalette": {
-            "deployables": "Desplegables",
-            "diceRoller": "Lanzador de Dados",
             "rollableTables": "Tablas de Tiradas",
             "encounterInfo": "Información del Encuentro",
             "tagReference": "Referencia de la Chapa",
@@ -1368,7 +1347,6 @@
             "activationsRemaining": "{n} Activaciones restantes en esta ronda",
             "aiControl": "Mecha Controlado por IA",
             "selfDestructInitiated": "Auto destrucción iniciada",
-            "prepared": "Preparado",
             "bracedHeading": "Fortalecido"
         },
         "addRoster": {
@@ -1452,7 +1430,6 @@
             "immunity": "Inmunidad",
             "vulnerability": "Vulnerabilidad",
             "noDamage": "Sin daño",
-            "halfDamage": "Mitad del daño",
             "doubleDamage": "Daño doble",
             "fullDamage": "Daño Completo",
             "resistance": "Resistencia",
@@ -1488,7 +1465,6 @@
             "mounted": "Montada",
             "braced": "Fortalecido",
             "overwatch": "Vigilancia",
-            "prepared": "Preparado",
             "aiControl": "Control IA",
             "activeEffect": "Efecto Activo",
             "passiveBonus": "Bono Pasivo",
@@ -1637,7 +1613,6 @@
             "preparedTitle": "Piloto Preparado",
             "mountFailedTitle": "Fallo al Montar",
             "mountFailedText": "{name} ya está montado.",
-            "mountedTitle": "Piloto Montado",
             "mountedText": "{name} ha montado su Mecha.",
             "hiddenTitle": "Piloto Oculto",
             "disengagedTitle": "Piloto Desenganchado"
@@ -1706,8 +1681,6 @@
             "markYourMechAsInCascade": "Marca su mecha como IN CASCADE",
             "resetUses": "Restablecer Usos",
             "toggleDestroyed": "Alternar Destruido",
-            "deployables": "Desplegables",
-            "diceRoller": "Lanzador de Dados",
             "rollableTables": "Tablas de Tiradas",
             "encounterInfo": "Info de Encuentro",
             "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Lista chapas presentes en personajes o equipamiento en este encuentro",
@@ -1841,12 +1814,10 @@
             "lastSynced": "Última sincronización: {label}",
             "syncWithSettings": "sincronizar con la configuración actual",
             "syncOverridesNote": "Las siguientes operaciones anulan la configuración de sincronización y deben usarse con precaución.",
-            "frequency": "Frecuencia",
             "custom": "Personalizado"
         },
         "collection": {
             "byAuthor": "Por {author}",
-            "changelog": "Bitácora de Cambios",
             "colLastUpdate": "Última Actualización",
             "colChanges": "Cambios",
             "showLess": "Mostrar Menos",
@@ -1892,7 +1863,6 @@
             "notPurchases": "Revocará cualquier compra a través de itch. io o terminar su suscripción a Patreon",
             "irreversible": "Esta acción es irreversible. Estos datos serán permanente e irrevocablemente eliminados.",
             "ensureBackup": "Por favor, asegúrese de tener una copia de resplado local de los datos que desee conservar.",
-            "deleteAccountBtn": "Eliminar Cuenta",
             "enterTextToConfirm": "Introduzca el texto {phrase} para confirmar la eliminación de la cuenta.",
             "deletionInProgress": "Eliminación en curso. Esto puede tomar unos momentos. @:{'common.appName'} se reiniciará una vez que este proceso esté completo."
         },
@@ -2011,8 +1981,7 @@
             "deleteCollectionWarning": "Eliminar esta colección eliminará la colección de sus datos locales y en la nube, y eliminará el archivo de colección del almacenamiento en la nube. Los usuarios no podrán suscribirse a este contenido y los suscriptores actuales ya no podrán actualizar los datos de colección. Esto {willNot} eliminará cualquier contenido de colección, ya sea local o en la nube para usted o suscriptores de la colección.",
             "willNotLabel": "no",
             "confirmDelete": "¿Estás seguro de querer borrar esta colección?",
-            "actionUndone": "Esta acción no puede deshacerse.",
-            "deleteCollectionBtn": "Eliminar colección"
+            "actionUndone": "Esta acción no puede deshacerse."
         },
         "dataItem": {
             "cancelBulkSelection": "Cancelar Selección en Bloque",
@@ -2085,7 +2054,6 @@
             "membershipBenefits": "Beneficios de la Membrecía",
             "removeDeletedItems": "Quitar Artículos Eliminados",
             "accountDeletion": "Borrado de Cuenta",
-            "changelog": "Bitácora de Cambios",
             "credits": "Créditos",
             "roster": "Lista",
             "gmToolkit": "Caja de Herramientas DJ",
@@ -2094,7 +2062,6 @@
             "youDoNotHaveAccess": "No tiene acceso a respaldos remotos.",
             "changeAccountEmail": "Cambiar Correo-E de Cuenta",
             "youDoNotHaveAccess2": "No tiene acceso a la herramienta para publicación de colección.",
-            "deleteCollection": "eliminar colección",
             "compconCloudAccount": "Cuenta de Nube @:{'common.appName'}"
         },
         "tooltips": {
@@ -2125,7 +2092,8 @@
             "not": "NO",
             "click": "Clic",
             "weaponEquippedTitle": "Arma de Piloto Equipada",
-            "coreBonusAvailable": "Bono básico disponible"
+            "coreBonusAvailable": "Bono básico disponible",
+            "appliedTO": "Aplicado A:"
         }
     }
 }
