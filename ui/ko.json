@@ -85,11 +85,20 @@
         "callsign": "콜사인",
         "cancelPermanentDeletion": "영구 삭제 취소",
         "confirmPermanentDeletion": "영구 삭제 확인",
-        "contentLabel": "컨텐츠"
+        "contentLabel": "컨텐츠",
+        "show": "보기",
+        "mount": "마운트",
+        "environment": "환경",
+        "background": "배경",
+        "changelog": "변경사항",
+        "hidden": "숨김"
     },
     "gm": {
         "fields": {
             "authors": "작성자"
+        },
+        "campaign": {
+            "patch": "패치"
         }
     },
     "language": {
