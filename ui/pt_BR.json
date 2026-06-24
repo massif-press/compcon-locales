@@ -1753,7 +1753,7 @@
             "cloudArchiveCooldownText": "Você deve esperar {seconds} segundos antes de criar um novo arquivo."
         },
         "settings": {
-            "unableToReadFileTitle": "Unable to read file",
+            "unableToReadFileTitle": "Não é possível ler o arquivo.",
             "errorPrefix": "Error: {err}",
             "v2BackupImportedTitle": "v2 backup imported",
             "v2NoData": "No data found.",
