@@ -1,0 +1,46 @@
+name: UI Bug
+description: Report a UI issue related to localization (layout, overflow, clipping, etc.)
+labels: ['UI']
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language has the issue?
+      options:
+        - العربية - Arabic (ar)
+        - Deutsch - German (de)
+        - Español - Spanish (es)
+        - Français - French (fr)
+        - हिन्दी - Hindi (hi)
+        - Italiano - Italian (it)
+        - 日本語 - Japanese (ja)
+        - 한국어 - Korean (ko)
+        - Português - Portuguese (pt)
+        - Русский - Russian (ru)
+        - 中文 - Chinese Simplified (zh_Hans)
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location in app
+      description: Where does the UI bug appear?
+      placeholder: 'e.g. Pilot sheet / Mech loadout / Active mode'
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong
+      description: Describe the UI issue (text overflow, clipped label, broken layout, etc.)
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Screenshots, screen size, browser/platform, etc.
