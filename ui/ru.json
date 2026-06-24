@@ -477,7 +477,13 @@
             "sort": "Сортировка",
             "caption": "Подпись",
             "subtitle": "Подзаголовок",
-            "contactInformation": "Контактная информация*"
+            "contactInformation": "Контактная информация*",
+            "groupBy": "Группировать по",
+            "sortBy": "Сортировать по",
+            "pronouns": "Местоимения",
+            "organizationType": "Тип организации",
+            "alias": "Псевдоним",
+            "items": "Элементы"
         },
         "pageContent": {
             "quote": "Цитата",
@@ -550,7 +556,9 @@
             "override": "заменить",
             "dangerZone": "Зона риска",
             "target": "Цель",
-            "condition": "Состояние"
+            "condition": "Состояние",
+            "saveSuccessful": "Сохранение успешно",
+            "copiedToClipboard": "Скопировано в буфер обмена"
         },
         "runnerHeader": {
             "autosave": "Автосохранение",
@@ -587,7 +595,8 @@
             "scan": "Скан"
         },
         "actions": {
-            "allActions": "Все действия"
+            "allActions": "Все действия",
+            "selectIcon": "Выберите значок"
         },
         "skillCheck": {
             "modifiers": "Модификаторы",
@@ -613,7 +622,8 @@
             "selected": "выбрано"
         },
         "trackable": {
-            "unavailable": "Недоступно"
+            "unavailable": "Недоступно",
+            "ready": "Готов"
         },
         "dmgCond": {
             "resistance": "Сопротивление"
@@ -634,10 +644,19 @@
             "pilotSkills": "Навыки пилота ({n})"
         },
         "fields": {
-            "mark1RepairToRestore": "Отметьте 1 Запчать, чтобы восстановить все ОЗ."
+            "mark1RepairToRestore": "Отметьте 1 Запчать, чтобы восстановить все ОЗ.",
+            "showArchived": "Показать архив"
         },
         "tooltips": {
-            "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением."
+            "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
+            "apply": "Применить"
+        },
+        "customStat": {
+            "static": "Статический",
+            "trackable": "Отслеживаемый"
+        },
+        "titles": {
+            "movement": "Движение"
         }
     },
     "mainMenu": {
@@ -704,6 +723,10 @@
         },
         "ui": {
             "requiresItchPurchase": "Требуется привязанная покупка на Itch.io"
+        },
+        "account": {
+            "collectionUpdatedTitle": "Коллекция обновлена",
+            "jwtCopiedText": "Токен скопирован в буфер обмена."
         }
     },
     "pm": {
