@@ -154,7 +154,8 @@
         "roll_noun": "Tira",
         "ok": "OK",
         "hpBonus": "Bono de Pv",
-        "setCustomDescription": "Fijar Descripción Personalizada"
+        "setCustomDescription": "Fijar Descripción Personalizada",
+        "pilotGroup": "Grupo de Pilotos"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -334,7 +335,8 @@
             "overwriteStrategy": "Sobreescribir todos los datos existentes",
             "overwriteWarning": "La estrategia de sobreescritura reemplazará todos sus datos locales existentes con los datos del archivo importado y no se puede deshacer. Se recomienda encarecidamente crear una copia de seguridad antes de utilizar esta opción.",
             "v2AppendNote": "las importaciones de copia de seguridad v2 siempre se procesan utilizando la estrategia de \"apéndice\".",
-            "showDesktopTablesTooltip": "Por defecto, @:{'common.appName'} muestra una vista simplificada de las tablas de Compendio en dispósitivos móviles para mejorar la legibilidad y desempeño. Activar esta opción mostrará la versión completa de escritorio de las tablas en todos los dispositivos. Esto puede hacer que algunas tablas sean difíciles de leer o causar problemas de desempeño en algunos dispositivos móviles."
+            "showDesktopTablesTooltip": "Por defecto, @:{'common.appName'} muestra una vista simplificada de las tablas de Compendio en dispósitivos móviles para mejorar la legibilidad y desempeño. Activar esta opción mostrará la versión completa de escritorio de las tablas en todos los dispositivos. Esto puede hacer que algunas tablas sean difíciles de leer o causar problemas de desempeño en algunos dispositivos móviles.",
+            "showDesktopTablesLabel": "Forzar Tablas completas del Compendio"
         },
         "storage": {
             "userData": "Datos del usuario",
