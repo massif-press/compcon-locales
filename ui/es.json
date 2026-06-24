@@ -2032,7 +2032,8 @@
             "thisBracingMountWillBeNot": "Esta montura de fijación no será capaz de desplegar armamento al campo hasta que el arma Superpesada sea retirada.",
             "theSUPERHEAVYMOUNTINGCoreBonusRequires": "El Bono de Núcleo MONTURA SUPERPESADA requiere sujeción a una Montura Pesada, si está disponible.",
             "revisions": "Revisiones",
-            "selectedAMMUNITION": "Munición seleccionada"
+            "selectedAMMUNITION": "Munición seleccionada",
+            "integratedEquipment": "Equipo integrado"
         }
     },
     "share": {
