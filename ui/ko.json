@@ -54,7 +54,6 @@
         "attackBonus": "공격 보너스",
         "difficulty": "불리도",
         "accuracy": "정확도",
-        "roll": "굴림",
         "remove": "제거",
         "unlock": "해금",
         "clear": "비우기",
@@ -105,22 +104,15 @@
         "newCampaign": "새 캠페인",
         "newEidolon": "새 아이돌론"
     },
-    "nav": {
-        "packsDirectory": {
-            "content": "컨텐츠"
-        }
-    },
     "active": {
         "mechActions": {
             "pilotEjectedText": "{name}(이)가 메크에서 사출되어 ‘손상’  상태이상을 얻음."
         },
         "common": {
-            "condition": "상태",
             "copiedToClipboard": "클립보드에 복사됨",
             "halfDamage": "절반 피해"
         },
         "dmgCond": {
-            "halfDamage": "절반 피해",
             "doubleDamage": "두배 피해",
             "fullDamage": "최대 피해"
         },
