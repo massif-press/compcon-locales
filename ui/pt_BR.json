@@ -1241,7 +1241,8 @@
             "confirmResetStats": "Confirmar Redefinição de Atributos",
             "addStat": "Adicionar Atributo",
             "custom": "Personalizado",
-            "statCountSuffix": "{n} Atributo | {n} Atributos"
+            "statCountSuffix": "{n} Atributo | {n} Atributos",
+            "core": "Núcleo"
         },
         "editorFooter": {
             "upToDate": "O item está atualizado com as alterações remotas",
