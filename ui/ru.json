@@ -990,9 +990,10 @@
             "patreonLinkFailedText": "При попытке привязать ваш аккаунт на Patreon возникла ошибка",
             "patreonUnlinkedTitle": "Аккаунт на Patreon отвязан",
             "patreonUnlinkedText": "Ваш аккаунт на Patreon был отвязан",
-            "emailChangeCompleteText": "Ваш электронный адрес был изменен.",
-            "emailChangeCancelledTitle": "Изменение адреса электронной почты отменено",
-            "publishedTitle": "Опубликовано"
+            "emailChangeCompleteText": "Адрес вашей эл. почты был изменен",
+            "emailChangeCancelledTitle": "Изменение адреса эл. почты отменено",
+            "publishedTitle": "Опубликовано",
+            "updateFailedTitle": "Не удалось обновить"
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
@@ -1027,7 +1028,8 @@
         "dataItem": {
             "connectionRestoredTitle": "Соединение восстановлено",
             "itemDeletedTitle": "Элемент удалён",
-            "restoreFailedTitle": "Не удалось восстановить"
+            "restoreFailedTitle": "Не удалось восстановить",
+            "deleteFailedTitle": "Не удалось удалить"
         },
         "share": {
             "syncCompleteTitle": "Синхронизация завершена"
@@ -1038,11 +1040,16 @@
             "copied": "Скопировано"
         },
         "transfer": {
-            "downloadCompleteTitle": "Загрузка завершена"
+            "downloadCompleteTitle": "Скачивание завершено",
+            "uploadCompleteTitle": "Загрузка завершена",
+            "uploadFailedTitle": "Не удалось загрузить",
+            "downloadFailedTitle": "Не удалось скачать"
         },
         "settings": {
-            "v2NoData": "Данные не найдены",
-            "unableToImportTitle": "Не удалось импортировать:"
+            "v2NoData": "Данные не найдены.",
+            "unableToImportTitle": "Не удалось импортировать данные",
+            "unableToReadFileTitle": "Не удалось распознать файл",
+            "dataImportSuccessTitle": "Данные успешно импортированы"
         }
     },
     "print": {
@@ -1062,7 +1069,8 @@
         "sys": "Системы",
         "hp": "ОЗ",
         "sensors": "Сенсоры",
-        "structure": "Структура"
+        "structure": "Структура",
+        "size": "Размер"
     },
     "share": {
         "resultAuthor": "Автор",
