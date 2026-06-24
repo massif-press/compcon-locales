@@ -2034,7 +2034,8 @@
             "revisions": "Revisiones",
             "selectedAMMUNITION": "Munición seleccionada",
             "integratedEquipment": "Equipo integrado",
-            "reorderSystems": "Reorder Systems"
+            "reorderSystems": "Reorder Systems",
+            "selectPilotEquipment": "Seleccionar equipo piloto"
         }
     },
     "share": {
