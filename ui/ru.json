@@ -806,7 +806,8 @@
             "optional": "(Опционально)",
             "addGroupDescription": "Добавить описание группы",
             "editGroupDescription": "Описание группы",
-            "lastModified": "Последнее изменение"
+            "lastModified": "Последнее изменение",
+            "hidden": "скрыт"
         }
     },
     "ui": {
