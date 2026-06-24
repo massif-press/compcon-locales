@@ -138,11 +138,29 @@
         "lcpDirectory": "LCP Verzeichnis",
         "addContent": "Inhalte hinzufügen",
         "updateAll": "Alle aktualisieren",
-        "cloudAccount": "Cloud-Konto"
+        "cloudAccount": "Cloud-Konto",
+        "status": "Status",
+        "result": "Ergebnis",
+        "copyLink": "Link kopieren",
+        "mainMenu": "Hauptmenü",
+        "compendium": "Kompendium",
+        "version": "Version",
+        "notes": "Notizen",
+        "organize": "Organisieren",
+        "settings": "Einstellungen",
+        "environment": "Umgebung",
+        "restore": "Wiederherstellen",
+        "detail": "Detail",
+        "effect": "Effekt",
+        "about": "Über",
+        "help": "Hilfe",
+        "contents": "Inhalt",
+        "contentLabel": "Inhalt"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
-        "pctTransComplete": "{pct}% übersetzt"
+        "pctTransComplete": "{pct}% übersetzt",
+        "selectLanguage": "Sprache"
     },
     "classes": {
         "newCampaign": "Neue Kampagne",
