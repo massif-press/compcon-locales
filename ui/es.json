@@ -1058,7 +1058,8 @@
             "saveFailed": "Guardado Fallido",
             "copiedToClipboard": "Copiado al Portapapeles",
             "nominal": "Nominal",
-            "halfDamage": "Mitad de Daño"
+            "halfDamage": "Mitad de Daño",
+            "condition_status": "Condición"
         },
         "roster": {
             "addFromRoster": "añadir desde la lista",
@@ -1281,7 +1282,8 @@
         },
         "toolPalette": {
             "tagReference": "Referencia de la Chapa",
-            "combatQuickRef": "Referencia Rápida de Combate"
+            "combatQuickRef": "Referencia Rápida de Combate",
+            "npcRef": "Referencia de Combate PNJ"
         },
         "tableIndex": {
             "title": "Índice de Tabla",
