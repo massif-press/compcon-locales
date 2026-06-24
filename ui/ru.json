@@ -674,7 +674,8 @@
             "copyLog": "Копировать логи",
             "retry": "Попрбовать снова",
             "resendVerificationCode": "Отправить проверочный код",
-            "sendPasswordResetEmail": "Послать ссылку сброса пароля"
+            "sendPasswordResetEmail": "Послать ссылку сброса пароля",
+            "setNewPassword": "Установить новый пароль"
         },
         "dataUsage": {
             "title": "Использование данных"
@@ -724,11 +725,28 @@
             "tierSuffix": "{title} Опасность"
         },
         "ui": {
-            "requiresItchPurchase": "Требуется привязанная покупка на Itch.io"
+            "requiresItchPurchase": "Требуется привязанная покупка на Itch.io",
+            "viewChangelog": "Список изменений",
+            "subscribe": "подписаться",
+            "refreshList": "Обновить список",
+            "unlinked": "Отвязано",
+            "unlink": "Отвязать"
         },
         "account": {
             "collectionUpdatedTitle": "Коллекция обновлена",
             "jwtCopiedText": "Токен скопирован в буфер обмена."
+        },
+        "menu": {
+            "connected": "Подключён",
+            "logIn": "Вход",
+            "supportProject": "Помочь проекту",
+            "markAllRead": "Отметить все сообщения прочитанными",
+            "markAsRead": "Пометить как прочитанные"
+        },
+        "fields": {
+            "autoBackupFrequency": "Частота резервного копирования",
+            "filter": "Фильтр",
+            "oldPassword": "Старый пароль"
         }
     },
     "pm": {
