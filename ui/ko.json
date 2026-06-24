@@ -119,5 +119,14 @@
         "scan": {
             "scan": "스캔"
         }
+    },
+    "compendium": {
+        "content": {
+            "eidolonLayer": "아이돌론 층위",
+            "frameSuffix": "{type} 프레임"
+        },
+        "campaign": {
+            "recommendedLicenseLevel": "추천 라이센스 레벨"
+        }
     }
 }
