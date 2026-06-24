@@ -673,7 +673,8 @@
             "resetPassword": "Сбросить пароль",
             "copyLog": "Копировать логи",
             "retry": "Попрбовать снова",
-            "resendVerificationCode": "Отправить проверочный код"
+            "resendVerificationCode": "Отправить проверочный код",
+            "sendPasswordResetEmail": "Послать ссылку сброса пароля"
         },
         "dataUsage": {
             "title": "Использование данных"
