@@ -357,7 +357,8 @@
             "anonymousPatron": "анонимных подписчиков"
         },
         "achievementItem": {
-            "createdBy": "Создатель:"
+            "createdBy": "Создатель:",
+            "unlockedLabel": "Разблокировано"
         },
         "packsList": {
             "activated": "активировано",
@@ -469,7 +470,14 @@
         },
         "fields": {
             "authors": "Автор(ы)",
-            "folder": "Папка"
+            "folder": "Папка",
+            "title": "Название",
+            "value": "Значение",
+            "group": "Группа",
+            "sort": "Сортировка",
+            "caption": "Подпись",
+            "subtitle": "Подзаголовок",
+            "contactInformation": "Контактная информация*"
         },
         "pageContent": {
             "quote": "Цитата",
