@@ -1580,7 +1580,7 @@
             "conditions": "Condições",
             "enemyForces": "FORÇAS INIMIGAS",
             "alliedForces": "FORÇAS ALIADAS",
-            "neutral": "NEUTROS",
+            "neutral": "Neutros",
             "optional": "Opcional",
             "groupBy": "Agrupar Por",
             "sortBy": "Ordenar Por",
@@ -3461,7 +3461,7 @@
             "type": "Tipo",
             "pilotXp": "xp do piloto",
             "pilotStress": "estresse do piloto",
-            "nameOrCallsign": "Nome ou codinome...",
+            "nameOrCallsign": "Nome ou codinome…",
             "jumpTo": "pular para",
             "purposeGoalAndOrganizationDetails": "Propósito, objetivo e detalhes da organização"
         },
