@@ -155,7 +155,8 @@
         "about": "Über",
         "help": "Hilfe",
         "contents": "Inhalt",
-        "contentLabel": "Inhalt"
+        "contentLabel": "Inhalt",
+        "attackBonus": "Angriffsbonus"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
@@ -177,7 +178,13 @@
         "newEncounter": "Neues Gefecht",
         "newCollection": "Neue Sammlung",
         "unknownStatus": "Unbekannter Status",
-        "newSkillTrigger": "Neuer Knifftrigger"
+        "newSkillTrigger": "Neuer Knifftrigger",
+        "newSection": "Neuer Abschnitt",
+        "newContent": "Neue Inhalte",
+        "newClock": "Neue Uhr",
+        "newCharacter": "Neuer Charakter",
+        "newEidolon": "Neues Eidolon",
+        "unknownLicense": "Unbekannte Lizenz"
     },
     "nav": {
         "contentManager": {
@@ -327,7 +334,8 @@
             "loses": "Verliert",
             "skillCheckRoll": "Knifftestwurf",
             "rollResults": "Wurfergebnisse",
-            "difficultMod": "-1 (Schwierig)"
+            "difficultMod": "-1 (Schwierig)",
+            "targetValue": "Zielwert"
         },
         "mechPanel": {
             "pilotSkills": "Pilotenkniffe ({n})"
