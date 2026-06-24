@@ -30,7 +30,7 @@
         "dismiss": "안 보기",
         "shareCode": "공유 코드",
         "continue": "계속",
-        "back": "뒤로",
+        "back": "뒤로가기",
         "importCampaign": "캠페인 불러오기",
         "print": "인쇄",
         "export": "내보내기",
@@ -59,16 +59,73 @@
         "unlock": "해금",
         "clear": "비우기",
         "mainMenu": "메인 메뉴",
-        "pilotRoster": "파일럿 명단",
+        "pilotRoster": "파일럿 목록",
         "closePreview": "미리보기 닫기",
         "saveAndClose": "저장 후 닫기",
         "loading": "불러오는 중…",
         "type": "타입",
-        "convert": "변환"
+        "convert": "변환",
+        "appName": "COMP/CON",
+        "appShortName": "C/C",
+        "gameName": "LANCER",
+        "submit": "등록",
+        "removeName": "{name} 제거하기",
+        "action": "행동",
+        "set": "설정",
+        "description": "설명",
+        "actions": "행동",
+        "item": "아이템",
+        "bonus": "보너스",
+        "addContent": "컨텐츠 추가",
+        "systemPoints": "시스템 포인트",
+        "sensorRange": "센서 거리",
+        "repairs": "수리 점수",
+        "eidolon": "아이돌론",
+        "addName": "{name} 추가",
+        "armorBonus": "장갑 보너스",
+        "callsign": "콜사인",
+        "cancelPermanentDeletion": "영구 삭제 취소",
+        "confirmPermanentDeletion": "영구 삭제 확인",
+        "contentLabel": "컨텐츠"
     },
     "gm": {
         "fields": {
             "authors": "작성자"
+        },
+        "combatantSelector": {
+            "eidolons": "아이돌론"
+        }
+    },
+    "language": {
+        "selectLanguage": "언어",
+        "experimentalNote": "영어 이외의 번역은 커뮤니티에 의해 이루어지는 중입니다. 몇몇 텍스트는 번역되지 않았거나 불완전할 수 있습니다.",
+        "pctTransComplete": "{pct}% 번역됨"
+    },
+    "classes": {
+        "newCampaign": "새 캠페인",
+        "newEidolon": "새 아이돌론"
+    },
+    "nav": {
+        "packsDirectory": {
+            "content": "컨텐츠"
+        }
+    },
+    "active": {
+        "mechActions": {
+            "pilotEjectedText": "{name}(이)가 메크에서 사출되어 ‘손상’  상태이상을 얻음."
+        },
+        "common": {
+            "condition": "상태",
+            "copiedToClipboard": "클립보드에 복사됨",
+            "halfDamage": "절반 피해"
+        },
+        "dmgCond": {
+            "halfDamage": "절반 피해",
+            "doubleDamage": "두배 피해",
+            "fullDamage": "최대 피해"
+        },
+        "scan": {
+            "scan": "스캔"
         }
     }
 }
