@@ -812,7 +812,8 @@
         },
         "fields": {
             "resourceName": "Название ресурса",
-            "projectName": "Имя проекта"
+            "projectName": "Имя проекта",
+            "requirements": "Требования:"
         }
     },
     "ui": {
