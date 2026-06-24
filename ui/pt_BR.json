@@ -590,7 +590,8 @@
         },
         "optionsPage": {
             "tabSettings": "@:{'common.settings'}",
-            "tabLog": "Log"
+            "tabLog": "Log",
+            "tabStorage": "Armazenamento"
         },
         "packsList": {
             "toggleSuccessText": "Pacote {action} com sucesso.",
