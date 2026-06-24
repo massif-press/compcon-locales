@@ -172,8 +172,11 @@
     },
     "print": {
         "titles": {
-            "orientation": "Orientação"
-        }
+            "orientation": "Orientação",
+            "paper": "Papel"
+        },
+        "generalOptions": "Configurações Gerais de Impressão",
+        "extras": "Extras"
     },
     "language": {
         "selectLanguage": "Linguagem",
@@ -217,13 +220,15 @@
             "updateAll": "@:{'common.updateAll'}",
             "deleteAll": "Apagar Todos",
             "contentPacks": "@:{'common.contentPacks'}",
-            "addContent": "@:[common.addContent'}"
+            "addContent": "@:[common.addContent'}",
+            "removeContent": "@:{'common.remove'}"
         },
         "roster": {
             "newPilot": "Novo Piloto",
             "importPilot": "Importar Piloto",
             "clonePilot": "Clonar Piloto",
-            "deletePilot": "@:{'common.deletePilot'}"
+            "deletePilot": "@:{'common.deletePilot'}",
+            "title": "@:{'common.pilotRoster'}"
         },
         "settings": {
             "exportData": "Exportar Todos os Dados",
@@ -245,7 +250,9 @@
             "forceImportAll": "Forçar importar Todos",
             "forceImportPanelTitle": "@:{'common.forceImport'}",
             "confirmForceImport": "@:{'common.forceImport'}",
-            "importAll": "Importar Tudo"
+            "importAll": "Importar Tudo",
+            "deleteTitle": "Excluir Backup",
+            "deleteConfirm": "Excluir este backup da v2 pendente? Esta ação não poderá ser desfeita."
         },
         "nav": {
             "navigateBack": "Voltar",
@@ -270,13 +277,15 @@
             "credits": "@:{'common.credits'}",
             "help": "Ajuda",
             "manageContent": "@:{'common.manageContent'}",
-            "supportCompcon": "Support @:{'common.appName'}"
+            "supportCompcon": "Support @:{'common.appName'}",
+            "options": "@:{'common.options'}"
         },
         "about": {
             "ccVersion": "Versão do C/C:",
             "lancerCoreVersion": "@:{'common.gameName'} versão CORE:",
             "description": "O @:{'common.appName'} é um kit de ferramentas digital gratuito e de código aberto, além de um assistente de jogo para criar e jogar o TTRPG @:{'common.gameName'}.",
-            "coreBookInfo": "O livro básico de regras do @:{'common.gameName'}, o @:{'common.appName'} e os conteúdos associados podem ser encontrados em"
+            "coreBookInfo": "O livro básico de regras do @:{'common.gameName'}, o @:{'common.appName'} e os conteúdos associados podem ser encontrados em",
+            "title": "@:{'common.appName'}"
         },
         "help": {
             "faq": "Perguntas Frequentes",
@@ -325,19 +334,268 @@
             "hiddenCount": "{count} conquista não exibida | {count} conquistas não exibidas",
             "cannot": "Não é possível",
             "warningDataFull": "Isso irá {emphasis} os dados de conquistas do usuário.",
-            "cannotBeUndoneFull": "Isso {emphasis} poderá ser desfeito. É altamente recomendado criar um backup antes."
+            "cannotBeUndoneFull": "Isso {emphasis} poderá ser desfeito. É altamente recomendado criar um backup antes.",
+            "byRarity": "Por Raridade:",
+            "secretAchievements": "Conquistas Secretas",
+            "display": "Exibição:",
+            "common": "Comum",
+            "hidden": "Escondida",
+            "rarity": "Raridade",
+            "unlocked": "Desbloqueada",
+            "byLabel": "Por Nome:",
+            "discovered": "Descoberto",
+            "selectAll": "@:{'common.selectAll'}",
+            "none": "@:{'common.none'}",
+            "dateUnlocked": "Data de Desbloqueio",
+            "name": "@:{'common.name'}"
         },
         "settingsPage": {
             "showUpdateMessages": "Mostrar Atualizações",
             "showExoticsLabel": "Mostrar itens Exóticos no Compêndio",
-            "showDesktopTablesLabel": "Forçar tabelas completas do Compêndio"
+            "showDesktopTablesLabel": "Forçar tabelas completas do Compêndio",
+            "showExoticsTooltip": "Ativar esta opção pode revelar spoilers da campanha. Recomenda-se deixar esta configuração DESATIVADA se você não for o Mestre",
+            "theme": "Tema",
+            "font": "Fonte",
+            "logLevel": "Nível de Log",
+            "logLevelLabel": "@:{'common.logLevel'}",
+            "errorReporting": "Reportar Erro",
+            "errorReportingPrefix": "Reporte de Erro",
+            "enhancedReportingPrefix": "Relatório de erros avançado",
+            "enabled": "Ativo",
+            "disabled": "Desativado",
+            "errorReportingTooltip": "O relatório de erros permite o envio de dados anônimos de falhas ao desenvolvedor para ajudar a identificar e resolver bugs e outros problemas.",
+            "errorReportingPiiNote": "Nenhuma informação de identificação pessoal é coletada neste nível.",
+            "enhancedReportingTooltip": "O relatório de erros avançado envia dados adicionais ao desenvolvedor, incluindo {nonAnon}. Todos os outros dados de identificação pessoal são eliminados antes da transmissão. Isso {notNecessary} a menos que você esteja trabalhando ativamente com o desenvolvedor para resolver um problema específico e tenha recebido instruções para ativar esta configuração.",
+            "enhancedReportingPiiNote": "informações não anônimas, especificamente o endereço IP e o ID do usuário",
+            "enhancedReportingNotNecessary": "Não necessário",
+            "enhancedReportingStatus": "Relatório de erros avançado: {status}",
+            "communityThemesBy": "Temas da comunidade por {vialra} {asger} {thecrystalwoods} e {suji}",
+            "importStrategy": "// Estratégia de Importação",
+            "createBackup": "Criar Backup de Dados",
+            "createBackupTooltip": "O @:{'common.appName'} depende do armazenamento seguro do seu navegador para salvar e carregar seus dados. Geralmente, esses dados estão protegidos contra exclusão, mas certas configurações do navegador e utilitários podem, às vezes, limpar esses dados, resultando na perda dos seus dados do @:{'common.appName'}. É uma boa prática fazer backup dos seus dados de tempos em tempos.",
+            "downloadV2Backup": "Baixar backup tipo V2 armazenado",
+            "downloadV2Tooltip": "O @:{'common.appName'} salvou um backup completo dos seus dados da v2 do @:{'common.appName'}. Isso pode ser importado no aplicativo v2 em old.compcon.app.",
+            "loadBackup": "Carregar Backup de Dados",
+            "loadBackupTooltip": "Arquivos .compcon são arquivos de exportação em lote do @:{'common.appName'} que contêm todos os seus dados locais em um único arquivo. Você pode criar um arquivo de backup .compcon usando o botão 'Criar Backup de Dados'. Use esta opção para carregar arquivos de backup .compcon que você tenha criado ou obtido de outra fonte. Recomenda-se criar um backup antes de carregar um arquivo .compcon, especialmente se o arquivo veio de outra fonte.",
+            "mergeStrategy": "Mesclar com os dados existentes",
+            "overwriteStrategy": "Sobrescrever todos os dados existentes",
+            "mergeWarning": "O @:{'common.appName'} tentará mesclar os dados de importação com seus dados existentes.",
+            "overwriteWarning": "A estratégia de sobrescrever substituirá todos os seus dados locais existentes pelos dados do arquivo importado e não poderá ser desfeita. Recomenda-se fortemente criar um backup antes de usar esta opção.",
+            "selectBulkFile": "Selecionar arquivo de exportação em lote .compcon",
+            "v2BackupDetected": "Backup V2 detectado",
+            "showDesktopTablesTooltip": "Por padrão, o @:{'common.appName'} exibe uma visualização simplificada das tabelas do Compêndio em dispositivos móveis para melhorar a legibilidade e o desempenho. Ativar esta opção exibirá a versão completa de desktop das tabelas em todos os dispositivos. Isso pode tornar algumas tabelas difíceis de ler ou causar problemas de desempenho em dispositivos móveis.",
+            "v2BackupDescription": "Este é um arquivo de backup da v2 do @:{'common.appName'}. Ele será processado usando o sistema de importação da v2: os pacotes de conteúdo serão instalados primeiro, seguidos pelos pilotos, PNJs e encontros. Os itens que exigem LCPs não presentes neste backup serão salvos em importações da v2 pendentes no Gerenciador de Conteúdo.",
+            "v2AppendNote": "As importações de backup da v2 são sempre processadas usando a estratégia 'adicionar'.",
+            "importV2Backup": "Importar Backup v2",
+            "resetV2Migration": "Resetar status de migração da V2",
+            "resetV2Tooltip": "Redefine o status de migração da v2, permitindo que o botão 'Dados da V2' apareça novamente caso tenha sido dispensado.",
+            "confirmImport": "@:{'common.confirmImport'}"
         },
         "credits": {
             "additionalArtBy": "Arte Adicional por:",
             "lancerBy": "@:{'common.gameName'} by:",
             "with": "Com:",
             "graphicDesignBy": "Design Gráfico por:",
-            "tier": "@:{'common.tier'}"
+            "tier": "@:{'common.tier'}",
+            "patronThanks": "O desenvolvimento contínuo do @:{'common.appName'} não seria possível sem o generoso",
+            "supportOf": "De:",
+            "compconBy": "@:{'common.appName'} Por:",
+            "anonymousPatron": "Patrono Anônimo"
+        },
+        "deletedItems": {
+            "itemType": "Tipo do Item",
+            "itemName": "Nome do Item",
+            "deletedOn": "Excluído em",
+            "permanentlyDelete": "Excluir Permanentemente",
+            "restoreAll": "Restaurar Tudo",
+            "permanentlyDeleteAll": "Excluir Tudo Permanentemente",
+            "restore": "@:{'common.restore'}",
+            "noItemsFound": "Nenhum item encontrado"
+        },
+        "userDataViewer": {
+            "value": "Valor",
+            "resetUserData": "Resetar Dados do Usuário",
+            "description": "Estes são os dados do usuário salvos localmente. Geralmente, esses itens não precisam ser redefinidos, mas isso pode ser útil para depuração ou para resolver um problema persistente de carregamento.",
+            "achievementNote": "Redefinir os dados do usuário não redefinirá as conquistas desbloqueadas (isso pode ser feito no Navegador de Conquistas).",
+            "item": "@:{'common.item'}"
+        },
+        "packInstall": {
+            "selectFile": "Selecionar Arquivo .LCP",
+            "install": "Instalar",
+            "noPackSelected": "Nenhum pacote de conteúdo selecionado",
+            "success": "Sucesso",
+            "byAuthorVersion": "Por {author} {'@'} {version}",
+            "byAuthorRequires": "Por {author} requer",
+            "byAuthor": "@:{'common.byAuthor'}",
+            "upgradeFromTo": "Atualizado de {from} para {to}",
+            "downgradeTo": "Downgrade para {version}",
+            "noChange": "Sem alterações ({from} para {to})",
+            "alreadyInstalledWarning": "O seguinte pacote de conteúdo já está instalado e será substituído: | Os seguintes pacotes de conteúdo já estão instalados e serão substituídos:",
+            "v3Warning": "O seguinte conteúdo não foi registrado como compatível com a v3. Esses pacotes ainda funcionarão, mas não poderão aproveitar os recursos da v3, especialmente no modo ativo.",
+            "dependencyError": "O seguinte pacote de conteúdo possui dependências não instaladas e ainda não pode ser instalado. Ele será ignorado: | Os seguintes pacotes de conteúdo possuem dependências não instaladas e ainda não podem ser instalados. Eles serão ignorados:",
+            "alreadyInstalledNote": "Um pacote com este mesmo nome e autor já está instalado.",
+            "willReplace": "Ele será substituído por esta cópia.",
+            "requiresContent": "Este LCP exige que o seguinte conteúdo esteja instalado antes de poder ser adicionado:",
+            "successText": "Pacotes de conteúdo instalados com sucesso",
+            "installingPacks": "Instalando {count} pacote de conteúdo… | Instalando {count} pacotes de conteúdo…",
+            "willUpgradeTo": "Ele será atualizado para a v.{version}",
+            "willDowngradeTo": "Ele será revertido para a versão {version}"
+        },
+        "packsDirectory": {
+            "officialContent": "Oficial",
+            "content": "Conteúdo",
+            "communityContent": "@:{'common.gameName'} Conteúdo da comunidade",
+            "communityContentTitle": "@:{'common.gameName'} Pacotes de Conteúdo da Comunidade",
+            "clickHere": "Clica aqui.",
+            "developmentBlog": "Blog de desenvolvimento",
+            "massifPress": "MASSIF PRESS",
+            "communityAbout": "O @:{'common.appName'} tem orgulho de colaborar com a comunidade de @:{'common.gameName'} para disponibilizar estes pacotes de conteúdo não oficiais. Eles são oferecidos no estado em que se encontram, a critério do autor.",
+            "communityContribute": "Se você tiver interesse em criar seu próprio conteúdo homebrew de @:{'common.gameName'} ou em enviar seu conteúdo para ser destacado neste diretório, por favor",
+            "communityNotice": "O download no aplicativo e a inscrição automática para atualizações de LCPs da comunidade ainda não são suportados. Assim que as ferramentas de suporte ao autor estiverem disponíveis, os LCPs da comunidade serão migrados para a v3 e poderão aproveitar os mesmos mecanismos de atualização e inscrição dos pacotes de conteúdo oficiais da Massif Press. Acompanhe o {blog} para ficar por dentro do progresso."
+        },
+        "packConfig": {
+            "title": "Configurações de Conteúdo",
+            "noConfigs": "Nenhuma configurações achada.",
+            "addLcp": "Adicionar LCP",
+            "createConfig": "Criar Configuração",
+            "deleteConfig": "Excluir essa Configuração",
+            "removeFromConfig": "Remover esse pacote dessa configuração",
+            "editConfig": "Editar essa configuração",
+            "lcpsSuffix": "{list} LCPs",
+            "description": "As configurações de conteúdo permitem criar e gerenciar conjuntos de LCPs que podem ser aplicados a Pilotos e PNJs para permitir ou limitar seleções a conteúdos específicos. Pilotos e PNJs sem configurações definidas terão acesso a todos os LCPs instalados e ativados",
+            "applyNote": "Estas configurações podem ser aplicadas a Pilotos e PNJs em seus menus de opções.",
+            "lcpsInConfig": "LCPs nesta configuração:",
+            "noLcpsPrefix": "Nenhum LCP adicionado. Apenas conteúdo do",
+            "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
+            "willBeAvailable": "estará disponível.",
+            "coreBookOnly": "Apenas conteúdo do Lancer Core Book",
+            "byAuthor": "@:{'common.byAuthor'}"
+        },
+        "storage": {
+            "storageUsageFull": "O @:{'common.appName'} está usando atualmente {used} de {total}, ou {percent} do seu armazenamento disponível. Isso inclui o espaço reservado pelo @:{'common.appName'} para o gerenciamento do aplicativo.",
+            "neverLabel": "Nunca",
+            "neverAutoDeleteFull": "O @:{'common.appName'} {never} excluirá automaticamente dados marcados para exclusão.",
+            "daysCount": "{count} dias.",
+            "autoDeleteFull": "O @:{'common.appName'} excluirá permanentemente os dados após terem sido marcados como excluídos por pelo menos {days}. Isso não afetará os itens que já não estejam marcados para exclusão.",
+            "deleteConfirmIntro": "Isso excluirá {confirm} dados locais do @:{'common.appName'}.",
+            "deleteConfirmUndone": "Isso {undone}",
+            "storageSettings": "Armazenamento",
+            "storageThresholds": "Limites de Armazenamento",
+            "warningThresholdPct": "Alerta Limite (%)",
+            "deleteWarningBanner": "Aviso// Aviso // Aviso",
+            "deleteAllConfirm": "Todos",
+            "cannotBeUndone": "ser desfeito.",
+            "areYouSure": "Voce tem certeza que quer continuar?",
+            "deleteAllUserData": "Apagar todos Dado do Usuário",
+            "maxThresholdPct": "Limite Máximo (%)",
+            "warningThresholdMb": "Aviso de Limite (MB)",
+            "maxThresholdMb": "Limite Máximo (MB)",
+            "warningDescription": "O @:{'common.appName'} exibirá uma mensagem de aviso quando",
+            "maxDescription": "O @:{'common.appName'} impedirá a criação de novos dados após",
+            "ofAvailableStorage": "% do armazenamento disponível do sistema (",
+            "hasBeenUsed": ") já foi utilizado",
+            "autoDelete": "Exclusão automática",
+            "neverAutoDelete": "excluir automaticamente os dados marcados para exclusão.",
+            "noStorageAccess": "O @:{'common.appName'} não consegue acessar o armazenamento do dispositivo. Isso pode ocorrer devido a uma configuração ou extensão do navegador. O @:{'common.appName'} usará o armazenamento local como alternativa, que é limitado a 5MB. Isso pode fazer com que o @:{'common.appName'} não consiga salvar os dados. Verifique as configurações do seu navegador ou permita que o @:{'common.appName'} acesse o \"Armazenamento Persistente\" se solicitado. Se você estiver usando uma extensão de navegador que bloqueia o acesso ao armazenamento, desative-a para o @:{'common.appName'}. Se nenhuma dessas opções funcionar, considere baixar o @:{'common.appName'} como um PWA.",
+            "deletedItems": "Itens Excluídos (apenas dados locais)",
+            "userData": "Dados do Usuário",
+            "clearAllData": "@:{'common.clearAllData'}"
+        },
+        "log": {
+            "logLevel": "@:{'common.logLevel'}",
+            "noData": "Sem dados",
+            "caller": "Rastreamento",
+            "exportLog": "Exportar Log",
+            "copiedToClipboard": "Entrada de log copiada para a área de transferência",
+            "trace": "Rastreamento"
+        },
+        "packInfo": {
+            "v2ContentTitle": "Conteúdo v2",
+            "v2ContentDescription": "Este pacote de conteúdo não foi registrado como compatível com a v3. Este pacote ainda funcionará corretamente, mas não poderá aproveitar os recursos da v3.",
+            "noDescription": "@:{'ui.widget.noDescription'}",
+            "contentHeading": "Conteúdo",
+            "dependencies": "Dependências",
+            "dependenciesTooltip": "Dependências são outros pacotes de conteúdo que este pacote exige para funcionar corretamente. Eles devem estar instalados e ativados para que este pacote seja carregado corretamente.",
+            "none": "@:{'common.none'}",
+            "changelog": "Log de Mudanças",
+            "authorsWebsite": "Site do autor",
+            "dependencyInstalled": "Dependências instaladas",
+            "version": "@:{'common.version'}",
+            "byAuthor": "@:{'common.byAuthor'}"
+        },
+        "communityTable": {
+            "noData": "Nenhum pacote de conteúdo disponível.",
+            "v3Compatible": "Este pacote de conteúdo é compatível com a versão mais recente do @:{'common.appName'} e suporta os recursos da v3.",
+            "v3Incompatible": "Este pacote de conteúdo usa o formato de conteúdo v2. Ele funcionará corretamente, mas não terá os recursos dos pacotes compatíveis com a v3. O @:{'common.appName'} não será capaz de gerenciar efeitos ou status deste pacote no Modo Ativo.",
+            "notInstalled": "Não Instalado",
+            "openWebsite": "abrir site",
+            "subscribedTooltip": "Inscrição ativa para as atualizações mais recentes. Clique para cancelar a inscrição.",
+            "subscribeTooltip": "Clique para permitir que o @:{'common.appName'} atualize este LCP sempre que uma nova versão for publicada",
+            "payWhatYouWant": "Pague o Quanto Quiser",
+            "free": "Grátis",
+            "currentVersion": "Versão atual:",
+            "itchStorePage": "Pagina do itch.io",
+            "authorsWebsite": "@:{'nav.packInfo.authorsWebsite'}"
+        },
+        "v2Auto": {
+            "v2Data": "Dados da v2",
+            "migrationTitle": "Migração de Dados da V2",
+            "autoMigrated": "Seus dados da v2 foram migrados automaticamente para a v3 ao iniciar.",
+            "pilotsImported": "{count} piloto importado | {count} pilotos importados",
+            "pilotsPending": "{count} piloto pendente (LCPs ausentes) | {count} pilotos pendentes (LCPs ausentes)",
+            "npcsImported": "{count} PNJ importado | {count} PNJs importados",
+            "npcsPending": "{count} PNJ pendente (LCPs ausentes) | {count} PNJ s pendentes (LCPs ausentes)",
+            "encountersImported": "{count} encontro importado | {count} encontros importados",
+            "encountersPending": "{count} encontro pendente (PNJs ausentes) | {count} encontros pendentes (PNJs ausentes)",
+            "lcpsImported": "{count} pacote de conteúdo importado | {count} pacotes de conteúdo importados",
+            "pendingNote": "Itens pendentes podem ser reimportados a partir do painel de Pacotes de Conteúdo após a instalação dos LCPs necessários.",
+            "errorsDuringMigration": "{count} erro durante a migração | {count} erros durante a migração",
+            "downloadBackup": "Baixar Backup da V2",
+            "downloadBackupTooltip": "Este arquivo .compcon pode ser usado em um ambiente v2 em https://old.compcon.app. Ele pode ser baixado a qualquer momento a partir do menu Opções"
+        },
+        "cloudNotifications": {
+            "dismissAll": "Dispensar Todas as Notificações",
+            "noRecentUpdates": "Nenhuma atualização recente na nuvem"
+        },
+        "search": {
+            "search": "@:{'common.search'}",
+            "searchResults": "Resultados da busca",
+            "recentSearches": "Buscas recentes"
+        },
+        "migrationRepair": {
+            "dialogTitle": "Reparo de Dados de Migração",
+            "buttonLabel": "Ferramenta de Reparo de Migração",
+            "buttonTooltip": "Verificar e reparar problemas comuns com dados migrados da v2.",
+            "scanning": "Verificando dados…",
+            "noIssues": "Nenhum problema de migração encontrado.",
+            "colCategory": "Categoria",
+            "colItem": "@:{'common.item'}",
+            "colIssue": "Problema",
+            "colFixable": "Corrigível",
+            "manualActionRequired": "Ação manual necessária",
+            "cancel": "@:{'common.cancel'}",
+            "catFlavorText": "Texto Descritivo",
+            "catLcpOrigin": "LCP Origem",
+            "catNpcStats": "Estatísticas de PNJs",
+            "foundFixable": "Encontrado {count} problema corrigível | Encontrados {count} problemas corrigíveis",
+            "andRequiringManual": " e {count} problema que requer ação manual | e {count} problemas que requerem ação manual",
+            "applyFixesButton": "Aplicar {count} correção | Aplicar {count} correções"
+        },
+        "achievementItem": {
+            "dataRedacted": "Dados ocultados"
+        }
+    },
+    "share": {
+        "resultAuthor": "Autor",
+        "resultLastUpdated": "Ultima Atualização",
+        "addAsRemote": "adicionar como um recurso remoto",
+        "addAsLocalCopy": "adicionar apenas como copia local",
+        "titles": {
+            "pleaseUseResponsibly": "Por favor use com responsabilidade"
+        },
+        "tooltips": {
+            "copyShareCodeToClipboard": "Código de Compartilhamento copiado para área de transferência",
+            "copyShareLinkToClipboard": "link de Compartilhamento copiado para área de transferência"
         }
     }
 }
