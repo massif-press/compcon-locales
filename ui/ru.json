@@ -764,7 +764,8 @@
             "accountDeletion": "Удаление учётной записи",
             "changelog": "Список изменений",
             "credits": "Информация о разработчиках",
-            "storagePermissionRequired": "Требуется разрешение на сохранение"
+            "storagePermissionRequired": "Требуется разрешение на сохранение",
+            "deleteCollection": "удалить коллекцию"
         }
     },
     "pm": {
@@ -776,7 +777,9 @@
             "appearance": "Внешний вид"
         },
         "sheet": {
-            "background": "предыстория"
+            "background": "предыстория",
+            "sortByName": "Сортировать по имени",
+            "revert": "Отбросить изменения"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
