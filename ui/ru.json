@@ -748,7 +748,8 @@
             "filter": "Фильтр",
             "oldPassword": "Старый пароль",
             "newPassword": "Новый Пароль",
-            "deleteAccount": "Удалить Аккаунт"
+            "deleteAccount": "Удалить Аккаунт",
+            "newEmail": "Новая почта"
         }
     },
     "pm": {
