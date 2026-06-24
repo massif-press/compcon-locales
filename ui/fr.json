@@ -138,6 +138,9 @@
         },
         "roster": {
             "newPilot": "Nouveau pilote"
+        },
+        "nav": {
+            "campaignManager": "Gestionnaire de Campagne"
         }
     }
 }
