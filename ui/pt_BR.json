@@ -175,7 +175,8 @@
         "roll_noun": "Rolagem",
         "background": "Antecedente",
         "changelog": "Registro de Mudanças",
-        "deployables": "Posicionáveis"
+        "deployables": "Posicionáveis",
+        "player": "Jogador"
     },
     "print": {
         "titles": {
@@ -1851,7 +1852,8 @@
             "copiedToClipboard": "Copiado para a Área de Transferência",
             "noMapData": "Sem Dados de Mapa",
             "nominal": "Nominal",
-            "halfDamage": "Metade do Dano"
+            "halfDamage": "Metade do Dano",
+            "condition_status": "Condição"
         },
         "roster": {
             "addFromRoster": "adicionar da lista",
@@ -2379,7 +2381,7 @@
             "unconscious": "O piloto está inconsciente e qualquer dano adicional os matará."
         },
         "pcPanel": {
-            "pilotMounted": "Piloto montado",
+            "pilotMounted": "Piloto Montado",
             "pilotUnmounted": "Piloto desmontado",
             "noReserves": "Sem reservas disponíveis"
         },
