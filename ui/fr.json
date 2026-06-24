@@ -75,7 +75,41 @@
         "setCustomDescription": "Saisir une description personnalisée",
         "setCustomName": "Sasir un nom personnalisé",
         "tables": "Tableaux",
-        "repairs": "Réparations"
+        "repairs": "Réparations",
+        "remove": "Retirer",
+        "manageContent": "Gérer le contenu",
+        "fileImport": "Importer le fichier",
+        "saveAndExit": "Sauvegarder et quitter",
+        "saveAndClose": "Sauvegarder et fermer",
+        "importCampaign": "Importer une campagne",
+        "ok": "Ok",
+        "loading": "Chargement…",
+        "website": "Site web",
+        "offline": "Hors-ligne",
+        "options": "Options",
+        "name": "Nom",
+        "version": "Version",
+        "settings": "Paramètres",
+        "deployment": "Déploiement",
+        "objective": "Objectif",
+        "reinforcement": "Renforts",
+        "clearAllData": "Effacer toutes les données",
+        "encounters": "Rencontres",
+        "activeMode": "Mode actif",
+        "help": "Aide",
+        "confirmImport": "Confirmer l'importation",
+        "forceImport": "Forcer l'importation",
+        "callsign": "Nom de code",
+        "cancelPermanentDeletion": "Annuler la suppression définitive",
+        "confirmPermanentDeletion": "Confirmer la suppression définitive",
+        "contentLabel": "Contenu",
+        "contents": "Contenus",
+        "deleteItemsPermanently": "Supprimer ces objets définitivement",
+        "details": "Détails",
+        "eidolon": "Eidolon",
+        "ignoreLimit": "Ignorer la limite",
+        "actionCannotBeUndone": "Cette action ne peut pas être annulée",
+        "systemPoints": "Points de Système"
     },
     "gm": {
         "fields": {
@@ -83,11 +117,28 @@
         }
     },
     "language": {
-        "pctTransComplete": "{pct}% traduit"
+        "pctTransComplete": "{pct}% traduit",
+        "selectLanguage": "Langue"
     },
     "classes": {
         "newTable": "Nouveau tableau",
         "newCollection": "Nouvelle collection",
-        "newSkillTrigger": "Nouvelle spécialité"
+        "newSkillTrigger": "Nouvelle spécialité",
+        "newCampaign": "Nouvelle campagne",
+        "newSection": "Nouvelle section",
+        "newContent": "Nouveau contenu",
+        "newCharacter": "Nouveau personnage",
+        "newFaction": "Nouvelle Faction",
+        "newNpc": "Nouveau PNJ",
+        "newEidolon": "Nouvel Eidolon"
+    },
+    "nav": {
+        "contentManager": {
+            "installLcp": "Installer un fichier .LCP",
+            "deleteAll": "Tout supprimer"
+        },
+        "roster": {
+            "newPilot": "Nouveau pilote"
+        }
     }
 }
