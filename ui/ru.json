@@ -991,7 +991,8 @@
             "patreonUnlinkedTitle": "Аккаунт на Patreon отвязан",
             "patreonUnlinkedText": "Ваш аккаунт на Patreon был отвязан",
             "emailChangeCompleteText": "Ваш электронный адрес был изменен.",
-            "emailChangeCancelledTitle": "Изменение адреса электронной почты отменено"
+            "emailChangeCancelledTitle": "Изменение адреса электронной почты отменено",
+            "publishedTitle": "Опубликовано"
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
@@ -1038,6 +1039,9 @@
         },
         "transfer": {
             "downloadCompleteTitle": "Загрузка завершена"
+        },
+        "settings": {
+            "v2NoData": "Данные не найдены"
         }
     },
     "print": {
