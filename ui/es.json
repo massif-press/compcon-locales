@@ -149,7 +149,8 @@
         "pilotSheet": "Hoja del Piloto",
         "side": "Lado",
         "systemPoints": "Puntos de Sistema",
-        "remove": "Eliminar"
+        "remove": "Eliminar",
+        "hidden": "Oculto"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -264,7 +265,7 @@
             "additionalArtBy": "Arte adicional por:"
         },
         "achievements": {
-            "unlocked": "desbloqueado",
+            "unlocked": "Desbloqueado",
             "common": "Común",
             "epic": "Épico",
             "legendary": "Legendario",
@@ -835,7 +836,7 @@
             "conditions": "Condiciones",
             "enemyForces": "FUERZAS ENEMIGAS",
             "alliedForces": "FUERZAS ALIADAS",
-            "neutral": "NEUTRAL",
+            "neutral": "Neutral",
             "optional": "Opcional",
             "groupBy": "Agrupar por",
             "sortBy": "Ordenar por",
