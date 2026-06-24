@@ -42,7 +42,6 @@
         "rank": "Ранг",
         "copyLink": "Копировать ссылку",
         "attackBonus": "Бонус к атаке",
-        "roll": "Бросок",
         "mainMenu": "Главное меню",
         "pilotRoster": "Ростер пилотов",
         "compendium": "Компендиум",
@@ -261,7 +260,6 @@
             "byLabel": "По меткам:",
             "secretAchievements": "Секретные достижения",
             "mythic": "Мифические",
-            "hidden": "Скрыто",
             "overwriteAllWarning": "Перезаписать все",
             "display": "Показать:",
             "selectAll": "@:{'common.selectAll'}",
@@ -283,7 +281,6 @@
             "showExoticsTooltip": "Выбор этой опции может раскрыть для вас спойлеры игровой кампании, данную опцию лучше оставлять ВЫКЛЮЧЕННОЙ, если вы не являетесь ведущим",
             "logLevelLabel": "@:{'common.logLevel'}",
             "theme": "Тема",
-            "errorReportingPrefix": "Отчёты об ошибках",
             "enabled": "включено",
             "enhancedReportingPiiNote": "неанонимную информацию, а именно, IP-адрес и ID пользователя",
             "enhancedReportingNotNecessary": "необязательно",
@@ -326,8 +323,7 @@
         },
         "packsDirectory": {
             "officialContent": "Официальный",
-            "clickHere": "нажмите здесь.",
-            "content": "Материалы"
+            "clickHere": "нажмите здесь."
         },
         "packConfig": {
             "createConfig": "Создать новую конфигурацию",
@@ -341,8 +337,6 @@
             "tabStorage": "Хранилище"
         },
         "packInfo": {
-            "changelog": "Список изменений",
-            "contentHeading": "Содержимое",
             "dependencies": "Зависимости"
         },
         "communityTable": {
@@ -467,7 +461,6 @@
         "noItem": {
             "noItemSelected": "Ничего не выбрано"
         },
-        "resolution": "Разрешение",
         "overview": {
             "addContact": "Добавить контакт",
             "setCoverImage": "Задать изображение для обложки",
@@ -515,7 +508,6 @@
             "clickToEdit": "Нажмите для редактирования"
         },
         "sitrep": {
-            "condition": "Условия",
             "savePreset": "Сохранить шаблон",
             "presets": "Шаблоны"
         },
@@ -526,9 +518,6 @@
             "templates": "Шаблоны"
         },
         "reinforcements": "Подкрепления",
-        "encPrint": {
-            "neutral": "Нейтральный"
-        },
         "eidolon": {
             "noLayers": "слои отсутствуют",
             "layers": "Слои",
@@ -576,7 +565,6 @@
             "override": "заменить",
             "dangerZone": "Зона риска",
             "target": "Цель",
-            "condition": "Состояние",
             "saveSuccessful": "Сохранение успешно",
             "copiedToClipboard": "Скопировано в буфер обмена"
         },
@@ -672,8 +660,7 @@
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
-            "apply": "Применить",
-            "diceRoller": "Бросание костей"
+            "apply": "Применить"
         },
         "customStat": {
             "static": "Статический",
@@ -722,7 +709,6 @@
         },
         "collection": {
             "colLastUpdate": "Последнее обновление",
-            "changelog": "Список изменений",
             "colChanges": "Изменения"
         },
         "cloudData": {
@@ -751,8 +737,7 @@
             "versionN": "версия {version}",
             "saveDraft": "Сохранить черновик",
             "deleteCollection": "Удалить коллекцию",
-            "actionUndone": "Это действие нельзя отменить.",
-            "deleteCollectionBtn": "удалить коллекцию"
+            "actionUndone": "Это действие нельзя отменить."
         },
         "dataItem": {
             "retryConnection": "Повторная попытка подключения"
@@ -803,10 +788,8 @@
             "forceDownload": "Принудительное скачивание",
             "confirmDelete": "Подтвердить удаление",
             "accountDeletion": "Удаление учётной записи",
-            "changelog": "Список изменений",
             "credits": "Информация о разработчиках",
-            "storagePermissionRequired": "Требуется разрешение на сохранение!",
-            "deleteCollection": "удалить коллекцию"
+            "storagePermissionRequired": "Требуется разрешение на сохранение!"
         },
         "deleteAccount": {
             "notPurchases": "Удалить все покупки, совершённые через itch.io или прекратить подписку на Patreon"
@@ -819,12 +802,10 @@
         "new": {
             "down": "вниз",
             "identification": "Идентификация",
-            "background": "Предыстория",
             "biography": "Биография",
             "appearance": "Внешний вид"
         },
         "sheet": {
-            "background": "предыстория",
             "sortByName": "Сортировать по имени",
             "revert": "Отмена изменений",
             "addEquipment": "Добавить снаряжение"
@@ -844,7 +825,6 @@
             "armor3": "Броня:",
             "name": "ИМЯ",
             "gain": "Получить",
-            "player": "Игрок",
             "other": "Иное"
         },
         "roster": {
@@ -857,7 +837,6 @@
             "addGroupDescription": "Добавить описание группы",
             "editGroupDescription": "Редактировать описание группы",
             "lastModified": "Последние изменения",
-            "hidden": "скрыто",
             "addGroup": "Добавить группу"
         },
         "fields": {
@@ -937,7 +916,6 @@
             "requiresAccount": "Требуется аккаунт @:{'common.appName'}"
         },
         "action": {
-            "frequency": "Частота",
             "compendiumEntry": "Запись в компендиуме"
         },
         "titles": {
@@ -1042,6 +1020,22 @@
             "copiedTitle": "Статблок скопирован в буфер обмена",
             "copiedText": "Успешно скопировано",
             "errorText": "Не удалось скопировать статблок"
+        },
+        "dataItem": {
+            "connectionRestoredTitle": "Соединение восстановлено",
+            "itemDeletedTitle": "Элемент удалён",
+            "restoreFailedTitle": "Не удалось восстановить"
+        },
+        "share": {
+            "syncCompleteTitle": "Синхронизация завершена"
+        },
+        "common": {
+            "success": "Успех",
+            "error": "Ошибка",
+            "copied": "Скопировано"
+        },
+        "transfer": {
+            "downloadCompleteTitle": "Загрузка завершена"
         }
     },
     "print": {
@@ -1059,7 +1053,9 @@
         "hull": "Корпус",
         "agi": "Ловкость",
         "sys": "Системы",
-        "hp": "ОЗ"
+        "hp": "ОЗ",
+        "sensors": "Сенсоры",
+        "structure": "Структура"
     },
     "share": {
         "resultAuthor": "Автор",
