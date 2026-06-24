@@ -803,7 +803,9 @@
             "finishEditing": "Закончить редактирование",
             "deleteGroup": "Удалить группу",
             "transfer": "Перевести",
-            "optional": "(Опционально)"
+            "optional": "(Опционально)",
+            "addGroupDescription": "Добавить описание группы",
+            "editGroupDescription": "Описание группы"
         }
     },
     "ui": {
