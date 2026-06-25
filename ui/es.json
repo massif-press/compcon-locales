@@ -2122,7 +2122,9 @@
             "includePilotNETDiscordEmoji": "Incluye Piloto NET Discord Emoji",
             "otherBonds": "Otros bonos",
             "selectionsAvailable": "Selecciones disponibles",
-            "sortByName": "Ordenar por nombre"
+            "sortByName": "Ordenar por nombre",
+            "sortByManufacturer": "Ordenar por Fabricantes",
+            "addNewMech": "Añadir nuevo Mech"
         }
     },
     "share": {
