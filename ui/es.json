@@ -2133,7 +2133,8 @@
         "print": {
             "pilotSheetOptions": "Opciones de hoja piloto",
             "mechSheetOptions": "Opciones de hoja de mech",
-            "pageBreak": "Página"
+            "pageBreak": "Página",
+            "onMISS": "EN LA MISS:"
         }
     },
     "share": {
