@@ -2067,7 +2067,8 @@
         "new": {
             "pilot": "PILOT",
             "up": "arriba",
-            "newPilotRegistration": "Nuevo registro piloto"
+            "newPilotRegistration": "Nuevo registro piloto",
+            "biography": "BIOGRAFÍA"
         }
     },
     "share": {
