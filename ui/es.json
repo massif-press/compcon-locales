@@ -2121,7 +2121,8 @@
             "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)",
             "includePilotNETDiscordEmoji": "Incluye Piloto NET Discord Emoji",
             "otherBonds": "Otros bonos",
-            "selectionsAvailable": "Selecciones disponibles"
+            "selectionsAvailable": "Selecciones disponibles",
+            "sortByName": "Ordenar por nombre"
         }
     },
     "share": {
