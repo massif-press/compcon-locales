@@ -2093,7 +2093,8 @@
             "duplicatingOrCloningAPilotWill": "Duplicar o cerrar un piloto eliminará cualquier enlace Vault, salvando al piloto copiado como nuevo\ncarácter en su cuenta",
             "currentConfiguration": "Configuración actual:",
             "unrestrictedAccess": "Acceso no restringido",
-            "clearConfiguration": "Configuración clara"
+            "clearConfiguration": "Configuración clara",
+            "editingThisPilotSLevelMay": "Editar el nivel de este Piloto puede evitar que ciertos logros se desbloqueen con esto\nPiloto. Si desea utilizar este Piloto para desbloquear logros relacionados con Piloto, utilice el Nivel Up\nmago en su lugar."
         }
     },
     "share": {
