@@ -2049,7 +2049,8 @@
             "importSuccessTitle": "Importado Exitósamente",
             "importErrorText": "No es posible leer el archivo: {error}",
             "importPilotErrorText": "No es posible importar Piloto: {error}",
-            "groupImportSuccessText": "{name} añadido con éxito."
+            "groupImportSuccessText": "{name} añadido con éxito.",
+            "groupImportErrorText": "Unable to import pilot group: {error}"
         },
         "export": {
             "exportErrorText": "@:{'common.appName'} no pudo exportar datos de piloto",
