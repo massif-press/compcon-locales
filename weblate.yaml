@@ -29,3 +29,10 @@ components:
     filemask: content/lancer-data/*.json
     template: content/lancer-data/en.json
     new_base: content/lancer-data/en.json
+
+  # English base generated from the in-app SRD reference (src/assets/srd)
+  - name: CRB Reference
+    slug: lancer-srd
+    filemask: content/lancer-srd/*.json
+    template: content/lancer-srd/en.json
+    new_base: content/lancer-srd/en.json
