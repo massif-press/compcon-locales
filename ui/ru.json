@@ -800,7 +800,9 @@
         },
         "dataItem": {
             "retryConnection": "Повторная попытка подключения",
-            "deleteNItems": "Удалить {count} элемент | Удалить {count} элементы"
+            "deleteNItems": "Удалить {count} элемент | Удалить {count} элементы",
+            "convertToLocalDesc": "Убрать ссылку на удалённый источник. Данные хранятся локально.",
+            "restoreLocalDesc": "Восстановить этот предмет локально."
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
