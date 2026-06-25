@@ -2081,7 +2081,8 @@
             "selectingATemplateWillCompleteThe": "Seleccionar una plantilla completará la interfaz Nuevo Piloto y comenzará su Piloto con un\ncomisariado conjunto de habilidades y talentos y un traje GMS EVEREST mech, adaptado al\nfunción de combate seleccionada a continuación. Todas estas selecciones pueden ser editadas en cualquier momento a través de\nlas secciones de carga Pilot y Mech Sheet, así como las secciones con las"
         },
         "sheet": {
-            "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con VTT\nsistemas y aplicaciones v2"
+            "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con VTT\nsistemas y aplicaciones v2",
+            "shareThisPilotSDataWith": "Compartir los datos de este piloto con otros usuarios a través de una cuota\ncódigo"
         }
     },
     "share": {
