@@ -1958,7 +1958,7 @@
             "sessionNotes": "Notas da Sessão"
         },
         "pcDeploy": {
-            "deployedEquipment": "Equipamento Implantado",
+            "deployedEquipment": "Equipamento Implantável",
             "noActive": "Nenhum equipamento ativo.",
             "noSelected": "Nenhum equipamento selecionado."
         },
