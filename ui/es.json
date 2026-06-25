@@ -2070,7 +2070,8 @@
             "newPilotRegistration": "Nuevo registro piloto",
             "biography": "BIOGRAFÍA",
             "addPilotBiography": "Add Pilot Biography",
-            "editPilotBiography": "Editar biografía piloto"
+            "editPilotBiography": "Editar biografía piloto",
+            "editPilotImage": "Editar imagen piloto"
         }
     },
     "share": {
