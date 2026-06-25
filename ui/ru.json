@@ -721,7 +721,8 @@
             "removeFromEncounter": "Удалить из боя",
             "playedBy": "Играется",
             "pilotCombatStats": "Боевые характеристики пилота",
-            "activeMech": "Активный мех"
+            "activeMech": "Активный мех",
+            "selectPilot": "Выбрать пилота"
         }
     },
     "mainMenu": {
@@ -793,7 +794,8 @@
             "actionUndone": "Это действие нельзя отменить."
         },
         "dataItem": {
-            "retryConnection": "Повторная попытка подключения"
+            "retryConnection": "Повторная попытка подключения",
+            "deleteNItems": "Удалить {count} элемент | Удалить {count} элементы"
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
@@ -865,7 +867,8 @@
             "forceDownload": "Принудительное скачивание",
             "confirmDelete": "Подтвердить удаление",
             "accountDeletion": "Удаление учётной записи",
-            "storagePermissionRequired": "Требуется разрешение на сохранение!"
+            "storagePermissionRequired": "Требуется разрешение на сохранение!",
+            "roster": "Личный состав"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
