@@ -2040,7 +2040,8 @@
         },
         "import": {
             "importSuccessTitle": "Importado Correctamente",
-            "importErrorText": "Incapaz de leer el archivo: {error}"
+            "importErrorText": "Incapaz de leer el archivo: {error}",
+            "importPilotErrorText": "Incapaz de importar Piloto: {error}"
         }
     },
     "share": {
