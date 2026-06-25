@@ -2072,7 +2072,8 @@
             "addPilotBiography": "Add Pilot Biography",
             "editPilotBiography": "Editar biografía piloto",
             "editPilotImage": "Editar imagen piloto",
-            "addPilotImage": "Agregar imagen piloto"
+            "addPilotImage": "Agregar imagen piloto",
+            "skipNewPilotRegistration": "Saltar nuevo registro piloto"
         }
     },
     "share": {
