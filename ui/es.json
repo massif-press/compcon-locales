@@ -2089,7 +2089,8 @@
             "manageWhichContentPacksAreAccessible": "Administrar qué paquetes de contenido son accesibles para este piloto",
             "downloadLatestData": "Descargar Datos más recientes",
             "pilotIsUpToDateWith": "Piloto está actualizado con datos remotos",
-            "downloadAllRemoteChangesToThis": "Descargar todos los cambios remotos a este piloto, sobreescribir datos locales."
+            "downloadAllRemoteChangesToThis": "Descargar todos los cambios remotos a este piloto, sobreescribir datos locales.",
+            "duplicatingOrCloningAPilotWill": "Duplicar o cerrar un piloto eliminará cualquier enlace Vault, salvando al piloto copiado como nuevo\ncarácter en su cuenta"
         }
     },
     "share": {
