@@ -2085,7 +2085,9 @@
             "shareThisPilotSDataWith": "Compartir los datos de este piloto con otros usuarios a través de una cuota\ncódigo",
             "convertThisPilotToAnEditable": "Convertir este Pilot en una instancia de datos local editable",
             "duplicateOrFlashCloneThisCharacter": "Duplicar o Flash Clone este personaje",
-            "setLCPConfiguration": "Establecer LCP Configuración"
+            "setLCPConfiguration": "Establecer LCP Configuración",
+            "manageWhichContentPacksAreAccessible": "Administrar qué paquetes de contenido son accesibles para este piloto",
+            "downloadLatestData": "Descargar Datos más recientes"
         }
     },
     "share": {
