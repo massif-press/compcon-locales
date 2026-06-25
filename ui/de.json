@@ -420,7 +420,8 @@
         },
         "deletedItems": {
             "noItemsFound": "Keine Elemente gefunden",
-            "itemName": "Elementname"
+            "itemName": "Elementname",
+            "itemType": "Elementtyp"
         },
         "packInstall": {
             "alreadyInstalledWarning": "Folgendes Inhaltspaket ist bereits installiert und wird ersetzt: | Folgende Inhaltspakete sind bereits installiert und werden ersetzt",
