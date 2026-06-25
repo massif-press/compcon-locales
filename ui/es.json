@@ -2088,7 +2088,8 @@
             "setLCPConfiguration": "Establecer LCP Configuración",
             "manageWhichContentPacksAreAccessible": "Administrar qué paquetes de contenido son accesibles para este piloto",
             "downloadLatestData": "Descargar Datos más recientes",
-            "pilotIsUpToDateWith": "Piloto está actualizado con datos remotos"
+            "pilotIsUpToDateWith": "Piloto está actualizado con datos remotos",
+            "downloadAllRemoteChangesToThis": "Descargar todos los cambios remotos a este piloto, sobreescribir datos locales."
         }
     },
     "share": {
