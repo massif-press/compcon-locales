@@ -2092,7 +2092,8 @@
             "downloadAllRemoteChangesToThis": "Descargar todos los cambios remotos a este piloto, sobreescribir datos locales.",
             "duplicatingOrCloningAPilotWill": "Duplicar o cerrar un piloto eliminará cualquier enlace Vault, salvando al piloto copiado como nuevo\ncarácter en su cuenta",
             "currentConfiguration": "Configuración actual:",
-            "unrestrictedAccess": "Acceso no restringido"
+            "unrestrictedAccess": "Acceso no restringido",
+            "clearConfiguration": "Configuración clara"
         }
     },
     "share": {
