@@ -2042,7 +2042,8 @@
             "empty": "Vacío",
             "selectPilotWeapon": "Seleccionar Arma de Piloto",
             "currentlyEQUIPPED": "Equipado actualmente",
-            "improvedARMAMENT": "(ARMAMENTO APROBADO)"
+            "improvedARMAMENT": "(ARMAMENTO APROBADO)",
+            "superheavyMOUNTING": "(SUPERHEAVY MOUNTING)"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
