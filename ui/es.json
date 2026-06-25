@@ -156,7 +156,11 @@
         "hpBonus": "Bono de Pv",
         "setCustomDescription": "Fijar Descripción Personalizada",
         "pilotGroup": "Grupo de Pilotos",
-        "background": "Trasfondo"
+        "background": "Trasfondo",
+        "player": "Jugador",
+        "deployables": "Desplegables",
+        "talents": "Talentos",
+        "hase_h": "C"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -1541,7 +1545,9 @@
             "activeLayer": "Capa Activa",
             "active": "(Activo)",
             "generateN": "Generar {n}",
-            "persistentTraits": "Rasgos Persistentes ({n})"
+            "persistentTraits": "Rasgos Persistentes ({n})",
+            "shard": "Fragmento",
+            "noShards": "Capa no tiene Fragmentos"
         },
         "mechPanel": {
             "meltdown": "Este mecha ha sufrido una fusión del reactor. Está permanentemente destruido y no se puede reparar.",
