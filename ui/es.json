@@ -155,7 +155,8 @@
         "ok": "OK",
         "hpBonus": "Bono de Pv",
         "setCustomDescription": "Fijar Descripción Personalizada",
-        "pilotGroup": "Grupo de Pilotos"
+        "pilotGroup": "Grupo de Pilotos",
+        "background": "Trasfondo"
     },
     "language": {
         "selectLanguage": "Idioma",
