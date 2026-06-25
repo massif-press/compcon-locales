@@ -167,7 +167,8 @@
         "changelog": "Список изменений",
         "roll_noun": "Бросок",
         "organize": "Группировать",
-        "mech": "Мех"
+        "mech": "Мех",
+        "deployables": "Размещаемое"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -952,7 +953,10 @@
             "addGroupDescription": "Добавить описание группы",
             "editGroupDescription": "Редактировать описание группы",
             "lastModified": "Последние изменения",
-            "addGroup": "Добавить группу"
+            "addGroup": "Добавить группу",
+            "createNewPilot": "Создать нового пилота",
+            "addANewPilotToName": "Внести нового пилота в {name}",
+            "transferPilots": "Перенести пилотов"
         },
         "fields": {
             "resourceName": "Название ресурса",
