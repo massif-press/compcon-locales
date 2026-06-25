@@ -2041,7 +2041,11 @@
         "import": {
             "importSuccessTitle": "Importado Correctamente",
             "importErrorText": "Incapaz de leer el archivo: {error}",
-            "importPilotErrorText": "Incapaz de importar Piloto: {error}"
+            "importPilotErrorText": "Incapaz de importar Piloto: {error}",
+            "groupImportSuccessText": "{name} añadido con éxito."
+        },
+        "export": {
+            "exportErrorText": "COMP/CON no pudo exportar datos piloto"
         }
     },
     "share": {
