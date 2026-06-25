@@ -2084,7 +2084,8 @@
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con VTT\nsistemas y aplicaciones v2",
             "shareThisPilotSDataWith": "Compartir los datos de este piloto con otros usuarios a través de una cuota\ncódigo",
             "convertThisPilotToAnEditable": "Convertir este Pilot en una instancia de datos local editable",
-            "duplicateOrFlashCloneThisCharacter": "Duplicar o Flash Clone este personaje"
+            "duplicateOrFlashCloneThisCharacter": "Duplicar o Flash Clone este personaje",
+            "setLCPConfiguration": "Establecer LCP Configuración"
         }
     },
     "share": {
