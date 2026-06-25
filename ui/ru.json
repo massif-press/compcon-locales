@@ -584,10 +584,10 @@
             "saveFailed": "Не удалось завершить сохранение",
             "prepared": "Подготовился",
             "preparedText": "{name} был помечен, как подготовившийся.",
-            "hiddenText": "{name} скрыт.",
+            "hiddenText": "{name} СКРЫТ.",
             "disengageFailed": "Не удалось отойти",
             "disengageFailedText": "{name} не в столкновении.",
-            "disengagedText": "{name} смог отойти.",
+            "disengagedText": "{name} смог ОТОЙТИ.",
             "nominal": "Номинальный",
             "halfDamage": "Половина урона",
             "condition_status": "Состояние"
@@ -693,7 +693,8 @@
             "override": "// Заменить"
         },
         "pilotActions": {
-            "mountFailedTitle": "Не удалось взобраться"
+            "mountFailedTitle": "Не удалось взобраться",
+            "disengagedTitle": "Пилот отошёл"
         },
         "addCombatant": {
             "doodadAddedTitle": "Добавлена штуковина",
@@ -729,6 +730,9 @@
             "pilotCombatStats": "Боевые характеристики пилота",
             "activeMech": "Активный мех",
             "selectPilot": "Выбрать пилота"
+        },
+        "npcActions": {
+            "npcDisengagedTitle": "НИП отошёл"
         }
     },
     "mainMenu": {
