@@ -42,7 +42,7 @@
         "copyLink": "Копировать ссылку",
         "attackBonus": "Бонус к атаке",
         "mainMenu": "Главное меню",
-        "pilotRoster": "Ростер пилотов",
+        "pilotRoster": "Личный состав",
         "compendium": "Компендиум",
         "campaignLibrary": "Библиотека кампаний",
         "copyShareCode": "Копировать публичный код",
@@ -168,7 +168,10 @@
         "hase_a": "Л",
         "hase_s": "С",
         "hase_e": "И",
-        "changelog": "Список изменений"
+        "changelog": "Список изменений",
+        "roll_noun": "Бросок",
+        "organize": "Группировать",
+        "mech": "Мех"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -341,7 +344,8 @@
         },
         "packsDirectory": {
             "officialContent": "Официальный",
-            "clickHere": "нажмите здесь."
+            "clickHere": "нажмите здесь.",
+            "massifPress": "MASSIF PRESS"
         },
         "packConfig": {
             "createConfig": "Создать новую конфигурацию",
