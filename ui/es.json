@@ -2065,7 +2065,9 @@
             "isEligibleForTheFollowingLicense": "es elegible para la siguiente actualización de licencia:"
         },
         "new": {
-            "pilot": "PILOT"
+            "pilot": "PILOT",
+            "up": "arriba",
+            "newPilotRegistration": "Nuevo registro piloto"
         }
     },
     "share": {
