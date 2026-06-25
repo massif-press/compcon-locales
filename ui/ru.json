@@ -115,7 +115,7 @@
         "alert": "Предупреждение",
         "pilotLoadout": "Снаряжение пилота",
         "effect": "Эффект",
-        "logLevel": "Степень логирования:",
+        "logLevel": "Степень логирования",
         "selectAll": "Выбрать все",
         "warning": "Предупреждение",
         "preview": "Предпросмотр",
@@ -270,12 +270,12 @@
             "epic": "Эпичные",
             "legendary": "Легендарные",
             "locked": "Скрыто",
-            "byRarity": "По редкости:",
-            "byLabel": "По меткам:",
+            "byRarity": "По редкости",
+            "byLabel": "По меткам",
             "secretAchievements": "Секретные достижения",
             "mythic": "Мифические",
             "overwriteAllWarning": "Перезаписать все",
-            "display": "Показать:",
+            "display": "Показать",
             "selectAll": "@:{'common.selectAll'}",
             "none": "@:{'common.none'}",
             "name": "@:{'common.name'}",
@@ -371,13 +371,13 @@
             "recentSearches": "недавние поисковые запросы"
         },
         "credits": {
-            "with": "А также:",
-            "lancerBy": "@:{'common.gameName'} авторства:",
-            "compconBy": "@:{'common.appName'} авторства:",
-            "graphicDesignBy": "Графический дизайн выполнили:",
-            "additionalArtBy": "Дополнительные изображения предоставлены:",
+            "with": "А также",
+            "lancerBy": "@:{'common.gameName'} авторства",
+            "compconBy": "@:{'common.appName'} авторства",
+            "graphicDesignBy": "Графический дизайн выполнили",
+            "additionalArtBy": "Дополнительные изображения предоставлены",
             "patronThanks": "Развитие @:{'common.appName'} стало возможным благодаря щедрой",
-            "supportOf": ":",
+            "supportOf": "",
             "tier": "@:{'common.tier'}",
             "anonymousPatron": "анонимных подписчиков"
         },
@@ -424,7 +424,7 @@
             "coreBookInfo": "Основная книга правил @:{'common.gameName'}, @:{'common.appName'}, а также сопуствующие материалы можно найти по ссылке",
             "title": "@:{'common.appName'}",
             "ccVersion": "Версия C/C:",
-            "lancerCoreVersion": "@:{'common.gameName'} версия игры:"
+            "lancerCoreVersion": "@:{'common.gameName'} версия игры"
         },
         "log": {
             "exportLog": "Экспорт логов"
@@ -557,6 +557,10 @@
         },
         "encounterEditor": {
             "additionalNotes": "Дополнительные примечания"
+        },
+        "npcTemplate": {
+            "noTemplates": "Шаблоны отсустствуют",
+            "selectNpcTemplate": "выбрать шаблон НИПа"
         }
     },
     "active": {
@@ -668,7 +672,8 @@
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
-            "apply": "Применить"
+            "apply": "Применить",
+            "addAPilotFromYourLocalPilotRoster": "Добавить пилота из локального списка личного состава"
         },
         "customStat": {
             "static": "Статический",
@@ -751,7 +756,8 @@
         },
         "collection": {
             "colChanges": "Изменения",
-            "addCollectionItem": "Добавить элемент из подборки"
+            "addCollectionItem": "Добавить элемент из подборки",
+            "distributeWarning": "Распространение материалов без соответствующего разрешения противоречит условия использования @:{'common.appName'}: ваш аккаунт будет заблокирован облачным сервисом, ваши облачные данные и аккаунт будут удалены, также вы потеряете возможность быть подписанными на Patreon @:{'common.appName'} и будете заблокированы на этой платформе."
         },
         "cloudData": {
             "imagesTab": "Изображения",
