@@ -2118,7 +2118,8 @@
             "duplicatePilot": "Duplicar Piloto",
             "currentLEVEL": "Nivel actual",
             "identityVERIFIED": "Identidad verificada",
-            "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)"
+            "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)",
+            "includePilotNETDiscordEmoji": "Incluye Piloto NET Discord Emoji"
         }
     },
     "share": {
