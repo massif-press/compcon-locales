@@ -2091,7 +2091,8 @@
             "pilotIsUpToDateWith": "Piloto está actualizado con datos remotos",
             "downloadAllRemoteChangesToThis": "Descargar todos los cambios remotos a este piloto, sobreescribir datos locales.",
             "duplicatingOrCloningAPilotWill": "Duplicar o cerrar un piloto eliminará cualquier enlace Vault, salvando al piloto copiado como nuevo\ncarácter en su cuenta",
-            "currentConfiguration": "Configuración actual:"
+            "currentConfiguration": "Configuración actual:",
+            "unrestrictedAccess": "Acceso no restringido"
         }
     },
     "share": {
