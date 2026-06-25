@@ -36,7 +36,7 @@
         "confirmDeletion": "Confirmar Exclusão",
         "changeImage": "Trocar Imagem",
         "all": "Todos",
-        "selectAll": "Selecionar Todos",
+        "selectAll": "Selecionar Tudo",
         "warning": "Aviso",
         "alert": "Alerta",
         "preview": "Prévia",
@@ -68,7 +68,7 @@
         "importCampaign": "Importar Campanha",
         "ok": "OK",
         "loading": "Carregando…",
-        "website": "Website",
+        "website": "Site",
         "offline": "Offline",
         "options": "Opções",
         "none": "Nenhum",
@@ -881,7 +881,7 @@
         },
         "brokenRef": {
             "instancedItem": "Item Instanciado",
-            "partOfPack": "Este item faz parte do seguinte pacote de conteúdo Lancer (LCP)",
+            "partOfPack": "Este item faz parte do seguinte Pacote de Conteúdo Lancer (LCP):",
             "instancedNote": "Este item foi instanciado como um objeto único e se for removido não estará disponível até que o LCP associado seja instalado."
         },
         "dice": {
