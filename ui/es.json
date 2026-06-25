@@ -2037,6 +2037,9 @@
             "reorderSystems": "Reorder Systems",
             "selectPilotEquipment": "Seleccionar equipo piloto",
             "bracingMount": "montaje de fijación."
+        },
+        "import": {
+            "importSuccessTitle": "Importado Correctamente"
         }
     },
     "share": {
