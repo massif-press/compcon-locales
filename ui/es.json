@@ -2035,7 +2035,8 @@
             "selectedAMMUNITION": "Munición seleccionada",
             "integratedEquipment": "Equipo integrado",
             "reorderSystems": "Reorder Systems",
-            "selectPilotEquipment": "Seleccionar equipo piloto"
+            "selectPilotEquipment": "Seleccionar equipo piloto",
+            "bracingMount": "montaje de fijación."
         }
     },
     "share": {
