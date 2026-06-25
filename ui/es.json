@@ -2126,7 +2126,8 @@
             "sortByManufacturer": "Ordenar por Fabricantes",
             "addNewMech": "Añadir nuevo Mech",
             "mechOptions": "Opciones de mech",
-            "requiredFor": "Necesario para:"
+            "requiredFor": "Necesario para:",
+            "setMechImage": "Establecer imagen de Mech"
         }
     },
     "share": {
