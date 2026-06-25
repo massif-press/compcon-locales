@@ -167,7 +167,8 @@
         "changelog": "Список изменений",
         "roll_noun": "Бросок",
         "organize": "Группировать",
-        "mech": "Мех"
+        "mech": "Мех",
+        "deployables": "Размещаемые"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -349,7 +350,12 @@
         },
         "migrationRepair": {
             "colCategory": "Категория",
-            "colIssue": "Проблема"
+            "colIssue": "Проблема",
+            "colItem": "@:{'common.item'}",
+            "manualActionRequired": "Необходимо исправить вручную",
+            "cancel": "@:{'common.cancel'}",
+            "catLcpOrigin": "Исходный LCP",
+            "catNpcStats": "Характеристики НИПов"
         },
         "optionsPage": {
             "tabStorage": "Хранилище"
@@ -721,7 +727,8 @@
             "removeFromEncounter": "Удалить из боя",
             "playedBy": "Играется",
             "pilotCombatStats": "Боевые характеристики пилота",
-            "activeMech": "Активный мех"
+            "activeMech": "Активный мех",
+            "selectPilot": "Выбрать пилота"
         }
     },
     "mainMenu": {
@@ -793,7 +800,10 @@
             "actionUndone": "Это действие нельзя отменить."
         },
         "dataItem": {
-            "retryConnection": "Повторная попытка подключения"
+            "retryConnection": "Повторная попытка подключения",
+            "deleteNItems": "Удалить {count} элемент | Удалить {count} элементы",
+            "convertToLocalDesc": "Убрать ссылку на удалённый источник. Данные хранятся локально.",
+            "restoreLocalDesc": "Восстановить указанный элемент в локальную копию."
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
@@ -865,7 +875,8 @@
             "forceDownload": "Принудительное скачивание",
             "confirmDelete": "Подтвердить удаление",
             "accountDeletion": "Удаление учётной записи",
-            "storagePermissionRequired": "Требуется разрешение на сохранение!"
+            "storagePermissionRequired": "Требуется разрешение на сохранение!",
+            "roster": "Личный состав"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
@@ -931,7 +942,8 @@
             "system": "Система",
             "session": "Сессия",
             "resource": "Ресурс",
-            "gain": "Получить"
+            "gain": "Получить",
+            "deployable": "Размещаемое"
         },
         "roster": {
             "history": "История группы",
@@ -942,7 +954,10 @@
             "addGroupDescription": "Добавить описание группы",
             "editGroupDescription": "Редактировать описание группы",
             "lastModified": "Последние изменения",
-            "addGroup": "Добавить группу"
+            "addGroup": "Добавить группу",
+            "createNewPilot": "Создать нового пилота",
+            "addANewPilotToName": "Внести нового пилота в {name}",
+            "transferPilots": "Перенести пилотов"
         },
         "fields": {
             "resourceName": "Название ресурса",
@@ -955,7 +970,8 @@
         "card": {
             "tierColumns": "О1 / О2 / О3",
             "systemPoints": "Очки систем{plural}",
-            "integrations": "Интеграции"
+            "integrations": "Интеграции",
+            "equipmentDeployables": "Виды размещаемого снаряжения"
         },
         "tooltips": {
             "resetCounter": "Сброс счётчика",
@@ -1041,7 +1057,7 @@
         "coreBonus": {
             "remove": "Убрать данное ключевое улучшение",
             "actions": "Ключевое улучшение: действия",
-            "deployables": "Ключевое улучшение: развёртываемые устройства",
+            "deployables": "Ключевое улучшение: размещаемое",
             "integrated": "Ключевое улучшение: интегрированное снаряжение",
             "additional": "Ключевое улучшение: дополнительное снаряжение"
         },

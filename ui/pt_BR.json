@@ -657,7 +657,6 @@
             "noBondData": "Sem Dados de Vínculo",
             "noEidolonData": "Sem Dados de Eidolon",
             "lancerBasics": "Básico de Lancer",
-            "experimentalPreview": "PRÉVIA EXPERIMENTAL",
             "usingCompcon": "usando @:{'common.appName'}",
             "narrativePlay": "jogo narrativo"
         },
@@ -680,8 +679,7 @@
             "faqErrataNotice": "Este FAQ e Errata é um projeto conduzido pela comunidade e não faz parte de um lançamento oficial da Massif Press para o @:{'common.gameName'}. Esta página é fornecida pelos dados do FAQ de {repoLink} no GitHub, atualmente mantido por lenaleciel. Este documento também está disponível em {siteLink}.",
             "lancerFaqRepo": "repositório lancer-faq",
             "lancerFaqSite": "lancer-faq.netlify.app/",
-            "bookPage": "{book}, p. {page}",
-            "experimentalLangNote": "Esta é uma prévia experimental do recurso de seleção de idioma. A tradução para outros idiomas além do inglês é gerada por máquina e pode conter imprecisões."
+            "bookPage": "{book}, p. {page}"
         },
         "search": {
             "resultCount": "{count} resultado | {count} resultados"

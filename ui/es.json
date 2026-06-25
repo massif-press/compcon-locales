@@ -2118,7 +2118,31 @@
             "duplicatePilot": "Duplicar Piloto",
             "currentLEVEL": "Nivel actual",
             "identityVERIFIED": "Identidad verificada",
-            "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)"
+            "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)",
+            "includePilotNETDiscordEmoji": "Incluir Emoji de Discord Pilot NET",
+            "otherBonds": "Otros Lazos",
+            "selectionsAvailable": "Selecciones Disponibles",
+            "sortByName": "Ordenar por Nombre",
+            "sortByManufacturer": "Ordenar por Fabricantes",
+            "addNewMech": "Agregar Nuevo Mecha",
+            "mechOptions": "Opciones Mecha",
+            "requiredFor": "Necesario para",
+            "setMechImage": "Seleccionar Imagen de Mecha",
+            "identRecordNotice": "El uso indebido de este registro de IDENT y/o sus datos constitutivos por el titular del registro o cualquier otra persona se castiga de acuerdo al DoJ/HR A-645-c. Este registro es propiedad de la Oficina Administrativa de la Unión y la información en este documento debe ser transmitida a petición bajo los protocolos de encriptación NDL-C-DISCORDANT-BREATH. Este registro RM-4 debe actualizarse cada cinco (5) Años Estándar Cuna de tiempo objetivo para conservar los derechos de licenciamiento GMS. Los operativos de campo lejano que anticipan despliegues que duran más de cinco Años Estándar Cuna que no han solicitado un Gancho Omninet humano-portable deben aplicar por la RM-11-B IDENT Extensión Complementaria (b). Comuníquese con su Oficial local Administrativo de la Unión para cualquier otro asunto relacionado con este registro. V-CDL//M-265-114-831 (A)",
+            "warningLICENSEMISSING": "Advertencia: licencia faltante",
+            "killedINACTION": "Muerto en acción"
+        },
+        "print": {
+            "pilotSheetOptions": "Opciones Hoja de Piloto",
+            "mechSheetOptions": "Opciones Hoja de Mecha",
+            "pageBreak": "Salto de Página",
+            "onMISS": "Al fallar",
+            "range": "Rango",
+            "system": "Sistema",
+            "mechWEAPONMOUNT": "Montura arma mecha",
+            "onATTACK": "Al atacar",
+            "reserve": "Reserva",
+            "extras": "Extras"
         }
     },
     "share": {

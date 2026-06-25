@@ -295,7 +295,6 @@
         "reference": {
             "bookPage": "{book}, pag. {page}",
             "damageTables": "Tabelle dei Danni",
-            "experimentalLangNote": "Questa è un'anteprima sperimentale della funzione di selezione della lingua. Le traduzioni non in inglese sono attualmente generate automaticamente e potrebbero essere imprecise.",
             "faqErrata": "FAQ ed errata",
             "faqErrataNotice": "Queste FAQ ed errata sono un progetto guidato dalla community e non fanno parte di una release ufficiale @:{'common.gameName'} di Massif Press. Questa pagina è alimentata dai dati FAQ del {repoLink} su GitHub, attualmente gestito da lenaleciel. Questo documento è disponibile anche su {siteLink}.",
             "fullAction": "Azione Completa",
@@ -318,7 +317,6 @@
         "selectItem": "Seleziona {name}",
         "titles": {
             "developmentPreview": "Anteprima di Sviluppo",
-            "experimentalPreview": "ANTEPRIMA SPERIMENTALE",
             "importLancerCampaignData": "Importa Dati Campagna Lancer",
             "lancerBasics": "Basi di Lancer",
             "narrativePlay": "gioco narrativo",
