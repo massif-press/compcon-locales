@@ -2071,7 +2071,8 @@
             "biography": "BIOGRAFÍA",
             "addPilotBiography": "Add Pilot Biography",
             "editPilotBiography": "Editar biografía piloto",
-            "editPilotImage": "Editar imagen piloto"
+            "editPilotImage": "Editar imagen piloto",
+            "addPilotImage": "Agregar imagen piloto"
         }
     },
     "share": {
