@@ -2120,7 +2120,8 @@
             "identityVERIFIED": "Identidad verificada",
             "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)",
             "includePilotNETDiscordEmoji": "Incluye Piloto NET Discord Emoji",
-            "otherBonds": "Otros bonos"
+            "otherBonds": "Otros bonos",
+            "selectionsAvailable": "Selecciones disponibles"
         }
     },
     "share": {
