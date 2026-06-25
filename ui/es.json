@@ -2075,7 +2075,8 @@
             "addPilotImage": "Agregar imagen piloto",
             "skipNewPilotRegistration": "Saltar nuevo registro piloto",
             "recommendedForAdvancedUsers": "Recomendado para usuarios avanzados",
-            "selectCharacterTemplate": "Seleccionar caracteres Plantilla"
+            "selectCharacterTemplate": "Seleccionar caracteres Plantilla",
+            "recommendedForNewPlayers": "Recomendado para nuevos jugadores"
         }
     },
     "share": {
