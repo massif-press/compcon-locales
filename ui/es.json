@@ -2094,7 +2094,8 @@
             "currentConfiguration": "Configuración actual:",
             "unrestrictedAccess": "Acceso no restringido",
             "clearConfiguration": "Configuración clara",
-            "editingThisPilotSLevelMay": "Editar el nivel de este Piloto puede evitar que ciertos logros se desbloqueen con esto\nPiloto. Si desea utilizar este Piloto para desbloquear logros relacionados con Piloto, utilice el Nivel Up\nmago en su lugar."
+            "editingThisPilotSLevelMay": "Editar el nivel de este Piloto puede evitar que ciertos logros se desbloqueen con esto\nPiloto. Si desea utilizar este Piloto para desbloquear logros relacionados con Piloto, utilice el Nivel Up\nmago en su lugar.",
+            "thisPilotSLevelHasBeen": "El nivel de este piloto ha sido editado. Esto impedirá que se desbloqueen ciertos logros\ncon este Piloto."
         }
     },
     "share": {
