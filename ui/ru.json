@@ -349,7 +349,12 @@
         },
         "migrationRepair": {
             "colCategory": "Категория",
-            "colIssue": "Проблема"
+            "colIssue": "Проблема",
+            "colItem": "@:{'common.item'}",
+            "manualActionRequired": "Необходимо исправить вручную",
+            "cancel": "@:{'common.cancel'}",
+            "catLcpOrigin": "Исходный LCP",
+            "catNpcStats": "Характеристики НИПов"
         },
         "optionsPage": {
             "tabStorage": "Хранилище"
