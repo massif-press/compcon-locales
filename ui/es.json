@@ -2097,7 +2097,8 @@
             "editingThisPilotSLevelMay": "Editar el nivel de este Piloto puede evitar que ciertos logros se desbloqueen con esto\nPiloto. Si desea utilizar este Piloto para desbloquear logros relacionados con Piloto, utilice el Nivel Up\nmago en su lugar.",
             "thisPilotSLevelHasBeen": "El nivel de este piloto ha sido editado. Esto impedirá que se desbloqueen ciertos logros\ncon este Piloto.",
             "thisToolSkipsTheLevelUp": "Esta herramienta salta el nivel del mago. Atributos piloto adquiridos mediante el nivelado, como\ngatillos de habilidad, licencias, talentos, habilidades mech y bonos CORE tendrán que ser actualizados\nmanualmente",
-            "newLEVEL": "NUEVA LEVEL:"
+            "newLEVEL": "NUEVA LEVEL:",
+            "setPilotLevel": "Nivel piloto"
         }
     },
     "share": {
