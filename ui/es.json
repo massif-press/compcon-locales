@@ -2049,7 +2049,8 @@
             "exportSuccessText": "Datos piloto guardados como \"{callsign}.json\""
         },
         "level": {
-            "theUADIDENTMV2License": "El UAD IDENT MV-2 Solicitud de Adquisición de Licencia ha sido diseñado para permitir la Unión activa\npersonal para registrar actualizaciones de licencias mientras se despliegue y reciba información inmediata de ONU y GMS\nrecursos de apoyo sobre el terreno. El personal de la Unión debe confirmar la corrección de su presentación\nformulario con su oficial de la Unión local, o, en caso de que un oficial no esté disponible, solicite un\nNHP-directed review at secure Omninet address"
+            "theUADIDENTMV2License": "El UAD IDENT MV-2 Solicitud de Adquisición de Licencia ha sido diseñado para permitir la Unión activa\npersonal para registrar actualizaciones de licencias mientras se despliegue y reciba información inmediata de ONU y GMS\nrecursos de apoyo sobre el terreno. El personal de la Unión debe confirmar la corrección de su presentación\nformulario con su oficial de la Unión local, o, en caso de que un oficial no esté disponible, solicite un\nNHP-directed review at secure Omninet address",
+            "submittingUnauthorizedLicensingUpdatesAndOr": "Presentación de actualizaciones de licencias no autorizadas o presentación de solicitudes no autorizadas o\nderechos de licencia sin previa autorización MV-8a/j por una Unión\nEl administrador dará lugar al rechazo automático de la solicitud de licencias y podrá\nresult in a licensing audit under DoJ/HR AR 716-J"
         }
     },
     "share": {
