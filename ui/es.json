@@ -2069,7 +2069,8 @@
             "up": "arriba",
             "newPilotRegistration": "Nuevo registro piloto",
             "biography": "BIOGRAFÍA",
-            "addPilotBiography": "Add Pilot Biography"
+            "addPilotBiography": "Add Pilot Biography",
+            "editPilotBiography": "Editar biografía piloto"
         }
     },
     "share": {
