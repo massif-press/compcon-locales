@@ -322,12 +322,9 @@
             "risky": "Riskant",
             "heroic": "Heroisch",
             "difficult": "Schwierig",
-            "selectTarget": "Ziel auswählen",
-            "vs": "VS",
             "noCheckRolled": "Kein Test gewürfelt",
             "checkSuccess": "Test bestanden",
             "checkFail": "Test gescheitert",
-            "result": "Ergebnis:",
             "wins": "Gewinnt",
             "loses": "Verliert",
             "skillCheckRoll": "Knifftestwurf",
@@ -347,7 +344,6 @@
     },
     "pm": {
         "level": {
-            "skills": "Kniffe",
             "mechSkills": "Mechkniffe",
             "pilotSKILLTRIGGERIMPROVEMENT": "Pilotenknifftrigger-Verbesserung",
             "mechSKILLUPGRADE": "Mechkniff-Verbesserung"

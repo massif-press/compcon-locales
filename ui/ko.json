@@ -11,7 +11,7 @@
         "pilotLoadout": "파일럿 로드아웃",
         "copyToClipboard": "클립보드에 복사",
         "cancel": "취소",
-        "rank": "순위",
+        "rank": "등급",
         "changeImage": "이미지 변경",
         "delete": "삭제",
         "result": "결과",
@@ -85,14 +85,20 @@
         "callsign": "콜사인",
         "cancelPermanentDeletion": "영구 삭제 취소",
         "confirmPermanentDeletion": "영구 삭제 확인",
-        "contentLabel": "컨텐츠"
+        "contentLabel": "컨텐츠",
+        "show": "보기",
+        "mount": "마운트",
+        "environment": "환경",
+        "background": "배경",
+        "changelog": "변경사항",
+        "hidden": "숨김"
     },
     "gm": {
         "fields": {
             "authors": "작성자"
         },
-        "combatantSelector": {
-            "eidolons": "아이돌론"
+        "campaign": {
+            "patch": "패치"
         }
     },
     "language": {
@@ -106,11 +112,15 @@
     },
     "active": {
         "mechActions": {
-            "pilotEjectedText": "{name}(이)가 메크에서 사출되어 ‘손상’  상태이상을 얻음."
+            "pilotEjectedText": "{name}(이)가 메크에서 사출되어 ‘손상’ 상태이상을 얻음."
         },
         "common": {
             "copiedToClipboard": "클립보드에 복사됨",
-            "halfDamage": "절반 피해"
+            "halfDamage": "절반 피해",
+            "exportAsJson": "JSON으로 내보내기",
+            "disengageFailed": "교전해제 실패",
+            "disengageFailedText": "{name}은 교전상태가 아닙니다.",
+            "disengagedText": "{name}(이)가 교전해제됨."
         },
         "dmgCond": {
             "doubleDamage": "두배 피해",
@@ -118,6 +128,24 @@
         },
         "scan": {
             "scan": "스캔"
+        },
+        "actionChips": {
+            "protocol": "프로토콜"
+        }
+    },
+    "compendium": {
+        "content": {
+            "eidolonLayer": "아이돌론 층위",
+            "frameSuffix": "{type} 프레임"
+        },
+        "campaign": {
+            "recommendedLicenseLevel": "추천 라이센스 레벨"
+        }
+    },
+    "nav": {
+        "packsDirectory": {
+            "communityContent": "@:{'common.gameName'} 커뮤니티 컨텐츠",
+            "communityContentTitle": "@:{'common.gameName'} 커뮤니티 컨텐츠 팩"
         }
     }
 }

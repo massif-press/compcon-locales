@@ -138,6 +138,42 @@
         },
         "roster": {
             "newPilot": "Nouveau pilote"
+        },
+        "nav": {
+            "campaignManager": "Gestionnaire de campagne",
+            "encounters": "Rencontres",
+            "narrativeElements": "Éléments narratifs",
+            "storageLimitExceeded": "Limite de stockage dépassée"
+        },
+        "packConfig": {
+            "addLcp": "Ajouter LCP",
+            "createConfig": "Créer configuration",
+            "deleteConfig": "Supprimer cette configuration",
+            "editConfig": "Éditer cette configuration"
+        },
+        "packInfo": {
+            "v2ContentTitle": "Contenu V2",
+            "dependencies": "Dépendances",
+            "authorsWebsite": "Site de l'auteur",
+            "dependencyInstalled": "Dépendance installée"
+        },
+        "communityTable": {
+            "notInstalled": "Non installé",
+            "free": "Gratuit",
+            "currentVersion": "Version actuelle"
+        },
+        "v2Auto": {
+            "v2Data": "Données V2",
+            "migrationTitle": "Migration des données V2",
+            "downloadBackup": "Télécharger une sauvegarde des données V2",
+            "downloadBackupTooltip": "Ce fichier .compcon peut être utiliser sur la V2 sur https://old.compcon.app. Il peut être téléchargé à tout moment depuis le menu des Options"
+        },
+        "search": {
+            "searchResults": "résultats de la recherche",
+            "recentSearches": "recherches récentes"
+        },
+        "migrationRepair": {
+            "colCategory": "Catégorie"
         }
     }
 }

@@ -161,7 +161,14 @@
         "deleteItemsPermanently": "Удалить эти элементы навсегда",
         "item": "Элемент",
         "core": "Основной",
-        "background": "Происхождение"
+        "background": "Происхождение",
+        "player": "Игрок",
+        "hidden": "Скрыто",
+        "hase_h": "К",
+        "hase_a": "Л",
+        "hase_s": "С",
+        "hase_e": "И",
+        "changelog": "Список изменений"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -182,7 +189,9 @@
         "newNarrativeItem": "Новый нарративный предмет",
         "newEidolon": "Новый эйдолон",
         "newSitrep": "Новая оперсводка",
-        "newDoodad": "Новая штуковина"
+        "newDoodad": "Новая штуковина",
+        "newEnvironment": "Новые условия",
+        "newEnvironmentDescription": "Новый тип условий"
     },
     "language": {
         "selectLanguage": "Язык",
@@ -192,14 +201,20 @@
     "nav": {
         "v2Import": {
             "deleteTitle": "Удалить резервную копию",
-            "panelTitle": "Ожидание импорта V2",
+            "panelTitle": "Ожидание импорта в формате V2",
             "importAll": "Импорт всего",
             "forceImportPanelTitle": "@:{'common.forceImport'}",
             "attemptReimport": "Попробовать импортировать повторно",
             "confirmForceImport": "@:{'common.forceImport'}",
-            "forceImportNotice": "{type} будет импортирован без предметов, которые не удалось найти. Следующие зависимости не удалось обнаружить, они будут удалены:",
+            "forceImportNotice": "{type} будет импортирован без предметов, которые не удалось найти. Следующие зависимости не удалось обнаружить, они будут удалены",
             "importAllTooltip": "Попытка импортировать все ожидаемые предметы. Предметы, для которых отсутствуют зависимости, останутся в режиме ожидания.",
-            "moreCount": "+{count} ещё"
+            "moreCount": "+{count} ещё",
+            "forceImportAll": "Принудительный импорт всего",
+            "forceImportAllTooltip": "Принудительно импортировать все элементы, убрав все зависимости, для которых нельзя найти связи. Используйте эту опцию, если вы хотите импортировать всё, независимо от того, что может пропасть. Важно учесть, что из импортированных элементов будут удалены недостающие данные и вам может понадобиться исправить это вручную по завершении импорта.",
+            "forceImport": "Принудительный импорт (с удалением недостающих элементов)",
+            "deleteConfirm": "Удалить незаконченную резервную копию формата v2? Это действие не может быть отменено.",
+            "strippedTitle": "Элементы, удалённые при принудиительном импорте",
+            "strippedBody": "Следующие элементы были удалены, поскольку для них не удалось найти связи"
         },
         "nav": {
             "achievements": "Достижения",
@@ -264,7 +279,6 @@
             "selectAll": "@:{'common.selectAll'}",
             "none": "@:{'common.none'}",
             "name": "@:{'common.name'}",
-            "sort": "Сортировка:",
             "eraseAllWarning": "Удалить все",
             "selectExportFile": "Выбрать файл для экспорта достижений в @:{'common.appName'}",
             "resetAchievements": "Сброс достижений",
@@ -272,7 +286,6 @@
             "loadBackup": "Загрузить резервную копию достижений"
         },
         "settingsPage": {
-            "logLevel": "Уровень логов",
             "errorReporting": "Отчёт об ошибках",
             "overwriteStrategy": "Перезаписать все существующие данные",
             "font": "Шрифт",
@@ -291,10 +304,16 @@
             "showExoticsLabel": "Показать экзотические предметы в компендиуме",
             "errorReportingPiiNote": "На этом уровне логов персональные данные не собираются.",
             "confirmImport": "@:{'common.confirmImport'}",
-            "importV2Backup": "Импорт резервной копии v2"
+            "importV2Backup": "Импорт резервной копии v2",
+            "downloadV2Backup": "Скачать сохранённую резервную копию в формате v2",
+            "downloadV2Tooltip": "В @:{'common.appName'} хранится полная копия ваших данных из @:{'common.appName'} в формате v2. Её можно импортировать в приложение версии v2 по адресу old.compcon.app.",
+            "v2BackupDetected": "Обнаружена резервная копия формата v2",
+            "v2BackupDescription": "Это резервная копия @:{'common.appName'} в формате v2. Она будет обработана с применением системы импорта v2: сначала будут установлены контент-паки, затем пилоты, НИПы и бои. Элементы, для которых требуются недостающие LCP, будут сохранены в раздел ожидаемого импорта v2 в разделе Управление контентом.",
+            "v2AppendNote": "Резервные копии формата v2 всегда обрабатываются с помощью добавления данных к концу файла.",
+            "resetV2Migration": "Сброс статуса миграции формата v2",
+            "resetV2Tooltip": "Сбрасывает статус миграции формата v2, после чего вновь появляется окошко «данные формата v2» (если оно было закрыто ранее)."
         },
         "storage": {
-            "neverLabel": "никогда",
             "storageSettings": "Настройки хранилища",
             "userData": "Данные пользователя",
             "areYouSure": "Вы уверены, что хотите продолжить?",
@@ -336,7 +355,9 @@
             "tabStorage": "Хранилище"
         },
         "packInfo": {
-            "dependencies": "Зависимости"
+            "dependencies": "Зависимости",
+            "v2ContentTitle": "Данные формата v2",
+            "v2ContentDescription": "Указанный контент-пак не является совместимым с форматом v3. Он всё ещё будет корректно считываться, но вы не сможете использовать возможности v3 при работе с данными из него."
         },
         "communityTable": {
             "currentVersion": "Текущая версия:",
@@ -381,7 +402,8 @@
             "title": "@:{'common.contentManager'}",
             "packManagement": "Управление контент-паками",
             "installedPacks": "Установленные контент-паки",
-            "contentPacks": "@:{'common.contentPacks'}"
+            "contentPacks": "@:{'common.contentPacks'}",
+            "deletePackConfirm": "Это действие удалит текущий контент-пак и всё его содержимое из @:{'common.appName'}. Пользовательские данные, которые зависят от контент-пака, останутся доступными. Вы уверены, что хотите продолжить?"
         },
         "roster": {
             "title": "@:{'common.pilotRoster'}",
@@ -404,13 +426,8 @@
             "ccVersion": "Версия C/C:",
             "lancerCoreVersion": "@:{'common.gameName'} версия игры:"
         },
-        "titles": {
-            "selectAll": "Выбрать все",
-            "warning": "Предупреждение"
-        },
         "log": {
-            "exportLog": "Экспорт логов",
-            "noData": "нет данных"
+            "exportLog": "Экспорт логов"
         },
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon"
@@ -443,7 +460,6 @@
             "resetConfirm": "Это приведёт к сбросу всех характеристик к дефолтным значениям О{tier} {name}. Вы уверены, что хотите это сделать?"
         },
         "relationships": {
-            "heading": "Отношения",
             "addRelationship": "Добавить отношение",
             "label": "Отношения"
         },
@@ -452,7 +468,6 @@
         },
         "filter": {
             "filters": "Фильтры",
-            "labels": "Метки",
             "showAll": "Показать все",
             "hideAll": "Скрыть все",
             "clearAllFilters": "Очистите все фильтры"
@@ -462,8 +477,7 @@
         },
         "overview": {
             "addContact": "Добавить контакт",
-            "setCoverImage": "Задать изображение для обложки",
-            "players": "игроки"
+            "setCoverImage": "Задать изображение для обложки"
         },
         "npcFeatures": {
             "saveConfig": "Сохранить настройки"
@@ -477,7 +491,6 @@
         "fields": {
             "authors": "Автор(ы)",
             "folder": "Папка",
-            "title": "Название",
             "value": "Значение",
             "group": "Группа",
             "sort": "Сортировка",
@@ -487,7 +500,6 @@
             "groupBy": "Группировать по",
             "sortBy": "Сортировать по",
             "pronouns": "Местоимения",
-            "organizationType": "Тип организации",
             "alias": "Псевдоним",
             "items": "Элементы",
             "imageUrl": "Ссылка на изображение",
@@ -497,9 +509,6 @@
         "pageContent": {
             "quote": "Цитата",
             "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить."
-        },
-        "encounterContent": {
-            "image": "Изображение"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -516,7 +525,6 @@
         "npcBuilder": {
             "templates": "Шаблоны"
         },
-        "reinforcements": "Подкрепления",
         "eidolon": {
             "noLayers": "слои отсутствуют",
             "layers": "Слои",
@@ -539,7 +547,6 @@
             "confirmTierChange": "Подтвердить изменение опасности",
             "selectImage": "выберите изображение",
             "deletePreset": "удалить шаблон",
-            "importData": "импорт данных",
             "selectTemplate": "выбрать шаблон",
             "selectLayer": "Выбрать слой"
         },
@@ -560,12 +567,20 @@
         },
         "common": {
             "exportAsJson": "Экспорт в формате JSON",
-            "apply": "Применить",
             "override": "заменить",
             "dangerZone": "Зона риска",
-            "target": "Цель",
-            "saveSuccessful": "Сохранение успешно",
-            "copiedToClipboard": "Скопировано в буфер обмена"
+            "saveSuccessful": "Сохранение завершено",
+            "copiedToClipboard": "Скопировано в буфер обмена",
+            "saveFailed": "Не удалось завершить сохранение",
+            "prepared": "Подготовился",
+            "preparedText": "{name} был помечен, как подготовившийся.",
+            "hiddenText": "{name} скрыт.",
+            "disengageFailed": "Не удалось отойти",
+            "disengageFailedText": "{name} не в столкновении.",
+            "disengagedText": "{name} смог отойти.",
+            "nominal": "Номинальный",
+            "halfDamage": "Половина урона",
+            "condition_status": "Состояние"
         },
         "runnerHeader": {
             "autosave": "Автосохранение",
@@ -608,13 +623,8 @@
         "skillCheck": {
             "modifiers": "Модификаторы",
             "difficult": "Сложный",
-            "selectTarget": "Выбор цели",
-            "result": "Результат:",
             "standard": "Стандартная",
             "targetValue": "Целевое значение"
-        },
-        "mechCore": {
-            "passive": "Пассивный эффект"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
@@ -629,7 +639,6 @@
             "selected": "выбрано"
         },
         "trackable": {
-            "unavailable": "Недоступно",
             "ready": "Готов"
         },
         "dmgCond": {
@@ -670,26 +679,56 @@
             "burn": "Ожог"
         },
         "timedEffect": {
-            "pending": "Ожидается",
             "override": "// Заменить"
-        },
-        "unitLoadout": {
-            "applyLower": "применить"
         },
         "pilotActions": {
             "mountFailedTitle": "Не удалось взобраться"
+        },
+        "addCombatant": {
+            "doodadAddedTitle": "Добавлена штуковина",
+            "eidolonAddedTitle": "Добавлен эйдолон",
+            "addedText": "{name} был(а) добавлен(а) в бой."
+        },
+        "mechActions": {
+            "preparedTitle": "Мех готов",
+            "ejectFailedTitle": "Не удалось катапультироваться",
+            "ejectFailedText": "В {name} нет пилота.",
+            "mechHiddenTitle": "Мех скрыт",
+            "mechDisengagedTitle": "Мех успешно отошёл",
+            "bootUpFailedTitle": "Не удалось включить меха",
+            "bootUpFailedText": "{name} не отключён.",
+            "mechBootedUpTitle": "Мех включён",
+            "mechBootedUpText": "{name} был успешно включён.",
+            "selfDestructFailedTitle": "Не удалось самоуничтожиться",
+            "selfDestructFailedText": "{name} уже в процессе самоуничтожения.",
+            "selfDestructInitiatedTitle": "Инициирована процедура самоуничтожения меха",
+            "selfDestructInitiatedText": "{name} вот-вот самоуничтожится."
+        },
+        "pcSheet": {
+            "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}"
+        },
+        "stats": {
+            "hitPoints": "Очки здоровья"
+        },
+        "roster": {
+            "addFromRoster": "добавить из ростера",
+            "addToEncounter": "Добавить в бой",
+            "removeFromEncounter": "Удалить из боя",
+            "playedBy": "Играется",
+            "pilotCombatStats": "Боевые характеристики пилота",
+            "activeMech": "Активный мех"
         }
     },
     "mainMenu": {
         "auth": {
             "passwordChangedText": "Пароль успешно изменён.",
             "abort": "Отмена",
-            "email": "Электронная почта",
+            "email": "Эл. почта",
             "password": "Пароль",
             "signIn": "Войти",
             "createAccount": "Создать аккаунт",
             "passwordRecovery": "Восстановление пароля",
-            "verifyEmailTitle": "Подтверждение адреса электронной почты",
+            "verifyEmailTitle": "Подтверждение адреса эл. почты",
             "sendVerificationCode": "Отправить проверочный код",
             "resetPassword": "Сбросить пароль",
             "copyLog": "Копировать логи",
@@ -697,27 +736,37 @@
             "resendVerificationCode": "Отправить проверочный код заново",
             "sendPasswordResetEmail": "Отправить ссылку для сброса пароля",
             "setNewPassword": "Установить новый пароль",
-            "passwordChangeErrorText": "Не удалось изменить пароль:{msg}"
+            "passwordChangeErrorText": "Не удалось изменить пароль:{msg}",
+            "accountCreated": "Аккаунт был успешно создан. Перенаправление на экран входа.",
+            "verifyEmail": "Верификация эл. почты",
+            "inputCodeToFinish": "Введите проверочный код, чтобы закончить создание аккаунта",
+            "signupEmailInfo": "Код подтверждения будет отправлен на введённый вами адрес эл. почты, чтобы завершить создание аккаунта. После этого ваша эл. почта будет использоваться только для входа в аккаунт {'common.appName'}."
         },
         "dataUsage": {
-            "title": "Использование данных"
+            "title": "Использование данных",
+            "resetMigrationTool": "Сброс инструментов миграции аккаунта"
         },
         "syncSettings": {
-            "custom": "Пользовательский",
             "updateSyncSettings": "Обновить настройки синхронизации"
         },
         "collection": {
-            "colLastUpdate": "Последнее обновление",
-            "colChanges": "Изменения"
+            "colChanges": "Изменения",
+            "addCollectionItem": "Добавить элемент из подборки"
         },
         "cloudData": {
-            "imagesTab": "Изображения"
+            "imagesTab": "Изображения",
+            "dataTabDesc": "Данные о персонажах игроков, а также данные для ведущего хранятся в вашем аккаунте @:{'common.appName'}.",
+            "imagesTabDesc": "Все изображения, которые вы загрузили в ваш аккаунт @:{'common.appName'}."
         },
         "management": {
             "notifications": "Уведомления",
             "changePassword": "Изменить пароль",
-            "signOut": "Выйти",
-            "working": "в процессе…"
+            "signOut": "Выйти из аккаунта",
+            "working": "в процессе…",
+            "accountCreatedV3": "Аккаунт успешно создан (v3)",
+            "changeEmail": "Изменить эл. почту для аккаунта",
+            "deleteCloudAccount": "Удалить облачный аккаунт",
+            "verifyEmailSent": "На указанную эл. почту {email} было отправлено письмо с проверочным кодом. Пожалуйста, проверьте входящие сообщения и введите проверочный код в поле внизу, чтобы завершить операцию."
         },
         "storage": {
             "addToHomeScreen": "На домашний экран"
@@ -732,7 +781,6 @@
         },
         "publishing": {
             "addNew": "Добавить новое",
-            "currentVersion": "Текущая версия",
             "versionN": "версия {version}",
             "saveDraft": "Сохранить черновик",
             "deleteCollection": "Удалить коллекцию",
@@ -743,8 +791,9 @@
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
-            "accountLabel": "Аккаунт на Patreon:",
-            "linkPatreon": "Привязать аккаунт на Patreon"
+            "accountLabel": "Аккаунт на Patreon",
+            "linkPatreon": "Привязать аккаунт на Patreon",
+            "linkInfo": "Если вы подписаны на Patreon @:{'common.appName'}, привязка аккаунта Patreon позволит вам увеличить максимальный объём облачного хранилища и разблокирует возможность создания столов в реальном времени в режиме ведущего."
         },
         "ui": {
             "requiresItchPurchase": "Требуется привязанная покупка на Itch.io",
@@ -753,12 +802,35 @@
             "refreshList": "Обновить список",
             "unlinked": "Отвязано",
             "unlink": "Отвязать",
-            "accountManagement": "Управление аккаунтами"
+            "accountManagement": "Управление аккаунтами",
+            "linkingAccount": "Привязка аккаунта…",
+            "directDownloadRequiresAccount": "Для скачивания напрямую вам необходимо завести аккаунт @:{'common.appName'}"
         },
         "account": {
-            "collectionUpdatedTitle": "Коллекция обновлена",
+            "collectionUpdatedTitle": "Подборка обновлена",
             "jwtCopiedText": "ID токен скопирован в буфер обмена",
-            "itemAddedTitle": "Добавлен элемент"
+            "itemAddedTitle": "Добавлен элемент",
+            "imageDeletedText": "Удален {itemType}{name}.",
+            "lcpUpdatedText": "Последняя версия {title} была загружена и установлена.",
+            "lcpUpdateErrorText": "При попытке скачать {title} произошла ошибка.",
+            "allLcpsUpdatedTitle": "LCP обновлены",
+            "allLcpsUpdatedText": "Все LCP были обновлены.",
+            "allLcpsUpdateErrorTitle": "Не удалось обновить LCP",
+            "allLcpsUpdateErrorText": "При попытке обновления установленных LCP произошла ошибка.",
+            "syncPartialTitle": "Синхронизировано {synced}{total} элементов",
+            "syncPartialText": "Не удалось полностью синхронизировать следующие элементы: {failures}. Это могло произойти в виду отсутствия локальных данных.",
+            "syncCompleteTitle": "Синхронизировано {total}/{total} элементов",
+            "syncCompleteText": "Все элементы были успешно синхронизированы.",
+            "deletionCompleteTitle": "{count} элемент был удалён навсегда | {count} элементов были удалены навсегда",
+            "flaggedRemovedText": "Все помеченные элементы были удалены из облачного хранилища.",
+            "noFlaggedText": "Элементы для удаления не были отмечены.",
+            "deletionFailedBulkText": "При удалении отмеченных элементов произошла ошибка.",
+            "collectionErrorTitle": "Не удалось обновить подборку",
+            "collectionErrorText": "При обновлении подборки произошла ошибка. Пожалуйста, попробуйте обновить подборку позднее.",
+            "collectionUpdatedText": "Элементы подборки были успешно обновлены.",
+            "itemAddedText": "Элемент {name} был добавлен в подборку",
+            "jwtCopiedTitle": "JWT скопирован",
+            "jwtCopyFailedTitle": "Не удалось скопировать JWT"
         },
         "menu": {
             "connected": "Подключён",
@@ -787,17 +859,50 @@
             "forceDownload": "Принудительное скачивание",
             "confirmDelete": "Подтвердить удаление",
             "accountDeletion": "Удаление учётной записи",
-            "credits": "Информация о разработчиках",
             "storagePermissionRequired": "Требуется разрешение на сохранение!"
         },
         "deleteAccount": {
-            "notPurchases": "Удалить все покупки, совершённые через itch.io или прекратить подписку на Patreon"
+            "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
+            "intro": "Данный инструмент удалит ваш аккаунт и все связанные с ним данные. Это включает в себя",
+            "incCredentials": "Данные для входа в аккаунт и настройки",
+            "incCloudData": "Облачные данные, включая информацию о сохранённых пилотах, НИПах и иные данные для ведущего",
+            "incImages": "Изображения, загруженные в ваш личный облачный архив",
+            "incArchives": "Аккаунт и архив LCP, сохранённые в облаке",
+            "incActiveMode": "Все данные и историю, относящиеся к активному режиму и хранящиеся удалённо",
+            "additionally": "Дополнительно,",
+            "addNoSync": "ваши сохранённые данные больше не будут синхронизироваться между браузерами и устройствами",
+            "addShareExpire": "Любые элементы, которыми вы делились, больше не будут обновляться и все публичные коды истекут",
+            "addSyncTerminated": "Все процессы синхронизации будут прекращены",
+            "addRemovedTables": "Вы будете удалены из любых активных столов",
+            "addGmTables": "Если вы являетесь ведущим, ваши столы будут заархивированы и помещены в очередь на удаление",
+            "addSubFeed": "Если вы публиковали ленту с подписками, ваши подписчики перестанут получать обновления",
+            "thisWillNot": "Это не",
+            "notLocalData": "удалит локальные данные на вашем устройстве",
+            "irreversible": "Это действие не может быть отменено. Данные будут удалены навсегда, без возможности восстановления.",
+            "ensureBackup": "Пожалуйста, удостоверьтесь в наличии локальной резервной копии данных, которые вы хотели бы сохранить.",
+            "enterTextToConfirm": "Введите следующий текст {phrase} для подтверждения удаления аккаунта.",
+            "deletionInProgress": "Удаление в процессе. Это может занять некоторое время. @:{'common.appName'} перезапустится по завершении процесса."
         },
         "tooltips": {
             "controlsHowOftenYourData": "Контролирует как часто ваши данные синхронизируются с облаком. В силу стоимости аренды серверов, определённые опции доступны только подписчикам на Patreon."
         },
         "codeEntry": {
-            "tooltip": "Введите код разблокировки, чтобы получить дополнительные возможности для аккаунта, либо материалы в формате LCP."
+            "tooltip": "Введите код разблокировки, чтобы получить дополнительные возможности для аккаунта, либо материалы в формате LCP.",
+            "npcSubTooltipOff": "Вы можете включить загрузку и автоматические обновления данных о НИПах из Core Book, привязав ваш аккаунт Itch.io с купленной Lancer Core Book, либо введя код из ссылки, указанной в QR-коде вашей копии Lancer Core Book.",
+            "npcsAddedViaItch": "Теперь вам доступны данные о НИПах из Lancer Core Book. Они были добавлены на ваш аккаунт благодаря привязанной покупке через Itch.io.",
+            "npcsAddedViaCode": "Теперь вам доступны данные о НИПах из Lancer Core Book. Они были добавлены на ваш аккаунт после перехода по ссылке через QR-код."
+        },
+        "itch": {
+            "accountLabel": "аккаунт itch.io",
+            "linkItch": "Привязать аккаунт itch.io",
+            "linkInfo1": "Привязка вашего аккаунта itch.io позволит вам скачивать материалы с официальной страницы Massif Press на itch.io в один клик.",
+            "linkInfo2": "Также вы можете подписаться на LCP от Massif Press, чтобы автоматически обновлять ваши локальные копии, когда автор выпустит новую версию LCP.",
+            "linked": "Аккаунт Itch.io привязан",
+            "clickForDetails": "Кликните, чтобы показать детали",
+            "purchasesLinked": "Указанный аккаунт с покупками на itch.io был успешно привязан к вашему аккаунту @:{'common.appName'}",
+            "eligibleUpdates": "Ваш облачный аккаунт @:{'common.appName'} получает автоматические обновления для следующих материалов",
+            "manageContentHint": "Отвязанные LCP и иные материалы можно добавить вручную по ссылке {link}.",
+            "noAutoTrack": "@:{'common.appName'} не отслеживает новые данные с itch.io в автоматическом режиме."
         }
     },
     "pm": {
@@ -816,21 +921,13 @@
             "pilotHP": "ОЗ пилота",
             "maxHP": "Максимальные ОЗ",
             "extras": "Дополнительно",
-            "type": "ТИП",
             "range": "Дальность",
-            "damage": "Урон",
             "system": "Система",
-            "armor": "Броня:",
             "session": "Сессия",
             "resource": "Ресурс",
-            "size2": "Размер:",
-            "armor3": "Броня:",
-            "name": "ИМЯ",
-            "gain": "Получить",
-            "other": "Иное"
+            "gain": "Получить"
         },
         "roster": {
-            "pilot": "Пилот",
             "history": "История группы",
             "finishEditing": "Завершить редактирование",
             "deleteGroup": "Удалить группу",
@@ -845,8 +942,7 @@
             "resourceName": "Название ресурса",
             "projectName": "Название проекта",
             "requirements": "Требования",
-            "jumpTo": "перейти к",
-            "type": "Тип"
+            "jumpTo": "перейти к"
         }
     },
     "ui": {
@@ -857,7 +953,6 @@
         },
         "tooltips": {
             "resetCounter": "Сброс счётчика",
-            "savedConfigurations": "Сохранённые конфигурации",
             "itemFilters": "Фильтры предметов",
             "deleteCounter": "Удалить счётчик"
         },
@@ -922,19 +1017,15 @@
         },
         "titles": {
             "clockEditor": "редактор счётчиков",
-            "addFromShareCode": "добавить из публичного кода",
             "activateFreeAction": "Активация (свободное действие)",
             "successfulHit": "Поадание",
-            "miss": "Промах",
-            "printOptions": "Опции для печати",
-            "setAvatar": "Выбор аватара"
+            "printOptions": "Опции для печати"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
         },
         "selector": {
             "noManufacturer": "Производитель отсутствует",
-            "metric": "Метрика",
             "select": "Выбрать {name}"
         },
         "talent": {
@@ -958,8 +1049,6 @@
         },
         "widget": {
             "noDescription": "Описание отсутствует.",
-            "noDataUpper": "Нет данных",
-            "bonus": "бонус",
             "passive": "Пассивный",
             "other": "Иное",
             "noSelection": "Не выбрано",
@@ -1037,7 +1126,6 @@
             "syncCompleteTitle": "Синхронизация завершена"
         },
         "common": {
-            "success": "Успех",
             "error": "Ошибка",
             "copied": "Скопировано"
         },
@@ -1063,24 +1151,16 @@
         }
     },
     "print": {
-        "titles": {
-            "orientation": "Ориентация",
-            "paper": "Лист"
-        },
-        "extras": "Дополнительно",
         "generalOptions": "Стандартные опции для печати"
     },
     "stats": {
         "agility": "Ловкость",
         "systems": "Системы",
         "engineering": "Инженерное дело",
-        "hull": "Корпус",
         "agi": "Ловкость",
-        "sys": "Системы",
         "hp": "ОЗ",
         "sensors": "Сенсоры",
-        "structure": "Структура",
-        "size": "Размер"
+        "structure": "Структура"
     },
     "share": {
         "resultAuthor": "Автор",
@@ -1095,7 +1175,6 @@
             "copyShareLinkToClipboard": "Скопировать публичную ссылку в буфер обмена"
         },
         "publicLinkNoteBold": "публично доступная ссылка",
-        "upToDate": "Актуально",
         "lastLocalUpdate": "Последнее локальное обновление",
         "lastSynced": "Дата последней синхронизации",
         "notYetSynced": "Ещё не синхронизировано",
@@ -1114,8 +1193,7 @@
         "reference": {
             "statuses": "Статусы",
             "glossary": "Словарь",
-            "pleaseNote": "Обратите внимание:",
-            "conditions": "Состояния"
+            "pleaseNote": "Обратите внимание:"
         },
         "campaign": {
             "removeFromCollection": "Удалить из подборки",
