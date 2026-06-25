@@ -2050,7 +2050,8 @@
             "importErrorText": "No es posible leer el archivo: {error}",
             "importPilotErrorText": "No es posible importar Piloto: {error}",
             "groupImportSuccessText": "{name} añadido con éxito.",
-            "groupImportErrorText": "Unable to import pilot group: {error}"
+            "groupImportErrorText": "Unable to import pilot group: {error}",
+            "v2BackupText": "{callsign} ahorrado a las importaciones v2 pendientes en el Administrador de Contenidos."
         },
         "export": {
             "exportErrorText": "@:{'common.appName'} no pudo exportar datos de piloto",
