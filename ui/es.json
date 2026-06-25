@@ -2039,7 +2039,8 @@
             "bracingMount": "montaje de fijación."
         },
         "import": {
-            "importSuccessTitle": "Importado Correctamente"
+            "importSuccessTitle": "Importado Correctamente",
+            "importErrorText": "Incapaz de leer el archivo: {error}"
         }
     },
     "share": {
