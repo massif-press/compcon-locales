@@ -2124,7 +2124,8 @@
             "selectionsAvailable": "Selecciones disponibles",
             "sortByName": "Ordenar por nombre",
             "sortByManufacturer": "Ordenar por Fabricantes",
-            "addNewMech": "Añadir nuevo Mech"
+            "addNewMech": "Añadir nuevo Mech",
+            "mechOptions": "Opciones de mech"
         }
     },
     "share": {
