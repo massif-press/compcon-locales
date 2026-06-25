@@ -2141,7 +2141,8 @@
             "system": "Sistema",
             "mechWEAPONMOUNT": "Montura arma mecha",
             "onATTACK": "Al atacar",
-            "reserve": "Reserva"
+            "reserve": "Reserva",
+            "extras": "Extras"
         }
     },
     "share": {
