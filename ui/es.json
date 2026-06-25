@@ -2074,7 +2074,8 @@
             "editPilotImage": "Editar imagen piloto",
             "addPilotImage": "Agregar imagen piloto",
             "skipNewPilotRegistration": "Saltar nuevo registro piloto",
-            "recommendedForAdvancedUsers": "Recomendado para usuarios avanzados"
+            "recommendedForAdvancedUsers": "Recomendado para usuarios avanzados",
+            "selectCharacterTemplate": "Seleccionar caracteres Plantilla"
         }
     },
     "share": {
