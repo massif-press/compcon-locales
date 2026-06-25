@@ -371,7 +371,8 @@
             "deleteAllUserData": "Alle Nutzer*innendaten löschen",
             "clearAllData": "@:{'common.clearAllData'}",
             "cannotBeUndone": "rückgängig gemacht werden.",
-            "areYouSure": "Sind Sie sicher, dass Sie fortfahren möchten?"
+            "areYouSure": "Sind Sie sicher, dass Sie fortfahren möchten?",
+            "deleteWarningBanner": "Achtung // Achtung // Achtung"
         },
         "v2Auto": {
             "errorsDuringMigration": "{count} Fehler während der Migration | {count} Fehler während der Migration",
