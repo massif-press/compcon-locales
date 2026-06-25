@@ -2041,7 +2041,8 @@
             "addAdditionalSystem": "Añadir Sistema Adicional",
             "empty": "Vacío",
             "selectPilotWeapon": "Seleccionar Arma de Piloto",
-            "currentlyEQUIPPED": "Equipado actualmente"
+            "currentlyEQUIPPED": "Equipado actualmente",
+            "improvedARMAMENT": "(ARMAMENTO APROBADO)"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
