@@ -2045,7 +2045,8 @@
             "groupImportSuccessText": "{name} añadido con éxito."
         },
         "export": {
-            "exportErrorText": "COMP/CON no pudo exportar datos piloto"
+            "exportErrorText": "COMP/CON no pudo exportar datos piloto",
+            "exportSuccessText": "Datos piloto guardados como \"{callsign}.json\""
         }
     },
     "share": {
