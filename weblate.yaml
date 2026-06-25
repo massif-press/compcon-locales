@@ -22,3 +22,10 @@ components:
     filemask: ui/*.json
     template: ui/en.json
     new_base: ui/en.json
+
+  # English base generated from @massif/lancer-data
+  - name: CRB Compendium
+    slug: lancer-data
+    filemask: content/lancer-data/*.json
+    template: content/lancer-data/en.json
+    new_base: content/lancer-data/en.json
