@@ -2,7 +2,6 @@
     "common": {
         "cancel": "Cancelar",
         "appName": "COMP/CON",
-        "appShortName": "C/C",
         "gameName": "LANCER",
         "save": "Guardar",
         "close": "Cerrar",
@@ -13,7 +12,6 @@
         "back": "Regresar",
         "tier": "Grado",
         "shareCode": "Compartir con Código",
-        "alert": "Alerta",
         "mount": "Montura",
         "rank": "Rango",
         "mainMenu": "Menú Principal",
@@ -63,7 +61,6 @@
         "skipToMainContent": "Saltar al contenido principal",
         "changeImage": "Cambiar Imagen",
         "attackBonus": "Bono de Ataque",
-        "loading": "Cargando…",
         "website": "Sitio Red",
         "options": "Opciones",
         "none": "Ninguno",
@@ -152,11 +149,14 @@
         "remove": "Eliminar",
         "hidden": "Oculto",
         "roll_noun": "Tira",
-        "ok": "OK",
         "hpBonus": "Bono de Pv",
         "setCustomDescription": "Fijar Descripción Personalizada",
         "pilotGroup": "Grupo de Pilotos",
-        "background": "Trasfondo"
+        "background": "Trasfondo",
+        "player": "Jugador",
+        "deployables": "Desplegables",
+        "talents": "Talentos",
+        "hase_h": "C"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -1541,7 +1541,9 @@
             "activeLayer": "Capa Activa",
             "active": "(Activo)",
             "generateN": "Generar {n}",
-            "persistentTraits": "Rasgos Persistentes ({n})"
+            "persistentTraits": "Rasgos Persistentes ({n})",
+            "shard": "Fragmento",
+            "noShards": "Capa no tiene Fragmentos"
         },
         "mechPanel": {
             "meltdown": "Este mecha ha sufrido una fusión del reactor. Está permanentemente destruido y no se puede reparar.",
@@ -1962,7 +1964,8 @@
             "deleteAccount": "Eliminar Cuenta",
             "newEmail": "Nuevo Correo-E",
             "confirmNewEmail": "Confirmar Nuevo Correo-E",
-            "emailAddress": "Dirección Correo-E"
+            "emailAddress": "Dirección Correo-E",
+            "updates": "Actualizar"
         },
         "actions": {
             "remoteBackups": "Copias de Respaldo Remotas",
@@ -2011,7 +2014,6 @@
         },
         "codeEntry": {
             "title": "Ingrese Código de Desbloqueo",
-            "enterCode": "Ingrese código",
             "tooltip": "Ingrese un código de desbloqueo para obtener acceso a características de cuenta adicionales o contenido LCP.",
             "invalidCode": "Código inválido",
             "success": "¡Código aceptado! Su contenido debe estar disponible ahora.",
@@ -2041,21 +2043,82 @@
             "addAdditionalSystem": "Añadir Sistema Adicional",
             "empty": "Vacío",
             "selectPilotWeapon": "Seleccionar Arma de Piloto",
-            "currentlyEQUIPPED": "Equipado actualmente"
+            "currentlyEQUIPPED": "Equipado actualmente",
+            "improvedARMAMENT": "(Armamento Mejorado)",
+            "superheavyMOUNTING": "(Montura SUPERPESADA)",
+            "synergyWarning": "Las reglas en estos indicios de sinergia {not} son soportados automáticamente por @:{'common.appName'}. Por favor asegúrese de aplicar manualmente cualquier efecto relevante durante el juego.",
+            "superheavyWEAPONBRACING": "Fijación de arma Superpesada",
+            "equipmentIDINVALIDORMISSING": "[ ID del Equipamiento inválida o faltante ]"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
             "importErrorText": "No es posible leer el archivo: {error}",
             "importPilotErrorText": "No es posible importar Piloto: {error}",
-            "groupImportSuccessText": "{name} añadido con éxito."
+            "groupImportSuccessText": "{name} añadido con éxito.",
+            "groupImportErrorText": "No es posible importar grupo de piloto: {error}",
+            "v2BackupText": "{callsign} guardado en las importaciones v2 pendientes en el Gestor de Contenidos."
         },
         "export": {
             "exportErrorText": "@:{'common.appName'} no pudo exportar datos de piloto",
-            "exportSuccessText": "Datos de piloto guardados como \"{callsign}.json\""
+            "exportSuccessText": "Datos de piloto guardados como \"{callsign}.json\"",
+            "exportSuccessTitle": "Exportación Exitosa",
+            "exportErrorTitle": "Error de Exportación"
         },
         "level": {
             "theUADIDENTMV2License": "La Solicitud de Adquisición de Licencia UAD IDENT MV-2 ha sido diseñada para permitir al personal activo de la Unión registrar actualizaciones de licencia mientras están desplegados en campo y recibir información inmediata y recursos de apoyo sobre el terreno de UN y GMS. El personal de la Unión debe confirmar la corrección del formulario presentado con su oficial local de la Unión, o, en caso de que un oficial no esté disponible, solicite una revisión dirigida por NHP en la dirección segura Onminet {node}",
-            "submittingUnauthorizedLicensingUpdatesAndOr": "Presentar actualizaciones de licencias no autorizadas y/o presentar de solicitudes no autorizadas de licencia o de derechos de licencia previamente retenidos sin previa autorización MV-8a/j por un Administrador de la Unión resultará en el rechazo automático de la solicitud de licencia y podrá resultar en una auditoría de licencia bajo DoJ/HR AR 716-J"
+            "submittingUnauthorizedLicensingUpdatesAndOr": "Presentar actualizaciones de licencias no autorizadas y/o presentar de solicitudes no autorizadas de licencia o de derechos de licencia previamente retenidos sin previa autorización MV-8a/j por un Administrador de la Unión resultará en el rechazo automático de la solicitud de licencia y podrá resultar en una auditoría de licencia bajo DoJ/HR AR 716-J",
+            "isEligibleForTheFollowingLicense": "es elegible para la siguiente actualización de licencia",
+            "newLICENSEUNLOCK": "Desbloquear nueva licencia"
+        },
+        "new": {
+            "pilot": "Piloto",
+            "up": "arriba",
+            "newPilotRegistration": "Registrar Nuevo Piloto",
+            "biography": "Biografía",
+            "addPilotBiography": "Agregar Biografía del Piloto",
+            "editPilotBiography": "Editar Biografía de Piloto",
+            "editPilotImage": "Editar Imagen de Piloto",
+            "addPilotImage": "Agregar Imagen de Piloto",
+            "skipNewPilotRegistration": "Saltar Registro del Nuevo Piloto",
+            "recommendedForAdvancedUsers": "Recomendado para Usuarios Avanzados",
+            "selectCharacterTemplate": "Seleccionar Plantilla de Personaje",
+            "recommendedForNewPlayers": "Recomendado para Nuevos Jugadores",
+            "perThe5017PRMALTAct": "Por el Acta 5017 PRM-ALT, el servicio de registro IDENT del Departmento Administrativo de la Unión proporciona un módulo de Selección de Acceso Rápido, creado y curado por el Soporte de UAD Armored Cavalary . El personal NHP de la UAD-ACS ha generado una selección de Plantillas de Doctrina de Combate basado en los resultados de su examen de salud Exploración de Actividad Cerebral OHM//CR-2. Cada una de estas plantillas poblarán el resto de su Registro de Combate IDENT con un conjunto de respuestas óptimas de combate a la medida.",
+            "selectingATemplateWillCompleteThe": "Seleccionar una plantilla completará la interfaz Nuevo Piloto e inicializará su Piloto con un conjunto de habilidades y talentos selectos y un mecha GMS EVEREST equipado, adaptado al rol en combate seleccionado a continuación. Todas estas selecciones pueden ser editadas en cualquier momento a través de las secciones de carga de Hoja de Piloto y Mecha, así como las secciones encabezadas con las",
+            "down": "abajo",
+            "identification": "Identificación",
+            "icon": "icono",
+            "skills": "Habilidades",
+            "pilotNAME": "Nombre piloto",
+            "appearance": "Apariencia",
+            "mustINCLUDERETINALDATA": "(Debe incluir datos de retina)"
+        },
+        "sheet": {
+            "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
+            "shareThisPilotSDataWith": "Compartir los datos de este piloto con otros usuarios a través de un código",
+            "convertThisPilotToAnEditable": "Convertir este Piloto a una instancia de datos local editable",
+            "duplicateOrFlashCloneThisCharacter": "Duplicar o Clonar Rápido este personaje",
+            "setLCPConfiguration": "Establecer Configuración LCP",
+            "manageWhichContentPacksAreAccessible": "Administrar qué paquetes de contenido son accesibles para este piloto",
+            "downloadLatestData": "Descargar Datos Más Recientes",
+            "pilotIsUpToDateWith": "Piloto al día con datos remotos",
+            "downloadAllRemoteChangesToThis": "Descargar todos los cambios remotos a este piloto, sobreescribiendo datos locales.",
+            "duplicatingOrCloningAPilotWill": "Duplicar o Clonar un piloto eliminará cualquier enlace a la Bóveda, guardando al piloto copiado como nuevo personaje en su cuenta",
+            "currentConfiguration": "Configuración Actual",
+            "unrestrictedAccess": "Acceso Irrestricto",
+            "clearConfiguration": "Limpiar Configuración",
+            "editingThisPilotSLevelMay": "Editar el nivel de este Piloto puede evitar que ciertos logros se desbloqueen con este Piloto. Si desea utilizar este Piloto para desbloquear logros relacionados al Piloto, utilice el asistente de Subida de Nivel en su lugar.",
+            "thisPilotSLevelHasBeen": "El nivel de este piloto ha sido editado. Esto impedirá que se desbloqueen ciertos logros con este Piloto.",
+            "thisToolSkipsTheLevelUp": "Esta herramienta salta el asistente de subida de nivel. Atributos de piloto adquiridos mediante subidas del nivel, como gatillos de habilidad, licencias, talentos, habilidades mecha y bonos CORE tendrán que ser actualizados manualmente",
+            "newLEVEL": "Nuevo nivel",
+            "setPilotLevel": "Establecer Nivel de Piloto",
+            "clone": "Clonar",
+            "levelUp": "Subir Nivel",
+            "sharePilot": "Compartir Piloto",
+            "duplicatePilot": "Duplicar Piloto",
+            "currentLEVEL": "Nivel actual",
+            "identityVERIFIED": "Identidad verificada",
+            "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)"
         }
     },
     "share": {

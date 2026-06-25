@@ -34,7 +34,6 @@
         "cancel": "Отмена",
         "shareCode": "Публичный код",
         "appName": "COMP/CON",
-        "appShortName": "C/C",
         "gameName": "LANCER",
         "changeImage": "Сменить изображение",
         "mount": "Крепление",
@@ -42,7 +41,7 @@
         "copyLink": "Копировать ссылку",
         "attackBonus": "Бонус к атаке",
         "mainMenu": "Главное меню",
-        "pilotRoster": "Ростер пилотов",
+        "pilotRoster": "Личный состав",
         "compendium": "Компендиум",
         "campaignLibrary": "Библиотека кампаний",
         "copyShareCode": "Копировать публичный код",
@@ -52,7 +51,6 @@
         "copyToClipboard": "Копировать в буфер обмена",
         "saveAndExit": "Сохранить и выйти",
         "saveAndClose": "Сохранить и закрыть",
-        "loading": "Загрузка…",
         "website": "Веб-сайт",
         "offline": "Офлайн",
         "options": "Опции",
@@ -112,10 +110,9 @@
         "tables": "Таблицы",
         "actionCannotBeUndone": "Это действие не может быть отменено",
         "edit": "Правка",
-        "alert": "Предупреждение",
         "pilotLoadout": "Снаряжение пилота",
         "effect": "Эффект",
-        "logLevel": "Степень логирования:",
+        "logLevel": "Степень логирования",
         "selectAll": "Выбрать все",
         "warning": "Предупреждение",
         "preview": "Предпросмотр",
@@ -143,7 +140,6 @@
         "pilotTalent": "Талант пилота",
         "pilotArmor": "Броня пилота",
         "pilotWeapon": "Оружие пилота",
-        "ok": "ОК",
         "contentManager": "Управление контентом",
         "contentPacks": "Контент-паки",
         "lcpDirectory": "Каталог LCP",
@@ -168,7 +164,10 @@
         "hase_a": "Л",
         "hase_s": "С",
         "hase_e": "И",
-        "changelog": "Список изменений"
+        "changelog": "Список изменений",
+        "roll_noun": "Бросок",
+        "organize": "Группировать",
+        "mech": "Мех"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -270,12 +269,12 @@
             "epic": "Эпичные",
             "legendary": "Легендарные",
             "locked": "Скрыто",
-            "byRarity": "По редкости:",
-            "byLabel": "По меткам:",
+            "byRarity": "По редкости",
+            "byLabel": "По меткам",
             "secretAchievements": "Секретные достижения",
             "mythic": "Мифические",
             "overwriteAllWarning": "Перезаписать все",
-            "display": "Показать:",
+            "display": "Показать",
             "selectAll": "@:{'common.selectAll'}",
             "none": "@:{'common.none'}",
             "name": "@:{'common.name'}",
@@ -341,7 +340,8 @@
         },
         "packsDirectory": {
             "officialContent": "Официальный",
-            "clickHere": "нажмите здесь."
+            "clickHere": "нажмите здесь.",
+            "massifPress": "MASSIF PRESS"
         },
         "packConfig": {
             "createConfig": "Создать новую конфигурацию",
@@ -371,13 +371,13 @@
             "recentSearches": "недавние поисковые запросы"
         },
         "credits": {
-            "with": "А также:",
-            "lancerBy": "@:{'common.gameName'} авторства:",
-            "compconBy": "@:{'common.appName'} авторства:",
-            "graphicDesignBy": "Графический дизайн выполнили:",
-            "additionalArtBy": "Дополнительные изображения предоставлены:",
+            "with": "А также",
+            "lancerBy": "@:{'common.gameName'} авторства",
+            "compconBy": "@:{'common.appName'} авторства",
+            "graphicDesignBy": "Графический дизайн выполнили",
+            "additionalArtBy": "Дополнительные изображения предоставлены",
             "patronThanks": "Развитие @:{'common.appName'} стало возможным благодаря щедрой",
-            "supportOf": ":",
+            "supportOf": "",
             "tier": "@:{'common.tier'}",
             "anonymousPatron": "анонимных подписчиков"
         },
@@ -424,7 +424,7 @@
             "coreBookInfo": "Основная книга правил @:{'common.gameName'}, @:{'common.appName'}, а также сопуствующие материалы можно найти по ссылке",
             "title": "@:{'common.appName'}",
             "ccVersion": "Версия C/C:",
-            "lancerCoreVersion": "@:{'common.gameName'} версия игры:"
+            "lancerCoreVersion": "@:{'common.gameName'} версия игры"
         },
         "log": {
             "exportLog": "Экспорт логов"
@@ -557,6 +557,10 @@
         },
         "encounterEditor": {
             "additionalNotes": "Дополнительные примечания"
+        },
+        "npcTemplate": {
+            "noTemplates": "Шаблоны отсустствуют",
+            "selectNpcTemplate": "выбрать шаблон НИПа"
         }
     },
     "active": {
@@ -668,7 +672,8 @@
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
-            "apply": "Применить"
+            "apply": "Применить",
+            "addAPilotFromYourLocalPilotRoster": "Добавить пилота из локального списка личного состава"
         },
         "customStat": {
             "static": "Статический",
@@ -751,7 +756,8 @@
         },
         "collection": {
             "colChanges": "Изменения",
-            "addCollectionItem": "Добавить элемент из подборки"
+            "addCollectionItem": "Добавить элемент из подборки",
+            "distributeWarning": "Распространение материалов без соответствующего разрешения противоречит условия использования @:{'common.appName'}: ваш аккаунт будет заблокирован облачным сервисом, ваши облачные данные и аккаунт будут удалены, также вы потеряете возможность быть подписанными на Patreon @:{'common.appName'} и будете заблокированы на этой платформе."
         },
         "cloudData": {
             "imagesTab": "Изображения",
@@ -766,7 +772,7 @@
             "accountCreatedV3": "Аккаунт успешно создан (v3)",
             "changeEmail": "Изменить эл. почту для аккаунта",
             "deleteCloudAccount": "Удалить облачный аккаунт",
-            "verifyEmailSent": "На указанную эл. почту {email} было отправлено письмо с проверочным кодом. Пожалуйста, проверьте входящие сообщения и введите проверочный код в поле внизу, чтобы завершить операцию."
+            "verifyEmailSent": "Письмо с проверочны кодом было отправлено на {email}. Пожалуйста, проверьте входящие сообщения и введите проверочный код в поле внизу, чтобы подтвердить изменения."
         },
         "storage": {
             "addToHomeScreen": "На домашний экран"
