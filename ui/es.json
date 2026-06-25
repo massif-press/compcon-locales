@@ -2087,7 +2087,8 @@
             "duplicateOrFlashCloneThisCharacter": "Duplicar o Flash Clone este personaje",
             "setLCPConfiguration": "Establecer LCP Configuración",
             "manageWhichContentPacksAreAccessible": "Administrar qué paquetes de contenido son accesibles para este piloto",
-            "downloadLatestData": "Descargar Datos más recientes"
+            "downloadLatestData": "Descargar Datos más recientes",
+            "pilotIsUpToDateWith": "Piloto está actualizado con datos remotos"
         }
     },
     "share": {
