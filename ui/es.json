@@ -2055,7 +2055,8 @@
         },
         "export": {
             "exportErrorText": "@:{'common.appName'} no pudo exportar datos de piloto",
-            "exportSuccessText": "Datos de piloto guardados como \"{callsign}.json\""
+            "exportSuccessText": "Datos de piloto guardados como \"{callsign}.json\"",
+            "exportSuccessTitle": "Exportación satisfactoria"
         },
         "level": {
             "theUADIDENTMV2License": "La Solicitud de Adquisición de Licencia UAD IDENT MV-2 ha sido diseñada para permitir al personal activo de la Unión registrar actualizaciones de licencia mientras están desplegados en campo y recibir información inmediata y recursos de apoyo sobre el terreno de UN y GMS. El personal de la Unión debe confirmar la corrección del formulario presentado con su oficial local de la Unión, o, en caso de que un oficial no esté disponible, solicite una revisión dirigida por NHP en la dirección segura Onminet {node}",
