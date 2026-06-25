@@ -355,7 +355,8 @@
             "cannotAddText": "Code ist ungültig oder wurde bereits verwendet",
             "progress": "{count} von {total} freigeschaltet",
             "hiddenCount": "{count} Errungenschaft nicht angezeigt | {count} Errungenschaften nicht angezeigt",
-            "cannot": "kann nicht"
+            "cannot": "kann nicht",
+            "othersCount": "(+{count} andere)"
         },
         "storage": {
             "noStorageAccess": "@:{'common.appName'} kann nicht auf den Gerätespeicher zugreifen. Dies kann aufgrund einer Browsereinstellung oder -erweiterung sein. @:{'common.appName'} wird stattdessen \"Local Storage\" verwenden, welches auf 5MB begrenzt ist. Dies kann dazu führen, dass @:{'common.appName'} gewisse Daten nicht speichern kann. Bitte überprüfen Sie Ihre Browser-Einstellungen und erlauben @:{'common.appName'} Zugriff auf \"Persistent Storage\" wenn Sie dazu aufgefordert werden. Falls Sie eine Browsererweiterung verwenden, die Zugriff auf den Speicher blockiert, bitte deaktivieren Sie diese für @:{'common.appName'}. Falls keine dieser Optionen funktioniert, bitte laden Sie @:{'common.appName'} als PWA herunter.",
@@ -432,7 +433,14 @@
             "willReplace": "Es wird durch diese Kopie ersetzt.",
             "requiresContent": "Dieses LCP benötigt die folgenden Inhalte, bevor es hinzugefügt werden kann",
             "success": "Erfolg",
-            "downgradeTo": "Downgrade auf {version}"
+            "downgradeTo": "Downgrade auf {version}",
+            "successText": "Inhaltspakete erfolgreich installiert",
+            "byAuthorVersion": "von {author} {'@'} {version}",
+            "byAuthorRequires": "von {author} erfordert",
+            "upgradeFromTo": "Upgrade von {from} auf {to}",
+            "noChange": "Keine Änderung ({from} auf {to})",
+            "willUpgradeTo": "Es wird auf v.{version} aktualisiert",
+            "willDowngradeTo": "Es wird auf {version} reduziert"
         },
         "migrationRepair": {
             "foundFixable": "{count} reparierbarer Fehler gefunden | {count} reparierbare Fehler gefunden",
@@ -450,7 +458,8 @@
             "manualActionRequired": "Manuelle Handlung erforderlich",
             "cancel": "@:{'common.cancel'}",
             "catFlavorText": "Kulissentext",
-            "catNpcStats": "NSC Statistiken"
+            "catNpcStats": "NSC Statistiken",
+            "catLcpOrigin": "LCP Ursprung"
         },
         "v2ImportNotify": {
             "reimportSuccessText": "{count} Element erfolgreich importiert. | {count} Elemente erfolgreich importiert.",
@@ -469,7 +478,8 @@
             "communityContribute": "Wenn Sie daran interessiert sind, eigene hausgemachte @:{'common.gameName'}-Inhalte zu erstellen, oder Ihre Inhalte zur Veröffentlichung in diesem Verzeichnis einzureichen, bitte",
             "clickHere": "klicken Sie hier.",
             "communityNotice": "In-App Downloads und automatische Abonnements zu Community-LCP-Aktualisierungen werden aktuell noch nicht unterstützt. Sobald die nötigen Werkzeuge für Autor:innen verfügbar sind, werden Community LCPs zu V3 migriert und können von denselben Update- und Abonnementfunktionen profitieren, die auch für offizielle Massif Press Inhaltspakete verfügbar sind. Folgen Sie {blog} um über die Entwicklungen auf dem Laufenden zu bleiben.",
-            "developmentBlog": "Entwickler-Blog"
+            "developmentBlog": "Entwickler-Blog",
+            "massifPress": "MASSIF PRESS"
         },
         "packInfo": {
             "v2ContentTitle": "V2 Inhalte",
