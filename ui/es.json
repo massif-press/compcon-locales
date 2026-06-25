@@ -2122,7 +2122,8 @@
             "sharePilot": "Compartir Piloto",
             "duplicatePilot": "Duplicar Piloto",
             "currentLEVEL": "Nivel actual",
-            "identityVERIFIED": "Identidad verificada"
+            "identityVERIFIED": "Identidad verificada",
+            "doesnTWorkInCodeBlock": "(No funciona en formato de bloque de código)"
         }
     },
     "share": {
