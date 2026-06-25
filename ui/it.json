@@ -11,10 +11,8 @@
         "addContent": "Aggiungi Contenuto",
         "addName": "Aggiungi {name}",
         "addingLocalCopyTooltip": "Aggiungere questo elemento come copia locale creerà una nuova versione modificabile salvata nei tuoi dati locali di COMP/CON. Le modifiche a questo elemento non influiranno sui dati originali dell'autore e non riceverai aggiornamenti dall'autore.",
-        "alert": "Allarme",
         "all": "Tutti",
         "appName": "COMP/CON",
-        "appShortName": "C/C",
         "armorBonus": "Bonus Armatura",
         "attackBonus": "Bonus Attacco",
         "back": "Indietro",
@@ -87,7 +85,6 @@
         "lcpDirectory": "Directory LCP",
         "licenses": "Licenze",
         "limitedBonus": "Bonus Limitato",
-        "loading": "Caricamento…",
         "loadout": "Equipaggiamento",
         "logLevel": "Livello di log:",
         "mainMenu": "Menu Principale",
@@ -102,7 +99,6 @@
         "npcs": "PNG",
         "objective": "Obiettivo",
         "offline": "Offline",
-        "ok": "OK",
         "options": "Opzioni",
         "organize": "Organizza",
         "overcharge": "Sovralimentare",
@@ -317,9 +313,7 @@
         },
         "returnToCompendium": "Torna al Compendio",
         "search": {
-            "resultCount": "{count} risultato | {count} risultati",
-            "switchToCompendium": "Passa alla ricerca nel compendio",
-            "switchToReference": "Passa alla ricerca nei riferimenti"
+            "resultCount": "{count} risultato | {count} risultati"
         },
         "selectItem": "Seleziona {name}",
         "titles": {
