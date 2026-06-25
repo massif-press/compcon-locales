@@ -283,7 +283,7 @@
         },
         "about": {
             "ccVersion": "Versão do C/C",
-            "lancerCoreVersion": "@:{'common.gameName'} versão CORE:",
+            "lancerCoreVersion": "@:{'common.gameName'} versão CORE",
             "description": "O @:{'common.appName'} é um kit de ferramentas digital gratuito e de código aberto, além de um assistente de jogo para criar e jogar o TTRPG @:{'common.gameName'}.",
             "coreBookInfo": "O livro básico de regras do @:{'common.gameName'}, o @:{'common.appName'} e os conteúdos associados podem ser encontrados em",
             "title": "@:{'common.appName'}"
@@ -335,9 +335,9 @@
             "cannot": "Não é possível",
             "warningDataFull": "Isso irá {emphasis} os dados de conquistas do usuário.",
             "cannotBeUndoneFull": "Isso {emphasis} não poderá ser desfeito. É altamente recomendado criar um backup antes.",
-            "byRarity": "Por Raridade:",
+            "byRarity": "Por Raridade",
             "secretAchievements": "Conquistas Secretas",
-            "display": "Exibição:",
+            "display": "Exibição",
             "common": "Comum",
             "rarity": "Raridade",
             "unlocked": "Desbloqueado(a)",
@@ -395,7 +395,7 @@
             "graphicDesignBy": "Design Gráfico por:",
             "tier": "@:{'common.tier'}",
             "patronThanks": "O desenvolvimento contínuo do @:{'common.appName'} não seria possível sem o generoso",
-            "supportOf": "De:",
+            "supportOf": "de",
             "compconBy": "@:{'common.appName'} Por:",
             "anonymousPatron": "Patrono Anônimo"
         },
@@ -428,7 +428,7 @@
             "noChange": "Sem alterações ({from} para {to})",
             "alreadyInstalledWarning": "O seguinte pacote de conteúdo já está instalado e será substituído: | Os seguintes pacotes de conteúdo já estão instalados e serão substituídos:",
             "v3Warning": "O seguinte conteúdo não foi registrado como compatível com a v3. Esses pacotes ainda funcionarão, mas não poderão aproveitar os recursos da v3, especialmente no modo ativo.",
-            "dependencyError": "O seguinte pacote de conteúdo possui dependências não instaladas e ainda não pode ser instalado. Ele será ignorado: | Os seguintes pacotes de conteúdo possuem dependências não instaladas e ainda não podem ser instalados. Eles serão ignorados:",
+            "dependencyError": "O seguinte pacote de conteúdo possui dependências não instaladas e ainda não pode ser instalado. Ele será ignorado: | Os seguintes pacotes de conteúdo possuem dependências não instaladas e ainda não podem ser instalados. Eles serão ignorados",
             "alreadyInstalledNote": "Um pacote com este mesmo nome e autor já está instalado.",
             "willReplace": "Ele será substituído por esta cópia.",
             "requiresContent": "Este LCP exige que o seguinte conteúdo esteja instalado antes de poder ser adicionado",
