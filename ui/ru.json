@@ -198,7 +198,12 @@
     "language": {
         "selectLanguage": "Язык",
         "pctTransComplete": "{pct}% переведено",
-        "experimentalNote": "Перевод на языки, отличные от английского, осуществляется сообществом и пока не завершён. Часть текста может отображаться непереведённой или странно."
+        "experimentalNote": "Перевод на языки, отличные от английского, осуществляется сообществом и пока не завершён. Часть текста может отображаться непереведённой или странно.",
+        "components": {
+            "ui": "Интерфейс",
+            "lancer-data": "Компендиум",
+            "lancer-srd": "Справка по правилам"
+        }
     },
     "nav": {
         "v2Import": {
@@ -235,7 +240,8 @@
             "storageLimitExceeded": "Превышен лимит хранилища",
             "supportCompcon": "Поддержите @:{'common.appName'}",
             "cloudAccount": "@:{'common.cloudAccount'}",
-            "credits": "@:{'common.credits'}"
+            "credits": "@:{'common.credits'}",
+            "storageAlertTooltip": "@:{'common.appName'} превысил максимальный лимит хранилища."
         },
         "help": {
             "faq": "Часто задаваемые вопросы",
