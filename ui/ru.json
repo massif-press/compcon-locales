@@ -168,7 +168,9 @@
         "roll_noun": "Бросок",
         "organize": "Группировать",
         "mech": "Мех",
-        "deployables": "Размещаемые"
+        "deployables": "Размещаемые",
+        "talents": "Таланты",
+        "roll_verb": "Бросить"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -931,12 +933,16 @@
             "down": "вниз",
             "identification": "Идентификация",
             "biography": "Биография",
-            "appearance": "Внешний вид"
+            "appearance": "Внешний вид",
+            "pilotNAME": "Имя пилота"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
             "revert": "Отмена изменений",
-            "addEquipment": "Добавить снаряжение"
+            "addEquipment": "Добавить снаряжение",
+            "duplicatePilot": "Дублировать пилота",
+            "currentLEVEL": "Текущий уровень",
+            "newLEVEL": "Новый уровень"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
@@ -968,6 +974,9 @@
             "projectName": "Название проекта",
             "requirements": "Требования",
             "jumpTo": "перейти к"
+        },
+        "titles": {
+            "selectPilotBackground": "Выбрать происхождение пилота"
         }
     },
     "ui": {
@@ -1214,7 +1223,8 @@
     "compendium": {
         "categories": {
             "manufacturers": "Производители",
-            "frames": "Шасси"
+            "frames": "Шасси",
+            "pilotBackground": "Происхождения пилотов"
         },
         "reference": {
             "statuses": "Статусы",
