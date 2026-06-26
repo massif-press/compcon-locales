@@ -391,7 +391,8 @@
         "packInfo": {
             "dependencies": "Зависимости",
             "v2ContentTitle": "Данные формата v2",
-            "v2ContentDescription": "Указанный контент-пак не является совместимым с форматом v3. Он всё ещё будет корректно считываться, но вы не сможете использовать возможности v3 при работе с данными из него."
+            "v2ContentDescription": "Указанный контент-пак не является совместимым с форматом v3. Он всё ещё будет корректно считываться, но вы не сможете использовать возможности v3 при работе с данными из него.",
+            "none": "@:{'common.none'}"
         },
         "communityTable": {
             "currentVersion": "Текущая версия",
@@ -636,7 +637,7 @@
             "dangerZone": "Зона риска",
             "saveSuccessful": "Сохранение завершено",
             "copiedToClipboard": "Скопировано в буфер обмена",
-            "saveFailed": "Не удалось завершить сохранение",
+            "saveFailed": "Ошибка сохранения",
             "prepared": "Подготовился",
             "preparedText": "{name} был помечен, как подготовившийся.",
             "hiddenText": "{name} СКРЫТ.",
@@ -701,7 +702,8 @@
         },
         "labels": {
             "lastUpdate": "Последнее обновление",
-            "round": "Раунд"
+            "round": "Раунд",
+            "archived": "Архивные"
         },
         "organizer": {
             "selected": "выбрано"
@@ -777,7 +779,8 @@
             "selfDestructInitiatedTitle": "Инициирована процедура самоуничтожения меха",
             "selfDestructInitiatedText": "{name} вот-вот самоуничтожится.",
             "mechBracedTitle": "Мех укрепился",
-            "mechBracedText": "{name} УКРЕПЛЁН."
+            "mechBracedText": "{name} УКРЕПЛЁН.",
+            "dismountFailedText": "В {name} нет пилота."
         },
         "pcSheet": {
             "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}"
