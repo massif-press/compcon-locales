@@ -1,1 +1,6 @@
-{}
+{
+    "act_barrage.name": "Barragem",
+    "act_boost.name": "Impulsionar",
+    "act_brace.name": "Suportar",
+    "act_disengage.name": "Desengajar"
+}
