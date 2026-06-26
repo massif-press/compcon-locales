@@ -334,7 +334,8 @@
             "areYouSure": "Вы уверены, что хотите продолжить?",
             "daysCount": "{count} дней.",
             "neverAutoDeleteFull": "@:{'common.appName'} {never} будет автоматически удалять данные, помеченные для удаления.",
-            "clearAllData": "@:{'common.clearAllData'}"
+            "clearAllData": "@:{'common.clearAllData'}",
+            "storageThresholds": "Пороги хранения"
         },
         "deletedItems": {
             "permanentlyDeleteAll": "Удалить навсегда",
@@ -848,7 +849,8 @@
             "unlink": "Отвязать",
             "accountManagement": "Управление аккаунтами",
             "linkingAccount": "Привязка аккаунта…",
-            "directDownloadRequiresAccount": "Для скачивания напрямую вам необходимо завести аккаунт @:{'common.appName'}"
+            "directDownloadRequiresAccount": "Для скачивания напрямую вам необходимо завести аккаунт @:{'common.appName'}",
+            "doesNotSync": "Это не синхронизируется"
         },
         "account": {
             "collectionUpdatedTitle": "Подборка обновлена",
