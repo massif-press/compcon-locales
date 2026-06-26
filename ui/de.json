@@ -715,7 +715,8 @@
             "h2": "H2",
             "h3": "H3",
             "h4": "H4",
-            "hideTitle": "Titel verbergen"
+            "hideTitle": "Titel verbergen",
+            "block": "Block"
         },
         "import": {
             "v2BackupText": "{count} Gefecht zu den V2 Importierungen für spätere Importierung gespeichert. | {count} Gefechte zu den V2 Importierungen für spätere Importierung gespeichert.",
