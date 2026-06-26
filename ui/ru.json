@@ -1067,6 +1067,12 @@
         },
         "unit": {
             "kb": "Кбайт"
+        },
+        "subscriptions": {
+            "upToDate": "Актуальная версия",
+            "updateAvailable": "Доступно обновление",
+            "updateToLatest": "Обновить до последней версии",
+            "unsubscribe": "Отписаться от рассылки"
         }
     },
     "pm": {
