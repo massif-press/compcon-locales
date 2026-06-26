@@ -904,7 +904,8 @@
             "doesNotSync": "(это не синхронизируется)",
             "downloadInstallLatest": "Скачать и установить последнюю версию",
             "cloudData": "Облачные данные",
-            "contentSubscriptions": "Подписки на контент"
+            "contentSubscriptions": "Подписки на контент",
+            "contentPublishing": "Публикация контента"
         },
         "account": {
             "collectionUpdatedTitle": "Подборка обновлена",
