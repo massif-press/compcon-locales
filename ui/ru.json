@@ -985,7 +985,8 @@
             "versionN": "версия {version}",
             "saveDraft": "Сохранить черновик",
             "deleteCollection": "Удалить коллекцию",
-            "actionUndone": "Это действие нельзя отменить."
+            "actionUndone": "Это действие нельзя отменить.",
+            "collectionsHeader": "Коллекции ({count}/{limit})"
         },
         "dataItem": {
             "retryConnection": "Повторная попытка подключения",
