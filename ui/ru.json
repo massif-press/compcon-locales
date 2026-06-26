@@ -943,7 +943,8 @@
         },
         "migration": {
             "migrateNow": "Перенести сейчас",
-            "npcsDetected": "{count} НИП | {count} НИПы"
+            "npcsDetected": "{count} НИП | {count} НИПы",
+            "encountersDetected": "{count} Столкновение | {count} Столкновения"
         },
         "archive": {
             "deleteArchive": "Удалить архив",
