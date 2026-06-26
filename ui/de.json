@@ -681,11 +681,42 @@
             "exportLcd": ".lcd Paket exportieren",
             "versionLabel": "V{version}",
             "unpublished": "Nicht veröffentlicht",
-            "permanentDeletion": "Permanente Löschung"
+            "permanentDeletion": "Permanente Löschung",
+            "moveToTop": "nach ganz oben verschieben",
+            "deleteWarn1": "Diese Kampagne wird {strong}. Diese Handlung kann nicht rückgängig gemacht werden. Wenn Sie sich sicher sind, dass Sie",
+            "permanentlyDeleted": "permanent gelöscht",
+            "deleteWarn2": "löschen wollen, tippen Sie den Titel der Kampagne in das Texteingabefeld unten und klicken Sie auf {confirm}.",
+            "deletePermanently": "Kampagne permanent löschen",
+            "importJsonTitle": "JSON-Daten einer Kampagne importieren",
+            "importHelp": "Dieses Werkzeug wird eine editierbare, unveröffentlichte Kampagnen-{jsonFile} von Ihrem Gerät importieren.{br}Um eine veröffentlichte Kampagnendatei mit der {lcd}-Erweiterung in Ihre Sammlung zu importieren, nutzen Sie das Datei-Importwerkzeug im {campaignCollection}-Menü, oder das Kampagnenimport-Werkzeug im {manageContent}-Dialog unter dem Hauptmenü.",
+            "jsonFile": "JSON-Datei",
+            "lcdExt": ".lcd",
+            "campaignCollection": "Kampagnensammlung",
+            "currentlyViewing": "Aktuelle Ansicht",
+            "addSectionBtn": "Segment hinzufügen",
+            "campaignInfo": "Kampagneninformation",
+            "saveCampaign": "Kampagne speichern",
+            "exportCampaign": "Kampagne exportieren",
+            "currentPublishedVersion": "Aktuell veröffentlichte Version",
+            "exportEditableHelp": "Sie können diese editierbare Kampagne als JSON-Datei exportieren, um es als Backup zu speichern, auf andere Geräte zu übertragen, oder mit Kollaborateuren zusammenzuarbeiten.",
+            "publishCampaign": "Kampagne veröffentlichen",
+            "moveUp": "nach oben bewegen",
+            "moveDown": "nach unten bewegen",
+            "moveToBottom": "nach ganz unten verschieben",
+            "deletePageConfirm": "Möchten Sie das {type} \"{title}\" löschen? Diese Handlung kann nicht rückgängig gemacht werden.",
+            "selectEncounter": "Gefecht auswählen"
         },
         "pageContent": {
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
-            "paletteColorsHelp": "Diese Farben {strong} ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in"
+            "paletteColorsHelp": "Diese Farben {strong} ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
+            "outlined": "Umrandet",
+            "tonal": "Ton",
+            "h1": "H1",
+            "h2": "H2",
+            "h3": "H3",
+            "h4": "H4",
+            "hideTitle": "Titel verbergen",
+            "block": "Block"
         },
         "import": {
             "v2BackupText": "{count} Gefecht zu den V2 Importierungen für spätere Importierung gespeichert. | {count} Gefechte zu den V2 Importierungen für spätere Importierung gespeichert.",
@@ -699,11 +730,107 @@
             "importErrorTitle": "Import fehlgeschlagen"
         },
         "stats": {
-            "statCountSuffix": "{n} Statistik | {n} Statistiken"
+            "statCountSuffix": "{n} Statistik | {n} Statistiken",
+            "noStats": "Keine Statistiken zur Anzeige verfügbar",
+            "resetConfirm": "Dies wird alle Statistiken auf R{tier} {name} Standardwerte zurücksetzen. Sind Sie sicher?",
+            "confirmResetStats": "Zurücksetzung der Statistiken bestätigen",
+            "addStat": "Statistik hinzufügen",
+            "custom": "Eigene:s"
         },
         "npcAlert": {
             "selectUpTo": "Sie dürfen bis zu {n} zusätzliche Funktion auswählen | Sie dürfen bis zu {n} zusätzliche Funktionen auswählen",
             "selectN": "Wählen Sie {n} zusätzliche Funktion | Wählen Sie {n} zusätzliche Funktionen"
+        },
+        "encounter": {
+            "combatantAddedTitle": "{name} hinzugefügt",
+            "combatantAddedText": "Eine Instanz von {name} wurde zu {encounterName} hinzugefügt."
+        },
+        "labels": {
+            "heading": "Spielleiter-Marken",
+            "labels": "Marken",
+            "label": "Marke",
+            "valueOptional": "Wert (optional)",
+            "addLabel": "Marke hinzufügen",
+            "labelPalette": "Markenpalette",
+            "sortAlphabetically": "Alphabetisch sortieren",
+            "sortByUsage": "Nach Gebrauch sortieren",
+            "noLabelsAvailable": "Keine Marken verfügbar",
+            "noLabels": "Keine Marken"
+        },
+        "editorFooter": {
+            "upToDate": "Element wurde mit rechnerfernen Änderungen aktualisiert.",
+            "downloadRemote": "Alle rechnerfernen Änderungen auf diesem Element herunterladen, wodurch Lokaldaten überschrieben werden."
+        },
+        "split": {
+            "createNewType": "Neue:s {type} erstellen"
+        },
+        "itemCard": {
+            "tierShort": "R{tier}",
+            "classLabel": "Klasse {class}"
+        },
+        "noItem": {
+            "missingContent": "Fehlende Spielleiterinhalte",
+            "noItemSelected": "Kein Element ausgewählt"
+        },
+        "narrative": {
+            "additionalDetail": "Zusätzliche Details",
+            "clocks": "Uhren",
+            "viewCollections": "Sammlungen anzeigen",
+            "itemTypePlural": "{type}s"
+        },
+        "print": {
+            "othersCount": "(+{n} weitere)"
+        },
+        "overview": {
+            "setCoverImage": "Titelbild festlegen",
+            "deleteHistory": "Verlauf löschen (v.{ver})"
+        },
+        "narrativeLink": {
+            "noEncounterSelected": "Kein Gefecht ausgewählt",
+            "linkedHelp": "Dieses Element ist aktuell mit einem Erzählgegenstand in Ihrer Spielleiter-Sammlung verknüpft. Änderungen am verknüpften Gegenstand werden automatisch in diesem Element reflektiert. Klicken Sie diese Schaltfläche, um das Element von der Spielleiter-Sammlung zu trennen und es als instanziertes Element in den Kampagnendaten zu speichern.",
+            "relinkHelp": "Wählen Sie dieses Element im \"Erzählelement setzen\"-Menü aus, um es neu zu verknüpfen.",
+            "notLinkedHelp": "Dieses Element ist mit keinem Erzählelement in Ihrer Spielleiter-Sammlung verknüpft und wird keine automatischen Aktualisierungen erhalten. Es wird stattdessen als instanziertes Element in den Kampagnendaten gespeichert.",
+            "linkHelp": "Wählen Sie dieses Element im \"Erzählelement setzen\"-Menü aus, um es mit einem Erzählelement zu verknüpfen.",
+            "unlinkElement": "Element trennen",
+            "setNarrativeElement": "Erzählelement setzen",
+            "setEncounter": "Gefecht setzen"
+        },
+        "encounterContent": {
+            "map": "Karte"
+        },
+        "landing": {
+            "toolkit": "Spielleiter-Werkzeuge"
+        },
+        "combatant": {
+            "combatants": "Kombattanten",
+            "addNpc": "NSC hinzufügen",
+            "selectNpc": "NSC auswählen",
+            "currentlyEditing": "Aktuell in Bearbeitung",
+            "encounterInstance": "(Gefechtsinstanz #{n})",
+            "uniqueInstanceHelp": "Dies ist eine einzige Instanz dieses NCSs, die mit diesem Gefecht verknüpft ist. Änderungen an diesem NSC haben keine Auswirkungen auf die Daten des ursprünglichen NSCs.",
+            "linkedSource": "Die Quelle der Instanz dieses NSCs kann in Ihrer NSC-Liste ({name}) aufgefunden werden, und kann Aktualisierungen vom Original erhalten",
+            "notLinkedSource": "Diese NSC-Instanz ist mit keiner gültigen Quelle in Ihrer NSC-Liste verknüpft",
+            "notLinkedSourceDot": "Diese NSC-Instanz ist mit keiner gültigen Quelle in Ihrer NSC-Liste verknüpft.",
+            "sourceLinked": "Quelle verknüpft",
+            "sourceUnavailable": "Quelle nicht verfügbar",
+            "instanceSource": "Instanzquelle",
+            "change": "Änderung",
+            "thisInstance": "Diese Instanz",
+            "source": "Quelle",
+            "updateInstanceTooltip": "Diese Instanz-Eigenschaft an der Quelle aktualisieren",
+            "updateAllTooltip": "Alle Instanz-Eigenschaften an der Quelle aktualisieren"
+        },
+        "encounterIndex": {
+            "addFolder": "Ordner hinzufügen",
+            "addNew": "Neues Gefecht hinzufügen"
+        },
+        "combatantSelector": {
+            "selectNpc": "NSC auswählen"
+        },
+        "encImport": {
+            "notEncounterFile": "Die ausgewählte Datei enthält keine Gefechtsdaten.",
+            "stagedEncounters": "Vorbereitete Gefechte",
+            "readyForImport": "Gefecht bereit für den Import"
         }
     },
     "compendium": {
