@@ -156,7 +156,8 @@
         "player": "Jugador",
         "deployables": "Desplegables",
         "talents": "Talentos",
-        "hase_h": "C"
+        "hase_h": "C",
+        "trigger": "Disparador"
     },
     "language": {
         "selectLanguage": "Idioma",
