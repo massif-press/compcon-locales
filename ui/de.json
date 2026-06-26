@@ -560,7 +560,8 @@
         },
         "optionsPage": {
             "tabSettings": "@:{'common.settings'}",
-            "tabStorage": "Speicherplatz"
+            "tabStorage": "Speicherplatz",
+            "tabLog": "Protokoll"
         },
         "alt": {
             "supportCompconOnPatreon": "Unterstützen Sie @:{'common.appName'} auf Patreon"
