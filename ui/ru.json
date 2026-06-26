@@ -291,7 +291,9 @@
             "selectExportFile": "Выбрать файл для экспорта достижений в @:{'common.appName'}",
             "resetAchievements": "Сброс достижений",
             "cannotAddTitle": "Невозможно добавить достижение",
-            "loadBackup": "Загрузить резервную копию достижений"
+            "loadBackup": "Загрузить резервную копию достижений",
+            "createBackup": "Создать резервную копию достижений",
+            "progress": "{count} из {total} открыто"
         },
         "settingsPage": {
             "errorReporting": "Отчёт об ошибках",
