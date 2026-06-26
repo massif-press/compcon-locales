@@ -710,7 +710,12 @@
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
             "paletteColorsHelp": "Diese Farben {strong} ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
             "outlined": "Umrandet",
-            "tonal": "Ton"
+            "tonal": "Ton",
+            "h1": "H1",
+            "h2": "H2",
+            "h3": "H3",
+            "h4": "H4",
+            "hideTitle": "Titel verbergen"
         },
         "import": {
             "v2BackupText": "{count} Gefecht zu den V2 Importierungen für spätere Importierung gespeichert. | {count} Gefechte zu den V2 Importierungen für spätere Importierung gespeichert.",
