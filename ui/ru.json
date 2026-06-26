@@ -378,7 +378,8 @@
             "free": "Бесплатное",
             "openWebsite": "Открыть сайт",
             "noData": "Доступные контент-паки отсутствуют.",
-            "notInstalled": "Не установлено"
+            "notInstalled": "Не установлено",
+            "payWhatYouWant": "Плати сколько хочешь"
         },
         "search": {
             "searchResults": "результаты поиска",
