@@ -462,7 +462,9 @@
             "latestVersion": "Последняя версия",
             "latestChanges": "Последние изменения:",
             "unpublished": "Неопубликованное",
-            "permanentlyDeleted": "Удалённое навсегда"
+            "permanentlyDeleted": "Удалённое навсегда",
+            "patch": "Исправление",
+            "movePage": "Перемещение страницы"
         },
         "labels": {
             "labels": "Метки",
@@ -949,7 +951,8 @@
             "addEquipment": "Добавить снаряжение",
             "duplicatePilot": "Дублировать пилота",
             "currentLEVEL": "Текущий уровень",
-            "newLEVEL": "Новый уровень"
+            "newLEVEL": "Новый уровень",
+            "clone": "Клонировать"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
