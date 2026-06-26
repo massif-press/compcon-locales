@@ -157,12 +157,19 @@
         "deployables": "Desplegables",
         "talents": "Talentos",
         "hase_h": "C",
-        "trigger": "Disparador"
+        "trigger": "Disparador",
+        "alert": "Alerta",
+        "ok": "Aceptar"
     },
     "language": {
         "selectLanguage": "Idioma",
         "experimentalNote": "La traducción no inglesa es una contribución de la comunidad y un trabajo en progreso. Algunos textos pueden no estar traducidos o imperfectos.",
-        "pctTransComplete": "traducido {pct}%"
+        "pctTransComplete": "traducido {pct}%",
+        "components": {
+            "ui": "Interfaz",
+            "lancer-data": "Compendio",
+            "lancer-srd": "Referencia de reglas"
+        }
     },
     "classes": {
         "newCollection": "Nueva Colección",
@@ -202,7 +209,9 @@
         "settings": {
             "reset": "Restablecer valores predeterminados",
             "importData": "Importar Datos",
-            "exportData": "Exportar todos los datos"
+            "exportData": "Exportar todos los datos",
+            "title": "@:{'common.settings'}",
+            "clearData": "@:{'common.clearAllData'}"
         },
         "v2Import": {
             "deleteTitle": "Eliminar Respaldo",
@@ -217,7 +226,9 @@
             "forceImportNotice": "Esto importará el {type} con todos los artículos no resueltos eliminados. No se pueden encontrar las siguientes dependencias y serán quitadas",
             "panelTitle": "Importaciones V2 pendientes",
             "importAll": "Importar todo",
-            "moreCount": "+{count} más"
+            "moreCount": "+{count} más",
+            "forceImportPanelTitle": "@:{'common.forceImport'}",
+            "confirmForceImport": "@:{'common.forceImport'}"
         },
         "nav": {
             "navigateForward": "Navegar hacia adelante",
@@ -235,7 +246,8 @@
             "storageAlertTooltip": "@:{'common.appName'} ha superado el umbral máximo de almacenamiento.",
             "storageDetails": "Hay más detalles disponibles en la pestaña <b>Almacenamiento</b> del Menú de Opciones.",
             "supportCompcon": "Soporte @:{'common.appName'}",
-            "encounters": "Encuentros"
+            "encounters": "Encuentros",
+            "mainMenu": "@:{'common.mainMenu'}"
         },
         "help": {
             "faq": "Preguntas más frecuentes",
@@ -260,7 +272,9 @@
             "howToSeeExotics": "¿Cómo puedo ver artículos exóticos en el Compendio?",
             "additionalHelp": "Ayuda adicional",
             "downloadDemo": "Descargar demo",
-            "showExoticsToggleLabel": "\"Mostrar elementos exóticos en el Compendio\""
+            "showExoticsToggleLabel": "\"Mostrar elementos exóticos en el Compendio\"",
+            "lcpDirectory": "@:{'common.lcpDirectory'}",
+            "optionsLabel": "@:{'common.options'}"
         },
         "credits": {
             "with": "Con",
@@ -270,7 +284,8 @@
             "supportOf": "de",
             "anonymousPatron": "Mecenas Anónimo",
             "graphicDesignBy": "Diseño gráfico por",
-            "additionalArtBy": "Arte adicional por"
+            "additionalArtBy": "Arte adicional por",
+            "tier": "@:{'common.tier'}"
         },
         "achievements": {
             "unlocked": "Desbloqueado",
@@ -300,7 +315,11 @@
             "cannotAddText": "Código Inválido o ya desbloqueado",
             "progress": "{count} de {total} desbloqueado",
             "othersCount": "(+{count} otros)",
-            "cannotBeUndoneFull": "Este {emphasis} será deshecho. Es muy recomendable crear una copia de seguridad primero."
+            "cannotBeUndoneFull": "Este {emphasis} será deshecho. Es muy recomendable crear una copia de seguridad primero.",
+            "hidden": "@:{'common.hidden'}",
+            "sort": "Ordenación",
+            "selectAll": "@:{'common.selectAll'}",
+            "none": "@:{'common.none'}"
         },
         "settingsPage": {
             "errorReporting": "Error al reportar",
@@ -375,7 +394,8 @@
             "itemType": "Tipo de Artículo",
             "itemName": "Nombre de Artículo",
             "permanentlyDeleteAll": "Eliminar Todo Permanentemente",
-            "permanentlyDelete": "Eliminar permanentemente"
+            "permanentlyDelete": "Eliminar permanentemente",
+            "restore": "@:{'common.restore'}"
         },
         "userDataViewer": {
             "value": "Valor",
@@ -419,7 +439,11 @@
             "dependencies": "Dependencias",
             "dependenciesTooltip": "Las dependencias son otros paquetes de contenido que este paquete requiere para funcionar correctamente. Deben ser instalados y activados para que este paquete se cargue correctamente.",
             "authorsWebsite": "Sitio web del autor",
-            "dependencyInstalled": "Dependencia instalada"
+            "dependencyInstalled": "Dependencia instalada",
+            "contentHeading": "Contenido",
+            "changelog": "@:{'common.changelog'}",
+            "noDescription": "@:{'ui.widget.noDescription'}",
+            "none": "@:{'common.none'}"
         },
         "communityTable": {
             "noData": "No hay paquetes de contenido disponibles.",
@@ -437,18 +461,21 @@
         "roster": {
             "newPilot": "Nuevo Piloto",
             "importPilot": "Importar Piloto",
-            "clonePilot": "Clonar Piloto"
+            "clonePilot": "Clonar Piloto",
+            "deletePilot": "@:{'common.deletePilot'}"
         },
         "about": {
             "lancerCoreVersion": "Versión de @:{'common.gameName'} CORE",
             "description": "@:{'common.appName'} es una herramienta digital gratuita de código abierto, y asistente de juego para construir y jugar @:{'common.gameName'} TTRPG.",
             "coreBookInfo": "El libro BASE @:{'common.gameName'} , @:{'common.appName'}, y el contenido asociado se pueden encontrar en",
-            "ccVersion": "Versión C/C"
+            "ccVersion": "Versión C/C",
+            "title": "@:{'common.appName'}"
         },
         "log": {
             "trace": "Trazo",
             "exportLog": "Bitácora de Exportación",
-            "copiedToClipboard": "Registro copiado al portapapeles"
+            "copiedToClipboard": "Registro copiado al portapapeles",
+            "noData": "@:{'common.noData'}"
         },
         "packConfig": {
             "title": "Configuración de Contenido",
@@ -464,7 +491,9 @@
             "createConfig": "Crear configuración",
             "deleteConfig": "Eliminar esta configuración",
             "editConfig": "Editar esta configuración",
-            "lcpsSuffix": "{list} LCPs"
+            "lcpsSuffix": "{list} LCPs",
+            "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
+            "byAuthor": "@:{'common.byAuthor'}"
         },
         "v2Auto": {
             "v2Data": "Datos V2",
@@ -491,7 +520,7 @@
             "buttonLabel": "Herramienta de Reparación para Migración",
             "buttonTooltip": "Escaneo y reparación de problemas comunes con datos v2 migrados.",
             "scanning": "Explorando datos…",
-            "colIssue": "Inconveniente",
+            "colIssue": "Incidencia",
             "colFixable": "Reparable",
             "noIssues": "No se han encontrado problemas de migración.",
             "colCategory": "Categoría",
@@ -515,8 +544,8 @@
             "createdBy": "Creado por"
         },
         "v2ImportNotify": {
-            "importedSuccessfully": "Importado con éxito.",
-            "importFailedText": "La importación falló: {error}",
+            "importedSuccessfully": "Importado correctamente.",
+            "importFailedText": "Importación incorrecta: {error}",
             "reimportSuccessText": "{count} artículo importado con éxito. | {count} artículos importados con éxito.",
             "reimportPendingText": "{count} artículo aún pendiente contenido faltante. | {count} artículos aún pendientes contenido faltante.",
             "noItemsToReimport": "No hay artículos para reimportar.",
@@ -592,7 +621,7 @@
             "versionExists": "¡Versión {version} ya existe!",
             "releaseNotes": "Notas de lanzamiento y cambios",
             "publishNewVersion": "Publicar Nueva Versión",
-            "latestVersion": "Versión mas reciente",
+            "latestVersion": "Versión más reciente",
             "latestChanges": "Cambios más recientes",
             "exportLcd": "Exportar Paquete .lcd",
             "exportLcdHelp": "Descargar un archivo Lancer Campaign Distributable (.lcd) que se puede importar en @:{'common.appName'} por otro usuario",
@@ -604,13 +633,13 @@
             "changeSectionType": "Cambiar Tipo de Sección",
             "movePage": "Mover Página",
             "moveToTop": "mover al principio",
-            "moveUp": "mover arriba",
-            "moveDown": "mover abajo",
+            "moveUp": "subir",
+            "moveDown": "bajar",
             "moveToBottom": "mover al final",
             "selectEncounter": "Seleccionar Encuentro"
         },
         "encounter": {
-            "combatantAddedTitle": "{name} Añadido",
+            "combatantAddedTitle": "{name} Agregado",
             "combatantAddedText": "Se agregó una instancia de {name} a {encounterName}."
         },
         "labels": {
@@ -677,7 +706,7 @@
             "recommendedFor": "Recomendado para",
             "to": "a",
             "bannerImage": "Imagen del Banderín de la Campaña",
-            "setBannerImage": "Seleccionar Imagen de Banderín",
+            "setBannerImage": "Seleccionar Imagen de Pancarta",
             "imagesMustLink": "Las imágenes de la campaña deben estar vinculadas, y no pueden provenir de datos locales de @:{'common.appName'} .",
             "fromLicenseLevels": "Desde los Niveles de Licencia",
             "authorContact": "Información de contacto del Autor (Opcional)",
