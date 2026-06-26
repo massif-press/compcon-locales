@@ -905,7 +905,10 @@
             "downloadInstallLatest": "Скачать и установить последнюю версию",
             "cloudData": "Облачные данные",
             "contentSubscriptions": "Подписки на контент",
-            "contentPublishing": "Публикация контента"
+            "contentPublishing": "Публикация контента",
+            "viewImage": "Посмотреть изображение",
+            "downloadCopy": "Скачать копию",
+            "imageDeleteWarning": "Обратите внимание, что это приведет к удалению всех ссылок на это изображение из ваших данных. Это действие необратимо."
         },
         "account": {
             "collectionUpdatedTitle": "Подборка обновлена",
