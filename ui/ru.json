@@ -241,7 +241,8 @@
             "supportCompcon": "Поддержите @:{'common.appName'}",
             "cloudAccount": "@:{'common.cloudAccount'}",
             "credits": "@:{'common.credits'}",
-            "storageAlertTooltip": "@:{'common.appName'} превысил максимальный лимит хранилища."
+            "storageAlertTooltip": "@:{'common.appName'} превысил максимальный лимит хранилища.",
+            "options": "@:{'common.options'}"
         },
         "help": {
             "faq": "Часто задаваемые вопросы",
@@ -322,7 +323,8 @@
             "v2BackupDescription": "Это резервная копия @:{'common.appName'} в формате v2. Она будет обработана с применением системы импорта v2: сначала будут установлены контент-паки, затем пилоты, НИПы и бои. Элементы, для которых требуются недостающие LCP, будут сохранены в раздел ожидаемого импорта v2 в разделе Управление контентом.",
             "v2AppendNote": "Резервные копии формата v2 всегда обрабатываются с помощью добавления данных к концу файла.",
             "resetV2Migration": "Сброс статуса миграции формата v2",
-            "resetV2Tooltip": "Сбрасывает статус миграции формата v2, после чего вновь появляется окошко «данные формата v2» (если оно было закрыто ранее)."
+            "resetV2Tooltip": "Сбрасывает статус миграции формата v2, после чего вновь появляется окошко «данные формата v2» (если оно было закрыто ранее).",
+            "enhancedReportingPrefix": "Подробный отчёт об ошибках {status}"
         },
         "storage": {
             "storageSettings": "Настройки хранилища",
@@ -446,7 +448,8 @@
             "lancerCoreVersion": "@:{'common.gameName'} версия игры"
         },
         "log": {
-            "exportLog": "Экспорт логов"
+            "exportLog": "Экспорт логов",
+            "logLevel": "@:{'common.logLevel'}"
         },
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon"
@@ -464,7 +467,7 @@
             "moveToBottom": "на задний план",
             "addSectionBtn": "Добавить раздел",
             "latestVersion": "Последняя версия",
-            "latestChanges": "Последние изменения:",
+            "latestChanges": "Последние изменения",
             "unpublished": "Неопубликованное",
             "permanentlyDeleted": "Удалённое навсегда",
             "patch": "Исправление",
@@ -529,12 +532,15 @@
         },
         "pageContent": {
             "quote": "Цитата",
-            "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить."
+            "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить.",
+            "block": "Блок"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
             "noChanges": "Без изменений",
-            "clickToEdit": "Нажмите для редактирования"
+            "clickToEdit": "Нажмите для редактирования",
+            "change": "Заменить",
+            "source": "Источник"
         },
         "sitrep": {
             "savePreset": "Сохранить шаблон",
@@ -569,7 +575,8 @@
             "selectImage": "выберите изображение",
             "deletePreset": "удалить шаблон",
             "selectTemplate": "выбрать шаблон",
-            "selectLayer": "Выбрать слой"
+            "selectLayer": "Выбрать слой",
+            "image": "Изображение"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
@@ -1243,7 +1250,7 @@
         "reference": {
             "statuses": "Статусы",
             "glossary": "Словарь",
-            "pleaseNote": "Обратите внимание:"
+            "pleaseNote": "Обратите внимание"
         },
         "campaign": {
             "removeFromCollection": "Удалить из подборки",
