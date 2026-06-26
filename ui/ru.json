@@ -901,7 +901,10 @@
             "accountManagement": "Управление аккаунтами",
             "linkingAccount": "Привязка аккаунта…",
             "directDownloadRequiresAccount": "Для скачивания напрямую вам необходимо завести аккаунт @:{'common.appName'}",
-            "doesNotSync": "(это не синхронизируется)"
+            "doesNotSync": "(это не синхронизируется)",
+            "downloadInstallLatest": "Скачать и установить последнюю версию",
+            "cloudData": "Облачные данные",
+            "contentSubscriptions": "Подписки на контент"
         },
         "account": {
             "collectionUpdatedTitle": "Подборка обновлена",
