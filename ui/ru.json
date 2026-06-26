@@ -1010,7 +1010,8 @@
             "noAutoTrack": "@:{'common.appName'} не отслеживает новые данные с itch.io в автоматическом режиме."
         },
         "itemLink": {
-            "noItemWithIdLabel": "Нет элемента с ID"
+            "noItemWithIdLabel": "Нет элемента с ID",
+            "foundInCompendium": "найдено в Компендиуме"
         }
     },
     "pm": {
