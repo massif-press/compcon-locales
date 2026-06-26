@@ -2153,7 +2153,9 @@
             "licensesRequired": "Licencias Requeridas",
             "addReservesAndBonuses": "Añadir Reservas y Bonos",
             "reservesAndBonuses": "Reservas y Bonos",
-            "setPilotLicenses": "Establecer Licencias de Piloto"
+            "setPilotLicenses": "Establecer Licencias de Piloto",
+            "paper": "Papel",
+            "orientation": "Orientación"
         }
     },
     "share": {
