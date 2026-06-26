@@ -886,7 +886,8 @@
             "resetCodeSentTo": "Код сброса пароля был отправлен на {email}",
             "verificationSent": "Новое письмо верификации отправлено на {email}",
             "passwordResetErrorText": "Не удалось отправить письмо для сброса пароля: {msg}",
-            "codeSentToLabel": "Код верификации был отправлен на"
+            "codeSentToLabel": "Код верификации был отправлен на",
+            "sendCodeToLabel": "Отправить код верификации на"
         },
         "dataUsage": {
             "title": "Использование данных",
