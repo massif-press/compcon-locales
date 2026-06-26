@@ -888,7 +888,8 @@
             "passwordResetErrorText": "Не удалось отправить письмо для сброса пароля: {msg}",
             "codeSentToLabel": "Код верификации был отправлен на",
             "sendCodeToLabel": "Отправить код верификации на",
-            "alreadyHaveCode": "У меня уже есть код подтверждения"
+            "alreadyHaveCode": "У меня уже есть код подтверждения",
+            "confirmVerificationCode": "Подтвердить код подтверждения"
         },
         "dataUsage": {
             "title": "Использование данных",
