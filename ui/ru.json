@@ -953,7 +953,8 @@
             "pilotsImported": "{count} пилот импортирован | {count} пилотов импортировано",
             "pilotsPending": "{count} пилот ожидаетcся (отсутствуют LCP) | {count} пилотов ожидаются (отсутствуют LCP)",
             "npcsImported": "{count} НИП импортирован | {count} НИПов импортировано",
-            "npcsPending": "{count} НИП ожидает (отсутствуют LCP) | {count} НИПы ожидают (отсутствуют LCP)"
+            "npcsPending": "{count} НИП ожидает (отсутствуют LCP) | {count} НИПы ожидают (отсутствуют LCP)",
+            "encountersImported": "{count} столкновение импортировано | {count} столкновений импортировано"
         },
         "archive": {
             "deleteArchive": "Удалить архив",
