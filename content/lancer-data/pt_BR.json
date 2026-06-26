@@ -2,5 +2,8 @@
     "act_barrage.name": "Barragem",
     "act_boost.name": "Impulsionar",
     "act_brace.name": "Suportar",
-    "act_disengage.name": "Desengajar"
+    "act_disengage.name": "Desengajar",
+    "act_dismount.name": "Desmontar",
+    "act_eject.name": "Ejetar",
+    "act_eject.terse": "Ejete do seu mecha, voe 6 espaço em uma direção da sua escolha."
 }
