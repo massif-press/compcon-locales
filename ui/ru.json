@@ -293,7 +293,8 @@
             "cannotAddTitle": "Невозможно добавить достижение",
             "loadBackup": "Загрузить резервную копию достижений",
             "createBackup": "Создать резервную копию достижений",
-            "progress": "{count} из {total} открыто"
+            "progress": "{count} из {total} открыто",
+            "othersCount": "(+{count} другие)"
         },
         "settingsPage": {
             "errorReporting": "Отчёт об ошибках",
