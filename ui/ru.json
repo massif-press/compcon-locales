@@ -768,7 +768,8 @@
             "showArchived": "Показать архив",
             "tableName": "Название таблицы",
             "pilotNameOrCallsign": "Имя или позывной пилота",
-            "lineWidth": "Ширина линий"
+            "lineWidth": "Ширина линий",
+            "addTable": "Добавить таблицу"
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
