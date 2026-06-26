@@ -896,7 +896,8 @@
         "cloudData": {
             "imagesTab": "Изображения",
             "dataTabDesc": "Данные о персонажах игроков, а также данные для ведущего хранятся в вашем аккаунте @:{'common.appName'}.",
-            "imagesTabDesc": "Все изображения, которые вы загрузили в ваш аккаунт @:{'common.appName'}."
+            "imagesTabDesc": "Все изображения, которые вы загрузили в ваш аккаунт @:{'common.appName'}.",
+            "dataTab": "Данные"
         },
         "management": {
             "notifications": "Уведомления",
