@@ -1008,6 +1008,9 @@
             "eligibleUpdates": "Ваш облачный аккаунт @:{'common.appName'} получает автоматические обновления для следующих материалов",
             "manageContentHint": "Отвязанные LCP и иные материалы можно добавить вручную по ссылке {link}.",
             "noAutoTrack": "@:{'common.appName'} не отслеживает новые данные с itch.io в автоматическом режиме."
+        },
+        "itemLink": {
+            "noItemWithIdLabel": "Нет элемента с ID"
         }
     },
     "pm": {
