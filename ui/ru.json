@@ -765,7 +765,8 @@
         "fields": {
             "mark1RepairToRestore": "Отметьте 1 Запчать, чтобы восстановить все ОЗ.",
             "showArchived": "Показать архив",
-            "tableName": "Имя таблицы"
+            "tableName": "Имя таблицы",
+            "pilotNameOrCallsign": "Имя пилота или его позывной"
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
@@ -1074,7 +1075,8 @@
             "upToDate": "Актуальная версия",
             "updateAvailable": "Доступно обновление",
             "updateToLatest": "Обновить до последней версии",
-            "unsubscribe": "Отписаться от рассылки"
+            "unsubscribe": "Отписаться от рассылки",
+            "updatedOn": "Обновлено {date}"
         }
     },
     "pm": {
