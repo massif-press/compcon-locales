@@ -681,7 +681,8 @@
             "exportLcd": ".lcd Paket exportieren",
             "versionLabel": "V{version}",
             "unpublished": "Nicht veröffentlicht",
-            "permanentDeletion": "Permanente Löschung"
+            "permanentDeletion": "Permanente Löschung",
+            "moveToTop": "nach oben verschieben"
         },
         "pageContent": {
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
