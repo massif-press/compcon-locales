@@ -179,7 +179,11 @@
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
         "pctTransComplete": "{pct}% übersetzt",
-        "selectLanguage": "Sprache"
+        "selectLanguage": "Sprache",
+        "components": {
+            "ui": "Schnittstelle",
+            "lancer-data": "Kompendium"
+        }
     },
     "classes": {
         "newCampaign": "Neue Kampagne",
@@ -421,7 +425,8 @@
             "itemType": "Elementtyp",
             "restore": "@:{'common.restore'}",
             "permanentlyDelete": "Permanent löschen",
-            "permanentlyDeleteAll": "Alle permanent löschen"
+            "permanentlyDeleteAll": "Alle permanent löschen",
+            "restoreAll": "Alle wiederherstellen"
         },
         "packInstall": {
             "alreadyInstalledWarning": "Folgendes Inhaltspaket ist bereits installiert und wird ersetzt: | Folgende Inhaltspakete sind bereits installiert und werden ersetzt",
@@ -533,7 +538,8 @@
             "authorsWebsite": "@:{'nav.packInfo.authorsWebsite'}",
             "notInstalled": "Nicht installiert",
             "subscribedTooltip": "Aktuell auf Aktualisierungen abonniert. Zum Abbestellen klicken.",
-            "subscribeTooltip": "Hier klicken, um @:{'common.appName'} zu erlauben, dieses LCP zu aktualisieren, sobald eine neue Version verfügbar ist"
+            "subscribeTooltip": "Hier klicken, um @:{'common.appName'} zu erlauben, dieses LCP zu aktualisieren, sobald eine neue Version verfügbar ist",
+            "openWebsite": "Webseite öffnen"
         },
         "packsList": {
             "toggleSuccessText": "Paket erfolgreich {action}.",
@@ -545,10 +551,12 @@
         },
         "search": {
             "search": "@:{'common.search'}",
-            "recentSearches": "kürzliche Suchanfragen"
+            "recentSearches": "kürzliche Suchanfragen",
+            "searchResults": "Suchergebnisse"
         },
         "achievementItem": {
-            "unlockedLabel": "Freigeschaltet"
+            "unlockedLabel": "Freigeschaltet",
+            "createdBy": "Erstellt von"
         },
         "optionsPage": {
             "tabSettings": "@:{'common.settings'}",
@@ -685,7 +693,9 @@
             "missingContentPacks": "Fehlende Inhaltspakete",
             "stagedItems": "Bereitgestellte Elemente",
             "readyForImport": "Element bereit zum Import",
-            "completeImport": "Import fertig ({n} Elemente)"
+            "completeImport": "Import fertig ({n} Elemente)",
+            "collection": "Sammlung",
+            "importErrorTitle": "Import fehlgeschlagen"
         },
         "stats": {
             "statCountSuffix": "{n} Statistik | {n} Statistiken"
