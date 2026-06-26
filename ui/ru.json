@@ -935,10 +935,15 @@
             "autoDeleteData": "автоматически удалять ваши данные",
             "iosStep1": "Нажмите на {share} кнопку {icon} на панели инструментов Safari",
             "shareLabel": "Поделиться",
-            "continueAnyway": "Все равно продолжить"
+            "continueAnyway": "Все равно продолжить",
+            "iosStep2": "Пролистайте вниз и нажмите {target}",
+            "iosStep3": "Нажмите {target}",
+            "onceInstalled": "После установки откройте @:{'common.appName'} с помощью значка на главном экране.",
+            "stronglyRecommended": "настоятельно рекомендуется"
         },
         "migration": {
-            "migrateNow": "Перенести сейчас"
+            "migrateNow": "Перенести сейчас",
+            "npcsDetected": "{count} НИП | {count} НИПы"
         },
         "archive": {
             "deleteArchive": "Удалить архив",
