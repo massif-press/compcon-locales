@@ -2049,7 +2049,7 @@
             "synergyWarning": "Las reglas en estos indicios de sinergia {not} son soportados automáticamente por @:{'common.appName'}. Por favor asegúrese de aplicar manualmente cualquier efecto relevante durante el juego.",
             "superheavyWEAPONBRACING": "Fijación de arma Superpesada",
             "equipmentIDINVALIDORMISSING": "[ ID del Equipamiento inválida o faltante ]",
-            "lancerSuperheavyClassArmamentRequiresTwo": "Lancer, armamento de clase Superheavy requiere dos monturas. Seleccione"
+            "lancerSuperheavyClassArmamentRequiresTwo": "Lancer, armamento de clase Superpesada requiere dos monturas. Por favor seleccione una {mount}"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
@@ -2144,6 +2144,16 @@
             "onATTACK": "Al atacar",
             "reserve": "Reserva",
             "extras": "Extras"
+        },
+        "titles": {
+            "sharePilotData": "Compartir Datos de Piloto",
+            "clonePilot": "Clonar Piloto",
+            "deleteMech": "Eliminar Mecha",
+            "duplicateMech": "Duplicar Mecha",
+            "licensesRequired": "Licencias Requeridas",
+            "addReservesAndBonuses": "Añadir Reservas y Bonos",
+            "reservesAndBonuses": "Reservas y Bonos",
+            "setPilotLicenses": "Establecer Licencias de Piloto"
         }
     },
     "share": {
