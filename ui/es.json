@@ -2048,7 +2048,8 @@
             "superheavyMOUNTING": "(Montura SUPERPESADA)",
             "synergyWarning": "Las reglas en estos indicios de sinergia {not} son soportados automáticamente por @:{'common.appName'}. Por favor asegúrese de aplicar manualmente cualquier efecto relevante durante el juego.",
             "superheavyWEAPONBRACING": "Fijación de arma Superpesada",
-            "equipmentIDINVALIDORMISSING": "[ ID del Equipamiento inválida o faltante ]"
+            "equipmentIDINVALIDORMISSING": "[ ID del Equipamiento inválida o faltante ]",
+            "lancerSuperheavyClassArmamentRequiresTwo": "Lancer, armamento de clase Superheavy requiere dos monturas. Seleccione"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
