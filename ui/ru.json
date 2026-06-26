@@ -559,7 +559,8 @@
             "items": "Элементы",
             "imageUrl": "Ссылка на изображение",
             "websiteUrl": "Ссылка на сайт",
-            "optional": "Опционально"
+            "optional": "Опционально",
+            "conditions": "Условия"
         },
         "pageContent": {
             "quote": "Цитата",
@@ -763,7 +764,8 @@
         },
         "fields": {
             "mark1RepairToRestore": "Отметьте 1 Запчать, чтобы восстановить все ОЗ.",
-            "showArchived": "Показать архив"
+            "showArchived": "Показать архив",
+            "tableName": "Имя таблицы"
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
