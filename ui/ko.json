@@ -87,7 +87,8 @@
         "environment": "환경",
         "background": "배경",
         "changelog": "변경사항",
-        "hidden": "숨김"
+        "hidden": "숨김",
+        "core": "코어"
     },
     "gm": {
         "fields": {

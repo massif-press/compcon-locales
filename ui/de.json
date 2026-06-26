@@ -36,7 +36,7 @@
         "selectAll": "Alle auswählen",
         "warning": "Warnung",
         "preview": "Vorschau",
-        "rank": "RANG",
+        "rank": "Rang",
         "versionHistory": "Versionsgeschichte",
         "copyToClipboard": "In Zwischenablage kopieren",
         "saveAndExit": "Speichern und beenden",
@@ -45,10 +45,10 @@
         "description": "Beschreibung",
         "tier": "Rang",
         "shareCode": "Teilbarer Code",
-        "mount": "Aufsitzen",
-        "manageContent": "Inhalt verwalten",
+        "mount": "Halterung",
+        "manageContent": "Inhalte verwalten",
         "campaignLibrary": "Kampagnen-Bibliothek",
-        "pilotLoadout": "Pilot*innen-Ausrüstung",
+        "pilotLoadout": "Pilot:innen-Ausrüstung",
         "fileImport": "Datei importieren",
         "convertToLocal": "Zu Lokaldaten konvertieren",
         "importCampaign": "Kampagne importieren",
@@ -65,13 +65,13 @@
         "all": "Alle",
         "loadout": "Ausrüstung",
         "weapon": "Waffe",
-        "frame": "Chassis",
+        "frame": "Rahmen",
         "tierN": "Rang {n}",
         "tierShort": "R{n}",
         "byAuthor": "von {author}",
-        "logLevel": "Logstufe:",
+        "logLevel": "Logstufe",
         "contentManager": "Inhaltsverwaltung",
-        "deletePilot": "Pilot*in löschen",
+        "deletePilot": "Pilot:in löschen",
         "clearAllData": "Alle Daten löschen",
         "encounters": "Gefechte",
         "activeMode": "Aktiver Modus",
@@ -79,7 +79,7 @@
         "forceImport": "Import erzwingen",
         "addName": "{name} hinzufügen",
         "features": "Funktionen",
-        "pilotRoster": "Pilot*innenliste",
+        "pilotRoster": "Pilot:innenliste",
         "copyShareCode": "Teilbaren Code kopieren",
         "closePreview": "Vorschau schließen",
         "sitrep": "LAGEBERICHT",
@@ -179,7 +179,11 @@
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
         "pctTransComplete": "{pct}% übersetzt",
-        "selectLanguage": "Sprache"
+        "selectLanguage": "Sprache",
+        "components": {
+            "ui": "Schnittstelle",
+            "lancer-data": "Kompendium"
+        }
     },
     "classes": {
         "newCampaign": "Neue Kampagne",
@@ -238,9 +242,9 @@
         "v2Import": {
             "panelTitle": "Ausstehende V2 Importe",
             "importAll": "Alle importieren",
-            "importAllTooltip": "Versuche, alle ausstehenden Elemente zu importieren. Elemente, deren Dependenzen fehlen, bleiben weiterhin ausstehend.",
-            "forceImportAll": "Alle importieren erzwingen",
-            "forceImportAllTooltip": "Erzwingen des Imports aller ausstehender Elemente. Nicht auflösbare Dependenzen werden entfernt. Benutzen Sie diese Option, wenn Sie alles trotz fehlender Inhalte importieren wollen, aber bedenken Sie, dass den importierten Elementen fehlende Daten entfernt werden. Eventuell werden Sie diese nach dem Import manuell beheben müssen.",
+            "importAllTooltip": "Versuche, alle ausstehenden Elemente zu importieren. Elemente, deren Abhängigkeiten fehlen, bleiben weiterhin ausstehend.",
+            "forceImportAll": "Import Aller erzwingen",
+            "forceImportAllTooltip": "Erzwingen des Imports aller ausstehender Elemente. Nicht auflösbare Abhängigkeiten werden entfernt. Benutzen Sie diese Option, wenn Sie alles trotz fehlender Inhalte importieren wollen, aber bedenken Sie, dass den importierten Elementen fehlende Daten entfernt werden. Eventuell werden Sie diese nach dem Import manuell beheben müssen.",
             "forceImport": "Import erzwingen (entfernt fehlende Elemente)",
             "forceImportPanelTitle": "@:{'common.forceImport'}",
             "attemptReimport": "Import neu versuchen",
@@ -248,16 +252,16 @@
             "deleteTitle": "Backup löschen",
             "deleteConfirm": "Dieses ausstehende V2 Backup löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
             "strippedTitle": "Elemente die bei erzwungenem Import entfernt wurden",
-            "strippedBody": "Die folgenden Elemente wurden entfernt, weil sie nicht aufgelöst werden konnten:",
+            "strippedBody": "Die folgenden Elemente wurden entfernt, weil sie nicht aufgelöst werden konnten",
             "moreCount": "+{count} weitere",
-            "forceImportNotice": "Dies wird den {type} importieren, aber alle nicht auflösbaren Elemente entfernen. Die folgenden Dependenzen konnten nicht gefunden werden:"
+            "forceImportNotice": "Dies wird den {type} importieren, aber alle nicht auflösbaren Elemente entfernen. Die folgenden Abhängigkeiten konnten nicht gefunden werden:"
         },
         "nav": {
             "navigateBack": "Zurück navigieren",
             "navigateForward": "Vorwärts navigieren",
             "mainMenu": "@:{'common.mainMenu'}",
             "compendium": "@:{'common.compendium'}",
-            "pilotManagement": "Pilot*innenverwaltung",
+            "pilotManagement": "Pilot:innenverwaltung",
             "npcRoster": "NSC-Liste",
             "encounters": "Gefechte",
             "narrativeElements": "Erzählelemente",
@@ -266,9 +270,9 @@
             "quickReference": "Schnellreferenz",
             "storageLimitExceeded": "Speicherkapazität überschritten",
             "noNewItemsSaved": "Keine neuen Elemente können gespeichert werden, bis die Kapazität erweitert wird oder Daten gelöscht werden.",
-            "storageWarningTooltip": "@:{'common.activeMode'} hat den Speicherwarnwert überschritten. Mehr Details können im Speicher-Tab des Optionsmenüs eingesehen werden.",
+            "storageWarningTooltip": "@:{'common.activeMode'} hat den Speicherwarnwert überschritten. Mehr Details können im Speicher-Reiter des Optionsmenüs eingesehen werden.",
             "storageAlertTooltip": "@:{'common.appName'} hat den Speicher-Maximalwert überschritten.",
-            "storageDetails": "Mehr Details können im <b>Speicher</b>-Tab des Optionsmenüs eingesehen werden.",
+            "storageDetails": "Mehr Details können im <b>Speicher</b>-Reiter des Optionsmenüs eingesehen werden.",
             "cloudAccount": "@:{'common.cloudAccount'}",
             "achievements": "Errungenschaften",
             "manageContent": "@:{'common.manageContent'}",
@@ -280,8 +284,8 @@
         },
         "about": {
             "title": "@:{'common.appName'}",
-            "ccVersion": "C/C Version:",
-            "lancerCoreVersion": "@:{'common.gameName'} CORE Version:",
+            "ccVersion": "C/C Version",
+            "lancerCoreVersion": "@:{'common.gameName'} CORE Version",
             "description": "@:{'common.appName'} ist ein kostenloser, digitaler open-source Werkzeugkasten und Spielassistent zum Erstellen und Spielen von @:{'common.gameName'} Tabletop-Rollenspielen.",
             "coreBookInfo": "Das @:{'common.gameName'} CORE Buch, @:{'common.appName'} und damit verbundene Inhalte können hier gefunden werden:"
         },
@@ -310,14 +314,14 @@
             "cloudAccountFaqBody": "@:{'common.options'} Cloud-Konten sind gratis für alle Nutzer*innen. Unterstützer auf Patreon erhalten Zugang zu zusätzlichen Funktionen in ihren Cloud-Konten, wie zum Beispiel erweiterter Cloud-Speicher und zusätzliche aktive Tisch-Instanzen.",
             "additionalHelpBody": "Das {faqLink} kann Ihnen mit Ihrer Frage evtl. weiterhelfen! Falls Sie dennoch nicht finden können, wonach Sie suchen, besuchen Sie uns gerne auf {discordLink} (insbesondere im #comp-con Kanal) und posten Sie Ihre Frage oder Ihren Kommentar direkt an die Entwickler.",
             "faqLinkText": "@:{'common.appName'} FAQ",
-            "discordLinkText": "der unoffizielle @:{'common.gameName'} Discord"
+            "discordLinkText": "der unoffizielle @:{'common.gameName'} Discord-Server"
         },
         "credits": {
-            "lancerBy": "@:{'common.gameName'} von:",
+            "lancerBy": "@:{'common.gameName'} von",
             "compconBy": "@:{'common.appName'} von:",
-            "with": "Mit:",
-            "graphicDesignBy": "Grafikdesign von:",
-            "additionalArtBy": "Zusätzliche Bilder von:",
+            "with": "Mit",
+            "graphicDesignBy": "Grafikdesign von",
+            "additionalArtBy": "Zusätzliche Bilder von",
             "patronThanks": "Die anhaltende Weiterentwicklung von @:{'common.appName'} wäre nicht möglich ohne die großzügige",
             "supportOf": "von:",
             "tier": "@:{'common.tier'}",
@@ -325,8 +329,8 @@
         },
         "achievements": {
             "unlocked": "freigeschaltet",
-            "byRarity": "Nach Seltenheit:",
-            "byLabel": "Nach Label:",
+            "byRarity": "Nach Seltenheit",
+            "byLabel": "Nach Marke",
             "secretAchievements": "Geheime Errungenschaften",
             "discovered": "Entdeckt",
             "display": "Anzeige",
@@ -352,7 +356,8 @@
             "progress": "{count} von {total} freigeschaltet",
             "hiddenCount": "{count} Errungenschaft nicht angezeigt | {count} Errungenschaften nicht angezeigt",
             "cannot": "kann nicht",
-            "othersCount": "(+{count} andere)"
+            "othersCount": "(+{count} andere)",
+            "warningDataFull": "Dies wird Nutzer:innen-Errungenschaftsdaten {emphasis}."
         },
         "storage": {
             "noStorageAccess": "@:{'common.appName'} kann nicht auf den Gerätespeicher zugreifen. Dies kann aufgrund einer Browsereinstellung oder -erweiterung sein. @:{'common.appName'} wird stattdessen \"Local Storage\" verwenden, welches auf 5MB begrenzt ist. Dies kann dazu führen, dass @:{'common.appName'} gewisse Daten nicht speichern kann. Bitte überprüfen Sie Ihre Browser-Einstellungen und erlauben @:{'common.appName'} Zugriff auf \"Persistent Storage\" wenn Sie dazu aufgefordert werden. Falls Sie eine Browsererweiterung verwenden, die Zugriff auf den Speicher blockiert, bitte deaktivieren Sie diese für @:{'common.appName'}. Falls keine dieser Optionen funktioniert, bitte laden Sie @:{'common.appName'} als PWA herunter.",
@@ -401,11 +406,11 @@
             "lcpsSuffix": "{list} LCPs"
         },
         "userDataViewer": {
-            "description": "Dies sind die lokal gespeicherten Nutzer*innendaten. Diese Elemente sollten generell nicht zurückgesetzt werden müssen, aber es kann hilfreich bei der Fehlersuche oder beim Lösen von hartnäckigen Ladeproblemen sein.",
-            "achievementNote": "Nutzer*innendaten zurückzusetzen wird keine freigeschalteten Errungenschaften zurücksetzen (dies kann über den Errungenschafts-Browser erreicht werden).",
+            "description": "Dies sind die lokal gespeicherten Nutzer:innendaten. Diese Elemente sollten generell nicht zurückgesetzt werden müssen, aber es kann hilfreich bei der Fehlersuche oder beim Lösen von hartnäckigen Ladeproblemen sein.",
+            "achievementNote": "Nutzer:innendaten zurückzusetzen wird keine freigeschalteten Errungenschaften zurücksetzen (dies kann über den Errungenschafts-Browser erreicht werden).",
             "item": "@:{'common.item'}",
             "value": "Wert",
-            "resetUserData": "Nutzer*innendaten zurücksetzen"
+            "resetUserData": "Nutzer:innendaten zurücksetzen"
         },
         "log": {
             "logLevel": "@:{'common.logLevel'}",
@@ -417,11 +422,15 @@
         "deletedItems": {
             "noItemsFound": "Keine Elemente gefunden",
             "itemName": "Elementname",
-            "itemType": "Elementtyp"
+            "itemType": "Elementtyp",
+            "restore": "@:{'common.restore'}",
+            "permanentlyDelete": "Permanent löschen",
+            "permanentlyDeleteAll": "Alle permanent löschen",
+            "restoreAll": "Alle wiederherstellen"
         },
         "packInstall": {
             "alreadyInstalledWarning": "Folgendes Inhaltspaket ist bereits installiert und wird ersetzt: | Folgende Inhaltspakete sind bereits installiert und werden ersetzt",
-            "dependencyError": "Folgendes Inhaltspaket hat nicht installierte Dependenzen und kann noch nicht installiert werden. Es wird übersprungen: | Folgende Inhaltspakete haben nicht installierte Dependenzen und können noch nicht installiert werden. Sie werden übersprungen",
+            "dependencyError": "Folgendes Inhaltspaket hat nicht installierte Abhängigkeiten und kann noch nicht installiert werden. Es wird übersprungen: | Folgende Inhaltspakete haben nicht installierte Abhängigkeiten und können noch nicht installiert werden. Sie werden übersprungen",
             "installingPacks": "Installiere {count} Inhaltspaket... | Installiere {count} Inhaltspakete…",
             "selectFile": "Wählen Sie eine .LCP Datei",
             "install": "Installieren",
@@ -461,12 +470,44 @@
         },
         "v2ImportNotify": {
             "reimportSuccessText": "{count} Element erfolgreich importiert. | {count} Elemente erfolgreich importiert.",
-            "reimportPendingText": "{count} Element hat ausstehende fehlende Inhalte. | {count} Elemente haben ausstehende fehlende Inhalte."
+            "reimportPendingText": "{count} Element hat ausstehende fehlende Inhalte. | {count} Elemente haben ausstehende fehlende Inhalte.",
+            "missingDependencies": "Fehlende Abhängigkeiten sind noch nicht verfügbar.",
+            "noItemsToReimport": "Keine Elemente zum erneuten Import verfügbar.",
+            "reimportFailedText": "Erneuter Import fehlgeschlagen: {error}"
         },
         "settingsPage": {
             "resetV2Migration": "V2 Migrationsstatus zurücksetzen",
             "resetV2Tooltip": "Setzt den V2 Migrationsstatus zurück, was die V2 Daten-Schaltfläche wieder anzeigt, nachdem diese verworfen wurde.",
-            "v2BackupDescription": "Dies ist eine V2 @:{'common.appName'} Backup-Datei. Sie wird durch das V2 Importsystem verarbeitet: Inhaltspakete werden zuerst installiert, gefolgt von Pilot:innen, NSCs, und Gefechten. Elemente, welche LCPs benötigen, die nicht in diesem Backup enthalten sind, werden zu den ausstehenden V2-Importierungen in der Inhaltsverwaltung gespeichert."
+            "v2BackupDescription": "Dies ist eine V2 @:{'common.appName'} Backup-Datei. Sie wird durch das V2 Importsystem verarbeitet: Inhaltspakete werden zuerst installiert, gefolgt von Pilot:innen, NSCs, und Gefechten. Elemente, welche LCPs benötigen, die nicht in diesem Backup enthalten sind, werden zu den ausstehenden V2-Importierungen in der Inhaltsverwaltung gespeichert.",
+            "showUpdateMessages": "Aktualisierungsnachrichten anzeigen",
+            "showExoticsLabel": "Exotische Elemente im Kompendium anzeigen",
+            "showDesktopTablesLabel": "Vollständige Tabellen im Kompendium erzwingen",
+            "showDesktopTablesTooltip": "Standardmäßig stellt @:{'common.appName'} auf mobilen Geräten eine vereinfachte Ansicht von Kompendium-Tabellen dar, um Lesbarkeit und Leistung zu verbessern. Durch Einschalten dieser Option wird auf allen Geräten die vollständige Desktop-Version der Tabellen angezeigt. Es kann sein, dass dadurch einige Tabellen weniger lesbar werden oder auf mobilen Geräten zu schlechterer Leistung führen.",
+            "showExoticsTooltip": "Das Einschalten dieser Option kann zu Spoilern für gewisse Kampagnen führen. Für Nicht-Spielleiter wird es empfohlen, diese Einstellung DEAKTIVIERT zu lassen",
+            "theme": "Farbschema",
+            "disabled": "deaktiviert",
+            "errorReportingTooltip": "Fehlerberichterstattung sendet anonyme Fehlerdaten an die Entwickler, um Fehler und Störungen besser zu identifizieren und beheben.",
+            "errorReportingPiiNote": "Auf dieser Stufe werden keine personenbezogene Daten gesammelt.",
+            "enhancedReportingTooltip": "Erweiterte Fehlerberichterstattung sorgt dafür, dass die Entwickler zusätzliche Daten erhalten, u.A. {nonAnon}. Alle anderen personenbezogenen Daten werden vor der Übertragung entfernt. Diese Option ist {notNecessary}, es sei denn, Sie arbeiten aktiv mit den Entwicklern an einem spezifischen Problem und wurden darum gebeten, diese Option zu aktivieren.",
+            "enhancedReportingPiiNote": "nicht-anonyme Daten, genauer gesagt die IP-Adresse und Nutzer:innen-ID",
+            "enhancedReportingNotNecessary": "nicht notwendig",
+            "enhancedReportingStatus": "Erweiterte Fehlerberichterstattung {status}",
+            "communityThemesBy": "Community-Farbschemata von {vialra} {asger} {thecrystalwoods} und {suji}",
+            "importStrategy": "// Importstrategie",
+            "createBackup": "Datenbackup erstellen",
+            "createBackupTooltip": "@:{'common.appName'} verwendet den sicheren Speicher Ihres Browsers um Daten zu speichern und zu laden. Generell sind diese Daten vor Löschung geschützt, aber durch gewisse Browsereinstellungen und Werkzeuge können sie manchmal gelöscht werden, was zum Verlust Ihrer @:{'common.appName'}-Daten führt. Es ist daher eine gute Idee, regelmäßig Ihre Daten als Backup zu sichern.",
+            "downloadV2Backup": "Gespeichertes V2-Backup herunterladen",
+            "downloadV2Tooltip": "@:{'common.appName'} hat ein vollständiges Backup Ihrer V2-@:{'common.appName'}-Daten gespeichert. Diese Daten können in die V2-App auf old.compcon.app importiert werden.",
+            "loadBackup": "Daten-Backup laden",
+            "loadBackupTooltip": ".compcon-Dateien sind @:{'common.appName'}-Massenexportdateien, in denen sämtlicher Ihrer lokalen Daten in einer einzigen Datei gespeichert werden. Sie können eine .compcon-Backupdatei über die \"Datenbackup erstellen\"-Schaltfläche erzeugen. Benutzen Sie diese Option, um .compcon-Backupdateien zu laden, die Sie erstellt oder aus anderer Quelle erhalten haben. Es wird empfohlen, vor dem Laden einer .compcon-Datei ein Backup zu erstellen, besonders wenn die Datei aus einer anderen Quelle kommt.",
+            "mergeStrategy": "Mit vorhandenen Daten zusammenführen",
+            "overwriteStrategy": "Alle vorhandenen Daten überschreiben",
+            "mergeWarning": "@:{'common.appName'} wird versuchen, die Importdaten mit Ihren vorhandenen Daten zusammenzuführen.",
+            "overwriteWarning": "Überschreiben ersetzt sämtliche Ihrer existierenden Lokaldaten mit Daten aus der importierten Datei. Dieser Vorgang kann nicht rückgängig gemacht werden. Es wird daher empfohlen, vor dem Ausführen dieser Option ein Backup anzulegen.",
+            "selectBulkFile": ".compcon-Massenexportdatei auswählen",
+            "v2BackupDetected": "V2 Backup erkannt",
+            "v2AppendNote": "Importe von V2 Backups werden immer zu existierenden Daten zusätzlich hinzugefügt.",
+            "importV2Backup": "V2 Backup importieren"
         },
         "packsDirectory": {
             "officialContent": "Offiziell",
@@ -483,18 +524,22 @@
             "v2ContentTitle": "V2 Inhalte",
             "v2ContentDescription": "Dieses Inhaltspaket wurde noch nicht als V3-kompatibel registriert. Dieses Paket wird weiterhin funktionieren, aber es wird nicht V3-Funktionen nutzen können.",
             "noDescription": "@:{'ui.widget.noDescription'}",
-            "dependencies": "Dependenzen",
-            "dependenciesTooltip": "Dependenzen sind andere Inhaltspakete, die von diesem Paket zur korrekten Funktion benötigt werden. Diese müssen installiert und aktiviert sein, damit dieses Paket korrekt laden kann.",
+            "dependencies": "Abhängigkeiten",
+            "dependenciesTooltip": "Abhängigkeiten sind andere Inhaltspakete, die von diesem Paket zur korrekten Funktion benötigt werden. Diese müssen installiert und aktiviert sein, damit dieses Paket korrekt laden kann.",
             "none": "@:{'common.none'}",
             "authorsWebsite": "Webseite der Autor:in",
-            "dependencyInstalled": "Dependenz installiert",
+            "dependencyInstalled": "Abhängigkeit installiert",
             "version": "@:{'common.version'}"
         },
         "communityTable": {
             "noData": "Keine Inhaltspakete verfügbar.",
             "v3Compatible": "Dieses Inhaltspaket ist mit der neuesten Version von @:{'common.appName'} kompatibel und unterstützt V3-Funktionen.",
             "v3Incompatible": "Dieses Inhaltspaket benutzt das V2 Inhaltsformat. Es wird korrekt funktionieren, aber wird die Funktionen V3-kompatibler Pakete nicht haben. @:{'common.appName'} wird keine Effekte oder Status dieses Pakets im Aktiven Modus verwalten können.",
-            "authorsWebsite": "@:{'nav.packInfo.authorsWebsite'}"
+            "authorsWebsite": "@:{'nav.packInfo.authorsWebsite'}",
+            "notInstalled": "Nicht installiert",
+            "subscribedTooltip": "Aktuell auf Aktualisierungen abonniert. Zum Abbestellen klicken.",
+            "subscribeTooltip": "Hier klicken, um @:{'common.appName'} zu erlauben, dieses LCP zu aktualisieren, sobald eine neue Version verfügbar ist",
+            "openWebsite": "Webseite öffnen"
         },
         "packsList": {
             "toggleSuccessText": "Paket erfolgreich {action}.",
@@ -502,7 +547,24 @@
             "deactivated": "deaktiviert",
             "toggleErrorText": "LCP konnte nicht aktiviert werden: {error}",
             "deleteAllSuccess": "Erfolgreich sämtliche Inhaltspakete gelöscht.",
-            "missingDependencies": "Diesem Paket fehlen eine oder mehrere Dependenzen, daher kann es nicht aktiviert werden."
+            "missingDependencies": "Diesem Paket fehlen eine oder mehrere Abhängigkeiten, daher kann es nicht aktiviert werden."
+        },
+        "search": {
+            "search": "@:{'common.search'}",
+            "recentSearches": "kürzliche Suchanfragen",
+            "searchResults": "Suchergebnisse"
+        },
+        "achievementItem": {
+            "unlockedLabel": "Freigeschaltet",
+            "createdBy": "Erstellt von"
+        },
+        "optionsPage": {
+            "tabSettings": "@:{'common.settings'}",
+            "tabStorage": "Speicherplatz",
+            "tabLog": "Protokoll"
+        },
+        "alt": {
+            "supportCompconOnPatreon": "Unterstützen Sie @:{'common.appName'} auf Patreon"
         }
     },
     "active": {
@@ -616,7 +678,10 @@
             "generateShareCodeHelp": "Laden Sie diese Kampagne in den Cloud-Speicher hoch, um einen teilbaren Code zu generieren, mit dem andere Nutzer*innen diese Kampagne in ihre @:{'common.appName'} Instanz importieren können. Das Generieren eines teilbaren Codes wird automatisch den Cloud-Speicher mit der neuesten Version dieser Kampagne aktualisieren, sobald eine neue Version veröffentlicht wird.",
             "toProduce": "Um ein vertriebstüchtiges Kampagnenpaket zu produzieren, wählen Sie stattdessen {publish}.",
             "notPublishedHelp": "Diese Kampagne wurde noch nicht veröffentlicht. Veröffentlichen Sie eine erste Version dieser Kampagne, um ein Kampagnenpaket via Datei oder teilbarem Code zu exportieren.",
-            "exportLcd": ".lcd Paket exportieren"
+            "exportLcd": ".lcd Paket exportieren",
+            "versionLabel": "V{version}",
+            "unpublished": "Nicht veröffentlicht",
+            "permanentDeletion": "Permanente Löschung"
         },
         "pageContent": {
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
@@ -625,8 +690,13 @@
         "import": {
             "v2BackupText": "{count} Gefecht zu den V2 Importierungen für spätere Importierung gespeichert. | {count} Gefechte zu den V2 Importierungen für spätere Importierung gespeichert.",
             "missingPacks": "Dem Element fehlen benötigte Inhaltspakete. Es wird zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt, und kann importiert werden, sobald die benötigten Inhaltspakete installiert und aktiviert sind.",
-            "oldVersionWarning": "Einige der importbereiten Daten wurden mit einer älteren Version von @:{'common.appName'} erstellt und verfügen nicht über geschachtelte Inhaltspaket-Informationen. Diese Daten werden zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt, aber können nicht importiert werden, bis die benötigten Inhaltspakete installiert und aktiviert sind. Diese Elemente können importiert werden, sobald die benötigten Inhaltspakete installiert und aktiviert sind. Alternativ kann der Import in der Inhaltsverwaltung erzwungen werden.",
-            "missingContentPacks": "Fehlende Inhaltspakete"
+            "oldVersionWarning": "Einige der importbereiten Daten wurden mit einer älteren Version von @:{'common.appName'} erstellt und verfügen nicht über geschachtelte Inhaltspaket-Informationen. Diese Daten werden zur V2 Import-Sammlung in der Inhaltsverwaltung abgelegt, aber können nicht importiert werden, bis die benötigten Inhaltspakete installiert und aktiviert sind. Diese Elemente können importiert werden, sobald die benötigten Inhaltspakete installiert und aktiviert sind. Alternativ kann der Import in der Inhaltsverwaltung erzwungen werden.",
+            "missingContentPacks": "Fehlende Inhaltspakete",
+            "stagedItems": "Bereitgestellte Elemente",
+            "readyForImport": "Element bereit zum Import",
+            "completeImport": "Import fertig ({n} Elemente)",
+            "collection": "Sammlung",
+            "importErrorTitle": "Import fehlgeschlagen"
         },
         "stats": {
             "statCountSuffix": "{n} Statistik | {n} Statistiken"
