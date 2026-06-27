@@ -1289,7 +1289,10 @@
             "skillTriggers": "Навыки",
             "clonePilot": "Клонировать пилота",
             "layout": "Макет",
-            "paper": "Лист"
+            "paper": "Лист",
+            "orientation": "Ориентация",
+            "groupDescription": "Описание группы",
+            "groupAlreadyExists": "Группа уже существует"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) очков навыков пилотирования.",
