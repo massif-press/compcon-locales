@@ -1101,7 +1101,8 @@
             "itemLimit": "Лимит элементов",
             "showLocallyDeleted": "Показать локально удалённые",
             "deleteCloudDataOnlyKeep": "Удалить только облачные данные (сохранить локальные данные)",
-            "confirmNewEmail": "Подтвердить новый адрес эл. почты"
+            "confirmNewEmail": "Подтвердить новый адрес эл. почты",
+            "deleteCloudAndMarkLocalAsDeleted": "Удалить облачное хранилище и отметить локальное хранилище как удалённое"
         },
         "actions": {
             "remoteBackups": "Удалённые резервные копии",
@@ -1241,7 +1242,11 @@
             "narrativePROFILE": "Нарративный профиль",
             "tacticalPROFILE": "Тактический профиль",
             "errNAMENOTFOUNDUNABLETO": "Ошибка: имя не найдено, не удалось сгенерировать uuid",
-            "includePilotNETDiscordEmoji": "Включить Pilot NET Discrod эмодзи"
+            "includePilotNETDiscordEmoji": "Включить Pilot NET Discrod эмодзи",
+            "doesnTWorkInCodeBlock": "Не поддерживается в формате блока кода",
+            "noBondPowersAvailable": "Силы уз недоступны",
+            "bondsAvailableAfterLicenseLevel1": "Узы доступны после 1-го уровня лицнезии",
+            "selectBond": "Выбрать узы"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
