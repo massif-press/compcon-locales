@@ -1293,7 +1293,12 @@
             "orientation": "Ориентация",
             "groupDescription": "Описание группы",
             "groupAlreadyExists": "Группа уже существует",
-            "removeItem": "_Убрать метку"
+            "removeItem": "_Убрать метку",
+            "setPilotSkillTriggers": "Задать навыки пилота",
+            "pilotCoreBonuses": "Ключевые улучшения пилота",
+            "pilotLicenses": "Лицензии пилота",
+            "editPilotDescription": "Изменить описание пилота",
+            "confirmPilotDeletion": "Подтвердить удаление пилота"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) очков навыков пилотирования.",
