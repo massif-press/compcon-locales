@@ -1286,7 +1286,10 @@
             "sharePilotData": "Поделиться данными пилота",
             "addReservesAndBonuses": "Добавить резервы и бонусы",
             "reservesAndBonuses": "Резервы и улучшения",
-            "skillTriggers": "Навыки"
+            "skillTriggers": "Навыки",
+            "clonePilot": "Клонировать пилота",
+            "layout": "Макет",
+            "paper": "Лист"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) очков навыков пилотирования.",
