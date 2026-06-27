@@ -1290,6 +1290,9 @@
         },
         "loadout": {
             "notSET": "Не задано"
+        },
+        "selectors": {
+            "startWith": "Начать с:"
         }
     },
     "ui": {
