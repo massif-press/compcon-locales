@@ -208,7 +208,8 @@
             "options": "@:{'common.options'}",
             "about": "À propos",
             "credits": "@:{'common.credits'}",
-            "help": "Aide"
+            "help": "Aide",
+            "quickReference": "Pense-bête"
         },
         "packConfig": {
             "addLcp": "Ajouter LCP",
@@ -258,7 +259,9 @@
             "confirmForceImport": "@:{'common.forceImport'}",
             "strippedTitle": "Éléments retirés lors l'importation forcée",
             "strippedBody": "Les éléments suivants ont été retiré car ils ne pouvaient être résolus",
-            "moreCount": "+{count} supplémentaires"
+            "moreCount": "+{count} supplémentaires",
+            "deleteTitle": "Supprimer la sauvegarde de données",
+            "deleteConfirm": "Supprimer cette sauvegarde de données V2 en attente? Cette action ne peut être annulée."
         }
     }
 }
