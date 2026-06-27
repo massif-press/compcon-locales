@@ -181,13 +181,34 @@
             "contentConfig": "Configuration du contenu"
         },
         "roster": {
-            "newPilot": "Nouveau pilote"
+            "newPilot": "Nouveau pilote",
+            "title": "@:{'common.pilotRoster'}",
+            "importPilot": "Importer un pilote",
+            "deletePilot": "@:{'common.deletePilot'}",
+            "clonePilot": "Cloner un pilote"
         },
         "nav": {
             "campaignManager": "Gestionnaire de campagne",
             "encounters": "Rencontres",
             "narrativeElements": "Éléments narratifs",
-            "storageLimitExceeded": "Limite de stockage dépassée"
+            "storageLimitExceeded": "Limite de stockage dépassée",
+            "navigateBack": "Reculer",
+            "navigateForward": "Avancer",
+            "mainMenu": "@:{'common.mainMenu'}",
+            "compendium": "@:{'common.compendium'}",
+            "pilotManagement": "Gestion de pilote",
+            "activeMode": "@:{'common.activeMode'}",
+            "noNewItemsSaved": "Aucun nouvel élément ne sera sauvegardé avant que la limite ne soit augmenté ou des données supprimées",
+            "storageWarningTooltip": "@:{'common.appName'} a dépassé un seuil de stockage. Plus de détails disponibles dans l'onglet Stockage dans le menu des Options.",
+            "storageAlertTooltip": "@:{'common.appName'} a dépassé la limite maximum de stockage.",
+            "storageDetails": "Plus de détails sont disponibles dans l'onglet <b>Stockage</b> dans le menu des options.",
+            "cloudAccount": "@:{'common.cloudAccount'}",
+            "achievements": "Succès",
+            "manageContent": "@:{'common.manageContent'}",
+            "options": "@:{'common.options'}",
+            "about": "À propos",
+            "credits": "@:{'common.credits'}",
+            "help": "Aide"
         },
         "packConfig": {
             "addLcp": "Ajouter LCP",
@@ -218,6 +239,26 @@
         },
         "migrationRepair": {
             "colCategory": "Catégorie"
+        },
+        "settings": {
+            "title": "@:{'common.settings'}",
+            "exportData": "Exporter toutes les données",
+            "importData": "Importer les données",
+            "clearData": "@:{'common.clearAllData'}"
+        },
+        "v2Import": {
+            "panelTitle": "Importations V2 en attente",
+            "importAll": "Tout importer",
+            "importAllTooltip": "Tentative d'importer tous les éléments en attente. Les éléments aux dépendances manquantes resteront en attente.",
+            "forceImportAll": "Forcer toutes les importations",
+            "forceImportAllTooltip": "Forcer l'importation de tous les éléments en attente, retirant toutes les dépendances ne pouvant être résolues. Utilisez ceci si vous voulez tout importer quelque soit le contenu manquant, mais soyez conscients que les éléments importés seront purgés des données manquantes et peuvent nécessiter d'être corrigés manuellement après l'importation.",
+            "forceImport": "Forcer l'importation (Retire les éléments manquants)",
+            "forceImportPanelTitle": "@:{'common.forceImport'}",
+            "attemptReimport": "Nouvelle tentative d'importation",
+            "confirmForceImport": "@:{'common.forceImport'}",
+            "strippedTitle": "Éléments retirés lors l'importation forcée",
+            "strippedBody": "Les éléments suivants ont été retiré car ils ne pouvaient être résolus",
+            "moreCount": "+{count} supplémentaires"
         }
     }
 }
