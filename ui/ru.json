@@ -1285,7 +1285,8 @@
             "selectPilotBackground": "Выбрать происхождение пилота",
             "sharePilotData": "Поделиться данными пилота",
             "addReservesAndBonuses": "Добавить резервы и бонусы",
-            "reservesAndBonuses": "Резервы и улучшения"
+            "reservesAndBonuses": "Резервы и улучшения",
+            "skillTriggers": "Навыки"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) очков навыков пилотирования.",
