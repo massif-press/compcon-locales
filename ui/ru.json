@@ -1123,7 +1123,8 @@
             "linkedMassifContent": "Подключенный контент Massif",
             "membershipBenefits": "Преимущества членства",
             "removeDeletedItems": "Убрать удалённый элементы",
-            "installCompconForReliableStorage": "Установите @:{'common.appName'} для надежного хранения данных."
+            "installCompconForReliableStorage": "Установите @:{'common.appName'} для надежного хранения данных.",
+            "youDoNotHaveAccess": "У вас нет доступа к дистанционным резервным копиям."
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
