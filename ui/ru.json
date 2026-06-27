@@ -1124,7 +1124,8 @@
             "membershipBenefits": "Преимущества членства",
             "removeDeletedItems": "Убрать удалённый элементы",
             "installCompconForReliableStorage": "Установите @:{'common.appName'} для надежного хранения данных.",
-            "youDoNotHaveAccess": "У вас нет доступа к дистанционным резервным копиям."
+            "youDoNotHaveAccess": "У вас нет доступа к дистанционным резервным копиям.",
+            "youDoNotHaveAccess2": "У вас нет доступа к инструменту публикации коллекций."
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
