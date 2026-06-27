@@ -1321,6 +1321,9 @@
             "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позже!",
             "pilotBiography": "Биография пилота",
             "pilotAppearance": "Внешность пилота"
+        },
+        "subtitles": {
+            "setPilotGroup": "Задать группу пилота"
         }
     },
     "ui": {
