@@ -131,7 +131,10 @@
         "hidden": "Masqué | Masqués",
         "changelog": "Nouveautés",
         "alert": "Alerte",
-        "ok": "OK"
+        "ok": "OK",
+        "skipToMainContent": "Sauter jusqu'au contenu principal",
+        "pilotGroup": "Groupe de pilotes",
+        "statsLabel": "Caractéristiques"
     },
     "gm": {
         "fields": {
@@ -144,7 +147,8 @@
         "components": {
             "ui": "Interface",
             "lancer-data": "Compendium"
-        }
+        },
+        "experimentalNote": "Les traductions sont réalisées par la communauté et sont un travail en cours. Des phrases peuvent ne pas être traduites ou présenter des incohérences."
     },
     "classes": {
         "newTable": "Nouveau tableau",
@@ -158,7 +162,9 @@
         "newNpc": "Nouveau PNJ",
         "newEidolon": "Nouvel Eidolon",
         "newNarrativeItem": "Nouvel élément narratif",
-        "unknownStatus": "Statut inconnu"
+        "unknownStatus": "Statut inconnu",
+        "newLocation": "Nouveau lieu",
+        "newEncounter": "Nouvelle rencontre"
     },
     "nav": {
         "contentManager": {
@@ -171,7 +177,8 @@
             "removeContent": "@:{'common.remove'}",
             "refreshContent": "Actualiser",
             "updateAll": "@:{'common.updateAll'}",
-            "noPacksInstalled": "Aucun contenu installé"
+            "noPacksInstalled": "Aucun contenu installé",
+            "contentConfig": "Configuration du contenu"
         },
         "roster": {
             "newPilot": "Nouveau pilote"
