@@ -1092,7 +1092,8 @@
             "deleteAccount": "Удалить аккаунт",
             "newEmail": "Новый адрес эл. почты",
             "emailAddress": "Адрес эл. почты",
-            "verificationCode": "Код верификации"
+            "verificationCode": "Код верификации",
+            "doNotShowThisWarningAgain": "Больше это не показывать"
         },
         "actions": {
             "remoteBackups": "Удалённые резервные копии",
