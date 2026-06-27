@@ -1117,7 +1117,10 @@
             "confirmDelete": "Подтвердить удаление",
             "accountDeletion": "Удаление учётной записи",
             "storagePermissionRequired": "Требуется разрешение на сохранение!",
-            "roster": "Личный состав"
+            "roster": "Личный состав",
+            "convertToLocalData": "Преобразовать в локальные данные",
+            "addNewSubscription": "Добавить новую подписку",
+            "linkedMassifContent": "Подключенный контент Massif"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
