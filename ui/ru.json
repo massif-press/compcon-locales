@@ -1374,7 +1374,8 @@
             "equipmentNotes": "Примечания к снаряжению",
             "gmOnly": "Только для ведущего",
             "title": "Название",
-            "relationship": "Отношения"
+            "relationship": "Отношения",
+            "metric": "Метрическая"
         },
         "image": {
             "upload": "Загрузить",
