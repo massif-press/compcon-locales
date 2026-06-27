@@ -1120,7 +1120,9 @@
             "roster": "Личный состав",
             "convertToLocalData": "Преобразовать в локальные данные",
             "addNewSubscription": "Добавить новую подписку",
-            "linkedMassifContent": "Подключенный контент Massif"
+            "linkedMassifContent": "Подключенный контент Massif",
+            "membershipBenefits": "Преимущества членства",
+            "removeDeletedItems": "Убрать удалённый элементы"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
