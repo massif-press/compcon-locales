@@ -159,7 +159,9 @@
         "hase_h": "C",
         "trigger": "Disparador",
         "alert": "Alerta",
-        "ok": "Aceptar"
+        "ok": "Aceptar",
+        "includeFeatureDetails": "incluir Detalles de la Característica",
+        "pilotTalents": "Talentos del Piloto"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -211,7 +213,7 @@
             "importData": "Importar Datos",
             "exportData": "Exportar todos los datos",
             "title": "@:{'common.settings'}",
-            "clearData": "@:{'common.clearAllData'}"
+            "clearData": ""
         },
         "v2Import": {
             "deleteTitle": "Eliminar Respaldo",
@@ -227,8 +229,8 @@
             "panelTitle": "Importaciones V2 pendientes",
             "importAll": "Importar todo",
             "moreCount": "+{count} más",
-            "forceImportPanelTitle": "@:{'common.forceImport'}",
-            "confirmForceImport": "@:{'common.forceImport'}"
+            "forceImportPanelTitle": "",
+            "confirmForceImport": ""
         },
         "nav": {
             "navigateForward": "Navegar hacia adelante",
@@ -273,7 +275,7 @@
             "additionalHelp": "Ayuda adicional",
             "downloadDemo": "Descargar demo",
             "showExoticsToggleLabel": "\"Mostrar elementos exóticos en el Compendio\"",
-            "lcpDirectory": "@:{'common.lcpDirectory'}",
+            "lcpDirectory": "",
             "optionsLabel": "@:{'common.options'}"
         },
         "credits": {
@@ -318,11 +320,11 @@
             "cannotBeUndoneFull": "Este {emphasis} será deshecho. Es muy recomendable crear una copia de seguridad primero.",
             "hidden": "@:{'common.hidden'}",
             "sort": "Ordenación",
-            "selectAll": "@:{'common.selectAll'}",
+            "selectAll": "",
             "none": "@:{'common.none'}"
         },
         "settingsPage": {
-            "errorReporting": "Error al reportar",
+            "errorReporting": "Error al Reportar",
             "enabled": "activado",
             "disabled": "desactivado",
             "showExoticsTooltip": "Habilitar esta opción puede revelar adelantos de la campaña y se recomienda dejar este ajuste DESHABILITADO si usted no es el DJ",
@@ -357,7 +359,8 @@
             "overwriteWarning": "La estrategia de sobreescritura reemplazará todos sus datos locales existentes con los datos del archivo importado y no se puede deshacer. Se recomienda encarecidamente crear una copia de seguridad antes de utilizar esta opción.",
             "v2AppendNote": "las importaciones de copia de seguridad v2 siempre se procesan utilizando la estrategia de \"apéndice\".",
             "showDesktopTablesTooltip": "Por defecto, @:{'common.appName'} muestra una vista simplificada de las tablas de Compendio en dispósitivos móviles para mejorar la legibilidad y desempeño. Activar esta opción mostrará la versión completa de escritorio de las tablas en todos los dispositivos. Esto puede hacer que algunas tablas sean difíciles de leer o causar problemas de desempeño en algunos dispositivos móviles.",
-            "showDesktopTablesLabel": "Forzar Tablas completas del Compendio"
+            "showDesktopTablesLabel": "Forzar Tablas completas del Compendio",
+            "errorReportingPrefix": "Error al reportar"
         },
         "storage": {
             "userData": "Datos del usuario",
@@ -385,7 +388,7 @@
             "neverAutoDelete": "eliminar automáticamente los datos marcados para la eliminación.",
             "cannotBeUndone": "deshacerse.",
             "deleteAllUserData": "Eliminar todos los datos de usuario",
-            "clearAllData": "@:{'common.clearAllData'}"
+            "clearAllData": ""
         },
         "deletedItems": {
             "deletedOn": "Eliminado en",
@@ -431,7 +434,8 @@
             "communityAbout": "@:{'common.appName'} se enorgullece de colaborar con la comunidad @:{'common.gameName'} para poner a disposición estos paquetes de contenido no oficiales. Se les ofrece tal cual como son a la discreción del autor.",
             "communityContribute": "Si usted está interesado en crear su propio contenido casero de @:{'common.gameName'}, o enviar su contenido para ser incluido en este directorio, por favor",
             "clickHere": "presione aquí.",
-            "communityNotice": "La descarga dentro de aplicaciones y la suscripción automática a las actualizaciones de LCP de la comunidad aún no son soportadas . Una vez disponibles las herramientas de soporte del autor, los LCP comunitarios serán migrados a v3 y podrán aprovechar los mismos mecanismos de actualización y suscripción que los paquetes oficiales de contenido de Massif Press. Siga el {blog} para mantenerse al día en el progreso."
+            "communityNotice": "La descarga dentro de aplicaciones y la suscripción automática a las actualizaciones de LCP de la comunidad aún no son soportadas . Una vez disponibles las herramientas de soporte del autor, los LCP comunitarios serán migrados a v3 y podrán aprovechar los mismos mecanismos de actualización y suscripción que los paquetes oficiales de contenido de Massif Press. Siga el {blog} para mantenerse al día en el progreso.",
+            "content": "Contenido"
         },
         "packInfo": {
             "v2ContentTitle": "Contenido v2",
@@ -462,7 +466,7 @@
             "newPilot": "Nuevo Piloto",
             "importPilot": "Importar Piloto",
             "clonePilot": "Clonar Piloto",
-            "deletePilot": "@:{'common.deletePilot'}"
+            "deletePilot": ""
         },
         "about": {
             "lancerCoreVersion": "Versión de @:{'common.gameName'} CORE",
@@ -492,7 +496,7 @@
             "deleteConfig": "Eliminar esta configuración",
             "editConfig": "Editar esta configuración",
             "lcpsSuffix": "{list} LCPs",
-            "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
+            "lancerCoreBook": "",
             "byAuthor": "@:{'common.byAuthor'}"
         },
         "v2Auto": {
@@ -2056,7 +2060,7 @@
     "pm": {
         "loadout": {
             "armorEquippedTitle": "Armadura de Piloto Equipada",
-            "gearEquippedTitle": "Pilot Gear Equipped",
+            "gearEquippedTitle": "Equipamiento de Piloto en Uso",
             "equippedText": "{itemName} equipado a {pilotName}.",
             "not": "NO",
             "weaponEquippedTitle": "Arma de Piloto Equipada",
@@ -2075,7 +2079,7 @@
             "selectPilotWeapon": "Seleccionar Arma de Piloto",
             "currentlyEQUIPPED": "Equipado actualmente",
             "improvedARMAMENT": "(Armamento Mejorado)",
-            "superheavyMOUNTING": "(Montura SUPERPESADA)",
+            "superheavyMOUNTING": "(Montura Superpesada)",
             "synergyWarning": "Las reglas en estos indicios de sinergia {not} son soportados automáticamente por @:{'common.appName'}. Por favor asegúrese de aplicar manualmente cualquier efecto relevante durante el juego.",
             "superheavyWEAPONBRACING": "Fijación de arma Superpesada",
             "equipmentIDINVALIDORMISSING": "[ ID del Equipamiento inválida o faltante ]",
