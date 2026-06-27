@@ -357,10 +357,10 @@
             "warningThresholdMb": "Порог предупреждения (Мбайт)",
             "neverAutoDelete": "автоматически удалять данные, помеченные для удаления.",
             "autoDelete": "Автоудаление",
-            "hasBeenUsed": ") использовано",
+            "hasBeenUsed": ")",
             "ofAvailableStorage": "% доступного системного хранилища (",
-            "warningDescription": "@:{'common.appName'} будет показывать предупреждение, когда",
-            "maxDescription": "@:{'common.appName'} предотвратит создание новых данных после"
+            "warningDescription": "@:{'common.appName'} отобразит предупреждение, когда будет использовано",
+            "maxDescription": "@:{'common.appName'} предотвратит создание новых данных после использования"
         },
         "deletedItems": {
             "permanentlyDeleteAll": "Перманентно удалить все элементы",
