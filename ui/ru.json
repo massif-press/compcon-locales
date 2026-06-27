@@ -1215,7 +1215,11 @@
             "duplicatePilot": "Дублировать пилота",
             "currentLEVEL": "Текущий уровень",
             "newLEVEL": "Новый уровень",
-            "clone": "Клонировать"
+            "clone": "Клонировать",
+            "manageWhichContentPacksAreAccessible": "Управление доступом этого пилота к контент-пакам",
+            "downloadLatestData": "Скачать последние данные",
+            "pilotIsUpToDateWith": "Данные пилота синхронизированы с облачным сервером",
+            "downloadAllRemoteChangesToThis": "Скачать все облачные изменения пилота, перезаписаны локальные данные."
         },
         "print": {
             "pilotHP": "ОЗ пилота",
