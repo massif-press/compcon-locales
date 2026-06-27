@@ -1292,7 +1292,12 @@
             "notSET": "Не задано"
         },
         "selectors": {
-            "startWith": "Начать с:"
+            "startWith": "Начать с:",
+            "efficiency": "Эффективность",
+            "collapse": "свернуть"
+        },
+        "link": {
+            "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позже!"
         }
     },
     "ui": {
