@@ -161,7 +161,10 @@
         "alert": "Alerta",
         "ok": "Aceptar",
         "includeFeatureDetails": "incluir Detalles de la Característica",
-        "pilotTalents": "Talentos del Piloto"
+        "pilotTalents": "Talentos del Piloto",
+        "hase_a": "A",
+        "hase_s": "S",
+        "hase_e": "I"
     },
     "language": {
         "selectLanguage": "Idioma",
