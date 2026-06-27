@@ -1282,7 +1282,10 @@
             "jumpTo": "перейти к"
         },
         "titles": {
-            "selectPilotBackground": "Выбрать происхождение пилота"
+            "selectPilotBackground": "Выбрать происхождение пилота",
+            "sharePilotData": "Поделиться данными пилота",
+            "addReservesAndBonuses": "Добавить резервы и бонусы",
+            "reservesAndBonuses": "Резервы и улучшения"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) очков навыков пилотирования.",
@@ -1297,7 +1300,9 @@
             "collapse": "свернуть"
         },
         "link": {
-            "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позже!"
+            "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позже!",
+            "pilotBiography": "Биография пилота",
+            "pilotAppearance": "Внешность пилота"
         }
     },
     "ui": {
