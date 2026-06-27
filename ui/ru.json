@@ -498,7 +498,8 @@
             "exportLog": "Экспорт логов",
             "logLevel": "@:{'common.logLevel'}",
             "trace": "Трассировка логов",
-            "noData": "@:{'common.noData'}"
+            "noData": "@:{'common.noData'}",
+            "copiedToClipboard": "Запись журнала скопирована в буфер обмена"
         },
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon"
