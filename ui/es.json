@@ -319,7 +319,7 @@
             "othersCount": "(+{count} otros)",
             "cannotBeUndoneFull": "Este {emphasis} será deshecho. Es muy recomendable crear una copia de seguridad primero.",
             "hidden": "@:{'common.hidden'}",
-            "sort": "Ordenación",
+            "sort": "Ordenar",
             "selectAll": "",
             "none": "@:{'common.none'}"
         },
