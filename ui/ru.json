@@ -1097,7 +1097,7 @@
             "newEmail": "Новый адрес эл. почты",
             "emailAddress": "Адрес эл. почты",
             "verificationCode": "Код верификации",
-            "doNotShowThisWarningAgain": "Больше это не показывать это предупреждение",
+            "doNotShowThisWarningAgain": "Больше не показывать это предупреждение",
             "itemLimit": "Лимит элементов",
             "showLocallyDeleted": "Показать локально удалённые",
             "deleteCloudDataOnlyKeep": "Удалить только облачные данные (сохранить локальные данные)",
@@ -1106,7 +1106,10 @@
         "actions": {
             "remoteBackups": "Удалённые резервные копии",
             "syncSettings": "Настройки синхронизации",
-            "accountDetails": "Детали учетной записи"
+            "accountDetails": "Детали учетной записи",
+            "accountEmail": "Эл. почта аккаунта",
+            "managePilots": "Управление пилотами",
+            "v2ImportsAwaitingResolution": "v2 импорты ожидают разрешения"
         },
         "titles": {
             "forceUpload": "Принудительная загрузка",
