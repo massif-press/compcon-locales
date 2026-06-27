@@ -2961,5 +2961,7 @@
     "ms_eva_module.active_effect_eva_module.detail": "Você pode voar e não fica Lento.",
     "ms_eva_module.active_effect_eva_module.name": "Módulo AEV",
     "ms_reinforced_cabling.action_grapple_swing.detail": "1/turno, ao fazer um movimento padrão, você pode voar usando a sua Velocidade em linha reta, desde que haja um caminho livre. Esse movimento deve terminar em um objeto ou superfície, ou então você começa a cair. Enquanto permanecer parado, você pode se segurar na superfície ou objeto de destino, mesmo que seja vertical ou saliente. Se for Prostrado ou repelido enquanto estiver preso a uma superfície, você cai.",
-    "ms_reinforced_cabling.action_grapple_swing.name": "Balanço de Arpéu"
+    "ms_reinforced_cabling.action_grapple_swing.name": "Balanço de Arpéu",
+    "ms_eva_module.effect": "Seu mecha tem um sistema de propulsão adequado para uso em gravidade baixa ou zero e ambientes subaquáticos. Nesses ambientes, você pode voar e não fica Lento.",
+    "ms_eva_module.name": "Módulo AEV"
 }
