@@ -5,5 +5,14 @@
     "act_disengage.name": "Desengajar",
     "act_dismount.name": "Desmontar",
     "act_eject.name": "Ejetar",
-    "act_eject.terse": "Ejete do seu mecha, voe 6 espaço em uma direção da sua escolha."
+    "act_eject.terse": "Ejete do seu mecha, voe 6 espaço em uma direção da sua escolha.",
+    "act_ace_supersonic_spinup.detail": "Como uma ação rápida no seu turno, você pode ligar seus propulsores. Se você terminar seu turno voando, pode indicar um personagem dentro de um alcance igual à sua Velocidade e que esteja na linha de visão, e ganhar a reação Supersônico.",
+    "act_ace_supersonic_spinup.name": "Girar Propulsores",
+    "act_activate_full.detail": "Quando você ATIVAR, você usa um sistema ou equipamento que exige uma ação rápida ou completa. Esses sistemas têm as tags AÇÃO RÁPIDA ou AÇÃO COMPLETA. Você pode ATIVAR qualquer número de vezes por turno, mas não pode ATIVAR o mesmo sistema mais de uma vez, a menos que possa fazê-lo como uma ação livre.",
+    "act_activate_full.name": "Ativação Completa",
+    "act_activate_full.terse": "Ative um sistema ou equipamento que use uma ação completa.",
+    "act_activate_quick.detail": "Quando você ATIVAR, você usa um sistema ou equipamento que exige uma ação rápida ou completa. Esses sistemas têm as tags AÇÃO RÁPIDA ou AÇÃO COMPLETA. Você pode ATIVAR qualquer número de vezes por turno, mas não pode ATIVAR o mesmo sistema mais de uma vez, a menos que possa fazê-lo como uma ação livre.",
+    "act_activate_quick.name": "Ativação Rápida",
+    "act_activate_quick.terse": "Ative um sistema ou equipamento que use uma ação rápida.",
+    "act_barrage.detail": "Quando você FAZ UMA BARRAGEM, você ataca com duas armas, ou com uma arma SUPERPESADA.<br>Para FAZER UMA BARRAGEM, escolha suas armas e um ou mais alvos – dentro do alcance – e então faça um ataque com cada arma.<br>• Além dos seus ataques principais, você também pode atacar com uma arma AUXILIAR em cada encaixe que foi disparada, desde que a arma AUXILIAR ainda não tenha sido disparada nesta ação. Essas armas AUXILIARES não causam dano extra.<br>• Armas SUPERPESADAS só podem ser disparadas como parte de uma BARRAGEM."
 }
