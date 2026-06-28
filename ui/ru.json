@@ -442,7 +442,7 @@
             "buttonLabel": "Инструмент починки миграции",
             "buttonTooltip": "Поиск и устранение типичных ошибок после миграции данных с формата v2.",
             "scanning": "Сканирование данных…",
-            "noIssues": "Ошибок в миграции не найдено."
+            "noIssues": ""
         },
         "optionsPage": {
             "tabStorage": "Хранилище",
@@ -635,14 +635,14 @@
             "websiteUrl": "Ссылка на сайт",
             "optional": "Опционально",
             "conditions": "Условия",
-            "service": "Канал",
-            "neutral": "Neutral"
+            "service": "",
+            "neutral": ""
         },
         "pageContent": {
             "quote": "Цитата",
             "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить.",
             "block": "Блок",
-            "outlined": "Эскиз"
+            "outlined": ""
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -733,7 +733,7 @@
             "viewCollections": "Просмотр подборок"
         },
         "featurePrint": {
-            "weaponAttacks": "Это оружие может одновременно совершать {count} атак за раз."
+            "weaponAttacks": ""
         }
     },
     "active": {
@@ -1004,7 +1004,7 @@
             "cloudFullSync": "Облачное хранилище переполнено! Невозможно осуществить синхронизацию новых данных.",
             "lastSynced": "Дата последней синхронизация: {label}",
             "syncWithSettings": "синхронизировать с текущими настройками",
-            "syncOverrides": "Перезаписать синхронизацию",
+            "syncOverrides": "Опции для перезаписи синхронизации",
             "pilotsOnly": "Только пилоты"
         },
         "collection": {
