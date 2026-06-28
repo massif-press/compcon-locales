@@ -150,7 +150,7 @@
         "hidden": "Oculto",
         "roll_noun": "Tira",
         "hpBonus": "Bono de Pv",
-        "setCustomDescription": "Fijar Descripción Personalizada",
+        "setCustomDescription": "Asignar Descripción Personalizada",
         "pilotGroup": "Grupo de Pilotos",
         "background": "Trasfondo",
         "player": "Jugador",
