@@ -311,7 +311,8 @@
             "notShown": "не показано",
             "sort": "Сортировать",
             "hidden": "@:{'common.hidden'}",
-            "cannotAddText": "Код недействителен или уже разблокирован."
+            "cannotAddText": "Код недействителен или уже разблокирован.",
+            "warningDataFull": "Это {emphasis} данные достижений пользователя."
         },
         "settingsPage": {
             "errorReporting": "Отправка отчётов об ошибках",
