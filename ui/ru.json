@@ -308,7 +308,8 @@
             "dateUnlocked": "Дата разблокировки",
             "notShown": "не показано",
             "sort": "Сортировать",
-            "hidden": "@:{'common.hidden'}"
+            "hidden": "@:{'common.hidden'}",
+            "cannotAddText": "Код недействителен или уже разблокирован."
         },
         "settingsPage": {
             "errorReporting": "Отправка отчётов об ошибках",
