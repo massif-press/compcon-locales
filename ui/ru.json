@@ -153,7 +153,7 @@
         "limitedBonus": "Доп. заряды Расходуемых систем",
         "systemPoints": "Очки систем",
         "repairs": "Ремонт",
-        "contentLabel": "Контент",
+        "contentLabel": "Содержимое",
         "deleteItemsPermanently": "Удалить эти элементы навсегда",
         "item": "Элемент",
         "core": "Ключевая способность",
@@ -875,7 +875,7 @@
         "titles": {
             "movement": "Движение",
             "burn": "Ожог",
-            "addFromShareCode": ""
+            "addFromShareCode": "добавить из публичного кода"
         },
         "timedEffect": {
             "override": "// Заменить",
