@@ -875,7 +875,7 @@
         "titles": {
             "movement": "Движение",
             "burn": "Ожог",
-            "addFromShareCode": "Добавить из публичного кода"
+            "addFromShareCode": ""
         },
         "timedEffect": {
             "override": "// Заменить",
