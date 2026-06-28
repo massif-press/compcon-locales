@@ -1003,7 +1003,7 @@
             "syncItems": "Синхронизировать элементы",
             "cloudFullSync": "Облачное хранилище переполнено! Не удается синхронизировать данные.",
             "lastSynced": "Последняя синхронизация: {label}",
-            "syncWithSettings": "синхронизировать с текущими настройками",
+            "syncWithSettings": "",
             "syncOverrides": ""
         },
         "collection": {
