@@ -800,7 +800,7 @@
         "actions": {
             "allActions": "Все действия",
             "selectIcon": "Выберите значок",
-            "equipmentDeployableInstance": "Размещаемое снаряжение (пример)"
+            "equipmentDeployableInstance": ""
         },
         "skillCheck": {
             "modifiers": "Модификаторы",
@@ -861,7 +861,7 @@
             "pilotNameOrCallsign": "Имя или позывной пилота",
             "lineWidth": "Ширина линий",
             "addTable": "Добавить таблицу",
-            "justify": "По ширине"
+            "justify": ""
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
@@ -875,7 +875,7 @@
         "titles": {
             "movement": "Движение",
             "burn": "Ожог",
-            "addFromShareCode": "добавить из публичного кода"
+            "addFromShareCode": "Добавить из публичного кода"
         },
         "timedEffect": {
             "override": "// Заменить",
@@ -951,14 +951,14 @@
             "alreadyUsed": "Указанное действие уже было использовано в этом ходу.",
             "insufficient": "Недостаточно",
             "activationAction": "{n} действие",
-            "actionsRemaining": "доступных действий для этого хода."
+            "actionsRemaining": "доступных действий на этом ходу."
         },
         "statusCond": {
             "title": "Статусы / Состояния",
             "addCustom": "Добавить пользовательский статус"
         },
         "sortBar": {
-            "sortByCreated": "Сортировать по дате создания"
+            "sortByCreated": ""
         }
     },
     "mainMenu": {
