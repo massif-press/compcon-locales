@@ -250,7 +250,8 @@
             "options": "@:{'common.options'}",
             "about": "О сайте",
             "noNewItemsSaved": "Невозможно сохранить новые элементы без увеличения размера хранилища, либо удаления части данных.",
-            "manageContent": "@:{'common.manageContent'}"
+            "manageContent": "@:{'common.manageContent'}",
+            "storageWarningTooltip": "@:{'common.appName'} превысил порог предупреждения хранилища. Подробнее — во вкладке «Хранилище» меню настроек."
         },
         "help": {
             "faq": "Часто задаваемые вопросы",
