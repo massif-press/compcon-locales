@@ -1258,8 +1258,8 @@
             "npcsAddedViaCode": "Теперь вам доступны данные о НИПах из Lancer Core Book. Они были добавлены на ваш аккаунт после перехода по ссылке через QR-код.",
             "title": "Введите код разблокировки",
             "invalidCode": "Неверный код",
-            "success": "Код принят! Ваш контент теперь доступен.",
-            "npcSubTitle": "Lancer Core Book данные НИП"
+            "success": "",
+            "npcSubTitle": "данные НИП из Lancer Core Book"
         },
         "itch": {
             "accountLabel": "аккаунт itch.io",
