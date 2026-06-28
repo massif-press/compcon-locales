@@ -1258,7 +1258,7 @@
             "title": "Введите код разблокировки",
             "invalidCode": "Неверный код",
             "success": "Код принят! Ваш контент теперь доступен.",
-            "npcSubTitle": "Lancer Core Book данные НИП"
+            "npcSubTitle": ""
         },
         "itch": {
             "accountLabel": "аккаунт itch.io",
