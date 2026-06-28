@@ -995,7 +995,7 @@
         "dataUsage": {
             "title": "Использование данных",
             "resetMigrationTool": "Сброс инструментов миграции аккаунта",
-            "ofMaxMb": "из {max} Мбайт"
+            "ofMaxMb": ""
         },
         "syncSettings": {
             "updateSyncSettings": "Обновить настройки синхронизации",
