@@ -846,7 +846,7 @@
         },
         "cascade": {
             "alert": "Alerta de Cascata",
-            "pending": "Pedente",
+            "pending": "Pendente",
             "inCascade": "em Cascata"
         },
         "table": {
@@ -1440,7 +1440,7 @@
             "layers": "Camadas",
             "addLayer": "Adicionar nova Camada",
             "addRandomLayer": "Adicionar camada aleatória",
-            "noLayers": "nenhuma camada",
+            "noLayers": "sem camadas",
             "orderLower": "Ordem Mais Baixa",
             "orderHigher": "Ordem Mais Alta",
             "layerDescription": "Descrição da Camada"
@@ -1490,7 +1490,7 @@
         },
         "npcEditor": {
             "v2Export": "Exportação v2",
-            "statblock": "Bloco de estatísticas"
+            "statblock": "Bloco de Estatísticas"
         },
         "titles": {
             "setGmLabel": "Definir Etiqueta do Mestre",
@@ -1542,7 +1542,7 @@
             "conditions": "Condições",
             "enemyForces": "FORÇAS INIMIGAS",
             "alliedForces": "FORÇAS ALIADAS",
-            "neutral": "Neutros",
+            "neutral": "Neutro",
             "optional": "Opcional",
             "groupBy": "Agrupar Por",
             "sortBy": "Ordenar Por",
@@ -1614,7 +1614,7 @@
         "transfer": {
             "uploadCompleteTitle": "Upload Concluído",
             "uploadFailedTitle": "Falha no Upload",
-            "downloadCompleteTitle": "Download Concluído",
+            "downloadCompleteTitle": "Download Completo",
             "downloadFailedTitle": "Falha no Download",
             "itemSynced": "{type} {name} sincronizado.",
             "itemSyncFailed": "Falha ao sincronizar {type} {name}. {err}",
@@ -1697,7 +1697,7 @@
             "errorPrefix": "Erro: {err}",
             "v2BackupImportedTitle": "Backup v2 importado",
             "v2NoData": "Nenhum dado encontrado.",
-            "dataImportSuccessTitle": "Importação de dados bem-sucedida",
+            "dataImportSuccessTitle": "Importação bem sucedida",
             "dataReplaced": "Todos os dados existentes foram substituídos pelos dados importados.",
             "dataMerged": "Os dados importados foram mesclados com os dados existentes.",
             "unableToImportTitle": "Não foi possível importar os dados"
@@ -1910,7 +1910,7 @@
         "runnerHeader": {
             "lastSaved": "Último Salvamento",
             "never": "Nunca",
-            "manualSave": "Salvamento Manual",
+            "manualSave": "Salvar Manualmente",
             "autosave": "Salvamento Automático",
             "layoutOptions": "Opções de Layout"
         },
@@ -1980,7 +1980,7 @@
             "importFileLabel": "Arquivo de Importação de Instância de Encontro (.json)",
             "warningReplace": "Aviso: O estado do encontro importado substituirá o estado atual do encontro.",
             "setRound": "Definir Rodada",
-            "overrides": "Sobrescritas",
+            "overrides": "Substitui",
             "current": "Atual",
             "max": "Máx",
             "removeFromEncounter": "Remover {name} do Encontro",
