@@ -1116,7 +1116,9 @@
             "willNotLabel": "не",
             "confirmDelete": "Вы уверены, что хотите удалить эту подборку?",
             "itemUpToDate": "Данный элемент соответствует версии, найденной в локальных данных.",
-            "publishMinor": "Опубликовать младшую версию ({version})"
+            "publishMinor": "Опубликовать младшую версию ({version})",
+            "publishMajor": "Опубликовать основную версию ({version})",
+            "collectionShareCode": "Публичный код коллекции"
         },
         "dataItem": {
             "retryConnection": "Повторная попытка подключения",
