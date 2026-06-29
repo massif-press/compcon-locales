@@ -1158,7 +1158,9 @@
             "remoteLinkBroken": "Облачная ссылка не работает — данные владельца не найдены. Повторите попытку или преобразуйте в локальный формат.",
             "deleteCloudData": "Удалить облачные данные",
             "deleteCloudItem": "Удалить облачный элемент",
-            "typeCampaignData": "Данные кампании"
+            "typeCampaignData": "Данные кампании",
+            "typeActiveEncounter": "Активное столкновение",
+            "typeArchivedEncounter": "Архивированное столкновение"
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
@@ -1801,6 +1803,9 @@
             "searchTheCampaignLibrary": "Поиск по библиотеке кампаний",
             "showFull": "Показать целиком",
             "selectLcdFile": "Выбрать .lcd файл"
+        },
+        "nav": {
+            "systemReference": "Справочник по системе"
         }
     }
 }
