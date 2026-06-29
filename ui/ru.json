@@ -416,7 +416,7 @@
             "noPackSelected": "Не выбраны контент-паки для установки",
             "requiresContent": "Указанный LCP невозможно установить без предварительной установки следующих материалов",
             "byAuthorVersion": "от {author} {'@'} {version}",
-            "successText": "Контент-паки установлены успешно"
+            "successText": "Контент-паки успешно установлены"
         },
         "packsDirectory": {
             "officialContent": "Официальные",
@@ -501,7 +501,7 @@
         },
         "contentManager": {
             "refreshContent": "Обновить",
-            "contentConfig": "Настройки контента",
+            "contentConfig": "Настройки контента.",
             "addContent": "@:{'common.addContent'}",
             "removeContent": "@:{'common.remove'}",
             "updateAll": "@:{'common.updateAll'}",
@@ -542,7 +542,7 @@
             "trace": "Трассировка логов",
             "noData": "@:{'common.noData'}",
             "copiedToClipboard": "Запись из логов скопирована в буфер обмена",
-            "caller": ""
+            "caller": "Вызывающая программа"
         },
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon"
