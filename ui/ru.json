@@ -1348,7 +1348,8 @@
             "identification": "Идентификация",
             "biography": "Биография",
             "appearance": "Внешний вид",
-            "pilotNAME": "Имя пилота"
+            "pilotNAME": "Имя пилота",
+            "pilot": "Пилот"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
