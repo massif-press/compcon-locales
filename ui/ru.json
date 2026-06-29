@@ -1466,7 +1466,11 @@
         },
         "import": {
             "groupImportSuccessText": "{name} успешно добавлен(а).",
-            "groupImportErrorText": "Не удалось импортировать отряд пилотов: {error}"
+            "groupImportErrorText": "Не удалось импортировать отряд пилотов: {error}",
+            "importSuccessTitle": "Импорт успешен"
+        },
+        "export": {
+            "exportErrorTitle": "Ошибка экспорта"
         }
     },
     "ui": {
