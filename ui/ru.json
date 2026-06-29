@@ -449,7 +449,7 @@
             "buttonTooltip": "Поиск и устранение распространённых ошибок после миграции данных с формата v2.",
             "scanning": "Сканирование данных…",
             "noIssues": "Ошибок в миграции не найдено.",
-            "catFlavorText": "Художественный Текст"
+            "catFlavorText": "Художественный текст"
         },
         "optionsPage": {
             "tabStorage": "Хранилище",
@@ -502,7 +502,7 @@
         },
         "contentManager": {
             "refreshContent": "Обновить",
-            "contentConfig": "Настройки контента.",
+            "contentConfig": "Настройки контента",
             "addContent": "@:{'common.addContent'}",
             "removeContent": "@:{'common.remove'}",
             "updateAll": "@:{'common.updateAll'}",
