@@ -2107,7 +2107,8 @@
             "theUADIDENTMV2License": "La Solicitud de Adquisición de Licencia UAD IDENT MV-2 ha sido diseñada para permitir al personal activo de la Unión registrar actualizaciones de licencia mientras están desplegados en campo y recibir información inmediata y recursos de apoyo sobre el terreno de UN y GMS. El personal de la Unión debe confirmar la corrección del formulario presentado con su oficial local de la Unión, o, en caso de que un oficial no esté disponible, solicite una revisión dirigida por NHP en la dirección segura Onminet {node}",
             "submittingUnauthorizedLicensingUpdatesAndOr": "Presentar actualizaciones de licencias no autorizadas y/o presentar de solicitudes no autorizadas de licencia o de derechos de licencia previamente retenidos sin previa autorización MV-8a/j por un Administrador de la Unión resultará en el rechazo automático de la solicitud de licencia y podrá resultar en una auditoría de licencia bajo DoJ/HR AR 716-J",
             "isEligibleForTheFollowingLicense": "es elegible para la siguiente actualización de licencia",
-            "newLICENSEUNLOCK": "Desbloquear nueva licencia"
+            "newLICENSEUNLOCK": "Desbloquear nueva licencia",
+            "mv2LicenseAcquisitionRequest": "Solicitud de adquisición de licencias MV-2"
         },
         "new": {
             "pilot": "Piloto",
