@@ -1735,7 +1735,9 @@
         "sensors": "Сенсоры",
         "structure": "Структура",
         "evasion": "Уклонение",
-        "edef": "Тех. защ."
+        "edef": "Тех. защ.",
+        "armor": "Броня",
+        "speed": "Скорость"
     },
     "share": {
         "resultAuthor": "Автор",
