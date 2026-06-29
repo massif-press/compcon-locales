@@ -383,7 +383,7 @@
             "deleteAllUserData": "Удалить все пользовательские данные",
             "warningThresholdPct": "Порог предупреждения (%)",
             "storageUsageFull": "@:{'common.appName'} в настоящий момент использует {used} из {total}, или {percent} доступного хранилища. Это значение включает пространство, зарезервированное @:{'common.appName'} для управления приложением.",
-            "deleteConfirmIntro": "Это действие удалит {confirm} локальные данные @:{'common.appName'.",
+            "deleteConfirmIntro": "Это действие удалит {confirm} локальные данные @:{'common.appName'}.",
             "cannotBeUndone": "отменено."
         },
         "deletedItems": {
@@ -595,7 +595,9 @@
         },
         "stats": {
             "custom": "Пользовательский",
-            "resetConfirm": "Это приведёт к сбросу всех характеристик к дефолтным значениям О{tier} {name}. Вы уверены, что хотите это сделать?"
+            "resetConfirm": "Это приведёт к сбросу всех характеристик к дефолтным значениям О{tier} {name}. Вы уверены, что хотите это сделать?",
+            "addStat": "Добавить характеристику",
+            "statCountSuffix": "{n} характеристика | {n} характеристик"
         },
         "relationships": {
             "addRelationship": "Добавить отношение",
@@ -749,6 +751,9 @@
         },
         "editorFooter": {
             "downloadRemote": "Загрузить все изменения, связанные с этим элементом из облака, перезаписав локальные данные."
+        },
+        "npcStats": {
+            "activations": "Активаций/раунд"
         }
     },
     "active": {
@@ -1158,7 +1163,9 @@
             "remoteLinkBroken": "Облачная ссылка не работает — данные владельца не найдены. Повторите попытку или преобразуйте в локальный формат.",
             "deleteCloudData": "Удалить облачные данные",
             "deleteCloudItem": "Удалить облачный элемент",
-            "typeCampaignData": "Данные кампании"
+            "typeCampaignData": "Данные кампании",
+            "typeActiveEncounter": "Активное столкновение",
+            "typeArchivedEncounter": "Столкновение в архиве"
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
@@ -1487,7 +1494,8 @@
         "import": {
             "groupImportSuccessText": "{name} успешно добавлен(а).",
             "groupImportErrorText": "Не удалось импортировать отряд пилотов: {error}",
-            "importSuccessTitle": "Импорт успешно выполнен"
+            "importSuccessTitle": "Импорт успешно выполнен",
+            "importSuccessText": "{name} // {callsign} успешно внесены в раздел \"Личный состав\"."
         },
         "export": {
             "exportErrorTitle": "Ошибка экспорта",
@@ -1725,7 +1733,11 @@
         "agi": "Ловкость",
         "hp": "ОЗ",
         "sensors": "Сенсоры",
-        "structure": "Структура"
+        "structure": "Структура",
+        "evasion": "Уклонение",
+        "edef": "Тех. защ.",
+        "armor": "Броня",
+        "speed": "Скорость"
     },
     "share": {
         "resultAuthor": "Автор",
@@ -1766,7 +1778,11 @@
             "faqErrata": "Часто задаваемые вопросы, исправления и пояснения",
             "lancerFaqRepo": "репозиторий lancer-faq",
             "lancerFaqSite": "lancer-faq.netlify.app/",
-            "bookPage": "{book}, стр. {page}"
+            "bookPage": "{book}, стр. {page}",
+            "iconGuide": "Справочник по значкам",
+            "damageTables": "Таблицы урона",
+            "mechActions": "Действия мехов",
+            "pilotActions": "Действия пилотов"
         },
         "campaign": {
             "removeFromCollection": "Удалить из подборки",
@@ -1801,6 +1817,9 @@
             "searchTheCampaignLibrary": "Поиск по библиотеке кампаний",
             "showFull": "Показать целиком",
             "selectLcdFile": "Выбрать .lcd файл"
+        },
+        "nav": {
+            "systemReference": "Справочник по системе"
         }
     }
 }
