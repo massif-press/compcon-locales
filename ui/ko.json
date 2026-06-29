@@ -120,7 +120,8 @@
             "disengageFailedText": "{name}은 교전상태가 아닙니다.",
             "disengagedText": "{name}(이)가 교전해제됨.",
             "currentlySelected": "현재 선택됨:",
-            "destroyed": "파괴됨"
+            "destroyed": "파괴됨",
+            "saveFailed": "저장 실패"
         },
         "dmgCond": {
             "doubleDamage": "두배 피해",
@@ -183,6 +184,11 @@
         "fields": {
             "size": "크기",
             "license": "라이센스"
+        }
+    },
+    "mainMenu": {
+        "ui": {
+            "upgrade": "업그레이드"
         }
     }
 }
