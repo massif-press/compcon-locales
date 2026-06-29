@@ -569,7 +569,7 @@
             "activated": "activado",
             "toggleSuccessText": "Paquete {action} exitosamente.",
             "deactivated": "desactivado",
-            "toggleErrorText": "No habilitado para activar LCP: {error}",
+            "toggleErrorText": "No es posible activar LCP: {error}",
             "deleteAllSuccess": "Borrados exitosamente todos los paquetes de contenido.",
             "missingDependencies": "Falta una o más dependencias de este paquete y no se puede activar."
         },
@@ -590,7 +590,7 @@
             "missingContentPacks": "Paquetes de contenido faltantes",
             "importErrorTitle": "Importación Fallida",
             "encounterImportErrorText": "Fallo al importar encuentro:{error}",
-            "v2BackupTitle": "Respaldos Importados a v2",
+            "v2BackupTitle": "Importado a Respaldos v2",
             "v2BackupText": "{count} encuentro guardado en Importados v2 para posterior importación. | {count} encuentros guardados en Importados v2 para posterior importación."
         },
         "campaign": {
@@ -656,7 +656,7 @@
             "addLabel": "Añadir etiqueta",
             "sortAlphabetically": "Ordenar alfabéticamente",
             "heading": "Etiquetas DJ",
-            "labelPalette": "Paleta de Etiqueta",
+            "labelPalette": "Etiqueta de Paleta",
             "sortByUsage": "Ordenar por Uso",
             "noLabelsAvailable": "Sin Etiquetas Disponibles",
             "noLabels": "Sin Etiquetas"
@@ -664,7 +664,7 @@
         "stats": {
             "noStats": "No hay estadísticas para mostrar",
             "custom": "Personalizado",
-            "resetConfirm": "Esto restablecerá todas las estadísticas a los valores predeterminados para T{tier} {name}. ¿Estás seguro?",
+            "resetConfirm": "Esto restablecerá todas las estadísticas a los valores predeterminados para T{tier} {name}. ¿Está seguro?",
             "confirmResetStats": "Confirme Reinicio de las Estadísticas",
             "addStat": "Añadir Estadística",
             "statCountSuffix": "{n} Estadística | {n} Estadísticas"
