@@ -2087,7 +2087,7 @@
             "superheavyWEAPONBRACING": "Fijación de arma Superpesada",
             "equipmentIDINVALIDORMISSING": "[ ID del Equipamiento inválida o faltante ]",
             "lancerSuperheavyClassArmamentRequiresTwo": "Lancer, armamento de clase Superpesada requiere dos monturas. Por favor seleccione una {mount}",
-            "notSET": "NO SET"
+            "notSET": "Sin selección"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
@@ -2108,7 +2108,7 @@
             "submittingUnauthorizedLicensingUpdatesAndOr": "Presentar actualizaciones de licencias no autorizadas y/o presentar de solicitudes no autorizadas de licencia o de derechos de licencia previamente retenidos sin previa autorización MV-8a/j por un Administrador de la Unión resultará en el rechazo automático de la solicitud de licencia y podrá resultar en una auditoría de licencia bajo DoJ/HR AR 716-J",
             "isEligibleForTheFollowingLicense": "es elegible para la siguiente actualización de licencia",
             "newLICENSEUNLOCK": "Desbloquear nueva licencia",
-            "mv2LicenseAcquisitionRequest": "Solicitud de adquisición de licencias MV-2"
+            "mv2LicenseAcquisitionRequest": "Solicitud de Adquisición de Licencia MV-2"
         },
         "new": {
             "pilot": "Piloto",
