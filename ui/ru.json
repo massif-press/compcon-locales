@@ -383,7 +383,7 @@
             "deleteAllUserData": "Удалить все пользовательские данные",
             "warningThresholdPct": "Порог предупреждения (%)",
             "storageUsageFull": "@:{'common.appName'} в настоящий момент использует {used} из {total}, или {percent} доступного хранилища. Это значение включает пространство, зарезервированное @:{'common.appName'} для управления приложением.",
-            "deleteConfirmIntro": "Это действие удалит {confirm} локальные данные @:{'common.appName'.",
+            "deleteConfirmIntro": "Это действие удалит {confirm} локальные данные @:{'common.appName'}.",
             "cannotBeUndone": "отменено."
         },
         "deletedItems": {
