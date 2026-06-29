@@ -1724,7 +1724,8 @@
             "removeFromCollection": "Удалить из подборки",
             "sortByTitle": "Сортировать по названию",
             "index": "Индекс",
-            "tableOfContents": "Оглавление"
+            "tableOfContents": "Оглавление",
+            "byAuthor": "сделано {author}"
         },
         "titles": {
             "reference": "Справка"
