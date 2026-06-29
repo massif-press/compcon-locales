@@ -415,7 +415,8 @@
             "alreadyInstalledNote": "Контент-пак с тем же названием и того же авторства уже установлен.",
             "noPackSelected": "Не выбраны контент-паки для установки",
             "requiresContent": "Указанный LCP невозможно установить без предварительной установки следующих материалов",
-            "byAuthorVersion": "от {author} {'@'} {version}"
+            "byAuthorVersion": "от {author} {'@'} {version}",
+            "successText": "Контент-паки установлены успешно"
         },
         "packsDirectory": {
             "officialContent": "Официальные",
