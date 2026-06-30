@@ -940,7 +940,7 @@
             "notLinkedSource": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ",
             "notLinkedSourceDot": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ.",
             "sourceLinked": "Origen Vinculado",
-            "sourceUnavailable": "Origen no disponible",
+            "sourceUnavailable": "Origen No Disponible",
             "instanceSource": "Origen de Instancia",
             "change": "Cambiar",
             "thisInstance": "Esta Instancia",
