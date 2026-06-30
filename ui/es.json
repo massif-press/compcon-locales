@@ -829,7 +829,7 @@
         "sitrep": {
             "presets": "Pre-configuraciones",
             "myPresets": "Mis pre-configuraciones",
-            "savePreset": "Guardar la Pre-configuración",
+            "savePreset": "Guardar la preselección",
             "modifiedWarning": "Este sitrep ha sido modificado. Cargar una nueva pre-selección eliminará estos cambios. ¿Seguro que quiere continuar?",
             "deletePresetConfirm": "Eliminar pre-selección {name}? Esto no puede deshacerse."
         },
