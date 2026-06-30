@@ -3354,7 +3354,10 @@
             "improvised": "Improvisado"
         },
         "weaponSize": {
-            "superheavy": "Superpesado"
+            "superheavy": "Superpesado",
+            "auxiliary": "Auxiliar",
+            "main": "Principal",
+            "heavy": "Pesado"
         },
         "mountType": {
             "aux_aux": "Aux/Aux",
@@ -3362,17 +3365,32 @@
             "main_aux": "Principal/Auxiliar",
             "flex": "Flexível",
             "integrated": "Integrado",
-            "superheavy": "Superpesado"
+            "superheavy": "Superpesado",
+            "main": "Principal",
+            "heavy": "Pesado"
         },
         "rangeType": {
             "range": "Alcance",
             "threat": "Ameaça",
-            "thrown": "Arremessável"
+            "thrown": "Arremessável",
+            "line": "Linha",
+            "cone": "Cone",
+            "blast": "Explosão",
+            "burst": "Emanação"
         },
         "activationType": {
             "none": "Nenhum",
             "quick": "Rápida",
-            "move": "Mover"
+            "move": "Mover",
+            "free": "Livre",
+            "protocol": "Protocolo",
+            "full": "Completa",
+            "invade": "Invadir",
+            "jockey": "Atracar",
+            "full_tech": "Programar Completo",
+            "quick_tech": "Programar Rápido",
+            "reaction": "Reação",
+            "other": "Outros"
         },
         "systemType": {
             "ai": "AI",
@@ -3380,25 +3398,49 @@
             "tech": "Tecnológico",
             "flight_system": "Sistema de Voo",
             "integrated": "Integrado",
-            "mod": "Mod"
+            "mod": "Mod",
+            "system": "Sistema",
+            "shield": "Escudo",
+            "deployable": "Posicionável",
+            "invade": "Invadir",
+            "mine": "Mina",
+            "grenade": "Granada"
         },
         "mechType": {
             "artillery": "Artilheiro",
             "striker": "Atacante",
-            "defender": "Defensor"
+            "defender": "Defensor",
+            "balanced": "Equilibrado",
+            "controller": "Controlador",
+            "support": "Suporte"
         },
         "reserveType": {
-            "resources": "Reservas"
+            "resources": "Reservas",
+            "tactical": "Tático",
+            "mech": "Mecha",
+            "project": "Projeto",
+            "organization": "Organização",
+            "bonus": "Bônus"
         },
         "orgType": {
-            "humanitarian": "Humanitário"
+            "humanitarian": "Humanitário",
+            "military": "Militar",
+            "scientific": "Científico",
+            "academic": "Acadêmicos",
+            "criminal": "Criminoso",
+            "industrial": "Industrial",
+            "entertainment": "Entretenimento",
+            "political": "Política"
         },
         "duration": {
             "turn": "Turno",
             "next_turn": "Próximo Turno",
             "round": "Rodada",
             "next_round": "Próxima Rodada",
-            "scene": "Cena"
+            "scene": "Cena",
+            "free": "Livre",
+            "encounter": "Encontro",
+            "mission": "Missão"
         },
         "attackType": {
             "melee": "Corpo a Corpo",
