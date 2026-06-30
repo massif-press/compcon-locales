@@ -950,8 +950,7 @@
             "confirmRebuild": "Confirmar Reconstrução",
             "deleteConfirm": "Você deseja excluir esta tabela? Esta ação não pode ser desfeita.",
             "multipleOnes": "Múltiplos 1{plural}",
-            "d": "D",
-            "pluralS": "s"
+            "d": "D"
         },
         "relationship": {
             "deleteConfirm": "Você deseja excluir este relacionamento? Esta ação não pode ser desfeita."
