@@ -415,7 +415,8 @@
             "alreadyInstalledNote": "Контент-пак с тем же названием и того же авторства уже установлен.",
             "noPackSelected": "Не выбраны контент-паки для установки",
             "requiresContent": "Указанный LCP невозможно установить без предварительной установки следующих материалов",
-            "byAuthorVersion": "от {author} {'@'} {version}"
+            "byAuthorVersion": "от {author} {'@'} {version}",
+            "successText": "Контент-паки успешно установлены"
         },
         "packsDirectory": {
             "officialContent": "Официальные",
@@ -447,7 +448,8 @@
             "buttonLabel": "Инструмент исправления ошибок после миграции",
             "buttonTooltip": "Поиск и устранение распространённых ошибок после миграции данных с формата v2.",
             "scanning": "Сканирование данных…",
-            "noIssues": "Ошибок в миграции не найдено."
+            "noIssues": "Ошибок в миграции не найдено.",
+            "catFlavorText": "Художественный текст"
         },
         "optionsPage": {
             "tabStorage": "Хранилище",
@@ -541,7 +543,7 @@
             "trace": "Трассировка логов",
             "noData": "@:{'common.noData'}",
             "copiedToClipboard": "Запись из логов скопирована в буфер обмена",
-            "caller": ""
+            "caller": "Вызывающая программа"
         },
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon"
