@@ -627,6 +627,73 @@
         },
         "damageMenu": {
             "irreducible": "Unverringerbar"
+        },
+        "common": {
+            "currentlySelected": "Aktuell ausgewählt",
+            "destroyed": "Zerstört",
+            "dangerZone": "Gefahrenraum",
+            "override": "überbrücken",
+            "prepared": "Vorbereitet",
+            "preparedText": "{name} wurde als VORBEREITET markiert.",
+            "hiddenText": "{name} ist jetzt VERSTECKT.",
+            "disengageFailedText": "{name} ist nicht UMFOCHTEN."
+        },
+        "roster": {
+            "addToEncounter": "Zum Gefecht hinzufügen",
+            "removeFromEncounter": "Vom Gefecht entfernen",
+            "playedBy": "Gespielt durch",
+            "pilotCombatStats": "Pilot:innen-Kampfstatistik",
+            "activeMech": "Aktiver Mech",
+            "activeMechTooltip": "Der aktive Mech wird für dieses Gefecht instanziert. Sobald das Gefecht begonnen wird, kann der aktive Mech nicht mehr geändert werden, ohne dass die Statistiken des Mechs zurückgesetzt werden",
+            "pilotNoMech": "Pilot wird ohne Mech instanziert werden",
+            "mechStats": "Mech-Statistiken",
+            "frameTraits": "Rahmeneigenschaften",
+            "coreSystem": "Kernsystem",
+            "activeLoadout": "Aktive Ausrüstung",
+            "selectPilot": "Eine:n Pilot:in auswählen",
+            "removedTitle": "{callsign} wurde vom Gefecht entfernt",
+            "removalSuccess": "Erfolgreich entfernt",
+            "addedTitle": "{callsign} wurde zum Gefecht hinzugefügt",
+            "ll": "LL {n}"
+        },
+        "labels": {
+            "round": "Runde",
+            "lastUpdate": "Zuletzt aktualisiert",
+            "archived": "Archiviert"
+        },
+        "encMgr": {
+            "localActiveEncounters": "Lokale, aktive Gefechte",
+            "deleteEncounter": "Gefecht löschen",
+            "createNewEncounter": "Neues Gefecht erstellen",
+            "archivedEncounters": "Archivierte Gefechte ({n})",
+            "noArchivedFound": "Keine archivierten Gefechte gefunden",
+            "roundsCount": "{n} Runden",
+            "afterActionReport": "Einsatznachbericht",
+            "copyReport": "Bericht kopieren",
+            "logsTelemetry": "Protokolle & Telemetrie",
+            "battlefieldTelemetry": "Schlachtfeldtelemetrie",
+            "combatLogs": "Kampfprotokoll",
+            "deleteArchivePrompt": "Dieses Archiv löschen?",
+            "devNoteReport": "Diese Funktion wird noch entwickelt. Einsatznachberichte werden in zukünftigen Builds erweitert.",
+            "deleteArchiveDetail": "Dies wird das Archiv zur Löschung markieren. Es wird nicht mehr in dieser Liste angezeigt werden, sondern wird auf Basis Ihrer Aufbewahrungsoptionen im Optionsmenü dauerhaft gelöscht.",
+            "noArchivedFoundFiltered": "Keine archivierten Gefechte mit \"{search}\" konnten gefunden werden",
+            "devNoteLogs": "Diese Funktion ist noch in der Entwicklung. Weitere Daten und Exportoptionen werden in zukünftigen Builds verfügbar sein."
+        },
+        "encSummary": {
+            "turnN": "(Zug {n})",
+            "requiresPilot": "Ein Gefecht benötigt mindestens eine:n Pilot:in.",
+            "createAndLaunch": "Gefecht erstellen und starten",
+            "createReturnLibrary": "Erstellen und Zurück zur Bibliothek"
+        },
+        "pilotsPanel": {
+            "placeholderN": "Pilot:innen-Platzhalter #{n}",
+            "addFromFile": "Aus Datei hinzufügen",
+            "addPlaceholder": "Pilot:innen-Platzhalter hinzufügen"
+        },
+        "newEnc": {
+            "title": "Neues lokales, aktives Gefecht",
+            "encounterData": "Gefechtsdaten",
+            "additionalNpcs": "Zusätzliche NSCs können nach der Erstellung im Gefechtsläufer hinzugefügt werden."
         }
     },
     "pm": {
@@ -1004,7 +1071,41 @@
         },
         "fields": {
             "selectDataFile": "Daten-Datei auswählen",
-            "newTitle": "Neuer Titel"
+            "newTitle": "Neuer Titel",
+            "statName": "Wertname",
+            "folder": "Ordner",
+            "value": "Wert",
+            "group": "Gruppe",
+            "sort": "Sortieren",
+            "moveIntoSection": "In Abschnitt bewegen",
+            "imageUrl": "Bild-URL",
+            "caption": "Bildunterschrift",
+            "subtitle": "Untertitel",
+            "campaignDescription": "Kampagnenbeschreibung",
+            "websiteUrl": "Webseiten-URL",
+            "service": "Service",
+            "contactInformation": "Kontaktinformationen",
+            "selectEncounterFile": "Gefechtsdatei auswählen",
+            "extraction": "Extraktion",
+            "conditions": "Bedingungen",
+            "enemyForces": "FEINDLICHE STREITKRÄFTE",
+            "alliedForces": "VERBÜNDETE STREITKRÄFTE",
+            "neutral": "Neutral",
+            "optional": "Optional",
+            "groupBy": "Gruppieren nach",
+            "sortBy": "Sortieren nach",
+            "encounter": "Gefecht",
+            "pronouns": "Pronomen",
+            "alias": "Alias",
+            "items": "Gegenstände",
+            "allowDuplicates": "Duplikate erlauben",
+            "npc": "Nsc",
+            "authors": "Urheber:innen",
+            "mustBeAnItchioUrl": "Muss eine itch.io-URL sein, um automatische Verwaltung in @:{'common.appName'} zu aktivieren"
+        },
+        "subtitles": {
+            "setItemFolder": "Elementordner setzen",
+            "addSetOrDeleteA": "Eine Spielleiter-Marke hinzufügen, setzen, oder entfernen"
         }
     },
     "compendium": {

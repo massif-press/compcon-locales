@@ -844,7 +844,8 @@
             "selected": "выбрано"
         },
         "trackable": {
-            "ready": "Готов"
+            "ready": "Готов",
+            "corePower": "Заряд ядра"
         },
         "dmgCond": {
             "resistance": "Сопротивление",
