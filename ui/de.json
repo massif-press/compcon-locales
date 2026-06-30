@@ -990,7 +990,21 @@
             "missingNpcs": "Fehlende NSCs",
             "doodads": "Dingsbumse",
             "selectLayer": "Schicht auswählen",
-            "eidolons": "Eidolons"
+            "eidolons": "Eidolons",
+            "setNpcFeatures": "NSC-Funktionen setzen",
+            "confirmTierChange": "Rangänderung bestätigen",
+            "npcStatblock": "NSC-Statistiken",
+            "selectImage": "Bild auswählen",
+            "environmentDataModified": "Umfelddaten bearbeitet",
+            "deletePreset": "Voreinstellung löschen",
+            "sitrepModified": "Lagebericht bearbeitet",
+            "organizeEncounters": "Gefechte organisieren",
+            "selectTemplate": "Vorlage auswählen",
+            "selectNpcClass": "NSC-Klasse auswählen"
+        },
+        "fields": {
+            "selectDataFile": "Daten-Datei auswählen",
+            "newTitle": "Neuer Titel"
         }
     },
     "compendium": {
