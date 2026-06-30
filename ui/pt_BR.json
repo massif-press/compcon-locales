@@ -754,7 +754,7 @@
             "availableMounts": "Encaixes de armas disponíveis",
             "onboardCore": "Sistema de núcleo integrado",
             "integrations": "Integrações",
-            "systemPoints": "Ponto{plural} de Sistema",
+            "systemPoints": "Ponto de Sistema | Pontos de Sistemas",
             "profileActions": "Ações do perfil",
             "profileDeployables": "Implantáveis do perfil",
             "profileTags": "Tags de perfil",
@@ -949,7 +949,7 @@
             "rebuildConfirm": "Você deseja reconstruir esta tabela? Isso limpará os dados atuais. Esta ação não pode ser desfeita.",
             "confirmRebuild": "Confirmar Reconstrução",
             "deleteConfirm": "Você deseja excluir esta tabela? Esta ação não pode ser desfeita.",
-            "multipleOnes": "Múltiplos 1{plural}",
+            "multipleOnes": "Múltiplos 1s",
             "d": "D"
         },
         "relationship": {
@@ -1575,7 +1575,7 @@
     },
     "notify": {
         "dataItem": {
-            "bulkDeletedTitle": "{n} Item{s} Excluído(s)",
+            "bulkDeletedTitle": "{n} Item Excluído | {n} Itens Excluídos",
             "bulkDeletedText": "Os itens selecionados foram excluídos.",
             "bulkPartialTitle": "{n} Excluído(s), {f} Falha(s)",
             "bulkPartialText": "Não foi possível excluir: {items}",
@@ -3331,6 +3331,79 @@
             "thisPilotIsARemote": "Este piloto é um recurso remoto vinculado à conta de outro usuário. É somente leitura e receberá atualizações da conta vinculada.",
             "pilotSkillTriggersReservesAnd": "Gatilhos, Reservas e Equipamento do Piloto",
             "pilotLicensesMechSkillsCore": "Licenças do Piloto, Perícias de Mecha, Bônus de Núcleo e Talentos"
+        }
+    },
+    "enums": {
+        "damageType": {
+            "kinetic": "Cinético",
+            "energy": "Energia",
+            "explosive": "Explosivo",
+            "heat": "Calor",
+            "burn": "Queimadura",
+            "applied_burn": "aplicar Queimadura",
+            "variable": "Variável",
+            "aoe": "Dano em Área"
+        },
+        "weaponType": {
+            "rifle": "Rifle",
+            "cannon": "Canhão",
+            "launcher": "Lançador",
+            "cqb": "CQR",
+            "nexus": "Nexos",
+            "melee": "Corpo a Corpo",
+            "improvised": "Improvisado"
+        },
+        "weaponSize": {
+            "superheavy": "Superpesado"
+        },
+        "mountType": {
+            "aux_aux": "Aux/Aux",
+            "aux": "Auxiliar",
+            "main_aux": "Principal/Auxiliar",
+            "flex": "Flexível",
+            "integrated": "Integrado",
+            "superheavy": "Superpesado"
+        },
+        "rangeType": {
+            "range": "Alcance",
+            "threat": "Ameaça",
+            "thrown": "Arremessável"
+        },
+        "activationType": {
+            "none": "Nenhum",
+            "quick": "Rápida",
+            "move": "Mover"
+        },
+        "systemType": {
+            "ai": "AI",
+            "drone": "Drone",
+            "tech": "Tecnológico",
+            "flight_system": "Sistema de Voo",
+            "integrated": "Integrado",
+            "mod": "Mod"
+        },
+        "mechType": {
+            "artillery": "Artilheiro",
+            "striker": "Atacante",
+            "defender": "Defensor"
+        },
+        "reserveType": {
+            "resources": "Reservas"
+        },
+        "orgType": {
+            "humanitarian": "Humanitário"
+        },
+        "duration": {
+            "turn": "Turno",
+            "next_turn": "Próximo Turno",
+            "round": "Rodada",
+            "next_round": "Próxima Rodada",
+            "scene": "Cena"
+        },
+        "attackType": {
+            "melee": "Corpo a Corpo",
+            "ranged": "a Distância",
+            "tech": "Tecnológico"
         }
     }
 }
