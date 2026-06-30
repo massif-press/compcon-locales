@@ -1950,8 +1950,7 @@
             "step": "Étape",
             "deleteConfirm": "Voulez vous supprimer cette table? Cette action ne peut pas être annulée.",
             "multipleOnes": "Plusieurs 1{plural}",
-            "d": "D",
-            "pluralS": "s"
+            "d": "D"
         },
         "relationship": {
             "deleteConfirm": "Voulez vous supprimer cette relation? Cette action ne peut pas être annulée."
