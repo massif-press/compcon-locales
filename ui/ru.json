@@ -873,7 +873,7 @@
         "mechPanel": {
             "frameTraits": "Особенности шасси ({n})",
             "coreBonuses": "Ключевые улучшения ({n})",
-            "pilotTalents": "Таланиты пилота ({n})",
+            "pilotTalents": "Таланты пилота ({n})",
             "pilotSkills": "Навыки пилота ({n})"
         },
         "fields": {
