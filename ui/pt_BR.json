@@ -228,7 +228,7 @@
             "updateAll": "@:{'common.updateAll'}",
             "deleteAll": "Excluir Tudo",
             "contentPacks": "@:{'common.contentPacks'}",
-            "addContent": "@:[common.addContent'}",
+            "addContent": "@:{'common.addContent'}",
             "removeContent": "@:{'common.remove'}"
         },
         "roster": {
@@ -1269,7 +1269,7 @@
             "additionalDetail": "Detalhe adicional",
             "clocks": "Relógios",
             "viewCollections": "Ver Coleções",
-            "itemTypePlural": "{type}s"
+            "itemTypePlural": "{type}"
         },
         "print": {
             "othersCount": "(+{n} outros)"
@@ -1388,7 +1388,7 @@
             "readyForImport": "O encontro está pronto para importação",
             "missingNpcs": "Este encontro faz referência a PNJs que ainda não foram importados. Ele será salvo na coleção de Importações v2 no Gerenciador de Conteúdo e pode ser importado assim que os PNJs necessários estiverem disponíveis.",
             "someMissingNpcs": "Alguns encontros fazem referência a PNJs que ainda não foram importados. Esses encontros serão salvos na coleção de Importações v2 no Gerenciador de Conteúdo e podem ser importados assim que os PNJs necessários estiverem disponíveis.",
-            "importCount": "Importar ({n} Encontro{plural})"
+            "importCount": "Importar ({n} Encontro) | Importar ({n} Encontros)"
         },
         "gmNotes": "Notas do Mestre",
         "npcFeature": {
@@ -1396,7 +1396,7 @@
             "allAvailableFeatures": "Todos os Sistemas Disponíveis",
             "allAssignedFeatures": "Todos os Sistemas Atribuídos",
             "selectedClass": "Classe selecionada",
-            "selectedTemplate": "Modelo selecionado{plural}",
+            "selectedTemplate": "Modelo selecionado | Modelos selecionados",
             "nameFeatures": "Sistema de {name}",
             "otherNpcClasses": "Outras Classes de PNJ",
             "otherNpcTemplates": "Outros Modelos de PNJ",
