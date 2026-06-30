@@ -1321,7 +1321,7 @@
             "map": "Mapa"
         },
         "landing": {
-            "toolkit": "Kit de ferramentas do Mestre"
+            "toolkit": "ferramentas de MJ"
         },
         "combatant": {
             "combatants": "Combatentes",
@@ -2857,7 +2857,7 @@
         },
         "new": {
             "pilot": "Piloto",
-            "skills": "Perícias",
+            "skills": "Gatilhos",
             "i": "I",
             "gmsEVEREST": "GMS Evereste",
             "up": "cima",
@@ -2939,7 +2939,7 @@
             "clearConfiguration": "Limpar Configuração",
             "editingThisPilotSLevelMay": "Editar o nível deste Piloto pode impedir que certas conquistas sejam desbloqueadas com este Piloto. Se você deseja usar este Piloto para desbloquear conquistas relacionadas ao Piloto, use o assistente de Subir de Nível em vez disso.",
             "thisPilotSLevelHasBeen": "O nível deste piloto foi editado. Isso impedirá que certas conquistas sejam desbloqueadas com este Piloto.",
-            "thisToolSkipsTheLevelUp": "Esta ferramenta pula o assistente de subida de nível. Os atributos do piloto ganhos ao subir de nível, como Gatilhos, licenças, talentos, perícias de mecha e bônus de núcleo terão que ser atualizados manualmente",
+            "thisToolSkipsTheLevelUp": "Esta ferramenta pula o assistente de subida de nível. Os atributos do piloto ganhos ao subir de nível, como gatilhos, licenças, talentos, perícias de mecha e bônus de núcleo terão que ser atualizados manualmente",
             "currentLEVEL": "Nível atual",
             "newLEVEL": "Novo nível",
             "setPilotLevel": "Definir Nível do Piloto",
@@ -3181,7 +3181,7 @@
             "theFollowingFormIsComprisedOf": "O formulário a seguir é composto por resultados não filtrados gerados por uma ou mais Pessoas Não Humanas UNI-TACANALYSIS e NÃO PODE ser copiado, traduzido, reproduzido, transmitido ou codificado sem a permissão expressa da Inteligência Naval da União.",
             "theMV2APilotSelfAssessment": "A auditoria de Autoavaliação do Piloto MV2/a cataloga os pontos fortes auto-relatados de um piloto individual com base em seleções derivadas da telemetria de campo de batalha e relatórios analisados por um representante PNH Naval da União.",
             "identSERVICEPRIMARYHasGeneratedA": "IDENT.SERVICE.PRIMARY gerou uma lista de Gatilhos sugeridos com base em sua resposta ao RM-4-03 (OCUPAÇÃO OU POSIÇÃO ANTERIOR).",
-            "suggestedSkillsAdded": "Perícias Sugeridas Adicionadas.",
+            "suggestedSkillsAdded": "Gatilhos Sugeridos Adicionados.",
             "addSuggestedSkills": "Adicionar Perícias Sugeridas",
             "improveTalents": "Melhorar Talentos",
             "rm4cPilotSelfAssessment2": "Autoavaliação de Piloto RM-4c (2/3)",
@@ -3273,7 +3273,7 @@
             "newProject": "Novo Projeto",
             "missingLicenseData": "Dados de Licença Ausentes",
             "newOrganization": "Nova Organização",
-            "skillSuggestionsAvailable": "Sugestões de Perícias Disponíveis",
+            "skillSuggestionsAvailable": "Sugestões de Gatilhos Disponíveis",
             "editPilotDescription": "Editar Descrição do Piloto",
             "convertRemotePilot": "converter piloto remoto",
             "confirmPilotDeletion": "confirmar exclusão do piloto",
