@@ -744,8 +744,8 @@
             "movePage": "Seite bewegen"
         },
         "pageContent": {
-            "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
-            "paletteColorsHelp": "Diese Farben {strong} ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des*der Nutzer*in",
+            "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des:der Nutzer:in",
+            "paletteColorsHelp": "Diese Farben {strong} ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des:der Nutzer:in",
             "outlined": "Umrandet",
             "tonal": "Ton",
             "h1": "H1",
@@ -753,7 +753,13 @@
             "h3": "H3",
             "h4": "H4",
             "hideTitle": "Titel verbergen",
-            "block": "Block"
+            "block": "Block",
+            "clippedBlock": "Abgeschnittener Block",
+            "quote": "Zitat",
+            "themeAwareColors": "Farbschemabewusste Farben",
+            "palette": "Farbschema",
+            "deleteItemConfirm": "Möchten Sie dieses Element löschen? Diese Handlung kann nicht rückgängig gemacht werden.",
+            "noImage": "Ohne Bild"
         },
         "import": {
             "v2BackupText": "{count} Gefecht zu den V2 Importierungen für spätere Importierung gespeichert. | {count} Gefechte zu den V2 Importierungen für spätere Importierung gespeichert.",
@@ -825,7 +831,8 @@
         },
         "overview": {
             "setCoverImage": "Titelbild festlegen",
-            "deleteHistory": "Verlauf löschen (v.{ver})"
+            "deleteHistory": "Verlauf löschen (v.{ver})",
+            "bannerImage": "Kampagnen-Bannerbild"
         },
         "narrativeLink": {
             "noEncounterSelected": "Kein Gefecht ausgewählt",
@@ -835,7 +842,8 @@
             "linkHelp": "Wählen Sie dieses Element im \"Erzählelement setzen\"-Menü aus, um es mit einem Erzählelement zu verknüpfen.",
             "unlinkElement": "Element trennen",
             "setNarrativeElement": "Erzählelement setzen",
-            "setEncounter": "Gefecht setzen"
+            "setEncounter": "Gefecht setzen",
+            "noElementSelected": "Kein Element ausgewählt"
         },
         "encounterContent": {
             "map": "Karte"
@@ -860,7 +868,8 @@
             "thisInstance": "Diese Instanz",
             "source": "Quelle",
             "updateInstanceTooltip": "Diese Instanz-Eigenschaft an der Quelle aktualisieren",
-            "updateAllTooltip": "Alle Instanz-Eigenschaften an der Quelle aktualisieren"
+            "updateAllTooltip": "Alle Instanz-Eigenschaften an der Quelle aktualisieren",
+            "noChanges": "Ohne Änderungen"
         },
         "encounterIndex": {
             "addFolder": "Ordner hinzufügen",
@@ -872,7 +881,9 @@
         "encImport": {
             "notEncounterFile": "Die ausgewählte Datei enthält keine Gefechtsdaten.",
             "stagedEncounters": "Vorbereitete Gefechte",
-            "readyForImport": "Gefecht bereit für den Import"
+            "readyForImport": "Gefecht bereit für den Import",
+            "missingNpcs": "Dieses Gefecht beruft sich auf NSCs, die noch nicht importiert wurden. Es wird zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und kann importiert werden, sobald die benötigten NSCs verfügbar sind.",
+            "someMissingNpcs": "Einige Gefechte beziehen sich auf NSCs, die noch nicht importiert werden. Diese Gefechte werden zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und können importiert werden, sobald die benötigten NSCs verfügbar sind."
         },
         "sync": {
             "syncCompleteText": "{itemType} {name} synchronisiert.",
@@ -896,6 +907,70 @@
             "showAll": "Alle anzeigen",
             "hideAll": "Alle ausblenden",
             "clearAllFilters": "Alle Filter entfernen"
+        },
+        "encounterEditor": {
+            "details": "Gefechts-Details",
+            "noMapData": "Ohne Kartendaten",
+            "additionalNotes": "Zusätzliche Notizen"
+        },
+        "sitrep": {
+            "presets": "Voreinstellungen",
+            "myPresets": "Meine Voreinstellungen",
+            "savePreset": "Voreinstellung speichern",
+            "modifiedWarning": "Dieser Lagebericht wurde bearbeitet. Das Laden einer neuen Voreinstellung wird diese Änderungen löschen. Wollen Sie fortfahren?",
+            "deletePresetConfirm": "Die Voreinstellung {name} löschen? Dies kann nicht rückgängig gemacht werden."
+        },
+        "environment": {
+            "modifiedWarning": "Dieses Umfeld wurde bearbeitet. Das Laden einer neuen Voreinstellung wird diese Änderungen löschen. Wollen Sie fortfahren?"
+        },
+        "encPrint": {
+            "enemies": "Feinde",
+            "allies": "Verbündete",
+            "atLeastPcs": "Bei {count} oder mehr Spielercharakteren",
+            "reinforcesOnTurn": "Verstärkt auf Zug {turn}",
+            "npcTracking": "NSC-Verfolgung",
+            "pcsAllies": "Spielercharaktere/Verbündete"
+        },
+        "gmNotes": "Spielleiternotizen",
+        "npcTemplate": {
+            "assignTemplates": "NSC-Vorlagen zuweisen",
+            "removeTemplate": "Vorlage entfernen",
+            "assignTemplate": "Vorlage zuweisen",
+            "cannotAssign": "Zuweisung nicht möglich (in Konflikt mit {conflict})",
+            "selectNpcTemplate": "NSC-Vorlage auswählen"
+        },
+        "tier": {
+            "changeTo": "Zu Rang {n} ändern",
+            "detectedEdits": "@:{'common.appName'} hat bearbeitete Statistik-Werte entdeckt. Wie möchten Sie fortfahren?"
+        },
+        "npcTag": {
+            "selectTag": "NSC-Marke auswählen"
+        },
+        "eidolon": {
+            "layers": "Schichten",
+            "addLayer": "Schicht hinzufügen",
+            "addRandomLayer": "Zufällige Schicht hinzufügen",
+            "noLayers": "Ohne Schichten",
+            "orderLower": "Niedriger anordnen",
+            "orderHigher": "Höher anordnen",
+            "layerDescription": "Schichtbeschreibung"
+        },
+        "layerSelector": {
+            "noData": "Keine Eidolondaten gefunden!",
+            "help1": "Eidolondaten sind im No Room for a Wallflower Kampagnenbuch enthalten und daher nicht standardmäßig in @:{'common.appName'} verfügbar. Sie können Eidolondaten als zusätzliche herunterladbare Inhlte auf der {link} Kampagnenbuchseite finden.",
+            "help2": "Falls Sie die Eidolondaten bereits heruntergeladen haben, können Sie diese in @:{'common.appName'} über die Inhaltsverwaltung im Hauptmenü oder Options-Menü rechts in der Navigationsleiste importieren."
+        },
+        "npcFeatures": {
+            "selectClassToAdd": "Wählen Sie eine Klasse, um Funktionen hinzuzufügen",
+            "noFeatures": "Ohne NSC-Funktionen"
+        },
+        "npcStats": {
+            "activations": "Aktivierungen/Runde"
+        },
+        "eidolonPrint": {
+            "classLabel": "Klasse {class}",
+            "persistentTraits": "Bestehende Eigenschaften",
+            "layer": "Schicht"
         }
     },
     "compendium": {
