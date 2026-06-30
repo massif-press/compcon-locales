@@ -676,7 +676,8 @@
             "deleteArchivePrompt": "Dieses Archiv löschen?",
             "devNoteReport": "Diese Funktion wird noch entwickelt. Einsatznachberichte werden in zukünftigen Builds erweitert.",
             "deleteArchiveDetail": "Dies wird das Archiv zur Löschung markieren. Es wird nicht mehr in dieser Liste angezeigt werden, sondern wird auf Basis Ihrer Aufbewahrungsoptionen im Optionsmenü dauerhaft gelöscht.",
-            "noArchivedFoundFiltered": "Keine archivierten Gefechte mit \"{search}\" konnten gefunden werden"
+            "noArchivedFoundFiltered": "Keine archivierten Gefechte mit \"{search}\" konnten gefunden werden",
+            "devNoteLogs": "Diese Funktion ist noch in der Entwicklung. Weitere Daten und Exportoptionen werden in zukünftigen Builds verfügbar sein."
         },
         "encSummary": {
             "turnN": "(Zug {n})",
