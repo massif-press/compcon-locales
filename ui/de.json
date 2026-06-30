@@ -962,7 +962,8 @@
         },
         "npcFeatures": {
             "selectClassToAdd": "Wählen Sie eine Klasse, um Funktionen hinzuzufügen",
-            "noFeatures": "Ohne NSC-Funktionen"
+            "noFeatures": "Ohne NSC-Funktionen",
+            "saveConfig": "Konfiguration speichern"
         },
         "npcStats": {
             "activations": "Aktivierungen/Runde"
@@ -970,7 +971,26 @@
         "eidolonPrint": {
             "classLabel": "Klasse {class}",
             "persistentTraits": "Bestehende Eigenschaften",
-            "layer": "Schicht"
+            "layer": "Schicht",
+            "newShards": "Neue Scherben: {n}"
+        },
+        "featurePrint": {
+            "weaponAttacks": "Diese Waffe kann {count} Angriffe auf einmal durchführen."
+        },
+        "eidolonTier": {
+            "heading": "Eidolonrang"
+        },
+        "doodad": {
+            "whatIs": "Was ist ein Dingsbums?"
+        },
+        "titles": {
+            "image": "Bild",
+            "clock": "Uhr",
+            "setMapImage": "Kartenbild setzen",
+            "missingNpcs": "Fehlende NSCs",
+            "doodads": "Dingsbumse",
+            "selectLayer": "Schicht auswählen",
+            "eidolons": "Eidolons"
         }
     },
     "compendium": {
