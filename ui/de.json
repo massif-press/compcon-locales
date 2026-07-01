@@ -175,7 +175,8 @@
         "hase_a": "A",
         "hase_s": "S",
         "hase_e": "T",
-        "ok": "OK"
+        "ok": "OK",
+        "alert": "Alarm"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
