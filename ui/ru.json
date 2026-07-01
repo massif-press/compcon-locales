@@ -1495,7 +1495,8 @@
             "armorEquippedTitle": "Броня пилота экипирована",
             "gearEquippedTitle": "Снаряжение пилота экипировано",
             "weaponEquippedTitle": "Оружие экипировано",
-            "equippedText": "{itemName} экипирован на {pilotName}."
+            "equippedText": "{itemName} экипирован на {pilotName}.",
+            "availableLoadouts": "Доступные выкладки"
         },
         "selectors": {
             "startWith": "Начать с",
