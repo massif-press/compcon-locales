@@ -1432,7 +1432,8 @@
             "callsignAVAILABLE": "Позывной доступен",
             "identityVERIFIED": "Личность подтверждена",
             "phHRDATAREGISTERED": "Пилот-часы учтены",
-            "frameCONFIGURATIONOPTIONS": "Параметры конфигурации шасси {remit}"
+            "frameCONFIGURATIONOPTIONS": "Параметры конфигурации шасси {remit}",
+            "pilotSKILLTRIGGERAUDIT": "Аудит навыков пилота"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
