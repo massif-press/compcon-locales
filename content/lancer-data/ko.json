@@ -34,8 +34,12 @@
     "tg_ap.description": "이 무기로 이루어지는 공격은 장갑을 무시합니다.",
     "tg_archaic.description": "이 무기는 구식이며 메크에게 피해를 줄 수 없습니다.",
     "tg_archaic.name": "구식",
-    "act_lockon.name": "락온",
+    "act_lockon.name": "록 온",
     "act_ram_npc.name": "충각",
     "act_ram.name": "충각",
-    "act_invade.name": "침투"
+    "act_invade.name": "침투",
+    "tg_turn.name": "턴 당 {VAL}회",
+    "act_bolster.special_0.detail": "당신이 다음에 만드는 스킬 판정 혹은 내성 판정에 +2 정확도를 받습니다.",
+    "tg_invade.name": "침투",
+    "act_move.name": "이동"
 }
