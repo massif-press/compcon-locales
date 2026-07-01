@@ -2241,7 +2241,8 @@
             "overrideAllowLL0Bond": "[OVERRIDE]:// Permitir LL0 Bond",
             "selectBond": "Seleccione Bond",
             "majorIdeals": "Principales Ideales",
-            "minorIdeal": "Ideal para menores"
+            "minorIdeal": "Ideal para menores",
+            "bondPowersAvailable": "Potencias de bonificación disponibles"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
