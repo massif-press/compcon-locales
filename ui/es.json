@@ -2233,7 +2233,8 @@
             "openConfigManager": "Abrir Gestor de Config",
             "phHRDATAREGISTERED": "Datos ph/hr registrados",
             "errTALENTAUDITINCOMPLETE": "Err auditoría de talento incompleta",
-            "errorINVALIDPILOT": "Error // piloto no válido"
+            "errorINVALIDPILOT": "Error // piloto no válido",
+            "nameOrLegalAlias": "Nombre (o alias jurídicos)"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
