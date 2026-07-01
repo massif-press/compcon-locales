@@ -2192,7 +2192,8 @@
             "exportLegacyJSON": "Export Legacy JSON",
             "removeThisPilotFromTheRoster": "Quitar este piloto de la lista",
             "flashClonePilot": "Flash Clone Pilot",
-            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Cualquier organización, individuo o tecnología que participe o facilite todo el cuerpo\nLa clonación de facsímil está vinculada por los Primeros Acuerdos de Contacto de 3002. Cualquier actividad que\nse prohíben los principios enunciados en los Acuerdos, incluidos, pero no\nlimitada a:"
+            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Cualquier organización, individuo o tecnología que participe o facilite todo el cuerpo\nLa clonación de facsímil está vinculada por los Primeros Acuerdos de Contacto de 3002. Cualquier actividad que\nse prohíben los principios enunciados en los Acuerdos, incluidos, pero no\nlimitada a:",
+            "reproductionOfTheSubjectivePersonageOf": "Reproducción del personaje subjetivo de un ser sensible u otro subjetivo\ncontinuidad total o parcial."
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
