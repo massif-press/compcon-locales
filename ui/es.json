@@ -488,7 +488,7 @@
             "noData": "@:{'common.noData'}"
         },
         "packConfig": {
-            "title": "Configuración de Contenido",
+            "title": "Configuraciones de contenido",
             "description": "Las configuraciones de contenidos le permiten crear y gestionar conjuntos de LCP que se pueden aplicar a Pilotos y PNJs que permiten o limitan las selecciones a contenidos específicos. Pilotos y PNJs sin configuración tendrán acceso a todos los LCP instalados y activados",
             "applyNote": "Estas configuraciones se pueden aplicar a Pilotos y PNJs en sus menús de opciones.",
             "noConfigs": "No se hallaron configuraciones.",
