@@ -1499,7 +1499,8 @@
             "availableLoadouts": "Доступные варианты выкладки",
             "coreBonusAvailable": "Ключевое улучшение доступно",
             "improvedARMAMENT": "(Улучшенное вооружение)",
-            "superheavyMOUNTING": "(Сверхтяжелое крепление)"
+            "superheavyMOUNTING": "(Сверхтяжелое крепление)",
+            "superheavyWEAPONBRACING": "Используется сверхтяжелым оружием"
         },
         "selectors": {
             "startWith": "Начать с",
