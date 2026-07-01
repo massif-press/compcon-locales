@@ -1434,7 +1434,8 @@
             "phHRDATAREGISTERED": "Пилот-часы учтены",
             "frameCONFIGURATIONOPTIONS": "Параметры конфигурации шасси {remit}",
             "pilotSKILLTRIGGERAUDIT": "Аудит навыков пилота",
-            "errSKILLAUDITINCOMPLETE": "Ошибка: аудит навыков не пройден"
+            "errSKILLAUDITINCOMPLETE": "Ошибка: аудит навыков не пройден",
+            "pilotTALENTAUDIT": "Аудит талантов пилота"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
