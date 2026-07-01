@@ -1435,7 +1435,8 @@
             "frameCONFIGURATIONOPTIONS": "Параметры конфигурации шасси {remit}",
             "pilotSKILLTRIGGERAUDIT": "Аудит навыков пилота",
             "errSKILLAUDITINCOMPLETE": "Ошибка: аудит навыков не пройден",
-            "pilotTALENTAUDIT": "Аудит талантов пилота"
+            "pilotTALENTAUDIT": "Аудит талантов пилота",
+            "errTALENTAUDITINCOMPLETE": "Ошибка: аудит талантов не пройден"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
