@@ -1421,7 +1421,10 @@
             "selectBond": "Выбрать узы",
             "printTabletopReadyCharacterAndMech": "Печать готовых к настольной игре листов персонажа и меха",
             "generateStatblock": "Сгенерировать статблок",
-            "getAPlaintextRepresentationOfThis": "Выдает текстовое представление билда персонажа"
+            "getAPlaintextRepresentationOfThis": "Выдает текстовое представление билда персонажа",
+            "exportPilot": "Экспорт пилота",
+            "exportThisPilotAsAJSON": "Экспорт пилота в формате JSON",
+            "exportLegacyJSON": "Экспорт устаревшего JSON"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
