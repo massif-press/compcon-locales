@@ -1431,7 +1431,8 @@
             "nameOrLegalAlias": "Имя (или официальный псевдоним)",
             "callsignAVAILABLE": "Позывной доступен",
             "identityVERIFIED": "Личность подтверждена",
-            "phHRDATAREGISTERED": "Пилот-часы учтены"
+            "phHRDATAREGISTERED": "Пилот-часы учтены",
+            "frameCONFIGURATIONOPTIONS": "Параметры конфигурации шасси {remit}"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
