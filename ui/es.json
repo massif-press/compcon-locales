@@ -2247,7 +2247,8 @@
             "statusNominal": "Status Nominal",
             "burdenLimitReached": "Límite de carga alcanzado",
             "addBurden": "Añadir Burden",
-            "addNewBurden": "Añadir New Burden"
+            "addNewBurden": "Añadir New Burden",
+            "addNewClock": "Añadir nuevo reloj"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
