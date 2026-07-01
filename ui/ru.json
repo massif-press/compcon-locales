@@ -1376,7 +1376,8 @@
             "addPilotDescription": "Добавить описание пилота",
             "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // ПЕРЕДАЧА ДАННЫХ ВНЕШНЕЙ ЛИЦЕНЗИИ (ЕСЛИ ПРИМЕНИМО)",
             "editPilotImage": "Изменить изображение пилота",
-            "skipNewPilotRegistration": "Пропустить регистрацию нового пилота"
+            "skipNewPilotRegistration": "Пропустить регистрацию нового пилота",
+            "recommendedForAdvancedUsers": "Рекомендовано для продвинуты пользователей"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
