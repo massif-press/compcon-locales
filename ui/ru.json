@@ -1494,7 +1494,8 @@
             "thisBracingMountWillBeNot": "Оно не может быть использовано для установки вооружения до тех пор, пока сверхтяжёлое оружие не будет демонтировано.",
             "armorEquippedTitle": "Броня пилота экипирована",
             "gearEquippedTitle": "Снаряжение пилота экипировано",
-            "weaponEquippedTitle": "Оружие экипировано"
+            "weaponEquippedTitle": "Оружие экипировано",
+            "equippedText": "{itemName} экипирован на {pilotName}."
         },
         "selectors": {
             "startWith": "Начать с",
