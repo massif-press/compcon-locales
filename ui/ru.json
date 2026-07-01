@@ -1377,7 +1377,9 @@
             "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // ПЕРЕДАЧА ДАННЫХ ВНЕШНЕЙ ЛИЦЕНЗИИ (ЕСЛИ ПРИМЕНИМО)",
             "editPilotImage": "Изменить изображение пилота",
             "skipNewPilotRegistration": "Пропустить регистрацию нового пилота",
-            "recommendedForAdvancedUsers": "Рекомендовано для продвинуты пользователей"
+            "recommendedForAdvancedUsers": "Рекомендовано для продвинуты пользователей",
+            "selectCharacterTemplate": "Выбрать шаблон персонажа",
+            "recommendedForNewPlayers": "Рекомендуется для начинающих игроков"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
@@ -1416,7 +1418,8 @@
             "doesnTWorkInCodeBlock": "Не поддерживается в формате блока кода",
             "noBondPowersAvailable": "Силы уз недоступны",
             "bondsAvailableAfterLicenseLevel1": "Узы доступны после 1-го уровня лицнезии",
-            "selectBond": "Выбрать узы"
+            "selectBond": "Выбрать узы",
+            "printTabletopReadyCharacterAndMech": "Печать готовых к настольной игре листов персонажа и меха"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
