@@ -2180,7 +2180,8 @@
             "printTabletopReadyCharacterAndMech": "Imprima el carácter listo para la mesa y las hojas de mech",
             "getAPlaintextRepresentationOfThis": "Obtenga una representación de texto de la construcción de este personaje",
             "exportThisPilotAsAJSON": "Exportar este piloto como un archivo JSON",
-            "transferOrTheSubjectivePersonageOf": "Transferencia o el personaje subjetivo de un ser sensible u otro subjetivo\ncontinuidad en un sustrato fabricado o cultivado."
+            "transferOrTheSubjectivePersonageOf": "Transferencia o el personaje subjetivo de un ser sensible u otro subjetivo\ncontinuidad en un sustrato fabricado o cultivado.",
+            "emulationOfASentientIndividualS": "Emulación del personaje subjetivo de un individuo sensible en una manufactura o\nSustrato cultivado."
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
