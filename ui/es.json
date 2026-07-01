@@ -1014,7 +1014,8 @@
             "organizeEncounters": "ordenar encuentros",
             "selectTemplate": "seleccionar plantilla",
             "selectNpcClass": "seleccionar clase de PNJ",
-            "addDowntime": "Añadir Tiempo Apeado"
+            "addDowntime": "Añadir Tiempo Apeado",
+            "eidolons": "Eidolones"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
