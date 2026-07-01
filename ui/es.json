@@ -2189,7 +2189,9 @@
             "emulationOfASentientIndividualS": "Emulación del personaje subjetivo de un individuo sensible en una manufactura o\nSustrato cultivado.",
             "intentionalDecorporealizationOfASentientBeing": "Descorporealización intencional de un ser sensible u otra continuidad subjetiva.",
             "engagingInAnyActivityThatCould": "Participación en cualquier actividad que pudiera potencialmente someter a un ser sensible u otro\ncontinuidad subjetiva al proceso de desordenamiento, disonancia esquizo-ontológica,\ndisolución de la personalidad, u otra forma de desintegración subjetiva.",
-            "exportLegacyJSON": "Export Legacy JSON"
+            "exportLegacyJSON": "Export Legacy JSON",
+            "removeThisPilotFromTheRoster": "Quitar este piloto de la lista",
+            "flashClonePilot": "Flash Clone Pilot"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
