@@ -1439,7 +1439,8 @@
             "errTALENTAUDITINCOMPLETE": "Ошибка: аудит талантов не пройден",
             "overrideAllowLL0Bond": "[ОБХОД]:// Активировать Узы на нулевом уровне лицензии",
             "gainBondPower": "Получить силу уз",
-            "bondPowersAvailable": "Доступны силы уз"
+            "bondPowersAvailable": "Доступны силы уз",
+            "setMaximumStress": "Задать максмиум стресса"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
