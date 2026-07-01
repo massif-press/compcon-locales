@@ -1438,7 +1438,8 @@
             "pilotTALENTAUDIT": "Аудит талантов пилота",
             "errTALENTAUDITINCOMPLETE": "Ошибка: аудит талантов не пройден",
             "overrideAllowLL0Bond": "[ОБХОД]:// Активировать Узы на нулевом уровне лицензии",
-            "gainBondPower": "Получить силу уз"
+            "gainBondPower": "Получить силу уз",
+            "bondPowersAvailable": "Доступны силы уз"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
