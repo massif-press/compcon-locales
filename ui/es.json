@@ -2234,7 +2234,8 @@
             "phHRDATAREGISTERED": "Datos ph/hr registrados",
             "errTALENTAUDITINCOMPLETE": "Err auditoría de talento incompleta",
             "errorINVALIDPILOT": "Error // piloto no válido",
-            "nameOrLegalAlias": "Nombre (o alias jurídicos)"
+            "nameOrLegalAlias": "Nombre (o alias jurídicos)",
+            "noBondPowersAssigned": "No se asignaron Potencias Bond"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
