@@ -749,7 +749,7 @@
             "allies": "Aliados",
             "atLeastPcs": "Con {count} o más PJs",
             "reinforcesOnTurn": "Refuerzos en Turno {turn}",
-            "npcTracking": "Rastreo de PNJ",
+            "npcTracking": "Seguimiento de PNJ",
             "pcsAllies": "PJs/aliados"
         },
         "combatantSelector": {
@@ -829,7 +829,7 @@
         "sitrep": {
             "presets": "Pre-configuraciones",
             "myPresets": "Mis pre-configuraciones",
-            "savePreset": "Guardar la Pre-configuración",
+            "savePreset": "Guardar la Preselección",
             "modifiedWarning": "Este sitrep ha sido modificado. Cargar una nueva pre-selección eliminará estos cambios. ¿Seguro que quiere continuar?",
             "deletePresetConfirm": "Eliminar pre-selección {name}? Esto no puede deshacerse."
         },
@@ -940,7 +940,7 @@
             "notLinkedSource": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ",
             "notLinkedSourceDot": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ.",
             "sourceLinked": "Origen Vinculado",
-            "sourceUnavailable": "Origen no disponible",
+            "sourceUnavailable": "Origen No Disponible",
             "instanceSource": "Origen de Instancia",
             "change": "Cambiar",
             "thisInstance": "Esta Instancia",
@@ -1651,7 +1651,7 @@
             "youHaveRemainingActions": "¡Tiene acciones restantes!"
         },
         "tooltips": {
-            "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Piloto local",
+            "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
             "importAPilotFromJsonData": "Importar un piloto desde datos JSON",
             "apply": "Aplicar",
             "dismissWithoutApplying": "Descargar sin aplicar",
