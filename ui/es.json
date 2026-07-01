@@ -165,7 +165,8 @@
         "hase_a": "A",
         "hase_s": "S",
         "hase_e": "I",
-        "pilotBonds": "Lazos del Piloto"
+        "pilotBonds": "Lazos del Piloto",
+        "setCustomName": "Establecer Nombre Peronsal"
     },
     "language": {
         "selectLanguage": "Idioma",
