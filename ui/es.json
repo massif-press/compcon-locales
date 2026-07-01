@@ -383,7 +383,7 @@
             "noStorageAccess": "@:{'common.appName'} no puede acceder al dispositivo de almacenamiento. Esto puede deberse a una extensión o configuración del navegador. @:{'common.appName'} volverá a usar almacenamiento local, el cual está limitado a 5MB. Esto puede dar lugar a que @:{'common.appName'} no pueda guardar datos. Por favor, compruebe la configuración de su navegador, o permita que @:{'common.appName'} acceda a \"Alamcenamiento Persistente\" si se solicita. Si está usando una extensión del navegador que bloquea el acceso al almacenamiento, por favor deshabilitarlo para @:{'common.appName'}. Si ninguna de estas opciones funciona, por favor considere la posibilidad de descargar @:{'common.appName'} como PWA.",
             "deletedItems": "Artículos eliminados (sólo datos locales)",
             "deleteWarningBanner": "Advertencia // advertencia // advertencia",
-            "areYouSure": "¿Está usted seguro de que desea continuar?",
+            "areYouSure": "¿Seguro que desea continuar?",
             "daysCount": "{count} días.",
             "deleteConfirmUndone": "Este {undone}",
             "warningThresholdPct": "Umbral de alerta (%)",
