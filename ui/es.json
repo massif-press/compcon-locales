@@ -2244,7 +2244,8 @@
             "minorIdeal": "Ideal para menores",
             "bondPowersAvailable": "Potencias de bonificación disponibles",
             "setMaximumPilotStressStressGains": "Establecer el máximo estrés piloto. Ganancias de estrés de fuentes como Bond Powers seleccionado\nno son automatizados",
-            "statusNominal": "Status Nominal"
+            "statusNominal": "Status Nominal",
+            "burdenLimitReached": "Límite de carga alcanzado"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
