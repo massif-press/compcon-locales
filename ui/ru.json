@@ -1493,7 +1493,8 @@
             "selectPilotWeapon": "Выбор оружия пилота",
             "thisBracingMountWillBeNot": "Оно не может быть использовано для установки вооружения до тех пор, пока сверхтяжёлое оружие не будет демонтировано.",
             "armorEquippedTitle": "Броня пилота экипирована",
-            "gearEquippedTitle": "Снаряжение пилота экипировано"
+            "gearEquippedTitle": "Снаряжение пилота экипировано",
+            "weaponEquippedTitle": "Оружие экипировано"
         },
         "selectors": {
             "startWith": "Начать с",
