@@ -1424,7 +1424,14 @@
             "getAPlaintextRepresentationOfThis": "Выдает текстовое представление билда персонажа",
             "exportPilot": "Экспорт пилота",
             "exportThisPilotAsAJSON": "Экспорт пилота в формате JSON",
-            "exportLegacyJSON": "Экспорт устаревшего JSON"
+            "exportLegacyJSON": "Экспорт устаревшего JSON",
+            "rm4IDENT": "rm-4://ИДЕНТ",
+            "rm6DATA": "RM-6://данные",
+            "ndapSR01STATUSREPORT": "NDAP/SR-01://отчёт о состоянии",
+            "nameOrLegalAlias": "Имя (или официальный псевдоним)",
+            "callsignAVAILABLE": "Позывной доступен",
+            "identityVERIFIED": "Личность подтверждена",
+            "phHRDATAREGISTERED": "Пилот-часы учтены"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
