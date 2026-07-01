@@ -1441,7 +1441,9 @@
             "gainBondPower": "Получить силу уз",
             "bondPowersAvailable": "Доступны силы уз",
             "setMaximumStress": "Задать максмиум стресса",
-            "setMaximumPilotStressStressGains": "Задать максимум стресса пилота. Стресс от выбранных Сил уз и подобных источников начисляется вручную."
+            "setMaximumPilotStressStressGains": "Задать максимум стресса пилота. Стресс от выбранных Сил уз и подобных источников начисляется вручную.",
+            "broken": "Сломлен",
+            "statusNominal": "Статус: в норме"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
@@ -1513,7 +1515,9 @@
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) очков навыков пилотирования.",
-            "selectPilotTalents": "Выберите {word} ({count}) талантов пилота."
+            "selectPilotTalents": "Выберите {word} ({count}) талантов пилота.",
+            "pilotMechSkills": "Навыки пилотирования",
+            "rm4dPilotSelfAssessment3": "RM-4d Самоаттестация пилота (3/3)"
         },
         "loadout": {
             "notSET": "Не задано",
