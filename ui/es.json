@@ -2237,7 +2237,8 @@
             "nameOrLegalAlias": "Nombre (o alias jurídicos)",
             "noBondPowersAssigned": "Sin Poderes de Lazo asignados",
             "noBondPowersAvailable": "No hay Poderes de Lazo disponibles",
-            "bondsAvailableAfterLicenseLevel1": "Lazos disponibles después del Nivel de Licencia 1"
+            "bondsAvailableAfterLicenseLevel1": "Lazos disponibles después del Nivel de Licencia 1",
+            "overrideAllowLL0Bond": "[OVERRIDE]:// Permitir LL0 Bond"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
