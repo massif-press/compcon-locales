@@ -802,7 +802,8 @@
         "diceRoller": {
             "sessionHistory": "История сессий",
             "title": "Бросание костей",
-            "count": "Количество"
+            "count": "Количество",
+            "rollResult": "Результат броска"
         },
         "damageMenu": {
             "totalDamage": "Общий урон",
@@ -945,7 +946,8 @@
             "pilotCombatStats": "Боевые характеристики пилота",
             "activeMech": "Активный мех",
             "selectPilot": "Выбрать пилота",
-            "ll": "УЛ {n}"
+            "ll": "УЛ {n}",
+            "coreSystem": "Ключевая система"
         },
         "npcActions": {
             "npcDisengagedTitle": "НИП отошёл"
@@ -1168,7 +1170,12 @@
             "deleteCloudItem": "Удалить облачный элемент",
             "typeCampaignData": "Данные кампании",
             "typeActiveEncounter": "Активное столкновение",
-            "typeArchivedEncounter": "Столкновение в архиве"
+            "typeArchivedEncounter": "Столкновение в архиве",
+            "deletedLocally": "Удалено локально",
+            "markedDeletedCloud": "Отмечено как удаленное в облаке.",
+            "cloudOnly": "Только в облаке — пока не загружено.",
+            "deleteLocalData": "Удалить локальные данные",
+            "deleteLocalDataDesc": "Это помечает данный элемент как удаленный локально, он будет удален из этой таблицы и не будет синхронизирован. Параметры восстановления удаленных элементов можно найти в настройках пользователя."
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
@@ -1359,7 +1366,9 @@
             "biography": "Биография",
             "appearance": "Внешний вид",
             "pilotNAME": "Имя пилота",
-            "pilot": "Пилот"
+            "pilot": "Пилот",
+            "allFieldsMarkedWithThe": "Все поля, отмеченные этим",
+            "glyphMustBePopulated": "символом, должны быть заполнены."
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
@@ -1479,12 +1488,14 @@
             "addAdditionalSystem": "Добавить дополнительную систему",
             "selectPilotArmor": "Выбор брони пилота",
             "weaponMods": "Модификации оружия",
-            "selectPilotWeapon": "Выбор оружия пилота"
+            "selectPilotWeapon": "Выбор оружия пилота",
+            "thisBracingMountWillBeNot": "Оно не может быть использовано для установки вооружения до тех пор, пока сверхтяжёлое оружие не будет демонтировано."
         },
         "selectors": {
             "startWith": "Начать с",
             "efficiency": "Эффективность",
-            "collapse": "свернуть"
+            "collapse": "свернуть",
+            "mechSkillsSelected": "Навыков пилотирования выбрано"
         },
         "link": {
             "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позднее",
