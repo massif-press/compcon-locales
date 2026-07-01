@@ -2177,7 +2177,8 @@
             "warningLICENSEMISSING": "Advertencia: licencia faltante",
             "killedINACTION": "Muerto en acción",
             "pilotOptions": "Opciones piloto",
-            "printTabletopReadyCharacterAndMech": "Imprima el carácter listo para la mesa y las hojas de mech"
+            "printTabletopReadyCharacterAndMech": "Imprima el carácter listo para la mesa y las hojas de mech",
+            "getAPlaintextRepresentationOfThis": "Obtenga una representación de texto de la construcción de este personaje"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
