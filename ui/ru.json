@@ -1374,7 +1374,9 @@
             "addPilotBiography": "Добавить биографию пилота",
             "rm405ATTACHEDOHMHEALTH": "RM-4-05 // ПРИЛАГАЕМОЕ МЕДИЦИНСКОЕ ЗАКЛЮЧЕНИЕ OHM",
             "addPilotDescription": "Добавить описание пилота",
-            "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // ПЕРЕДАЧА ДАННЫХ ВНЕШНЕЙ ЛИЦЕНЗИИ (ЕСЛИ ПРИМЕНИМО)"
+            "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // ПЕРЕДАЧА ДАННЫХ ВНЕШНЕЙ ЛИЦЕНЗИИ (ЕСЛИ ПРИМЕНИМО)",
+            "editPilotImage": "Изменить изображение пилота",
+            "skipNewPilotRegistration": "Пропустить регистрацию нового пилота"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
