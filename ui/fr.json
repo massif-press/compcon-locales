@@ -296,7 +296,7 @@
         "narrative": {
             "additionalDetail": "Détail additionnel",
             "viewCollections": "Afficher les collections",
-            "itemTypePlural": "{type}s"
+            "itemTypePlural": "{type}"
         },
         "print": {
             "othersCount": "(+{n} autres)"
@@ -402,7 +402,7 @@
             "readyForImport": "La rencontre est prête pour l'importation",
             "missingNpcs": "Cette rencontre référence des PNJs qui n'ont pas encore été importés. Elle sera sauvegardée dans la collection des importations V2 dans le gestionnaire de contenu et peut être importés une fois que les PNJs requis seront disponibles.",
             "someMissingNpcs": "Plusieurs rencontres référencent des PNJs qui n'ont pas encore été importés. Elles seront sauvegardées dans la collection des importations V2 dans le gestionnaire de contenu et peuvent être importées une fois que les PNJs requis seront disponibles.",
-            "importCount": "Importer ({n} rencontre {plural})"
+            "importCount": "Importer ({n} rencontre) | Importer ({n} rencontres)"
         },
         "gmNotes": "Notes de MJ",
         "npcFeature": {
@@ -751,7 +751,7 @@
             "downloadV2Backup": "Télécharger la sauvegarde des données V2",
             "downloadV2Tooltip": "@:{'common.appName'} a créé une sauvegarde complète de vos données @:{'common.appName'} V2. Ils peuvent être importé dans la version V2 sur old.compcon.app.",
             "loadBackup": "Charger la sauvegarde des données",
-            "loadBackupTooltip": "Les fichiers .compcon sont des fichiers d'exportations contenant l'intégralité de vos données locales en un seul fichier. Vous pouvez créer un fichier de sauvegarde .compcon en utilisant le bouton \"Créer une sauvegarde des données\". Utilisez cette option pour charger un fichier de sauvegarde .compcon que vous avez créé ou obtenu d'une autre source. Il est recommandé de créer une sauvegarde avant de charger un fichier .compcon, surtout si le fichier d'une autre source.",
+            "loadBackupTooltip": "Les fichiers .compcon sont des fichiers d'exportations de @:{'common.appName'} contenant l'intégralité de vos données locales en un seul fichier. Vous pouvez créer un fichier de sauvegarde .compcon en utilisant le bouton \"Créer une sauvegarde des données\". Utilisez cette option pour charger un fichier de sauvegarde .compcon que vous avez créé ou obtenu d'une autre source. Il est recommandé de créer une sauvegarde avant de charger un fichier .compcon, surtout si le fichier d'une autre source.",
             "mergeStrategy": "Fusionner avec les données existantes",
             "overwriteStrategy": "Écraser toutes les données existantes",
             "mergeWarning": "@:{'common.appName'} va essayer de fusionner les données importées avec vos données existantes.",
@@ -1233,7 +1233,7 @@
             "alreadyHaveCode": "J'ai déjà un code de vérification",
             "inputCodeToFinish": "Entrer le code de vérification pour finir la création de votre compte",
             "confirmVerificationCode": "Confirmer le code de vérification",
-            "signupEmailInfo": "L'adresse électronique que vous inscrivez sera utilisé pour envoyer un code de confirmation pour finaliser la création de votre compte. Après cela, votre adresse ne sera utilisé que pour vous connecter à votre compte {'common.appName'}.",
+            "signupEmailInfo": "L'adresse électronique que vous saisissez sera utilisé pour envoyer un code de confirmation pour finaliser la création de votre compte. Après cela, votre adresse ne sera utilisé que pour vous connecter à votre compte @:{'common.appName'}.",
             "signupPrivacyInfo": "Nous nous engageons à garder votre adresse électronique confidentielle. Nous ne vendons, louons ou cédons aucun données à des tiers, et nous ne communiquerons jamais vos données personnelles à un individu tiers, des agences gouvernementales ou des entreprises, à aucun moment ni pour aucune raison.",
             "resetPassword": "Réinitialiser le mot de passe",
             "sendPasswordResetEmail": "Envoyer un courriel de réinitialisation de mot de passe",
@@ -1949,7 +1949,7 @@
             "gmOnlyTooltip": "Marquer un champ ou un élément comme \"MJ uniquement\" le masquera des exportations à destination des joueurs et des impressions",
             "step": "Étape",
             "deleteConfirm": "Voulez vous supprimer cette table? Cette action ne peut pas être annulée.",
-            "multipleOnes": "Plusieurs 1{plural}",
+            "multipleOnes": "Plusieurs 1",
             "d": "D"
         },
         "relationship": {
@@ -2047,7 +2047,7 @@
     },
     "notify": {
         "dataItem": {
-            "bulkDeletedTitle": "{n} élément{s} supprimé{s}",
+            "bulkDeletedTitle": "{n} élément supprimé | {n} éléments supprimés",
             "bulkDeletedText": "Les éléments sélectionnés ont été supprimés.",
             "bulkPartialTitle": "{n} supprimé, {f} échoué",
             "bulkPartialText": "Ne pouvait pas supprimer: {items}",
@@ -2216,5 +2216,30 @@
     },
     "print": {
         "generalOptions": "Options d'impression générales"
+    },
+    "enums": {
+        "activationType": {
+            "other": "Autre"
+        },
+        "reserveType": {
+            "tactical": "Tactique",
+            "mech": "Mécha",
+            "project": "Projet",
+            "organization": "Organisation"
+        },
+        "orgType": {
+            "military": "Militaire",
+            "scientific": "Scientifique",
+            "academic": "Académique",
+            "criminal": "Criminel",
+            "humanitarian": "Humanitaire",
+            "industrial": "Industriel",
+            "entertainment": "Divertissement",
+            "political": "Politique"
+        },
+        "duration": {
+            "encounter": "Rencontre",
+            "mission": "Mission"
+        }
     }
 }
