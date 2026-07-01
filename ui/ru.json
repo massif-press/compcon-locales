@@ -1419,7 +1419,9 @@
             "noBondPowersAvailable": "Силы уз недоступны",
             "bondsAvailableAfterLicenseLevel1": "Узы доступны после 1-го уровня лицнезии",
             "selectBond": "Выбрать узы",
-            "printTabletopReadyCharacterAndMech": "Печать готовых к настольной игре листов персонажа и меха"
+            "printTabletopReadyCharacterAndMech": "Печать готовых к настольной игре листов персонажа и меха",
+            "generateStatblock": "Сгенерировать статблок",
+            "getAPlaintextRepresentationOfThis": "Выдает текстовое представление билда персонажа"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
