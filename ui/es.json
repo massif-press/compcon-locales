@@ -2134,7 +2134,9 @@
             "pilotNAME": "Nombre piloto",
             "appearance": "Apariencia",
             "mustINCLUDERETINALDATA": "(Debe incluir datos de retina)",
-            "welcomeToTheUnionAdministrativeDepartment": "Bienvenido al servicio de registro IDENT del Departamento Administrativo de la Unión. IDENT es el\nSistema de certificación basado en omninet que guía al usuario a través del registro piloto de la UAD\nproceso. IDENT ayuda a garantizar que los pilotos cumplan con los requisitos reglamentarios y normativos mediante el uso de\nProtocolos de validación de datos dirigidos por NHP. Union Regulars that have already been issued an RM-4\nLa huella dactilar IDENT no debe completar este formulario a menos que sea instruida por su comando\nOficial."
+            "welcomeToTheUnionAdministrativeDepartment": "Bienvenido al servicio de registro IDENT del Departamento Administrativo de la Unión. IDENT es el\nSistema de certificación basado en omninet que guía al usuario a través del registro piloto de la UAD\nproceso. IDENT ayuda a garantizar que los pilotos cumplan con los requisitos reglamentarios y normativos mediante el uso de\nProtocolos de validación de datos dirigidos por NHP. Union Regulars that have already been issued an RM-4\nLa huella dactilar IDENT no debe completar este formulario a menos que sea instruida por su comando\nOficial.",
+            "allFieldsMarkedWithThe": "Todos los campos marcados con el",
+            "addPilotDescription": "Añadir Pilot Descripción"
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
