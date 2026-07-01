@@ -1433,7 +1433,8 @@
             "identityVERIFIED": "Личность подтверждена",
             "phHRDATAREGISTERED": "Пилот-часы учтены",
             "frameCONFIGURATIONOPTIONS": "Параметры конфигурации шасси {remit}",
-            "pilotSKILLTRIGGERAUDIT": "Аудит навыков пилота"
+            "pilotSKILLTRIGGERAUDIT": "Аудит навыков пилота",
+            "errSKILLAUDITINCOMPLETE": "Ошибка: аудит навыков не пройден"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
