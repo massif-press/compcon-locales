@@ -1496,7 +1496,8 @@
             "gearEquippedTitle": "Выбрано снаряжение пилота",
             "weaponEquippedTitle": "Выбрано оружие пилота",
             "equippedText": "{pilotName} экипировал (а/и) {itemName}.",
-            "availableLoadouts": "Доступные варианты выкладки"
+            "availableLoadouts": "Доступные варианты выкладки",
+            "coreBonusAvailable": "Ключевое улучшение доступно"
         },
         "selectors": {
             "startWith": "Начать с",
