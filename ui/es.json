@@ -2239,7 +2239,9 @@
             "noBondPowersAvailable": "No hay Poderes de Lazo disponibles",
             "bondsAvailableAfterLicenseLevel1": "Lazos disponibles después del Nivel de Licencia 1",
             "overrideAllowLL0Bond": "[OVERRIDE]:// Permitir LL0 Bond",
-            "selectBond": "Seleccione Bond"
+            "selectBond": "Seleccione Bond",
+            "majorIdeals": "Principales Ideales",
+            "minorIdeal": "Ideal para menores"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
