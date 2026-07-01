@@ -149,7 +149,7 @@
         "remove": "Eliminar",
         "hidden": "Oculto",
         "roll_noun": "Tira",
-        "hpBonus": "Bono de Pv",
+        "hpBonus": "Bono de PV",
         "setCustomDescription": "Asignar Descripción Personalizada",
         "pilotGroup": "Grupo de Pilotos",
         "background": "Trasfondo",
@@ -166,7 +166,8 @@
         "hase_s": "S",
         "hase_e": "I",
         "pilotBonds": "Lazos del Piloto",
-        "setCustomName": "Establecer Nombre Peronsal"
+        "setCustomName": "Establecer Nombre Peronsal",
+        "roll_verb": "Tira"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -1632,7 +1633,8 @@
             "reloadAllLoadedWeapons": "Recargar todas las armas LOADED.",
             "clearAnyBurnCurrentlyAffecting": "Despejar cualquier quemadura afectando actualmente su mecha.",
             "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc",
-            "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc."
+            "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc.",
+            "overkill": "Saña"
         },
         "titles": {
             "addPilotFromRoster": "Agregar Piloto de la Lista",
