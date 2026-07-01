@@ -1437,7 +1437,8 @@
             "errSKILLAUDITINCOMPLETE": "Ошибка: аудит навыков не пройден",
             "pilotTALENTAUDIT": "Аудит талантов пилота",
             "errTALENTAUDITINCOMPLETE": "Ошибка: аудит талантов не пройден",
-            "overrideAllowLL0Bond": "[ОБХОД]:// Активировать Узы на нулевом уровне лицензии"
+            "overrideAllowLL0Bond": "[ОБХОД]:// Активировать Узы на нулевом уровне лицензии",
+            "gainBondPower": "Получить силу уз"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
