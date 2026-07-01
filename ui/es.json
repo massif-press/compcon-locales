@@ -2242,7 +2242,8 @@
             "selectBond": "Seleccione Bond",
             "majorIdeals": "Principales Ideales",
             "minorIdeal": "Ideal para menores",
-            "bondPowersAvailable": "Potencias de bonificación disponibles"
+            "bondPowersAvailable": "Potencias de bonificación disponibles",
+            "setMaximumPilotStressStressGains": "Establecer el máximo estrés piloto. Ganancias de estrés de fuentes como Bond Powers seleccionado\nno son automatizados"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
