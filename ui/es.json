@@ -2235,9 +2235,9 @@
             "errTALENTAUDITINCOMPLETE": "Err auditoría de talento incompleta",
             "errorINVALIDPILOT": "Error // piloto no válido",
             "nameOrLegalAlias": "Nombre (o alias jurídicos)",
-            "noBondPowersAssigned": "No se asignaron Potencias Bond",
-            "noBondPowersAvailable": "No hay potencias de bonificación disponibles",
-            "bondsAvailableAfterLicenseLevel1": "Bonos disponibles después del nivel de licencia 1"
+            "noBondPowersAssigned": "Sin Poderes de Lazo asignados",
+            "noBondPowersAvailable": "No hay Poderes de Lazo disponibles",
+            "bondsAvailableAfterLicenseLevel1": "Lazos disponibles después del Nivel de Licencia 1"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
