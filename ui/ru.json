@@ -1577,7 +1577,8 @@
             "lcpConfigurationManager": "Управление профилями доступа для файлов LCP",
             "statblockGenerator": "Генератор статблока",
             "gearLoadout": "Выкладка",
-            "selectBracingMount": "Выбор опорного крепления"
+            "selectBracingMount": "Выбор опорного крепления",
+            "skillSuggestionsAvailable": "Доступны рекомендации навыков."
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
@@ -1628,7 +1629,9 @@
             "pilotBiography": "Биография пилота",
             "pilotAppearance": "Внешность пилота",
             "tooManyRequestsPleaseTryAgain2": "Слишком много запросов. Пожалуйста, повторите попытку позднее",
-            "eng": "Инж"
+            "eng": "Инж",
+            "agi": "Лов",
+            "sys": "Сис"
         },
         "subtitles": {
             "setPilotGroup": "Задать отряд пилота"
