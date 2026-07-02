@@ -1586,7 +1586,8 @@
             "groupImportSuccessText": "{name} успешно добавлен(а).",
             "groupImportErrorText": "Не удалось импортировать отряд пилотов: {error}",
             "importSuccessTitle": "Импорт успешно выполнен",
-            "importSuccessText": "{name} // {callsign} успешно внесены в раздел \"Личный состав\"."
+            "importSuccessText": "{name} // {callsign} успешно внесены в раздел \"Личный состав\".",
+            "importPilotErrorText": "Не удалось импортировать отряд пилотов: {error}"
         },
         "export": {
             "exportErrorTitle": "Ошибка экспорта",
