@@ -2294,7 +2294,8 @@
             "allPilotsAssignedToThisGroup": "Todos los pilotos asignados a este grupo serán eliminados permanentemente.",
             "cr701UNITDESIGNATION": "CR-7-01 // UNIT DESIGNATION",
             "addGroupDescription": "Agregar grupo Descripción",
-            "editGroupDescription": "Editar grupo Descripción"
+            "editGroupDescription": "Editar grupo Descripción",
+            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // ATTACHED TACANALYSIS RECORDS (SUPPLEMENTAL)"
         }
     },
     "share": {
