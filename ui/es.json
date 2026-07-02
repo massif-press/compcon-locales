@@ -2360,7 +2360,8 @@
             "talentSelectionComplete": "Completa la selección de talentos",
             "unavailable": "Indisponible",
             "addReserve": "Agregar reserva",
-            "download": "Descarga"
+            "download": "Descarga",
+            "startWith": "Comienza por"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
