@@ -1756,7 +1756,9 @@
             "deleteConfirm": "Вы уверены что хотите удалить этот счётчик? Это действие необратимо."
         },
         "dice": {
-            "critical": "// Крит"
+            "critical": "// Крит",
+            "total": "Всего",
+            "resetAll": "Сбросить все"
         },
         "pwa": {
             "updateNow": "Обновить сейчас",
@@ -1772,7 +1774,8 @@
         "missing": {
             "gmHelp2": "Если вы приобрели физическое издание Lancer Core Book, но не получили инструкции по получению цифровой копии книги и связанных с ней материалов, включая данные о НИПах, пожалуйста, напишите Massif Press на {email}",
             "otherError": "@:{'common.appName'} столкнулся с ошибкой при загрузке указанного элемента.",
-            "coreBookLink": "Страница @:{'common.gameName'}: Core Book на itch.io"
+            "coreBookLink": "Страница @:{'common.gameName'}: Core Book на itch.io",
+            "activated": "активирован"
         },
         "confirm": {
             "heading": "// Процесс прерван: требуется авторизация //"
