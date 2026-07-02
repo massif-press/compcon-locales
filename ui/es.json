@@ -2387,7 +2387,8 @@
         },
         "link": {
             "bond": "Enlace",
-            "theDailyRequestLimitHasBeen": "Se ha alcanzado el límite diario de solicitud. Por favor, inténtalo de nuevo mañana."
+            "theDailyRequestLimitHasBeen": "Se ha alcanzado el límite diario de solicitud. Por favor, inténtalo de nuevo mañana.",
+            "tooManyRequestsPleaseTryAgain": "Demasiadas solicitudes. ¡Por favor inténtelo más tarde!"
         }
     },
     "share": {
