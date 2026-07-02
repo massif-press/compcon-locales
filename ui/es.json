@@ -486,7 +486,6 @@
         },
         "log": {
             "trace": "Rastro",
-            "exportLog": "Bitácora de Exportación",
             "copiedToClipboard": "Registro copiado al portapapeles",
             "noData": "@:{'common.noData'}",
             "caller": "Llamado por"

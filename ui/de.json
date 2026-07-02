@@ -438,7 +438,6 @@
             "logLevel": "@:{'common.logLevel'}",
             "trace": "Verfolgung",
             "caller": "Aufrufer",
-            "exportLog": "Log exportieren",
             "copiedToClipboard": "Log-Eintrag in Zwischenablage kopiert"
         },
         "deletedItems": {

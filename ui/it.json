@@ -642,7 +642,6 @@
             "logLevel": "@:{'common.logLevel'}",
             "trace": "Traccia",
             "caller": "Chiamante",
-            "exportLog": "Esporta Log",
             "copiedToClipboard": "Voce di log copiata negli appunti",
             "noData": "@:{'common.noData'}"
         },

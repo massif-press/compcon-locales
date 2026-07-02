@@ -510,7 +510,6 @@
         "log": {
             "logLevel": "@:{'common.logLevel'}",
             "caller": "Rastreamento",
-            "exportLog": "Exportar Log",
             "copiedToClipboard": "Entrada de log copiada para a área de transferência",
             "trace": "Rastro",
             "noData": "@:{'common.noData'}"

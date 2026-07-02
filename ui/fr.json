@@ -786,7 +786,6 @@
         "log": {
             "logLevel": "@:{'common.logLevel'}",
             "noData": "@:{'common.noData'}",
-            "exportLog": "Journal d'export",
             "copiedToClipboard": "Entrée de journal copiée dans le presse-papier"
         },
         "deletedItems": {
