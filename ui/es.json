@@ -2379,7 +2379,8 @@
             "addSuggestedSkills": "Añadir Habilidades sugeridas",
             "improveTalents": "Mejorar los talentos",
             "rm4cPilotSelfAssessment2": "RM-4c Pilot Self Assessment (2/3)",
-            "mv2BCOAResourceRequisition": "MV-2/b COA Requisitos de recursos"
+            "mv2BCOAResourceRequisition": "MV-2/b COA Requisitos de recursos",
+            "theRM4bPILOTSELFASSESSMENT3": "El RM-4b PILOT SELF ASSESSMENT (Talents) cataloga el autoreportado de un piloto individual\ncombat operation aptitudes y otorga privilegios de requisición para el tiempo de simulación, holofield\nmateriales de entrenamiento de sensorio cortical, datos de telemetría de campo de batalla en clasificaciones inferiores\nGREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern materiel licencias."
         }
     },
     "share": {
