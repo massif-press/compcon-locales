@@ -2295,7 +2295,8 @@
             "cr701UNITDESIGNATION": "CR-7-01 // UNIT DESIGNATION",
             "addGroupDescription": "Agregar grupo Descripción",
             "editGroupDescription": "Editar grupo Descripción",
-            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // ATTACHED TACANALYSIS RECORDS (SUPPLEMENTAL)"
+            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // ATTACHED TACANALYSIS RECORDS (SUPPLEMENTAL)",
+            "addGroupHistory": "Historia del grupo"
         }
     },
     "share": {
