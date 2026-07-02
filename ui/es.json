@@ -2355,7 +2355,8 @@
             "resetMechSkills": "Reiniciar las Habilidades de Mecha",
             "coreBonusSelectionComplete": "Selección de Bonos Base Completada",
             "addDowntimeProject": "Añadir Proyecto Downtime",
-            "equipment": "Equipo"
+            "equipment": "Equipo",
+            "skillSelectionComplete": "Selección de habilidad Completa"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
