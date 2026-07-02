@@ -2377,7 +2377,8 @@
             "identSERVICEPRIMARYHasGeneratedA": "IDENT.SERVICE.PRIMARY ha generado una lista de los desencadenantes de habilidad sugeridos basados en su\nrespuesta a RM-4-03 (PRIOR OCCUPATION OR POSITION).",
             "suggestedSkillsAdded": "Habilidades sugeridas.",
             "addSuggestedSkills": "Añadir Habilidades sugeridas",
-            "improveTalents": "Mejorar los talentos"
+            "improveTalents": "Mejorar los talentos",
+            "rm4cPilotSelfAssessment2": "RM-4c Pilot Self Assessment (2/3)"
         }
     },
     "share": {
