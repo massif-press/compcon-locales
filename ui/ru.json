@@ -673,7 +673,8 @@
             "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить.",
             "block": "Блок",
             "outlined": "",
-            "paletteColorsHelp": "Цвета {strong} меняются в зависимости от выбранной пользователем темы @:{'common.appName'}"
+            "paletteColorsHelp": "Цвета {strong} меняются в зависимости от выбранной пользователем темы @:{'common.appName'}",
+            "themeColorsHelp": "Цвета {strong} меняются в зависимости от выбранной пользователем темы @:{'common.appName'}"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -882,7 +883,8 @@
             "cover": "Укрытие",
             "noCover": "Укрытие отсутствует",
             "hard": "Полное",
-            "soft": "Частичное"
+            "soft": "Частичное",
+            "statusesConditions": "Статусы / Состояния"
         },
         "equipCmd": {
             "reload": "Перезарядить"
