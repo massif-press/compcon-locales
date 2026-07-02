@@ -2297,7 +2297,8 @@
             "editGroupDescription": "Editar grupo Descripción",
             "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // ATTACHED TACANALYSIS RECORDS (SUPPLEMENTAL)",
             "addGroupHistory": "Historia del grupo",
-            "editGroupHistory": "Editar historia del grupo"
+            "editGroupHistory": "Editar historia del grupo",
+            "cr703UNITLIVERY": "CR-7-03 // UNIT LIVERY"
         }
     },
     "share": {
