@@ -2386,7 +2386,8 @@
             "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes números:"
         },
         "link": {
-            "bond": "Enlace"
+            "bond": "Enlace",
+            "theDailyRequestLimitHasBeen": "Se ha alcanzado el límite diario de solicitud. Por favor, inténtalo de nuevo mañana."
         }
     },
     "share": {
