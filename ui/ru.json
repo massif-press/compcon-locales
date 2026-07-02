@@ -2023,7 +2023,8 @@
             "npcTemplates": "Шаблоны НИПов",
             "mechWeapons": "Вооружение меха",
             "equipmentTags": "Метки снаряжения",
-            "npcClasses": "Классы персонажей ведущего"
+            "npcClasses": "Классы персонажей ведущего",
+            "statusesConditions": "Статусы / Состояния"
         },
         "reference": {
             "statuses": "Статусы",
