@@ -416,7 +416,10 @@
             "noPackSelected": "Не выбраны контент-паки для установки",
             "requiresContent": "Указанный LCP невозможно установить без предварительной установки следующих материалов",
             "byAuthorVersion": "от {author} {'@'} {version}",
-            "successText": "Контент-паки успешно установлены"
+            "successText": "Контент-паки успешно установлены",
+            "upgradeFromTo": "Обновить с {from} до {to}",
+            "downgradeTo": "Откатить до {version}",
+            "willDowngradeTo": "Будет возвращено к версии {version}"
         },
         "packsDirectory": {
             "officialContent": "Официальные",
