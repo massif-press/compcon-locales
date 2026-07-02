@@ -2303,7 +2303,8 @@
             "editGroupEmblem": "Editar emblema de grupo",
             "thisAppearsToBePilotData": "Esto parece ser datos piloto de una versión anterior de COMP/CON. COMP/CON intentará intentar\nconvertir e importar estos datos, pero puede que no sea capaz de convertir todos los artículos y no sea posible\ncapaz de proporcionar información sobre los requisitos de LCP desaparecidos.",
             "thisPilotContainsContentFromThe": "Este Piloto contiene contenido de los siguientes paquetes de contenido de Lancer que no son\nactualmente instalado/activo,\no tienen versiones desajustadoras:",
-            "thisPilotWillBeSavedTo": "Este Piloto se guardará en la colección v2 Imports en el Administrador de Contenidos. Puede ser\nimportado una vez que se instalan y activan los paquetes de contenido perdidos, o importados por la fuerza\ncon objetos perdidos despojados."
+            "thisPilotWillBeSavedTo": "Este Piloto se guardará en la colección v2 Imports en el Administrador de Contenidos. Puede ser\nimportado una vez que se instalan y activan los paquetes de contenido perdidos, o importados por la fuerza\ncon objetos perdidos despojados.",
+            "thisPilotMayBeImportedBut": "Este Piloto puede ser importado, pero algunos elementos de los paquetes de contenido perdidos serán presentados\nde datos guardados. Si se eliminan, estos artículos no podrán ser reequipados sin el\nfaltando paquetes de contenido."
         }
     },
     "share": {
