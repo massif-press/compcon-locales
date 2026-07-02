@@ -1546,7 +1546,8 @@
             "improvedARMAMENT": "(Улучшенное вооружение)",
             "superheavyMOUNTING": "(Сверхтяжёлое крепление)",
             "superheavyWEAPONBRACING": "Используется сверхтяжёлым оружием",
-            "lancerSuperheavyClassArmamentRequiresTwo": "Улан, для установки Сверхтяжёлого вооружения необходимо использовать два крепления. Пожалуйста, выберите {mount}"
+            "lancerSuperheavyClassArmamentRequiresTwo": "Улан, для установки Сверхтяжёлого вооружения необходимо использовать два крепления. Пожалуйста, выберите {mount}",
+            "bracingMount": "крепление, которое будет опорным."
         },
         "selectors": {
             "startWith": "Начать с",
