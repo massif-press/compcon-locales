@@ -151,7 +151,7 @@
         "deletePermanently": "Удалить безвозвратно",
         "features": "Возможности",
         "limitedBonus": "Доп. заряды Расходуемых систем",
-        "systemPoints": "Очки систем",
+        "systemPoints": "Пункты систем",
         "repairs": "Ремонт",
         "contentLabel": "Содержимое",
         "deleteItemsPermanently": "Удалить эти элементы навсегда",
@@ -372,7 +372,7 @@
             "deletedItems": "Удалить элементы (затронет только локальные данные)",
             "warningThresholdMb": "Порог предупреждения (Мбайт)",
             "neverAutoDelete": "автоматически удалять данные, помеченные для удаления.",
-            "autoDelete": "",
+            "autoDelete": "Автоудаление",
             "hasBeenUsed": ")",
             "ofAvailableStorage": "% доступного места в системном хранилище (",
             "warningDescription": "@:{'common.appName'} отобразит предупреждение, когда будет использовано",
@@ -416,7 +416,10 @@
             "noPackSelected": "Не выбраны контент-паки для установки",
             "requiresContent": "Указанный LCP невозможно установить без предварительной установки следующих материалов",
             "byAuthorVersion": "от {author} {'@'} {version}",
-            "successText": "Контент-паки успешно установлены"
+            "successText": "Контент-паки успешно установлены",
+            "upgradeFromTo": "Обновить с {from} до {to}",
+            "downgradeTo": "Откатить до {version}",
+            "willDowngradeTo": "Произойдёт откат к версии {version}"
         },
         "packsDirectory": {
             "officialContent": "Официальные",
@@ -425,13 +428,26 @@
             "communityAbout": "@:{'common.appName'} рад сотрудничать с фанатами @:{'common.gameName'} и помочь с распространением указанных фанатских контент-паков. Они предоставляются как есть, по усмотрению автора(ов).",
             "communityNotice": "Скачивание, а также подписка на автоматические обновления фанатских LCP, на данный момент недоступны. После релиза инструментов поддержки авторов произойдёт миграция фанатских LCP в формат v3 и для них станут доступными те же способы обновления и подписки, которые сейчас доступны только для официальных контент-паков от Massif Press. Подпишитесь на {blog}, чтобы получать новости о проекте.",
             "communityContribute": "Если вы заинтересованы в создании фанатских материалов для @:{'common.gameName'} или хотите, чтобы ваши материалы отображались в этом каталоге, пожалуйста",
-            "communityContentTitle": "Контент-паки от сообщества @:{'common.gameName'}"
+            "communityContentTitle": "Контент-паки от сообщества @:{'common.gameName'}",
+            "content": "Содержимое",
+            "developmentBlog": "блог разработки"
         },
         "packConfig": {
             "createConfig": "Создать новую конфигурацию",
             "noConfigs": "Конфигурации не найдены.",
             "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
-            "byAuthor": "@:{'common.byAuthor'}"
+            "byAuthor": "@:{'common.byAuthor'}",
+            "addLcp": "Добавить LCP",
+            "deleteConfig": "Удалить указанный профиль",
+            "removeFromConfig": "Удалить контент-пак из профиля",
+            "editConfig": "Редактирование профиля",
+            "title": "Настройки профилей",
+            "description": "Настройки профилей позволяют вам создавать и управлять наборами LCP файлов, которые предоставляют или ограничивают доступ пилотов и персонажей ведущего к выбранным материалам. Пилоты и персонажи ведущего без выбранных профилей будут иметь доступ ко всем установленным и активированным LCP файлам",
+            "applyNote": "Профили могут быть применены к Пилотам и персонажам ведущего через соответствующее меню Опций.",
+            "lcpsInConfig": "LCP файлы в этом профиле",
+            "noLcpsPrefix": "LCP файлы не были добавлены. Только материалы из",
+            "lcpsSuffix": "{list} LCPs",
+            "willBeAvailable": "будут доступны."
         },
         "migrationRepair": {
             "colCategory": "Категория",
@@ -462,7 +478,11 @@
             "none": "@:{'common.none'}",
             "changelog": "@:{'common.changelog'}",
             "noDescription": "@:{'ui.widget.noDescription'}",
-            "version": "@:{'common.version'}"
+            "version": "@:{'common.version'}",
+            "dependenciesTooltip": "Зависимостями называются другие контент-паки, которые необходимы для коректной работы данного контент-пака. Они должны быть установлены и активны для нормальной загрузки текущего контент-пака.",
+            "authorsWebsite": "Сайт автора",
+            "dependencyInstalled": "Зависимость установлена",
+            "contentHeading": "Содержимое"
         },
         "communityTable": {
             "currentVersion": "Текущая версия",
@@ -502,7 +522,7 @@
         },
         "contentManager": {
             "refreshContent": "Обновить",
-            "contentConfig": "Настройки контента",
+            "contentConfig": "Настройки профилей",
             "addContent": "@:{'common.addContent'}",
             "removeContent": "@:{'common.remove'}",
             "updateAll": "@:{'common.updateAll'}",
@@ -587,7 +607,8 @@
             "moveToTop": "перенести наверх",
             "major": "Основной",
             "campaignCollection": "Подборка кампаний",
-            "saveLocal": "Добавить в локальную подборку"
+            "saveLocal": "Добавить в локальную подборку",
+            "minor": "Минорная версия"
         },
         "labels": {
             "labels": "Метки",
@@ -649,7 +670,7 @@
             "websiteUrl": "Ссылка на сайт",
             "optional": "Опционально",
             "conditions": "Условия",
-            "service": "",
+            "service": "Связаться",
             "neutral": "",
             "mustBeAnItchioUrl": "Для настройки автоматического управления в @:{'common.appName'} необходимо наличие ссылки на страницу на itch.io"
         },
@@ -658,7 +679,8 @@
             "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить.",
             "block": "Блок",
             "outlined": "",
-            "paletteColorsHelp": "Цвета {strong} меняются в зависимости от выбранной пользователем темы @:{'common.appName'}"
+            "paletteColorsHelp": "Цвета {strong} меняются в зависимости от выбранной пользователем темы @:{'common.appName'}",
+            "themeColorsHelp": "Цвета меняются в зависимости от выбранной пользователем темы @:{'common.appName'}"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -746,7 +768,8 @@
             "atLeastPcs": "При {count} или большем количестве персонажей игроков"
         },
         "narrative": {
-            "viewCollections": "Просмотр подборок"
+            "viewCollections": "Просмотр подборок",
+            "itemTypePlural": "({type})"
         },
         "featurePrint": {
             "weaponAttacks": ""
@@ -802,7 +825,8 @@
         "diceRoller": {
             "sessionHistory": "История сессий",
             "title": "Бросание костей",
-            "count": "Количество"
+            "count": "Количество",
+            "rollResult": "Результат броска"
         },
         "damageMenu": {
             "totalDamage": "Общий урон",
@@ -866,7 +890,8 @@
             "cover": "Укрытие",
             "noCover": "Укрытие отсутствует",
             "hard": "Полное",
-            "soft": "Частичное"
+            "soft": "Частичное",
+            "statusesConditions": "Статусы / Состояния"
         },
         "equipCmd": {
             "reload": "Перезарядить"
@@ -884,7 +909,7 @@
             "pilotNameOrCallsign": "Имя или позывной пилота",
             "lineWidth": "Ширина линий",
             "addTable": "Добавить таблицу",
-            "justify": ""
+            "justify": "Выровнять"
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
@@ -935,7 +960,7 @@
             "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}"
         },
         "stats": {
-            "hitPoints": "Очки здоровья"
+            "hitPoints": "Пункты здоровья"
         },
         "roster": {
             "addFromRoster": "добавить из ростера",
@@ -945,13 +970,15 @@
             "pilotCombatStats": "Боевые характеристики пилота",
             "activeMech": "Активный мех",
             "selectPilot": "Выбрать пилота",
-            "ll": "УЛ {n}"
+            "ll": "УЛ {n}",
+            "coreSystem": "Ключевая система"
         },
         "npcActions": {
             "npcDisengagedTitle": "НИП отошёл"
         },
         "sheetItem": {
-            "na": "Отсутствует"
+            "na": "Отсутствует",
+            "started": "начало использования"
         },
         "encInfo": {
             "reinforcements": "Подкрепления"
@@ -982,6 +1009,9 @@
         },
         "sortBar": {
             "sortByCreated": "Сортировать по дате создания"
+        },
+        "cards": {
+            "staged": "// Запланировано"
         }
     },
     "mainMenu": {
@@ -1005,7 +1035,7 @@
             "accountCreated": "Аккаунт был успешно создан. Перенаправление на экран входа.",
             "verifyEmail": "Верификация эл. почты",
             "inputCodeToFinish": "Введите проверочный код, чтобы закончить создание аккаунта",
-            "signupEmailInfo": "Код подтверждения будет отправлен на введённый вами адрес эл. почты, чтобы завершить создание аккаунта. После этого ваша эл. почта будет использоваться только для входа в аккаунт {'common.appName'}.",
+            "signupEmailInfo": "Код подтверждения будет отправлен на введённый вами адрес эл. почты, чтобы завершить создание аккаунта. После этого ваша эл. почта будет использоваться только для входа в аккаунт @:{'common.appName'}.",
             "resetCodeSentTo": "Код сброса пароля был отправлен на {email}",
             "verificationSent": "Новое письмо c кодом верификации было отправлено на {email}",
             "passwordResetErrorText": "Не удалось отправить письмо для сброса пароля: {msg}",
@@ -1022,7 +1052,7 @@
         },
         "syncSettings": {
             "updateSyncSettings": "Обновить настройки синхронизации",
-            "syncOverridesNote": "Следующие операции имеют приоритет над установленными параметры синхронизации и должны использоваться с осторожностью.",
+            "syncOverridesNote": "Следующие операции имеют приоритет над установленными параметрами синхронизации и должны использоваться с осторожностью.",
             "syncItems": "Синхронизировать элементы",
             "cloudFullSync": "Облачное хранилище переполнено! Невозможно осуществить синхронизацию новых данных.",
             "lastSynced": "Дата последней синхронизация: {label}",
@@ -1168,7 +1198,14 @@
             "deleteCloudItem": "Удалить облачный элемент",
             "typeCampaignData": "Данные кампании",
             "typeActiveEncounter": "Активное столкновение",
-            "typeArchivedEncounter": "Столкновение в архиве"
+            "typeArchivedEncounter": "Столкновение в архиве",
+            "deletedLocally": "Удалено локально",
+            "markedDeletedCloud": "Отмечено как удаленное в облаке.",
+            "cloudOnly": "Только в облаке — пока не загружено.",
+            "deleteLocalData": "Удалить локальные данные",
+            "deleteLocalDataDesc": "Данное действие помечает элемент как удаленный локально, он будет удален из этой таблицы и не будет синхронизирован. Параметры восстановления удаленных элементов можно найти в настройках пользователя.",
+            "deleteCloudItemDesc": "Удаление этого элемента пометит его как удаленный в облаке. Это не приведет к удалению элемента локально, но не позволит синхронизировать его с облаком или другими устройствами.",
+            "chooseDeleteMethod": "Выберите способ удаления выбранных элементов"
         },
         "patreon": {
             "tierSuffix": "Уровень - {title}",
@@ -1359,7 +1396,19 @@
             "biography": "Биография",
             "appearance": "Внешний вид",
             "pilotNAME": "Имя пилота",
-            "pilot": "Пилот"
+            "pilot": "Пилот",
+            "allFieldsMarkedWithThe": "Все поля, отмеченные этим",
+            "glyphMustBePopulated": "символом, должны быть заполнены.",
+            "addPilotBiography": "Добавить биографию пилота",
+            "rm405ATTACHEDOHMHEALTH": "RM-4-05 // ПРИЛАГАЕМОЕ МЕДИЦИНСКОЕ ЗАКЛЮЧЕНИЕ OHM",
+            "addPilotDescription": "Добавить описание пилота",
+            "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // ПЕРЕДАЧА ДАННЫХ ПО ВНЕШНЕЙ ЛИЦЕНЗИИ (ЕСЛИ ПРИМЕНИМО)",
+            "editPilotImage": "Изменить изображение пилота",
+            "skipNewPilotRegistration": "Пропустить процесс регистрации нового пилота",
+            "recommendedForAdvancedUsers": "Рекомендовано для продвинутых пользователей",
+            "selectCharacterTemplate": "Выбрать шаблон персонажа",
+            "recommendedForNewPlayers": "Рекомендуется для начинающих игроков",
+            "rm4PersonnelPilotC": "RM-4 Персонал::Пилот (C)"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
@@ -1398,7 +1447,36 @@
             "doesnTWorkInCodeBlock": "Не поддерживается в формате блока кода",
             "noBondPowersAvailable": "Силы уз недоступны",
             "bondsAvailableAfterLicenseLevel1": "Узы доступны после 1-го уровня лицнезии",
-            "selectBond": "Выбрать узы"
+            "selectBond": "Выбрать узы",
+            "printTabletopReadyCharacterAndMech": "Печать листов персонажа и меха для игры вживую",
+            "generateStatblock": "Сгенерировать статблок",
+            "getAPlaintextRepresentationOfThis": "Выдает текстовое представление сборки персонажа",
+            "exportPilot": "Экспорт пилота",
+            "exportThisPilotAsAJSON": "Экспорт пилота в формате JSON",
+            "exportLegacyJSON": "Экспорт в формате устаревшего JSON",
+            "rm4IDENT": "rm-4://ИДЕНТ",
+            "rm6DATA": "RM-6://данные",
+            "ndapSR01STATUSREPORT": "NDAP/SR-01://отчёт о состоянии",
+            "nameOrLegalAlias": "Имя (или официальный псевдоним)",
+            "callsignAVAILABLE": "Позывной доступен",
+            "identityVERIFIED": "Личность подтверждена",
+            "phHRDATAREGISTERED": "Данные о пилот-часах учтены",
+            "frameCONFIGURATIONOPTIONS": "Параметры конфигурации модели {remit}",
+            "pilotSKILLTRIGGERAUDIT": "Оценка навыков пилота",
+            "errSKILLAUDITINCOMPLETE": "Ошибка: оценка навыков не пройдена",
+            "pilotTALENTAUDIT": "Оценка талантов пилота",
+            "errTALENTAUDITINCOMPLETE": "Ошибка: оценка талантов не пройдена",
+            "overrideAllowLL0Bond": "[ОБХОД]:// Разрешить использование Уз на нулевом уровне лицензии",
+            "gainBondPower": "Получить способность, связанную с узами",
+            "bondPowersAvailable": "Доступны способности, связанные с узами",
+            "setMaximumStress": "Задать максимальное значение стресса",
+            "setMaximumPilotStressStressGains": "Задать максимальное значение стресса пилота. Стресс от таких источников, как, например, способности уз, начисляется вручную.",
+            "broken": "Сломлен",
+            "statusNominal": "Статус: в норме",
+            "pilotOptions": "Опции для листа персонажа",
+            "openConfigManager": "Открыть управление профилями доступа",
+            "cfg": "./cfg",
+            "hASEOMNINETVAULT": "(Данные о навыках \"К.Л.С.И.\" приведены из омнинет-хранилища)"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
@@ -1466,11 +1544,18 @@
             "setPilotLicenses": "Задать лицензии пилота",
             "setPilotCoreBonuses": "Задать ключевые улучшения пилота",
             "setGroupEmblem": "Выбрать эмблему отряда",
-            "createPilotGroup": "Создать отряд пилотов"
+            "createPilotGroup": "Создать отряд пилотов",
+            "lcpConfigurationManager": "Управление профилями доступа для файлов LCP"
         },
         "shared": {
-            "addMechSkillPoints": "Добавить {word} ({count}) очков навыков пилотирования.",
-            "selectPilotTalents": "Выберите {word} ({count}) талантов пилота."
+            "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
+            "selectPilotTalents": "Выберите {word} ({count}) талантов пилота.",
+            "pilotMechSkills": "Навыки пилотирования",
+            "rm4dPilotSelfAssessment3": "Самоаттестация пилота по форме RM-4d (3/3)",
+            "bySubmittingThisFormYouAttest": "Подписывая настоящую форму вы подтверждаете, что все представленные ответы правдивы и соответствуют действительности. Умышленное сообщение ложных или неполных данных влечёт за собой наказание согласно указу DoJ/HR AR 303-J.",
+            "rm4bPilotSelfAssessment1": "Самоаттестация пилота по форме RM-4b (1/3)",
+            "rm4cPilotSelfAssessment2": "Самоаттестация пилота по форме RM-4c (2/3)",
+            "warningSubmission": "ПРЕДУПРЕЖДЕНИЕ: Заявка для записи ИДЕНТ {id} содержит следующее(ие) замечание(я)"
         },
         "loadout": {
             "notSET": "Не задано",
@@ -1479,12 +1564,27 @@
             "addAdditionalSystem": "Добавить дополнительную систему",
             "selectPilotArmor": "Выбор брони пилота",
             "weaponMods": "Модификации оружия",
-            "selectPilotWeapon": "Выбор оружия пилота"
+            "selectPilotWeapon": "Выбор оружия пилота",
+            "thisBracingMountWillBeNot": "Оно не может быть использовано для установки вооружения до тех пор, пока сверхтяжёлое оружие не будет демонтировано.",
+            "armorEquippedTitle": "Выбрана броня пилота",
+            "gearEquippedTitle": "Выбрано снаряжение пилота",
+            "weaponEquippedTitle": "Выбрано оружие пилота",
+            "equippedText": "{pilotName} экипировал (а/и) {itemName}.",
+            "availableLoadouts": "Доступные варианты выкладки",
+            "coreBonusAvailable": "Доступно ключевое улучшение",
+            "improvedARMAMENT": "(Улучшенное вооружение)",
+            "superheavyMOUNTING": "(Сверхтяжёлое крепление)",
+            "superheavyWEAPONBRACING": "Используется сверхтяжёлым оружием",
+            "lancerSuperheavyClassArmamentRequiresTwo": "Улан, для установки Сверхтяжёлого вооружения необходимо использовать два крепления. Пожалуйста, выберите {mount}",
+            "bracingMount": "крепление, которое будет опорным.",
+            "selectedAMMUNITION": "Выбранная аммуниция",
+            "setUSES": "Задать количество зарядов"
         },
         "selectors": {
             "startWith": "Начать с",
             "efficiency": "Эффективность",
-            "collapse": "свернуть"
+            "collapse": "свернуть",
+            "mechSkillsSelected": "Навыков пилотирования выбрано"
         },
         "link": {
             "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позднее",
@@ -1498,18 +1598,22 @@
             "groupImportSuccessText": "{name} успешно добавлен(а).",
             "groupImportErrorText": "Не удалось импортировать отряд пилотов: {error}",
             "importSuccessTitle": "Импорт успешно выполнен",
-            "importSuccessText": "{name} // {callsign} успешно внесены в раздел \"Личный состав\"."
+            "importSuccessText": "{name} // {callsign} успешно внесены в раздел \"Личный состав\".",
+            "importPilotErrorText": ""
         },
         "export": {
             "exportErrorTitle": "Ошибка экспорта",
             "exportErrorText": "Не удалось экспортировать данные о пилоте из @:{'common.appName'}",
             "exportSuccessTitle": "Экспорт успешно выполнен"
+        },
+        "level": {
+            "mechSkills": "Навыки пилотирования"
         }
     },
     "ui": {
         "card": {
             "tierColumns": "О1 / О2 / О3",
-            "systemPoints": "Очки систем{plural}",
+            "systemPoints": "пункт систем | пунктов систем",
             "integrations": "Интеграции",
             "equipmentDeployables": "Виды размещаемого снаряжения",
             "weaponAttacks": "Это оружие позволяет совершать {count} атак одновременно. Атаки могут быть совершены против одной и той же цели, либо разных.",
@@ -1629,7 +1733,8 @@
         "pwa": {
             "updateNow": "Обновить сейчас",
             "offlineReady": "@:{'common.appName'} может быть использован в режиме оффлайн.",
-            "updateAvailable": "Доступна новая версия @:{'common.appName'}."
+            "updateAvailable": "Доступна новая версия @:{'common.appName'}.",
+            "later": "Позже"
         },
         "filter": {
             "clearFilters": "Очистить фильтры",
@@ -1640,6 +1745,9 @@
             "gmHelp2": "Если вы приобрели физическое издание Lancer Core Book, но не получили инструкции по получению цифровой копии книги и связанных с ней материалов, включая данные о НИПах, пожалуйста, напишите Massif Press на {email}",
             "otherError": "@:{'common.appName'} столкнулся с ошибкой при загрузке указанного элемента.",
             "coreBookLink": "Страница @:{'common.gameName'}: Core Book на itch.io"
+        },
+        "confirm": {
+            "heading": "// Процесс прерван: требуется авторизация //"
         }
     },
     "notify": {
@@ -1696,7 +1804,8 @@
             "itemDeletedTitle": "Элемент удалён",
             "restoreFailedTitle": "Не удалось восстановить",
             "deleteFailedTitle": "Не удалось удалить",
-            "retryFailedText": "Не удалось найти облачный элемент для {name}."
+            "retryFailedText": "Не удалось найти облачный элемент для {name}.",
+            "bulkDeletedText": "Выбранные элементы были удалены."
         },
         "share": {
             "syncCompleteTitle": "Синхронизация завершена"
@@ -1740,7 +1849,10 @@
         "evasion": "Уклонение",
         "edef": "Тех. защ.",
         "armor": "Броня",
-        "speed": "Скорость"
+        "speed": "Скорость",
+        "edefense": "Тех. защита",
+        "stress": "Износ",
+        "sp": "ПС"
     },
     "share": {
         "resultAuthor": "Автор",
@@ -1764,14 +1876,18 @@
         "sheetStyle": "Стиль листа персонажа",
         "includeMech": "Включить мех",
         "shareLink": "Поделиться ссылкой",
-        "noShareCode": "Для указанного элемента отсутствует публичный код. Чтобы поделиться им, синхронизируйте его с вашим аккаунтом @:{'common.appName'}, нажав на кнопку \"Синхронизировать сейчас\" сверху."
+        "noShareCode": "Для указанного элемента отсутствует публичный код. Чтобы поделиться им, синхронизируйте его с вашим аккаунтом @:{'common.appName'}, нажав на кнопку \"Синхронизировать сейчас\" сверху.",
+        "shareCodesNote": "Публичной код позволяет любому пользователю с аккаунтом @:{'common.appName'} загрузить копию этого элемента и получать вносимые вами обновления. Пожалуйста, будьте внимательны при обмене данными с другими пользователями."
     },
     "compendium": {
         "categories": {
             "manufacturers": "Производители",
             "frames": "Шасси",
             "pilotBackground": "Происхождения пилотов",
-            "npcTemplates": "Шаблоны НИПов"
+            "npcTemplates": "Шаблоны НИПов",
+            "mechWeapons": "Вооружение меха",
+            "equipmentTags": "Метки снаряжения",
+            "npcClasses": "Классы персонажей ведущего"
         },
         "reference": {
             "statuses": "Статусы",
@@ -1785,7 +1901,11 @@
             "iconGuide": "Справочник по значкам",
             "damageTables": "Таблицы урона",
             "mechActions": "Действия мехов",
-            "pilotActions": "Действия пилотов"
+            "pilotActions": "Действия пилотов",
+            "perTurn": "За ход",
+            "fullAction": "Полное действие",
+            "or": "или",
+            "twoQuickActions": "2 быстрых действия"
         },
         "campaign": {
             "removeFromCollection": "Удалить из подборки",
@@ -1808,10 +1928,18 @@
             "campaignForLine": "Кампания {lancer} для {players} пилотов с уровнем лицензии не ниже {levels}.",
             "recommendedForLine": "Рекомендуется для {players} игроков с уровнем лицензии {levels}",
             "addCampaign": "Добавить кампанию",
-            "directoryComingSoon": "После выхода v3 здесь будет расположен каталог кампаний от Massif, а также созданных фанатами, поддерживающий возможность поиска. При входе в систему и привязке аккаунта itch.io вам будет доступен импорт кампаний из каталога. В противном случае вы будете перенаправлены на страницу на itch.io, где вы сможете приобрести и скачать кампанию."
+            "directoryComingSoon": "После выхода v3 здесь будет расположен каталог кампаний от Massif, а также созданных фанатами, поддерживающий возможность поиска. При входе в систему и привязке аккаунта itch.io вам будет доступен импорт кампаний из каталога. В противном случае вы будете перенаправлены на страницу на itch.io, где вы сможете приобрести и скачать кампанию.",
+            "developmentPreview": "Возможность создавать пользовательские кампании находится в стадии активной разработки; данный раздел останется недоступным вплоть до релиза версии v3.1. Предпросмотр нельзя использовать для тестирования кампаний, но вы можете ознакомиться с уже реализованными элементами данного раздела."
         },
         "titles": {
-            "reference": "Справка"
+            "reference": "Справка",
+            "importLancerCampaignData": "Импорт данных кампании по Lancer",
+            "developmentPreview": "Предварительная версия в разработке",
+            "noBondData": "Информация об Узах отсутствует",
+            "noEidolonData": "Информация о эйдолонах отсутствует",
+            "lancerBasics": "Основы Lancer",
+            "usingCompcon": "Как использовать @:{'common.appName'}",
+            "narrativePlay": "Нарративная часть игры"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
@@ -1823,6 +1951,12 @@
         },
         "nav": {
             "systemReference": "Справочник по системе"
+        },
+        "returnToCompendium": "Вернуться в каталог",
+        "selectItem": "Выбрать {name}",
+        "content": {
+            "eidolonLayer": "Слой эйдолона",
+            "frameSuffix": "Модель {type}"
         }
     }
 }

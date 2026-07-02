@@ -137,6 +137,9 @@
         },
         "pcEndRound": {
             "willLoseStatuses": "다음 상태를 잃습니다:"
+        },
+        "invade": {
+            "invade": "침투"
         }
     },
     "compendium": {
@@ -189,6 +192,63 @@
     "mainMenu": {
         "ui": {
             "upgrade": "업그레이드"
+        }
+    },
+    "enums": {
+        "systemType": {
+            "ai": "AI",
+            "invade": "침투",
+            "flight_system": "비행 시스템",
+            "system": "시스템",
+            "mod": "모드",
+            "mine": "지뢰",
+            "grenade": "수류탄"
+        },
+        "activationType": {
+            "invade": "침투",
+            "free": "자유행동",
+            "protocol": "프로토콜",
+            "quick": "빠른행동",
+            "full": "전력행동",
+            "reaction": "반응행동",
+            "move": "이동"
+        },
+        "duration": {
+            "turn": "턴",
+            "next_turn": "다음 턴",
+            "round": "라운드",
+            "next_round": "다음 라운드",
+            "scene": "장면"
+        },
+        "attackType": {
+            "melee": "근접",
+            "ranged": "원거리"
+        },
+        "damageType": {
+            "kinetic": "물리",
+            "energy": "에너지",
+            "explosive": "폭발",
+            "heat": "열",
+            "burn": "화재",
+            "aoe": "광역"
+        },
+        "weaponType": {
+            "melee": "근접"
+        },
+        "weaponSize": {
+            "auxiliary": "보조",
+            "main": "주",
+            "superheavy": "초대형"
+        },
+        "mountType": {
+            "main": "주",
+            "aux_aux": "보조/보조",
+            "aux": "보조",
+            "main_aux": "주/보조",
+            "superheavy": "초대형"
+        },
+        "rangeType": {
+            "range": "사거리"
         }
     }
 }

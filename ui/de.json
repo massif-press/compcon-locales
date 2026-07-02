@@ -119,13 +119,13 @@
         "actionCannotBeUndone": "Diese Aktion kann nicht rückgängig gemacht werden",
         "importOverwriteWarning": "Dieser Datenimport wird eine bereits existierende Kampagne mit derselben ID {title} überschreiben. Die existierende Kampagne wurde zuletzt am {date} aktualisiert.",
         "systemPoints": "Systempunkte",
-        "techAttack": "Cyberattacke",
+        "techAttack": "Cyberangriff",
         "sensorRange": "Sensorreichweite",
         "limitedBonus": "Bonus zu begrenzten Systemen",
-        "pilotGear": "Pilot*innenzeug",
-        "pilotTalent": "Pilot*innentalent",
-        "pilotArmor": "Pilot*innenpanzerung",
-        "pilotWeapon": "Pilot*innenwaffe",
+        "pilotGear": "Pilot:innenzeug",
+        "pilotTalent": "Pilot:innentalent",
+        "pilotArmor": "Pilot:innenpanzerung",
+        "pilotWeapon": "Pilot:innenwaffe",
         "repairs": "Reparaturen",
         "contentPacks": "Inhaltspakete",
         "lcpDirectory": "LCP Verzeichnis",
@@ -175,7 +175,8 @@
         "hase_a": "A",
         "hase_s": "S",
         "hase_e": "T",
-        "ok": "OK"
+        "ok": "OK",
+        "alert": "Alarm"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
@@ -313,7 +314,7 @@
             "howToSeeExoticsBody": "Um Spoiler für Spieler zu vermeiden, blendet @:{'common.appName'} standardmäßig Exotische Elemente aus. Um die Sichtbarkeit zu ändern, können Sie das {options}-Menü von @:{'common.appName'} verwenden und dort den {showExoticsToggle}-Schalter einschalten.",
             "optionsLabel": "@:{'common.options'}",
             "showExoticsToggleLabel": "\"Exotische Elemente im Kompendium anzeigen\"",
-            "cloudAccountFaqBody": "@:{'common.options'} Cloud-Konten sind gratis für alle Nutzer:innen. Unterstützer:innen auf Patreon erhalten Zugang zu zusätzlichen Funktionen in ihren Cloud-Konten, wie zum Beispiel erweiterter Cloud-Speicher und zusätzliche aktive Tisch-Instanzen.",
+            "cloudAccountFaqBody": "@:{'common.appName'} Cloud-Konten sind gratis für alle Nutzer:innen. Unterstützer:innen auf Patreon erhalten Zugang zu zusätzlichen Funktionen in ihren Cloud-Konten, wie zum Beispiel erweiterten Cloud-Speicher und zusätzliche aktive Tisch-Instanzen.",
             "additionalHelpBody": "Das {faqLink} kann Ihnen mit Ihrer Frage evtl. weiterhelfen! Falls Sie dennoch nicht finden können, wonach Sie suchen, besuchen Sie uns gerne auf {discordLink} (insbesondere im #comp-con Kanal) und posten Sie Ihre Frage oder Ihren Kommentar direkt an die Entwickler.",
             "faqLinkText": "@:{'common.appName'} FAQ",
             "discordLinkText": "dem unoffiziellen @:{'common.gameName'} Discord-Server"
@@ -330,7 +331,7 @@
             "anonymousPatron": "Anonymer Patron"
         },
         "achievements": {
-            "unlocked": "freigeschaltet",
+            "unlocked": "Freigeschaltet",
             "byRarity": "Nach Seltenheit",
             "byLabel": "Nach Marke",
             "secretAchievements": "Geheime Errungenschaften",
@@ -360,7 +361,8 @@
             "cannot": "kann nicht",
             "othersCount": "(+{count} andere)",
             "warningDataFull": "Dies wird Nutzer:innen-Errungenschaftsdaten {emphasis}.",
-            "hidden": "@:{'common.hidden'}"
+            "hidden": "@:{'common.hidden'}",
+            "cannotBeUndoneFull": "Dies {emphasis} rückgängig gemacht werden. Es wird stark empfohlen, zuerst ein Backup anzulegen."
         },
         "storage": {
             "noStorageAccess": "@:{'common.appName'} kann nicht auf den Gerätespeicher zugreifen. Dies kann aufgrund einer Browsereinstellung oder -erweiterung sein. @:{'common.appName'} wird stattdessen \"Local Storage\" verwenden, welches auf 5MB begrenzt ist. Dies kann dazu führen, dass @:{'common.appName'} gewisse Daten nicht speichern kann. Bitte überprüfen Sie Ihre Browser-Einstellungen und erlauben @:{'common.appName'} Zugriff auf \"Persistent Storage\" wenn Sie dazu aufgefordert werden. Falls Sie eine Browsererweiterung verwenden, die Zugriff auf den Speicher blockiert, bitte deaktivieren Sie diese für @:{'common.appName'}. Falls keine dieser Optionen funktioniert, bitte laden Sie @:{'common.appName'} als PWA herunter.",
@@ -369,7 +371,7 @@
             "ofAvailableStorage": "% des verfügbaren Systemspeichers (",
             "hasBeenUsed": ") belegt ist",
             "autoDelete": "Automatisches Löschen",
-            "neverAutoDelete": "automatisches Löschen von vormarkierten Daten.",
+            "neverAutoDelete": "automatisch Daten löschen, die zur Löschung markiert wurden.",
             "deletedItems": "Gelöschte Elemente (nur Lokaldaten)",
             "userData": "Nutzer*innendaten",
             "deleteAllUserData": "Alle Nutzer*innendaten löschen",
@@ -377,7 +379,7 @@
             "cannotBeUndone": "rückgängig gemacht werden.",
             "areYouSure": "Sind Sie sicher, dass Sie fortfahren möchten?",
             "deleteWarningBanner": "Achtung // Achtung // Achtung",
-            "daysCount": "{count} Tage.",
+            "daysCount": "{count} Tagen als gelöscht markiert sind.",
             "deleteAllConfirm": "ALLE",
             "deleteConfirmIntro": "Dies wird {confirm} lokalen @:{'common.appName'}-Daten löschen.",
             "deleteConfirmUndone": "Dies {undone}",
@@ -386,7 +388,10 @@
             "warningThresholdPct": "Warngrenzwert (%)",
             "maxThresholdPct": "Maximaler Grenzwert (%)",
             "warningThresholdMb": "Warngrenzwert (MB)",
-            "maxThresholdMb": "Maximaler Grenzwert (MB)"
+            "maxThresholdMb": "Maximaler Grenzwert (MB)",
+            "autoDeleteFull": "@:{'common.appName'} wird Daten permanent löschen, wenn sie seit mehr als {days} Elemente die nicht bereits zur Löschung markiert waren, bleiben unangetastet.",
+            "storageUsageFull": "@:{'common.appName'} benutzt zurzeit {used} von insgesamt {total}, oder {percent} des verfügbaren Speicherplatzes. Darin mitgezählt ist Platz, den @:{'common.appName'} für App-Verwaltung reserviert hat.",
+            "neverAutoDeleteFull": "@:{'common.appName'} wird {never} automatisch Daten löschen, die zur Löschung markiert wurden."
         },
         "v2Auto": {
             "errorsDuringMigration": "{count} Fehler während der Migration | {count} Fehler während der Migration",
@@ -399,7 +404,10 @@
             "lcpsImported": "{count} Inhaltspaket importiert | {count} Inhaltspakete importiert",
             "migrationTitle": "V2 Datenmigration",
             "pendingNote": "Ausstehende Elemente können vom Inhaltspaket neu importiert werden, nachdem die benötigten LCPs installiert wurden.",
-            "downloadBackupTooltip": "Diese .compcon-Datei kann unter https://old.compcon.app in einer V2-Umgebung benutzt werden. Sie kann jederzeit im Options-Menü heruntergeladen werden"
+            "downloadBackupTooltip": "Diese .compcon-Datei kann unter https://old.compcon.app in einer V2-Umgebung benutzt werden. Sie kann jederzeit im Options-Menü heruntergeladen werden",
+            "v2Data": "V2-Daten",
+            "autoMigrated": "Ihre V2-Daten wurden bei App-Start automatisch auf V3 migriert.",
+            "downloadBackup": "V2 Backup herunterladen"
         },
         "packConfig": {
             "applyNote": "Diese Konfigurationen können auf Pilot:innen und NSCs in deren Optionsmenüs angewendet werden.",
@@ -429,7 +437,7 @@
         "log": {
             "logLevel": "@:{'common.logLevel'}",
             "trace": "Verfolgung",
-            "caller": "Anrufer",
+            "caller": "Aufrufer",
             "exportLog": "Log exportieren",
             "copiedToClipboard": "Log-Eintrag in Zwischenablage kopiert"
         },
@@ -440,7 +448,8 @@
             "restore": "@:{'common.restore'}",
             "permanentlyDelete": "Permanent löschen",
             "permanentlyDeleteAll": "Alle permanent löschen",
-            "restoreAll": "Alle wiederherstellen"
+            "restoreAll": "Alle wiederherstellen",
+            "deletedOn": "Gelöscht am"
         },
         "packInstall": {
             "alreadyInstalledWarning": "Folgendes Inhaltspaket ist bereits installiert und wird ersetzt: | Folgende Inhaltspakete sind bereits installiert und werden ersetzt",
@@ -529,7 +538,11 @@
             "logLevel": "@:{'common.logLevel'}",
             "errorReportingPrefix": "Fehlerberichterstattung",
             "enhancedReportingPrefix": "Erweiterte Fehlerberichterstattung",
-            "enabled": "aktiviert"
+            "enabled": "aktiviert",
+            "font": "Schriftart",
+            "logLevelLabel": "@:{'common.logLevel'}",
+            "errorReporting": "Fehlerberichterstattung",
+            "confirmImport": "@:{'common.confirmImport'}"
         },
         "packsDirectory": {
             "officialContent": "Offiziell",
@@ -565,7 +578,10 @@
             "subscribedTooltip": "Aktuell auf Aktualisierungen abonniert. Zum Abbestellen klicken.",
             "subscribeTooltip": "Hier klicken, um @:{'common.appName'} zu erlauben, dieses LCP zu aktualisieren, sobald eine neue Version verfügbar ist",
             "openWebsite": "Webseite öffnen",
-            "free": "Gratis"
+            "free": "Gratis",
+            "payWhatYouWant": "Zahlen Sie, Was Sie Wollen",
+            "currentVersion": "Aktuelle Version",
+            "itchStorePage": "itch.io Onlineshop-Seite"
         },
         "packsList": {
             "toggleSuccessText": "Paket erfolgreich {action}.",
@@ -583,7 +599,8 @@
         "achievementItem": {
             "unlockedLabel": "Freigeschaltet",
             "createdBy": "Erstellt von",
-            "secretLabel": "Geheime Errungenschaft"
+            "secretLabel": "Geheime Errungenschaft",
+            "hiddenNote": "Diese Errungenschaft ist versteckt und wird nach Freischaltung aufgedeckt"
         },
         "optionsPage": {
             "tabSettings": "@:{'common.settings'}",
@@ -596,7 +613,8 @@
             "joinTheLancerDiscord": "Treten Sie dem LANCER Discord-Server bei"
         },
         "cloudNotifications": {
-            "dismissAll": "Alle Benachrichtigungen verwerfen"
+            "dismissAll": "Alle Benachrichtigungen verwerfen",
+            "noRecentUpdates": "Keine kürzlichen Cloud-Aktualisierungen"
         }
     },
     "active": {
@@ -623,7 +641,17 @@
             "pilotSkills": "Pilotenfertigkeiten ({n})"
         },
         "mechActions": {
-            "mechBootedUpText": "{name} hat sich HOCHGEFAHREN."
+            "mechBootedUpText": "{name} hat sich HOCHGEFAHREN.",
+            "preparedTitle": "Mech vorbereitet",
+            "ejectFailedTitle": "Auswerfen fehlgeschlagen",
+            "ejectFailedText": "{name} ist nicht aufgesessen.",
+            "pilotEjectedTitle": "Pilot ausgeworfen",
+            "pilotEjectedText": "{name} wurde aus dem Mech ausgeworfen und ist jetzt VERHINDERT.",
+            "dismountFailedTitle": "Absitzen fehlgeschlagen",
+            "dismountFailedText": "{name} ist nicht aufgesessen.",
+            "pilotDismountedTitle": "Pilot:in abgesetzt",
+            "pilotDismountedText": "{name} hat sich vom Mech abgesetzt.",
+            "mechHiddenTitle": "Mech versteckt"
         },
         "damageMenu": {
             "irreducible": "Unverringerbar"
@@ -694,6 +722,14 @@
             "title": "Neues lokales, aktives Gefecht",
             "encounterData": "Gefechtsdaten",
             "additionalNpcs": "Zusätzliche NSCs können nach der Erstellung im Gefechtsläufer hinzugefügt werden."
+        },
+        "encounter": {
+            "failedToCopyTitle": "Kopieren fehlgeschlagen"
+        },
+        "addCombatant": {
+            "doodadAddedTitle": "Dingsbums hinzugefügt",
+            "eidolonAddedTitle": "Eidolon hinzugefügt",
+            "addedText": "{name} wurde zum Gefecht hinzugefügt."
         }
     },
     "pm": {
@@ -808,7 +844,18 @@
             "yourCampaigns": "Ihre Kampagnen",
             "exportCampaignJson": "Kampagnen-JSON exportieren",
             "changeSectionType": "Abschnittstyp ändern",
-            "movePage": "Seite bewegen"
+            "movePage": "Seite bewegen",
+            "releaseNotes": "Versionshinweise und Änderungsprotokoll",
+            "publishNewVersion": "Neue Version veröffentlichen",
+            "latestVersion": "Neueste Version",
+            "latestChanges": "Neueste Änderungen",
+            "saveLocal": "Zu lokaler Sammlung speichern",
+            "releaseFor": "Veröffentlichen für",
+            "major": "Haupt",
+            "minor": "Neben",
+            "patch": "Revision",
+            "versionExists": "Version {version} existiert bereits!",
+            "returnToIndex": "Zurück zum Index"
         },
         "pageContent": {
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des:der Nutzer:in",
@@ -851,7 +898,8 @@
         },
         "npcAlert": {
             "selectUpTo": "Sie dürfen bis zu {n} zusätzliche Funktion auswählen | Sie dürfen bis zu {n} zusätzliche Funktionen auswählen",
-            "selectN": "Wählen Sie {n} zusätzliche Funktion | Wählen Sie {n} zusätzliche Funktionen"
+            "selectN": "Wählen Sie {n} zusätzliche Funktion | Wählen Sie {n} zusätzliche Funktionen",
+            "selectionsComplete": "{source}-Auswahlen vollständig"
         },
         "encounter": {
             "combatantAddedTitle": "{name} hinzugefügt",
@@ -891,7 +939,7 @@
             "additionalDetail": "Zusätzliche Details",
             "clocks": "Uhren",
             "viewCollections": "Sammlungen anzeigen",
-            "itemTypePlural": "{type}s"
+            "itemTypePlural": "{type}"
         },
         "print": {
             "othersCount": "(+{n} weitere)"
@@ -899,7 +947,15 @@
         "overview": {
             "setCoverImage": "Titelbild festlegen",
             "deleteHistory": "Verlauf löschen (v.{ver})",
-            "bannerImage": "Kampagnen-Bannerbild"
+            "bannerImage": "Kampagnen-Bannerbild",
+            "setBannerImage": "Bannerbild setzen",
+            "imagesMustLink": "Kampagnenbilder müssen verknüpft sein, und dürfen nicht aus lokalen @:{'common.appName'}-Daten stammen.",
+            "recommendedFor": "Empfohlen für",
+            "to": "bis",
+            "fromLicenseLevels": "Ab Lizenzleveln",
+            "authorContact": "Kontaktinfo der Urheber:in (Optional)",
+            "addContact": "Neuen Kontakt hinzufügen",
+            "coverImage": "Kampagnen-Titelbild"
         },
         "narrativeLink": {
             "noEncounterSelected": "Kein Gefecht ausgewählt",
@@ -936,7 +992,16 @@
             "source": "Quelle",
             "updateInstanceTooltip": "Diese Instanz-Eigenschaft an der Quelle aktualisieren",
             "updateAllTooltip": "Alle Instanz-Eigenschaften an der Quelle aktualisieren",
-            "noChanges": "Ohne Änderungen"
+            "noChanges": "Ohne Änderungen",
+            "mainForce": "Hauptstreitkraft",
+            "pcsCount": "({n}+ SCs)",
+            "clickToEdit": "Zum Bearbeiten klicken",
+            "atPcCount": "Bei SC-Anzahl",
+            "atPcCountHelp": "Dieser NSC wird nur als Bestandteil dieses Gefechts markiert wenn mindestens so viele Spielercharaktere wie angezeigt beteiligt sind. Wenn dieses Feld leergelassen wird, ist der NSC Bestandteil unabhängig von der Spieleranzahl.",
+            "onTurn": "In Zug",
+            "onTurnHelp": "Dieser NSC wird dem Gefecht im angegebenen Zug beitreten. Wenn dieses Feld leergelassen wird, kann die:der Spielleiter:in diesen NSC zu einem beliebigen Zeitpunkt als Verstärkung einsetzen.",
+            "addToRoster": "Zu Liste kopieren",
+            "addToRosterTooltip": "Fügt eine Kopie dieses NSCs zu Ihrer Liste hinzu und verknüpft diese Instanz mit dem neuen Listeneintrag."
         },
         "encounterIndex": {
             "addFolder": "Ordner hinzufügen",
@@ -950,7 +1015,8 @@
             "stagedEncounters": "Vorbereitete Gefechte",
             "readyForImport": "Gefecht bereit für den Import",
             "missingNpcs": "Dieses Gefecht beruft sich auf NSCs, die noch nicht importiert wurden. Es wird zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und kann importiert werden, sobald die benötigten NSCs verfügbar sind.",
-            "someMissingNpcs": "Einige Gefechte beziehen sich auf NSCs, die noch nicht importiert werden. Diese Gefechte werden zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und können importiert werden, sobald die benötigten NSCs verfügbar sind."
+            "someMissingNpcs": "Einige Gefechte beziehen sich auf NSCs, die noch nicht importiert werden. Diese Gefechte werden zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und können importiert werden, sobald die benötigten NSCs verfügbar sind.",
+            "importCount": "({n} Gefecht) importieren | ({n} Gefechte) importieren"
         },
         "sync": {
             "syncCompleteText": "{itemType} {name} synchronisiert.",
@@ -965,7 +1031,9 @@
             "setLcpConfig": "LCP-Konfiguration setzen"
         },
         "relationships": {
-            "linkedEntities": "Verknüpfte Entitäten"
+            "linkedEntities": "Verknüpfte Entitäten",
+            "addRelationship": "Verhältnis hinzufügen",
+            "label": "Verhältnisse"
         },
         "filter": {
             "filters": "Filter",
@@ -978,7 +1046,8 @@
         "encounterEditor": {
             "details": "Gefechts-Details",
             "noMapData": "Ohne Kartendaten",
-            "additionalNotes": "Zusätzliche Notizen"
+            "additionalNotes": "Zusätzliche Notizen",
+            "editorHeading": "Gefechtseditor"
         },
         "sitrep": {
             "presets": "Voreinstellungen",
@@ -1004,11 +1073,15 @@
             "removeTemplate": "Vorlage entfernen",
             "assignTemplate": "Vorlage zuweisen",
             "cannotAssign": "Zuweisung nicht möglich (in Konflikt mit {conflict})",
-            "selectNpcTemplate": "NSC-Vorlage auswählen"
+            "selectNpcTemplate": "NSC-Vorlage auswählen",
+            "noTemplates": "Keine Vorlagen",
+            "editTemplates": "NSC-Vorlagen bearbeiten"
         },
         "tier": {
             "changeTo": "Zu Rang {n} ändern",
-            "detectedEdits": "@:{'common.appName'} hat bearbeitete Statistik-Werte entdeckt. Wie möchten Sie fortfahren?"
+            "detectedEdits": "@:{'common.appName'} hat bearbeitete Statistik-Werte entdeckt. Wie möchten Sie fortfahren?",
+            "preserveEdits": "Rang ändern und Änderungen beibehalten",
+            "resetStats": "Rang ändern und Werte zurücksetzen"
         },
         "npcTag": {
             "selectTag": "NSC-Marke auswählen"
@@ -1067,7 +1140,17 @@
             "sitrepModified": "Lagebericht bearbeitet",
             "organizeEncounters": "Gefechte organisieren",
             "selectTemplate": "Vorlage auswählen",
-            "selectNpcClass": "NSC-Klasse auswählen"
+            "selectNpcClass": "NSC-Klasse auswählen",
+            "setGmLabel": "Spielleiter-Marke setzen",
+            "addSubsection": "Unterabschnitt hinzufügen",
+            "addBeat": "Takt hinzufügen",
+            "addMission": "Mission hinzufügen",
+            "addCombat": "Kampf hinzufügen",
+            "addDowntime": "Freizeit hinzufügen",
+            "textSection": "Textabschnitt",
+            "rollableTable": "Bewürfelbare Tabelle",
+            "narrativeElement": "Erzählelement",
+            "combatEncounter": "Gefecht"
         },
         "fields": {
             "selectDataFile": "Daten-Datei auswählen",
@@ -1105,7 +1188,44 @@
         },
         "subtitles": {
             "setItemFolder": "Elementordner setzen",
-            "addSetOrDeleteA": "Eine Spielleiter-Marke hinzufügen, setzen, oder entfernen"
+            "addSetOrDeleteA": "Eine Spielleiter-Marke hinzufügen, setzen, oder entfernen",
+            "addANewEmptyFreeform": "Fügt unter dieser Seite einen neuen Abschnitt hinzu, der frei gestaltet werden kann. Ein Abschnitt ist ein Container für andere Inhaltsobjekte, und kann genutzt werden, um Ihre Kampagne nach Wunsch zu organisieren.",
+            "addANewEmptyBeat": "Fügt unter diesem Abschnitt einen neuen Takt ein. Ein Takt ist ein Abschnitt für ein wichtiges Event oder einen wichtigen Moment in der Geschichte.",
+            "addANewEmptyMission": "Fügt unter dieser Seite eine neue Mission ein. Eine Mission hat spezifische Ziele, die innerhalb einer bestimmten Zeit erfüllt werden können, und involviert für gewöhnlich Kämpfe.",
+            "addANewEmptyCombat": "Fügt unter dieser Seite einen neuen Kampf ein. Ein Kampf enthält Gefechte sowie Spielleiter-Anweisungen, erzähltechnische Details zum Kampf, und potentielle Auswirkungen."
+        },
+        "labelDialog": {
+            "addOverwrite": "Dies wird den Wert der Marke zu allen ausgewählten Elementen hinzufügen {emphasis}.",
+            "orOverwrite": "oder dort überschreiben",
+            "deleteText": "Dies wird den Wert der Marke zu allen ausgewählten Elementen {emphasis}."
+        },
+        "folder": {
+            "collectionFolder": "Sammlungsordner",
+            "setFolder": "Ordner setzen",
+            "noFolder": "Kein Ordner"
+        },
+        "organizer": {
+            "itemCount": "{n} Elemente"
+        },
+        "npcFeature": {
+            "nameFeatures": "{name}-Funktionen",
+            "otherNpcClasses": "Andere NSC-Klassen",
+            "otherNpcTemplates": "Andere NSC-Vorlagen",
+            "otherFeatures": "Andere Funktionen",
+            "featureType": "{type}-Funktion",
+            "base": "Basis",
+            "noSelectionsRemaining": "Keine weiteren NSC-Funktionen verfügbar",
+            "ignoreLimitHint": "Zusätzliche Funktionen über das empfohlene Maß hinaus können hinzugefügt werden, indem die \"Limit ignorieren\" Option oben eingeschaltet wird",
+            "noAssigned": "Keine NSC-Funktionen zugewiesen",
+            "noneFound": "Keine NSC-Features konnten für diese Auswahl gefunden werden",
+            "resetFeatures": "Funktionen zurücksetzen",
+            "allAvailableFeatures": "Alle verfügbaren Funktionen",
+            "allAssignedFeatures": "Alle zugewiesenen Funktionen",
+            "selectedClass": "Ausgewählte Klasse",
+            "selectedTemplate": "Ausgewählte Vorlage | Ausgewählte Vorlagen"
+        },
+        "npcEditor": {
+            "statblock": "Statblock"
         }
     },
     "compendium": {

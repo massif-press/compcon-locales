@@ -149,7 +149,7 @@
         "remove": "Eliminar",
         "hidden": "Oculto",
         "roll_noun": "Tira",
-        "hpBonus": "Bono de Pv",
+        "hpBonus": "Bono de PV",
         "setCustomDescription": "Asignar Descripción Personalizada",
         "pilotGroup": "Grupo de Pilotos",
         "background": "Trasfondo",
@@ -165,7 +165,10 @@
         "hase_a": "A",
         "hase_s": "S",
         "hase_e": "I",
-        "pilotBonds": "Lazos del Piloto"
+        "pilotBonds": "Lazos del Piloto",
+        "setCustomName": "Elegir Nombre Personalizado",
+        "roll_verb": "Tirar",
+        "changelog": "Bitácora de cambios"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -381,7 +384,7 @@
             "noStorageAccess": "@:{'common.appName'} no puede acceder al dispositivo de almacenamiento. Esto puede deberse a una extensión o configuración del navegador. @:{'common.appName'} volverá a usar almacenamiento local, el cual está limitado a 5MB. Esto puede dar lugar a que @:{'common.appName'} no pueda guardar datos. Por favor, compruebe la configuración de su navegador, o permita que @:{'common.appName'} acceda a \"Alamcenamiento Persistente\" si se solicita. Si está usando una extensión del navegador que bloquea el acceso al almacenamiento, por favor deshabilitarlo para @:{'common.appName'}. Si ninguna de estas opciones funciona, por favor considere la posibilidad de descargar @:{'common.appName'} como PWA.",
             "deletedItems": "Artículos eliminados (sólo datos locales)",
             "deleteWarningBanner": "Advertencia // advertencia // advertencia",
-            "areYouSure": "¿Está usted seguro de que desea continuar?",
+            "areYouSure": "¿Está seguro de que desea continuar?",
             "daysCount": "{count} días.",
             "deleteConfirmUndone": "Este {undone}",
             "warningThresholdPct": "Umbral de alerta (%)",
@@ -407,7 +410,7 @@
         "userDataViewer": {
             "value": "Valor",
             "description": "Estos son los datos de usuario almacenados localmente. Estos artículos generalmente no deben ser reiniciados, pero pueden ser útiles para depurar o aclarar un problema de carga persistente.",
-            "achievementNote": "Reiniciar datos de usuario no restablecerá los logros desbloqueados (eso puede hacerse en el Explorador de Logros).",
+            "achievementNote": "Reiniciar Datos de Usuario no restablecerá los logros desbloqueados (eso puede hacerse en el Explorador de Logros).",
             "resetUserData": "Restablecer datos de usuario"
         },
         "packInstall": {
@@ -439,7 +442,8 @@
             "communityContribute": "Si usted está interesado en crear su propio contenido casero de @:{'common.gameName'}, o enviar su contenido para ser incluido en este directorio, por favor",
             "clickHere": "presione aquí.",
             "communityNotice": "La descarga dentro de aplicaciones y la suscripción automática a las actualizaciones de LCP de la comunidad aún no son soportadas . Una vez disponibles las herramientas de soporte del autor, los LCP comunitarios serán migrados a v3 y podrán aprovechar los mismos mecanismos de actualización y suscripción que los paquetes oficiales de contenido de Massif Press. Siga el {blog} para mantenerse al día en el progreso.",
-            "content": "Contenido"
+            "content": "Contenido",
+            "developmentBlog": "bitácora de desarrollo"
         },
         "packInfo": {
             "v2ContentTitle": "Contenido v2",
@@ -480,13 +484,14 @@
             "title": "@:{'common.appName'}"
         },
         "log": {
-            "trace": "Trazo",
+            "trace": "Rastro",
             "exportLog": "Bitácora de Exportación",
             "copiedToClipboard": "Registro copiado al portapapeles",
-            "noData": "@:{'common.noData'}"
+            "noData": "@:{'common.noData'}",
+            "caller": "Llamado por"
         },
         "packConfig": {
-            "title": "Configuración de Contenido",
+            "title": "Configuraciones de Contenido",
             "description": "Las configuraciones de contenidos le permiten crear y gestionar conjuntos de LCP que se pueden aplicar a Pilotos y PNJs que permiten o limitan las selecciones a contenidos específicos. Pilotos y PNJs sin configuración tendrán acceso a todos los LCP instalados y activados",
             "applyNote": "Estas configuraciones se pueden aplicar a Pilotos y PNJs en sus menús de opciones.",
             "noConfigs": "No se hallaron configuraciones.",
@@ -702,7 +707,7 @@
             "missingContent": "Contenido del DJ Faltante"
         },
         "narrative": {
-            "itemTypePlural": "{type}s",
+            "itemTypePlural": "",
             "additionalDetail": "Detalle adicional",
             "clocks": "Relojes",
             "viewCollections": "Ver Colecciones"
@@ -761,7 +766,7 @@
             "readyForImport": "Encuentro listo para importar",
             "missingNpcs": "Este encuentro hace referencia a PNJs que aún no han sido importados. Se guardará en la colección Importados v2 en el Gestor de Contenidos y se podrá importar una vez que estén disponibles los PNJs requeridos.",
             "someMissingNpcs": "Algunos encuentros hacen referencia a PNJs que aún no han sido importados. Estos encuentros se guardarán en la colección Importados v2 en el Gestor de Contenidos y podrán ser importados cuando estén disponibles los PNJs requeridos.",
-            "importCount": "Importar ({n} Encuentro{plural})"
+            "importCount": "Importar ({n} Encuentro) | Importar ({n} Encuentros)"
         },
         "npcFeature": {
             "nameFeatures": "{name} Características",
@@ -770,7 +775,7 @@
             "allAvailableFeatures": "Todas las Características Disponibles",
             "allAssignedFeatures": "Todas las Características Asignadas",
             "selectedClass": "Clase seleccionada",
-            "selectedTemplate": "Plantilla{plural} seleccionada{plural}",
+            "selectedTemplate": "Plantilla seleccionada | Plantillas seleccionadas",
             "otherNpcClasses": "Otras Clases de PNJ",
             "otherNpcTemplates": "Otras Plantillas de PNJ",
             "otherFeatures": "Otras Características",
@@ -1009,7 +1014,8 @@
             "organizeEncounters": "ordenar encuentros",
             "selectTemplate": "seleccionar plantilla",
             "selectNpcClass": "seleccionar clase de PNJ",
-            "addDowntime": "Añadir Tiempo Apeado"
+            "addDowntime": "Añadir Tiempo Apeado",
+            "eidolons": "Eidolones"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
@@ -1018,7 +1024,8 @@
             "addANewEmptyFreeform": "Añadir una nueva sección de forma libre vacía bajo esta página. Una sección es un contenedor para otros artículos de contenido, y puede usarse para organizar su campaña en la manera que encuentre apropiada.",
             "addANewEmptyBeat": "Añade un nuevo Pulso bajo esta sección. Un Pulso es una sección para un evento o momento importante en la historia.",
             "addANewEmptyMission": "Añade una nueva Misión vacía bajo esta página. Una Misión contiene objetivos y metas específicas que pueden ser completadas dentro de un periodo de tiempo discreto, y típicamente contiene Combates.",
-            "addANewEmptyCombat": "Añade un Combate nuevo vacío bajo esta página. Un Combate contiene Encuentros, así como también directrices para DJ, detalles narrativos pertinentes a la batalla, y resultados potenciales."
+            "addANewEmptyCombat": "Añade un Combate nuevo vacío bajo esta página. Un Combate contiene Encuentros, así como también directrices para DJ, detalles narrativos pertinentes a la batalla, y resultados potenciales.",
+            "addANewEmptyDowntime": "Añade un nuevo Downtime vacío bajo esta página. Downtime es el espacio narrativo entre misiones, donde la acción momento a momento no importa tanto y el juego de roles importa mucho más."
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Objetos no-personaje (tales como artículos del terreno) que pueden ser monitoreados en encuentros de combate."
@@ -1156,7 +1163,7 @@
         "newEnc": {
             "title": "Nuevo Encuentro Local Activo",
             "encounterData": "Datos de encuentro",
-            "additionalNpcs": "Los NPC adicionales pueden ser añadidos en el corredor de encuentros después de la creación."
+            "additionalNpcs": "Los PNJ adicionales pueden ser añadidos en el corredor de encuentros después de la creación."
         },
         "tableManager": {
             "published": "lista de mesas publicadas",
@@ -1378,7 +1385,7 @@
             "cover": "Cobertura",
             "noCover": "Sin Cobertura",
             "soft": "Suave",
-            "softCover": "Cobertura Suave",
+            "softCover": "Cobertura Blanda",
             "hard": "Dura",
             "hardCover": "Cobertura Dura",
             "resistances": "Resistencias",
@@ -1519,7 +1526,8 @@
             "loses": "Pierde",
             "skillCheckRoll": "Tirada de Prueba de Habilidad",
             "rollResults": "Resultado de Tirada",
-            "difficultMod": "-1 (Difícil)"
+            "difficultMod": "-1 (Difícil)",
+            "checkStat": "Prueba de Estadística"
         },
         "stabilize": {
             "chooseOne": "elija uno"
@@ -1631,7 +1639,8 @@
             "reloadAllLoadedWeapons": "Recargar todas las armas LOADED.",
             "clearAnyBurnCurrentlyAffecting": "Despejar cualquier quemadura afectando actualmente su mecha.",
             "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc",
-            "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc."
+            "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc.",
+            "overkill": "Saña"
         },
         "titles": {
             "addPilotFromRoster": "Agregar Piloto de la Lista",
@@ -2003,7 +2012,8 @@
             "newEmail": "Nuevo Correo-E",
             "confirmNewEmail": "Confirmar Nuevo Correo-E",
             "emailAddress": "Dirección Correo-E",
-            "updates": "Actualizar"
+            "updates": "Actualizar",
+            "itemLimit": "Limite de Artículos"
         },
         "actions": {
             "remoteBackups": "Copias de Respaldo Remotas",
@@ -2088,7 +2098,21 @@
             "superheavyWEAPONBRACING": "Fijación de arma Superpesada",
             "equipmentIDINVALIDORMISSING": "[ ID del Equipamiento inválida o faltante ]",
             "lancerSuperheavyClassArmamentRequiresTwo": "Lancer, armamento de clase Superpesada requiere dos monturas. Por favor seleccione una {mount}",
-            "notSET": "Sin selección"
+            "notSET": "Sin selección",
+            "availableLoadouts": "Equipamientos Disponibles",
+            "weaponMods": "Mods de Arma",
+            "noMODINSTALLED": "Sin mod instalado",
+            "emptySYSTEMSLOT": "Ranura de sistema vacía",
+            "mechSYSTEMS": "SISTEMAS mecha",
+            "selectPilotArmor": "Seleccione Armadura de Piloto",
+            "pilotMATERIELREGISTRATIONVERIFIED": "[ Registro del material bélico de piloto verificado ]",
+            "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL": "Autorización de equipamiento armería GMS: piloto/armadura personal::GI - GVII-a",
+            "materielIDINVALIDORMISSING": "[ ID del Material Bélico inválido o faltante ]",
+            "itemUSES": "Usos del artículo",
+            "gmsEQUIPMENTAUTHORIZATIONPILOTADDITIONALGEAR": "Autorización de equipo GMS: piloto/equipo adicional (cualquiera)",
+            "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Autorización de equipo de GMS armory: piloto/armamento personal::S0-S3(LTD)",
+            "toAddSlashes": "Para añadir //",
+            "gmsArmoryPrintid": "id impresión armería GMS"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
@@ -2096,7 +2120,8 @@
             "importPilotErrorText": "No es posible importar Piloto: {error}",
             "groupImportSuccessText": "{name} añadido con éxito.",
             "groupImportErrorText": "No es posible importar grupo de piloto: {error}",
-            "v2BackupText": "{callsign} guardado en las importaciones v2 pendientes en el Gestor de Contenidos."
+            "v2BackupText": "{callsign} guardado en las importaciones v2 pendientes en el Gestor de Contenidos.",
+            "importSuccessText": "{name} // {callsign} añadido con éxito a la lista."
         },
         "export": {
             "exportErrorText": "@:{'common.appName'} no pudo exportar datos de piloto",
@@ -2109,7 +2134,9 @@
             "submittingUnauthorizedLicensingUpdatesAndOr": "Presentar actualizaciones de licencias no autorizadas y/o presentar de solicitudes no autorizadas de licencia o de derechos de licencia previamente retenidos sin previa autorización MV-8a/j por un Administrador de la Unión resultará en el rechazo automático de la solicitud de licencia y podrá resultar en una auditoría de licencia bajo DoJ/HR AR 716-J",
             "isEligibleForTheFollowingLicense": "es elegible para la siguiente actualización de licencia",
             "newLICENSEUNLOCK": "Desbloquear nueva licencia",
-            "mv2LicenseAcquisitionRequest": "Solicitud de Adquisición de Licencia MV-2"
+            "mv2LicenseAcquisitionRequest": "Solicitud de Adquisición de Licencia MV-2",
+            "theUADIDENTServiceHasDetermined": "El Servicio de IDENT de la UAD ha determinado que",
+            "mechSkills": "Habilidades de Mecha"
         },
         "new": {
             "pilot": "Piloto",
@@ -2132,7 +2159,18 @@
             "skills": "Habilidades",
             "pilotNAME": "Nombre piloto",
             "appearance": "Apariencia",
-            "mustINCLUDERETINALDATA": "(Debe incluir datos de retina)"
+            "mustINCLUDERETINALDATA": "(Debe incluir datos de retina)",
+            "welcomeToTheUnionAdministrativeDepartment": "Bienvenido al servicio de registro IDENT del Departamento Administrativo de la Unión. IDENT es el sistema de certificación basado en omninet que guía al usuario a través del proceso de registro piloto de la UAD. IDENT ayuda a garantizar que los pilotos cumplan con los requisitos reglamentarios y normativos mediante el uso de Protocolos de validación de datos dirigidos por NHP. Regulares de la Unión para los que ya se haya emitido una huella dactilar RM-4 IDENT no debe completar este formulario a menos que sea instruido por su oficial al mando.",
+            "allFieldsMarkedWithThe": "Todos los campos marcados con el",
+            "addPilotDescription": "Añadir Descripción de Piloto",
+            "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // TRANSFERFERENCIA DE DATOS LICENCIA EXTERNA (SI APLICA)",
+            "rm406ATTACHEDOHMIMAGING": "RM-4-06 // escaneo de imagenología OHM adjunta",
+            "rm402APPROVEDCALLSIGNOR": "RM-4-02 // callsign aprobado (o designación del cadete, si aplica)",
+            "rm403PRIOROCCUPATIONOR": "RM-4-03 // OCUPACIÓN PREVIA O POSICIÓN (RESPUESTA 17b EN RM-2-C)",
+            "rm405ATTACHEDOHMHEALTH": "RM-4-05 // resultados de examen de salud OHM adjunto",
+            "startingLL": "LL Inicial",
+            "selectTemplate": "Seleccionar plantilla {name}",
+            "templateSelected": "plantilla {name} seleccionada"
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
@@ -2171,7 +2209,49 @@
             "setMechImage": "Seleccionar Imagen de Mecha",
             "identRecordNotice": "El uso indebido de este registro de IDENT y/o sus datos constitutivos por el titular del registro o cualquier otra persona se castiga de acuerdo al DoJ/HR A-645-c. Este registro es propiedad de la Oficina Administrativa de la Unión y la información en este documento debe ser transmitida a petición bajo los protocolos de encriptación NDL-C-DISCORDANT-BREATH. Este registro RM-4 debe actualizarse cada cinco (5) Años Estándar Cuna de tiempo objetivo para conservar los derechos de licenciamiento GMS. Los operativos de campo lejano que anticipan despliegues que duran más de cinco Años Estándar Cuna que no han solicitado un Gancho Omninet humano-portable deben aplicar por la RM-11-B IDENT Extensión Complementaria (b). Comuníquese con su Oficial local Administrativo de la Unión para cualquier otro asunto relacionado con este registro. V-CDL//M-265-114-831 (A)",
             "warningLICENSEMISSING": "Advertencia: licencia faltante",
-            "killedINACTION": "Muerto en acción"
+            "killedINACTION": "Muerto en acción",
+            "pilotOptions": "Opciones del Piloto",
+            "printTabletopReadyCharacterAndMech": "Imprimir hojas de personaje y mecha listas para la mesa",
+            "getAPlaintextRepresentationOfThis": "Obtener una representación en texto plano de la construcción de este personaje",
+            "exportThisPilotAsAJSON": "Exportar este piloto como un archivo JSON",
+            "transferOrTheSubjectivePersonageOf": "Transferir o la personalidad subjetiva de un ser sensible u otra continuidad subjetiva en un sustrato fabricado o cultivado.",
+            "emulationOfASentientIndividualS": "Emulación de la personalidad subjetiva de un individuo sensible en un sustrato manufacturado o cultivado.",
+            "intentionalDecorporealizationOfASentientBeing": "Descorporalización intencional de un ser sensible u otra continuidad subjetiva.",
+            "engagingInAnyActivityThatCould": "Participación en cualquier actividad que pudiera potencialmente someter a un ser sensible u otra continuidad subjetiva al proceso de desordenamiento, disonancia esquizo-ontológica, disolución de la personalidad, u otra forma de desintegración subjetiva.",
+            "exportLegacyJSON": "Exportar JSON Antiguo",
+            "removeThisPilotFromTheRoster": "Quitar este piloto de la lista",
+            "flashClonePilot": "Clonación Relámpago de Piloto",
+            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Cualquier organización, individuo o tecnología que participe o facilite la clonación de facsímil de cuerpo entero está vinculada por los Primeros Acuerdos de Contacto de 3002. Cualquier actividad que viole los principios enunciados en los Acuerdos está prohíbida, incluiyendo, pero sin limitarse a:",
+            "reproductionOfTheSubjectivePersonageOf": "Reproducción total o parcial de la personalidad subjetiva de un ser sensible u otra continuidad subjetiva.",
+            "allFormsOfWholeSubjectivityRapid": "Toda formas de clonación de procesos rápidos de subjetividad completa están prohibidas bajo la jurisdicción de la Unión. Cualquier persona que haya infringido este estatuto estará sujeta a la acción judicial del Departamento de Justicia de la Unión y el Departamento de Derechos de Facsímiles de Recursos Humanos.",
+            "exportPilot": "Exportar Piloto",
+            "generateStatblock": "Generar Bloque de Estadísticas",
+            "cloneQUIRK": "Clonar particularidad",
+            "rerollQuirk": "Relanzar Particularidad",
+            "decantFlashClone": "Decantar Clon Relámpago",
+            "lcpConfigurations": "Configuraciones LCP",
+            "openConfigManager": "Abrir Gestor de Config",
+            "phHRDATAREGISTERED": "Datos ph/hr registrados",
+            "errTALENTAUDITINCOMPLETE": "Err auditoría de talento incompleta",
+            "errorINVALIDPILOT": "Error // piloto no válido",
+            "nameOrLegalAlias": "Nombre (o alias jurídicos)",
+            "noBondPowersAssigned": "Sin Poderes de Lazo asignados",
+            "noBondPowersAvailable": "No hay Poderes de Lazo disponibles",
+            "bondsAvailableAfterLicenseLevel1": "Lazos disponibles después del Nivel de Licencia 1",
+            "overrideAllowLL0Bond": "[ANULAR]:// Permitir LL0 Bond",
+            "selectBond": "Seleccionar Lazo",
+            "majorIdeals": "Principales Ideales",
+            "minorIdeal": "Ideal Menor",
+            "bondPowersAvailable": "Poderes de Lazo Disponibles",
+            "setMaximumPilotStressStressGains": "Establecer el estrés máximo del piloto. Estrés obtenido de fuentes como Poderes de Lazo seleccionados no son automatizados",
+            "statusNominal": "Estado Nominal",
+            "burdenLimitReached": "Límite de Carga Alcanzado",
+            "addBurden": "Añadir Carga",
+            "addNewBurden": "Añadir Nueva Carga",
+            "addNewClock": "Añadir Nuevo Reloj",
+            "removeBond": "Quitar Lazo",
+            "gainBondPower": "Obtener Poder de Lazo",
+            "setMaximumStress": "Establecer Estrés Máximo"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
