@@ -41,5 +41,7 @@
     "tg_turn.name": "턴 당 {VAL}회",
     "act_bolster.special_0.detail": "당신이 다음에 만드는 스킬 판정 혹은 내성 판정에 +2 정확도를 받습니다.",
     "tg_invade.name": "침투",
-    "act_move.name": "이동"
+    "act_move.name": "이동",
+    "act_overwatch_npc.terse": "근처에서 움직이려 하는 타겟을 공격합니다.",
+    "act_overwatch.terse": "근처에서 움직이려 하는 대상을 공격합니다."
 }
