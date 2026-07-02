@@ -2290,7 +2290,9 @@
         "roster": {
             "history": "Historial",
             "finishEditing": "Terminar edición",
-            "deleteGroup": "Borrar grupo"
+            "deleteGroup": "Borrar grupo",
+            "allPilotsAssignedToThisGroup": "Todos los pilotos asignados a este grupo serán eliminados permanentemente.",
+            "cr701UNITDESIGNATION": "CR-7-01 // UNIT DESIGNATION"
         }
     },
     "share": {
