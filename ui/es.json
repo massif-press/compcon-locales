@@ -2293,7 +2293,8 @@
             "deleteGroup": "Borrar grupo",
             "allPilotsAssignedToThisGroup": "Todos los pilotos asignados a este grupo serán eliminados permanentemente.",
             "cr701UNITDESIGNATION": "CR-7-01 // UNIT DESIGNATION",
-            "addGroupDescription": "Agregar grupo Descripción"
+            "addGroupDescription": "Agregar grupo Descripción",
+            "editGroupDescription": "Editar grupo Descripción"
         }
     },
     "share": {
