@@ -2361,7 +2361,8 @@
             "unavailable": "Indisponible",
             "addReserve": "Agregar reserva",
             "download": "Descarga",
-            "startWith": "Comienza por"
+            "startWith": "Comienza por",
+            "efficiency": "Eficiencia"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
@@ -2383,6 +2384,9 @@
             "theRM4bPILOTSELFASSESSMENT3": "El RM-4b PILOT SELF ASSESSMENT (Talents) cataloga el autoreportado de un piloto individual\ncombat operation aptitudes y otorga privilegios de requisición para el tiempo de simulación, holofield\nmateriales de entrenamiento de sensorio cortical, datos de telemetría de campo de batalla en clasificaciones inferiores\nGREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern materiel licencias.",
             "theCombatOperationAbilityRequisitionOn": "The Combat Operation Ability Requisición, on the approval of a NHP-guided automatically request\nsistema de aprobación, confiere privilegios de simulador UNI, campo de holo y formación de sensorio cortical\nmateriales, datos de telemetría de campo de batalla en clasificaciones debajo de GREY SIERRA SHARP, y (en\ncasos específicos) GMS MM-pattern materiel licencias.",
             "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes números:"
+        },
+        "link": {
+            "bond": "Enlace"
         }
     },
     "share": {
