@@ -1954,7 +1954,7 @@
             "exportState": "Exportar Estado da Ficha de Personagem",
             "importState": "Importar Estado da Ficha de Personagem",
             "importFileLabel": "Arquivo de Importação de Instância de Ficha de Personagem (.json)",
-            "stagedImport": "Estágio de Importação",
+            "stagedImport": "Importação em Estágio:",
             "atRound": "na Rodada",
             "warningReplace": "Aviso: O estado da Ficha de Personagem importado substituirá o estado atual da Ficha de Personagem.",
             "changeActiveMech": "Alterar Mecha Ativo",
