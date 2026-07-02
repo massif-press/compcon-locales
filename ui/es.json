@@ -721,7 +721,7 @@
             "bannerImage": "Imagen del Banderín de la Campaña",
             "setBannerImage": "Seleccionar Imagen de Pancarta",
             "imagesMustLink": "Las imágenes de la campaña deben estar vinculadas, y no pueden provenir de datos locales de @:{'common.appName'} .",
-            "fromLicenseLevels": "Desde los Niveles de Licencia",
+            "fromLicenseLevels": "De los niveles de licencia",
             "authorContact": "Información de contacto del Autor (Opcional)",
             "addContact": "Agregar Nuevo Contacto",
             "coverImage": "Imagen de Portada de Campaña",
