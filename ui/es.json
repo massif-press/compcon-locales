@@ -2358,7 +2358,8 @@
             "skillSelectionComplete": "Selección de habilidad Completa",
             "yourAbilityTo": "Su habilidad para",
             "talentSelectionComplete": "Completa la selección de talentos",
-            "unavailable": "Indisponible"
+            "unavailable": "Indisponible",
+            "addReserve": "Agregar reserva"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
