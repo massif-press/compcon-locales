@@ -1657,7 +1657,8 @@
             "exitActiveMode": "¿Salir del Modo Activo?",
             "mechDestroyedReactorMeltdown": "Mecha Destruido — Fusión del Reactor",
             "whatIsAPlaceholder": "¿Qué es un Marcador de Posición?",
-            "youHaveRemainingActions": "¡Tiene acciones restantes!"
+            "youHaveRemainingActions": "¡Tiene acciones restantes!",
+            "burn": "Abraso"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
