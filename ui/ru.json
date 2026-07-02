@@ -1497,7 +1497,8 @@
             "cloneQUIRK": "Причуда клона",
             "rerollQuirk": "Переброс причуды",
             "decantFlashClone": "Вывести экспресс-клона",
-            "lcpConfigurations": "LCP конфигурации"
+            "lcpConfigurations": "LCP конфигурации",
+            "mechHangar": "Ангар мехов"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
