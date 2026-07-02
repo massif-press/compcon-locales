@@ -2254,7 +2254,8 @@
             "addNewClock": "Añadir Nuevo Reloj",
             "removeBond": "Quitar Lazo",
             "gainBondPower": "Obtener Poder de Lazo",
-            "setMaximumStress": "Establecer Estrés Máximo"
+            "setMaximumStress": "Establecer Estrés Máximo",
+            "ndapSR01STATUSREPORT": "NDAP/SR-01/STATUS REPORT"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
