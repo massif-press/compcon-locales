@@ -471,7 +471,8 @@
             "none": "@:{'common.none'}",
             "changelog": "@:{'common.changelog'}",
             "noDescription": "@:{'ui.widget.noDescription'}",
-            "version": "@:{'common.version'}"
+            "version": "@:{'common.version'}",
+            "dependenciesTooltip": "Зависимостями называются другие контент-паки, которые необходимы для нормальной работы данного контент-пака. Они должны быть установлены и активны, чтобы этот пак был загружен правильно."
         },
         "communityTable": {
             "currentVersion": "Текущая версия",
