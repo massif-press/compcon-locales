@@ -1565,7 +1565,8 @@
             "requirements": "Требования",
             "jumpTo": "перейти к",
             "generate": "Сгенерировать",
-            "groupName": "Название отряда"
+            "groupName": "Название отряда",
+            "startingLicenseLevel": "Начальный уровень лицензии"
         },
         "titles": {
             "selectPilotBackground": "Выбрать происхождение пилота",
@@ -1659,10 +1660,12 @@
             "tooManyRequestsPleaseTryAgain2": "Слишком много запросов. Пожалуйста, повторите попытку позднее.",
             "eng": "Инж",
             "agi": "Лов",
-            "sys": "Сис"
+            "sys": "Сис",
+            "hull": "Корпус"
         },
         "subtitles": {
-            "setPilotGroup": "Задать отряд пилота"
+            "setPilotGroup": "Задать отряд пилота",
+            "removeMechFromTheHangar": "Списать меха с Ангара"
         },
         "import": {
             "groupImportSuccessText": "{name} успешно добавлен(а).",
@@ -1683,6 +1686,9 @@
             "gritIMPROVEMENT": "Повышение значения закалки",
             "newLICENSEUNLOCK": "Получен доступ к новой лицензии",
             "coreBONUSINSTALLATION": "Установка ключевого улучшения"
+        },
+        "tooltips": {
+            "copyStatBlockToClipboard": "Скопировать статблок в буфер обмена"
         }
     },
     "ui": {
