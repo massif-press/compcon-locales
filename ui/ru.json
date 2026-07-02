@@ -1607,7 +1607,8 @@
             "exportSuccessTitle": "Экспорт успешно выполнен"
         },
         "level": {
-            "mechSkills": "Навыки пилотирования"
+            "mechSkills": "Навыки пилотирования",
+            "pilotSKILLTRIGGERIMPROVEMENT": "Повышение навыков пилота"
         }
     },
     "ui": {
