@@ -2372,7 +2372,8 @@
             "rm4bPilotSelfAssessment1": "RM-4b Pilot Self Assessment (1/3)",
             "mv2ASkillImprovementAssessment": "MV-2/a Evaluación de la mejora de la capacidad",
             "theRM4bPILOTSELFASSESSMENT2": "La auditoría RM-4b PILOT SELF ASSESSMENT (Skills) cataloga el autoreportado de un piloto individual\nfortalezas basadas en selecciones derivadas de los resultados del Examen de Salud OHM/CR-2\nAnálisis de actividad cerebral y toma de respuestas dadas al NHP del Administrador de la Unión\nrepresentante.",
-            "theFollowingFormIsComprisedOf": "El siguiente formulario está compuesto por productos no filtrados generados por uno o más UNI-TACANALYSIS\nPersonas no humanas y MAY NO sean copiadas, traducidas, reproducidas, transmitidas o codificadas\nsin el permiso expreso de Union Naval Intelligence."
+            "theFollowingFormIsComprisedOf": "El siguiente formulario está compuesto por productos no filtrados generados por uno o más UNI-TACANALYSIS\nPersonas no humanas y MAY NO sean copiadas, traducidas, reproducidas, transmitidas o codificadas\nsin el permiso expreso de Union Naval Intelligence.",
+            "theMV2APilotSelfAssessment": "La auditoría MV2/a Pilot Self Assessment cataloga los puntos fuertes autoreportados de un piloto individual\nbasado en selecciones derivadas de la telemetría de campo de batalla y registros de desechos analizados por una Unión\nrepresentante naval de NHP."
         }
     },
     "share": {
