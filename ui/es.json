@@ -2394,7 +2394,8 @@
             "aPilotWithTheShareCode": "Un piloto con código de acciones",
             "couldNotBeFound": "no se pudo encontrar.",
             "pilotRequiresReSync": "Piloto requiere re-sinc",
-            "withShareCode": "con código compartido"
+            "withShareCode": "con código compartido",
+            "mustBeReSyncedToThe": "debe volver a sincronizarse con la cuenta del autor antes de que pueda ser vista."
         }
     },
     "share": {
