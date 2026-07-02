@@ -2171,7 +2171,8 @@
             "rm405ATTACHEDOHMHEALTH": "RM-4-05 // resultados de examen de salud OHM adjunto",
             "startingLL": "LL Inicial",
             "selectTemplate": "Seleccionar plantilla {name}",
-            "templateSelected": "plantilla {name} seleccionada"
+            "templateSelected": "plantilla {name} seleccionada",
+            "glyphMustBePopulated": "glyph debe ser poblada."
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
