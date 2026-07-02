@@ -2269,7 +2269,9 @@
             "mechWEAPONMOUNT": "Montura arma mecha",
             "onATTACK": "Al atacar",
             "reserve": "Reserva",
-            "extras": "Extras"
+            "extras": "Extras",
+            "uses": "USOS",
+            "resource": "RECURSOS"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
