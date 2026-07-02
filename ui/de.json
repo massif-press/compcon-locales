@@ -119,7 +119,7 @@
         "actionCannotBeUndone": "Diese Aktion kann nicht rückgängig gemacht werden",
         "importOverwriteWarning": "Dieser Datenimport wird eine bereits existierende Kampagne mit derselben ID {title} überschreiben. Die existierende Kampagne wurde zuletzt am {date} aktualisiert.",
         "systemPoints": "Systempunkte",
-        "techAttack": "Cyberattacke",
+        "techAttack": "Cyberangriff",
         "sensorRange": "Sensorreichweite",
         "limitedBonus": "Bonus zu begrenzten Systemen",
         "pilotGear": "Pilot:innenzeug",
@@ -599,7 +599,8 @@
         "achievementItem": {
             "unlockedLabel": "Freigeschaltet",
             "createdBy": "Erstellt von",
-            "secretLabel": "Geheime Errungenschaft"
+            "secretLabel": "Geheime Errungenschaft",
+            "hiddenNote": "Diese Errungenschaft ist versteckt und wird nach Freischaltung aufgedeckt"
         },
         "optionsPage": {
             "tabSettings": "@:{'common.settings'}",
@@ -848,7 +849,12 @@
             "publishNewVersion": "Neue Version veröffentlichen",
             "latestVersion": "Neueste Version",
             "latestChanges": "Neueste Änderungen",
-            "saveLocal": "Zu lokaler Sammlung speichern"
+            "saveLocal": "Zu lokaler Sammlung speichern",
+            "releaseFor": "Veröffentlichen für",
+            "major": "Haupt",
+            "minor": "Neben",
+            "patch": "Revision",
+            "versionExists": "Version {version} existiert bereits!"
         },
         "pageContent": {
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des:der Nutzer:in",
@@ -985,7 +991,16 @@
             "source": "Quelle",
             "updateInstanceTooltip": "Diese Instanz-Eigenschaft an der Quelle aktualisieren",
             "updateAllTooltip": "Alle Instanz-Eigenschaften an der Quelle aktualisieren",
-            "noChanges": "Ohne Änderungen"
+            "noChanges": "Ohne Änderungen",
+            "mainForce": "Hauptstreitkraft",
+            "pcsCount": "({n}+ SCs)",
+            "clickToEdit": "Zum Bearbeiten klicken",
+            "atPcCount": "Bei SC-Anzahl",
+            "atPcCountHelp": "Dieser NSC wird nur als Bestandteil dieses Gefechts markiert wenn mindestens so viele Spielercharaktere wie angezeigt beteiligt sind. Wenn dieses Feld leergelassen wird, ist der NSC Bestandteil unabhängig von der Spieleranzahl.",
+            "onTurn": "In Zug",
+            "onTurnHelp": "Dieser NSC wird dem Gefecht im angegebenen Zug beitreten. Wenn dieses Feld leergelassen wird, kann die:der Spielleiter:in diesen NSC zu einem beliebigen Zeitpunkt als Verstärkung einsetzen.",
+            "addToRoster": "Zu Liste kopieren",
+            "addToRosterTooltip": "Fügt eine Kopie dieses NSCs zu Ihrer Liste hinzu und verknüpft diese Instanz mit dem neuen Listeneintrag."
         },
         "encounterIndex": {
             "addFolder": "Ordner hinzufügen",
@@ -999,7 +1014,8 @@
             "stagedEncounters": "Vorbereitete Gefechte",
             "readyForImport": "Gefecht bereit für den Import",
             "missingNpcs": "Dieses Gefecht beruft sich auf NSCs, die noch nicht importiert wurden. Es wird zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und kann importiert werden, sobald die benötigten NSCs verfügbar sind.",
-            "someMissingNpcs": "Einige Gefechte beziehen sich auf NSCs, die noch nicht importiert werden. Diese Gefechte werden zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und können importiert werden, sobald die benötigten NSCs verfügbar sind."
+            "someMissingNpcs": "Einige Gefechte beziehen sich auf NSCs, die noch nicht importiert werden. Diese Gefechte werden zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt und können importiert werden, sobald die benötigten NSCs verfügbar sind.",
+            "importCount": "({n} Gefecht) importieren | ({n} Gefechte) importieren"
         },
         "sync": {
             "syncCompleteText": "{itemType} {name} synchronisiert.",
@@ -1029,7 +1045,8 @@
         "encounterEditor": {
             "details": "Gefechts-Details",
             "noMapData": "Ohne Kartendaten",
-            "additionalNotes": "Zusätzliche Notizen"
+            "additionalNotes": "Zusätzliche Notizen",
+            "editorHeading": "Gefechtseditor"
         },
         "sitrep": {
             "presets": "Voreinstellungen",
@@ -1170,7 +1187,11 @@
         },
         "subtitles": {
             "setItemFolder": "Elementordner setzen",
-            "addSetOrDeleteA": "Eine Spielleiter-Marke hinzufügen, setzen, oder entfernen"
+            "addSetOrDeleteA": "Eine Spielleiter-Marke hinzufügen, setzen, oder entfernen",
+            "addANewEmptyFreeform": "Fügt unter dieser Seite einen neuen Abschnitt hinzu, der frei gestaltet werden kann. Ein Abschnitt ist ein Container für andere Inhaltsobjekte, und kann genutzt werden, um Ihre Kampagne nach Wunsch zu organisieren.",
+            "addANewEmptyBeat": "Fügt unter diesem Abschnitt einen neuen Takt ein. Ein Takt ist ein Abschnitt für ein wichtiges Event oder einen wichtigen Moment in der Geschichte.",
+            "addANewEmptyMission": "Fügt unter dieser Seite eine neue Mission ein. Eine Mission hat spezifische Ziele, die innerhalb einer bestimmten Zeit erfüllt werden können, und involviert für gewöhnlich Kämpfe.",
+            "addANewEmptyCombat": "Fügt unter dieser Seite einen neuen Kampf ein. Ein Kampf enthält Gefechte sowie Spielleiter-Anweisungen, erzähltechnische Details zum Kampf, und potentielle Auswirkungen."
         },
         "labelDialog": {
             "addOverwrite": "Dies wird den Wert der Marke zu allen ausgewählten Elementen hinzufügen {emphasis}.",
@@ -1195,7 +1216,12 @@
             "noSelectionsRemaining": "Keine weiteren NSC-Funktionen verfügbar",
             "ignoreLimitHint": "Zusätzliche Funktionen über das empfohlene Maß hinaus können hinzugefügt werden, indem die \"Limit ignorieren\" Option oben eingeschaltet wird",
             "noAssigned": "Keine NSC-Funktionen zugewiesen",
-            "noneFound": "Keine NSC-Features konnten für diese Auswahl gefunden werden"
+            "noneFound": "Keine NSC-Features konnten für diese Auswahl gefunden werden",
+            "resetFeatures": "Funktionen zurücksetzen",
+            "allAvailableFeatures": "Alle verfügbaren Funktionen",
+            "allAssignedFeatures": "Alle zugewiesenen Funktionen",
+            "selectedClass": "Ausgewählte Klasse",
+            "selectedTemplate": "Ausgewählte Vorlage | Ausgewählte Vorlagen"
         },
         "npcEditor": {
             "statblock": "Statblock"
