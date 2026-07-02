@@ -2301,7 +2301,8 @@
             "cr703UNITLIVERY": "CR-7-03 // UNIT LIVERY",
             "addGroupEmblem": "Agregar emblema de grupo",
             "editGroupEmblem": "Editar emblema de grupo",
-            "thisAppearsToBePilotData": "Esto parece ser datos piloto de una versión anterior de COMP/CON. COMP/CON intentará intentar\nconvertir e importar estos datos, pero puede que no sea capaz de convertir todos los artículos y no sea posible\ncapaz de proporcionar información sobre los requisitos de LCP desaparecidos."
+            "thisAppearsToBePilotData": "Esto parece ser datos piloto de una versión anterior de COMP/CON. COMP/CON intentará intentar\nconvertir e importar estos datos, pero puede que no sea capaz de convertir todos los artículos y no sea posible\ncapaz de proporcionar información sobre los requisitos de LCP desaparecidos.",
+            "thisPilotContainsContentFromThe": "Este Piloto contiene contenido de los siguientes paquetes de contenido de Lancer que no son\nactualmente instalado/activo,\no tienen versiones desajustadoras:"
         }
     },
     "share": {
