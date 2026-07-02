@@ -1498,7 +1498,11 @@
             "rerollQuirk": "Переброс причуды",
             "decantFlashClone": "Вывести экспресс-клона",
             "lcpConfigurations": "LCP конфигурации",
-            "mechHangar": "Ангар мехов"
+            "mechHangar": "Ангар мехов",
+            "addNewMech": "Добавить нового меха",
+            "setMechImage": "Задать изображение меха",
+            "killedINACTION": "Погиб в бою",
+            "setPilotPortrait": "Задать портрет пилота"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
@@ -1510,7 +1514,8 @@
             "resource": "Ресурс",
             "gain": "Получить",
             "deployable": "Размещаемое",
-            "atkBONUS": "Бонус к атаке"
+            "atkBONUS": "Бонус к атаке",
+            "pilotNotes": "Заметки пилота"
         },
         "roster": {
             "history": "История группы",
