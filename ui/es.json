@@ -2365,6 +2365,9 @@
         },
         "misc": {
             "skipSTEP": "Saltar paso"
+        },
+        "shared": {
+            "theRM4bPILOTSELFASSESSMENT": "El RM-4b PILOT SELF ASSESSMENT (Mech Skills) se transmitirá al personal de impresión para finalizar\nla configuración de su GMS-SP1 EVEREST emitido."
         }
     },
     "share": {
