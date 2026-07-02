@@ -2359,7 +2359,8 @@
             "yourAbilityTo": "Su habilidad para",
             "talentSelectionComplete": "Completa la selección de talentos",
             "unavailable": "Indisponible",
-            "addReserve": "Agregar reserva"
+            "addReserve": "Agregar reserva",
+            "download": "Descarga"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
