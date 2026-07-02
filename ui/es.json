@@ -2271,7 +2271,8 @@
             "reserve": "Reserva",
             "extras": "Extras",
             "uses": "USOS",
-            "resource": "RECURSOS"
+            "resource": "RECURSOS",
+            "capacityParen": "({n} CAPACIDAD)"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
