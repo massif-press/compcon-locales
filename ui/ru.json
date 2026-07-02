@@ -1490,7 +1490,10 @@
             "shareThisPilotSDataWith": "Поделиться данными пилота с другими пользователями публичным кодом",
             "convertThisPilotToAnEditable": "Конвертировать пилота в редактируемый локальный экземпляр данных",
             "duplicateOrFlashCloneThisCharacter": "Дублировать или флэш-клонировать этого персонажа",
-            "setLCPConfiguration": "Задать LCP конфигурацию"
+            "setLCPConfiguration": "Задать LCP конфигурацию",
+            "flashClonePilot": "Экспресс-клонирование пилота",
+            "emulationOfASentientIndividualS": "Эмуляция субъективной личности в в искусственном или взращённом субстрате.",
+            "intentionalDecorporealizationOfASentientBeing": "Преднамеренная декорпорализация разумного существа."
         },
         "print": {
             "pilotHP": "ОЗ пилота",
