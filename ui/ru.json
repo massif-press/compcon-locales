@@ -433,7 +433,8 @@
             "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
             "byAuthor": "@:{'common.byAuthor'}",
             "addLcp": "Добавить LCP",
-            "deleteConfig": "Удалить эту конфигурацию"
+            "deleteConfig": "Удалить эту конфигурацию",
+            "removeFromConfig": "Удалить этот пак из конфигурации"
         },
         "migrationRepair": {
             "colCategory": "Категория",
