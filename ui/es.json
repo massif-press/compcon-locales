@@ -2376,7 +2376,8 @@
             "theMV2APilotSelfAssessment": "La auditoría MV2/a Pilot Self Assessment cataloga los puntos fuertes autoreportados de un piloto individual\nbasado en selecciones derivadas de la telemetría de campo de batalla y registros de desechos analizados por una Unión\nrepresentante naval de NHP.",
             "identSERVICEPRIMARYHasGeneratedA": "IDENT.SERVICE.PRIMARY ha generado una lista de los desencadenantes de habilidad sugeridos basados en su\nrespuesta a RM-4-03 (PRIOR OCCUPATION OR POSITION).",
             "suggestedSkillsAdded": "Habilidades sugeridas.",
-            "addSuggestedSkills": "Añadir Habilidades sugeridas"
+            "addSuggestedSkills": "Añadir Habilidades sugeridas",
+            "improveTalents": "Mejorar los talentos"
         }
     },
     "share": {
