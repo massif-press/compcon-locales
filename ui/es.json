@@ -2289,7 +2289,8 @@
         },
         "roster": {
             "history": "Historial",
-            "finishEditing": "Terminar edición"
+            "finishEditing": "Terminar edición",
+            "deleteGroup": "Borrar grupo"
         }
     },
     "share": {
