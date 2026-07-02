@@ -2356,7 +2356,8 @@
             "addDowntimeProject": "Añadir Proyecto Downtime",
             "equipment": "Equipo",
             "skillSelectionComplete": "Selección de habilidad Completa",
-            "yourAbilityTo": "Su habilidad para"
+            "yourAbilityTo": "Su habilidad para",
+            "talentSelectionComplete": "Completa la selección de talentos"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
