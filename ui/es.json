@@ -2311,7 +2311,8 @@
         },
         "selectors": {
             "exotic": "Exótico",
-            "licenseSelectionComplete": "Selección de licencias Completa"
+            "licenseSelectionComplete": "Selección de licencias Completa",
+            "mechSkillsSelected": "Habilidades Mech seleccionadas"
         }
     },
     "share": {
