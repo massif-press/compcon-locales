@@ -1601,12 +1601,15 @@
             "startWith": "Начать с",
             "efficiency": "Эффективность",
             "collapse": "свернуть",
-            "mechSkillsSelected": "Навыков пилотирования выбрано"
+            "mechSkillsSelected": "Навыков пилотирования выбрано",
+            "unavailable": "Недоступно",
+            "download": "Скачать"
         },
         "link": {
             "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позднее",
             "pilotBiography": "Биография пилота",
-            "pilotAppearance": "Внешность пилота"
+            "pilotAppearance": "Внешность пилота",
+            "tooManyRequestsPleaseTryAgain2": "Слишком много запросов. Пожалуйста, повторите попытку позднее"
         },
         "subtitles": {
             "setPilotGroup": "Задать отряд пилота"
