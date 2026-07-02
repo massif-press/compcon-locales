@@ -1495,7 +1495,8 @@
             "emulationOfASentientIndividualS": "Эмуляция субъективной личности в в искусственном или взращённом субстрате.",
             "intentionalDecorporealizationOfASentientBeing": "Преднамеренная декорпорализация разумного существа.",
             "cloneQUIRK": "Причуда клона",
-            "rerollQuirk": "Переброс причуды"
+            "rerollQuirk": "Переброс причуды",
+            "decantFlashClone": "Вывести экспресс-клона"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
