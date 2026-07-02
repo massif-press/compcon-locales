@@ -1891,6 +1891,7 @@
         },
         "nav": {
             "systemReference": "Справочник по системе"
-        }
+        },
+        "returnToCompendium": "Вернуться в каталог"
     }
 }
