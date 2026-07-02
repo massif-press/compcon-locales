@@ -473,7 +473,8 @@
             "noDescription": "@:{'ui.widget.noDescription'}",
             "version": "@:{'common.version'}",
             "dependenciesTooltip": "Зависимостями называются другие контент-паки, которые необходимы для нормальной работы данного контент-пака. Они должны быть установлены и активны, чтобы этот пак был загружен правильно.",
-            "authorsWebsite": "Сайт Автора"
+            "authorsWebsite": "Сайт Автора",
+            "dependencyInstalled": "Зависимости установлены"
         },
         "communityTable": {
             "currentVersion": "Текущая версия",
