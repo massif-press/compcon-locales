@@ -1610,7 +1610,8 @@
             "mechSkills": "Навыки пилотирования",
             "pilotSKILLTRIGGERIMPROVEMENT": "Повышение навыков пилота",
             "pilotTALENTUPGRADE": "Улучшение таланта пилота",
-            "gritIMPROVEMENT": "Усиление закалки"
+            "gritIMPROVEMENT": "Усиление закалки",
+            "newLICENSEUNLOCK": "Доступ к новой лицензии"
         }
     },
     "ui": {
