@@ -2391,7 +2391,10 @@
             "tooManyRequestsPleaseTryAgain": "Demasiadas solicitudes. ¡Por favor inténtelo más tarde!",
             "tooManyRequestsPleaseTryAgain2": "Demasiados pedidos. Por favor, inténtelo pronto.",
             "pilotNotFound": "Piloto no encontrado",
-            "aPilotWithTheShareCode": "Un piloto con código de acciones"
+            "aPilotWithTheShareCode": "Un piloto con código de acciones",
+            "couldNotBeFound": "no se pudo encontrar.",
+            "pilotRequiresReSync": "Piloto requiere re-sinc",
+            "withShareCode": "con código compartido"
         }
     },
     "share": {
