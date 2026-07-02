@@ -2255,7 +2255,8 @@
             "removeBond": "Quitar Lazo",
             "gainBondPower": "Obtener Poder de Lazo",
             "setMaximumStress": "Establecer Estrés Máximo",
-            "ndapSR01STATUSREPORT": "NDAP/SR-01/STATUS REPORT"
+            "ndapSR01STATUSREPORT": "NDAP/SR-01/STATUS REPORT",
+            "addEquipment": "Agregar equipo"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
