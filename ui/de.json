@@ -854,7 +854,8 @@
             "major": "Haupt",
             "minor": "Neben",
             "patch": "Revision",
-            "versionExists": "Version {version} existiert bereits!"
+            "versionExists": "Version {version} existiert bereits!",
+            "returnToIndex": "Zurück zum Index"
         },
         "pageContent": {
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des:der Nutzer:in",
