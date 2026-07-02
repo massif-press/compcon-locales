@@ -431,7 +431,9 @@
             "createConfig": "Создать новую конфигурацию",
             "noConfigs": "Конфигурации не найдены.",
             "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
-            "byAuthor": "@:{'common.byAuthor'}"
+            "byAuthor": "@:{'common.byAuthor'}",
+            "addLcp": "Добавить LCP",
+            "deleteConfig": "Удалить эту конфигурацию"
         },
         "migrationRepair": {
             "colCategory": "Категория",
