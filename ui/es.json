@@ -2355,7 +2355,8 @@
             "coreBonusSelectionComplete": "Selección de Bonos Base Completada",
             "addDowntimeProject": "Añadir Proyecto Downtime",
             "equipment": "Equipo",
-            "skillSelectionComplete": "Selección de habilidad Completa"
+            "skillSelectionComplete": "Selección de habilidad Completa",
+            "yourAbilityTo": "Su habilidad para"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
