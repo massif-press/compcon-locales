@@ -767,9 +767,9 @@
         },
         "pcSheet": {
             "activeMechChangedTitle": "Aktiver Mech wurde geändert",
-            "activeMechChangedText": "Aktiver Mech wurde auf {mechName} geändert. Zustand des Charakterblattes wurde zurückgesetzt.",
-            "saveSuccessfulText": "Charakterblatt gespeichert: {callsign} in Runde {round}",
-            "saveFailedText": "Charakterblatt konnte nicht gespeichert werden: {callsign}"
+            "activeMechChangedText": "Aktiver Mech wurde auf {mechName} geändert. Zustand des Charakterbogens wurde zurückgesetzt.",
+            "saveSuccessfulText": "Charakterbogen gespeichert: {callsign} in Runde {round}",
+            "saveFailedText": "Charakterbogen konnte nicht gespeichert werden: {callsign}"
         },
         "stats": {
             "hitPoints": "Trefferpunkte"
@@ -795,12 +795,12 @@
             "archivedTables": "Archivierte Tische"
         },
         "pcOptions": {
-            "exportState": "Charakterblatt-Zustand exportieren",
-            "importState": "Charakterblatt-Zustand importieren",
-            "importFileLabel": "Charakterblattinstanz-Importdatei (.json)",
+            "exportState": "Charakterbogen-Zustand exportieren",
+            "importState": "Charakterbogen-Zustand importieren",
+            "importFileLabel": "Charakterbogeninstanz-Importdatei (.json)",
             "stagedImport": "Vorbereiteter Import",
             "atRound": "in Runde",
-            "warningReplace": "Achtung: Der importierte Charakterblatt-Zustand wird den aktuellen Charakterblatt-Zustand überschreiben.",
+            "warningReplace": "Achtung: Der importierte Charakterbogen-Zustand wird den aktuellen Charakterbogen-Zustand überschreiben.",
             "changeActiveMech": "Aktiven Mech ändern",
             "applySave": "Anwenden & Speichern"
         },
@@ -929,6 +929,15 @@
         },
         "eidolon": {
             "generateN": "{n} erzeugen"
+        },
+        "sheet": {
+            "newCharacterSheet": "Neuer Charakterbogen"
+        },
+        "fields": {
+            "selectCharacterSheetExportFile": "Charakterbogen-Exportdatei auswählen"
+        },
+        "titles": {
+            "characterSheets": "Charakterbögen"
         }
     },
     "pm": {
@@ -944,7 +953,10 @@
             "selectLicenseRanks": "{word} ({count}) Lizenzrang auswählen. | {word} ({count}) Lizenzränge auswählen."
         },
         "sheet": {
-            "manageWhichContentPacksAreAccessible": "Verwalten, welche Inhaltspakete für diese:n Pilot:in zur Verfügung stehen"
+            "manageWhichContentPacksAreAccessible": "Verwalten, welche Inhaltspakete für diese:n Pilot:in zur Verfügung stehen",
+            "printTabletopReadyCharacterAndMech": "Pen-&-Paper-fähige Charakter- und Mechbögen ausdrucken",
+            "getAPlaintextRepresentationOfThis": "Eine Klartextversion dieses Charakters erhalten",
+            "duplicateOrFlashCloneThisCharacter": "Diesen Charakter duplizieren oder blitzklonen"
         },
         "roster": {
             "includesDATAFROMTHEFOLLOWINGCONTENT": "Beinhaltet Daten aus den folgenden Inhaltspaketen",
