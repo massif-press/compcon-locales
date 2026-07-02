@@ -2367,7 +2367,8 @@
             "skipSTEP": "Saltar paso"
         },
         "shared": {
-            "theRM4bPILOTSELFASSESSMENT": "El RM-4b PILOT SELF ASSESSMENT (Mech Skills) se transmitirá al personal de impresión para finalizar\nla configuración de su GMS-SP1 EVEREST emitido."
+            "theRM4bPILOTSELFASSESSMENT": "El RM-4b PILOT SELF ASSESSMENT (Mech Skills) se transmitirá al personal de impresión para finalizar\nla configuración de su GMS-SP1 EVEREST emitido.",
+            "bySubmittingThisFormYouAttest": "Al presentar este formulario usted atestigua que sus respuestas son veraces y precisas a lo mejor\nde su conocimiento. Proporcionar información falsa o incompleta es punible\nbajo DoJ/HR AR 303-J."
         }
     },
     "share": {
