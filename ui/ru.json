@@ -1892,6 +1892,7 @@
         "nav": {
             "systemReference": "Справочник по системе"
         },
-        "returnToCompendium": "Вернуться в каталог"
+        "returnToCompendium": "Вернуться в каталог",
+        "selectItem": "Выбрать {name}"
     }
 }
