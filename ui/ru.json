@@ -1489,7 +1489,8 @@
             "sharePilot": "Поделиться пилотом",
             "shareThisPilotSDataWith": "Поделиться данными пилота с другими пользователями публичным кодом",
             "convertThisPilotToAnEditable": "Конвертировать пилота в редактируемый локальный экземпляр данных",
-            "duplicateOrFlashCloneThisCharacter": "Дублировать или флэш-клонировать этого персонажа"
+            "duplicateOrFlashCloneThisCharacter": "Дублировать или флэш-клонировать этого персонажа",
+            "setLCPConfiguration": "Задать LCP конфигурацию"
         },
         "print": {
             "pilotHP": "ОЗ пилота",
