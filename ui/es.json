@@ -2344,7 +2344,9 @@
             "cr702aATTACHEDNDAPCOMP": "CR-7-02a // ANÁLISIS DE RESULTADOS COMP/DISP NDAP ADJUNTO",
             "setGroup": "Elegir Grupo",
             "includesDATAFROMTHEFOLLOWINGCONTENT": "Incluye datos de los siguientes paquetes de contenido",
-            "doneReordering": "Terminar Reordenamiento"
+            "doneReordering": "Terminar Reordenamiento",
+            "lastModified": "Última Modificación",
+            "addGroup": "Añadir grupo"
         },
         "selectors": {
             "exotic": "Exótico",
@@ -2352,7 +2354,8 @@
             "mechSkillsSelected": "Habilidades Mecha seleccionadas",
             "resetMechSkills": "Reiniciar las Habilidades de Mecha",
             "coreBonusSelectionComplete": "Selección de Bonos Base Completada",
-            "addDowntimeProject": "Añadir Proyecto Downtime"
+            "addDowntimeProject": "Añadir Proyecto Downtime",
+            "equipment": "Equipo"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
