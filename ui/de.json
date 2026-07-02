@@ -641,7 +641,7 @@
             "pilotSkills": "Pilotenfertigkeiten ({n})"
         },
         "mechActions": {
-            "mechBootedUpText": "{name} hat sich HOCHGEFAHREN.",
+            "mechBootedUpText": "{name} wurde HOCHGEFAHREN.",
             "preparedTitle": "Mech vorbereitet",
             "ejectFailedTitle": "Auswerfen fehlgeschlagen",
             "ejectFailedText": "{name} ist nicht aufgesessen.",
@@ -651,10 +651,26 @@
             "dismountFailedText": "{name} ist nicht aufgesessen.",
             "pilotDismountedTitle": "Pilot:in abgesetzt",
             "pilotDismountedText": "{name} hat sich vom Mech abgesetzt.",
-            "mechHiddenTitle": "Mech versteckt"
+            "mechHiddenTitle": "Mech versteckt",
+            "mechDisengagedTitle": "Mech losgelöst",
+            "bootUpFailedTitle": "Hochfahren fehlgeschlagen",
+            "bootUpFailedText": "{name} ist nicht ABGESCHALTET.",
+            "mechBootedUpTitle": "Mech ist hochgefahren",
+            "selfDestructFailedTitle": "Selbstzerstörung fehlgeschlagen",
+            "selfDestructFailedText": "{name} läuft bereits eine SELBSTZERSTÖRUNG durch.",
+            "selfDestructInitiatedTitle": "Selbstzerstörung des Mechs begonnen",
+            "selfDestructInitiatedText": "{name} ZERSTÖRT sich in Kürze SELBST.",
+            "mechBracedTitle": "Mech ist gewappnet",
+            "mechBracedText": "{name} ist nun GEWAPPNET.",
+            "overwatchTitle": "Mech Feuerschutz",
+            "overwatchText": "{name} gibt jetzt FEUERSCHUTZ."
         },
         "damageMenu": {
-            "irreducible": "Unverringerbar"
+            "irreducible": "Nicht reduzierbar",
+            "takeDamage": "Schaden nehmen",
+            "incomingValue": "Eingehender Schadenswert",
+            "armorPiercing": "Panzerbrechend",
+            "armorN": "{n} Panzerung"
         },
         "common": {
             "currentlySelected": "Aktuell ausgewählt",
@@ -664,7 +680,16 @@
             "prepared": "Vorbereitet",
             "preparedText": "{name} wurde als VORBEREITET markiert.",
             "hiddenText": "{name} ist jetzt VERSTECKT.",
-            "disengageFailedText": "{name} ist nicht UMFOCHTEN."
+            "disengageFailedText": "{name} ist nicht UMFOCHTEN.",
+            "exportAsJson": "Als JSON exportieren",
+            "disengageFailed": "Loslösen fehlgeschlagen",
+            "disengagedText": "{name} hat sich LOSGELÖST.",
+            "saveSuccessful": "Erfolgreich gespeichert",
+            "saveFailed": "Speichern fehlgeschlagen",
+            "copiedToClipboard": "In Zwischenablage kopiert",
+            "nominal": "Nominell",
+            "halfDamage": "Halber Schaden",
+            "condition_status": "Zustand"
         },
         "roster": {
             "addToEncounter": "Zum Gefecht hinzufügen",
@@ -682,7 +707,8 @@
             "removedTitle": "{callsign} wurde vom Gefecht entfernt",
             "removalSuccess": "Erfolgreich entfernt",
             "addedTitle": "{callsign} wurde zum Gefecht hinzugefügt",
-            "ll": "LL {n}"
+            "ll": "LL {n}",
+            "addFromRoster": "aus Liste hinzufügen"
         },
         "labels": {
             "round": "Runde",
@@ -724,12 +750,186 @@
             "additionalNpcs": "Zusätzliche NSCs können nach der Erstellung im Gefechtsläufer hinzugefügt werden."
         },
         "encounter": {
-            "failedToCopyTitle": "Kopieren fehlgeschlagen"
+            "failedToCopyTitle": "Kopieren fehlgeschlagen",
+            "saveSuccessfulText": "Gespeichertes Gefecht: {name} in Runde {round}",
+            "saveFailedText": "Speichern des Gefechts fehlgeschlagen: {name}"
         },
         "addCombatant": {
             "doodadAddedTitle": "Dingsbums hinzugefügt",
             "eidolonAddedTitle": "Eidolon hinzugefügt",
             "addedText": "{name} wurde zum Gefecht hinzugefügt."
+        },
+        "npcActions": {
+            "npcPreparedTitle": "NSC vorbereitet",
+            "npcStabilizedTitle": "NSC stabilisiert",
+            "npcStabilizedText": "{name} hat sämtliche HITZE abgelassen, ist nicht mehr VERWUNDBAR, und hat alle Waffen nachgeladen.",
+            "npcHiddenTitle": "NSC versteckt",
+            "npcDisengagedTitle": "NSC losgelöst"
+        },
+        "pcSheet": {
+            "activeMechChangedTitle": "Aktiver Mech wurde geändert",
+            "activeMechChangedText": "Aktiver Mech wurde auf {mechName} geändert. Zustand des Charakterblattes wurde zurückgesetzt.",
+            "saveSuccessfulText": "Charakterblatt gespeichert: {callsign} in Runde {round}",
+            "saveFailedText": "Charakterblatt konnte nicht gespeichert werden: {callsign}"
+        },
+        "stats": {
+            "hitPoints": "Trefferpunkte"
+        },
+        "pcEndRound": {
+            "braceCooldown": "Wappnungs-Abklingzeit"
+        },
+        "joinTable": {
+            "sortOnline": "Nach Online-Status sortieren",
+            "sortGm": "Nach Spielleiter:in sortieren",
+            "sortLastOnline": "Nach \"Zuletzt online\" sortieren",
+            "sortNextSession": "Nach \"Nächste Sitzung\" sortieren",
+            "online": "Online",
+            "gm": "Spielleiter:in",
+            "players": "Spieler:innen",
+            "lastOnline": "Zuletzt online",
+            "cdt": "CDT",
+            "nextSession": "Nächste Sitzung",
+            "at8pm": "um 20:00 CDT",
+            "currentlyRunning": "Findet aktuell statt",
+            "connect": "Verbinden",
+            "gmOffline": "Spielleiter:in offline",
+            "archivedTables": "Archivierte Tische"
+        },
+        "pcOptions": {
+            "exportState": "Charakterblatt-Zustand exportieren",
+            "importState": "Charakterblatt-Zustand importieren",
+            "importFileLabel": "Charakterblattinstanz-Importdatei (.json)",
+            "stagedImport": "Vorbereiteter Import",
+            "atRound": "in Runde",
+            "warningReplace": "Achtung: Der importierte Charakterblatt-Zustand wird den aktuellen Charakterblatt-Zustand überschreiben.",
+            "changeActiveMech": "Aktiven Mech ändern",
+            "applySave": "Anwenden & Speichern"
+        },
+        "pcNotes": {
+            "playerNotes": "Spieler:innennotizen",
+            "sessionNotes": "Sitzungsnotizen"
+        },
+        "pcDeploy": {
+            "deployedEquipment": "Eingesetzte Ausrüstung",
+            "noActive": "Keine aktive Ausrüstung.",
+            "noSelected": "Kein Equipment ausgewählt."
+        },
+        "pilotRunner": {
+            "loading": "Pilot:innenblatt wird geladen…"
+        },
+        "gmOptions": {
+            "exportState": "Gefechtszustand exportieren",
+            "importState": "Gefechtszustand importieren",
+            "importFileLabel": "Gefechtsinstanz-Importdatei (.json)",
+            "warningReplace": "Achtung: Der importierte Gefechtszustand wird den aktuellen Gefechtszustand ersetzen.",
+            "setRound": "Runde setzen",
+            "overrides": "Überschreibt",
+            "current": "Aktuell",
+            "max": "Maximum",
+            "removeFromEncounter": "{name} aus Gefecht entfernen",
+            "editReinforcements": "Verstärkungen bearbeiten"
+        },
+        "runnerItem": {
+            "resistanceLine": "{condition} gegen {type}-Schaden",
+            "reactorDestroyed": "Reaktor zerstört",
+            "bracedDesc": "Sie haben WIDERSTAND gegen sämtlichen Schaden, Hitze, und Brand des Angriffs, der diese Wappnung ausgelöst hat. Außerdem müssen alle anderen Angriffe gegen Sie bis zu Beginn Ihres nächsten Zuges mit +1 Schwierigkeit geworfen werden.",
+            "coverLabel": "{cover} Deckung",
+            "activationsRemaining": "{n} Aktivierungen in dieser Runde verbleibend",
+            "aiControl": "Mech unter KI-Kontrolle",
+            "selfDestructInitiated": "Selbstzerstörung eingeleitet"
+        },
+        "addRoster": {
+            "addPc": "SC hinzufügen",
+            "addNpcFull": "Nichtspielercharakter hinzufügen",
+            "addPcFull": "Spielercharakter hinzufügen",
+            "licenseLevelN": "Lizenzlevel {n}"
+        },
+        "addOther": {
+            "addOther": "Anderes hinzufügen",
+            "doodad": "Dingsbums"
+        },
+        "addStub": {
+            "addPlaceholder": "Platzhalter hinzufügen",
+            "description": "Platzhalter sind ad-hoc-Wertecontainer, mit denen Sie Entitäten verfolgen können, die nicht in Ihrer @:{'common.appName'}-Liste aufgeführt sind oder nicht in @:{'common.appName'} dargestellt werden können. Sie können für SCs, NSCs, komplexe Gefechtselemente, Witterungsbedingungen, etc. verwendet werden. {emphasis}",
+            "noPersist": "Platzhalter sind außerhalb des Gefechts, in dem Sie erstellt wurden, nicht beständig."
+        },
+        "gmEndRound": {
+            "unusedActions": "unbenutzte Aktionen",
+            "endsOnTargetTurn": "{when} im Zug von {target}",
+            "braceExit": "beendet {braced} und nimmt einen {cooldown}-Zustand an.",
+            "reinforcementsReady": "Verstärkungen sind nächste Runde bereit",
+            "willBeReady": "wird einsatzbereit sein."
+        },
+        "panelBase": {
+            "itemDestroyed": "{type} zerstört",
+            "markActivation": "Eine Aktivierung als vollendet markieren?",
+            "reduceActivations": "Dies wird die übrigen Aktivierungen um 1 reduzieren und alle Aktionen zurücksetzen.",
+            "endTurn": "Dies wird den Zug von {name} beenden.",
+            "cover": "Deckung",
+            "noCover": "Keine Deckung",
+            "soft": "Weiche",
+            "softCover": "Weiche Deckung",
+            "hard": "Harte",
+            "hardCover": "Harte Deckung",
+            "resistances": "Widerstände",
+            "statusesConditions": "Stati/Zustände",
+            "counters": "Zähler"
+        },
+        "activeEffect": {
+            "hiddenEffects": "Versteckte Effekte"
+        },
+        "actions": {
+            "allActions": "Alle Aktionen",
+            "selectIcon": "Symbol auswählen",
+            "mounted": "Aufgesessen",
+            "braced": "Gewappnet",
+            "overwatch": "Feuerschutz",
+            "aiControl": "KI-Kontrolle",
+            "activeEffect": "Aktiver Effekt",
+            "passiveBonus": "Passiver Bonus",
+            "equipmentDeployableInstance": "Einsetzbare Ausrüstung (Instanz)"
+        },
+        "combatAction": {
+            "alreadyUsed": "Diese Aktion wurde in diesem Zug bereits einmal verwendet.",
+            "insufficient": "Nicht genügend",
+            "actionsRemaining": "Aktionen in diesem Zug übrig.",
+            "activationAction": "{n} Aktion"
+        },
+        "deploy": {
+            "deployNamed": "{name} einsetzen",
+            "generateInstance": "Dies wird als eine {action} eine neue Instanz von {name} für {actor} einsetzen"
+        },
+        "equipCmd": {
+            "reload": "Nachladen",
+            "markUsedHint": "Klicken, um als {used} zu markieren. Waffen mit der NACHLADEN-Marke müssen nachgeladen werden, bevor sie erneut genutzt werden können",
+            "reloadHint": "Klicken, um diese Waffe {reload}.",
+            "clickUnused": "Klicken, um als \"Unbenutzt\" zu markieren",
+            "clickUsed": "Klicken um als \"Benutzt\" zu markieren"
+        },
+        "mountBonus": {
+            "warning": "Lafetten-Bonuseffekte auf Waffenangriffen werden {not} automatisch von @:{'common.appName'} angewendet. Bitte stellen Sie sicher, dass Sie alle relevanten Effekte manuell während des Spiels anwenden."
+        },
+        "overcharge": {
+            "cost": "ÜBERLADUNGS-Kosten",
+            "willIncur": "Überladung wird"
+        },
+        "unitLoadout": {
+            "hiddenFeatures": "Versteckte Funktionen",
+            "rollRecharge": "Wiederaufladung würfeln",
+            "rechargeResult": "Wiederaufladungsergebnis (w6)",
+            "rechargesFeatures": "Lädt die folgenden Funktionen wieder auf",
+            "rechargesOn": "(Lädt auf {n}+ wieder auf)",
+            "clickToRoll": "Zum Würfeln klicken. NSC-Funktionen laden sich auf Würfen wieder auf, deren Ergebnis größer oder gleich ihrem Aufladungswert sind.",
+            "reroll": "neu würfeln"
+        },
+        "deployPanel": {
+            "redeployment": "neu einsetzen",
+            "redeploy": "Neu einsetzen",
+            "ownedBy": "Gehört",
+            "removeType": "{type} entfernen"
+        },
+        "eidolon": {
+            "generateN": "{n} erzeugen"
         }
     },
     "pm": {
@@ -1192,7 +1392,8 @@
             "addANewEmptyFreeform": "Fügt unter dieser Seite einen neuen Abschnitt hinzu, der frei gestaltet werden kann. Ein Abschnitt ist ein Container für andere Inhaltsobjekte, und kann genutzt werden, um Ihre Kampagne nach Wunsch zu organisieren.",
             "addANewEmptyBeat": "Fügt unter diesem Abschnitt einen neuen Takt ein. Ein Takt ist ein Abschnitt für ein wichtiges Event oder einen wichtigen Moment in der Geschichte.",
             "addANewEmptyMission": "Fügt unter dieser Seite eine neue Mission ein. Eine Mission hat spezifische Ziele, die innerhalb einer bestimmten Zeit erfüllt werden können, und involviert für gewöhnlich Kämpfe.",
-            "addANewEmptyCombat": "Fügt unter dieser Seite einen neuen Kampf ein. Ein Kampf enthält Gefechte sowie Spielleiter-Anweisungen, erzähltechnische Details zum Kampf, und potentielle Auswirkungen."
+            "addANewEmptyCombat": "Fügt unter dieser Seite einen neuen Kampf ein. Ein Kampf enthält Gefechte sowie Spielleiter-Anweisungen, erzähltechnische Details zum Kampf, und potentielle Auswirkungen.",
+            "addANewEmptyDowntime": "Fügt unter dieser Seite eine neue Freizeit hinzu. Freizeit ist der Erzählraum zwischen Missionen, wo Schlag-auf-Schlag Action weniger ins Gewicht fällt und ein größerer Fokus auf das Rollenspiel gerichtet wird."
         },
         "labelDialog": {
             "addOverwrite": "Dies wird den Wert der Marke zu allen ausgewählten Elementen hinzufügen {emphasis}.",
@@ -1226,6 +1427,14 @@
         },
         "npcEditor": {
             "statblock": "Statblock"
+        },
+        "actions": {
+            "noncharacterObjectsSuchAsTerrain": "Nicht-Charakter-Objekte (wie z.B. Geländeteile), die in Gefechten mitverfolgt werden können."
+        },
+        "tooltips": {
+            "changeTierAndAdjustEdited": "Den Rang ändern und angepasste Werte um denselben Betrag ändern, wie sie auch normalerweise geändert würden.",
+            "changeTierAndKeepEdited": "Den Rang ändern und alle angepassten Werte beibehalten, auch wenn sie dadurch unter die Standardbeträge des neuen Ranges fallen würden.",
+            "changeTierAndDiscardAll": "Den Rang ändern und alle Wertänderungen verwerfen."
         }
     },
     "compendium": {
