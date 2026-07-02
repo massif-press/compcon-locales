@@ -1595,7 +1595,7 @@
             "addGroup": "Добавить отряд",
             "createNewPilot": "Создать нового пилота",
             "addANewPilotToName": "Внести нового пилота в {name}",
-            "transferPilots": "Перенести пилотов",
+            "transferPilots": "Перевод пилотов",
             "allPilotsAssignedToThisGroup": "Все пилоты в составе указанного отряда будут удалены навсегда.",
             "allPilotsAssignedToThisGroup2": "Все пилоты в составе этого отряда будует переведены в секцию \"Нет отряда\"",
             "addGroupHistory": "Добавить историю отряда",
@@ -1749,7 +1749,8 @@
             "equipmentDeployables": "Виды размещаемого снаряжения",
             "weaponAttacks": "Это оружие позволяет совершать {count} атак одновременно. Атаки могут быть совершены против одной и той же цели, либо разных.",
             "suggestedSkills": "Рекомендуемые навыки",
-            "modifies": "Влияет на"
+            "modifies": "Влияет на",
+            "modification": "Время изменения"
         },
         "tooltips": {
             "resetCounter": "Сброс счётчика",
@@ -1822,7 +1823,10 @@
             "clockEditor": "редактор счётчиков",
             "activateFreeAction": "Активация (свободное действие)",
             "successfulHit": "Поадание",
-            "printOptions": "Опции для печати"
+            "printOptions": "Опции для печати",
+            "hints": "Подсказки",
+            "rules": "Правила",
+            "tactics": "Тактика"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -1999,7 +2003,8 @@
         },
         "common": {
             "error": "Ошибка",
-            "copied": "Скопировано"
+            "copied": "Скопировано",
+            "success": "Успех"
         },
         "transfer": {
             "downloadCompleteTitle": "Скачивание завершено",
