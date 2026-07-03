@@ -2040,7 +2040,8 @@
         },
         "initiative": {
             "reinforcementsN": "reforços ({n})",
-            "destroyedN": "Destruído ({n})"
+            "destroyedN": "Destruído ({n})",
+            "statusGroupN": "{status} ({n})"
         },
         "runnerItem": {
             "deploysOnRound": "Implementa na Rodada {n}",
