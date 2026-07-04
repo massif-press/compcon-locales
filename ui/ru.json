@@ -1007,7 +1007,9 @@
             "overwatchText": "{name} использует ПЕРЕХВАТ."
         },
         "pcSheet": {
-            "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}"
+            "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}",
+            "activeMechChangedTitle": "Активный мех изменён",
+            "activeMechChangedText": "Активный мех изменён на {mechName}. Состояние листа персонажа было сброшено."
         },
         "stats": {
             "hitPoints": "Пункты здоровья"
@@ -1030,7 +1032,10 @@
             "mechStats": "Характеристики меха"
         },
         "npcActions": {
-            "npcDisengagedTitle": "Персонаж ведущего отошёл"
+            "npcDisengagedTitle": "Персонаж ведущего отошёл",
+            "npcPreparedTitle": "Персонаж ведущего подготовился",
+            "npcStabilizedTitle": "Персонаж ведущего стабилизировался",
+            "npcHiddenTitle": "Персонаж ведущего скрылся"
         },
         "sheetItem": {
             "na": "Отсутствует",
