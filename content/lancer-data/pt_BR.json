@@ -2822,7 +2822,7 @@
     "tg_npc_tech.description": "Esta característica de NPC é categorizada como uma AÇÃO TECH",
     "tg_npc_tech.name": "Ação Tech de NPC",
     "tg_npc_trait.description": "Esta característica de NPC é categorizada como uma CARACTERÍSTICA",
-    "tg_npc_trait.name": "Característica de NPC",
+    "tg_npc_trait.name": "Característica de PNJ",
     "tg_npc_weapon.description": "Esta característica de NPC é categorizada como uma ARMA",
     "tg_npc_weapon.name": "Arma de NPC",
     "tg_ordnance.description": "Esta arma só pode ser disparada antes que o usuário se mova ou realize qualquer outra ação em seu turno, exceto Protocolos. O usuário ainda pode agir e se mover normalmente após atacar. Adicionalmente, por causa de seu tamanho, esta arma não pode ser usada contra alvos em engajamento com o mecha do usuário, e não pode ser usada para Retaliar.",
