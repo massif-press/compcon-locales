@@ -1644,7 +1644,8 @@
             "generate": "Сгенерировать",
             "groupName": "Название отряда",
             "startingLicenseLevel": "Начальный уровень лицензии",
-            "maximumStress": "Максимальное значение стресса"
+            "maximumStress": "Максимальное значение стресса",
+            "pilotStress": "стресс пилота"
         },
         "titles": {
             "selectPilotBackground": "Выбрать происхождение пилота",
