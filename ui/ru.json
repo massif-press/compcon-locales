@@ -647,7 +647,7 @@
             "campaignCollection": "Подборка кампаний",
             "saveLocal": "Добавить в локальную подборку",
             "minor": "Минорная версия",
-            "deletePageConfirm": "Вы уверены что хотите удалить эту таблицу? Это действие нельзя отменить."
+            "deletePageConfirm": "Вы уверены что хотите удалить {type} \"{title}\"? Это действие нельзя отменить."
         },
         "labels": {
             "labels": "Метки",
@@ -1639,7 +1639,7 @@
             "generate": "Сгенерировать",
             "groupName": "Название отряда",
             "startingLicenseLevel": "Начальный уровень лицензии",
-            "maximumStress": "Максимум стресса"
+            "maximumStress": "Максимальное значение стресса"
         },
         "titles": {
             "selectPilotBackground": "Выбрать происхождение пилота",
@@ -1690,7 +1690,8 @@
             "addOrImproveSkill": "Добавить новый навык или улучшить значение имеющегося.",
             "critical": "Важно",
             "pilotNAMEBlankOrInvalid": "ИМЯ ПИЛОТА: пусто или недействительно",
-            "registerNewPilot": "Зарегистрировать нового пилота // {callsign} ({name})"
+            "registerNewPilot": "Зарегистрировать нового пилота // {callsign} ({name})",
+            "nb": "Обратите внимание"
         },
         "loadout": {
             "notSET": "Не задано",
