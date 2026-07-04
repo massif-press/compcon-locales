@@ -491,7 +491,7 @@
             "deleteWarningBanner": "Aviso// Aviso // Aviso",
             "cannotBeUndone": "ser desfeito.",
             "areYouSure": "Tem certeza de que quer continuar?",
-            "deleteAllUserData": "Apagar todos Dado do Usuário",
+            "deleteAllUserData": "Apagar todos Dados do Usuário",
             "maxThresholdPct": "Limite Máximo (%)",
             "warningThresholdMb": "Aviso de Limite (MB)",
             "maxThresholdMb": "Limite Máximo (MB)",
@@ -510,10 +510,14 @@
         "log": {
             "logLevel": "@:{'common.logLevel'}",
             "caller": "Rastreamento",
-            "exportLog": "Exportar Log",
             "copiedToClipboard": "Entrada de log copiada para a área de transferência",
             "trace": "Rastro",
-            "noData": "@:{'common.noData'}"
+            "noData": "@:{'common.noData'}",
+            "exportThisSession": "Exportar este Registro de Sessão",
+            "exportAllSessions": "Exportar todos Registros de Sessão",
+            "clearLog": "Limpar Registros",
+            "error": "Erro",
+            "session": "Sessão"
         },
         "packInfo": {
             "v2ContentTitle": "Conteúdo v2",
@@ -1955,7 +1959,7 @@
             "exportState": "Exportar Estado da Ficha de Personagem",
             "importState": "Importar Estado da Ficha de Personagem",
             "importFileLabel": "Arquivo de Importação de Instância de Ficha de Personagem (.json)",
-            "stagedImport": "Estágio de Importação",
+            "stagedImport": "Importação em Estágio",
             "atRound": "na Rodada",
             "warningReplace": "Aviso: O estado da Ficha de Personagem importado substituirá o estado atual da Ficha de Personagem.",
             "changeActiveMech": "Alterar Mecha Ativo",
@@ -2036,7 +2040,8 @@
         },
         "initiative": {
             "reinforcementsN": "reforços ({n})",
-            "destroyedN": "Destruído ({n})"
+            "destroyedN": "Destruído ({n})",
+            "statusGroupN": "{status} ({n})"
         },
         "runnerItem": {
             "deploysOnRound": "Implementa na Rodada {n}",

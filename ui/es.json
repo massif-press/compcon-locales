@@ -146,7 +146,7 @@
         "pilotSheet": "Hoja del Piloto",
         "side": "Lado",
         "systemPoints": "Puntos de Sistema",
-        "remove": "Eliminar",
+        "remove": "Quitar",
         "hidden": "Oculto",
         "roll_noun": "Tira",
         "hpBonus": "Bono de PV",
@@ -168,7 +168,8 @@
         "pilotBonds": "Lazos del Piloto",
         "setCustomName": "Elegir Nombre Personalizado",
         "roll_verb": "Tirar",
-        "changelog": "Bitácora de cambios"
+        "changelog": "Bitácora de cambios",
+        "mech": "Mecha"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -244,7 +245,7 @@
             "achievements": "Logros",
             "about": "Acerca de",
             "help": "Ayuda",
-            "pilotManagement": "Gestión de piloto",
+            "pilotManagement": "Gestión de Piloto",
             "npcRoster": "Listado de PNJ",
             "narrativeElements": "Elementos Narrativos",
             "campaignManager": "Gestor de Campaña",
@@ -485,7 +486,6 @@
         },
         "log": {
             "trace": "Rastro",
-            "exportLog": "Bitácora de Exportación",
             "copiedToClipboard": "Registro copiado al portapapeles",
             "noData": "@:{'common.noData'}",
             "caller": "Llamado por"
@@ -721,7 +721,7 @@
             "bannerImage": "Imagen del Banderín de la Campaña",
             "setBannerImage": "Seleccionar Imagen de Pancarta",
             "imagesMustLink": "Las imágenes de la campaña deben estar vinculadas, y no pueden provenir de datos locales de @:{'common.appName'} .",
-            "fromLicenseLevels": "Desde los Niveles de Licencia",
+            "fromLicenseLevels": "De los Niveles de Licencia",
             "authorContact": "Información de contacto del Autor (Opcional)",
             "addContact": "Agregar Nuevo Contacto",
             "coverImage": "Imagen de Portada de Campaña",
@@ -762,7 +762,7 @@
         },
         "encImport": {
             "notEncounterFile": "El archivo seleccionado no contiene datos de encuentro.",
-            "stagedEncounters": "Encuentros escenificados",
+            "stagedEncounters": "Encuentros preparados",
             "readyForImport": "Encuentro listo para importar",
             "missingNpcs": "Este encuentro hace referencia a PNJs que aún no han sido importados. Se guardará en la colección Importados v2 en el Gestor de Contenidos y se podrá importar una vez que estén disponibles los PNJs requeridos.",
             "someMissingNpcs": "Algunos encuentros hacen referencia a PNJs que aún no han sido importados. Estos encuentros se guardarán en la colección Importados v2 en el Gestor de Contenidos y podrán ser importados cuando estén disponibles los PNJs requeridos.",
@@ -1640,7 +1640,8 @@
             "clearAnyBurnCurrentlyAffecting": "Despejar cualquier quemadura afectando actualmente su mecha.",
             "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc",
             "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc.",
-            "overkill": "Saña"
+            "overkill": "Saña",
+            "maxLoadoutFeatureSetColumns": "Max Equipamiento Piloto/Juego de Columnas Presentadas"
         },
         "titles": {
             "addPilotFromRoster": "Agregar Piloto de la Lista",
@@ -1657,7 +1658,9 @@
             "exitActiveMode": "¿Salir del Modo Activo?",
             "mechDestroyedReactorMeltdown": "Mecha Destruido — Fusión del Reactor",
             "whatIsAPlaceholder": "¿Qué es un Marcador de Posición?",
-            "youHaveRemainingActions": "¡Tiene acciones restantes!"
+            "youHaveRemainingActions": "¡Tiene acciones restantes!",
+            "burn": "Abrasar",
+            "downAndOut": "Caído y Fuera"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
@@ -2112,7 +2115,10 @@
             "gmsEQUIPMENTAUTHORIZATIONPILOTADDITIONALGEAR": "Autorización de equipo GMS: piloto/equipo adicional (cualquiera)",
             "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Autorización de equipo de GMS armory: piloto/armamento personal::S0-S3(LTD)",
             "toAddSlashes": "Para añadir //",
-            "gmsArmoryPrintid": "id impresión armería GMS"
+            "gmsArmoryPrintid": "id impresión armería GMS",
+            "mountCOREBonus": "Bono CORE de Montura",
+            "setUSES": "Establecer usos",
+            "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Autorización de equipo de la armería de la Unión: chasis equipamiento//sistema de combate"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
@@ -2136,7 +2142,10 @@
             "newLICENSEUNLOCK": "Desbloquear nueva licencia",
             "mv2LicenseAcquisitionRequest": "Solicitud de Adquisición de Licencia MV-2",
             "theUADIDENTServiceHasDetermined": "El Servicio de IDENT de la UAD ha determinado que",
-            "mechSkills": "Habilidades de Mecha"
+            "mechSkills": "Habilidades de Mecha",
+            "levelUpOverview": "Subir de Nivel (Vista General)",
+            "coreBONUSINSTALLATION": "Instalación de bono Base",
+            "ineligibleFORCOREBONUS": "No elegible para bonos base"
         },
         "new": {
             "pilot": "Piloto",
@@ -2170,7 +2179,12 @@
             "rm405ATTACHEDOHMHEALTH": "RM-4-05 // resultados de examen de salud OHM adjunto",
             "startingLL": "LL Inicial",
             "selectTemplate": "Seleccionar plantilla {name}",
-            "templateSelected": "plantilla {name} seleccionada"
+            "templateSelected": "plantilla {name} seleccionada",
+            "glyphMustBePopulated": "glifo debe ser poblado.",
+            "bySubmittingThisFormYouAttest": "Al presentar este formulario usted atestigua que sus respuestas son veraces y precisas acuerdo a su conocimiento. Proporcionar información falsa o incompleta a sabiendas es punible bajo DoJ/HR AR 303-J.",
+            "uadIDENTService": "Servicio IDENT UAD",
+            "rm4PersonnelPilotC": "RM-4 Personal::Piloto (C)",
+            "rm401FULLNAMEOR": "RM-4-01 // nombre completo o alias primario"
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
@@ -2205,7 +2219,7 @@
             "sortByManufacturer": "Ordenar por Fabricantes",
             "addNewMech": "Agregar Nuevo Mecha",
             "mechOptions": "Opciones Mecha",
-            "requiredFor": "Necesario para",
+            "requiredFor": "Requerido por",
             "setMechImage": "Seleccionar Imagen de Mecha",
             "identRecordNotice": "El uso indebido de este registro de IDENT y/o sus datos constitutivos por el titular del registro o cualquier otra persona se castiga de acuerdo al DoJ/HR A-645-c. Este registro es propiedad de la Oficina Administrativa de la Unión y la información en este documento debe ser transmitida a petición bajo los protocolos de encriptación NDL-C-DISCORDANT-BREATH. Este registro RM-4 debe actualizarse cada cinco (5) Años Estándar Cuna de tiempo objetivo para conservar los derechos de licenciamiento GMS. Los operativos de campo lejano que anticipan despliegues que duran más de cinco Años Estándar Cuna que no han solicitado un Gancho Omninet humano-portable deben aplicar por la RM-11-B IDENT Extensión Complementaria (b). Comuníquese con su Oficial local Administrativo de la Unión para cualquier otro asunto relacionado con este registro. V-CDL//M-265-114-831 (A)",
             "warningLICENSEMISSING": "Advertencia: licencia faltante",
@@ -2221,7 +2235,7 @@
             "exportLegacyJSON": "Exportar JSON Antiguo",
             "removeThisPilotFromTheRoster": "Quitar este piloto de la lista",
             "flashClonePilot": "Clonación Relámpago de Piloto",
-            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Cualquier organización, individuo o tecnología que participe o facilite la clonación de facsímil de cuerpo entero está vinculada por los Primeros Acuerdos de Contacto de 3002. Cualquier actividad que viole los principios enunciados en los Acuerdos está prohíbida, incluiyendo, pero sin limitarse a:",
+            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Cualquier organización, individuo o tecnología que participe o facilite la clonación de facsímil de cuerpo entero está vinculada por los Primeros Acuerdos de Contacto de 3002. Cualquier actividad que viole los principios enunciados en los Acuerdos está prohíbida, incluiyendo, pero sin limitarse a",
             "reproductionOfTheSubjectivePersonageOf": "Reproducción total o parcial de la personalidad subjetiva de un ser sensible u otra continuidad subjetiva.",
             "allFormsOfWholeSubjectivityRapid": "Toda formas de clonación de procesos rápidos de subjetividad completa están prohibidas bajo la jurisdicción de la Unión. Cualquier persona que haya infringido este estatuto estará sujeta a la acción judicial del Departamento de Justicia de la Unión y el Departamento de Derechos de Facsímiles de Recursos Humanos.",
             "exportPilot": "Exportar Piloto",
@@ -2251,7 +2265,22 @@
             "addNewClock": "Añadir Nuevo Reloj",
             "removeBond": "Quitar Lazo",
             "gainBondPower": "Obtener Poder de Lazo",
-            "setMaximumStress": "Establecer Estrés Máximo"
+            "setMaximumStress": "Establecer Estrés Máximo",
+            "ndapSR01STATUSREPORT": "NDAP/SR-01/reporte de estado",
+            "addEquipment": "Agregar Equipo",
+            "addExoticEquipment": "Agregar Equipo Exótico",
+            "revert": "Revertir",
+            "rm6DATA": "RM-6://datos",
+            "narrativePROFILE": "Perfil narrativo",
+            "tacticalPROFILE": "Perfil táctico",
+            "errNAMENOTFOUNDUNABLETO": "Err nombre no hallado no es posible generar uuid",
+            "frameCONFIGURATIONOPTIONS": "Opciones de configuración de Chasis {remit}",
+            "hASEOMNINETVAULT": "(\"C.A.S.I\" remite bóveda omninet)",
+            "selectNewFrame": "Seleccionar Nuevo Chasis",
+            "mechHangar": "Hangar Mechas",
+            "setPilotPortrait": "Seleccionar Retrato de Piloto",
+            "unionAdministrativeIdentRecord": "Administrativo de la Unión RM-4 Registro de Protocolo de Identificación de Piloto (IDENT)",
+            "biometricRecordValid": "Registro biométrico válido [["
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
@@ -2263,7 +2292,20 @@
             "mechWEAPONMOUNT": "Montura arma mecha",
             "onATTACK": "Al atacar",
             "reserve": "Reserva",
-            "extras": "Extras"
+            "extras": "Extras",
+            "uses": "USOS",
+            "resource": "Recurso",
+            "capacityParen": "({n} capacidad)",
+            "xp": "EXP",
+            "majorIDEAL": "Ideal Principal",
+            "downtimeREFERENCE": "Referencia downtime",
+            "missionLog": "Bitácora de Misión",
+            "session": "Sesión",
+            "repCAP": "Rep lím",
+            "atkBONUS": "Bono Atq",
+            "ltdBONUS": "Bono LTD",
+            "corePassive": "Pasiva Base",
+            "coreActive": "Activa Base"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
@@ -2276,6 +2318,84 @@
             "setPilotLicenses": "Establecer Licencias de Piloto",
             "paper": "Papel",
             "orientation": "Orientación"
+        },
+        "roster": {
+            "history": "Historial",
+            "finishEditing": "Terminar Edición",
+            "deleteGroup": "Borrar Grupo",
+            "allPilotsAssignedToThisGroup": "Todos los pilotos asignados a este grupo serán eliminados permanentemente.",
+            "cr701UNITDESIGNATION": "CR-7-01 // designación de unidad",
+            "addGroupDescription": "Agregar Descripción de Grupo",
+            "editGroupDescription": "Editar Descripción de Grupo",
+            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // REGISTROS TACANALYSIS ADJUNTOS (SUPLEMENTARIO)",
+            "addGroupHistory": "Agregar Historia del Grupo",
+            "editGroupHistory": "Editar Historia del Grupo",
+            "cr703UNITLIVERY": "CR-7-03 // librea de unidad",
+            "addGroupEmblem": "Agregar emblema de grupo",
+            "editGroupEmblem": "Editar emblema de grupo",
+            "thisAppearsToBePilotData": "Estos parecen ser datos de piloto de una versión anterior de @:{'common.appName'}. @:{'common.appName'} intentará convertir e importar estos datos, pero puede que no sea posible convertir todos los artículos y no sea posible proporcionar información sobre los LCP requeridos faltantes.",
+            "thisPilotContainsContentFromThe": "Este Piloto incluye contenido de los siguientes paquetes de contenido de Lancer que no están actualmente instalados/activos, o tienen versiones que no concuerdan",
+            "thisPilotWillBeSavedTo": "Este Piloto se guardará en la colección Importados v2 en el Gestor de Contenidos. Puede ser importado una vez se instalen y activen los paquetes de contenido faltantes, o importado a la fuerza con objetos faltantes removidos.",
+            "thisPilotMayBeImportedBut": "Este Piloto puede ser importado, pero algunos artículos de los paquetes de contenido faltantes serán instanciados desde datos guardados. Si se eliminan, estos artículos no podrán ser reequipados sin los paquetes de contenido faltantes.",
+            "and": "y",
+            "pilots": "Pilotos",
+            "addANewPilotToName": "Añadir un nuevo piloto en {name}",
+            "cr702aATTACHEDNDAPCOMP": "CR-7-02a // ANÁLISIS DE RESULTADOS COMP/DISP NDAP ADJUNTO",
+            "setGroup": "Elegir Grupo",
+            "includesDATAFROMTHEFOLLOWINGCONTENT": "Incluye datos de los siguientes paquetes de contenido",
+            "doneReordering": "Terminar Reordenamiento",
+            "lastModified": "Última Modificación",
+            "addGroup": "Añadir grupo"
+        },
+        "selectors": {
+            "exotic": "Exótico",
+            "licenseSelectionComplete": "Selección de Licencia Completa",
+            "mechSkillsSelected": "Habilidades Mecha seleccionadas",
+            "resetMechSkills": "Reiniciar las Habilidades de Mecha",
+            "coreBonusSelectionComplete": "Selección de Bonos Base Completada",
+            "addDowntimeProject": "Añadir Proyecto Downtime",
+            "equipment": "Equipo",
+            "skillSelectionComplete": "Selección de Habilidad Completa",
+            "yourAbilityTo": "Su Habilidad Para",
+            "talentSelectionComplete": "Selección de Talentos Completada",
+            "unavailable": "No Disponible",
+            "addReserve": "Agregar Reserva",
+            "download": "Descargar",
+            "startWith": "Comienza con",
+            "efficiency": "Eficiencia"
+        },
+        "misc": {
+            "skipSTEP": "Saltar paso"
+        },
+        "shared": {
+            "theRM4bPILOTSELFASSESSMENT": "La AUTO-EVALUACIÓN DE PILOTO RM-4b (Habilidades Mecha) se transmitirá al personal de impresión para finalizar la configuración de su GMS-SP1 EVEREST provisto.",
+            "bySubmittingThisFormYouAttest": "Al presentar este formulario usted atestigua que sus respuestas son veraces y precisas acuerdo a su conocimiento. Proporcionar información falsa o incompleta es punible bajo DoJ/HR AR 303-J.",
+            "rm4bPilotSelfAssessment1": "RM-4b Auto-evaluación de Piloto (1/3)",
+            "mv2ASkillImprovementAssessment": "MV-2//a Evaluación de la Mejora de Habilidad",
+            "theRM4bPILOTSELFASSESSMENT2": "La auditoría AUTO-EVALUACIÓN DE PILOTO (habilidades) RM-4b cataloga el auto-reporte de fortalezas individual de un piloto basada en selecciones derivadas de los resultados del Examen de Salud OHM//CR-2 Análisis de Actividad Cerebral y toma de respuestas dadas al representante NHP del Administrador de la Unión presidiendo.",
+            "theFollowingFormIsComprisedOf": "El siguiente formulario está compuesto por salida no filtrada generada por uno o más Personas No-Humanas UNI-TACANALYSIS y NO PUEDEN ser copiadas, traducidas, reproducidas, transmitidas o codificadas sin el permiso expreso de Inteligencia Naval de la Unión.",
+            "theMV2APilotSelfAssessment": "La auditoría Auto-Evaluación de Piloto cMV2/a cataloga los puntos fuertes auto-reportados de un piloto individual basado en selecciones derivadas de la telemetría del campo de batalla y registros de informes analizados por un representante NHP Naval de la Unión.",
+            "identSERVICEPRIMARYHasGeneratedA": "IDENT.SERVICE.PRIMARY ha generado una lista de los Skill Triggers sugeridos basada en su respuesta a RM-4-03 (OCUPACIÓN OR POSICIÓN PREVIA ).",
+            "suggestedSkillsAdded": "Habilidades Sugeridas Añadidas.",
+            "addSuggestedSkills": "Añadir Habilidades Sugeridas",
+            "improveTalents": "Mejorar Talentos",
+            "rm4cPilotSelfAssessment2": "RM-4c Auto-Evaluación de Piloto (2/3)",
+            "mv2BCOAResourceRequisition": "MV-2//b COA Requisición de Recurso",
+            "theRM4bPILOTSELFASSESSMENT3": "La RM-4b AUTO-EVALUACIÓN DE PILOTO (Talentos) cataloga las aptitudes de operación en combate auto-reportadas de un piloto individual y otorga privilegios de requisición para el tiempo de simulación, materiales de entrenamiento de senso-cortical y holofield , datos de telemetría del campo de batalla en clasificaciones inferiores GREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern licencias de material bélico.",
+            "theCombatOperationAbilityRequisitionOn": "La Requisición Habilidad Operativa de Combate, con la aprobación del sistema de aprobación automatizado de solicitudes guiado por NHP, confiere privilegios de simulador UNI, holofield y materiales de entrenamiento senso-cortical, datos de telemetría del campo de batalla en clasificaciones debajo de GREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern licencias de material bélico.",
+            "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes inconvenientes"
+        },
+        "link": {
+            "bond": "Lazo",
+            "theDailyRequestLimitHasBeen": "Se ha alcanzado el límite diario de solicitudes. Por favor, intente de nuevo mañana.",
+            "tooManyRequestsPleaseTryAgain": "Demasiadas solicitudes. Por favor intente nuevamente en",
+            "tooManyRequestsPleaseTryAgain2": "Demasiadas solicitudes. Por favor, intente de nuevo pronto.",
+            "pilotNotFound": "Piloto No Encontrado",
+            "aPilotWithTheShareCode": "Un piloto con el código para compartir",
+            "couldNotBeFound": "no se pudo encontrar.",
+            "pilotRequiresReSync": "Piloto requiere re-sinc",
+            "withShareCode": "con código para compartir",
+            "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse."
         }
     },
     "share": {
