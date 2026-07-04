@@ -116,7 +116,7 @@
             "copiedToClipboard": "클립보드에 복사됨",
             "halfDamage": "절반 피해",
             "exportAsJson": "JSON으로 내보내기",
-            "disengageFailed": "교전해제 실패",
+            "disengageFailed": "퇴각 실패",
             "disengageFailedText": "{name}은 교전상태가 아닙니다.",
             "disengagedText": "{name}(이)가 교전해제됨.",
             "currentlySelected": "현재 선택됨:",
