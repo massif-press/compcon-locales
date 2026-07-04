@@ -637,7 +637,9 @@
             "checkType": "Testtyp"
         },
         "mechPanel": {
-            "pilotSkills": "Pilotenfertigkeiten ({n})"
+            "pilotSkills": "Pilotenfertigkeiten ({n})",
+            "meltdown": "Dieser Mech hat eine Kernschmelze erlitten. Er ist permanent zerstört und kann nicht repariert werden.",
+            "frameTraits": "Rahmeneigenschaften ({n})"
         },
         "mechActions": {
             "mechBootedUpText": "{name} wurde HOCHGEFAHREN.",
@@ -669,7 +671,9 @@
             "takeDamage": "Schaden nehmen",
             "incomingValue": "Eingehender Schadenswert",
             "armorPiercing": "Panzerbrechend",
-            "armorN": "{n} Panzerung"
+            "armorN": "{n} Panzerung",
+            "totalDamage": "Gesamtschaden",
+            "applyClose": "Anwenden und schließen"
         },
         "common": {
             "currentlySelected": "Aktuell ausgewählt",
@@ -775,7 +779,12 @@
             "hitPoints": "Trefferpunkte"
         },
         "pcEndRound": {
-            "braceCooldown": "Wappnungs-Abklingzeit"
+            "braceCooldown": "Wappnungs-Abklingzeit",
+            "forfeitActions": "Durch Beenden der Runde werden unbenutzte Aktionen aufgegeben.",
+            "nextRound": "Nächste Runde",
+            "willLoseStatuses": "wird die folgenden Status verlieren",
+            "atThe": "zu",
+            "endsOnTurn": "{when} Ihres Zuges"
         },
         "joinTable": {
             "sortOnline": "Nach Online-Status sortieren",
@@ -875,7 +884,8 @@
             "counters": "Zähler"
         },
         "activeEffect": {
-            "hiddenEffects": "Versteckte Effekte"
+            "hiddenEffects": "Versteckte Effekte",
+            "title": "Aktive Effekte"
         },
         "actions": {
             "allActions": "Alle Aktionen",
@@ -925,19 +935,263 @@
             "redeployment": "neu einsetzen",
             "redeploy": "Neu einsetzen",
             "ownedBy": "Gehört",
-            "removeType": "{type} entfernen"
+            "removeType": "{type} entfernen",
+            "recalledAwaiting": "{type} wurde zurückgerufen und wartet auf {redeployment}",
+            "recall": "Zurückrufung"
         },
         "eidolon": {
-            "generateN": "{n} erzeugen"
+            "generateN": "{n} erzeugen",
+            "tierEidolon": "Rang {n} Eidolon",
+            "nameLayer": "{name} Schicht",
+            "active": "(Aktiv)",
+            "activeLayer": "Aktive Schicht",
+            "shard": "Scherbe",
+            "noShards": "Schicht hat keine Scherben",
+            "persistentTraits": "Durchgängige Eigenschaften ({n})"
         },
         "sheet": {
             "newCharacterSheet": "Neuer Charakterbogen"
         },
         "fields": {
-            "selectCharacterSheetExportFile": "Charakterbogen-Exportdatei auswählen"
+            "selectCharacterSheetExportFile": "Charakterbogen-Exportdatei auswählen",
+            "lineWidth": "Linienbreite",
+            "cedeControl": "Kontrolle übergeben",
+            "reclaimControl": "Kontrolle wiedererlangen",
+            "selectEncounterExportFile": "Gefechts-Exportdatei auswählen",
+            "overkill": "Overkill",
+            "mechName": "Name des Mechs",
+            "addTable": "Tabelle hinzufügen",
+            "showArchived": "Archivierte:s anzeigen",
+            "tableName": "Tabellenname",
+            "gameMaster": "Spielleiter:in",
+            "pilotNameOrCallsign": "Name oder Callsign der Pilot:in",
+            "frameOrMechName": "Name des Rahmens oder Mechs",
+            "campaign": "Kampagne",
+            "layoutColumns": "Layout-Spalten",
+            "reloadAllLoadedWeapons": "Lädt alle Waffen mit NACHLADEN nach.",
+            "clearAnyBurnCurrentlyAffecting": "Löscht jeglichen Brand Ihres Mechs.",
+            "clearAConditionThatWasnt": "Entfernt einen Zustand, der nicht von einem Ihrer eigenen Systeme, Talente, usw. verursacht wurde",
+            "clearAnAdjacentAlliedCharacters": "Entfernt einen Zustand eines benachbarten Verbündeten, der nicht von einem derer eigenen Systeme, Talente, usw. verursacht wurde."
         },
         "titles": {
-            "characterSheets": "Charakterbögen"
+            "characterSheets": "Charakterbögen",
+            "addPilotFromRoster": "Pilot:in aus Liste hinzufügen",
+            "noMechDataFound": "Keine Mechdaten gefunden",
+            "addFromShareCode": "Per teilbarem Code hinzufügen",
+            "addPilots": "Pilot:innen hinzufügen",
+            "recalledToMech": "Zu Mech zurückgerufen",
+            "underAiControl": "Unter KI-Kontrolle",
+            "pilotKia": "Pilot:in im Kampf gefallen",
+            "downAndOut": "Völlig Erledigt",
+            "burn": "Brand",
+            "movement": "Bewegung",
+            "selectPilot": "Pilot:in auswählen",
+            "selectActiveMech": "Aktiven Mech auswählen",
+            "exitActiveMode": "Aktiven Modus verlassen?",
+            "mechDestroyedReactorMeltdown": "Mech zerstört - Kernschmelze",
+            "repairCap": "Ersatzteilvermögen",
+            "whatIsAPlaceholder": "Was ist ein Platzhalter?",
+            "youHaveRemainingActions": "Sie haben Aktionen übrig!"
+        },
+        "sheetMgr": {
+            "featureInDev": "Funktion in Entwicklung (v3.1)",
+            "encounterHash": "Gefecht #",
+            "archivedSheets": "Archivierte Bögen ({n})",
+            "noArchivedFound": "Keine archivierten Bögen gefunden",
+            "noArchivedFoundFiltered": "Keine archivierten Bögen mit \"{search}\" gefunden",
+            "kia": "Gefallen",
+            "savePilotHistory": "Pilotenverlauf speichern"
+        },
+        "newSheet": {
+            "llLevel": "LL{n}",
+            "campaignName": "Kampagnenname"
+        },
+        "sheetItem": {
+            "roundN": "Runde {n}",
+            "started": "begonnen",
+            "lastTurn": "letzter Zug"
+        },
+        "endEnc": {
+            "confirmEndEncounter": "Ende des Gefechts bestätigen",
+            "endEncounter": "Gefecht beenden"
+        },
+        "sortBar": {
+            "sortByRecent": "Nach Neueste sortieren",
+            "sortByCreated": "Nach Erstellungs-Zeitstempel sortieren"
+        },
+        "organizer": {
+            "selected": "ausgewählt"
+        },
+        "runnerHeader": {
+            "autosave": "Auto-Speichern",
+            "layoutOptions": "Anordnungsoptionen"
+        },
+        "leaveDialog": {
+            "prompt": "Möchten Sie dieses Gefecht vor dem Verlassen speichern?",
+            "exitWithoutSaving": "Ohne Speichern verlassen"
+        },
+        "endRound": {
+            "endRound": "Runde beenden",
+            "confirmEndRound": "Rundenende bestätigen"
+        },
+        "actionChips": {
+            "protocol": "Protokoll",
+            "quickAction": "Schnelle Aktion"
+        },
+        "gmRunner": {
+            "loading": "Gefechtsinstanz wird geladen…",
+            "roundN": "Runde {n}"
+        },
+        "diceRoller": {
+            "title": "Würfler",
+            "quickRoll": "Schneller Wurf",
+            "hullCheck": "Hüllentest",
+            "agilityCheck": "Agilitätstest",
+            "systemsCheck": "Systemtest",
+            "engineeringCheck": "Techniktest",
+            "count": "Anzahl",
+            "die": "Würfel",
+            "rollDice": "Würfeln",
+            "rollResult": "Wurfergebnis",
+            "noRolls": "Bisher keine Würfe.",
+            "sessionHistory": "Sitzungsverlauf"
+        },
+        "trackable": {
+            "corePower": "Kernbatterie",
+            "ready": "Bereit"
+        },
+        "customStat": {
+            "static": "Statisch",
+            "removeStat": "Wert entfernen"
+        },
+        "telemetry": {
+            "telemetry": "Telemetrie",
+            "devNote": "Diese Funktion ist noch in Entwicklung. Zusätzliche Telemetriedaten werden in Kürze hinzugefügt. {emphasis}",
+            "collectedNote": "Telemetriedaten werden am Ende jeder Runde erfasst",
+            "encounterInstance": "GefechtsInstanz",
+            "exportText": "Als Text exportieren"
+        },
+        "dmgCond": {
+            "immunity": "Immunität",
+            "vulnerability": "Verwundbarkeit",
+            "resistance": "Widerstand",
+            "noDamage": "Kein Schaden",
+            "doubleDamage": "Doppelter Schaden",
+            "fullDamage": "Voller Schaden",
+            "fromAttacks": "von {type}-Angriffen.",
+            "title": "Widerst./Immun./Verw."
+        },
+        "timedEffect": {
+            "roundsRemaining": "{n} Runden verbleibend",
+            "override": "// Überbrücken"
+        },
+        "statblockExport": {
+            "title": "Kampf-Statblock",
+            "include": "// Beinhalten",
+            "exportText": "Statblock als Text exportieren"
+        },
+        "statusCond": {
+            "title": "Status / Zustände",
+            "addCustom": "Eigenen Status hinzufügen"
+        },
+        "scan": {
+            "scan": "Scannen"
+        },
+        "miniPanel": {
+            "resetBase": "Auf Grundwert zurücksetzen"
+        },
+        "reload": {
+            "noTargets": "Keine gültigen Ziele zum Nachladen",
+            "selectWeapon": "Waffe zum Nachladen auswählen"
+        },
+        "weaponAttack": {
+            "destroyed": "Diese Waffe wurde zerstört und muss repariert werden, bevor sie aktiviert werden kann.",
+            "alreadyActivated": "Diese Waffe wurde bereits aktiviert.",
+            "mustReload": "Sie muss nachgeladen werden, bevor sie wieder verwendet werden kann.",
+            "mustRecharge": "Sie muss wieder aufgeladen werden, bevor sie wieder verwendet werden kann.",
+            "ordnanceMech": "Dieser Mech hat in diesem Zug bereits Aktionen durchgeführt, die keine Protokolle waren. Diese sperrige Waffe kann nicht aktiviert werden.",
+            "ordnanceUnit": "Diese Einheit hat in diesem Zug bereits Aktionen durchgeführt, die keine Protokolle waren. Diese sperrige Waffe kann nicht aktiviert werden.",
+            "ordnancePilot": "Diese:r Pilot:in hat in diesem Zug bereits Aktionen durchgeführt, die keine Protokolle waren. Diese sperrige Waffe kann nicht aktiviert werden.",
+            "outOfUses": "Diese Waffe hat keine Ladungen mehr übrig und kann in diesem Zug nicht verwendet werden.",
+            "canMake": "Diese Waffe kann pro Aktivierung {n} Angriffe machen."
+        },
+        "mechLoadout": {
+            "weapons": "// Waffen"
+        },
+        "cards": {
+            "equipmentDestroyed": "Ausrüstung zerstört",
+            "staged": "// Vorbereitet"
+        },
+        "tooltips": {
+            "addAPilotFromYourLocalPilotRoster": "Pilot:in aus lokaler Pilot:innenliste hinzufügen",
+            "importAPilotFromJsonData": "Pilot:in aus JSON-Daten importieren",
+            "pilotGrit": "Pilot:innenwille",
+            "apply": "Anwenden",
+            "dismissWithoutApplying": "Ohne Anwendung verwerfen",
+            "equipmentAction": "Ausrüstungs-Aktion",
+            "markYourMechAsInCascade": "Ihren Mech als IN KASKADE markieren",
+            "resetUses": "Anzahl Anwendungen zurücksetzen",
+            "toggleDestroyed": "Schalter zerstört",
+            "encounterInfo": "Gefechtsinfo"
+        },
+        "campaignDialog": {
+            "setCampaign": "Kampagne setzen"
+        },
+        "landing": {
+            "resumeRound": "{name} wiederaufnehmen (Runde {n})"
+        },
+        "encInfo": {
+            "reinforcements": "Verstärkungen",
+            "noReinforcements": "Keine Verstärkungen in diesem Gefecht.",
+            "turnN": "Zug {n}",
+            "freeDeployment": "Freie Platzierung"
+        },
+        "gmNotes": {
+            "encounterClocks": "Gefechtsuhren",
+            "addClock": "Uhr hinzufügen"
+        },
+        "refTag": {
+            "yourTags": "Ihre Marken ({name})",
+            "relevantTags": "Relevante Marken ({name})",
+            "noTagsFound": "Keine Marken gefunden",
+            "relevantTagsEncounter": "Relevante Marken (Gefecht)",
+            "allTags": "Alle Marken"
+        },
+        "toolPalette": {
+            "tagReference": "Marken-Referenzbogen",
+            "combatQuickRef": "Schneller Kampfreferenzbogen",
+            "npcRef": "NSC Kampfreferenzbogen"
+        },
+        "tableIndex": {
+            "title": "Tabellenindex",
+            "encounterTables": "Gefechtstabellen"
+        },
+        "actorLogs": {
+            "exportText": "Textprotokoll exportieren",
+            "exportJson": "JSON-Log exportieren"
+        },
+        "stabilize": {
+            "chooseOne": "wählen Sie eines"
+        },
+        "invade": {
+            "invade": "Eindringen",
+            "available": "Verfügbare Eindring-Aktionen",
+            "select": "Eindring-Aktion auswählen"
+        },
+        "jockey": {
+            "jockey": "Rodeo",
+            "available": "Verfügbare Rodeo-Aktionen",
+            "select": "Rodeo-Aktion auswählen"
+        },
+        "barrage": {
+            "selectWeapon": "Waffe für Breitseite auswählen",
+            "additionalAux": "zusätzliche {name} leichte Waffen"
+        },
+        "skirmish": {
+            "selectWeapon": "Waffe für Feuerstoß auswählen"
+        },
+        "fight": {
+            "selectWeapon": "Waffe auswählen"
         }
     },
     "pm": {
@@ -968,11 +1222,36 @@
     "mainMenu": {
         "account": {
             "syncPartialText": "Vollständige Synchronisations von {failures} Elementen fehlgeschlagen. Dies kann an fehlenden lokalen Daten liegen.",
-            "deletionCompleteTitle": "{count} Element permanent gelöscht | {count} Elemente permanent gelöscht"
+            "deletionCompleteTitle": "{count} Element permanent gelöscht | {count} Elemente permanent gelöscht",
+            "allLcpsUpdatedTitle": "LCPs aktualisiert",
+            "allLcpsUpdatedText": "Alle LCPs wurden aktualisiert.",
+            "allLcpsUpdateErrorTitle": "Fehler bei Aktualisierung der LCPs",
+            "allLcpsUpdateErrorText": "Bei der Aktualisierung Ihrer LCPs ist ein Fehler aufgetreten.",
+            "syncPartialTitle": "{synced}/{total} Elementen synchronisiert",
+            "syncCompleteTitle": "{total}/{total} Elementen synchronisiert",
+            "syncCompleteText": "Alle Elemente wurden erfolgreich synchronisiert.",
+            "flaggedRemovedText": "Alle markierten Elemente wurden aus der Cloud entfernt.",
+            "noFlaggedText": "Keine Elemente wurden zur Löschung markiert.",
+            "deletionFailedBulkText": "Während der Löschung markierter Elemente ist ein Fehler aufgetreten.",
+            "collectionErrorTitle": "Fehler bei der Aktualisierung der Sammlung",
+            "collectionErrorText": "Bei der Aktualisierung der Sammlung ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+            "collectionUpdatedTitle": "Sammlung aktualisiert",
+            "collectionUpdatedText": "Elemente in der Sammlung wurden erfolgreich aktualisiert.",
+            "itemAddedTitle": "Element hinzugefügt",
+            "itemAddedText": "Element {name} wurde zur Sammlung hinzugefügt"
         },
         "auth": {
             "signupPrivacyInfo": "Ihre Email-Adresse wird vertraulich gehandhabt. Wir verkaufen oder vermieten Kontaktdaten oder -listen nicht an Drittparteien und werden nie Ihre persönlichen Daten an Drittpartei-Individuen, staatliche Einrichtungen, oder Firmen weitergeben, ganz gleich aus welchen Gründen.",
-            "accountCreated": "Nutzer*innen-Konto erfolgreich erstellt. Weiterleitung zum Login erfolgt."
+            "accountCreated": "Nutzer*innen-Konto erfolgreich erstellt. Weiterleitung zum Login erfolgt.",
+            "verifyEmailTitle": "Email-Adresse verifizieren",
+            "codeSentToLabel": "Ein Bestätigungscode wurde versendet an",
+            "sendCodeToLabel": "Bestätigungscode senden an",
+            "resendVerificationCode": "Bestätigungscode erneut versenden",
+            "sendVerificationCode": "Bestätigungscode senden",
+            "alreadyHaveCode": "Ich habe bereits einen Bestätigungscode",
+            "inputCodeToFinish": "Geben Sie den Bestätigungscde ein um die Kontoerstellung abzuschließen",
+            "confirmVerificationCode": "Bestätigungscode bestätigen",
+            "signupEmailInfo": "Die Email-Adresse, die Sie hier eingeben, wird dazu verwendet, Ihnen einen Bestätigungscode zu senden, mit dem Sie die Erstellung Ihres Kontos abschließen können. Danach wird Ihre Email ausschließlich zum Login in Ihr @:{'common.appName'}-Konto verwendet."
         },
         "itch": {
             "updateHint": "Wenn Sie neue Käufe oder Download-Schlüssel in Ihrem itch.io Account haben, klicken Sie auf {update} weiter unten um diese zu @:{'common.appName'} hinzuzufügen. Aufgrund von Begrenzungen in der itch.io API ist es aktuell nicht möglich, Käufe außerhalb von Massif Press zu verknüpfen."
@@ -1016,6 +1295,22 @@
         },
         "itemLink": {
             "lcpHint": "Falls dieses Element Teil eines Lancer Inhaltspakets ist, bitte stellen Sie sicher, dass das Paket installiert und aktiviert ist."
+        },
+        "ui": {
+            "viewChangelog": "Änderungsprotokoll einsehen",
+            "linkingAccount": "Konto wird verknüpft…",
+            "subscribe": "Abonnieren",
+            "refreshList": "Liste auffrischen",
+            "doesNotSync": "(Dies wird nicht synchronisieren)",
+            "downloadInstallLatest": "Neueste Version herunterladen und installieren",
+            "directDownloadRequiresAccount": "Der direkte Download erfordert ein @:{'common.appName'}-Konto",
+            "requiresItchPurchase": "Erfordert einen verknüpften Kauf auf itch.io",
+            "accountManagement": "Kontoverwaltung",
+            "cloudData": "Cloud-Daten",
+            "contentSubscriptions": "Inhaltsabonnements",
+            "contentPublishing": "Inhaltsveröffentlichung",
+            "viewImage": "Bild anschauen",
+            "downloadCopy": "Kopie herunterladen"
         }
     },
     "gm": {
@@ -1066,7 +1361,10 @@
             "minor": "Neben",
             "patch": "Revision",
             "versionExists": "Version {version} existiert bereits!",
-            "returnToIndex": "Zurück zum Index"
+            "returnToIndex": "Zurück zum Index",
+            "saveLocalHelp": "Speichern Sie eine schreibgeschützte Kopie dieser Kampagne zu Ihrer lokalen Kampagnenbibliothek, um sie im Aktiven Modus oder in Onlinespielen zu verwenden",
+            "copyShareCodeHelp": "Kopieren Sie diesen teilbaren Code für diese Kampagne in Ihre Zwischenablage. Teilbare Codes können dazu genutzt werden, um diese Kampagne in eine andere @:{'common.appName'}-Instanz zu kopieren.",
+            "generateShareCode": "Teilbaren Code generieren"
         },
         "pageContent": {
             "themeColorsHelp": "Diese Farben ändern sich basierend auf dem ausgewählten @:{'common.appName'}-Farbschema des:der Nutzer:in",
@@ -1295,7 +1593,10 @@
             "resetStats": "Rang ändern und Werte zurücksetzen"
         },
         "npcTag": {
-            "selectTag": "NSC-Marke auswählen"
+            "selectTag": "NSC-Marke auswählen",
+            "setTag": "NPC-Marke setzen",
+            "lockedBy": "Durch Vorlagenauswahl gesperrt ({name})",
+            "limitedBy": "Markenauswahl durch Vorlage begrenzt ({name})"
         },
         "eidolon": {
             "layers": "Schichten",
@@ -1314,7 +1615,8 @@
         "npcFeatures": {
             "selectClassToAdd": "Wählen Sie eine Klasse, um Funktionen hinzuzufügen",
             "noFeatures": "Ohne NSC-Funktionen",
-            "saveConfig": "Konfiguration speichern"
+            "saveConfig": "Konfiguration speichern",
+            "reorder": "Funktionen neu arrangieren"
         },
         "npcStats": {
             "activations": "Aktivierungen/Runde"
@@ -1437,7 +1739,8 @@
             "selectedTemplate": "Ausgewählte Vorlage | Ausgewählte Vorlagen"
         },
         "npcEditor": {
-            "statblock": "Statblock"
+            "statblock": "Statblock",
+            "v2Export": "V2-Export"
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Nicht-Charakter-Objekte (wie z.B. Geländeteile), die in Gefechten mitverfolgt werden können."
@@ -1446,6 +1749,15 @@
             "changeTierAndAdjustEdited": "Den Rang ändern und angepasste Werte um denselben Betrag ändern, wie sie auch normalerweise geändert würden.",
             "changeTierAndKeepEdited": "Den Rang ändern und alle angepassten Werte beibehalten, auch wenn sie dadurch unter die Standardbeträge des neuen Ranges fallen würden.",
             "changeTierAndDiscardAll": "Den Rang ändern und alle Wertänderungen verwerfen."
+        },
+        "eidolonData": {
+            "noData": "Keine Daten für Eidolon-Editor gefunden!"
+        },
+        "npcBuilder": {
+            "noClass": "Keine NSC-Klasse",
+            "setClass": "NSC-Klasse setzen",
+            "npcTag": "NSC-Marke",
+            "templates": "Vorlagen"
         }
     },
     "compendium": {
