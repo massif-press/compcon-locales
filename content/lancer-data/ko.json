@@ -54,5 +54,9 @@
     "tg_burst.name": "방출 {VAL}",
     "tg_cone.name": "원뿔 {VAL}",
     "tg_resistance.name": "저항",
-    "tg_round.name": "라운드 당 {VAL}회"
+    "tg_round.name": "라운드 당 {VAL}회",
+    "act_activate_full.terse": "전력 행동을 사용하는 시스템이나 장비를 발동합니다.",
+    "act_activate_quick.detail": "발동 시, 플레이어는 전력 행동을 소모하는 시스템이나 장비를 사용합니다. 해당되는 시스템들은 빠른 행동 혹은 전력 행동 태그가 부착되어 있습니다. 플레이어는 한 턴에 몇 번이든 발동을 선언할 수 있지만, 자유 행동으로 발동시키지 못하는 이상 한 시스템을 여러 번 발동할 수 없습니다.",
+    "act_activate_quick.name": "빠른 발동",
+    "act_activate_quick.terse": "빠른 행동을 소모하는 시스템이나 장비를 발동합니다."
 }
