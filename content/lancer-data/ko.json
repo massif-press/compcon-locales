@@ -44,5 +44,6 @@
     "act_move.name": "이동",
     "act_overwatch_npc.terse": "근처에서 움직이려 하는 타겟을 공격합니다.",
     "act_overwatch.terse": "근처에서 움직이려 하는 대상을 공격합니다.",
-    "glossary_Burn.name": "화재"
+    "glossary_Burn.name": "화재",
+    "act_activate_full.name": "전체 발동"
 }
