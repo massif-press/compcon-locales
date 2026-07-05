@@ -589,7 +589,7 @@
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon",
             "joinTheLancerDiscord": "Присоединяйтесь к Discord-серверу, посвящённому LANCER",
-            "netlifyStatus": "Статус Netlify"
+            "netlifyStatus": ""
         },
         "v2Auto": {
             "pendingNote": "Элементы в ожидании синхронизации можно импортировать повторно с панели \"Контент-паки\" после установки необходимых файлов LCP.",
@@ -614,9 +614,9 @@
             "reimportFailedText": "Не удалось импортировать повторно: {error}",
             "missingDependencies": "Отсутствующие зависимости ещё не доступны.",
             "importedSuccessfully": "Успешно импортировано.",
-            "importFailedText": "Ошибка импорта: {error}",
-            "forceImportComplete": "Принудительный импорт завершён.",
-            "forceImportFailedText": "Ошибка принудительного импорта: {error}"
+            "importFailedText": "",
+            "forceImportComplete": "",
+            "forceImportFailedText": ""
         },
         "cloudNotifications": {
             "dismissAll": "Удалить Все Уведомления",
