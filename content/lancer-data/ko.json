@@ -45,5 +45,14 @@
     "act_overwatch_npc.terse": "근처에서 움직이려 하는 타겟을 공격합니다.",
     "act_overwatch.terse": "근처에서 움직이려 하는 대상을 공격합니다.",
     "glossary_Burn.name": "화재",
-    "act_activate_full.name": "전체 발동"
+    "act_activate_full.name": "전력 발동",
+    "act_search_pilot.name": "색적",
+    "act_stabilize.name": "안정화",
+    "act_stabilize_npc.name": "안정화",
+    "dangerzone.name": "열위험 상태",
+    "tg_danger_zone.name": "열위험 상태",
+    "tg_burst.name": "방출 {VAL}",
+    "tg_cone.name": "원뿔 {VAL}",
+    "tg_resistance.name": "저항",
+    "tg_round.name": "라운드 당 {VAL}회"
 }
