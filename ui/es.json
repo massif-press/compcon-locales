@@ -2475,7 +2475,9 @@
             "collectionPublishFailedText": "Failed to publish collection {name}",
             "collectionPublishedText": "Colección {name} publicada como versión {version}",
             "patreonUnlinkedText": "Tu cuenta de Patreon no está conectada",
-            "patreonUnlinkedTitle": "Patreon Unlinked"
+            "patreonUnlinkedTitle": "Patreon Unlinked",
+            "patreonLinkFailedText": "Hubo un error enlazando su cuenta Patreon",
+            "patreonLinkFailedTitle": "Patreon Link Failed"
         }
     }
 }
