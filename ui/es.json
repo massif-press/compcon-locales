@@ -2465,7 +2465,8 @@
             "dataReplaced": "Todos los datos existentes se han sustituido por datos importados.",
             "dataImportSuccessTitle": "Importación de datos con éxito",
             "v2NoData": "No se encontraron datos",
-            "v2BackupImportedTitle": "v2 copia de seguridad importada"
+            "v2BackupImportedTitle": "v2 copia de seguridad importada",
+            "errorPrefix": "ERROR: {err}"
         }
     }
 }
