@@ -2284,7 +2284,8 @@
             "biometricRecordValid": "Registro biométrico válido [[",
             "powers": "Potencias",
             "allSelectedPowers": "Todas las Potencias seleccionadas",
-            "noBondPowerSelectionsRemaining": "No quedan selecciones Bond Power"
+            "noBondPowerSelectionsRemaining": "No quedan selecciones Bond Power",
+            "registerNewMech": "Registrarse Nuevo Mech"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
