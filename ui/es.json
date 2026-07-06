@@ -2490,7 +2490,10 @@
             "itchLinkedTitle": "Itch.io Linked",
             "emailChangeCancelledText": "El cambio de correo electrónico ha sido cancelado",
             "emailChangeFailedTitle": "E-mail change failed",
-            "emailChangeCompleteText": "Su dirección de correo electrónico ha cambiado"
+            "emailChangeCompleteText": "Su dirección de correo electrónico ha cambiado",
+            "emailChangeCompleteTitle": "Cambio de correo electrónico completo",
+            "dataUpdatedText": "Datos de usuario actualizados",
+            "signOutText": "Auth service reports successful logout"
         }
     }
 }
