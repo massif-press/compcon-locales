@@ -2472,7 +2472,9 @@
         "account": {
             "cloudArchiveCooldownText": "Debe esperar {seconds} segundos antes de crear un nuevo archivo.",
             "cloudArchiveTitle": "Cloud Archive",
-            "collectionPublishFailedText": "Failed to publish collection {name}"
+            "collectionPublishFailedText": "Failed to publish collection {name}",
+            "collectionPublishedText": "Colección {name} publicada como versión {version}",
+            "patreonUnlinkedText": "Tu cuenta de Patreon no está conectada"
         }
     }
 }
