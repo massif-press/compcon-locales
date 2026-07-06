@@ -2458,6 +2458,9 @@
             "lcpUpdatedText": "La última versión de {pack} ha sido descargada e instalada.",
             "lcpUpdatedTitle": "LCP Actualizado",
             "removedInvalidVersionText": "Eliminado {name} de la importación -- cadena de la versión inválida rompe semver"
+        },
+        "settings": {
+            "unableToImportTitle": "Incapaz de importar datos"
         }
     }
 }
