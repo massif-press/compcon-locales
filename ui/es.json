@@ -2425,7 +2425,8 @@
         "resultLastUpdated": "Última actualización",
         "addAsLocalCopy": "añadir como copia local",
         "addAsRemote": "añadir como recurso remoto",
-        "noShareCode": "Este artículo no tiene un código de acciones. Para compartirlo, sincronizarlo a su cuenta COMP/CON haciendo clic en el botón \"Sync Now\" arriba."
+        "noShareCode": "Este artículo no tiene un código de acciones. Para compartirlo, sincronizarlo a su cuenta COMP/CON haciendo clic en el botón \"Sync Now\" arriba.",
+        "shareCodeTooltip": "Este código permite a otros usuarios con una cuenta COMP/CON descargar una copia de este artículo y suscribirse a las actualizaciones que haga."
     },
     "print": {
         "generalOptions": "Opciones Generales de Impresión"
