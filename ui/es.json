@@ -2463,7 +2463,8 @@
             "unableToImportTitle": "Incapaz de importar datos",
             "dataMerged": "Los datos importados se han fusionado con los datos existentes.",
             "dataReplaced": "Todos los datos existentes se han sustituido por datos importados.",
-            "dataImportSuccessTitle": "Importación de datos con éxito"
+            "dataImportSuccessTitle": "Importación de datos con éxito",
+            "v2NoData": "No se encontraron datos"
         }
     }
 }
