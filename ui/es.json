@@ -2283,7 +2283,8 @@
             "unionAdministrativeIdentRecord": "Administrativo de la Unión RM-4 Registro de Protocolo de Identificación de Piloto (IDENT)",
             "biometricRecordValid": "Registro biométrico válido [[",
             "powers": "Potencias",
-            "allSelectedPowers": "Todas las Potencias seleccionadas"
+            "allSelectedPowers": "Todas las Potencias seleccionadas",
+            "noBondPowerSelectionsRemaining": "No quedan selecciones Bond Power"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
