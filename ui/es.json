@@ -2474,7 +2474,8 @@
             "cloudArchiveTitle": "Cloud Archive",
             "collectionPublishFailedText": "Failed to publish collection {name}",
             "collectionPublishedText": "Colección {name} publicada como versión {version}",
-            "patreonUnlinkedText": "Tu cuenta de Patreon no está conectada"
+            "patreonUnlinkedText": "Tu cuenta de Patreon no está conectada",
+            "patreonUnlinkedTitle": "Patreon Unlinked"
         }
     }
 }
