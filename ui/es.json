@@ -2356,7 +2356,8 @@
             "addGroup": "Añadir grupo",
             "allPilotsAssignedToThisGroup2": "Todos los pilotos asignados a este grupo serán trasladados a la sección \"Ningún Grupo\"",
             "transfer": "Transferencia",
-            "transferPilots": "Pilotos de transferencia"
+            "transferPilots": "Pilotos de transferencia",
+            "createNewPilot": "Crear nuevo piloto"
         },
         "selectors": {
             "exotic": "Exótico",
