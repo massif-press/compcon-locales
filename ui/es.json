@@ -2449,7 +2449,12 @@
             "uploadedTitle": "Imagen Subida"
         },
         "compendium": {
-            "campaignUpdateFailedText": "Failed to update campaign"
+            "campaignUpdateFailedText": "Failed to update campaign",
+            "campaignUpdatedText": "Campaña actualizada con éxito"
+        },
+        "lcp": {
+            "lcpUpdateErrorText": "Se produjo un error al intentar descargar {pack}.",
+            "lcpUpdateErrorTitle": "Actualización de errores LCP"
         }
     }
 }
