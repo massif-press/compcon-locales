@@ -2312,7 +2312,8 @@
             "corePassive": "Pasiva Base",
             "coreActive": "Activa Base",
             "operatorNotes": "Notas de Operador",
-            "pilotNotes": "Notas piloto"
+            "pilotNotes": "Notas piloto",
+            "gain": "Ganancia"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
@@ -2353,7 +2354,8 @@
             "doneReordering": "Terminar Reordenamiento",
             "lastModified": "Última Modificación",
             "addGroup": "Añadir grupo",
-            "allPilotsAssignedToThisGroup2": "Todos los pilotos asignados a este grupo serán trasladados a la sección \"Ningún Grupo\""
+            "allPilotsAssignedToThisGroup2": "Todos los pilotos asignados a este grupo serán trasladados a la sección \"Ningún Grupo\"",
+            "transfer": "Transferencia"
         },
         "selectors": {
             "exotic": "Exótico",
