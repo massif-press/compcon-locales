@@ -2422,7 +2422,10 @@
         "titles": {
             "pleaseUseResponsibly": "Por favor use responsablemente"
         },
-        "resultLastUpdated": "Última actualización"
+        "resultLastUpdated": "Última actualización",
+        "addAsLocalCopy": "añadir como copia local",
+        "addAsRemote": "añadir como recurso remoto",
+        "noShareCode": "Este artículo no tiene un código de acciones. Para compartirlo, sincronizarlo a su cuenta COMP/CON haciendo clic en el botón \"Sync Now\" arriba."
     },
     "print": {
         "generalOptions": "Opciones Generales de Impresión"
