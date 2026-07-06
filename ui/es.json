@@ -2477,7 +2477,8 @@
             "patreonUnlinkedText": "Tu cuenta de Patreon no está conectada",
             "patreonUnlinkedTitle": "Patreon Unlinked",
             "patreonLinkFailedText": "Hubo un error enlazando su cuenta Patreon",
-            "patreonLinkFailedTitle": "Patreon Link Failed"
+            "patreonLinkFailedTitle": "Patreon Link Failed",
+            "noSubscriptionText": "Su cuenta Patreon estaba vinculada pero no se encontró ningún nivel de suscripción activo. Suscríbete al COMP/CON Patreon e inténtelo de nuevo."
         }
     }
 }
