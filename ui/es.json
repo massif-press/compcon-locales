@@ -2443,7 +2443,13 @@
         "image": {
             "deleteFailedText": "Incapaz de comunicarse con servidor. {err}",
             "deleteFailedTitle": "Error al borrar",
-            "deletedTitle": "Imagen borrada"
+            "deletedTitle": "Imagen borrada",
+            "deletedText": "Quitado {type} {name}.",
+            "uploadedText": "Subido {file} ({size}MB)",
+            "uploadedTitle": "Imagen Subida"
+        },
+        "compendium": {
+            "campaignUpdateFailedText": "Failed to update campaign"
         }
     }
 }
