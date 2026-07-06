@@ -2357,7 +2357,9 @@
             "allPilotsAssignedToThisGroup2": "Todos los pilotos asignados a este grupo serán trasladados a la sección \"Ningún Grupo\"",
             "transfer": "Transferencia",
             "transferPilots": "Pilotos de transferencia",
-            "createNewPilot": "Crear nuevo piloto"
+            "createNewPilot": "Crear nuevo piloto",
+            "addANewPilotToThe": "Añadir un nuevo piloto a la lista",
+            "uadCAVCOMOfficeOfRecords": "UAD/CAVCOM Oficina de Registros"
         },
         "selectors": {
             "exotic": "Exótico",
