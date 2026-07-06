@@ -2421,7 +2421,8 @@
         "publicLinkNoteBold": "uRL accesible públicamente",
         "titles": {
             "pleaseUseResponsibly": "Por favor use responsablemente"
-        }
+        },
+        "resultLastUpdated": "Última actualización"
     },
     "print": {
         "generalOptions": "Opciones Generales de Impresión"
