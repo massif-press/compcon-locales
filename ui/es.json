@@ -2483,7 +2483,8 @@
             "patreonLinkedText": "Tu cuenta Patreon ha estado vinculada",
             "patreonLinkedTitle": "Patreon Linked",
             "itchUnlinkedText": "Tu cuenta itch.io no ha sido conectada",
-            "itchUnlinkedTitle": "Itch.io Unlinked"
+            "itchUnlinkedTitle": "Itch.io Unlinked",
+            "itchLinkFailedText": "Hubo un error enlazando tu picazón. io account"
         }
     }
 }
