@@ -2493,7 +2493,8 @@
             "emailChangeCompleteText": "Su dirección de correo electrónico ha cambiado",
             "emailChangeCompleteTitle": "Cambio de correo electrónico completo",
             "dataUpdatedText": "Datos de usuario actualizados",
-            "signOutText": "Auth service reports successful logout"
+            "signOutText": "Auth service reports successful logout",
+            "signOutTitle": "Sign Out Successfulful"
         }
     }
 }
