@@ -2455,7 +2455,9 @@
         "lcp": {
             "lcpUpdateErrorText": "Se produjo un error al intentar descargar {pack}.",
             "lcpUpdateErrorTitle": "Actualización de errores LCP",
-            "lcpUpdatedText": "La última versión de {pack} ha sido descargada e instalada."
+            "lcpUpdatedText": "La última versión de {pack} ha sido descargada e instalada.",
+            "lcpUpdatedTitle": "LCP Actualizado",
+            "removedInvalidVersionText": "Eliminado {name} de la importación -- cadena de la versión inválida rompe semver"
         }
     }
 }
