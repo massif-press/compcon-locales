@@ -2359,7 +2359,8 @@
             "transferPilots": "Pilotos de transferencia",
             "createNewPilot": "Crear nuevo piloto",
             "addANewPilotToThe": "Añadir un nuevo piloto a la lista",
-            "uadCAVCOMOfficeOfRecords": "UAD/CAVCOM Oficina de Registros"
+            "uadCAVCOMOfficeOfRecords": "UAD/CAVCOM Oficina de Registros",
+            "i7aSelfServiceUnitRegistration": "Registro de la unidad de autoservicio I-7a"
         },
         "selectors": {
             "exotic": "Exótico",
