@@ -2429,14 +2429,16 @@
         "shareCodeTooltip": "Este código permite a otros usuarios con una cuenta COMP/CON descargar una copia de este artículo y suscribirse a las actualizaciones que haga.",
         "syncNeeded": "Sincronización necesaria",
         "notYetSynced": "Aún no se ha sincronizado",
-        "shareCodesNote": "Los códigos compartidos permiten a cualquiera con una cuenta COMP/CON descargar una copia de este artículo y recibir actualizaciones que haga. Por favor tenga conciencia al compartir datos con otros."
+        "shareCodesNote": "Los códigos compartidos permiten a cualquiera con una cuenta COMP/CON descargar una copia de este artículo y recibir actualizaciones que haga. Por favor tenga conciencia al compartir datos con otros.",
+        "resultAuthor": "Autor"
     },
     "print": {
         "generalOptions": "Opciones Generales de Impresión"
     },
     "notify": {
         "link": {
-            "copiedText": "El enlace estático ha sido copiado al portapapeles."
+            "copiedText": "El enlace estático ha sido copiado al portapapeles.",
+            "copiedTitle": "¡Enlace Copiado!"
         }
     }
 }
