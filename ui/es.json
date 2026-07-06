@@ -2486,7 +2486,8 @@
             "itchUnlinkedTitle": "Itch.io Unlinked",
             "itchLinkFailedText": "Hubo un error enlazando tu picazón. io account",
             "itchLinkFailedTitle": "Itch.io Link Failed",
-            "itchLinkedText": "Tu cuenta de itch.io ha estado vinculada"
+            "itchLinkedText": "Tu cuenta de itch.io ha estado vinculada",
+            "itchLinkedTitle": "Itch.io Linked"
         }
     }
 }
