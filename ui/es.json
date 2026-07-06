@@ -2460,7 +2460,9 @@
             "removedInvalidVersionText": "Eliminado {name} de la importación -- cadena de la versión inválida rompe semver"
         },
         "settings": {
-            "unableToImportTitle": "Incapaz de importar datos"
+            "unableToImportTitle": "Incapaz de importar datos",
+            "dataMerged": "Los datos importados se han fusionado con los datos existentes.",
+            "dataReplaced": "Todos los datos existentes se han sustituido por datos importados."
         }
     }
 }
