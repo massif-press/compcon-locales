@@ -2482,7 +2482,8 @@
             "noSubscriptionTitle": "No hay suscripción",
             "patreonLinkedText": "Tu cuenta Patreon ha estado vinculada",
             "patreonLinkedTitle": "Patreon Linked",
-            "itchUnlinkedText": "Tu cuenta itch.io no ha sido conectada"
+            "itchUnlinkedText": "Tu cuenta itch.io no ha sido conectada",
+            "itchUnlinkedTitle": "Itch.io Unlinked"
         }
     }
 }
