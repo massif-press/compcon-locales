@@ -1015,7 +1015,8 @@
             "selectTemplate": "seleccionar plantilla",
             "selectNpcClass": "seleccionar clase de PNJ",
             "addDowntime": "Añadir Tiempo Apeado",
-            "eidolons": "Eidolones"
+            "eidolons": "Eidolones",
+            "clock": "Reloj"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
@@ -2417,6 +2418,12 @@
     "share": {
         "includeMech": "Incluir mecha",
         "sheetStyle": "Tipo de Ficha",
-        "publicLinkNoteBold": "uRL accesible públicamente"
+        "publicLinkNoteBold": "uRL accesible públicamente",
+        "titles": {
+            "pleaseUseResponsibly": "Por favor use responsablemente"
+        }
+    },
+    "print": {
+        "generalOptions": "Opciones Generales de Impresión"
     }
 }
