@@ -2468,6 +2468,10 @@
             "v2BackupImportedTitle": "v2 copia de seguridad importada",
             "errorPrefix": "ERROR: {err}",
             "unableToReadFileTitle": "No se puede leer el archivo."
+        },
+        "account": {
+            "cloudArchiveCooldownText": "Debe esperar {seconds} segundos antes de crear un nuevo archivo.",
+            "cloudArchiveTitle": "Cloud Archive"
         }
     }
 }
