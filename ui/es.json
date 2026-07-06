@@ -2360,7 +2360,8 @@
             "createNewPilot": "Crear nuevo piloto",
             "addANewPilotToThe": "Añadir un nuevo piloto a la lista",
             "uadCAVCOMOfficeOfRecords": "UAD/CAVCOM Oficina de Registros",
-            "i7aSelfServiceUnitRegistration": "Registro de la unidad de autoservicio I-7a"
+            "i7aSelfServiceUnitRegistration": "Registro de la unidad de autoservicio I-7a",
+            "identCR7aCAVALRYUNITREGISTRATION": "IDENT-CR-7a (CAVALRY UNIT REGISTRATION) es un formulario de registro autodirigido para el propósito\nde registrar una nueva designación de unidad para uno o más pilotos registrados por IDENT. Esta forma es\npara ser utilizado por pilotos que no están asignados actualmente a una unidad o que están registrando un nuevo\ndesignación de unidad por primera vez. Si desea registrar una nueva designación para una\nunidad existente, por favor envíe el formulario CR-7b (CAVALRY UNIT DOCUMENTATION UPDATE) en su lugar."
         },
         "selectors": {
             "exotic": "Exótico",
