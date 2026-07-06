@@ -2433,5 +2433,10 @@
     },
     "print": {
         "generalOptions": "Opciones Generales de Impresión"
+    },
+    "notify": {
+        "link": {
+            "copiedText": "El enlace estático ha sido copiado al portapapeles."
+        }
     }
 }
