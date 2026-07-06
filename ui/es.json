@@ -2145,7 +2145,8 @@
             "mechSkills": "Habilidades de Mecha",
             "levelUpOverview": "Subir de Nivel (Vista General)",
             "coreBONUSINSTALLATION": "Instalación de bono Base",
-            "ineligibleFORCOREBONUS": "No elegible para bonos base"
+            "ineligibleFORCOREBONUS": "No elegible para bonos base",
+            "coreBonuses": "CORE Bonos"
         },
         "new": {
             "pilot": "Piloto",
