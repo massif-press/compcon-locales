@@ -2471,7 +2471,8 @@
         },
         "account": {
             "cloudArchiveCooldownText": "Debe esperar {seconds} segundos antes de crear un nuevo archivo.",
-            "cloudArchiveTitle": "Cloud Archive"
+            "cloudArchiveTitle": "Cloud Archive",
+            "collectionPublishFailedText": "Failed to publish collection {name}"
         }
     }
 }
