@@ -2281,7 +2281,8 @@
             "mechHangar": "Hangar Mechas",
             "setPilotPortrait": "Seleccionar Retrato de Piloto",
             "unionAdministrativeIdentRecord": "Administrativo de la Unión RM-4 Registro de Protocolo de Identificación de Piloto (IDENT)",
-            "biometricRecordValid": "Registro biométrico válido [["
+            "biometricRecordValid": "Registro biométrico válido [[",
+            "powers": "Potencias"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
