@@ -2310,7 +2310,9 @@
             "atkBONUS": "Bono Atq",
             "ltdBONUS": "Bono LTD",
             "corePassive": "Pasiva Base",
-            "coreActive": "Activa Base"
+            "coreActive": "Activa Base",
+            "operatorNotes": "Notas de Operador",
+            "pilotNotes": "Notas piloto"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
