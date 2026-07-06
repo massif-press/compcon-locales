@@ -2489,7 +2489,8 @@
             "itchLinkedText": "Tu cuenta de itch.io ha estado vinculada",
             "itchLinkedTitle": "Itch.io Linked",
             "emailChangeCancelledText": "El cambio de correo electrónico ha sido cancelado",
-            "emailChangeFailedTitle": "E-mail change failed"
+            "emailChangeFailedTitle": "E-mail change failed",
+            "emailChangeCompleteText": "Su dirección de correo electrónico ha cambiado"
         }
     }
 }
