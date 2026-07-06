@@ -2535,7 +2535,10 @@
             "emailChangeCompleteTitle": "Cambio de correo electrónico completo",
             "dataUpdatedText": "Datos de usuario actualizados",
             "signOutText": "Servicio Auth reporta baja exitosa",
-            "signOutTitle": "Dado de Baja Exitósamente"
+            "signOutTitle": "Dado de Baja Exitósamente",
+            "publishedTitle": "Publicado",
+            "emailChangeCancelledTitle": "Cambio de correo electrónico cancelado",
+            "updateFailedTitle": "Actualización fallida"
         },
         "achievement": {
             "unlockedTitle": "¡Logro Desbloqueado!"
