@@ -2442,7 +2442,8 @@
         },
         "image": {
             "deleteFailedText": "Incapaz de comunicarse con servidor. {err}",
-            "deleteFailedTitle": "Error al borrar"
+            "deleteFailedTitle": "Error al borrar",
+            "deletedTitle": "Imagen borrada"
         }
     }
 }
