@@ -2466,7 +2466,8 @@
             "dataImportSuccessTitle": "Importación de datos con éxito",
             "v2NoData": "No se encontraron datos",
             "v2BackupImportedTitle": "v2 copia de seguridad importada",
-            "errorPrefix": "ERROR: {err}"
+            "errorPrefix": "ERROR: {err}",
+            "unableToReadFileTitle": "No se puede leer el archivo."
         }
     }
 }
