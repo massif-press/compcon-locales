@@ -2462,7 +2462,8 @@
         "settings": {
             "unableToImportTitle": "Incapaz de importar datos",
             "dataMerged": "Los datos importados se han fusionado con los datos existentes.",
-            "dataReplaced": "Todos los datos existentes se han sustituido por datos importados."
+            "dataReplaced": "Todos los datos existentes se han sustituido por datos importados.",
+            "dataImportSuccessTitle": "Importación de datos con éxito"
         }
     }
 }
