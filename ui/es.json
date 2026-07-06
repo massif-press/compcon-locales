@@ -2441,7 +2441,8 @@
             "copiedTitle": "¡Enlace Copiado!"
         },
         "image": {
-            "deleteFailedText": "Incapaz de comunicarse con servidor. {err}"
+            "deleteFailedText": "Incapaz de comunicarse con servidor. {err}",
+            "deleteFailedTitle": "Error al borrar"
         }
     }
 }
