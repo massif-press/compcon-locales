@@ -2487,7 +2487,9 @@
             "itchLinkFailedText": "Hubo un error enlazando tu picazón. io account",
             "itchLinkFailedTitle": "Itch.io Link Failed",
             "itchLinkedText": "Tu cuenta de itch.io ha estado vinculada",
-            "itchLinkedTitle": "Itch.io Linked"
+            "itchLinkedTitle": "Itch.io Linked",
+            "emailChangeCancelledText": "El cambio de correo electrónico ha sido cancelado",
+            "emailChangeFailedTitle": "E-mail change failed"
         }
     }
 }
