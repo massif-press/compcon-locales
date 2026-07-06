@@ -2439,6 +2439,9 @@
         "link": {
             "copiedText": "El enlace estático ha sido copiado al portapapeles.",
             "copiedTitle": "¡Enlace Copiado!"
+        },
+        "image": {
+            "deleteFailedText": "Incapaz de comunicarse con servidor. {err}"
         }
     }
 }
