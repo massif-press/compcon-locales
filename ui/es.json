@@ -2352,7 +2352,8 @@
             "includesDATAFROMTHEFOLLOWINGCONTENT": "Incluye datos de los siguientes paquetes de contenido",
             "doneReordering": "Terminar Reordenamiento",
             "lastModified": "Última Modificación",
-            "addGroup": "Añadir grupo"
+            "addGroup": "Añadir grupo",
+            "allPilotsAssignedToThisGroup2": "Todos los pilotos asignados a este grupo serán trasladados a la sección \"Ningún Grupo\""
         },
         "selectors": {
             "exotic": "Exótico",
