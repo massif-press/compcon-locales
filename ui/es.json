@@ -2764,7 +2764,8 @@
             "missingContent": "MISSING CONTENT"
         },
         "remote": {
-            "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones de la cuenta vinculada."
+            "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones de la cuenta vinculada.",
+            "collectionHelp": "Este {type} está vinculado a una colección de contenidos. Se lee solamente y recibirá actualizaciones cuando una nueva versión de la colección es publicada por el autor de la colección."
         }
     }
 }
