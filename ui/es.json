@@ -2632,6 +2632,7 @@
     "stats": {
         "sp": "SP",
         "stress": "STRESS",
-        "structure": "ESTRUCTURA"
+        "structure": "ESTRUCTURA",
+        "sensors": "SENSORS"
     }
 }
