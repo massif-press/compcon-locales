@@ -2642,5 +2642,10 @@
         "agi": "AGI",
         "engineering": "ENGINEERING",
         "systems": "SYSTEMS"
+    },
+    "ui": {
+        "image": {
+            "remoteGalleryNote": "Imágenes en esta galería son enlaces a recursos remotos y no son gestionados por COMP/CON. Si no controla el host remoto, los elementos pueden ser eliminados o cambiados en cualquier momento."
+        }
     }
 }
