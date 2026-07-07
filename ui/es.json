@@ -2667,6 +2667,9 @@
         "corePanel": {
             "special": "CORE SPECIAL EQUIPMENT",
             "integrated": "CORE INTEGRATED EQUIPMENT"
+        },
+        "counter": {
+            "addCustom": "Add Custom Counter"
         }
     }
 }
