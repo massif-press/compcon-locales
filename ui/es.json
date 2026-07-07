@@ -2648,7 +2648,8 @@
             "remoteGalleryNote": "Imágenes en esta galería son enlaces a recursos remotos y no son gestionados por COMP/CON. Si no controla el host remoto, los elementos pueden ser eliminados o cambiados en cualquier momento.",
             "artworkBy": "Obras de arte {artist}",
             "patreonNote": "En una próxima versión podrás vincular tu cuenta Patreon, y los partidarios de COMP/CON no estarán sujetos a ningún límite de almacenamiento.",
-            "addRemote": "ADD REMOTE IMAGE"
+            "addRemote": "ADD REMOTE IMAGE",
+            "overCapacity": "Tu cuenta está sobre la capacidad. Las cuentas gratuitas se restringen a {max}MB de almacenamiento."
         }
     }
 }
