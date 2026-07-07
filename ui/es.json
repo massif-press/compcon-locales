@@ -2614,7 +2614,10 @@
             "itemRestoredTitle": "Tema restablecido",
             "serverError": "Incapaz de comunicarse con servidor. {err}",
             "deleteFailedTitle": "Eliminar fracasado",
-            "itemDeletedTitle": "Elemento borrado"
+            "itemDeletedTitle": "Elemento borrado",
+            "markedDeletedText": "Marcado {type} {name} como eliminado.",
+            "convertedText": "{name} es ahora un artículo solo local.",
+            "convertedTitle": "Convertirse en Local"
         }
     }
 }
