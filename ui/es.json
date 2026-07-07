@@ -2554,7 +2554,8 @@
             "uploadErrorText": "Incapaz de actualizar la nube: {error}",
             "uploadErrorTitle": "Error de carga",
             "uploadSuccessText": "¡Datos de nube actualizados!",
-            "uploadSuccessTitle": "Subir el éxito"
+            "uploadSuccessTitle": "Subir el éxito",
+            "loginRequiredTitle": "Inicio de sesión requerido"
         }
     }
 }
