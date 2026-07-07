@@ -2816,7 +2816,8 @@
             "click": "CLICK",
             "tap": "TAP",
             "missingData": "DATOS DE PERSONAL",
-            "selectedCount": "{n}"
+            "selectedCount": "{n}",
+            "selectDamageType": "Seleccione el tipo de daño"
         }
     }
 }
