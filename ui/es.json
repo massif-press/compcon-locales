@@ -2633,6 +2633,7 @@
         "sp": "SP",
         "stress": "STRESS",
         "structure": "ESTRUCTURA",
-        "sensors": "SENSORS"
+        "sensors": "SENSORS",
+        "edefense": "E-DEFENSE"
     }
 }
