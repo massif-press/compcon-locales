@@ -2752,7 +2752,9 @@
             "checkLog": "Por favor, compruebe el registro de errores en la pestaña \"Log\" del menú Opciones para más información",
             "otherError": "COMP/CON encontró un error al cargar este artículo.",
             "packActive": "El {pack} Lancer Content Pack está instalado y activo.",
-            "requestsNewer": "Este artículo solicita una versión del {pack} Lancer Content Pack más nuevo que el que se instala actualmente."
+            "requestsNewer": "Este artículo solicita una versión del {pack} Lancer Content Pack más nuevo que el que se instala actualmente.",
+            "installedActivated": "instalados y activados",
+            "instanced": "instanced"
         }
     }
 }
