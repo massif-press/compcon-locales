@@ -2732,7 +2732,9 @@
             "deleteConfirm": "¿Quieres borrar esta tabla? Esta acción no se puede deshacer.",
             "confirmRebuild": "Confirmar Rebuild",
             "rebuildConfirm": "¿Quieres reconstruir esta mesa? Esto aclarará los datos actuales. Esta acción no se puede deshacer.",
-            "gmOnlyTooltip": "Marcar un campo o artículo \"Solamente MG\" lo ocultará de las exportaciones de jugadores y la salida de impresión"
+            "gmOnlyTooltip": "Marcar un campo o artículo \"Solamente MG\" lo ocultará de las exportaciones de jugadores y la salida de impresión",
+            "rebuild": "Reconstruir",
+            "step": "Paso"
         },
         "shareImport": {
             "qrTypeHelp": "Este artículo es un {qr}. Puede ser importado, pero aparecerá en la lista {qr}, no en la lista {type}.",
@@ -2761,7 +2763,8 @@
             "eidolonHelp": "Eidolons requieren la instalación del paquete de contenido proporcionado con {pack}",
             "detected": "Falta de contenido detectado",
             "hoverHelp": "Este {type} falta los datos LCP necesarios. COMP/CON no podrá cargar este {type} hasta que se añada el contenido perdido.",
-            "missingContent": "MISSING CONTENT"
+            "missingContent": "MISSING CONTENT",
+            "activated": "activado"
         },
         "remote": {
             "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones de la cuenta vinculada.",
@@ -2769,7 +2772,8 @@
             "collectionResource": "RECURSOS DE COLECCIÓN"
         },
         "dice": {
-            "commitResult": "Commit Result"
+            "commitResult": "Commit Result",
+            "resetAll": "Restablecer todos"
         }
     }
 }
