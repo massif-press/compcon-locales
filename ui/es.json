@@ -2744,7 +2744,8 @@
             "itemShareCode": "Artículo Código de Compartir"
         },
         "missing": {
-            "npcDataHelp": "Los datos NPC se incluyen con la versión pagada del Libro Core Lancer y por lo tanto no se incluyen con COMP/CON por defecto. Puede encontrar datos NPC Class, Template y Feature como contenido descargable adicional en el {link}."
+            "npcDataHelp": "Los datos NPC se incluyen con la versión pagada del Libro Core Lancer y por lo tanto no se incluyen con COMP/CON por defecto. Puede encontrar datos NPC Class, Template y Feature como contenido descargable adicional en el {link}.",
+            "gmHelp2": "Si usted compró una copia física del Libro Core de Lancer, pero no ha recibido instrucciones sobre cómo redimir su copia de la versión digital y sus activos asociados, incluyendo datos básicos de NPC, póngase en contacto con Massif Press en {email}"
         }
     }
 }
