@@ -2729,7 +2729,8 @@
         "rollTable": {
             "d": "D",
             "multipleOnes": "Múltiple 1{plural}",
-            "deleteConfirm": "¿Quieres borrar esta tabla? Esta acción no se puede deshacer."
+            "deleteConfirm": "¿Quieres borrar esta tabla? Esta acción no se puede deshacer.",
+            "confirmRebuild": "Confirmar Rebuild"
         }
     }
 }
