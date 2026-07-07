@@ -2665,7 +2665,8 @@
             "remoteImages": "Imágenes remotas"
         },
         "corePanel": {
-            "special": "CORE SPECIAL EQUIPMENT"
+            "special": "CORE SPECIAL EQUIPMENT",
+            "integrated": "CORE INTEGRATED EQUIPMENT"
         }
     }
 }
