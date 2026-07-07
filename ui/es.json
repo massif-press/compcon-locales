@@ -2593,6 +2593,9 @@
             "downloadCompleteTitle": "Descarga completa",
             "uploadFailedTitle": "Error al cargar",
             "uploadCompleteTitle": "Subida completa"
+        },
+        "share": {
+            "syncFailedTitle": "Sincronizado"
         }
     }
 }
