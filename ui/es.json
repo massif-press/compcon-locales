@@ -2760,7 +2760,8 @@
             "npcHelp": "COMP/CON no puede cargar datos NPC sin la instalación del paquete de contenido NPC proporcionado con la versión pagada (GM) del {pack}",
             "eidolonHelp": "Eidolons requieren la instalación del paquete de contenido proporcionado con {pack}",
             "detected": "Falta de contenido detectado",
-            "hoverHelp": "Este {type} falta los datos LCP necesarios. COMP/CON no podrá cargar este {type} hasta que se añada el contenido perdido."
+            "hoverHelp": "Este {type} falta los datos LCP necesarios. COMP/CON no podrá cargar este {type} hasta que se añada el contenido perdido.",
+            "missingContent": "MISSING CONTENT"
         }
     }
 }
