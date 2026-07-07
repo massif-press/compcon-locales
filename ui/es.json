@@ -2809,7 +2809,9 @@
             "passive": "PASSIVE",
             "integratedMechWeapon": "INTEGRATED MECH WEAPON",
             "deploy": "DEPLOY",
-            "noSelection": "NO SELECCIÓN"
+            "noSelection": "NO SELECCIÓN",
+            "other": "Otro",
+            "noDescription": "Sin descripción"
         }
     }
 }
