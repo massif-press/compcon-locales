@@ -2660,7 +2660,8 @@
             "setAvatar": "Establecer Avatar",
             "clearImage": "imagen clara",
             "requiresSelection": "Requiere la selección de imágenes",
-            "noAvatar": "no avatar set"
+            "noAvatar": "no avatar set",
+            "archive": "COMP/CON Archivo de imágenes"
         }
     }
 }
