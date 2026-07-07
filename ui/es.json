@@ -2795,7 +2795,8 @@
         "bond": {
             "masterPower": "Master Power",
             "veteranPower": "Veterano Power",
-            "bondPowers": "Bond Powers"
+            "bondPowers": "Bond Powers",
+            "minorIdeals": "MINOR IDEALS"
         }
     }
 }
