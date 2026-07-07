@@ -2783,7 +2783,8 @@
         },
         "brokenRef": {
             "instancedNote": "Este artículo ha sido señalado como un objeto único y si se elimina no estará disponible hasta que se instale el LCP asociado.",
-            "partOfPack": "Este artículo forma parte del siguiente paquete de contenido de Lancer:"
+            "partOfPack": "Este artículo forma parte del siguiente paquete de contenido de Lancer:",
+            "instancedItem": "Tema presentado"
         }
     }
 }
