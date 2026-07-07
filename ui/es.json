@@ -2657,7 +2657,8 @@
             "dragHelp2": "Arrastre la imagen a la reposición, rueda del ratón para ampliar la imagen",
             "dragHelp1": "Stencil de arrastre para mover el objetivo de cultivo, empuñaduras de arrastre para cambiar el tamaño",
             "clearAvatar": "avatar claro",
-            "setAvatar": "Establecer Avatar"
+            "setAvatar": "Establecer Avatar",
+            "clearImage": "imagen clara"
         }
     }
 }
