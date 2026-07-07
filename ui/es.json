@@ -2805,7 +2805,8 @@
             "content": "LCP Índice"
         },
         "widget": {
-            "active": "ACTIVO"
+            "active": "ACTIVO",
+            "passive": "PASSIVE"
         }
     }
 }
