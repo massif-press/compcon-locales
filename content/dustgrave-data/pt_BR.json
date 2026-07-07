@@ -1,1 +1,10 @@
-{}
+{
+    "cb_superheavy_mounting.description": "Você se surpreenderia com o tamanho da arma que daria para instalar em um chassi se você removesse os sistemas periféricos e as redundâncias de segurança.",
+    "cb_superheavy_mounting.effect": "Se seu mecha tem menos de 3 encaixes (excluído encaixes Integrados) ele ganha um encaixe Superpesado adicional. Esse encaixe só pode levar armas Superpesadas. Elas ainda precisam de uma montaria adicional para serem instaladas. Se seu mecha tem um encaixe Pesado a arma Superpesada deve usar esse encaixe como o adicional.",
+    "emergency_coolant_reservoir.action_emergency_coolant_reservoir.detail": "Remover EXPOSTO como uma ação livre.",
+    "emergency_coolant_reservoir.action_emergency_coolant_reservoir.name": "Reservatório de líquido de arrefecimento de emergência",
+    "emergency_coolant_reservoir.description": "1/missão: limpa EXPOSTO como uma ação livre.",
+    "emergency_coolant_reservoir.name": "Reservatório de líquido de arrefecimento de emergência",
+    "mf_micro_monarch.trait_pressure_plating.description": "A Viceroy tem Resistência a Dano Explosivo.",
+    "mf_micro_monarch.trait_vigilante_omnidirectional_launchers.active_effect_vigilante_omnidirectional_launchers.detail": "1/Rodada, em um acerto crítico, causa 2 de Dano Explosivo a todos os personagens a sua escolha em um Alcance 3 e empurre eles 1 espaço para trás."
+}
