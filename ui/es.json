@@ -2620,7 +2620,9 @@
             "convertedTitle": "Convertirse en Local",
             "retryFailedText": "El elemento remoto para {name} no se pudo encontrar.",
             "retryFailedTitle": "Retry Failed",
-            "connectionRestoredTitle": "Conexión restablecida"
+            "connectionRestoredTitle": "Conexión restablecida",
+            "connectionRestoredText": "{name} está vinculada de nuevo.",
+            "bulkFailedTitle": "Bulk Delete Failed"
         }
     }
 }
