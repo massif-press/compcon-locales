@@ -2661,7 +2661,8 @@
             "clearImage": "imagen clara",
             "requiresSelection": "Requiere la selección de imágenes",
             "noAvatar": "no avatar set",
-            "archive": "COMP/CON Archivo de imágenes"
+            "archive": "COMP/CON Archivo de imágenes",
+            "remoteImages": "Imágenes remotas"
         }
     }
 }
