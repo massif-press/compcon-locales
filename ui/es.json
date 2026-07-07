@@ -2730,7 +2730,8 @@
             "d": "D",
             "multipleOnes": "Múltiple 1{plural}",
             "deleteConfirm": "¿Quieres borrar esta tabla? Esta acción no se puede deshacer.",
-            "confirmRebuild": "Confirmar Rebuild"
+            "confirmRebuild": "Confirmar Rebuild",
+            "rebuildConfirm": "¿Quieres reconstruir esta mesa? Esto aclarará los datos actuales. Esta acción no se puede deshacer."
         }
     }
 }
