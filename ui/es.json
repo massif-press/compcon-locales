@@ -2754,7 +2754,8 @@
             "packActive": "El {pack} Lancer Content Pack está instalado y activo.",
             "requestsNewer": "Este artículo solicita una versión del {pack} Lancer Content Pack más nuevo que el que se instala actualmente.",
             "installedActivated": "instalados y activados",
-            "instanced": "instanced"
+            "instanced": "instanced",
+            "usesContent": "Este artículo utiliza el contenido del {pack} Lancer Content Pack. El equipo de este paquete de contenido será {instanced} hasta que el LCP requerido sea {state} a través del menú Contenido de Gestión."
         }
     }
 }
