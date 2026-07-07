@@ -2695,7 +2695,8 @@
             "noManufacturer": "No fabricante"
         },
         "license": {
-            "allUnlocked": "Todos los Ranks desbloqueados"
+            "allUnlocked": "Todos los Ranks desbloqueados",
+            "noRanks": "Sin licencia Ranks"
         }
     }
 }
