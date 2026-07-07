@@ -2573,7 +2573,8 @@
             "copiedTitle": "Statblock Copied to Clipboard"
         },
         "pilot": {
-            "syncFailedText": "Failed to sync Pilot {callsign} // {name}. {err}"
+            "syncFailedText": "Failed to sync Pilot {callsign} // {name}. {err}",
+            "syncedText": "Pilot {callsign} // {name} sincronizado."
         }
     }
 }
