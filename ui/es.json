@@ -2731,7 +2731,8 @@
             "multipleOnes": "Múltiple 1{plural}",
             "deleteConfirm": "¿Quieres borrar esta tabla? Esta acción no se puede deshacer.",
             "confirmRebuild": "Confirmar Rebuild",
-            "rebuildConfirm": "¿Quieres reconstruir esta mesa? Esto aclarará los datos actuales. Esta acción no se puede deshacer."
+            "rebuildConfirm": "¿Quieres reconstruir esta mesa? Esto aclarará los datos actuales. Esta acción no se puede deshacer.",
+            "gmOnlyTooltip": "Marcar un campo o artículo \"Solamente MG\" lo ocultará de las exportaciones de jugadores y la salida de impresión"
         }
     }
 }
