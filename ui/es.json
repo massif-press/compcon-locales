@@ -2641,7 +2641,9 @@
         "hp": "HP",
         "agi": "AGI",
         "engineering": "ENGINEERING",
-        "systems": "SYSTEMS"
+        "systems": "SYSTEMS",
+        "speed": "Velocidad",
+        "agility": "Agilidad"
     },
     "ui": {
         "image": {
@@ -2662,7 +2664,9 @@
             "requiresSelection": "Requiere la selección de imágenes",
             "noAvatar": "no avatar set",
             "archive": "COMP/CON Archivo de imágenes",
-            "remoteImages": "Imágenes remotas"
+            "remoteImages": "Imágenes remotas",
+            "load": "Cargar",
+            "upload": "Cargar"
         },
         "corePanel": {
             "special": "CORE SPECIAL EQUIPMENT",
@@ -2699,6 +2703,12 @@
             "noRanks": "Sin licencia Ranks",
             "prereqSingle": "Esta Licencia requiere al menos otra {source} Licencia en Rank {rank} o superior",
             "prereqCumulative": "Esta Licencia requiere al menos {rank} licencias acumuladas de {source}"
+        },
+        "fields": {
+            "metric": "Métrico"
+        },
+        "filter": {
+            "greaterThan": "Mayor que"
         }
     }
 }
