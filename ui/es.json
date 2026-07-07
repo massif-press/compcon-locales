@@ -2815,7 +2815,8 @@
             "toClose": "PARA EL CLARACIÓN",
             "click": "CLICK",
             "tap": "TAP",
-            "missingData": "DATOS DE PERSONAL"
+            "missingData": "DATOS DE PERSONAL",
+            "selectedCount": "{n}"
         }
     }
 }
