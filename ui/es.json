@@ -2711,7 +2711,8 @@
             "greaterThan": "Mayor que",
             "equalTo": "Igualdad",
             "lessThan": "Menos Que",
-            "spCost": "SP Costo"
+            "spCost": "SP Costo",
+            "noFilters": "No hay filtros disponibles"
         }
     }
 }
