@@ -2775,7 +2775,8 @@
             "commitResult": "Enviar Resultado",
             "resetAll": "Restablecer Todo",
             "clearAll": "Limpiar Todo",
-            "total": "Total"
+            "total": "Total",
+            "flatModifier": "FLAT MODIFIER"
         }
     }
 }
