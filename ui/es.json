@@ -2571,6 +2571,9 @@
             "errorText": "Incapaz de copiar el bloqueo",
             "copiedText": "Copia de éxito",
             "copiedTitle": "Statblock Copied to Clipboard"
+        },
+        "pilot": {
+            "syncFailedText": "Failed to sync Pilot {callsign} // {name}. {err}"
         }
     }
 }
