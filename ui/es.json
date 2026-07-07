@@ -2776,7 +2776,8 @@
             "resetAll": "Restablecer Todo",
             "clearAll": "Limpiar Todo",
             "total": "Total",
-            "flatModifier": "FLAT MODIFIER"
+            "flatModifier": "FLAT MODIFIER",
+            "rolling": "ROLLING {n}D{sides}"
         }
     }
 }
