@@ -2788,6 +2788,9 @@
         },
         "confirm": {
             "heading": "// INTERRUPO DE PROCESO: AUTORIZACIÓN NECESITA //"
+        },
+        "clock": {
+            "deleteConfirm": "¿Quieres borrar este reloj? Esta acción no se puede deshacer."
         }
     }
 }
