@@ -2539,200 +2539,200 @@
             "publishedTitle": "Publicado",
             "emailChangeCancelledTitle": "Cambio de correo electrónico cancelado",
             "updateFailedTitle": "Actualización fallida",
-            "emailChangeInitFailedTitle": "Failed to initiate email change",
+            "emailChangeInitFailedTitle": "Fallo al iniciar cambio de correo electrónico",
             "verificationSentText": "Por favor, compruebe su buzón de entrada para el código de verificación",
             "verificationSentTitle": "Correo electrónico de verificación enviado",
             "serverError": "El servidor devolvió un error",
             "passwordFailedTitle": "La actualización de contraseña falló",
-            "passwordChangedText": "Cambio de contraseña de usuario",
-            "updateCompleteTitle": "Actualización completada!"
+            "passwordChangedText": "Contraseña de usuario cambiada",
+            "updateCompleteTitle": "Actualización completada"
         },
         "achievement": {
             "unlockedTitle": "¡Logro Desbloqueado!"
         },
         "gm": {
-            "uploadErrorText": "Incapaz de actualizar la nube: {error}",
-            "uploadErrorTitle": "Error de carga",
+            "uploadErrorText": "No es posible actualizar la nube: {error}",
+            "uploadErrorTitle": "Error al Cargar",
             "uploadSuccessText": "¡Datos de nube actualizados!",
-            "uploadSuccessTitle": "Subir el éxito",
-            "loginRequiredTitle": "Inicio de sesión requerido",
+            "uploadSuccessTitle": "Cargado con Éxito",
+            "loginRequiredTitle": "Requiere Inicio de Sesión",
             "loginRequiredText": "Debes iniciar sesión para cargar datos de campaña en el repositorio de la nube.",
-            "campaignTransferErrorText": "Incapaz de transferir campaña: {error}",
-            "importErrorTitle": "Error al importar",
-            "importCompleteText": "Campaña agregada a la colección local!",
-            "importCompleteTitle": "Importación finalizada",
+            "campaignTransferErrorText": "No es posible transferir campaña: {error}",
+            "importErrorTitle": "Error al Importar",
+            "importCompleteText": "¡Campaña agregada a la colección local!",
+            "importCompleteTitle": "Importación Completada",
             "campaignPublishedText": "La versión {version} de {name} ha sido publicada.",
-            "campaignPublishedTitle": "Campaña publicada",
-            "v2BackupText": "{count} artículo(s) guardado a las importaciones v2 pendientes en el Administrador de Contenidos.",
-            "v2BackupTitle": "v2 Import Backup",
-            "npcImportErrorText": "Incapaz de importar datos GM: {error}"
+            "campaignPublishedTitle": "Campaña Publicada",
+            "v2BackupText": "{count} artículo guardado en las importaciones v2 pendientes en el Gestor de Contenidos. | {count} artículos guardados en las importaciones v2 pendientes en el Gestor de Contenidos.",
+            "v2BackupTitle": "Importar Respaldo v2",
+            "npcImportErrorText": "No es posible importar datos DJ: {error}"
         },
         "statblock": {
-            "errorText": "Incapaz de copiar el bloqueo",
-            "copiedText": "Copia de éxito",
-            "copiedTitle": "Statblock Copied to Clipboard"
+            "errorText": "No es posible copiar el bloque de estadísticas",
+            "copiedText": "Copiado Éxitosamente",
+            "copiedTitle": "Bloque de Estadísticas Copiado al Portapapeles"
         },
         "pilot": {
-            "syncFailedText": "Failed to sync Pilot {callsign} // {name}. {err}",
-            "syncedText": "Pilot {callsign} // {name} sincronizado.",
-            "upToDateText": "Pilot {callsign} // {name} ya tiene los datos de nube más recientes. No es necesario actualizar.",
-            "upToDateTitle": "Piloto actualizado"
+            "syncFailedText": "Fallo al sincronizar Piloto {callsign} // {name}. {err}",
+            "syncedText": "Piloto {callsign} // {name} sincronizado.",
+            "upToDateText": "Piloto {callsign} // {name} ya tiene los datos de nube más recientes. No es necesario actualizar.",
+            "upToDateTitle": "Piloto Actualizado"
         },
         "shareCode": {
             "collectionCopiedText": "Codigo de compartir colección copiado a portapapeles",
-            "copiedText": "Código compartido copiado a portapapeles."
+            "copiedText": "Código de compartir copiado al portapapeles."
         },
         "transfer": {
-            "itemDownloadFailed": "Failed to download {type} {name}. {err}",
-            "itemDownloaded": "{type} {name} se fusionó de la nube.",
-            "itemUploadFailed": "Failed to upload {type} {name}. {err}",
-            "itemUploaded": "Subió.",
-            "itemSyncFailed": "Failed to sync {type} {name}. {err}",
-            "itemSynced": "sincronizado.",
-            "downloadFailedTitle": "Ha fallado la descarga",
-            "downloadCompleteTitle": "Descarga completa",
-            "uploadFailedTitle": "Error al cargar",
-            "uploadCompleteTitle": "Subida completa"
+            "itemDownloadFailed": "Fallo al descargar {type} {name}. {err}",
+            "itemDownloaded": "{type} {name} fusionado desde la nube.",
+            "itemUploadFailed": "Fallo al cargar {type} {name}. {err}",
+            "itemUploaded": "{type} {name} cargado.",
+            "itemSyncFailed": "Fallo al sincronizar {type} {name}. {err}",
+            "itemSynced": "{type} {name} sincronizado.",
+            "downloadFailedTitle": "Descarga Fallida",
+            "downloadCompleteTitle": "Descarga Completa",
+            "uploadFailedTitle": "Error al Cargar",
+            "uploadCompleteTitle": "Carga Completa"
         },
         "share": {
-            "syncFailedTitle": "Sincronizado",
-            "syncCompleteTitle": "Sincronización completada",
+            "syncFailedTitle": "Sincronización Fallida",
+            "syncCompleteTitle": "Sincronización Completada",
             "syncCompleteText": "{name} sincronizado con la nube.",
             "syncInProgressText": "Por favor, espere que la sincronización actual se complete.",
-            "syncInProgressTitle": "Sincronización en el progreso"
+            "syncInProgressTitle": "Sincronización en Progreso"
         },
         "common": {
             "copied": "Copiado",
             "error": "Error"
         },
         "dataItem": {
-            "failedToDeleteText": "Failed to delete {type} {name}. {err}",
+            "failedToDeleteText": "Fallo al eliminar {type} {name}. {err}",
             "removedText": "Quitado {type} {name}.",
-            "deletedPermanentlyTitle": "Tema suprimido permanentemente",
-            "restoreFailedTitle": "Error en la restauración",
+            "deletedPermanentlyTitle": "Artículo Eliminado Permanentemente",
+            "restoreFailedTitle": "Restauración Fallida",
             "restoredText": "Restaurado {type} {name}.",
-            "itemRestoredTitle": "Tema restablecido",
-            "serverError": "Incapaz de comunicarse con servidor. {err}",
-            "deleteFailedTitle": "Eliminar fracasado",
-            "itemDeletedTitle": "Elemento borrado",
+            "itemRestoredTitle": "Artículo Restaurado",
+            "serverError": "No es posible comunicarse con el servidor. {err}",
+            "deleteFailedTitle": "Eliminar Fallido",
+            "itemDeletedTitle": "Artículo Eliminado",
             "markedDeletedText": "Marcado {type} {name} como eliminado.",
             "convertedText": "{name} es ahora un artículo solo local.",
-            "convertedTitle": "Convertirse en Local",
+            "convertedTitle": "Convertido en Local",
             "retryFailedText": "El elemento remoto para {name} no se pudo encontrar.",
-            "retryFailedTitle": "Retry Failed",
-            "connectionRestoredTitle": "Conexión restablecida",
+            "retryFailedTitle": "Reintento Fallido",
+            "connectionRestoredTitle": "Conexión Restablecida",
             "connectionRestoredText": "{name} está vinculada de nuevo.",
-            "bulkFailedTitle": "Bulk Delete Failed",
-            "bulkPartialText": "No podía borrar: {items}",
-            "bulkPartialTitle": "{n} Suprimido, {f} Failed",
+            "bulkFailedTitle": "Eliminación en Bloque Fallida",
+            "bulkPartialText": "No es posible eliminar: {items}",
+            "bulkPartialTitle": "{n} Eliminado, {f} Fallido",
             "bulkDeletedText": "Se han eliminado los elementos seleccionados.",
-            "bulkDeletedTitle": "{n} Tema{s} Suprimido"
+            "bulkDeletedTitle": "{n} Artículo Eliminado | {n} Artículos Eliminados"
         }
     },
     "stats": {
-        "sp": "SP",
-        "stress": "STRESS",
-        "structure": "ESTRUCTURA",
-        "sensors": "SENSORS",
-        "edefense": "E-DEFENSE",
-        "edef": "E-DEF",
-        "evasion": "EVASIÓN",
-        "armor": "ARMOR",
-        "hp": "HP",
+        "sp": "PS",
+        "stress": "Estrés",
+        "structure": "Estructura",
+        "sensors": "Sensores",
+        "edefense": "Defensa-E",
+        "edef": "DEF-E",
+        "evasion": "Evasión",
+        "armor": "Armadura",
+        "hp": "PV",
         "agi": "AGI",
-        "engineering": "ENGINEERING",
-        "systems": "SYSTEMS",
+        "engineering": "Ingeniería",
+        "systems": "Sistemas",
         "speed": "Velocidad",
         "agility": "Agilidad"
     },
     "ui": {
         "image": {
-            "remoteGalleryNote": "Imágenes en esta galería son enlaces a recursos remotos y no son gestionados por COMP/CON. Si no controla el host remoto, los elementos pueden ser eliminados o cambiados en cualquier momento.",
-            "artworkBy": "Obras de arte {artist}",
-            "patreonNote": "En una próxima versión podrás vincular tu cuenta Patreon, y los partidarios de COMP/CON no estarán sujetos a ningún límite de almacenamiento.",
-            "addRemote": "ADD REMOTE IMAGE",
-            "overCapacity": "Tu cuenta está sobre la capacidad. Las cuentas gratuitas se restringen a {max}MB de almacenamiento.",
-            "capacityExceeded": "CAPACIDAD EXCEED",
-            "accountUsage": "ACCOUNT USAGE",
-            "uploadImage": "SUBTÍTULOS",
-            "requiresAccount": "Requiere COMP/CON Cuenta",
-            "dragHelp2": "Arrastre la imagen a la reposición, rueda del ratón para ampliar la imagen",
-            "dragHelp1": "Stencil de arrastre para mover el objetivo de cultivo, empuñaduras de arrastre para cambiar el tamaño",
-            "clearAvatar": "avatar claro",
-            "setAvatar": "Establecer Avatar",
-            "clearImage": "imagen clara",
-            "requiresSelection": "Requiere la selección de imágenes",
-            "noAvatar": "no avatar set",
-            "archive": "COMP/CON Archivo de imágenes",
-            "remoteImages": "Imágenes remotas",
+            "remoteGalleryNote": "Imágenes en esta galería son enlaces a recursos remotos y no son gestionados por @:{'common.appName'}. Si no controla el host remoto, los elementos pueden ser eliminados o cambiados en cualquier momento.",
+            "artworkBy": "Obras de arte por {artist}",
+            "patreonNote": "En una próxima versión podrás vincular tu cuenta Patreon, y los mecenas de @:{'common.appName'} no estarán sujetos a ningún límite de almacenamiento.",
+            "addRemote": "Agregar Imagen Remota",
+            "overCapacity": "Tu cuenta sobrepasó la capacidad. Las cuentas gratuitas se restringen a {max}MB de almacenamiento.",
+            "capacityExceeded": "Capacidad excedida",
+            "accountUsage": "Uso de cuenta",
+            "uploadImage": "Cargar imagen",
+            "requiresAccount": "Requiere Cuenta @:{'common.appName'}",
+            "dragHelp2": "Arrastre la imagen para reposicionarla, rueda del ratón para redimensionar la imagen",
+            "dragHelp1": "Arrastre la plantilla para recortar el objetivo, arrastre empuñaduras para cambiar el tamaño",
+            "clearAvatar": "limpiar avatar",
+            "setAvatar": "Elegir Avatar",
+            "clearImage": "limpiar imagen",
+            "requiresSelection": "Requiere Selección de Imagen",
+            "noAvatar": "sin avatar elegido",
+            "archive": "@:{'common.appName'} Archivo de imágenes",
+            "remoteImages": "Imágenes Remotas",
             "load": "Cargar",
             "upload": "Cargar"
         },
         "corePanel": {
-            "special": "CORE SPECIAL EQUIPMENT",
-            "integrated": "CORE INTEGRATED EQUIPMENT"
+            "special": "Equipo Especial BASE",
+            "integrated": "Equipo Base integrado"
         },
         "counter": {
-            "addCustom": "Add Custom Counter"
+            "addCustom": "Añadir Conteo Personalizado"
         },
         "action": {
-            "compendiumEntry": "Entrada compendio"
+            "compendiumEntry": "Entrada Compendio"
         },
         "org": {
             "influence": "Influencia de la Organización",
-            "efficiency": "Eficiencia de la organización"
+            "efficiency": "Eficiencia de la Organización"
         },
         "coreBonus": {
-            "instancedWarning": "Este es un tema aducido. Si se elimina, este bono Core no estará disponible hasta que se instale el LCP asociado.",
-            "additional": "CORE BONUS ADDITIONAL EQUIPMENT",
-            "integrated": "CORE BONUS INTEGRATED EQUIPMENT",
-            "deployables": "CORE BONUS DEPLOYABLES",
-            "actions": "CORE BONUS ACTIONS",
-            "remove": "Quitar este bono de CORE"
+            "instancedWarning": "{warning} Este es un artículo instanciado. Si se elimina, este bono Base no estará disponible hasta que se instale el LCP asociado.",
+            "additional": "Bono Base equipo adicional",
+            "integrated": "Bono Base equipo integrado",
+            "deployables": "Bono Base desplegables",
+            "actions": "Bono Base acciones",
+            "remove": "Quitar este bono BASE"
         },
         "talent": {
-            "unlocked": "UNLOCKED",
-            "rankLocked": "TALENT RANK LOCKED"
+            "unlocked": "Desbloqueado",
+            "rankLocked": "Rango de Talento Bloqueado"
         },
         "selector": {
             "select": "Seleccione {name}",
-            "noManufacturer": "No fabricante"
+            "noManufacturer": "Sin Fabricante"
         },
         "license": {
-            "allUnlocked": "Todos los Ranks desbloqueados",
-            "noRanks": "Sin licencia Ranks",
-            "prereqSingle": "Esta Licencia requiere al menos otra {source} Licencia en Rank {rank} o superior",
-            "prereqCumulative": "Esta Licencia requiere al menos {rank} licencias acumuladas de {source}"
+            "allUnlocked": "Todos los Rangos Desbloqueados",
+            "noRanks": "Sin Rangos de Licencia",
+            "prereqSingle": "Esta Licencia requiere al menos otra {source} Licencia en Rango {rank} o superior",
+            "prereqCumulative": "Esta Licencia requiere al menos {rank} Rangos acumulados de licencias {source}"
         },
         "fields": {
             "metric": "Métrico"
         },
         "filter": {
-            "greaterThan": "Mayor que",
-            "equalTo": "Igualdad",
-            "lessThan": "Menos Que",
-            "spCost": "SP Costo",
-            "noFilters": "No hay filtros disponibles",
-            "setItemFilters": "Establecer filtros de elementos",
-            "clearFilters": "Borrar filtros",
-            "savedConfigs": "Configuraciones guardadas"
+            "greaterThan": "Mayor Que",
+            "equalTo": "Igual A",
+            "lessThan": "Menor Que",
+            "spCost": "Costo PS",
+            "noFilters": "Sin filtros disponibles",
+            "setItemFilters": "Establecer Filtros de Artículos",
+            "clearFilters": "Limpiar Filtros",
+            "savedConfigs": "Configuraciones Guardadas"
         },
         "pwa": {
-            "offlineReady": "COMP/CON está listo para uso offline.",
-            "updateNow": "Actualizar ahora",
-            "later": "Más tarde",
-            "updateAvailable": "Una nueva versión de COMP/CON está disponible."
+            "offlineReady": "@:{'common.appName'} está listo para uso fuera de línea.",
+            "updateNow": "Actualizar Ahora",
+            "later": "Más Tarde",
+            "updateAvailable": "Una nueva versión de @:{'common.appName'} está disponible."
         },
         "relationship": {
             "deleteConfirm": "¿Quieres eliminar esta relación? Esta acción no se puede deshacer."
         },
         "rollTable": {
             "d": "D",
-            "multipleOnes": "Múltiple 1{plural}",
-            "deleteConfirm": "¿Quieres borrar esta tabla? Esta acción no se puede deshacer.",
-            "confirmRebuild": "Confirmar Rebuild",
-            "rebuildConfirm": "¿Quieres reconstruir esta mesa? Esto aclarará los datos actuales. Esta acción no se puede deshacer.",
-            "gmOnlyTooltip": "Marcar un campo o artículo \"Solamente MG\" lo ocultará de las exportaciones de jugadores y la salida de impresión",
+            "multipleOnes": "Múltiple 1s",
+            "deleteConfirm": "¿Quiere borrar esta tabla? Esta acción no se puede deshacer.",
+            "confirmRebuild": "Confirmar Reconstrucción",
+            "rebuildConfirm": "¿Quieres reconstruir esta tabla? Esto limpiará los datos actuales. Esta acción no se puede deshacer.",
+            "gmOnlyTooltip": "Marcar un campo o artículo \"Solamente DJ\" lo ocultará de las exportaciones y la salida de impresión para los jugadores",
             "rebuild": "Reconstruir",
             "step": "Paso"
         },
@@ -2740,42 +2740,42 @@
             "qrTypeHelp": "Este artículo es un {qr}. Puede ser importado, pero aparecerá en la lista {qr}, no en la lista {type}.",
             "alreadyAdded": "Este artículo ya se ha añadido como un recurso remoto.",
             "userOwned": "Usted es el autor de este artículo. No puede agregar sus propios elementos como recursos remotos.",
-            "dataFound": "// {type} DAATA FOUND",
+            "dataFound": "// {type} datos hallados",
             "noItemFound": "No se encontró ningún artículo con el código {code}.",
-            "findItem": "Encontrar el tema",
-            "itemShareCode": "Artículo Código de Compartir"
+            "findItem": "Encontrar Artículo",
+            "itemShareCode": "Código de Compartir Artículo"
         },
         "missing": {
-            "npcDataHelp": "Los datos NPC se incluyen con la versión pagada del Libro Core Lancer y por lo tanto no se incluyen con COMP/CON por defecto. Puede encontrar datos NPC Class, Template y Feature como contenido descargable adicional en el {link}.",
-            "gmHelp2": "Si usted compró una copia física del Libro Core de Lancer, pero no ha recibido instrucciones sobre cómo redimir su copia de la versión digital y sus activos asociados, incluyendo datos básicos de NPC, póngase en contacto con Massif Press en {email}",
-            "gmHelp1": "Si ya ha descargado los datos de NPC, puede importarlo a COMP/CON a través del Administrador de Contenidos disponible en el menú principal o en el menú Opciones en el lado derecho de la barra de navegación.",
-            "coreBookLink": "LANCER: Core Book itch.io page",
-            "noNpcData": "¡No se han encontrado datos del editor NPC!",
-            "checkLog": "Por favor, compruebe el registro de errores en la pestaña \"Log\" del menú Opciones para más información",
-            "otherError": "COMP/CON encontró un error al cargar este artículo.",
-            "packActive": "El {pack} Lancer Content Pack está instalado y activo.",
-            "requestsNewer": "Este artículo solicita una versión del {pack} Lancer Content Pack más nuevo que el que se instala actualmente.",
+            "npcDataHelp": "Los datos PNJ se incluyen con la versión pagada del Libro Core Lancer y por lo tanto no se incluyen con @:{'common.appName'} por defecto. Puede encontrar datos de Clase PNJ, Plantilla y Caraterísticas como contenido descargable adicional en el {link}.",
+            "gmHelp2": "Si usted compró una copia física del Libro Core de Lancer, pero no ha recibido instrucciones sobre cómo redimir su copia de la versión digital y sus activos asociados, incluyendo datos básicos de PNJ, póngase en contacto con Massif Press en {email}",
+            "gmHelp1": "Si ya ha descargado los datos de PNJ, puede importarlo a @:{'common.appName'} a través del Gestor de Contenidos disponible en el Menú Principal o en el menú Opciones en el lado derecho de la barra de navegación.",
+            "coreBookLink": "Libro @:{'common.gameName'}: Core página itch.io",
+            "noNpcData": "¡No se han encontrado datos del editor de PNJ!",
+            "checkLog": "Por favor, compruebe el registro de errores en la pestaña \"Bitácora\" del menú Opciones para más información",
+            "otherError": "@:{'common.appName'} encontró un error al cargar este artículo.",
+            "packActive": "El {pack} Paquete de Contenido Lancer está instalado y activo.",
+            "requestsNewer": "Este artículo solicita una versión del {pack} Paquete de Contenido Lancer más nuevo que el que instalado actualmente.",
             "installedActivated": "instalados y activados",
-            "instanced": "instanced",
-            "usesContent": "Este artículo utiliza el contenido del {pack} Lancer Content Pack. El equipo de este paquete de contenido será {instanced} hasta que el LCP requerido sea {state} a través del menú Contenido de Gestión.",
-            "lancerCoreBook": "Lancer Core Book",
-            "npcHelp": "COMP/CON no puede cargar datos NPC sin la instalación del paquete de contenido NPC proporcionado con la versión pagada (GM) del {pack}",
-            "eidolonHelp": "Eidolons requieren la instalación del paquete de contenido proporcionado con {pack}",
-            "detected": "Falta de contenido detectado",
-            "hoverHelp": "Este {type} falta los datos LCP necesarios. COMP/CON no podrá cargar este {type} hasta que se añada el contenido perdido.",
-            "missingContent": "MISSING CONTENT",
+            "instanced": "instanciado",
+            "usesContent": "Este artículo utiliza el contenido del {pack} Paquete de Contenido Lancer. El equipo de este paquete de contenido será {instanced} hasta que el LCP requerido sea {state} a través del menú Gestor de Contenido.",
+            "lancerCoreBook": "Libro Lancer Core",
+            "npcHelp": "@:{'common.appName'} no puede cargar datos PNJ sin la instalación del paquete de contenido PNJ proporcionado con la versión pagada (DJ) de {pack}",
+            "eidolonHelp": "Eidolons requieren la instalación del Paquete de Contenido proporcionado con {pack}",
+            "detected": "Falta de Contenido Detectada",
+            "hoverHelp": "Este {type} no tiene los datos LCP necesarios. @:{'common.appName'} no podrá cargar este {type} hasta que se añada el contenido faltante.",
+            "missingContent": "Contenido faltante",
             "activated": "activado"
         },
         "remote": {
-            "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones de la cuenta vinculada.",
-            "collectionHelp": "Este {type} está vinculado a una colección de contenidos. Se lee solamente y recibirá actualizaciones cuando una nueva versión de la colección es publicada por el autor de la colección.",
-            "collectionResource": "RECURSOS DE COLECCIÓN"
+            "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones desde la cuenta vinculada.",
+            "collectionHelp": "Este {type} está vinculado a una colección de contenidos. Es de solo lectura y recibirá actualizaciones cuando una nueva versión de la colección sea publicada por el autor de la colección.",
+            "collectionResource": "Recurso de colección"
         },
         "dice": {
-            "commitResult": "Commit Result",
-            "resetAll": "Restablecer todos",
-            "clearAll": "Vaciar todo",
-            "total": "TOTAL"
+            "commitResult": "Enviar Resultado",
+            "resetAll": "Restablecer Todo",
+            "clearAll": "Limpiar Todo",
+            "total": "Total"
         }
     }
 }
