@@ -2591,7 +2591,8 @@
             "itemSynced": "sincronizado.",
             "downloadFailedTitle": "Ha fallado la descarga",
             "downloadCompleteTitle": "Descarga completa",
-            "uploadFailedTitle": "Error al cargar"
+            "uploadFailedTitle": "Error al cargar",
+            "uploadCompleteTitle": "Subida completa"
         }
     }
 }
