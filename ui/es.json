@@ -2670,6 +2670,9 @@
         },
         "counter": {
             "addCustom": "Add Custom Counter"
+        },
+        "action": {
+            "compendiumEntry": "Entrada compendio"
         }
     }
 }
