@@ -2677,6 +2677,9 @@
         "org": {
             "influence": "Influencia de la Organización",
             "efficiency": "Eficiencia de la organización"
+        },
+        "coreBonus": {
+            "instancedWarning": "Este es un tema aducido. Si se elimina, este bono Core no estará disponible hasta que se instale el LCP asociado."
         }
     }
 }
