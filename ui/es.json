@@ -2562,7 +2562,8 @@
             "importCompleteText": "Campaña agregada a la colección local!",
             "importCompleteTitle": "Importación finalizada",
             "campaignPublishedText": "La versión {version} de {name} ha sido publicada.",
-            "campaignPublishedTitle": "Campaña publicada"
+            "campaignPublishedTitle": "Campaña publicada",
+            "v2BackupText": "{count} artículo(s) guardado a las importaciones v2 pendientes en el Administrador de Contenidos."
         }
     }
 }
