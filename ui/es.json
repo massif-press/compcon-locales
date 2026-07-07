@@ -2560,7 +2560,9 @@
             "campaignTransferErrorText": "Incapaz de transferir campaña: {error}",
             "importErrorTitle": "Error al importar",
             "importCompleteText": "Campaña agregada a la colección local!",
-            "importCompleteTitle": "Importación finalizada"
+            "importCompleteTitle": "Importación finalizada",
+            "campaignPublishedText": "La versión {version} de {name} ha sido publicada.",
+            "campaignPublishedTitle": "Campaña publicada"
         }
     }
 }
