@@ -2652,7 +2652,8 @@
             "overCapacity": "Tu cuenta está sobre la capacidad. Las cuentas gratuitas se restringen a {max}MB de almacenamiento.",
             "capacityExceeded": "CAPACIDAD EXCEED",
             "accountUsage": "ACCOUNT USAGE",
-            "uploadImage": "SUBTÍTULOS"
+            "uploadImage": "SUBTÍTULOS",
+            "requiresAccount": "Requiere COMP/CON Cuenta"
         }
     }
 }
