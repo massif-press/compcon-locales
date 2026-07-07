@@ -2714,7 +2714,8 @@
             "spCost": "SP Costo",
             "noFilters": "No hay filtros disponibles",
             "setItemFilters": "Establecer filtros de elementos",
-            "clearFilters": "Borrar filtros"
+            "clearFilters": "Borrar filtros",
+            "savedConfigs": "Configuraciones guardadas"
         }
     }
 }
