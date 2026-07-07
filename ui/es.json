@@ -2609,7 +2609,9 @@
             "failedToDeleteText": "Failed to delete {type} {name}. {err}",
             "removedText": "Quitado {type} {name}.",
             "deletedPermanentlyTitle": "Tema suprimido permanentemente",
-            "restoreFailedTitle": "Error en la restauración"
+            "restoreFailedTitle": "Error en la restauración",
+            "restoredText": "Restaurado {type} {name}.",
+            "itemRestoredTitle": "Tema restablecido"
         }
     }
 }
