@@ -2640,6 +2640,7 @@
         "armor": "ARMOR",
         "hp": "HP",
         "agi": "AGI",
-        "engineering": "ENGINEERING"
+        "engineering": "ENGINEERING",
+        "systems": "SYSTEMS"
     }
 }
