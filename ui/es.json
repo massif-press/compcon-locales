@@ -2568,7 +2568,8 @@
             "npcImportErrorText": "Incapaz de importar datos GM: {error}"
         },
         "statblock": {
-            "errorText": "Incapaz de copiar el bloqueo"
+            "errorText": "Incapaz de copiar el bloqueo",
+            "copiedText": "Copia de éxito"
         }
     }
 }
