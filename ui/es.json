@@ -2780,6 +2780,10 @@
             "rolling": "ROLLING {n}D{sides}",
             "noRoll": "No Roll",
             "critical": "// CRITICAL"
+        },
+        "brokenRef": {
+            "instancedNote": "Este artículo ha sido señalado como un objeto único y si se elimina no estará disponible hasta que se instale el LCP asociado.",
+            "partOfPack": "Este artículo forma parte del siguiente paquete de contenido de Lancer:"
         }
     }
 }
