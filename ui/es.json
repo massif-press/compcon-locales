@@ -2793,7 +2793,8 @@
             "deleteConfirm": "¿Quieres borrar este reloj? Esta acción no se puede deshacer."
         },
         "bond": {
-            "masterPower": "Master Power"
+            "masterPower": "Master Power",
+            "veteranPower": "Veterano Power"
         }
     }
 }
