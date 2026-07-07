@@ -2575,7 +2575,8 @@
         "pilot": {
             "syncFailedText": "Failed to sync Pilot {callsign} // {name}. {err}",
             "syncedText": "Pilot {callsign} // {name} sincronizado.",
-            "upToDateText": "Pilot {callsign} // {name} ya tiene los datos de nube más recientes. No es necesario actualizar."
+            "upToDateText": "Pilot {callsign} // {name} ya tiene los datos de nube más recientes. No es necesario actualizar.",
+            "upToDateTitle": "Piloto actualizado"
         }
     }
 }
