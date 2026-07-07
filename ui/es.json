@@ -2588,7 +2588,8 @@
             "itemUploadFailed": "Failed to upload {type} {name}. {err}",
             "itemUploaded": "Subió.",
             "itemSyncFailed": "Failed to sync {type} {name}. {err}",
-            "itemSynced": "sincronizado."
+            "itemSynced": "sincronizado.",
+            "downloadFailedTitle": "Ha fallado la descarga"
         }
     }
 }
