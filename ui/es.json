@@ -2577,6 +2577,10 @@
             "syncedText": "Pilot {callsign} // {name} sincronizado.",
             "upToDateText": "Pilot {callsign} // {name} ya tiene los datos de nube más recientes. No es necesario actualizar.",
             "upToDateTitle": "Piloto actualizado"
+        },
+        "shareCode": {
+            "collectionCopiedText": "Codigo de compartir colección copiado a portapapeles",
+            "copiedText": "Código compartido copiado a portapapeles."
         }
     }
 }
