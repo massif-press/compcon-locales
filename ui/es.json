@@ -2680,7 +2680,8 @@
         },
         "coreBonus": {
             "instancedWarning": "Este es un tema aducido. Si se elimina, este bono Core no estará disponible hasta que se instale el LCP asociado.",
-            "additional": "CORE BONUS ADDITIONAL EQUIPMENT"
+            "additional": "CORE BONUS ADDITIONAL EQUIPMENT",
+            "integrated": "CORE BONUS INTEGRATED EQUIPMENT"
         }
     }
 }
