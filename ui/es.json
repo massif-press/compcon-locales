@@ -2693,6 +2693,9 @@
         "selector": {
             "select": "Seleccione {name}",
             "noManufacturer": "No fabricante"
+        },
+        "license": {
+            "allUnlocked": "Todos los Ranks desbloqueados"
         }
     }
 }
