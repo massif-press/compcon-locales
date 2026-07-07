@@ -2622,7 +2622,8 @@
             "retryFailedTitle": "Retry Failed",
             "connectionRestoredTitle": "Conexión restablecida",
             "connectionRestoredText": "{name} está vinculada de nuevo.",
-            "bulkFailedTitle": "Bulk Delete Failed"
+            "bulkFailedTitle": "Bulk Delete Failed",
+            "bulkPartialText": "No podía borrar: {items}"
         }
     }
 }
