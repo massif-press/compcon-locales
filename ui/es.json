@@ -2658,7 +2658,8 @@
             "dragHelp1": "Stencil de arrastre para mover el objetivo de cultivo, empuñaduras de arrastre para cambiar el tamaño",
             "clearAvatar": "avatar claro",
             "setAvatar": "Establecer Avatar",
-            "clearImage": "imagen clara"
+            "clearImage": "imagen clara",
+            "requiresSelection": "Requiere la selección de imágenes"
         }
     }
 }
