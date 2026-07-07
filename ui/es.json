@@ -2777,7 +2777,8 @@
             "clearAll": "Limpiar Todo",
             "total": "Total",
             "flatModifier": "FLAT MODIFIER",
-            "rolling": "ROLLING {n}D{sides}"
+            "rolling": "ROLLING {n}D{sides}",
+            "noRoll": "No Roll"
         }
     }
 }
