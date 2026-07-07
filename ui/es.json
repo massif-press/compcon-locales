@@ -2710,7 +2710,8 @@
         "filter": {
             "greaterThan": "Mayor que",
             "equalTo": "Igualdad",
-            "lessThan": "Menos Que"
+            "lessThan": "Menos Que",
+            "spCost": "SP Costo"
         }
     }
 }
