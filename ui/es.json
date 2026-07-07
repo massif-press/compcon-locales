@@ -2638,6 +2638,8 @@
         "edef": "E-DEF",
         "evasion": "EVASIÓN",
         "armor": "ARMOR",
-        "hp": "HP"
+        "hp": "HP",
+        "agi": "AGI",
+        "engineering": "ENGINEERING"
     }
 }
