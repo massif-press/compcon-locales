@@ -2651,7 +2651,8 @@
             "addRemote": "ADD REMOTE IMAGE",
             "overCapacity": "Tu cuenta está sobre la capacidad. Las cuentas gratuitas se restringen a {max}MB de almacenamiento.",
             "capacityExceeded": "CAPACIDAD EXCEED",
-            "accountUsage": "ACCOUNT USAGE"
+            "accountUsage": "ACCOUNT USAGE",
+            "uploadImage": "SUBTÍTULOS"
         }
     }
 }
