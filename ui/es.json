@@ -2637,6 +2637,7 @@
         "edefense": "E-DEFENSE",
         "edef": "E-DEF",
         "evasion": "EVASIÓN",
-        "armor": "ARMOR"
+        "armor": "ARMOR",
+        "hp": "HP"
     }
 }
