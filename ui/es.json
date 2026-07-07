@@ -2595,7 +2595,12 @@
             "uploadCompleteTitle": "Subida completa"
         },
         "share": {
-            "syncFailedTitle": "Sincronizado"
+            "syncFailedTitle": "Sincronizado",
+            "syncCompleteTitle": "Sincronización completada"
+        },
+        "common": {
+            "copied": "Copiado",
+            "error": "Error"
         }
     }
 }
