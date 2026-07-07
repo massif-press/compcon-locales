@@ -2606,7 +2606,9 @@
             "error": "Error"
         },
         "dataItem": {
-            "failedToDeleteText": "Failed to delete {type} {name}. {err}"
+            "failedToDeleteText": "Failed to delete {type} {name}. {err}",
+            "removedText": "Quitado {type} {name}.",
+            "deletedPermanentlyTitle": "Tema suprimido permanentemente"
         }
     }
 }
