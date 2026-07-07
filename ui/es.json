@@ -2583,7 +2583,8 @@
             "copiedText": "Código compartido copiado a portapapeles."
         },
         "transfer": {
-            "itemDownloadFailed": "Failed to download {type} {name}. {err}"
+            "itemDownloadFailed": "Failed to download {type} {name}. {err}",
+            "itemDownloaded": "{type} {name} se fusionó de la nube."
         }
     }
 }
