@@ -2549,6 +2549,9 @@
         },
         "achievement": {
             "unlockedTitle": "¡Logro Desbloqueado!"
+        },
+        "gm": {
+            "uploadErrorText": "Incapaz de actualizar la nube: {error}"
         }
     }
 }
