@@ -2659,7 +2659,8 @@
             "clearAvatar": "avatar claro",
             "setAvatar": "Establecer Avatar",
             "clearImage": "imagen clara",
-            "requiresSelection": "Requiere la selección de imágenes"
+            "requiresSelection": "Requiere la selección de imágenes",
+            "noAvatar": "no avatar set"
         }
     }
 }
