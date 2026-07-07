@@ -2617,7 +2617,9 @@
             "itemDeletedTitle": "Elemento borrado",
             "markedDeletedText": "Marcado {type} {name} como eliminado.",
             "convertedText": "{name} es ahora un artículo solo local.",
-            "convertedTitle": "Convertirse en Local"
+            "convertedTitle": "Convertirse en Local",
+            "retryFailedText": "El elemento remoto para {name} no se pudo encontrar.",
+            "retryFailedTitle": "Retry Failed"
         }
     }
 }
