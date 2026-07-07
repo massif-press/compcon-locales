@@ -2712,7 +2712,8 @@
             "equalTo": "Igualdad",
             "lessThan": "Menos Que",
             "spCost": "SP Costo",
-            "noFilters": "No hay filtros disponibles"
+            "noFilters": "No hay filtros disponibles",
+            "setItemFilters": "Establecer filtros de elementos"
         }
     }
 }
