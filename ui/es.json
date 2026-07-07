@@ -2584,7 +2584,8 @@
         },
         "transfer": {
             "itemDownloadFailed": "Failed to download {type} {name}. {err}",
-            "itemDownloaded": "{type} {name} se fusionó de la nube."
+            "itemDownloaded": "{type} {name} se fusionó de la nube.",
+            "itemUploadFailed": "Failed to upload {type} {name}. {err}"
         }
     }
 }
