@@ -2508,7 +2508,7 @@
             "v2NoData": "No se encontraron datos.",
             "v2BackupImportedTitle": "copia de respaldo v2 importada",
             "errorPrefix": "Error: {err}",
-            "unableToReadFileTitle": "No es posible leer el archivo."
+            "unableToReadFileTitle": "No es posible leer el archivo"
         },
         "account": {
             "cloudArchiveCooldownText": "Debe esperar {seconds} segundos antes de crear un nuevo archivo.",
@@ -2669,7 +2669,7 @@
             "upload": "Cargar"
         },
         "corePanel": {
-            "special": "Equipo Especial BASE",
+            "special": "Equipo especial Base",
             "integrated": "Equipo Base integrado"
         },
         "counter": {
@@ -2776,57 +2776,57 @@
             "resetAll": "Restablecer Todo",
             "clearAll": "Limpiar Todo",
             "total": "Total",
-            "flatModifier": "FLAT MODIFIER",
-            "rolling": "ROLLING {n}D{sides}",
-            "noRoll": "No Roll",
-            "critical": "// CRITICAL"
+            "flatModifier": "Modificador fijo",
+            "rolling": "Tirando {n}D{sides}",
+            "noRoll": "Sin Tirada",
+            "critical": "// Crítico"
         },
         "brokenRef": {
             "instancedNote": "Este artículo ha sido señalado como un objeto único y si se elimina no estará disponible hasta que se instale el LCP asociado.",
-            "partOfPack": "Este artículo forma parte del siguiente paquete de contenido de Lancer:",
-            "instancedItem": "Tema presentado"
+            "partOfPack": "Este artículo forma parte del siguiente Paquete de Contenido de Lancer",
+            "instancedItem": "Artículo Instanciado"
         },
         "confirm": {
-            "heading": "// INTERRUPO DE PROCESO: AUTORIZACIÓN NECESITA //"
+            "heading": "// Proceso interrumpido: autorización requerida //"
         },
         "clock": {
-            "deleteConfirm": "¿Quieres borrar este reloj? Esta acción no se puede deshacer."
+            "deleteConfirm": "¿Quiere eliminar este reloj? Esta acción no se puede deshacer."
         },
         "bond": {
-            "masterPower": "Master Power",
-            "veteranPower": "Veterano Power",
-            "bondPowers": "Bond Powers",
-            "minorIdeals": "MINOR IDEALS"
+            "masterPower": "Poder Principal",
+            "veteranPower": "Poder Veterano",
+            "bondPowers": "Poderes de Lazo",
+            "minorIdeals": "Ideales menores"
         },
         "lcp": {
-            "installedDisabled": "LCP instalado pero discapacitados",
-            "updateLcp": "Actualización LCP",
+            "installedDisabled": "LCP instalado pero deshabilitado",
+            "updateLcp": "Actualizar LCP",
             "downloadLcp": "Descargar LCP",
-            "content": "LCP Índice"
+            "content": "Contenido LCP"
         },
         "widget": {
-            "active": "ACTIVO",
-            "passive": "PASSIVE",
-            "integratedMechWeapon": "INTEGRATED MECH WEAPON",
-            "deploy": "DEPLOY",
-            "noSelection": "NO SELECCIÓN",
+            "active": "Activo",
+            "passive": "Pasivo",
+            "integratedMechWeapon": "Arma integrada meca",
+            "deploy": "Desplegar",
+            "noSelection": "Sin selección",
             "other": "Otro",
-            "noDescription": "Sin descripción",
-            "toClose": "PARA EL CLARACIÓN",
-            "click": "CLICK",
-            "tap": "TAP",
-            "missingData": "DATOS DE PERSONAL",
-            "selectedCount": "{n}",
-            "selectDamageType": "Seleccione el tipo de daño",
+            "noDescription": "Sin descripción dada.",
+            "toClose": "Para cerrar",
+            "click": "Clic",
+            "tap": "TOQUE",
+            "missingData": "Datos faltantes",
+            "selectedCount": "{n} seleccionado(s)",
+            "selectDamageType": "Seleccione el Tipo de Daño",
             "damage": "Daño"
         },
         "ref": {
-            "equipmentTagDetail": "EQUIPMENT TAG DETAIL",
-            "actionReference": "ACTION REFERENCE"
+            "equipmentTagDetail": "Detalle chapa de Equipo",
+            "actionReference": "Referencia acción"
         },
         "cascade": {
-            "inCascade": "EN CASCADE",
-            "pending": "pendiente"
+            "inCascade": "En cascada",
+            "pending": "Pendiente"
         },
         "table": {
             "previous": "anterior"
