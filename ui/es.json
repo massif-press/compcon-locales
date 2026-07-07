@@ -2800,7 +2800,9 @@
         },
         "lcp": {
             "installedDisabled": "LCP instalado pero discapacitados",
-            "updateLcp": "Actualización LCP"
+            "updateLcp": "Actualización LCP",
+            "downloadLcp": "Descargar LCP",
+            "content": "LCP Índice"
         }
     }
 }
