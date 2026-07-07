@@ -2586,7 +2586,8 @@
             "itemDownloadFailed": "Failed to download {type} {name}. {err}",
             "itemDownloaded": "{type} {name} se fusionó de la nube.",
             "itemUploadFailed": "Failed to upload {type} {name}. {err}",
-            "itemUploaded": "Subió."
+            "itemUploaded": "Subió.",
+            "itemSyncFailed": "Failed to sync {type} {name}. {err}"
         }
     }
 }
