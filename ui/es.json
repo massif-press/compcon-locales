@@ -2623,7 +2623,8 @@
             "connectionRestoredTitle": "Conexión restablecida",
             "connectionRestoredText": "{name} está vinculada de nuevo.",
             "bulkFailedTitle": "Bulk Delete Failed",
-            "bulkPartialText": "No podía borrar: {items}"
+            "bulkPartialText": "No podía borrar: {items}",
+            "bulkPartialTitle": "{n} Suprimido, {f} Failed"
         }
     }
 }
