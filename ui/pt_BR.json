@@ -531,7 +531,9 @@
             "dependencyInstalled": "Dependências instaladas",
             "version": "@:{'common.version'}",
             "changelog": "@:{'common.changelog'}",
-            "contentHeading": "Conteúdo"
+            "contentHeading": "Conteúdo",
+            "patchByAuthor": "por {translator}",
+            "patchUnknownAuthor": "Tradutor desconhecido"
         },
         "communityTable": {
             "noData": "Nenhum pacote de conteúdo disponível.",
@@ -642,7 +644,14 @@
             "version": "Versão",
             "type": "Tipo",
             "missing": "Faltando",
-            "never": "Nunca"
+            "never": "Nunca",
+            "lcp": "LCP"
+        },
+        "fields": {
+            "interV3Default": "Inter (v3 padrão)",
+            "notoSansV3Alt": "Noto Sans (v3 alt)",
+            "helveticaV2Default": "Helvetica (v2 padrão)",
+            "opendyslexicExperimental": "OpenDyslexic (experimental)"
         }
     },
     "share": {
@@ -1549,7 +1558,13 @@
             "pronouns": "Pronomes",
             "class": "Classe",
             "layers": "Camadas",
-            "templates": "Modelos"
+            "templates": "Modelos",
+            "contentPack": "Conteúdos",
+            "gmToolkit": "Ferramentas de GM",
+            "campaignEditor": "Editor de Campanha",
+            "encounterEditor": "Editor de Encontros",
+            "alias": "Alias",
+            "tag": "Tag"
         },
         "fields": {
             "selectDataFile": "Selecionar Arquivo de Dados",
@@ -1593,7 +1608,10 @@
             "addANewEmptyBeat": "Adiciona um novo Ponto vazio nesta seção. Um Ponto é uma seção para um evento importante ou momento na história.",
             "addANewEmptyMission": "Adiciona uma nova Missão vazia nesta página. Uma Missão contém objetivos específicos que podem ser concluídos em um período de tempo discreto, e geralmente contém Combates.",
             "addANewEmptyCombat": "Adiciona um novo Combate vazio nesta página. Um Combate contém Encontros, bem como diretrizes do Mestre, detalhes narrativos sobre a batalha e resultados potenciais.",
-            "addANewEmptyDowntime": "Adiciona um novo Recesso vazio nesta página. O Recesso é o espaço narrativo entre as missões, onde a ação momento a momento não importa tanto e o RPG importa muito mais."
+            "addANewEmptyDowntime": "Adiciona um novo Recesso vazio nesta página. O Recesso é o espaço narrativo entre as missões, onde a ação momento a momento não importa tanto e o RPG importa muito mais.",
+            "manageNonPlayerCombatUnits": "Gerencia PNJs de combate",
+            "manageCharactersLocationsAndFactions": "Gerenciar personagens, locais e facções",
+            "createCombatEncounters": "Criar encontros de combate"
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Objetos que não são personagens (como itens de terreno) que podem ser rastreados em encontros de combate."
