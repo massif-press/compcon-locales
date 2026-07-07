@@ -2773,7 +2773,8 @@
         },
         "dice": {
             "commitResult": "Commit Result",
-            "resetAll": "Restablecer todos"
+            "resetAll": "Restablecer todos",
+            "clearAll": "Vaciar todo"
         }
     }
 }
