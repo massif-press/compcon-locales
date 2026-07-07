@@ -2774,7 +2774,8 @@
         "dice": {
             "commitResult": "Commit Result",
             "resetAll": "Restablecer todos",
-            "clearAll": "Vaciar todo"
+            "clearAll": "Vaciar todo",
+            "total": "TOTAL"
         }
     }
 }
