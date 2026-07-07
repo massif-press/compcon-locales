@@ -212,7 +212,10 @@
         "newCollection": "Nova Coleção",
         "unknownStatus": "Estado Desconhecido",
         "unknownLicense": "Licença Desconhecida",
-        "newSkillTrigger": "Novo Gatilho"
+        "newSkillTrigger": "Novo Gatilho",
+        "subtitles": {
+            "aSimpleAffairWithTwoSides": "Um confronto simples, com dois lados se enfrentando até que um deles seja quebrado ou destruído."
+        }
     },
     "nav": {
         "contentManager": {
