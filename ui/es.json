@@ -2581,6 +2581,9 @@
         "shareCode": {
             "collectionCopiedText": "Codigo de compartir colección copiado a portapapeles",
             "copiedText": "Código compartido copiado a portapapeles."
+        },
+        "transfer": {
+            "itemDownloadFailed": "Failed to download {type} {name}. {err}"
         }
     }
 }
