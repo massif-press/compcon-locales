@@ -2653,7 +2653,8 @@
             "capacityExceeded": "CAPACIDAD EXCEED",
             "accountUsage": "ACCOUNT USAGE",
             "uploadImage": "SUBTÍTULOS",
-            "requiresAccount": "Requiere COMP/CON Cuenta"
+            "requiresAccount": "Requiere COMP/CON Cuenta",
+            "dragHelp2": "Arrastre la imagen a la reposición, rueda del ratón para ampliar la imagen"
         }
     }
 }
