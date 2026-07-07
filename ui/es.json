@@ -2817,14 +2817,19 @@
             "tap": "TAP",
             "missingData": "DATOS DE PERSONAL",
             "selectedCount": "{n}",
-            "selectDamageType": "Seleccione el tipo de daño"
+            "selectDamageType": "Seleccione el tipo de daño",
+            "damage": "Daño"
         },
         "ref": {
             "equipmentTagDetail": "EQUIPMENT TAG DETAIL",
             "actionReference": "ACTION REFERENCE"
         },
         "cascade": {
-            "inCascade": "EN CASCADE"
+            "inCascade": "EN CASCADE",
+            "pending": "pendiente"
+        },
+        "table": {
+            "previous": "anterior"
         }
     }
 }
