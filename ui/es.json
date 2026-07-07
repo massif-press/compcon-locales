@@ -2619,7 +2619,8 @@
             "convertedText": "{name} es ahora un artículo solo local.",
             "convertedTitle": "Convertirse en Local",
             "retryFailedText": "El elemento remoto para {name} no se pudo encontrar.",
-            "retryFailedTitle": "Retry Failed"
+            "retryFailedTitle": "Retry Failed",
+            "connectionRestoredTitle": "Conexión restablecida"
         }
     }
 }
