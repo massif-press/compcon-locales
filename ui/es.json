@@ -2685,6 +2685,9 @@
             "deployables": "CORE BONUS DEPLOYABLES",
             "actions": "CORE BONUS ACTIONS",
             "remove": "Quitar este bono de CORE"
+        },
+        "talent": {
+            "unlocked": "UNLOCKED"
         }
     }
 }
