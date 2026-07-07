@@ -2740,7 +2740,8 @@
             "userOwned": "Usted es el autor de este artículo. No puede agregar sus propios elementos como recursos remotos.",
             "dataFound": "// {type} DAATA FOUND",
             "noItemFound": "No se encontró ningún artículo con el código {code}.",
-            "findItem": "Encontrar el tema"
+            "findItem": "Encontrar el tema",
+            "itemShareCode": "Artículo Código de Compartir"
         }
     }
 }
