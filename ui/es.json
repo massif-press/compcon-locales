@@ -2663,6 +2663,9 @@
             "noAvatar": "no avatar set",
             "archive": "COMP/CON Archivo de imágenes",
             "remoteImages": "Imágenes remotas"
+        },
+        "corePanel": {
+            "special": "CORE SPECIAL EQUIPMENT"
         }
     }
 }
