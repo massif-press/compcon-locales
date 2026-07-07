@@ -2716,6 +2716,9 @@
             "setItemFilters": "Establecer filtros de elementos",
             "clearFilters": "Borrar filtros",
             "savedConfigs": "Configuraciones guardadas"
+        },
+        "pwa": {
+            "offlineReady": "COMP/CON está listo para uso offline."
         }
     }
 }
