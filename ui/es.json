@@ -2762,6 +2762,9 @@
             "detected": "Falta de contenido detectado",
             "hoverHelp": "Este {type} falta los datos LCP necesarios. COMP/CON no podrá cargar este {type} hasta que se añada el contenido perdido.",
             "missingContent": "MISSING CONTENT"
+        },
+        "remote": {
+            "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones de la cuenta vinculada."
         }
     }
 }
