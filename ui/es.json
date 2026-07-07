@@ -2631,6 +2631,7 @@
     },
     "stats": {
         "sp": "SP",
-        "stress": "STRESS"
+        "stress": "STRESS",
+        "structure": "ESTRUCTURA"
     }
 }
