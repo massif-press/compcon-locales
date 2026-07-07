@@ -504,7 +504,7 @@
             "areYouSure": "Tem certeza de que quer continuar?",
             "deleteAllUserData": "Apagar todos Dados do Usuário",
             "maxThresholdPct": "Limite Máximo (%)",
-            "warningThresholdMb": "Aviso de Limite (MB)",
+            "warningThresholdMb": "Limite de Aviso (MB)",
             "maxThresholdMb": "Limite Máximo (MB)",
             "warningDescription": "O @:{'common.appName'} exibirá uma mensagem de aviso quando",
             "maxDescription": "O @:{'common.appName'} impedirá a criação de novos dados após",
