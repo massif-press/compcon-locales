@@ -2683,7 +2683,8 @@
             "additional": "CORE BONUS ADDITIONAL EQUIPMENT",
             "integrated": "CORE BONUS INTEGRATED EQUIPMENT",
             "deployables": "CORE BONUS DEPLOYABLES",
-            "actions": "CORE BONUS ACTIONS"
+            "actions": "CORE BONUS ACTIONS",
+            "remove": "Quitar este bono de CORE"
         }
     }
 }
