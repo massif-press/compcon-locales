@@ -2612,7 +2612,8 @@
             "restoreFailedTitle": "Error en la restauración",
             "restoredText": "Restaurado {type} {name}.",
             "itemRestoredTitle": "Tema restablecido",
-            "serverError": "Incapaz de comunicarse con servidor. {err}"
+            "serverError": "Incapaz de comunicarse con servidor. {err}",
+            "deleteFailedTitle": "Eliminar fracasado"
         }
     }
 }
