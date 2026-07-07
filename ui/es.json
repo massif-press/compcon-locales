@@ -2720,7 +2720,8 @@
         "pwa": {
             "offlineReady": "COMP/CON está listo para uso offline.",
             "updateNow": "Actualizar ahora",
-            "later": "Más tarde"
+            "later": "Más tarde",
+            "updateAvailable": "Una nueva versión de COMP/CON está disponible."
         }
     }
 }
