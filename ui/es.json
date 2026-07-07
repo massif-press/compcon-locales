@@ -2697,7 +2697,8 @@
         "license": {
             "allUnlocked": "Todos los Ranks desbloqueados",
             "noRanks": "Sin licencia Ranks",
-            "prereqSingle": "Esta Licencia requiere al menos otra {source} Licencia en Rank {rank} o superior"
+            "prereqSingle": "Esta Licencia requiere al menos otra {source} Licencia en Rank {rank} o superior",
+            "prereqCumulative": "Esta Licencia requiere al menos {rank} licencias acumuladas de {source}"
         }
     }
 }
