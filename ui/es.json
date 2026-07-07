@@ -2750,7 +2750,8 @@
             "coreBookLink": "LANCER: Core Book itch.io page",
             "noNpcData": "¡No se han encontrado datos del editor NPC!",
             "checkLog": "Por favor, compruebe el registro de errores en la pestaña \"Log\" del menú Opciones para más información",
-            "otherError": "COMP/CON encontró un error al cargar este artículo."
+            "otherError": "COMP/CON encontró un error al cargar este artículo.",
+            "packActive": "El {pack} Lancer Content Pack está instalado y activo."
         }
     }
 }
