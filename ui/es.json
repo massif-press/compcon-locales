@@ -2635,6 +2635,7 @@
         "structure": "ESTRUCTURA",
         "sensors": "SENSORS",
         "edefense": "E-DEFENSE",
-        "edef": "E-DEF"
+        "edef": "E-DEF",
+        "evasion": "EVASIÓN"
     }
 }
