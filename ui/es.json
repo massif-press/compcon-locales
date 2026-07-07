@@ -2544,7 +2544,8 @@
             "verificationSentTitle": "Correo electrónico de verificación enviado",
             "serverError": "El servidor devolvió un error",
             "passwordFailedTitle": "La actualización de contraseña falló",
-            "passwordChangedText": "Cambio de contraseña de usuario"
+            "passwordChangedText": "Cambio de contraseña de usuario",
+            "updateCompleteTitle": "Actualización completada!"
         },
         "achievement": {
             "unlockedTitle": "¡Logro Desbloqueado!"
