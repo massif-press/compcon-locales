@@ -2722,6 +2722,13 @@
             "updateNow": "Actualizar ahora",
             "later": "Más tarde",
             "updateAvailable": "Una nueva versión de COMP/CON está disponible."
+        },
+        "relationship": {
+            "deleteConfirm": "¿Quieres eliminar esta relación? Esta acción no se puede deshacer."
+        },
+        "rollTable": {
+            "d": "D",
+            "multipleOnes": "Múltiple 1{plural}"
         }
     }
 }
