@@ -2728,7 +2728,8 @@
         },
         "rollTable": {
             "d": "D",
-            "multipleOnes": "Múltiple 1{plural}"
+            "multipleOnes": "Múltiple 1{plural}",
+            "deleteConfirm": "¿Quieres borrar esta tabla? Esta acción no se puede deshacer."
         }
     }
 }
