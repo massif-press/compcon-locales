@@ -2813,7 +2813,8 @@
             "other": "Otro",
             "noDescription": "Sin descripción",
             "toClose": "PARA EL CLARACIÓN",
-            "click": "CLICK"
+            "click": "CLICK",
+            "tap": "TAP"
         }
     }
 }
