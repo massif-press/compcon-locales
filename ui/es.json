@@ -2719,7 +2719,8 @@
         },
         "pwa": {
             "offlineReady": "COMP/CON está listo para uso offline.",
-            "updateNow": "Actualizar ahora"
+            "updateNow": "Actualizar ahora",
+            "later": "Más tarde"
         }
     }
 }
