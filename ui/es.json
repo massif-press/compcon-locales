@@ -169,7 +169,8 @@
         "setCustomName": "Elegir Nombre Personalizado",
         "roll_verb": "Tirar",
         "changelog": "Bitácora de cambios",
-        "mech": "Mecha"
+        "mech": "Mecha",
+        "pilotSkillTriggers": "Skill Triggers de Piloto"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -201,7 +202,8 @@
         "newFaction": "Nueva Facción",
         "newEidolon": "Nuevo Eidolon",
         "newDoodad": "Nuevo Doodad",
-        "newSitrep": "Nuevo Sitrep"
+        "newSitrep": "Nuevo Sitrep",
+        "newSkillTrigger": "Nuevo Skill Trigger"
     },
     "nav": {
         "contentManager": {
@@ -257,7 +259,8 @@
             "storageDetails": "Hay más detalles disponibles en la pestaña <b>Almacenamiento</b> del Menú de Opciones.",
             "supportCompcon": "Soporte @:{'common.appName'}",
             "encounters": "Encuentros",
-            "mainMenu": "@:{'common.mainMenu'}"
+            "mainMenu": "@:{'common.mainMenu'}",
+            "navigateBack": "Navegar de Vuelta"
         },
         "help": {
             "faq": "Preguntas más frecuentes",
@@ -1015,7 +1018,9 @@
             "selectTemplate": "seleccionar plantilla",
             "selectNpcClass": "seleccionar clase de PNJ",
             "addDowntime": "Añadir Tiempo Apeado",
-            "eidolons": "Eidolones"
+            "eidolons": "Eidolones",
+            "clock": "Reloj",
+            "addBeat": "Añadir Beat"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
@@ -1163,7 +1168,7 @@
         "newEnc": {
             "title": "Nuevo Encuentro Local Activo",
             "encounterData": "Datos de encuentro",
-            "additionalNpcs": "Los PNJ adicionales pueden ser añadidos en el corredor de encuentros después de la creación."
+            "additionalNpcs": "Los PNJ adicionales pueden ser añadidos en el Corredor de Encuentros después de la creación."
         },
         "tableManager": {
             "published": "lista de mesas publicadas",
@@ -1641,7 +1646,8 @@
             "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc",
             "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc.",
             "overkill": "Saña",
-            "maxLoadoutFeatureSetColumns": "Max Equipamiento Piloto/Juego de Columnas Presentadas"
+            "maxLoadoutFeatureSetColumns": "Max Equipamiento Piloto/Juego de Columnas Presentadas",
+            "pilotNameOrCallsign": "Nombre del Piloto o Callsign"
         },
         "titles": {
             "addPilotFromRoster": "Agregar Piloto de la Lista",
@@ -1660,7 +1666,8 @@
             "whatIsAPlaceholder": "¿Qué es un Marcador de Posición?",
             "youHaveRemainingActions": "¡Tiene acciones restantes!",
             "burn": "Abrasar",
-            "downAndOut": "Caído y Fuera"
+            "downAndOut": "Caído y Fuera",
+            "repairCap": "Lim. Reparaciones"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
@@ -1686,7 +1693,8 @@
             "exportsAStructuredJsonVersion": "Exporta la bitácora de combate en versión JSON estructurado.",
             "exportsAPlainTextVersion2": "Exporta las estadísticas actuales del combatiente en versión texto plano.",
             "rollAllDiceTakingThe": "Lanza todos los dados, tomando el mejor resultado",
-            "reroll1s": "Re-lanzar 1s"
+            "reroll1s": "Re-lanzar 1s",
+            "pilotGrit": "Grit del Piloto"
         }
     },
     "mainMenu": {
@@ -1800,7 +1808,8 @@
             "cloudFullSync": "¡El almacenamiento en la nube está lleno! No es posible sincronizar nuevos datos.",
             "lastSynced": "Última sincronización: {label}",
             "syncWithSettings": "sincronizar con la configuración actual",
-            "syncOverridesNote": "Las siguientes operaciones anulan la configuración de sincronización y deben usarse con precaución."
+            "syncOverridesNote": "Las siguientes operaciones anulan la configuración de sincronización y deben usarse con precaución.",
+            "syncOverrides": "Anulaciones de sincronización"
         },
         "collection": {
             "byAuthor": "Por {author}",
@@ -2118,7 +2127,8 @@
             "gmsArmoryPrintid": "id impresión armería GMS",
             "mountCOREBonus": "Bono CORE de Montura",
             "setUSES": "Establecer usos",
-            "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Autorización de equipo de la armería de la Unión: chasis equipamiento//sistema de combate"
+            "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Autorización de equipo de la armería de la Unión: chasis equipamiento//sistema de combate",
+            "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Registro del equipo del chasis verificado ]"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
@@ -2145,7 +2155,12 @@
             "mechSkills": "Habilidades de Mecha",
             "levelUpOverview": "Subir de Nivel (Vista General)",
             "coreBONUSINSTALLATION": "Instalación de bono Base",
-            "ineligibleFORCOREBONUS": "No elegible para bonos base"
+            "ineligibleFORCOREBONUS": "No elegible para bonos base",
+            "coreBonuses": "Bonos CORE",
+            "pilotSKILLTRIGGERIMPROVEMENT": "Mejora de skill trigger de Piloto",
+            "pilotTALENTUPGRADE": "Mejora talento de Piloto",
+            "mechSKILLUPGRADE": "Mejora habilidad Mecha",
+            "gritIMPROVEMENT": "Mejora de Grit"
         },
         "new": {
             "pilot": "Piloto",
@@ -2184,7 +2199,10 @@
             "bySubmittingThisFormYouAttest": "Al presentar este formulario usted atestigua que sus respuestas son veraces y precisas acuerdo a su conocimiento. Proporcionar información falsa o incompleta a sabiendas es punible bajo DoJ/HR AR 303-J.",
             "uadIDENTService": "Servicio IDENT UAD",
             "rm4PersonnelPilotC": "RM-4 Personal::Piloto (C)",
-            "rm401FULLNAMEOR": "RM-4-01 // nombre completo o alias primario"
+            "rm401FULLNAMEOR": "RM-4-01 // nombre completo o alias primario",
+            "rm404ATTACHEDBIOGRAPHICALDOSSIER": "RM-4-04 // ARCHIVO BIOGRÁFICO ADJUNTO (SUPLEMENTO RM-4b)",
+            "prmALTQUICKACCESSSELECTION": "Prm-alt selección de acceso rápido",
+            "mechARTCOURTESYOF": "Arte de Mecha cortesía de"
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
@@ -2202,7 +2220,7 @@
             "clearConfiguration": "Limpiar Configuración",
             "editingThisPilotSLevelMay": "Editar el nivel de este Piloto puede evitar que ciertos logros se desbloqueen con este Piloto. Si desea utilizar este Piloto para desbloquear logros relacionados al Piloto, utilice el asistente de Subida de Nivel en su lugar.",
             "thisPilotSLevelHasBeen": "El nivel de este piloto ha sido editado. Esto impedirá que se desbloqueen ciertos logros con este Piloto.",
-            "thisToolSkipsTheLevelUp": "Esta herramienta salta el asistente de subida de nivel. Atributos de piloto adquiridos mediante subidas del nivel, como gatillos de habilidad, licencias, talentos, habilidades mecha y bonos CORE tendrán que ser actualizados manualmente",
+            "thisToolSkipsTheLevelUp": "Esta herramienta salta el asistente de subida de nivel. Atributos de piloto adquiridos mediante subidas del nivel, como skill triggers, licencias, talentos, habilidades mecha y bonos CORE tendrán que ser actualizados manualmente",
             "newLEVEL": "Nuevo nivel",
             "setPilotLevel": "Establecer Nivel de Piloto",
             "clone": "Clonar",
@@ -2280,7 +2298,20 @@
             "mechHangar": "Hangar Mechas",
             "setPilotPortrait": "Seleccionar Retrato de Piloto",
             "unionAdministrativeIdentRecord": "Administrativo de la Unión RM-4 Registro de Protocolo de Identificación de Piloto (IDENT)",
-            "biometricRecordValid": "Registro biométrico válido [["
+            "biometricRecordValid": "Registro biométrico válido [[",
+            "powers": "Poderes",
+            "allSelectedPowers": "Todas los Poderes Seleccionados",
+            "noBondPowerSelectionsRemaining": "No quedan selecciones de Poder de Lazo",
+            "registerNewMech": "Registrar Nuevo Mecha",
+            "narrative": "Narrativo",
+            "bonds": "Lazos",
+            "tactical": "Táctico",
+            "pilotSKILLTRIGGERAUDIT": "Auditoría de skill trigger de Piloto",
+            "errSKILLAUDITINCOMPLETE": "Err auditoría de habilidad incompleta",
+            "pilotTALENTAUDIT": "Auditoría de talento de Piloto",
+            "broken": "Roto",
+            "repcap": "RepLim",
+            "xk401REGISTERMECHNAME": "XK-4-01 // registrar nombre mecha"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
@@ -2305,7 +2336,23 @@
             "atkBONUS": "Bono Atq",
             "ltdBONUS": "Bono LTD",
             "corePassive": "Pasiva Base",
-            "coreActive": "Activa Base"
+            "coreActive": "Activa Base",
+            "operatorNotes": "Notas de Operador",
+            "pilotNotes": "Notas del Piloto",
+            "gain": "Ganancia",
+            "veteranPOWER2": "(Poder veterano)",
+            "skillTRIGGERDETAIL": "Detalle Skill trigger",
+            "onHIT": "Al golpear",
+            "onCRIT": "En crít",
+            "mechSYSTEM": "Mecha sistema",
+            "pilotHP": "HP Piloto",
+            "maxHP": "HP Máx",
+            "deployable": "Desplegable",
+            "heatCap": "Heat Lím.",
+            "mountLOCKED": "Montura asegurada",
+            "appliedMOD": "//Mod aplicado",
+            "ltdSYS": "LTD sis",
+            "repairCAPACITY": "Capacidad de reparación"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
@@ -2345,7 +2392,15 @@
             "includesDATAFROMTHEFOLLOWINGCONTENT": "Incluye datos de los siguientes paquetes de contenido",
             "doneReordering": "Terminar Reordenamiento",
             "lastModified": "Última Modificación",
-            "addGroup": "Añadir grupo"
+            "addGroup": "Añadir grupo",
+            "allPilotsAssignedToThisGroup2": "Todos los pilotos asignados a este grupo se moverán a la sección \"Ningún Grupo\"",
+            "transfer": "Transferir",
+            "transferPilots": "Transferir Pilotos",
+            "createNewPilot": "Crear Nuevo Piloto",
+            "addANewPilotToThe": "Añadir un nuevo piloto a la lista",
+            "uadCAVCOMOfficeOfRecords": "Oficina de Registros UAD/CAVCOM",
+            "i7aSelfServiceUnitRegistration": "I-7a Registro de Unidad de Auto-Servicio",
+            "identCR7aCAVALRYUNITREGISTRATION": "IDENT-CR-7a (CAVALRY UNIT REGISTRATION) es un formulario de registro autodirigido para el propósito de registrar una nueva designación de unidad para uno o más pilotos registrados en IDENT. Esta formulario es para ser utilizado por pilotos que no están asignados actualmente a una unidad o que están registrando una nueva designación de unidad por primera vez. Si desea registrar una nueva designación para una unidad existente, por favor envíe el formulario CR-7b (CAVALRY UNIT DOCUMENTATION UPDATE) en su lugar."
         },
         "selectors": {
             "exotic": "Exótico",
@@ -2401,6 +2456,92 @@
     "share": {
         "includeMech": "Incluir mecha",
         "sheetStyle": "Tipo de Ficha",
-        "publicLinkNoteBold": "uRL accesible públicamente"
+        "publicLinkNoteBold": "URL accesible públicamente",
+        "titles": {
+            "pleaseUseResponsibly": "Por favor úsese responsablemente"
+        },
+        "resultLastUpdated": "Última Actualización",
+        "addAsLocalCopy": "añadir como copia local",
+        "addAsRemote": "añadir como recurso remoto",
+        "noShareCode": "Este artículo no tiene un código de compartir. Para compartirlo, sincronícelo a su cuenta @:{'common.appName'} haciendo clic arriba en el botón \"Sincronizar Ahora\".",
+        "shareCodeTooltip": "Este código permite a otros usuarios con una cuenta @:{'common.appName'} descargar una copia de este artículo y suscribirse a las actualizaciones que haga.",
+        "syncNeeded": "Sincronización necesaria",
+        "notYetSynced": "Aún no se ha sincronizado",
+        "shareCodesNote": "Los códigos compartidos permiten a cualquiera con una cuenta @:{'common.appName'} descargar una copia de este artículo y recibir actualizaciones que haga. Por favor sea conciente al compartir datos con otros.",
+        "resultAuthor": "Autor",
+        "shareLink": "Compartir enlace",
+        "lastSynced": "Ultima sincronización",
+        "lastLocalUpdate": "Ultima actualización local"
+    },
+    "print": {
+        "generalOptions": "Opciones Generales de Impresión"
+    },
+    "notify": {
+        "link": {
+            "copiedText": "{name} enlace estático ha sido copiado al portapapeles.",
+            "copiedTitle": "Enlace Copiado"
+        },
+        "image": {
+            "deleteFailedText": "No es posible comunicarse con el servidor. {err}",
+            "deleteFailedTitle": "Eliminación Fallida",
+            "deletedTitle": "Imagen Eliminada",
+            "deletedText": "Quitado {type} {name}.",
+            "uploadedText": "Subido {file} ({size}MB)",
+            "uploadedTitle": "Imagen Subida"
+        },
+        "compendium": {
+            "campaignUpdateFailedText": "Fallo al actualizar campaña",
+            "campaignUpdatedText": "Campaña actualizada con éxito"
+        },
+        "lcp": {
+            "lcpUpdateErrorText": "Se produjo un error al intentar descargar {pack}.",
+            "lcpUpdateErrorTitle": "Error Actualizando LCP",
+            "lcpUpdatedText": "La versión más reciente de {pack} ha sido descargada e instalada.",
+            "lcpUpdatedTitle": "LCP Actualizado",
+            "removedInvalidVersionText": "Quitado {name} de la importación -- cadena de versión inválida rompe semver"
+        },
+        "settings": {
+            "unableToImportTitle": "No es posible importar datos",
+            "dataMerged": "Los datos importados se han fusionado con los datos existentes.",
+            "dataReplaced": "Todos los datos existentes han sido reemplazados por los datos importados.",
+            "dataImportSuccessTitle": "Importación de datos exitosa",
+            "v2NoData": "No se encontraron datos.",
+            "v2BackupImportedTitle": "copia de respaldo v2 importada",
+            "errorPrefix": "Error: {err}",
+            "unableToReadFileTitle": "No es posible leer el archivo."
+        },
+        "account": {
+            "cloudArchiveCooldownText": "Debe esperar {seconds} segundos antes de crear un nuevo archivo.",
+            "cloudArchiveTitle": "Archivo en Nube",
+            "collectionPublishFailedText": "Fallo al publicar colección {name}",
+            "collectionPublishedText": "Colección {name} publicada como versión {version}",
+            "patreonUnlinkedText": "Tu cuenta de Patreon no está enlazada",
+            "patreonUnlinkedTitle": "Patreon No-enlazado",
+            "patreonLinkFailedText": "Hubo un error enlazando su cuenta Patreon",
+            "patreonLinkFailedTitle": "Enlace Patreon Fallido",
+            "noSubscriptionText": "Su cuenta Patreon estaba vinculada pero no se encontró ningún nivel de suscripción activo. Suscríbase al Patreon @:{'common.appName'} e inténtelo de nuevo.",
+            "noSubscriptionTitle": "No se Encontró Suscripción",
+            "patreonLinkedText": "Su cuenta Patreon ha estado vinculada",
+            "patreonLinkedTitle": "Patreon Enlazado",
+            "itchUnlinkedText": "Su cuenta itch.io ha sido des-vinculada",
+            "itchUnlinkedTitle": "Itch.io Des-vinculada",
+            "itchLinkFailedText": "Hubo un error enlazando su cuenta itch.io",
+            "itchLinkFailedTitle": "Enlace Itch.io Fallido",
+            "itchLinkedText": "Su cuenta de itch.io ha sido vinculada",
+            "itchLinkedTitle": "Itch.io Enlazada",
+            "emailChangeCancelledText": "El cambio de correo electrónico ha sido cancelado",
+            "emailChangeFailedTitle": "Cambio de correo-electrónico fallido",
+            "emailChangeCompleteText": "Su dirección de correo electrónico ha sido cambiada",
+            "emailChangeCompleteTitle": "Cambio de correo electrónico completo",
+            "dataUpdatedText": "Datos de usuario actualizados",
+            "signOutText": "Servicio Auth reporta baja exitosa",
+            "signOutTitle": "Dado de Baja Exitósamente",
+            "publishedTitle": "Publicado",
+            "emailChangeCancelledTitle": "Cambio de correo electrónico cancelado",
+            "updateFailedTitle": "Actualización fallida"
+        },
+        "achievement": {
+            "unlockedTitle": "¡Logro Desbloqueado!"
+        }
     }
 }

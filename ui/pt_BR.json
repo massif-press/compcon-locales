@@ -1405,7 +1405,7 @@
             "otherNpcClasses": "Outras Classes de PNJ",
             "otherNpcTemplates": "Outros Modelos de PNJ",
             "otherFeatures": "Outros Sistemas",
-            "featureType": "Característica do(a) {type}",
+            "featureType": "Característica {type}",
             "base": "Base",
             "noSelectionsRemaining": "Não há mais seleções de Sistemas de PNJ",
             "ignoreLimitHint": "Sistemas adicionais além das diretrizes recomendadas podem ser adicionadas ativando a opção \"Ignorar Limite\" acima",

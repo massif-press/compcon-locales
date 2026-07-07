@@ -786,7 +786,9 @@
         "log": {
             "logLevel": "@:{'common.logLevel'}",
             "noData": "@:{'common.noData'}",
-            "copiedToClipboard": "Entrée de journal copiée dans le presse-papier"
+            "copiedToClipboard": "Entrée de journal copiée dans le presse-papier",
+            "session": "Session",
+            "error": "Erreur"
         },
         "deletedItems": {
             "noItemsFound": "Aucun élément trouvé",
@@ -1053,7 +1055,8 @@
         },
         "initiative": {
             "reinforcementsN": "Renforts {n}",
-            "destroyedN": "Détruit {n}"
+            "destroyedN": "Détruit {n}",
+            "statusGroupN": "{status} ({n})"
         },
         "addRoster": {
             "addPc": "Ajouter PJ",

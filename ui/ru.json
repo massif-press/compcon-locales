@@ -589,7 +589,7 @@
         "alt": {
             "supportCompconOnPatreon": "Поддержите @:{'common.appName'} на Patreon",
             "joinTheLancerDiscord": "Присоединяйтесь к Discord-серверу, посвящённому LANCER",
-            "netlifyStatus": "Статус Netlify"
+            "netlifyStatus": ""
         },
         "v2Auto": {
             "pendingNote": "Элементы в ожидании синхронизации можно импортировать повторно с панели \"Контент-паки\" после установки необходимых файлов LCP.",
@@ -614,9 +614,9 @@
             "reimportFailedText": "Не удалось импортировать повторно: {error}",
             "missingDependencies": "Отсутствующие зависимости ещё не доступны.",
             "importedSuccessfully": "Успешно импортировано.",
-            "importFailedText": "Ошибка импорта: {error}",
-            "forceImportComplete": "Принудительный импорт завершён.",
-            "forceImportFailedText": "Ошибка принудительного импорта: {error}"
+            "importFailedText": "",
+            "forceImportComplete": "",
+            "forceImportFailedText": ""
         },
         "cloudNotifications": {
             "dismissAll": "Удалить Все Уведомления",
@@ -646,7 +646,8 @@
             "major": "Основной",
             "campaignCollection": "Подборка кампаний",
             "saveLocal": "Добавить в локальную подборку",
-            "minor": "Минорная версия"
+            "minor": "Минорная версия",
+            "deletePageConfirm": "Вы уверены что хотите удалить {type} \"{title}\"? Это действие нельзя отменить."
         },
         "labels": {
             "labels": "Метки",
@@ -1006,7 +1007,9 @@
             "overwatchText": "{name} использует ПЕРЕХВАТ."
         },
         "pcSheet": {
-            "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}"
+            "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}",
+            "activeMechChangedTitle": "Активный мех изменён",
+            "activeMechChangedText": "Активный мех изменён на {mechName}. Состояние листа персонажа было сброшено."
         },
         "stats": {
             "hitPoints": "Пункты здоровья"
@@ -1029,7 +1032,10 @@
             "mechStats": "Характеристики меха"
         },
         "npcActions": {
-            "npcDisengagedTitle": "Персонаж ведущего отошёл"
+            "npcDisengagedTitle": "Персонаж ведущего отошёл",
+            "npcPreparedTitle": "Персонаж ведущего подготовился",
+            "npcStabilizedTitle": "Персонаж ведущего стабилизировался",
+            "npcHiddenTitle": "Персонаж ведущего скрылся"
         },
         "sheetItem": {
             "na": "Отсутствует",
@@ -1585,7 +1591,9 @@
             "mechOptions": "Опции для листа меха",
             "unionAdministrativeIdentRecord": "Выдержка из личного дела пилота по форме RM-4 (ИДЕНТ) в базе данных АДС",
             "addNewClock": "Добавить новый счётчик",
-            "removeBond": "Удалить узы"
+            "removeBond": "Удалить узы",
+            "xk401REGISTERMECHNAME": "XK-4-01 // зарегистрировать имя меха",
+            "registerNewMech": "Зарегистрировать нового меха"
         },
         "print": {
             "pilotHP": "ПЗ пилота",
@@ -1601,7 +1609,9 @@
             "pilotNotes": "Заметки о пилоте",
             "mechSYSTEM": "Система меха",
             "reserve": "Резервы",
-            "mountLOCKED": "Крепление недоступно"
+            "mountLOCKED": "Крепление недоступно",
+            "pilotSheetOptions": "Опции листа пилота",
+            "mechWEAPONMOUNT": "Крепление для оружия меха"
         },
         "roster": {
             "history": "История группы",
@@ -1633,7 +1643,9 @@
             "jumpTo": "перейти к",
             "generate": "Сгенерировать",
             "groupName": "Название отряда",
-            "startingLicenseLevel": "Начальный уровень лицензии"
+            "startingLicenseLevel": "Начальный уровень лицензии",
+            "maximumStress": "Максимальное значение стресса",
+            "pilotStress": "стресс пилота"
         },
         "titles": {
             "selectPilotBackground": "Выбрать происхождение пилота",
@@ -1682,7 +1694,10 @@
             "identSERVICEPRIMARYHasGeneratedA": "Система ИДЕНТ.СЕРВИС.ОСНОВНОЙ сгенерировала список предлагаемых навыков на основе ответов в форме RM-4-03 (ПРЕДЫДУЩАЯ ДОЛЖНОСТЬ ИЛИ РОД ЗАНЯТИЙ).",
             "theRM4bPILOTSELFASSESSMENT3": "Во время самоаттестации пилота по форме RM-4b (Таланты) фиксируется оценка пилотом своих боевых навыков, а также предоставляется право на получение: тренажёрного времени, учебных материалов для голополей и кортикальных сенсориумов, данных боевой телеметрии с грифом ниже GREY SIERRA SHARP и, в отдельных случаях, лицензий на технику образца GMS MM.",
             "addOrImproveSkill": "Добавить новый навык или улучшить значение имеющегося.",
-            "critical": "Критическое попадание"
+            "critical": "Важно",
+            "pilotNAMEBlankOrInvalid": "ИМЯ ПИЛОТА: пусто или недействительно",
+            "registerNewPilot": "Зарегистрировать нового пилота // {callsign} ({name})",
+            "nb": "Обратите внимание"
         },
         "loadout": {
             "notSET": "Не задано",
@@ -1755,7 +1770,8 @@
             "pilotTALENTUPGRADE": "Улучшение таланта пилота",
             "gritIMPROVEMENT": "Повышение значения закалки",
             "newLICENSEUNLOCK": "Получен доступ к новой лицензии",
-            "coreBONUSINSTALLATION": "Установка ключевого улучшения"
+            "coreBONUSINSTALLATION": "Установка ключевого улучшения",
+            "coreBonuses": "Ключевые улучшения"
         },
         "tooltips": {
             "copyStatBlockToClipboard": "Скопировать статблок в буфер обмена"

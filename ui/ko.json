@@ -122,7 +122,8 @@
             "currentlySelected": "현재 선택됨:",
             "destroyed": "파괴됨",
             "saveFailed": "저장 실패",
-            "hiddenText": "{name}(이)가 은신함."
+            "hiddenText": "{name}(이)가 은신함.",
+            "dangerZone": "열위험 상태"
         },
         "dmgCond": {
             "doubleDamage": "두배 피해",
@@ -310,7 +311,8 @@
             "heavy": ""
         },
         "rangeType": {
-            "range": "사거리"
+            "range": "사거리",
+            "blast": "방출"
         }
     },
     "notify": {
