@@ -2628,5 +2628,8 @@
             "bulkDeletedText": "Se han eliminado los elementos seleccionados.",
             "bulkDeletedTitle": "{n} Tema{s} Suprimido"
         }
+    },
+    "stats": {
+        "sp": "SP"
     }
 }
