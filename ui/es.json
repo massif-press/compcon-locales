@@ -2797,6 +2797,9 @@
             "veteranPower": "Veterano Power",
             "bondPowers": "Bond Powers",
             "minorIdeals": "MINOR IDEALS"
+        },
+        "lcp": {
+            "installedDisabled": "LCP instalado pero discapacitados"
         }
     }
 }
