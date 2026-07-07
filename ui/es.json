@@ -2558,7 +2558,8 @@
             "loginRequiredTitle": "Inicio de sesión requerido",
             "loginRequiredText": "Debes iniciar sesión para cargar datos de campaña en el repositorio de la nube.",
             "campaignTransferErrorText": "Incapaz de transferir campaña: {error}",
-            "importErrorTitle": "Error al importar"
+            "importErrorTitle": "Error al importar",
+            "importCompleteText": "Campaña agregada a la colección local!"
         }
     }
 }
