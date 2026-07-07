@@ -408,7 +408,8 @@
             "patronThanks": "O desenvolvimento contínuo do @:{'common.appName'} não seria possível sem o generoso",
             "supportOf": "de",
             "compconBy": "@:{'common.appName'} Por",
-            "anonymousPatron": "Patrono Anônimo"
+            "anonymousPatron": "Patrono Anônimo",
+            "support": "Suporte"
         },
         "deletedItems": {
             "itemType": "Tipo de Item",
@@ -625,6 +626,23 @@
             "netlifyStatus": "Status do Netlify",
             "joinTheLancerDiscord": "Junte-se ao discord de LANCER",
             "supportCompconOnPatreon": "Apoie o @:{'common.appName'} no Patreon"
+        },
+        "titles": {
+            "latestVersion": "Versão Mais Recente",
+            "installedVersion": "Versão instalada",
+            "backedUp": "Backup concluído",
+            "x1Week": "1 semana",
+            "x2Weeks": "2 semanas",
+            "x1Month": "1 mês",
+            "x3Months": "3 meses",
+            "x6Months": "6 meses",
+            "x1Year": "1 ano",
+            "active": "Ativo",
+            "author": "Autor(a)",
+            "version": "Versão",
+            "type": "Tipo",
+            "missing": "Faltando",
+            "never": "Nunca"
         }
     },
     "share": {
@@ -1522,7 +1540,16 @@
             "sitrepModified": "resit modificado",
             "organizeEncounters": "organizar encontros",
             "selectTemplate": "selecionar modelo",
-            "selectNpcClass": "selecionar classe do PNJ"
+            "selectNpcClass": "selecionar classe do PNJ",
+            "gmLabels": "Etiquetas do Mestre",
+            "folder": "Pasta",
+            "shards": "Fragmentos",
+            "npcRoster": "PNJs",
+            "title": "Título",
+            "pronouns": "Pronomes",
+            "class": "Classe",
+            "layers": "Camadas",
+            "templates": "Modelos"
         },
         "fields": {
             "selectDataFile": "Selecionar Arquivo de Dados",
