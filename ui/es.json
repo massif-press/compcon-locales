@@ -2808,7 +2808,8 @@
             "active": "ACTIVO",
             "passive": "PASSIVE",
             "integratedMechWeapon": "INTEGRATED MECH WEAPON",
-            "deploy": "DEPLOY"
+            "deploy": "DEPLOY",
+            "noSelection": "NO SELECCIÓN"
         }
     }
 }
