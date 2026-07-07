@@ -2718,7 +2718,8 @@
             "savedConfigs": "Configuraciones guardadas"
         },
         "pwa": {
-            "offlineReady": "COMP/CON está listo para uso offline."
+            "offlineReady": "COMP/CON está listo para uso offline.",
+            "updateNow": "Actualizar ahora"
         }
     }
 }
