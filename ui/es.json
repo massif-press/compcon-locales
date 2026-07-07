@@ -2733,6 +2733,12 @@
             "confirmRebuild": "Confirmar Rebuild",
             "rebuildConfirm": "¿Quieres reconstruir esta mesa? Esto aclarará los datos actuales. Esta acción no se puede deshacer.",
             "gmOnlyTooltip": "Marcar un campo o artículo \"Solamente MG\" lo ocultará de las exportaciones de jugadores y la salida de impresión"
+        },
+        "shareImport": {
+            "qrTypeHelp": "Este artículo es un {qr}. Puede ser importado, pero aparecerá en la lista {qr}, no en la lista {type}.",
+            "alreadyAdded": "Este artículo ya se ha añadido como un recurso remoto.",
+            "userOwned": "Usted es el autor de este artículo. No puede agregar sus propios elementos como recursos remotos.",
+            "dataFound": "// {type} DAATA FOUND"
         }
     }
 }
