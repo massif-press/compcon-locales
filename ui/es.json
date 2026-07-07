@@ -2799,7 +2799,8 @@
             "minorIdeals": "MINOR IDEALS"
         },
         "lcp": {
-            "installedDisabled": "LCP instalado pero discapacitados"
+            "installedDisabled": "LCP instalado pero discapacitados",
+            "updateLcp": "Actualización LCP"
         }
     }
 }
