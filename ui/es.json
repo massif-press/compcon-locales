@@ -2624,7 +2624,9 @@
             "connectionRestoredText": "{name} está vinculada de nuevo.",
             "bulkFailedTitle": "Bulk Delete Failed",
             "bulkPartialText": "No podía borrar: {items}",
-            "bulkPartialTitle": "{n} Suprimido, {f} Failed"
+            "bulkPartialTitle": "{n} Suprimido, {f} Failed",
+            "bulkDeletedText": "Se han eliminado los elementos seleccionados.",
+            "bulkDeletedTitle": "{n} Tema{s} Suprimido"
         }
     }
 }
