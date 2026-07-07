@@ -2590,7 +2590,8 @@
             "itemSyncFailed": "Failed to sync {type} {name}. {err}",
             "itemSynced": "sincronizado.",
             "downloadFailedTitle": "Ha fallado la descarga",
-            "downloadCompleteTitle": "Descarga completa"
+            "downloadCompleteTitle": "Descarga completa",
+            "uploadFailedTitle": "Error al cargar"
         }
     }
 }
