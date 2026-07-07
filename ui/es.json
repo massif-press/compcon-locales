@@ -2682,7 +2682,8 @@
             "instancedWarning": "Este es un tema aducido. Si se elimina, este bono Core no estará disponible hasta que se instale el LCP asociado.",
             "additional": "CORE BONUS ADDITIONAL EQUIPMENT",
             "integrated": "CORE BONUS INTEGRATED EQUIPMENT",
-            "deployables": "CORE BONUS DEPLOYABLES"
+            "deployables": "CORE BONUS DEPLOYABLES",
+            "actions": "CORE BONUS ACTIONS"
         }
     }
 }
