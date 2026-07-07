@@ -2696,7 +2696,8 @@
         },
         "license": {
             "allUnlocked": "Todos los Ranks desbloqueados",
-            "noRanks": "Sin licencia Ranks"
+            "noRanks": "Sin licencia Ranks",
+            "prereqSingle": "Esta Licencia requiere al menos otra {source} Licencia en Rank {rank} o superior"
         }
     }
 }
