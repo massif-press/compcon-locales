@@ -2630,6 +2630,7 @@
         }
     },
     "stats": {
-        "sp": "SP"
+        "sp": "SP",
+        "stress": "STRESS"
     }
 }
