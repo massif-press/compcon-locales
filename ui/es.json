@@ -2818,6 +2818,9 @@
             "missingData": "DATOS DE PERSONAL",
             "selectedCount": "{n}",
             "selectDamageType": "Seleccione el tipo de daño"
+        },
+        "ref": {
+            "equipmentTagDetail": "EQUIPMENT TAG DETAIL"
         }
     }
 }
