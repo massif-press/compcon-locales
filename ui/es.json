@@ -2538,7 +2538,8 @@
             "signOutTitle": "Dado de Baja Exitósamente",
             "publishedTitle": "Publicado",
             "emailChangeCancelledTitle": "Cambio de correo electrónico cancelado",
-            "updateFailedTitle": "Actualización fallida"
+            "updateFailedTitle": "Actualización fallida",
+            "emailChangeInitFailedTitle": "Failed to initiate email change"
         },
         "achievement": {
             "unlockedTitle": "¡Logro Desbloqueado!"
