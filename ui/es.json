@@ -2709,7 +2709,8 @@
         },
         "filter": {
             "greaterThan": "Mayor que",
-            "equalTo": "Igualdad"
+            "equalTo": "Igualdad",
+            "lessThan": "Menos Que"
         }
     }
 }
