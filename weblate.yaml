@@ -36,3 +36,59 @@ components:
     filemask: content/lancer-srd/*.json
     template: content/lancer-srd/en.json
     new_base: content/lancer-srd/en.json
+
+  # English base generated from @massif/wallflower-data via build-llp extract
+  - name: "Lancer Wallflower Data"
+    slug: wallflower-data
+    filemask: content/wallflower-data/*.json
+    template: content/wallflower-data/en.json
+    new_base: content/wallflower-data/en.json
+
+  # English base generated from @massif/ktb-data via build-llp extract
+  - name: "Lancer KTB Data"
+    slug: ktb-data
+    filemask: content/ktb-data/*.json
+    template: content/ktb-data/en.json
+    new_base: content/ktb-data/en.json
+
+  # English base generated from @massif/dustgrave-data via build-llp extract
+  - name: "LANCER: Dustgrave"
+    slug: dustgrave-data
+    filemask: content/dustgrave-data/*.json
+    template: content/dustgrave-data/en.json
+    new_base: content/dustgrave-data/en.json
+
+  # English base generated from @massif/sotw-data via build-llp extract
+  - name: "Shadow of the Wolf"
+    slug: sotw-data
+    filemask: content/sotw-data/*.json
+    template: content/sotw-data/en.json
+    new_base: content/sotw-data/en.json
+
+  # English base generated from @massif/long-rim-data via build-llp extract
+  - name: "Lancer Long Rim Data"
+    slug: long-rim-data
+    filemask: content/long-rim-data/*.json
+    template: content/long-rim-data/en.json
+    new_base: content/long-rim-data/en.json
+
+  # English base generated from @massif/osr-data via build-llp extract
+  - name: "Operation Solstice Rain Data"
+    slug: osr-data
+    filemask: content/osr-data/*.json
+    template: content/osr-data/en.json
+    new_base: content/osr-data/en.json
+
+  # English base generated from @massif/ows-data via build-llp extract
+  - name: "Operation Winter Scar"
+    slug: ows-data
+    filemask: content/ows-data/*.json
+    template: content/ows-data/en.json
+    new_base: content/ows-data/en.json
+
+  # English base generated from @massif/ssmr-data via build-llp extract
+  - name: "Siren's Song, A Mountain's Remorse"
+    slug: ssmr-data
+    filemask: content/ssmr-data/*.json
+    template: content/ssmr-data/en.json
+    new_base: content/ssmr-data/en.json
