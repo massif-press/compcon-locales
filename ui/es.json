@@ -2596,7 +2596,10 @@
         },
         "share": {
             "syncFailedTitle": "Sincronizado",
-            "syncCompleteTitle": "Sincronización completada"
+            "syncCompleteTitle": "Sincronización completada",
+            "syncCompleteText": "{name} sincronizado con la nube.",
+            "syncInProgressText": "Por favor, espere que la sincronización actual se complete.",
+            "syncInProgressTitle": "Sincronización en el progreso"
         },
         "common": {
             "copied": "Copiado",
