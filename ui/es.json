@@ -2806,7 +2806,8 @@
         },
         "widget": {
             "active": "ACTIVO",
-            "passive": "PASSIVE"
+            "passive": "PASSIVE",
+            "integratedMechWeapon": "INTEGRATED MECH WEAPON"
         }
     }
 }
