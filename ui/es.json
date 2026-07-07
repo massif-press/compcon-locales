@@ -2689,6 +2689,10 @@
         "talent": {
             "unlocked": "UNLOCKED",
             "rankLocked": "TALENT RANK LOCKED"
+        },
+        "selector": {
+            "select": "Seleccione {name}",
+            "noManufacturer": "No fabricante"
         }
     }
 }
