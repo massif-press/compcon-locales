@@ -2713,7 +2713,8 @@
             "lessThan": "Menos Que",
             "spCost": "SP Costo",
             "noFilters": "No hay filtros disponibles",
-            "setItemFilters": "Establecer filtros de elementos"
+            "setItemFilters": "Establecer filtros de elementos",
+            "clearFilters": "Borrar filtros"
         }
     }
 }
