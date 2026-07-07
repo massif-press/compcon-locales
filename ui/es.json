@@ -2794,7 +2794,8 @@
         },
         "bond": {
             "masterPower": "Master Power",
-            "veteranPower": "Veterano Power"
+            "veteranPower": "Veterano Power",
+            "bondPowers": "Bond Powers"
         }
     }
 }
