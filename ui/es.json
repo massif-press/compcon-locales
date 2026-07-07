@@ -2687,7 +2687,8 @@
             "remove": "Quitar este bono de CORE"
         },
         "talent": {
-            "unlocked": "UNLOCKED"
+            "unlocked": "UNLOCKED",
+            "rankLocked": "TALENT RANK LOCKED"
         }
     }
 }
