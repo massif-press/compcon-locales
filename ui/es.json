@@ -2811,7 +2811,8 @@
             "deploy": "DEPLOY",
             "noSelection": "NO SELECCIÓN",
             "other": "Otro",
-            "noDescription": "Sin descripción"
+            "noDescription": "Sin descripción",
+            "toClose": "PARA EL CLARACIÓN"
         }
     }
 }
