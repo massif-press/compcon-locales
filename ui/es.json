@@ -2748,7 +2748,8 @@
             "gmHelp2": "Si usted compró una copia física del Libro Core de Lancer, pero no ha recibido instrucciones sobre cómo redimir su copia de la versión digital y sus activos asociados, incluyendo datos básicos de NPC, póngase en contacto con Massif Press en {email}",
             "gmHelp1": "Si ya ha descargado los datos de NPC, puede importarlo a COMP/CON a través del Administrador de Contenidos disponible en el menú principal o en el menú Opciones en el lado derecho de la barra de navegación.",
             "coreBookLink": "LANCER: Core Book itch.io page",
-            "noNpcData": "¡No se han encontrado datos del editor NPC!"
+            "noNpcData": "¡No se han encontrado datos del editor NPC!",
+            "checkLog": "Por favor, compruebe el registro de errores en la pestaña \"Log\" del menú Opciones para más información"
         }
     }
 }
