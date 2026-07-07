@@ -2758,7 +2758,8 @@
             "usesContent": "Este artículo utiliza el contenido del {pack} Lancer Content Pack. El equipo de este paquete de contenido será {instanced} hasta que el LCP requerido sea {state} a través del menú Contenido de Gestión.",
             "lancerCoreBook": "Lancer Core Book",
             "npcHelp": "COMP/CON no puede cargar datos NPC sin la instalación del paquete de contenido NPC proporcionado con la versión pagada (GM) del {pack}",
-            "eidolonHelp": "Eidolons requieren la instalación del paquete de contenido proporcionado con {pack}"
+            "eidolonHelp": "Eidolons requieren la instalación del paquete de contenido proporcionado con {pack}",
+            "detected": "Falta de contenido detectado"
         }
     }
 }
