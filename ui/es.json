@@ -2814,7 +2814,8 @@
             "noDescription": "Sin descripción",
             "toClose": "PARA EL CLARACIÓN",
             "click": "CLICK",
-            "tap": "TAP"
+            "tap": "TAP",
+            "missingData": "DATOS DE PERSONAL"
         }
     }
 }
