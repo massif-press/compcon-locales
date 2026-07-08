@@ -6,5 +6,10 @@
     "emergency_coolant_reservoir.description": "1/missão: limpa EXPOSTO como uma ação livre.",
     "emergency_coolant_reservoir.name": "Reservatório de líquido de arrefecimento de emergência",
     "mf_micro_monarch.trait_pressure_plating.description": "A Viceroy tem Resistência a Dano Explosivo.",
-    "mf_micro_monarch.trait_vigilante_omnidirectional_launchers.active_effect_vigilante_omnidirectional_launchers.detail": "1/Rodada, em um acerto crítico, causa 2 de Dano Explosivo a todos os personagens a sua escolha em um Alcance 3 e empurre eles 1 espaço para trás."
+    "mf_micro_monarch.trait_vigilante_omnidirectional_launchers.active_effect_vigilante_omnidirectional_launchers.detail": "1/Rodada, em um acerto crítico, causa 2 de Dano Explosivo a todos os personagens a sua escolha em um Alcance 3 e empurre eles 1 espaço para trás.",
+    "cb_superheavy_mounting.name": "Encaixe Superpesado",
+    "env_automatedrepairstations.name": "Estações de Reparo Automatizadas",
+    "env_arenahazards.name": "Perigos da Arena",
+    "env_chokingdust.name": "Poeira Sufocante",
+    "env_arenahazards.description": "Para tornar as lutas mais interessantes e violentas, a arena é cheia de perigos, desde serras circulares giratorias até estacas de pistão letais. Coloque quatro areas Explosão 1 no campo de batalha. Personagens que entrarem ou começarem seu turno dentro de um desses perigos leva 4/5/6 dano cinético. Eles só podem ser danificado pelos perigos 1/rodada. Perigos de arena são indestrutiveis. 1/rodada, esses perigos podem ser escolhido como alvo com Invadir. Eles tem 12/14/16 Defensa-E. Em um acerto, todos personagens adjacentes ao perigo levam dano como se tivessem se movido através dele."
 }
