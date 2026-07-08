@@ -466,18 +466,39 @@
             "environmentDataModified": "données d'environnement modifiées",
             "deletePreset": "supprimer le préréglage",
             "organizeEncounters": "organiser les rencontres",
-            "selectNpcClass": "sélectionner une classe de PNJ"
+            "selectNpcClass": "sélectionner une classe de PNJ",
+            "templates": "Modèles",
+            "class": "Classe",
+            "pronouns": "Pronoms",
+            "title": "Titre",
+            "alias": "Alias",
+            "narrativeItemManager": "Gestionnaire d'éléments narratifs",
+            "encounterEditor": "Éditeur de rencontre",
+            "npcRoster": "Roster de PNJ",
+            "campaignEditor": "Éditeur de campagne",
+            "gmToolkit": "Boîte à outil du Maître de Jeu",
+            "folder": "Dossier",
+            "role": "Rôle"
         },
         "subtitles": {
             "addSetOrDeleteA": "Ajouter, définir ou supprimer une étiquette de MJ",
             "addANewEmptyFreeform": "Ajouter une nouvelle section libre sous cette page. Une section est un conteneur pour d'autres éléments de contenu et peuvent être utilisé pour organiser votre campagne de la manière qui vous convient.",
             "addANewEmptyMission": "Ajouter une nouvelle Mission sous cette page. Une mission contient des buts et objectifs qui peuvent être complétés en un temps donné, et contient typiquement des combats.",
-            "addANewEmptyCombat": "Ajouter un nouveau combat sous cette page. Un combat contient des rencontres, ainsi que des directives de MJ, des détails narratifs concernant la bataille, et les résultats possibles."
+            "addANewEmptyCombat": "Ajouter un nouveau combat sous cette page. Un combat contient des rencontres, ainsi que des directives de MJ, des détails narratifs concernant la bataille, et les résultats possibles.",
+            "createCombatEncounters": "Créer un affrontement",
+            "manageCharactersLocationsAndFactions": "Gérer les personnages, lieux et factions",
+            "manageNonPlayerCombatUnits": "Gérer les unités de combat non joueur",
+            "createModifyAndBrowseLancerCampaigns": "Créer, modifier et consulter les campagnes LANCER (v3.1)"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Modifier le tier et ajuster les statistiques modifiés par la même quantité que les modifications de statistiques par défaut.",
             "changeTierAndKeepEdited": "Modifier le tier et garder les valeurs de statistiques modifiées, même si elles sont inférieures au valeurs par défaut du nouveau tier.",
-            "changeTierAndDiscardAll": "Modifier le tier et oublier toutes les valeurs modifiées de statistiques."
+            "changeTierAndDiscardAll": "Modifier le tier et oublier toutes les valeurs modifiées de statistiques.",
+            "confirmDuplicationOfThisNpc": "Confirmer la duplication de ce PNJ",
+            "thisWillDeleteThisNpcFrom": "Cela supprimera ce PNJ de votre roster de PNJ. Les PNJs de ce type ajouté à des rencontres ne seront pas affectés. Êtes vous sûr?"
+        },
+        "a11y": {
+            "dragToReorder": "Glisser pour réorganiser"
         }
     },
     "language": {
@@ -864,6 +885,15 @@
             "netlifyStatus": "Statut Netlify",
             "joinTheLancerDiscord": "Rejoignez le discord LANCER",
             "supportCompconOnPatreon": "Soutenez @:{'common.appName'} sur Patreon"
+        },
+        "fields": {
+            "opendyslexicExperimental": "OpenDyslexic (expérimental)",
+            "helveticaV2Default": "Helvetica (Défaut v2)",
+            "notoSansV3Alt": "Noto Sans (alt v3)",
+            "interV3Default": "Inter (Défaut v3)"
+        },
+        "titles": {
+            "never": "Jamais"
         }
     },
     "active": {
@@ -1159,7 +1189,17 @@
             "selectPilot": "sélectionner un pilote",
             "selectActiveMech": "sélectionner un mécha actif",
             "exitActiveMode": "Quitter le mode actif?",
-            "whatIsAPlaceholder": "Qu'est-ce qu'un substitut?"
+            "whatIsAPlaceholder": "Qu'est-ce qu'un substitut?",
+            "pilot": "Pilote",
+            "observer": "OBSERVATEUR",
+            "allPilots": "Tous les pilotes",
+            "spectatorMode": "Mode spectateur",
+            "hostAnOnlineTable": "Héberger une table en ligne",
+            "localCampaigns": "Campagnes locales",
+            "localEncounters": "Rencontres locales",
+            "joinAnOnlineTable": "Rejoindre une table en ligne",
+            "activeCharacterSheets": "Fiches de personnage actives",
+            "gameMaster": "MAITRE DU JEU"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Ajouter un pilote depuis votre tableau de service local",
@@ -1176,7 +1216,14 @@
             "exportsAStructuredJsonVersion": "Exporter une version JSON structurée des données de combat pour l'utilisation dans d'autres applications.",
             "exportsAPlainTextVersion2": "Exporter une version texte des statistiques actuelles du combattant.",
             "rollAllDiceTakingThe": "Jeter tous les dés, en prenant le meilleur résultat",
-            "reroll1s": "Relancer les 1"
+            "reroll1s": "Relancer les 1",
+            "failedToImportSheetPleaseEnsure": "Échec de l'importation de la fiche. Merci de vous assurer que le fichier est une fiche de personnage JSON valide."
+        },
+        "subtitles": {
+            "featureInDevelopmentV31": "Fonctionnalité en développement (v3.1)",
+            "createManageAndRunLocalEncounters": "Créer, gérer et jouer des rencontres pour vos parties de Lancer",
+            "featureInDevelopmentV32": "Fonctionnalité en développement (v3.2)",
+            "inDevelopmentReleaseV32": "En développement (sortie en v3.2)"
         }
     },
     "mainMenu": {
@@ -1514,7 +1561,52 @@
             "storagePermissionRequired": "Permissions de stockage requis!",
             "youDoNotHaveAccess": "Vous n'avez pas accès aux sauvegarde à distance.",
             "youDoNotHaveAccess2": "Vous n'avez pas accès à l'outil de publication des collections.",
-            "compconCloudAccount": "Compte en ligne @:{'common.appName'}"
+            "compconCloudAccount": "Compte en ligne @:{'common.appName'}",
+            "filename": "Nom du fichier",
+            "role": "Rôle",
+            "lcps": "LCPs",
+            "campaigns": "Campagnes",
+            "pilots": "Pilotes",
+            "campaign": "Campagne",
+            "encounter": "Rencontre",
+            "npc": "NPC",
+            "pilot": "Pilote",
+            "monthly": "Mensuellement",
+            "weekly": "Hebdomadairement",
+            "daily": "Quotidiennement",
+            "preserve": "Préserver",
+            "source": "Source",
+            "author": "Auteur",
+            "collection": "Collection",
+            "lcp": "LCP",
+            "lastUpdated": "Dernière mise à jour",
+            "narrativeData": "Données de narration",
+            "encounterData": "Données de rencontre",
+            "npcData": "Données de PNJ",
+            "pilotData": "Données de pilote",
+            "every60Minutes": "Toutes les 60 minutes",
+            "every30Minutes": "Toutes les 30 minutes",
+            "onOpenClose": "A l'ouverture et la fermeture",
+            "lastModified": "Dernière modification",
+            "lastSync": "Dernière synchronisation",
+            "uploadDate": "Date de téléversement",
+            "addItem": "Ajouter un élément",
+            "lastUpdate": "Dernière mise à jour",
+            "narrativeElements": "Éléments narratifs",
+            "narrativeElement": "Élément narratif",
+            "pilotGroups": "Groupes de pilote",
+            "onAppStart": "Au démarrage",
+            "mostRecentOnly": "Les plus récent uniquement",
+            "last5": "Les 5 derniers",
+            "last10": "Les 10 derniers",
+            "last30": "Les 30 derniers",
+            "keepAll": "Tout garder",
+            "manualOnly": "Manuel uniquement",
+            "onStartup": "Au démarrage",
+            "contentCollection": "Collection de contenu",
+            "autoUpdate": "Mise à jour automatique",
+            "installedVersion": "Version installée",
+            "latestVersion": "Dernière version"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Cet outil créera une copie instantanée de vos données @:{'common.appName'} locales et le stockera dans une archive en ligne. Vous pouvez utiliser ceci pour restaurer vos données @:{'common.appName'} dans un état précédent. Cette fonctionnalité n'est disponible qu'aux contributeurs Patreon.",
@@ -1524,12 +1616,30 @@
             "controlsHowOftenYourData": "Contrôle la fréquence à laquelle vos données sont synchronisées. A cause des coûts des serveurs, certaines options ne sont disponibles que pour les contributeurs Patreon.",
             "controlsWhichDataTypesAre": "Contrôle quels types de données sont synchronisées.",
             "yourUniqueAccountIdThis": "L'ID unique de votre compte. Ceci est utilisé pour identifier votre compte et peuvent être demandé pour son dépannage.",
-            "usernameOptional": "Ceci est un champ <b>optionnel</b> que vous pouvez utiliser pour définir un nom personnalisé à votre compte. Cet nom d'utilisateur <b>sera</b> visible pour les autres utilisateurs en mode active et quand vous partagez des données."
+            "usernameOptional": "Ceci est un champ <b>optionnel</b> que vous pouvez utiliser pour définir un nom personnalisé à votre compte. Cet nom d'utilisateur <b>sera</b> visible pour les autres utilisateurs en mode active et quand vous partagez des données.",
+            "signInFailed": "Connexion échouée"
         },
         "subtitles": {
             "mergeAndSyncThisItem": "Fusionner et synchroniser cet élément immédiatement.",
             "removeTheRemoteLinkAnd": "Retirer le lien à distance et garder les données localement.",
-            "permanentlyRemovesItemsFlaggedFor": "Retire définitivement les éléments marqués pour suppression."
+            "permanentlyRemovesItemsFlaggedFor": "Retire définitivement les éléments marqués pour suppression.",
+            "syncsAutomaticallyEvery60MinutesRequires": "Synchronise automatiquement toutes les 60 minutes. Nécessite de contribuer sur Patreon.",
+            "syncsAutomaticallyEvery30MinutesRequires": "Synchronise automatiquement toutes les 30 minutes. Nécessite de contribuer sur Patreon.",
+            "syncsWhenYouOpenAndClose": "Synchronise quand vous ouvrez et fermez l'application. Les synchronisation à la fermeture peuvent ne pas être pris en charge par tous les navigateurs.",
+            "dataIsOnlySyncedWhenYou": "Les données ne sont synchronisées qu'en appuyant sur Synchroniser.",
+            "keepOnlyTheMostRecentArchive": "Ne garder que l'archive la plus récente.",
+            "keepThe5NewestArchives": "Garder les 5 archives les plus récentes.",
+            "keepThe10NewestArchives": "Garder les 10 archives les plus récentes.",
+            "keepThe30NewestArchives": "Garder les 30 archives les plus récentes.",
+            "doNotAutomaticallyDeleteAnyArchives": "Ne supprimer aucune archive automatiquement."
+        },
+        "a11y": {
+            "password": "Mot de passe",
+            "eMail": "Adresse électronique",
+            "signIn": "Se connecter",
+            "cancelAndClose": "Annuler et fermer",
+            "retrySignIn": "Essayer de se reconnecter",
+            "abortSignIn": "Annuler la connexion"
         }
     },
     "pm": {
@@ -1765,7 +1875,20 @@
             "editPilotDescription": "Modifier la description du pilote",
             "confirmPilotDeletion": "confirmer la suppression du pilote",
             "exportV2Json": "Exporter un JSON V2",
-            "serverErrorTooManyRequests": "Erreur serveur - Trop de requêtes"
+            "serverErrorTooManyRequests": "Erreur serveur - Trop de requêtes",
+            "levelUp": "Montée en niveau",
+            "biography": "Biographie",
+            "melee": "Mêlée",
+            "group": "Groupe",
+            "pilot": "Pilote",
+            "unknown": "Inconnu",
+            "inactive": "Inactif",
+            "active": "Actif",
+            "missingInAction": "Disparu au combat",
+            "mechOnly": "Mécha uniquement",
+            "pilotOnly": "Pilote uniquement",
+            "exportError": "Erreur d'exportation",
+            "exportSuccess": "Exporté avec succès"
         },
         "fields": {
             "generate": "Générer",
@@ -1777,7 +1900,8 @@
             "projectName": "Nom du projet",
             "pilotXp": "xp du pilote",
             "nameOrCallsign": "Nom ou nom de code…",
-            "jumpTo": "sauter à"
+            "jumpTo": "sauter à",
+            "project": "Projet"
         },
         "tooltips": {
             "generateRandomName": "Générer un nom aléatoire",
@@ -1786,13 +1910,19 @@
             "returnToPilotSheet": "Retourner à la fiche de pilote",
             "forcePilotRegistration": "Forcer l'enregistrement du pilote",
             "thisWillCreateACopy": "Cela créera une copie des données de ce pilote, enregistré dans votre tableau de service.",
-            "thisProjectIsComplexResourceintensive": "Ce projet est complexe, mobilise beaucoup de ressources , ou généralement difficile à compléter"
+            "thisProjectIsComplexResourceintensive": "Ce projet est complexe, mobilise beaucoup de ressources , ou généralement difficile à compléter",
+            "operationalCapacitySignificantlyImpaired": "Capacités opérationnels significativement affectées",
+            "compConWasUnableToExport": "COMP/CON n'a pas pu exporter les données du pilote"
         },
         "subtitles": {
             "getAPlaintextRepresentationOfThisMechConfiguration": "Obtenir une représentation en plein texte de la configuration de ce mécha",
             "removeMechFromTheHangar": "Retirer ce mécha du hangar",
             "convertThisPilotToAn": "Convertir ce pilote en une version locale et modifiable.",
             "printATabletopreadyMechSheet": "Imprimer une fiche de mécha prêt à l'emploi"
+        },
+        "a11y": {
+            "dragToReorder": "Glisser pour réorganiser",
+            "dragToReorderGroup": "Glisser pour réorganiser le groupe"
         }
     },
     "compendium": {
@@ -1810,7 +1940,16 @@
             "notYetImplemented": "Pas encore implémenté",
             "importLancerCampaignData": "Importer des données de campagne Lancer",
             "noEidolonData": "Pas de données d'Eidolon",
-            "narrativePlay": "jeu narratif"
+            "narrativePlay": "jeu narratif",
+            "lists": "Listes",
+            "environments": "Environnements",
+            "glossary": "Glossaire",
+            "frames": "Châssis",
+            "pilotBackgrounds": "Historiques de pilote",
+            "npcTemplates": "Modèles de PNJ",
+            "icon": "Icône",
+            "origin": "Origine",
+            "role": "Rôle"
         },
         "reference": {
             "or": "ou",
@@ -2041,7 +2180,9 @@
             "externalDataWarning": "Avertissement de données externes"
         },
         "tooltips": {
-            "markingAFieldOrItem": "Marquer un champ ou un élément comme \"MJ uniquement\" le masquera des exportations à destination des joueurs et des impressions"
+            "markingAFieldOrItem": "Marquer un champ ou un élément comme \"MJ uniquement\" le masquera des exportations à destination des joueurs et des impressions",
+            "thisWillPermanentlyDeleteThisImage": "Cela supprimera définitivement cette image du stockage en ligne. Voulez vous continuer?",
+            "addD20Roll": ""
         },
         "subtitles": {
             "selectResult": "Sélectionner le résultat"
