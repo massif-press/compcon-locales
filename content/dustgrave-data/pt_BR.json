@@ -17,5 +17,19 @@
     "env_mesmertrance.name": "MesmerTrance",
     "intel_die.name": "Dado de Inteligência",
     "mf_micro_monarch.core_system.active_name": "Torrente Celestial",
-    "mf_micro_monarch.name": "Viceroy"
+    "mf_micro_monarch.name": "Viceroy",
+    "mf_störtebeker.core_system.passive_action_reprise.name": "Reprise",
+    "mf_störtebeker.core_system.passive_effect": "Você só pode usar essa ação caso tenha usado a ação Alvejar nesse turno. Escolha um desses efeitos:",
+    "mf_störtebeker.core_system.passive_name": "Doutrina Hopkins",
+    "mf_störtebeker.name": "Störtebeker",
+    "mf_störtebeker.trait_dynamic_reload.name": "Recarga Dinâmica",
+    "mf_störtebeker.trait_dynamic_reload.synergy_0.detail": "Em um acerto crítico: Recarregue todas as armas corpo a corpo que não foram usadas para atacar nesse turno.",
+    "mf_störtebeker.trait_dynamic_reload.synergy_1.detail": "Em um acerto crítico: Recarregue todas as armas a distância que não foram utilizadas para atacar nesse turno.",
+    "mf_störtebeker.trait_truesilver.description": "1/cena, depois de acertar com uma arma, o Störtebeker pode aplicar um dos seguintes efeitos a depender do tipo de arma.<br><ul><li><b>Arma não Recarregável</b> trate o acerto como um Crítico. O dano não é rolado 2 vezes.</li><li><b>Arma Recarregável:</b>O Dano não pode ser reduzido.</li></ul>",
+    "mf_störtebeker.trait_truesilver.synergy_0.detail": "1/cena, depois de acertar com uma arma, o Störtebeker pode aplicar um dos seguintes efeitos a depender do tipo de arma.<br><ul><li><b>Arma não Recarregável</b> trate o acerto como um Crítico. O dano não é rolado 2 vezes.</li><li><b>Arma Recarregável:</b>O Dano não pode ser reduzido.</li></ul>",
+    "ms_armament_redundancy.active_effect_armament_redundancy.detail": "Você pode escolher ignorar a destruição de uma arma causado por um TRAUMA DE SISTEMA ao sofrer dano de estrutura. Utilizável uma vez por Reparo Completo.",
+    "ms_armament_redundancy.active_effect_armament_redundancy.name": "Armamento Redundante",
+    "ms_armament_redundancy.effect": "Você pode optar por ignorar a destruição de arma como consequência de um resultado de TRAUMA DE SISTEMA ao sofrer dano de estrutura. Este sistema só pode ser usado uma vez antes de cada REPARO COMPLETO, e não é um alvo válido para a destruição de sistema.",
+    "ms_armament_redundancy.name": "Armamento Redundante",
+    "ms_cockpit_integrated_stim_pump.action_edge.detail": "<ul><li>você fica Lento.</li><li>você ganha Imunidade a Bloqueado.</li><li>O seu próximo ataque nesse turno tem +1 de Precisão.</li></ul>"
 }
