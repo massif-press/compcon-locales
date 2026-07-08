@@ -59,5 +59,9 @@
     "act_activate_quick.detail": "발동 시, 플레이어는 전력 행동을 소모하는 시스템이나 장비를 사용합니다. 해당되는 시스템들은 빠른 행동 혹은 전력 행동 태그가 부착되어 있습니다. 플레이어는 한 턴에 몇 번이든 발동을 선언할 수 있지만, 자유 행동으로 발동시키지 못하는 이상 한 시스템을 여러 번 발동할 수 없습니다.",
     "act_activate_quick.name": "빠른 발동",
     "act_activate_quick.terse": "빠른 행동을 소모하는 시스템이나 장비를 발동합니다.",
-    "act_search.name": "색적"
+    "act_search.name": "색적",
+    "act_move.terse": "캐릭터를 아무 방향으로나 이동속도 내에서 움직입니다.",
+    "act_overwatch.detail": "무기의 경계가 유발되었을 때, 이를 유발한 타겟이 이동하기 이전, 즉시 해당 무기로 빠른 공격합니다.",
+    "dt_gather_information.name": "정보 수집",
+    "tg_seeking.name": "추적"
 }
