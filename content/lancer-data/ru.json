@@ -39,5 +39,6 @@
     "act_mount.name": "Оседлать",
     "act_move.name": "Двигаться",
     "glossary_HeatCapacity.name": "Теплоёмкость",
-    "glossary_Burn.name": "Плавление"
+    "glossary_Burn.name": "Плавление",
+    "act_eject.terse": "Катапультируйтесь из своего меха, пролетая 6 пространств в направлении по вашему выбору."
 }
