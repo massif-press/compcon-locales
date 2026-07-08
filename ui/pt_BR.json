@@ -176,7 +176,10 @@
         "hase_s": "S",
         "hase_e": "E",
         "alert": "Alerta",
-        "ok": "OK"
+        "ok": "OK",
+        "a11y": {
+            "mainNavigation": "Menu Principal"
+        }
     },
     "print": {
         "generalOptions": "Opções Gerais de Impressão"
@@ -214,7 +217,10 @@
         "unknownLicense": "Licença Desconhecida",
         "newSkillTrigger": "Novo Gatilho",
         "subtitles": {
-            "aSimpleAffairWithTwoSides": "Um confronto simples, com dois lados se enfrentando até que um deles seja quebrado ou destruído."
+            "aSimpleAffairWithTwoSides": "Um confronto simples, com dois lados se enfrentando até que um deles seja derrotado ou destruído."
+        },
+        "titles": {
+            "titlePage": "Capa"
         }
     },
     "nav": {
@@ -536,7 +542,8 @@
             "changelog": "@:{'common.changelog'}",
             "contentHeading": "Conteúdo",
             "patchByAuthor": "por {translator}",
-            "patchUnknownAuthor": "Tradutor desconhecido"
+            "patchUnknownAuthor": "Tradutor desconhecido",
+            "removePatch": "Remover patch"
         },
         "communityTable": {
             "noData": "Nenhum pacote de conteúdo disponível.",
@@ -2033,7 +2040,7 @@
             "setRound": "Definir Rodada",
             "overrides": "Substitui",
             "current": "Atual",
-            "max": "Máx",
+            "max": "Max",
             "removeFromEncounter": "Remover {name} do Encontro",
             "noStatController": "Nenhum Controlador de Atributos Encontrado",
             "editReinforcements": "Editar Reforços",
