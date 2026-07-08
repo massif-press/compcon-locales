@@ -220,7 +220,8 @@
             "aSimpleAffairWithTwoSides": "Um confronto simples, com dois lados se enfrentando até que um deles seja derrotado ou destruído."
         },
         "titles": {
-            "titlePage": "Capa"
+            "titlePage": "Capa",
+            "contributors": "Colaboradores"
         }
     },
     "nav": {
@@ -1630,6 +1631,9 @@
             "changeTierAndAdjustEdited": "Mudar de patamar e ajustar atributos editados na mesma proporção que as mudanças de atributos padrão.",
             "changeTierAndKeepEdited": "Mudar de patamar e manter os valores de atributos editados, mesmo que caiam abaixo dos padrões do novo patamar.",
             "changeTierAndDiscardAll": "Mudar de patamar e descartar todos os valores de atributos editados."
+        },
+        "a11y": {
+            "dragToReorder": "Arraste para ordenar"
         }
     },
     "notify": {
