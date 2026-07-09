@@ -491,7 +491,7 @@
             "authorsWebsite": "Сайт автора",
             "dependencyInstalled": "Зависимость установлена",
             "contentHeading": "Содержимое",
-            "patchUnknownAuthor": "Неизвестный переводчик"
+            "patchUnknownAuthor": ""
         },
         "communityTable": {
             "currentVersion": "Текущая версия",
@@ -522,7 +522,7 @@
             "supportOf": " ",
             "tier": "@:{'common.tier'}",
             "anonymousPatron": "анонимных подписчиков",
-            "support": "поддержка"
+            "support": ""
         },
         "achievementItem": {
             "createdBy": "Создатель",
@@ -775,7 +775,8 @@
             "image": "Изображение",
             "clock": "Счётчик",
             "addCombat": "Добавить бой",
-            "combatEncounter": "Боевое столкновение"
+            "combatEncounter": "Боевое столкновение",
+            "contentPack": "Контент-паки"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
@@ -968,7 +969,8 @@
         "titles": {
             "movement": "Движение",
             "burn": "Ожог",
-            "addFromShareCode": "Добавить из публичного кода"
+            "addFromShareCode": "Добавить из публичного кода",
+            "heatCapacity": "Теплоёмкость"
         },
         "timedEffect": {
             "override": "// Заменить",
@@ -1679,7 +1681,11 @@
             "statblockGenerator": "Генератор статблока",
             "gearLoadout": "Выкладка",
             "selectBracingMount": "Выбор опорного крепления",
-            "skillSuggestionsAvailable": "Доступны рекомендации по выбору навыков"
+            "skillSuggestionsAvailable": "Доступны рекомендации по выбору навыков",
+            "contentPack": "Контент-паки",
+            "coreBonuses": "Ключевые улучшения",
+            "edef": "Т. защ.",
+            "heatcap": "Теплоёмкость"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
@@ -1776,7 +1782,8 @@
             "coreBonuses": "Ключевые улучшения"
         },
         "tooltips": {
-            "copyStatBlockToClipboard": "Скопировать статблок в буфер обмена"
+            "copyStatBlockToClipboard": "Скопировать статблок в буфер обмена",
+            "heatCapacity": "ТЕПЛОЁМКОСТЬ"
         }
     },
     "ui": {
@@ -1860,11 +1867,21 @@
         "titles": {
             "clockEditor": "редактор счётчиков",
             "activateFreeAction": "Активация (свободное действие)",
-            "successfulHit": "Поадание",
+            "successfulHit": "Попадание",
             "printOptions": "Опции для печати",
             "hints": "Подсказки",
             "rules": "Правила",
-            "tactics": "Тактика"
+            "tactics": "Тактика",
+            "heatcap": "Теплоёмкость",
+            "evade": "Уклониться",
+            "threat": "Досягаемость",
+            "thrown": "Метательное",
+            "shardFeatures": "Особенности осколка",
+            "featureSelection": "Выбор особенностей",
+            "overheating": "ПЕРЕГРЕВ",
+            "structureDamage": "СТРУКТУРНЫЙ УРОН",
+            "cascade": "КАСКАД",
+            "heatCapacity": "Теплоёмкость"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -2065,7 +2082,7 @@
             "copiedTitle": "Ссылка скопирована"
         },
         "achievement": {
-            "unlockedTitle": "Достижение разблокировано!"
+            "unlockedTitle": ""
         }
     },
     "print": {
@@ -2173,7 +2190,19 @@
             "noEidolonData": "Информация о эйдолонах отсутствует",
             "lancerBasics": "Основы Lancer",
             "usingCompcon": "Как использовать @:{'common.appName'}",
-            "narrativePlay": "Нарративная часть игры"
+            "narrativePlay": "Нарративная часть игры",
+            "contentPack": "Контент-паки",
+            "tierI": "Уровень I",
+            "tierIi": "Уровень II",
+            "tierIii": "Уровень III",
+            "licenseLevel": "Уровень лицензии",
+            "spCost": "Стоимость (пункты систем)",
+            "manufacturer": "Производитель",
+            "shards": "Осколки",
+            "size": "Размер",
+            "mounts": "Крепления",
+            "edef": "Т. защ.",
+            "heatcap": "Теплоёмкость"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
