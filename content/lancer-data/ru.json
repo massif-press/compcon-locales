@@ -37,5 +37,6 @@
     "act_jockey_shred.terse": "Нанеси 2 нагрева",
     "act_lockon.name": "Захват цели",
     "act_mount.name": "Оседлать",
-    "act_move.name": "Двигаться"
+    "act_move.name": "Двигаться",
+    "glossary_HeatCapacity.name": "Теплоёмкость"
 }
