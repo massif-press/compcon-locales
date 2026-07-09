@@ -6,7 +6,7 @@
     "act_dismount.name": "Desmontar",
     "act_eject.name": "Ejetar",
     "act_eject.terse": "Ejete do seu mecha, voando 6 espaços na direção de sua escolha.",
-    "act_ace_supersonic_spinup.detail": "Como uma ação rápida no seu turno, você pode ligar seus propulsores. Se você terminar seu turno voando, pode indicar um personagem dentro de um alcance igual à sua Velocidade e que esteja na linha de visão, e ganhar a reação Supersônico.",
+    "act_ace_supersonic_spinup.detail": "Como uma ação rápida no seu turno, você pode acionar seus propulsores. Se você terminar seu turno voando, pode indicar um personagem dentro de um alcance igual à sua Velocidade e que esteja na linha de visão, e ganhar a reação Supersônico.",
     "act_ace_supersonic_spinup.name": "Acionar Propulsores",
     "act_activate_full.detail": "Quando <b>ATIVAR</b>, você usa um sistema ou equipamento que requer uma ação rápida ou completa. Esses sistemas têm as tags de <b>AÇÃO RÁPIDA</b> ou <b>AÇÃO COMPLETA</b>. Você pode <b>ATIVAR</b> quantas vezes quiser em um turno, mas não pode <b>ATIVAR</b> o mesmo sistema mais de uma vez, a menos que também possa fazê-lo como uma ação livre.",
     "act_activate_full.name": "Ativar (Completa)",

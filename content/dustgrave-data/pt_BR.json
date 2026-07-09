@@ -1,1 +1,21 @@
-{}
+{
+    "cb_superheavy_mounting.description": "Você se surpreenderia com o tamanho da arma que daria para instalar em um chassi se você removesse os sistemas periféricos e as redundâncias de segurança.",
+    "cb_superheavy_mounting.effect": "Se seu mecha tem menos de 3 encaixes (excluído encaixes Integrados) ele ganha um encaixe Superpesado adicional. Esse encaixe só pode levar armas Superpesadas. Elas ainda precisam de uma montaria adicional para serem instaladas. Se seu mecha tem um encaixe Pesado a arma Superpesada deve usar esse encaixe como o adicional.",
+    "emergency_coolant_reservoir.action_emergency_coolant_reservoir.detail": "Remover EXPOSTO como uma ação livre.",
+    "emergency_coolant_reservoir.action_emergency_coolant_reservoir.name": "Reservatório de líquido de arrefecimento de emergência",
+    "emergency_coolant_reservoir.description": "1/missão: limpa EXPOSTO como uma ação livre.",
+    "emergency_coolant_reservoir.name": "Reservatório de líquido de arrefecimento de emergência",
+    "mf_micro_monarch.trait_pressure_plating.description": "A Viceroy tem Resistência a Dano Explosivo.",
+    "mf_micro_monarch.trait_vigilante_omnidirectional_launchers.active_effect_vigilante_omnidirectional_launchers.detail": "1/Rodada, em um acerto crítico, causa 2 de Dano Explosivo a todos os personagens a sua escolha em um Alcance 3 e empurre eles 1 espaço para trás.",
+    "cb_superheavy_mounting.name": "Encaixe Superpesado",
+    "env_automatedrepairstations.name": "Estações de Reparo Automatizadas",
+    "env_arenahazards.name": "Perigos da Arena",
+    "env_chokingdust.name": "Poeira Sufocante",
+    "env_arenahazards.description": "Para tornar as lutas mais interessantes e violentas, a arena é cheia de perigos, desde serras circulares giratorias até estacas de pistão letais. Coloque quatro areas Explosão 1 no campo de batalha. Personagens que entrarem ou começarem seu turno dentro de um desses perigos leva 4/5/6 dano cinético. Eles só podem ser danificado pelos perigos 1/rodada. Perigos de arena são indestrutiveis. 1/rodada, esses perigos podem ser escolhido como alvo com Invadir. Eles tem 12/14/16 Defensa-E. Em um acerto, todos personagens adjacentes ao perigo levam dano como se tivessem se movido através dele.",
+    "env_automatedrepairstations.description": "Posicione três áreas de Explosão 1 no campo de batalha a pelo menos 5 espaços de distância umas das outras. NPCs que iniciarem os seus turnos pelo menos parcialmente dentro dessas áreas recuperam 3/5/7 PV. Essas áreas podem ser escolhidas como alvo como se fossem objetos com 5 de Evasão e 10/13/16 PV.",
+    "env_mesmertrance.description": "Personagens dos jogadores sem um Amortecedor MesmerTrance instalado são suscetíveis ao vírus MesmerTrance. No início de cada turno, personagens suscetíveis devem ser bem-sucedidos em um teste de resistência de Sistemas (11/13/15) ou recebem 1 Marcador de MesmerTrance. Esses marcadores causam efeitos prejudiciais cumulativos com base no número de marcadores acumulados: 1. Nenhum efeito. 2. Recebe 1 de Calor e 1 de Calor adicional no início de cada um dos turnos subsequentes do personagem. 3. Fica Lento 4. Fica Prejudicado 5. Fica Travado 6. Sofre 1 de dano de estresse. Personagens afetados podem Estabilizar para remover todos os Marcadores de MesmerTrance.",
+    "env_mesmertrance.name": "MesmerTrance",
+    "intel_die.name": "Dado de Inteligência",
+    "mf_micro_monarch.core_system.active_name": "Torrente Celestial",
+    "mf_micro_monarch.name": "Viceroy"
+}

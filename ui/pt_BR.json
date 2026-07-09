@@ -176,7 +176,10 @@
         "hase_s": "S",
         "hase_e": "E",
         "alert": "Alerta",
-        "ok": "OK"
+        "ok": "OK",
+        "a11y": {
+            "mainNavigation": "Menu Principal"
+        }
     },
     "print": {
         "generalOptions": "Opções Gerais de Impressão"
@@ -212,7 +215,14 @@
         "newCollection": "Nova Coleção",
         "unknownStatus": "Estado Desconhecido",
         "unknownLicense": "Licença Desconhecida",
-        "newSkillTrigger": "Novo Gatilho"
+        "newSkillTrigger": "Novo Gatilho",
+        "subtitles": {
+            "aSimpleAffairWithTwoSides": "Um confronto simples, com dois lados se enfrentando até que um deles seja derrotado ou destruído."
+        },
+        "titles": {
+            "titlePage": "Capa",
+            "contributors": "Colaboradores"
+        }
     },
     "nav": {
         "contentManager": {
@@ -408,7 +418,8 @@
             "patronThanks": "O desenvolvimento contínuo do @:{'common.appName'} não seria possível sem o generoso",
             "supportOf": "de",
             "compconBy": "@:{'common.appName'} Por",
-            "anonymousPatron": "Patrono Anônimo"
+            "anonymousPatron": "Patrono Anônimo",
+            "support": "Suporte"
         },
         "deletedItems": {
             "itemType": "Tipo de Item",
@@ -493,7 +504,7 @@
             "areYouSure": "Tem certeza de que quer continuar?",
             "deleteAllUserData": "Apagar todos Dados do Usuário",
             "maxThresholdPct": "Limite Máximo (%)",
-            "warningThresholdMb": "Aviso de Limite (MB)",
+            "warningThresholdMb": "Limite de Aviso (MB)",
             "maxThresholdMb": "Limite Máximo (MB)",
             "warningDescription": "O @:{'common.appName'} exibirá uma mensagem de aviso quando",
             "maxDescription": "O @:{'common.appName'} impedirá a criação de novos dados após",
@@ -530,7 +541,10 @@
             "dependencyInstalled": "Dependências instaladas",
             "version": "@:{'common.version'}",
             "changelog": "@:{'common.changelog'}",
-            "contentHeading": "Conteúdo"
+            "contentHeading": "Conteúdo",
+            "patchByAuthor": "por {translator}",
+            "patchUnknownAuthor": "Tradutor desconhecido",
+            "removePatch": "Remover patch"
         },
         "communityTable": {
             "noData": "Nenhum pacote de conteúdo disponível.",
@@ -625,6 +639,30 @@
             "netlifyStatus": "Status do Netlify",
             "joinTheLancerDiscord": "Junte-se ao discord de LANCER",
             "supportCompconOnPatreon": "Apoie o @:{'common.appName'} no Patreon"
+        },
+        "titles": {
+            "latestVersion": "Versão Mais Recente",
+            "installedVersion": "Versão instalada",
+            "backedUp": "Backup concluído",
+            "x1Week": "1 semana",
+            "x2Weeks": "2 semanas",
+            "x1Month": "1 mês",
+            "x3Months": "3 meses",
+            "x6Months": "6 meses",
+            "x1Year": "1 ano",
+            "active": "Ativo",
+            "author": "Autor(a)",
+            "version": "Versão",
+            "type": "Tipo",
+            "missing": "Faltando",
+            "never": "Nunca",
+            "lcp": "LCP"
+        },
+        "fields": {
+            "interV3Default": "Inter (v3 padrão)",
+            "notoSansV3Alt": "Noto Sans (v3 alt)",
+            "helveticaV2Default": "Helvetica (v2 padrão)",
+            "opendyslexicExperimental": "OpenDyslexic (experimental)"
         }
     },
     "share": {
@@ -1522,7 +1560,22 @@
             "sitrepModified": "resit modificado",
             "organizeEncounters": "organizar encontros",
             "selectTemplate": "selecionar modelo",
-            "selectNpcClass": "selecionar classe do PNJ"
+            "selectNpcClass": "selecionar classe do PNJ",
+            "gmLabels": "Etiquetas do Mestre",
+            "folder": "Pasta",
+            "shards": "Fragmentos",
+            "npcRoster": "PNJs",
+            "title": "Título",
+            "pronouns": "Pronomes",
+            "class": "Classe",
+            "layers": "Camadas",
+            "templates": "Modelos",
+            "contentPack": "Conteúdos",
+            "gmToolkit": "Ferramentas de GM",
+            "campaignEditor": "Editor de Campanha",
+            "encounterEditor": "Editor de Encontros",
+            "alias": "Alias",
+            "tag": "Tag"
         },
         "fields": {
             "selectDataFile": "Selecionar Arquivo de Dados",
@@ -1566,7 +1619,10 @@
             "addANewEmptyBeat": "Adiciona um novo Ponto vazio nesta seção. Um Ponto é uma seção para um evento importante ou momento na história.",
             "addANewEmptyMission": "Adiciona uma nova Missão vazia nesta página. Uma Missão contém objetivos específicos que podem ser concluídos em um período de tempo discreto, e geralmente contém Combates.",
             "addANewEmptyCombat": "Adiciona um novo Combate vazio nesta página. Um Combate contém Encontros, bem como diretrizes do Mestre, detalhes narrativos sobre a batalha e resultados potenciais.",
-            "addANewEmptyDowntime": "Adiciona um novo Recesso vazio nesta página. O Recesso é o espaço narrativo entre as missões, onde a ação momento a momento não importa tanto e o RPG importa muito mais."
+            "addANewEmptyDowntime": "Adiciona um novo Recesso vazio nesta página. O Recesso é o espaço narrativo entre as missões, onde a ação momento a momento não importa tanto e o RPG importa muito mais.",
+            "manageNonPlayerCombatUnits": "Gerencia PNJs de combate",
+            "manageCharactersLocationsAndFactions": "Gerenciar personagens, locais e facções",
+            "createCombatEncounters": "Criar encontros de combate"
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Objetos que não são personagens (como itens de terreno) que podem ser rastreados em encontros de combate."
@@ -1575,6 +1631,9 @@
             "changeTierAndAdjustEdited": "Mudar de patamar e ajustar atributos editados na mesma proporção que as mudanças de atributos padrão.",
             "changeTierAndKeepEdited": "Mudar de patamar e manter os valores de atributos editados, mesmo que caiam abaixo dos padrões do novo patamar.",
             "changeTierAndDiscardAll": "Mudar de patamar e descartar todos os valores de atributos editados."
+        },
+        "a11y": {
+            "dragToReorder": "Arraste para ordenar"
         }
     },
     "notify": {
@@ -1985,7 +2044,7 @@
             "setRound": "Definir Rodada",
             "overrides": "Substitui",
             "current": "Atual",
-            "max": "Máx",
+            "max": "Max",
             "removeFromEncounter": "Remover {name} do Encontro",
             "noStatController": "Nenhum Controlador de Atributos Encontrado",
             "editReinforcements": "Editar Reforços",

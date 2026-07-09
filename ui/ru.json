@@ -490,7 +490,8 @@
             "dependenciesTooltip": "Зависимостями называются другие контент-паки, которые необходимы для коректной работы данного контент-пака. Они должны быть установлены и активны для нормальной загрузки текущего контент-пака.",
             "authorsWebsite": "Сайт автора",
             "dependencyInstalled": "Зависимость установлена",
-            "contentHeading": "Содержимое"
+            "contentHeading": "Содержимое",
+            "patchUnknownAuthor": "Неизвестный переводчик"
         },
         "communityTable": {
             "currentVersion": "Текущая версия",
@@ -520,7 +521,8 @@
             "patronThanks": "Развитие @:{'common.appName'} стало возможным благодаря щедрой",
             "supportOf": " ",
             "tier": "@:{'common.tier'}",
-            "anonymousPatron": "анонимных подписчиков"
+            "anonymousPatron": "анонимных подписчиков",
+            "support": "поддержка"
         },
         "achievementItem": {
             "createdBy": "Создатель",
@@ -2061,6 +2063,9 @@
         },
         "link": {
             "copiedTitle": "Ссылка скопирована"
+        },
+        "achievement": {
+            "unlockedTitle": "Достижение разблокировано!"
         }
     },
     "print": {
