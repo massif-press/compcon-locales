@@ -524,7 +524,15 @@
         "newNarrativeItem": "Nouvel élément narratif",
         "unknownStatus": "Statut inconnu",
         "newLocation": "Nouveau lieu",
-        "newEncounter": "Nouvelle rencontre"
+        "newEncounter": "Nouvelle rencontre",
+        "titles": {
+            "contributors": "Contributeurs",
+            "titlePage": "Titre de page"
+        },
+        "subtitles": {
+            "aSimpleAffairWithTwoSides": "Une simple affaire, avec deux camps l'un contre l'autre jusqu'à ce que l'un d'entre eux soit vaincu ou détruit.",
+            "aStandardEnvironmentWithNoSpecial": "Un environnement standard avec aucune particularité spéciale de combat"
+        }
     },
     "nav": {
         "contentManager": {
@@ -598,7 +606,10 @@
             "changelog": "@:{'common.changelog'}",
             "noDescription": "@:{'ui.widget.noDescription'}",
             "none": "@:{'common.none'}",
-            "version": "@:{'common.version'}"
+            "version": "@:{'common.version'}",
+            "removePatch": "Annuler le correctif",
+            "patchUnknownAuthor": "Traducteur inconnu",
+            "patchByAuthor": "par {translator}"
         },
         "communityTable": {
             "notInstalled": "Non installé",
@@ -711,7 +722,8 @@
             "patronThanks": "Le développement continu de @:{'common.appName'} ne serait pas possible sans les généreux",
             "supportOf": "de",
             "tier": "@:{'common.tier'}",
-            "anonymousPatron": "Donateurs anonymes"
+            "anonymousPatron": "Donateurs anonymes",
+            "support": "support"
         },
         "achievements": {
             "hidden": "@:{'common.hidden'}",
@@ -893,7 +905,22 @@
             "interV3Default": "Inter (Défaut v3)"
         },
         "titles": {
-            "never": "Jamais"
+            "never": "Jamais",
+            "missing": "Manquant",
+            "type": "Type",
+            "lcp": "LCP",
+            "version": "Version",
+            "author": "Auteur",
+            "active": "Actif",
+            "x1Year": "1 an",
+            "x6Months": "6 mois",
+            "x3Months": "3 mois",
+            "x1Month": "1 mois",
+            "x2Weeks": "2 semaines",
+            "x1Week": "1 semaine",
+            "backedUp": "Sauvegardé",
+            "installedVersion": "Version installée",
+            "latestVersion": "Dernière version"
         }
     },
     "active": {
