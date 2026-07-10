@@ -1129,10 +1129,23 @@
         },
         "pilotsPanel": {
             "addFromFile": "Добавить из файла",
-            "addPlaceholder": "добавить пилота-заглушку"
+            "addPlaceholder": "добавить пилота-заглушку",
+            "placeholderN": "Пилот-заглушка #{n}"
         },
         "encSummary": {
             "turnN": "(Ход {n})"
+        },
+        "sheet": {
+            "newCharacterSheet": "Новый лист персонажа"
+        },
+        "sheetMgr": {
+            "archivedSheets": "Листы в архиве ({n})",
+            "kia": "Убит в бою",
+            "featureInDev": "Функция в разработке (v3.1)"
+        },
+        "newSheet": {
+            "llLevel": "УЛ{n}",
+            "campaignName": "Название кампании"
         }
     },
     "mainMenu": {
