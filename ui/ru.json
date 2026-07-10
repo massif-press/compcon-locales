@@ -1615,7 +1615,8 @@
             "reserve": "Резервы",
             "mountLOCKED": "Крепление недоступно",
             "pilotSheetOptions": "Опции листа пилота",
-            "mechWEAPONMOUNT": "Крепление для оружия меха"
+            "mechWEAPONMOUNT": "Крепление для оружия меха",
+            "operatorNotes": "Заметки оператора"
         },
         "roster": {
             "history": "История группы",
