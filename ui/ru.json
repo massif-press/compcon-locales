@@ -953,7 +953,8 @@
             "modifiers": "Модификаторы",
             "difficult": "Сложный",
             "standard": "Стандартная",
-            "targetValue": "Целевое значение"
+            "targetValue": "Целевое значение",
+            "checkStat": "Проверка характеристики"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
