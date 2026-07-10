@@ -2148,7 +2148,8 @@
             "emailChangeCancelledTitle": "Изменение адреса эл. почты отменено",
             "publishedTitle": "Опубликовано",
             "updateFailedTitle": "Не удалось обновить",
-            "dataUpdatedText": "Данные пользователя обновлены"
+            "dataUpdatedText": "Данные пользователя обновлены",
+            "serverError": "Произошла ошибка сервера."
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
