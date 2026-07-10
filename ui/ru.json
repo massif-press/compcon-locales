@@ -1022,7 +1022,8 @@
             "pilotNameOrCallsign": "Имя или позывной пилота",
             "lineWidth": "Ширина линий",
             "addTable": "Добавить таблицу",
-            "justify": "Выровнять"
+            "justify": "Выровнять",
+            "reclaimControl": "Вернуть контроль"
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
@@ -1039,7 +1040,9 @@
             "movement": "Движение",
             "burn": "Ожог",
             "addFromShareCode": "Добавить из публичного кода",
-            "heatCapacity": "Теплоёмкость"
+            "heatCapacity": "Теплоёмкость",
+            "items": "Элементы",
+            "sitrep": "Оперсводки"
         },
         "timedEffect": {
             "override": "// Заменить",
