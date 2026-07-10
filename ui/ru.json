@@ -820,7 +820,12 @@
             "addCombat": "Добавить бой",
             "combatEncounter": "Боевое столкновение",
             "contentPack": "Контент-паки",
-            "environmentDataModified": "данные обстановки были изменены"
+            "environmentDataModified": "данные обстановки были изменены",
+            "role": "Роль",
+            "folder": "Папка",
+            "shards": "Осколки",
+            "gmToolkit": "Инструменты ведущего",
+            "npcRoster": "Ростер персонажей ведущего"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
@@ -1501,7 +1506,9 @@
             "installCompconForReliableStorage": "Установите @:{'common.appName'} для надежного хранения данных",
             "youDoNotHaveAccess": "У вас нет доступа к облачным резервным копиям.",
             "youDoNotHaveAccess2": "У вас нет доступа к инструменту публикации подборок.",
-            "compconCloudAccount": "Облачный аккаунт @:{'common.appName'}"
+            "compconCloudAccount": "Облачный аккаунт @:{'common.appName'}",
+            "role": "Роль",
+            "filename": "Имя файла"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
@@ -2006,7 +2013,10 @@
             "overheating": "ПЕРЕГРЕВ",
             "structureDamage": "СТРУКТУРНЫЙ УРОН",
             "cascade": "КАСКАД",
-            "heatCapacity": "Теплоёмкость"
+            "heatCapacity": "Теплоёмкость",
+            "resistance": "Сопротивление",
+            "immunity": "Иммунитет",
+            "vulnerability": "Уязвимость"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -2178,7 +2188,9 @@
             "restoreFailedTitle": "Не удалось восстановить",
             "deleteFailedTitle": "Не удалось удалить",
             "retryFailedText": "Не удалось найти облачный элемент для {name}.",
-            "bulkDeletedText": "Выбранные элементы были удалены."
+            "bulkDeletedText": "Выбранные элементы были удалены.",
+            "convertedTitle": "Преобразование в локальные данные",
+            "deletedPermanentlyTitle": "Удалить безвозвратно"
         },
         "share": {
             "syncCompleteTitle": "Синхронизация завершена"
