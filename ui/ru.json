@@ -1158,6 +1158,12 @@
             "llLevel": "УЛ{n}",
             "campaignName": "Название кампании",
             "createAndLaunch": "Создать и запустить активный режим"
+        },
+        "gmRunner": {
+            "roundN": "Раунд {n}"
+        },
+        "addRoster": {
+            "licenseLevelN": "Уровень лицензии"
         }
     },
     "mainMenu": {
