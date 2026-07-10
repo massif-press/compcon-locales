@@ -1706,7 +1706,8 @@
             "critical": "Важно",
             "pilotNAMEBlankOrInvalid": "ИМЯ ПИЛОТА: пусто или недействительно",
             "registerNewPilot": "Зарегистрировать нового пилота // {callsign} ({name})",
-            "nb": "Обратите внимание"
+            "nb": "Обратите внимание",
+            "pilotCALLSIGNBlankOrInvalid": "ПОЗЫВНОЙ ПИЛОТА: пусто или недействителен"
         },
         "loadout": {
             "notSET": "Не задано",
