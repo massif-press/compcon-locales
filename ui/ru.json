@@ -2153,7 +2153,8 @@
             "emailChangeFailedTitle": "Подтверждено изменение адреса электронной почты",
             "emailChangeCancelledText": "Запрос на изменение электронной почты был отменен.",
             "itchLinkedText": "Ваш аккаунт на Patreon был успешно привязан",
-            "itchLinkFailedText": "При попытке привязать ваш аккаунт на Patreon возникла ошибка"
+            "itchLinkFailedText": "При попытке привязать ваш аккаунт на Patreon возникла ошибка",
+            "itchUnlinkedText": "Ваш аккаунт на Patreon был отвязан"
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
