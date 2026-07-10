@@ -1012,7 +1012,8 @@
         },
         "customStat": {
             "static": "Статический",
-            "trackable": "Отслеживаемый"
+            "trackable": "Отслеживаемый",
+            "editStats": "Редактировать статистику"
         },
         "titles": {
             "movement": "Движение",
