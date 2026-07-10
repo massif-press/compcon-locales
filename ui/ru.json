@@ -176,7 +176,11 @@
         "addingLocalCopyTooltip": "Добавление этого элемента как локальной копии создаст новую редактируемую версию, сохранённую в ваших локальных данных @:{'common.appName'}. Изменения, внесённые в этот элемент, не повлияют на исходные данные автора, и вы не будете получать обновления от автора.",
         "includeFeatureDetails": "включить подробную информацию о функциях",
         "importOverwriteWarning": "Импорт этих данных перезапишет существующую кампанию с тем же идентификатором ({title}). Последнее обновление существующей кампании было произведено {date}.",
-        "convertToLocal": "Преобразование в локальные данные"
+        "convertToLocal": "Преобразование в локальные данные",
+        "a11y": {
+            "mainNavigation": "Основная навигация",
+            "toggleNavigation": "Переключатель панели навигации"
+        }
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -202,6 +206,10 @@
         "newEnvironmentDescription": "Новый тип обстановки",
         "subtitles": {
             "aStandardEnvironmentWithNoSpecial": "Стандартная обстановка без дополнительных факторов, влияющих на бой"
+        },
+        "titles": {
+            "titlePage": "Заглавная страница",
+            "contributors": "Авторы"
         }
     },
     "language": {
@@ -530,7 +538,7 @@
             "additionalArtBy": "Дополнительные изображения предоставлены",
             "patronThanks": "Развитие @:{'common.appName'} стало возможным благодаря щедрой",
             "supportOf": " ",
-            "tier": "@:{'common.tier'}",
+            "tier": "Уровень подписки",
             "anonymousPatron": "анонимных подписчиков",
             "support": "поддержке"
         },
@@ -747,7 +755,7 @@
             "optional": "Опционально",
             "conditions": "Условия",
             "service": "Связаться",
-            "neutral": "",
+            "neutral": "Нейтральные",
             "mustBeAnItchioUrl": "Для настройки автоматического управления в @:{'common.appName'} необходимо наличие ссылки на страницу на itch.io"
         },
         "pageContent": {
@@ -905,13 +913,20 @@
         "joinTable": {
             "players": "Игроки",
             "connect": "Присоединиться",
-            "online": "Онлайн"
+            "online": "Онлайн",
+            "sortGm": "Сортировать по стобцу \"Ведущий\"",
+            "gm": "Ведущий",
+            "gmOffline": "Ведущий не в сети"
         },
         "diceRoller": {
             "sessionHistory": "История сессий",
             "title": "Бросание костей",
             "count": "Количество",
-            "rollResult": "Результат броска"
+            "rollResult": "Результат броска",
+            "systemsCheck": "Проверка навыка (Системы)",
+            "die": "Кость",
+            "rollDice": "Бросить кость",
+            "noRolls": "Броски отсутствуют."
         },
         "damageMenu": {
             "totalDamage": "Общий урон",
@@ -931,13 +946,15 @@
         "actions": {
             "allActions": "Все действия",
             "selectIcon": "Выберите значок",
-            "equipmentDeployableInstance": ""
+            "equipmentDeployableInstance": "",
+            "mounted": "Установлено"
         },
         "skillCheck": {
             "modifiers": "Модификаторы",
             "difficult": "Сложный",
             "standard": "Стандартная",
-            "targetValue": "Целевое значение"
+            "targetValue": "Целевое значение",
+            "checkStat": "Проверка характеристики"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
@@ -968,7 +985,8 @@
         "gmOptions": {
             "current": "Текущий",
             "overrides": "Замена",
-            "max": "Максимум"
+            "max": "Максимум",
+            "editReinforcements": "Редактировать подкрепления"
         },
         "panelBase": {
             "counters": "Счётчики",
@@ -976,7 +994,10 @@
             "noCover": "Укрытие отсутствует",
             "hard": "Полное",
             "soft": "Частичное",
-            "statusesConditions": "Статусы / Состояния"
+            "statusesConditions": "Статусы / Состояния",
+            "resistances": "Сопротивление урону",
+            "softCover": "Частичное укрытие",
+            "hardCover": "Полное укрытие"
         },
         "equipCmd": {
             "reload": "Перезарядить"
@@ -1003,7 +1024,9 @@
         },
         "customStat": {
             "static": "Статический",
-            "trackable": "Отслеживаемый"
+            "trackable": "Отслеживаемый",
+            "editStats": "Редактировать характеристики",
+            "removeStat": "Убрать характеристику"
         },
         "titles": {
             "movement": "Движение",
@@ -1078,14 +1101,21 @@
             "npcDisengagedTitle": "Персонаж ведущего отошёл",
             "npcPreparedTitle": "Персонаж ведущего подготовился",
             "npcStabilizedTitle": "Персонаж ведущего стабилизировался",
-            "npcHiddenTitle": "Персонаж ведущего скрылся"
+            "npcHiddenTitle": "Персонаж ведущего скрылся",
+            "npcStabilizedText": "{name} полностью избавился от нагрева, потерял статус УЯЗВИМ и перезарядил своё оружие."
         },
         "sheetItem": {
             "na": "Отсутствует",
-            "started": "начало использования"
+            "started": "начало использования",
+            "roundN": "Раунд {n}",
+            "archiveSheet": "Архивный лист персонажа",
+            "deleteSheet": "Удалить лист персонажа",
+            "unmounted": "Не закреплено",
+            "exportSheet": "Экспортировать лист персонажа"
         },
         "encInfo": {
-            "reinforcements": "Подкрепления"
+            "reinforcements": "Подкрепления",
+            "turnN": "Ход {n}"
         },
         "refTag": {
             "noTagsFound": "Метки не найдены",
@@ -1101,14 +1131,17 @@
             "roundsCount": "{n} раундов",
             "afterActionReport": "Отчёт о результатах боя",
             "copyReport": "Скопировать отчёт",
-            "logsTelemetry": "Логи и телеметрия"
+            "logsTelemetry": "Логи и телеметрия",
+            "deleteArchivePrompt": "Удалить архив?"
         },
         "toolPalette": {
             "combatQuickRef": "Быстрая справка по боевой части",
-            "npcRef": "Справка по персонажам ведущего в бою"
+            "npcRef": "Справка по персонажам ведущего в бою",
+            "tagReference": "Справочник по меткам"
         },
         "actorLogs": {
-            "noEntries": "Хроники боев отсутствуют."
+            "noEntries": "Хроники боев отсутствуют.",
+            "log": "Лог"
         },
         "combatAction": {
             "alreadyUsed": "Указанное действие уже было использовано в этом ходу.",
@@ -1121,17 +1154,55 @@
             "addCustom": "Добавить пользовательский статус"
         },
         "sortBar": {
-            "sortByCreated": "Сортировать по дате создания"
+            "sortByCreated": "Сортировать по дате создания",
+            "sortByRecent": "Сортировать по недавним"
         },
         "cards": {
             "staged": "// Запланировано"
         },
         "pilotsPanel": {
             "addFromFile": "Добавить из файла",
-            "addPlaceholder": "добавить пилота-заглушку"
+            "addPlaceholder": "добавить пилота-заглушку",
+            "placeholderN": "Пилот-заглушка #{n}"
         },
         "encSummary": {
             "turnN": "(Ход {n})"
+        },
+        "sheet": {
+            "newCharacterSheet": "Новый лист персонажа"
+        },
+        "sheetMgr": {
+            "archivedSheets": "Листы в архиве ({n})",
+            "kia": "Убит в бою",
+            "featureInDev": "Функция в разработке (v3.1)",
+            "savePilotHistory": "Сохранить историю пилота"
+        },
+        "newSheet": {
+            "llLevel": "УЛ{n}",
+            "campaignName": "Название кампании",
+            "createAndLaunch": "Создать и запустить активный режим"
+        },
+        "gmRunner": {
+            "roundN": "Раунд {n}"
+        },
+        "addRoster": {
+            "licenseLevelN": "Уровень лицензии {n}",
+            "addPcFull": "Добавить персонажа игрока"
+        },
+        "gmNotes": {
+            "addClock": "Добавить счётчик"
+        },
+        "tableIndex": {
+            "otherTables": "Другие столы"
+        },
+        "addStub": {
+            "addPlaceholder": "Добавить заглушку"
+        },
+        "tableManager": {
+            "offline": "список столов, которые сейчас не в сети"
+        },
+        "unitLoadout": {
+            "reroll": "перебросить"
         }
     },
     "mainMenu": {
@@ -1507,7 +1578,8 @@
             "deletedCollectionInfo": "Подборка \"{name}\" была удалена автором. Хотя ваши локальные данные не были удалены, вы больше не будете получать обновления из этой подборки."
         },
         "subtitles": {
-            "permanentlyRemovesItemsFlaggedFor": "Навсегда удаляет элементы, помеченные для удаления."
+            "permanentlyRemovesItemsFlaggedFor": "Навсегда удаляет элементы, помеченные для удаления.",
+            "pushesAllLocalDataTo": "Загружает все локальные данные в облако, переставляя дату и время выгрузки на текущие. Используйте после восстановления или импорта."
         }
     },
     "pm": {
@@ -1615,7 +1687,7 @@
             "duplicateOrFlashCloneThisCharacter": "Сделать дубликат, либо экспресс-копию персонажа",
             "setLCPConfiguration": "Настроить профиль используемых LCP",
             "flashClonePilot": "Экспресс-клонирование пилота",
-            "emulationOfASentientIndividualS": "Эмуляция субъективной личности в в искусственном или взращённом субстрате.",
+            "emulationOfASentientIndividualS": "Эмуляция субъективной личности в искусственном или взращённом субстрате.",
             "intentionalDecorporealizationOfASentientBeing": "Преднамеренная декорпорализация разумного существа либо иной вид преемственности сознания.",
             "cloneQUIRK": "Причуда клона",
             "rerollQuirk": "Переброс причуд",
@@ -1983,7 +2055,7 @@
         },
         "pwa": {
             "updateNow": "Обновить сейчас",
-            "offlineReady": "@:{'common.appName'} может быть использован в режиме оффлайн.",
+            "offlineReady": "Теперь вы можете использовать @:{'common.appName'} в режиме оффлайн (без интернета).",
             "updateAvailable": "Доступна новая версия @:{'common.appName'}.",
             "later": "Позже"
         },
