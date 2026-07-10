@@ -984,7 +984,8 @@
             "noCover": "Укрытие отсутствует",
             "hard": "Полное",
             "soft": "Частичное",
-            "statusesConditions": "Статусы / Состояния"
+            "statusesConditions": "Статусы / Состояния",
+            "resistances": "Сопротивление"
         },
         "equipCmd": {
             "reload": "Перезарядить"
