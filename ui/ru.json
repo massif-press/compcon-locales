@@ -959,7 +959,8 @@
             "difficult": "Сложный",
             "standard": "Стандартная",
             "targetValue": "Целевое значение",
-            "checkStat": "Проверка характеристики"
+            "checkStat": "Проверка характеристики",
+            "rollResults": "Результат броска"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
@@ -1208,6 +1209,9 @@
         },
         "unitLoadout": {
             "reroll": "перебросить"
+        },
+        "weaponAttack": {
+            "alreadyActivated": "Этот кошелек уже деактивирован!"
         }
     },
     "mainMenu": {
