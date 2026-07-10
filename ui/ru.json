@@ -1725,7 +1725,9 @@
             "contentPack": "Контент-паки",
             "coreBonuses": "Ключевые улучшения",
             "edef": "Т. защ.",
-            "heatcap": "Теплоёмкость"
+            "heatcap": "Теплоёмкость",
+            "licensesRequired": "Необходимые лицензии",
+            "specialEquipment": "Специальное снаряжение"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
@@ -1829,6 +1831,11 @@
         "tooltips": {
             "copyStatBlockToClipboard": "Скопировать статблок в буфер обмена",
             "heatCapacity": "ТЕПЛОЁМКОСТЬ"
+        },
+        "actions": {
+            "editLicenseLevel": "Изменить уровень лицензии",
+            "pilotSkillTriggersReservesAnd": "Навыки, резервы и выкладка пилота",
+            "pilotLicensesMechSkillsCore": "Лицензии, навыки пилотирование, ключевые улучшения и таланты пилота"
         }
     },
     "ui": {
