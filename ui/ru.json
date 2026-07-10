@@ -179,7 +179,7 @@
         "convertToLocal": "Преобразование в локальные данные",
         "a11y": {
             "mainNavigation": "Основная навигация",
-            "toggleNavigation": "Переключатель навигации"
+            "toggleNavigation": "Переключатель панели навигации"
         }
     },
     "classes": {
@@ -538,7 +538,7 @@
             "additionalArtBy": "Дополнительные изображения предоставлены",
             "patronThanks": "Развитие @:{'common.appName'} стало возможным благодаря щедрой",
             "supportOf": " ",
-            "tier": "@:{'common.tier'}",
+            "tier": "Уровень подписки",
             "anonymousPatron": "анонимных подписчиков",
             "support": "поддержке"
         },
@@ -913,13 +913,20 @@
         "joinTable": {
             "players": "Игроки",
             "connect": "Присоединиться",
-            "online": "Онлайн"
+            "online": "Онлайн",
+            "sortGm": "Сортировать по стобцу \"Ведущий\"",
+            "gm": "Ведущий",
+            "gmOffline": "Ведущий не в сети"
         },
         "diceRoller": {
             "sessionHistory": "История сессий",
             "title": "Бросание костей",
             "count": "Количество",
-            "rollResult": "Результат броска"
+            "rollResult": "Результат броска",
+            "systemsCheck": "Проверка навыка (Системы)",
+            "die": "Кость",
+            "rollDice": "Бросить кость",
+            "noRolls": "Броски отсутствуют."
         },
         "damageMenu": {
             "totalDamage": "Общий урон",
@@ -939,7 +946,8 @@
         "actions": {
             "allActions": "Все действия",
             "selectIcon": "Выберите значок",
-            "equipmentDeployableInstance": ""
+            "equipmentDeployableInstance": "",
+            "mounted": "Установлено"
         },
         "skillCheck": {
             "modifiers": "Модификаторы",
@@ -976,7 +984,8 @@
         "gmOptions": {
             "current": "Текущий",
             "overrides": "Замена",
-            "max": "Максимум"
+            "max": "Максимум",
+            "editReinforcements": "Редактировать подкрепления"
         },
         "panelBase": {
             "counters": "Счётчики",
@@ -985,7 +994,9 @@
             "hard": "Полное",
             "soft": "Частичное",
             "statusesConditions": "Статусы / Состояния",
-            "resistances": "Сопротивление"
+            "resistances": "Сопротивление урону",
+            "softCover": "Частичное укрытие",
+            "hardCover": "Полное укрытие"
         },
         "equipCmd": {
             "reload": "Перезарядить"
@@ -1013,7 +1024,8 @@
         "customStat": {
             "static": "Статический",
             "trackable": "Отслеживаемый",
-            "editStats": "Редактировать статистику"
+            "editStats": "Редактировать характеристики",
+            "removeStat": "Убрать характеристику"
         },
         "titles": {
             "movement": "Движение",
@@ -1094,11 +1106,15 @@
         "sheetItem": {
             "na": "Отсутствует",
             "started": "начало использования",
-            "roundN": "Раунд {n}"
+            "roundN": "Раунд {n}",
+            "archiveSheet": "Архивный лист персонажа",
+            "deleteSheet": "Удалить лист персонажа",
+            "unmounted": "Не закреплено",
+            "exportSheet": "Экспортировать лист персонажа"
         },
         "encInfo": {
             "reinforcements": "Подкрепления",
-            "turnN": "(Ход {n})"
+            "turnN": "Ход {n}"
         },
         "refTag": {
             "noTagsFound": "Метки не найдены",
@@ -1119,10 +1135,12 @@
         },
         "toolPalette": {
             "combatQuickRef": "Быстрая справка по боевой части",
-            "npcRef": "Справка по персонажам ведущего в бою"
+            "npcRef": "Справка по персонажам ведущего в бою",
+            "tagReference": "Справочник по меткам"
         },
         "actorLogs": {
-            "noEntries": "Хроники боев отсутствуют."
+            "noEntries": "Хроники боев отсутствуют.",
+            "log": "Лог"
         },
         "combatAction": {
             "alreadyUsed": "Указанное действие уже было использовано в этом ходу.",
@@ -1135,7 +1153,8 @@
             "addCustom": "Добавить пользовательский статус"
         },
         "sortBar": {
-            "sortByCreated": "Сортировать по дате создания"
+            "sortByCreated": "Сортировать по дате создания",
+            "sortByRecent": "Сортировать по недавним"
         },
         "cards": {
             "staged": "// Запланировано"
@@ -1154,7 +1173,8 @@
         "sheetMgr": {
             "archivedSheets": "Листы в архиве ({n})",
             "kia": "Убит в бою",
-            "featureInDev": "Функция в разработке (v3.1)"
+            "featureInDev": "Функция в разработке (v3.1)",
+            "savePilotHistory": "Сохранить историю пилота"
         },
         "newSheet": {
             "llLevel": "УЛ{n}",
@@ -1165,7 +1185,23 @@
             "roundN": "Раунд {n}"
         },
         "addRoster": {
-            "licenseLevelN": "Уровень лицензии"
+            "licenseLevelN": "Уровень лицензии {n}",
+            "addPcFull": "Добавить персонажа игрока"
+        },
+        "gmNotes": {
+            "addClock": "Добавить счётчик"
+        },
+        "tableIndex": {
+            "otherTables": "Другие столы"
+        },
+        "addStub": {
+            "addPlaceholder": "Добавить заглушку"
+        },
+        "tableManager": {
+            "offline": "список столов, которые сейчас не в сети"
+        },
+        "unitLoadout": {
+            "reroll": "перебросить"
         }
     },
     "mainMenu": {
@@ -2018,7 +2054,7 @@
         },
         "pwa": {
             "updateNow": "Обновить сейчас",
-            "offlineReady": "@:{'common.appName'} может быть использован в режиме оффлайн.",
+            "offlineReady": "Теперь вы можете использовать @:{'common.appName'} в режиме оффлайн (без интернета).",
             "updateAvailable": "Доступна новая версия @:{'common.appName'}.",
             "later": "Позже"
         },
