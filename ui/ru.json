@@ -1057,7 +1057,11 @@
             "round": "Раунд",
             "observer": "НАБЛЮДАТЕЛЬ",
             "reactor": "Реактор",
-            "exposed": "Уязвим"
+            "exposed": "Уязвим",
+            "hull": "Корпус",
+            "size": "Размер",
+            "eDefense": "Тех. защита",
+            "grapple": "Захват"
         },
         "timedEffect": {
             "override": "// Заменить",
@@ -2272,7 +2276,8 @@
         },
         "lcp": {
             "lcpUpdatedText": "Последняя версия {pack} была загружена и установлена.",
-            "lcpUpdateErrorText": "При попытке скачать {pack} произошла ошибка."
+            "lcpUpdateErrorText": "При попытке скачать {pack} произошла ошибка.",
+            "lcpUpdatedTitle": "LCP обновлены"
         }
     },
     "print": {
