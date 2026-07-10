@@ -2151,7 +2151,8 @@
             "dataUpdatedText": "Данные пользователя обновлены",
             "serverError": "Произошла ошибка сервера.",
             "emailChangeFailedTitle": "Подтверждено изменение адреса электронной почты",
-            "emailChangeCancelledText": "Запрос на изменение электронной почты был отменен."
+            "emailChangeCancelledText": "Запрос на изменение электронной почты был отменен.",
+            "itchLinkedText": "Ваш аккаунт на Patreon был успешно привязан"
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
