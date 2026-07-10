@@ -965,7 +965,8 @@
         "eidolon": {
             "activeLayer": "Активный слой",
             "active": "(Активный)",
-            "tierEidolon": "Опасность {n} Эйдолон"
+            "tierEidolon": "Опасность {n} Эйдолон",
+            "shard": "Осколки"
         },
         "labels": {
             "lastUpdate": "Последнее обновление",
