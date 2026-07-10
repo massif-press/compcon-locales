@@ -1083,7 +1083,8 @@
         },
         "sheetItem": {
             "na": "Отсутствует",
-            "started": "начало использования"
+            "started": "начало использования",
+            "roundN": "Раунд {n}"
         },
         "encInfo": {
             "reinforcements": "Подкрепления"
@@ -1145,7 +1146,8 @@
         },
         "newSheet": {
             "llLevel": "УЛ{n}",
-            "campaignName": "Название кампании"
+            "campaignName": "Название кампании",
+            "createAndLaunch": "Создать и запустить активный режим"
         }
     },
     "mainMenu": {
