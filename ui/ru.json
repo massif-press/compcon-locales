@@ -124,7 +124,7 @@
         "about": "О приложении",
         "all": "Все",
         "importCampaign": "Импорт кампании",
-        "environment": "Условия",
+        "environment": "Обстановка",
         "credits": "Авторы",
         "loadout": "Снаряжение",
         "remoteResource": "Удалённый источник",
@@ -198,8 +198,11 @@
         "newEidolon": "Новый эйдолон",
         "newSitrep": "Новая оперсводка",
         "newDoodad": "Новая штуковина",
-        "newEnvironment": "Новые условия",
-        "newEnvironmentDescription": "Новый тип условий"
+        "newEnvironment": "Новая обстановка",
+        "newEnvironmentDescription": "Новый тип обстановки",
+        "subtitles": {
+            "aStandardEnvironmentWithNoSpecial": "Стандартная обстановка без дополнительных факторов, влияющих на бой"
+        }
     },
     "language": {
         "selectLanguage": "Язык",
@@ -385,7 +388,8 @@
             "warningThresholdPct": "Порог предупреждения (%)",
             "storageUsageFull": "@:{'common.appName'} в настоящий момент использует {used} из {total}, или {percent} доступного хранилища. Это значение включает пространство, зарезервированное @:{'common.appName'} для управления приложением.",
             "deleteConfirmIntro": "Это действие удалит {confirm} локальные данные @:{'common.appName'}.",
-            "cannotBeUndone": "отменено."
+            "cannotBeUndone": "отменено.",
+            "deleteConfirmUndone": "Будет {undone}"
         },
         "deletedItems": {
             "permanentlyDeleteAll": "Перманентно удалить все элементы",
@@ -423,7 +427,8 @@
             "downgradeTo": "Откатить до {version}",
             "willDowngradeTo": "Произойдёт откат к версии {version}",
             "byAuthorRequires": "от {author} требует",
-            "noChange": "Без изменений ({from} к {to})"
+            "noChange": "Без изменений ({from} к {to})",
+            "patchStringCount": "{count} строк"
         },
         "packsDirectory": {
             "officialContent": "Официальные",
@@ -491,7 +496,12 @@
             "authorsWebsite": "Сайт автора",
             "dependencyInstalled": "Зависимость установлена",
             "contentHeading": "Содержимое",
-            "patchUnknownAuthor": ""
+            "patchUnknownAuthor": "Переводчик неизвестен",
+            "languagePatches": "Языковые патчи",
+            "languagePatchesTooltip": "Для выбранного контент-пака был установлен фанатский перевод. Он будет применён при выборе соответствующего языка интерфейса.",
+            "patchByAuthor": "выполнено {translator}",
+            "patchOutdated": "Перевод был выполнен для версии контент-пака {version} и мог устареть.",
+            "removePatch": "Удалить патч"
         },
         "communityTable": {
             "currentVersion": "Текущая версия",
@@ -522,7 +532,7 @@
             "supportOf": " ",
             "tier": "@:{'common.tier'}",
             "anonymousPatron": "анонимных подписчиков",
-            "support": ""
+            "support": "поддержке"
         },
         "achievementItem": {
             "createdBy": "Создатель",
@@ -616,13 +626,36 @@
             "reimportFailedText": "Не удалось импортировать повторно: {error}",
             "missingDependencies": "Отсутствующие зависимости ещё не доступны.",
             "importedSuccessfully": "Успешно импортировано.",
-            "importFailedText": "",
+            "importFailedText": "Ошибка импорта: {error}",
             "forceImportComplete": "Принудительный импорт завершён.",
             "forceImportFailedText": "Ошибка принудительного импорта: {error}"
         },
         "cloudNotifications": {
             "dismissAll": "Удалить Все Уведомления",
             "noRecentUpdates": "Нет новых обновлений облака"
+        },
+        "titles": {
+            "latestVersion": "Последняя версия",
+            "installedVersion": "Установленная версия",
+            "x1Week": "1 неделя",
+            "x2Weeks": "2 недели",
+            "x1Month": "1 месяц",
+            "x3Months": "3 месяца",
+            "x6Months": "6 месяцев",
+            "x1Year": "1 год",
+            "active": "Активно",
+            "author": "Автор",
+            "version": "Версия",
+            "lcp": "Контент-паки",
+            "type": "Тип",
+            "missing": "Не найдено",
+            "never": "Никогда"
+        },
+        "fields": {
+            "interV3Default": "Inter (используется в v3 по умолчанию)",
+            "notoSansV3Alt": "Noto Sans (альтернативный шрифт для v3)",
+            "helveticaV2Default": "Helvetica (используется в v2 по умолчанию)",
+            "opendyslexicExperimental": "OpenDyslexic (экспериментальный шрифт)"
         }
     },
     "gm": {
@@ -661,7 +694,9 @@
             "custom": "Пользовательский",
             "resetConfirm": "Это приведёт к сбросу всех характеристик к дефолтным значениям О{tier} {name}. Вы уверены, что хотите это сделать?",
             "addStat": "Добавить характеристику",
-            "statCountSuffix": "{n} характеристика | {n} характеристик"
+            "statCountSuffix": "{n} характеристика | {n} характеристик",
+            "noStats": "Отсутствуют характеристики для отображения",
+            "confirmResetStats": "Подтвердить сброс характеристик"
         },
         "relationships": {
             "addRelationship": "Добавить отношение",
@@ -776,7 +811,8 @@
             "clock": "Счётчик",
             "addCombat": "Добавить бой",
             "combatEncounter": "Боевое столкновение",
-            "contentPack": "Контент-паки"
+            "contentPack": "Контент-паки",
+            "environmentDataModified": "данные обстановки были изменены"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
@@ -824,6 +860,9 @@
         },
         "landing": {
             "toolkit": "Инструменты ведущего"
+        },
+        "environment": {
+            "modifiedWarning": "Указанная обстановка была изменена. Загрузка нового шаблона приведёт к сбросу изменений. Вы уверены, что хотите продолжить?"
         }
     },
     "active": {
@@ -1227,7 +1266,7 @@
             "cloudFullArchive": "Облачное хранилище переполнено! Не удалось создать новые архивы.",
             "archiveSettings": "Настройки архива",
             "settingsDesc1": "@:{'common.appName'} может создавать и сохранять резервные копии ваших данных с выбранным интервалом. Эти архивы можно использовать для восстановления данных до предыдущего состояния.",
-            "pruneItems": "",
+            "pruneItems": "Убран {count} элемент | Убрано {count} элементов",
             "preventPrune": "Предотвратить автоматическое удаление указанного элемента. Сохранённые архивы будут учитываться при расчёте ограничений размеров хранилища и доступного свободного места."
         },
         "publishing": {
@@ -1616,7 +1655,7 @@
             "mountLOCKED": "Крепление недоступно",
             "pilotSheetOptions": "Опции листа пилота",
             "mechWEAPONMOUNT": "Крепление для оружия меха",
-            "operatorNotes": "Заметки оператора"
+            "operatorNotes": "Заметки о сборке"
         },
         "roster": {
             "history": "История группы",
@@ -1707,7 +1746,10 @@
             "pilotNAMEBlankOrInvalid": "ИМЯ ПИЛОТА: пусто или недействительно",
             "registerNewPilot": "Зарегистрировать нового пилота // {callsign} ({name})",
             "nb": "Обратите внимание",
-            "pilotCALLSIGNBlankOrInvalid": "ПОЗЫВНОЙ ПИЛОТА: пусто или недействителен"
+            "pilotCALLSIGNBlankOrInvalid": "ПОЗЫВНОЙ ПИЛОТА: незаполнен или недействителен",
+            "selectSkillTriggers": "Выберите {word} ({count}) навыков пилота.",
+            "selectLicenseRanks": "Выберите {word} ({count}) уровень лицензии | Выберите {word} ({count}) уровней лицензии.",
+            "selectCoreBonusesN": "Выберите {word} ({count}) ключевых улучшений {item}."
         },
         "loadout": {
             "notSET": "Не задано",
@@ -1761,7 +1803,7 @@
         "subtitles": {
             "setPilotGroup": "Задать отряд пилота",
             "removeMechFromTheHangar": "Списать мех из ангара",
-            "convertThisPilotToAn": "Конвертировать пилота в редактируемый локальный экземпляр данных"
+            "convertThisPilotToAn": "Конвертировать указанного пилота в редактируемый локальный экземпляр данных."
         },
         "import": {
             "groupImportSuccessText": "{name} успешно добавлен(а).",
@@ -1841,7 +1883,8 @@
             "title": "Название",
             "relationship": "Отношения",
             "metric": "Метрический",
-            "itemType": "Тип элемента"
+            "itemType": "Тип элемента",
+            "origin": "Источник"
         },
         "image": {
             "upload": "Загрузить",
@@ -1994,7 +2037,7 @@
         },
         "corePanel": {
             "integrated": "Ключевое улучшение: интегрированное снаряжение",
-            "special": "Ключевое специальное снаряжение"
+            "special": "Ключевое спецснаряжение"
         },
         "cascade": {
             "pending": "Ожидается"
@@ -2090,8 +2133,8 @@
             "unlockedTitle": "Достижение разблокировано!"
         },
         "lcp": {
-            "lcpUpdatedText": "Последняя версия {title} была загружена и установлена.",
-            "lcpUpdateErrorText": "При попытке скачать {title} произошла ошибка."
+            "lcpUpdatedText": "Последняя версия {pack} была загружена и установлена.",
+            "lcpUpdateErrorText": "При попытке скачать {pack} произошла ошибка."
         }
     },
     "print": {
@@ -2147,7 +2190,9 @@
             "mechWeapons": "Вооружение меха",
             "equipmentTags": "Метки снаряжения",
             "npcClasses": "Классы персонажей ведущего",
-            "statusesConditions": "Статусы и состояния"
+            "statusesConditions": "Статусы и состояния",
+            "environments": "Обстановка",
+            "sitreps": "Оперсводки"
         },
         "reference": {
             "statuses": "Статусы",
@@ -2211,7 +2256,10 @@
             "size": "Размер",
             "mounts": "Крепления",
             "edef": "Т. защ.",
-            "heatcap": "Теплоёмкость"
+            "heatcap": "Теплоёмкость",
+            "sitreps": "Оперсводки",
+            "lists": "Списки",
+            "environments": "Обстановка"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
