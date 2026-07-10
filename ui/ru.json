@@ -2087,7 +2087,8 @@
             "unlockedTitle": ""
         },
         "lcp": {
-            "lcpUpdatedText": "Последняя версия {title} была загружена и установлена."
+            "lcpUpdatedText": "Последняя версия {title} была загружена и установлена.",
+            "lcpUpdateErrorText": "При попытке скачать {title} произошла ошибка."
         }
     },
     "print": {
