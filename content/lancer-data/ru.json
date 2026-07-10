@@ -38,5 +38,6 @@
     "act_lockon.name": "Захват цели",
     "act_mount.name": "Оседлать",
     "act_move.name": "Двигаться",
-    "glossary_HeatCapacity.name": "Теплоёмкость"
+    "glossary_HeatCapacity.name": "Теплоёмкость",
+    "glossary_Burn.name": "Плавление"
 }
