@@ -617,8 +617,8 @@
             "missingDependencies": "Отсутствующие зависимости ещё не доступны.",
             "importedSuccessfully": "Успешно импортировано.",
             "importFailedText": "",
-            "forceImportComplete": "",
-            "forceImportFailedText": ""
+            "forceImportComplete": "Принудительный импорт завершён.",
+            "forceImportFailedText": "Ошибка принудительного импорта: {error}"
         },
         "cloudNotifications": {
             "dismissAll": "Удалить Все Уведомления",
@@ -1981,7 +1981,8 @@
         },
         "rollTable": {
             "step": "Шаг",
-            "deleteConfirm": "Вы уверены что хотите удалить эту таблицу? Это действие нельзя отменить."
+            "deleteConfirm": "Вы уверены что хотите удалить эту таблицу? Это действие нельзя отменить.",
+            "rebuild": "Пересобрать"
         },
         "shareImport": {
             "itemShareCode": "Публичный код элемента",
@@ -2084,6 +2085,9 @@
         },
         "achievement": {
             "unlockedTitle": ""
+        },
+        "lcp": {
+            "lcpUpdatedText": "Последняя версия {title} была загружена и установлена."
         }
     },
     "print": {
