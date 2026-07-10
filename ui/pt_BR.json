@@ -217,7 +217,8 @@
         "unknownLicense": "Licença Desconhecida",
         "newSkillTrigger": "Novo Gatilho",
         "subtitles": {
-            "aSimpleAffairWithTwoSides": "Um confronto simples, com dois lados se enfrentando até que um deles seja derrotado ou destruído."
+            "aSimpleAffairWithTwoSides": "Um confronto simples, com dois lados se enfrentando até que um deles seja derrotado ou destruído.",
+            "aStandardEnvironmentWithNoSpecial": "Um ambiente padrão, sem condições especiais de combate"
         },
         "titles": {
             "titlePage": "Capa",
@@ -457,7 +458,8 @@
             "successText": "Pacotes de conteúdo instalados com sucesso",
             "installingPacks": "Instalando {count} pacote de conteúdo… | Instalando {count} pacotes de conteúdo…",
             "willUpgradeTo": "Ele será atualizado para a v.{version}",
-            "willDowngradeTo": "Ele será revertido para a versão {version}"
+            "willDowngradeTo": "Ele será revertido para a versão {version}",
+            "patchStringCount": "{count} strings"
         },
         "packsDirectory": {
             "officialContent": "Oficial",
@@ -544,7 +546,10 @@
             "contentHeading": "Conteúdo",
             "patchByAuthor": "por {translator}",
             "patchUnknownAuthor": "Tradutor desconhecido",
-            "removePatch": "Remover patch"
+            "removePatch": "Remover patch",
+            "languagePatches": "Patches de linguagem",
+            "languagePatchesTooltip": "Traduções da comunidade instaladas para este pacote. Ativadas ao selecionar o respectivo idioma.",
+            "patchOutdated": "Esta tradução foi feita para a versão {version} do pacote e pode estar desatualizada."
         },
         "communityTable": {
             "noData": "Nenhum pacote de conteúdo disponível.",
@@ -1575,7 +1580,9 @@
             "campaignEditor": "Editor de Campanha",
             "encounterEditor": "Editor de Encontros",
             "alias": "Alias",
-            "tag": "Tag"
+            "tag": "Tag",
+            "role": "Função",
+            "narrativeItemManager": "Gerenciar item Narrativos"
         },
         "fields": {
             "selectDataFile": "Selecionar Arquivo de Dados",
@@ -1622,7 +1629,8 @@
             "addANewEmptyDowntime": "Adiciona um novo Recesso vazio nesta página. O Recesso é o espaço narrativo entre as missões, onde a ação momento a momento não importa tanto e o RPG importa muito mais.",
             "manageNonPlayerCombatUnits": "Gerencia PNJs de combate",
             "manageCharactersLocationsAndFactions": "Gerenciar personagens, locais e facções",
-            "createCombatEncounters": "Criar encontros de combate"
+            "createCombatEncounters": "Criar encontros de combate",
+            "createModifyAndBrowseLancerCampaigns": "Crie, modifique e navegue por campanhas de LANCER (v3.1)"
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Objetos que não são personagens (como itens de terreno) que podem ser rastreados em encontros de combate."
@@ -1630,7 +1638,8 @@
         "tooltips": {
             "changeTierAndAdjustEdited": "Mudar de patamar e ajustar atributos editados na mesma proporção que as mudanças de atributos padrão.",
             "changeTierAndKeepEdited": "Mudar de patamar e manter os valores de atributos editados, mesmo que caiam abaixo dos padrões do novo patamar.",
-            "changeTierAndDiscardAll": "Mudar de patamar e descartar todos os valores de atributos editados."
+            "changeTierAndDiscardAll": "Mudar de patamar e descartar todos os valores de atributos editados.",
+            "thisWillDeleteThisNpcFrom": "Isso excluirá este NPC da sua lista de NPCs. NPCs deste tipo adicionados a Encontros não serão afetados. Tem certeza?"
         },
         "a11y": {
             "dragToReorder": "Arraste para ordenar"
