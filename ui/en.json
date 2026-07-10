@@ -178,7 +178,8 @@
     "alert": "Alert",
     "ok": "OK",
     "a11y": {
-      "mainNavigation": "Main navigation"
+      "mainNavigation": "Main navigation",
+      "toggleNavigation": "Toggle navigation panel"
     }
   },
   "language": {
@@ -339,7 +340,7 @@
       "patronThanks": "The continued development of @:{'common.appName'} would not be possible without the generous",
       "support": "support",
       "supportOf": "of",
-      "tier": "@:{'common.tier'}",
+      "tier": "Tier",
       "anonymousPatron": "Anonymous Patron"
     },
     "achievements": {
@@ -1298,7 +1299,7 @@
     "newSheet": {
       "llLevel": "LL{n}",
       "campaignName": "Campaign Name",
-      "createAndLaunch": "Create and Launch ACtive Mode"
+      "createAndLaunch": "Create and Launch Active Mode"
     },
     "sheetItem": {
       "archiveSheet": "Archive Sheet",
@@ -2645,6 +2646,7 @@
     },
     "selectors": {
       "coreBonusSelectionComplete": "Core Bonus Selection Complete",
+      "coreBonusAvailable": "{count} {mf} Core Bonus available | {count} {mf} Core Bonuses available",
       "exotic": "Exotic",
       "equipment": "Equipment",
       "licenseSelectionComplete": "License Selection Complete",
