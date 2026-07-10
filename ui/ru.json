@@ -206,6 +206,10 @@
         "newEnvironmentDescription": "Новый тип обстановки",
         "subtitles": {
             "aStandardEnvironmentWithNoSpecial": "Стандартная обстановка без дополнительных факторов, влияющих на бой"
+        },
+        "titles": {
+            "titlePage": "Заглавная страница",
+            "contributors": "Авторы"
         }
     },
     "language": {
@@ -1091,7 +1095,8 @@
             "roundN": "Раунд {n}"
         },
         "encInfo": {
-            "reinforcements": "Подкрепления"
+            "reinforcements": "Подкрепления",
+            "turnN": "(Ход {n})"
         },
         "refTag": {
             "noTagsFound": "Метки не найдены",
@@ -1107,7 +1112,8 @@
             "roundsCount": "{n} раундов",
             "afterActionReport": "Отчёт о результатах боя",
             "copyReport": "Скопировать отчёт",
-            "logsTelemetry": "Логи и телеметрия"
+            "logsTelemetry": "Логи и телеметрия",
+            "deleteArchivePrompt": "Удалить архив?"
         },
         "toolPalette": {
             "combatQuickRef": "Быстрая справка по боевой части",
