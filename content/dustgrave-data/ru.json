@@ -1,8 +1,8 @@
 {
-    "cb_superheavy_mounting.description": "Вы будете удивлены насколько большое орудие можно поместить в шасси, если убрать второстепенные системы и предохранители.",
-    "cb_superheavy_mounting.name": "Сверхтяжелое крепление",
+    "cb_superheavy_mounting.description": "",
+    "cb_superheavy_mounting.name": "Сверхтяжёлое крепление",
     "emergency_coolant_reservoir.action_emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
     "emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
-    "env_automatedrepairstations.name": "Автоматизированные ремонтные станции",
-    "env_chokingdust.name": "Удушающая пыль"
+    "env_automatedrepairstations.name": "",
+    "env_chokingdust.name": ""
 }
