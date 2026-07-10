@@ -1213,6 +1213,9 @@
         },
         "weaponAttack": {
             "alreadyActivated": "Этот кошелек уже деактивирован!"
+        },
+        "pcPanel": {
+            "noReserves": "Нет доступных сервисов"
         }
     },
     "mainMenu": {
