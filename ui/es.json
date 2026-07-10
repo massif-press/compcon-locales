@@ -2471,7 +2471,12 @@
         "resultAuthor": "Autor",
         "shareLink": "Compartir enlace",
         "lastSynced": "Ultima sincronización",
-        "lastLocalUpdate": "Ultima actualización local"
+        "lastLocalUpdate": "Ultima actualización local",
+        "tooltips": {
+            "copyShareLinkToClipboard": "Copiar enlace de compartir en el portapapeles",
+            "copyShareCodeToClipboard": "Copiar código de compartir en el portapapeles"
+        },
+        "publicLinkNote": "Este enlace es un {emphasis} que permite a cualquiera ver los datos de este piloto."
     },
     "print": {
         "generalOptions": "Opciones Generales de Impresión"
@@ -2603,7 +2608,8 @@
         },
         "common": {
             "copied": "Copiado",
-            "error": "Error"
+            "error": "Error",
+            "success": "Éxito"
         },
         "dataItem": {
             "failedToDeleteText": "Fallo al eliminar {type} {name}. {err}",
@@ -2830,6 +2836,64 @@
         },
         "table": {
             "previous": "anterior"
+        }
+    },
+    "enums": {
+        "attackType": {
+            "ranged": "De Rango",
+            "melee": "Cuerpo a cuerpo"
+        },
+        "duration": {
+            "mission": "Misión",
+            "encounter": "Encuentro",
+            "scene": "Escena",
+            "next_round": "Siguiente Ronda",
+            "round": "Ronda",
+            "next_turn": "Turno Siguiente",
+            "turn": "Turno",
+            "free": "Libre"
+        },
+        "orgType": {
+            "political": "Política",
+            "entertainment": "Entretenimiento",
+            "industrial": "",
+            "humanitarian": "Humanitaria",
+            "academic": "Académica",
+            "scientific": "Cientifica",
+            "military": "Militar"
+        },
+        "reserveType": {
+            "bonus": "Bono",
+            "organization": "Organización",
+            "project": "Proyecto",
+            "mech": "Meca",
+            "tactical": "Táctica",
+            "resources": "Recursos"
+        },
+        "mechType": {
+            "defender": "Defensor",
+            "support": "Apoyo",
+            "controller": "Controlador",
+            "striker": "Atacante",
+            "artillery": "Artillería",
+            "balanced": "Balanceado"
+        },
+        "systemType": {
+            "grenade": "Granada",
+            "mine": "Mina",
+            "integrated": "Integrado",
+            "flight_system": "Sistema de Vuelo",
+            "invade": "Invadir",
+            "tech": "Tec",
+            "drone": "Dron",
+            "deployable": "Desplegable",
+            "shield": "Escudo",
+            "ai": "IA",
+            "system": "Sistema"
+        },
+        "activationType": {
+            "other": "Otro",
+            "reaction": "Reacción"
         }
     }
 }
