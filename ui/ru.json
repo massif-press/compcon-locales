@@ -2190,7 +2190,8 @@
             "retryFailedText": "Не удалось найти облачный элемент для {name}.",
             "bulkDeletedText": "Выбранные элементы были удалены.",
             "convertedTitle": "Преобразование в локальные данные",
-            "deletedPermanentlyTitle": "Удалить безвозвратно"
+            "deletedPermanentlyTitle": "Удалить безвозвратно",
+            "removedText": "Удален {itemType}{name}."
         },
         "share": {
             "syncCompleteTitle": "Синхронизация завершена"
