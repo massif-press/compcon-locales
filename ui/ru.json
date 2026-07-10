@@ -1042,7 +1042,9 @@
             "addFromShareCode": "Добавить из публичного кода",
             "heatCapacity": "Теплоёмкость",
             "items": "Элементы",
-            "sitrep": "Оперсводки"
+            "sitrep": "Оперсводки",
+            "pilot": "Пилот",
+            "activations": "Активация"
         },
         "timedEffect": {
             "override": "// Заменить",
