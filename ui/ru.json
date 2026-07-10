@@ -2150,7 +2150,8 @@
             "updateFailedTitle": "Не удалось обновить",
             "dataUpdatedText": "Данные пользователя обновлены",
             "serverError": "Произошла ошибка сервера.",
-            "emailChangeFailedTitle": "Подтверждено изменение адреса электронной почты"
+            "emailChangeFailedTitle": "Подтверждено изменение адреса электронной почты",
+            "emailChangeCancelledText": "Запрос на изменение электронной почты был отменен."
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
