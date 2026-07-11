@@ -2744,7 +2744,8 @@
         },
         "duration": {
             "scene": "Сцены",
-            "free": "Бесплатно"
+            "free": "Бесплатно",
+            "encounter": "Столкновения"
         },
         "activationType": {
             "protocol": "Протокол (Protocol)"
