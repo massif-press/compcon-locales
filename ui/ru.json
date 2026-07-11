@@ -1897,7 +1897,8 @@
             "specialEquipment": "Специальное снаряжение",
             "tags": "Метки",
             "cloneQuirks": "Причуда клона",
-            "setPilotTalents": "Таланты пилота"
+            "setPilotTalents": "Таланты пилота",
+            "exportV2Json": "Экспорт в формате JSON"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
