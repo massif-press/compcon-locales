@@ -2904,7 +2904,8 @@
             "none": "Ninguno"
         },
         "rangeType": {
-            "burst": "Busto"
+            "burst": "Busto",
+            "blast": "último"
         }
     }
 }
