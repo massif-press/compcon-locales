@@ -2876,7 +2876,8 @@
             "saveTarget": "Dificultad Salvación",
             "heatCapacity": "Capacidad Calor",
             "clockEditor": "editor de reloj",
-            "cascade": "CASCADA"
+            "cascade": "CASCADA",
+            "activateFreeAction": "Activar (Acción Libre)"
         },
         "subtitles": {
             "selectResult": "Seleccionar resultado"
