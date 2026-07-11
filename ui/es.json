@@ -2893,7 +2893,9 @@
         },
         "activationType": {
             "other": "Otro",
-            "reaction": "Reacción"
+            "reaction": "Reacción",
+            "move": "Mover",
+            "jockey": "Hockey"
         }
     }
 }
