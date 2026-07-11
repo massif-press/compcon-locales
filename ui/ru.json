@@ -1559,7 +1559,8 @@
             "manualOnly": "Только вручную",
             "last10": "Последний: %1",
             "last5": "Последняя",
-            "pilotGroups": "Отряд пилотов"
+            "pilotGroups": "Отряд пилотов",
+            "narrativeElement": "Нарративные элементы"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
