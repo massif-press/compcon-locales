@@ -2508,7 +2508,13 @@
             "resources": "Ресурсы",
             "tactical": "Тактический",
             "mech": "Мех",
-            "project": "Проект (Project)"
+            "project": "Проект (Project)",
+            "organization": "Организация",
+            "bonus": "Бонус"
+        },
+        "orgType": {
+            "military": "Военное",
+            "scientific": "Научный"
         }
     }
 }
