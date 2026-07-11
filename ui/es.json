@@ -2895,7 +2895,9 @@
             "other": "Otro",
             "reaction": "Reacción",
             "move": "Mover",
-            "jockey": "Hockey"
+            "jockey": "Hockey",
+            "invade": "Invadir",
+            "full": "Completo"
         }
     }
 }
