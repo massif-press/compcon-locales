@@ -1896,7 +1896,8 @@
             "licensesRequired": "Необходимые лицензии",
             "specialEquipment": "Специальное снаряжение",
             "tags": "Метки",
-            "cloneQuirks": "Причуда клона"
+            "cloneQuirks": "Причуда клона",
+            "setPilotTalents": "Таланты пилота"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
