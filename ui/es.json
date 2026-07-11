@@ -2836,6 +2836,9 @@
         },
         "table": {
             "previous": "anterior"
+        },
+        "alt": {
+            "packImage": "Elegir imagen"
         }
     },
     "enums": {
