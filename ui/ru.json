@@ -820,7 +820,14 @@
             "addCombat": "Добавить бой",
             "combatEncounter": "Боевое столкновение",
             "contentPack": "Контент-паки",
-            "environmentDataModified": "данные обстановки были изменены"
+            "environmentDataModified": "данные обстановки были изменены",
+            "role": "Роль",
+            "folder": "Папка",
+            "shards": "Осколки",
+            "gmToolkit": "Инструменты ведущего",
+            "npcRoster": "Ростер персонажей ведущего",
+            "campaignEditor": "Редактор кампаний",
+            "encounterEditor": "Редактор столкновений"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
@@ -916,7 +923,8 @@
             "online": "Онлайн",
             "sortGm": "Сортировать по стобцу \"Ведущий\"",
             "gm": "Ведущий",
-            "gmOffline": "Ведущий не в сети"
+            "gmOffline": "Ведущий не в сети",
+            "nextSession": "Следующая сессия"
         },
         "diceRoller": {
             "sessionHistory": "История сессий",
@@ -954,12 +962,18 @@
             "difficult": "Сложный",
             "standard": "Стандартная",
             "targetValue": "Целевое значение",
-            "checkStat": "Проверка характеристики"
+            "checkStat": "Проверка характеристики",
+            "rollResults": "Результат броска",
+            "risky": "Рискованный",
+            "wins": "Побеждает",
+            "loses": "Проигрывает"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
             "active": "(Активный)",
-            "tierEidolon": "Опасность {n} Эйдолон"
+            "tierEidolon": "Опасность {n} Эйдолон",
+            "shard": "Осколок",
+            "generateN": "Сгенерировать {n}"
         },
         "labels": {
             "lastUpdate": "Последнее обновление",
@@ -1015,7 +1029,9 @@
             "pilotNameOrCallsign": "Имя или позывной пилота",
             "lineWidth": "Ширина линий",
             "addTable": "Добавить таблицу",
-            "justify": "Выровнять"
+            "justify": "Выровнять",
+            "reclaimControl": "Вернуть контроль",
+            "overkill": "Избыточное"
         },
         "tooltips": {
             "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
@@ -1030,9 +1046,22 @@
         },
         "titles": {
             "movement": "Движение",
-            "burn": "Ожог",
+            "burn": "Плавление",
             "addFromShareCode": "Добавить из публичного кода",
-            "heatCapacity": "Теплоёмкость"
+            "heatCapacity": "Теплоёмкость",
+            "items": "Элементы",
+            "sitrep": "Оперсводка",
+            "pilot": "Пилот",
+            "activations": "Активации",
+            "characterSheets": "Листы персонажей",
+            "round": "Раунд",
+            "observer": "НАБЛЮДАТЕЛЬ",
+            "reactor": "Реактор",
+            "exposed": "Уязвим",
+            "hull": "Корпус",
+            "size": "Размер",
+            "eDefense": "Тех. защита",
+            "grapple": "Захват"
         },
         "timedEffect": {
             "override": "// Заменить",
@@ -1203,6 +1232,21 @@
         },
         "unitLoadout": {
             "reroll": "перебросить"
+        },
+        "weaponAttack": {
+            "alreadyActivated": "Это оружие уже было активировано."
+        },
+        "pcPanel": {
+            "noReserves": "Нет доступных резервов"
+        },
+        "runnerItem": {
+            "readyToDeploy": "Готов к развёртыванию"
+        },
+        "pcNotes": {
+            "sessionNotes": "Заметки по игровой сессии"
+        },
+        "jockey": {
+            "jockey": "Абордаж"
         }
     },
     "mainMenu": {
@@ -1501,7 +1545,9 @@
             "installCompconForReliableStorage": "Установите @:{'common.appName'} для надежного хранения данных",
             "youDoNotHaveAccess": "У вас нет доступа к облачным резервным копиям.",
             "youDoNotHaveAccess2": "У вас нет доступа к инструменту публикации подборок.",
-            "compconCloudAccount": "Облачный аккаунт @:{'common.appName'}"
+            "compconCloudAccount": "Облачный аккаунт @:{'common.appName'}",
+            "role": "Роль",
+            "filename": "Имя файла"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
@@ -1799,7 +1845,8 @@
             "edef": "Т. защ.",
             "heatcap": "Теплоёмкость",
             "licensesRequired": "Необходимые лицензии",
-            "specialEquipment": "Специальное снаряжение"
+            "specialEquipment": "Специальное снаряжение",
+            "tags": "Метки"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
@@ -2006,7 +2053,12 @@
             "overheating": "ПЕРЕГРЕВ",
             "structureDamage": "СТРУКТУРНЫЙ УРОН",
             "cascade": "КАСКАД",
-            "heatCapacity": "Теплоёмкость"
+            "heatCapacity": "Теплоёмкость",
+            "resistance": "Сопротивление",
+            "immunity": "Иммунитет",
+            "vulnerability": "Уязвимость",
+            "burn": "Плавление",
+            "gear": "Снаряжение"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -2138,7 +2190,14 @@
             "emailChangeCancelledTitle": "Изменение адреса эл. почты отменено",
             "publishedTitle": "Опубликовано",
             "updateFailedTitle": "Не удалось обновить",
-            "dataUpdatedText": "Данные пользователя обновлены"
+            "dataUpdatedText": "Данные пользователя обновлены",
+            "serverError": "Произошла ошибка сервера",
+            "emailChangeFailedTitle": "Не удалось изменить адрес электронной почты",
+            "emailChangeCancelledText": "Запрос на изменение электронной почты был отменён",
+            "itchLinkedText": "Ваш аккаунт на Itch.io был успешно привязан",
+            "itchLinkFailedText": "При попытке привязать ваш аккаунт на Itch.io возникла ошибка",
+            "itchUnlinkedText": "Ваш аккаунт на Itch.io был отвязан",
+            "noSubscriptionTitle": "Подписки не обнаружены"
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
@@ -2178,7 +2237,11 @@
             "restoreFailedTitle": "Не удалось восстановить",
             "deleteFailedTitle": "Не удалось удалить",
             "retryFailedText": "Не удалось найти облачный элемент для {name}.",
-            "bulkDeletedText": "Выбранные элементы были удалены."
+            "bulkDeletedText": "Выбранные элементы были удалены.",
+            "convertedTitle": "Преобразование в локальные данные",
+            "deletedPermanentlyTitle": "Элемент был безвозвратно удалён",
+            "removedText": "Удалён {type} {name}.",
+            "bulkPartialText": "Не удалось удалить: {items}"
         },
         "share": {
             "syncCompleteTitle": "Синхронизация завершена"
@@ -2213,7 +2276,8 @@
         },
         "lcp": {
             "lcpUpdatedText": "Последняя версия {pack} была загружена и установлена.",
-            "lcpUpdateErrorText": "При попытке скачать {pack} произошла ошибка."
+            "lcpUpdateErrorText": "При попытке скачать {pack} произошла ошибка.",
+            "lcpUpdatedTitle": "LCP обновлены"
         }
     },
     "print": {
@@ -2271,7 +2335,8 @@
             "npcClasses": "Классы персонажей ведущего",
             "statusesConditions": "Статусы и состояния",
             "environments": "Обстановка",
-            "sitreps": "Оперсводки"
+            "sitreps": "Оперсводки",
+            "npcFeatures": "Особенности персонажа ведущего"
         },
         "reference": {
             "statuses": "Статусы",
@@ -2338,7 +2403,10 @@
             "heatcap": "Теплоёмкость",
             "sitreps": "Оперсводки",
             "lists": "Списки",
-            "environments": "Обстановка"
+            "environments": "Обстановка",
+            "role": "Роль",
+            "origin": "Источник",
+            "tags": "Метки"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
@@ -2356,6 +2424,15 @@
         "content": {
             "eidolonLayer": "Слой эйдолона",
             "frameSuffix": "Модель {type}"
+        }
+    },
+    "enums": {
+        "damageType": {
+            "kinetic": "Кинетический",
+            "energy": "Энергетический",
+            "explosive": "Взрывной",
+            "heat": "Нагрев",
+            "burn": "Плавление"
         }
     }
 }
