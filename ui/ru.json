@@ -1799,7 +1799,8 @@
             "addNewClock": "Добавить новый счётчик",
             "removeBond": "Удалить узы",
             "xk401REGISTERMECHNAME": "XK-4-01 // зарегистрировать имя меха",
-            "registerNewMech": "Зарегистрировать нового меха"
+            "registerNewMech": "Зарегистрировать нового меха",
+            "requiredFor": "Обязательно"
         },
         "print": {
             "pilotHP": "ПЗ пилота",
@@ -1818,7 +1819,8 @@
             "mountLOCKED": "Крепление недоступно",
             "pilotSheetOptions": "Опции листа пилота",
             "mechWEAPONMOUNT": "Крепление для оружия меха",
-            "operatorNotes": "Заметки о сборке"
+            "operatorNotes": "Заметки о сборке",
+            "heatCap": "Теплоёмкость"
         },
         "roster": {
             "history": "История группы",
