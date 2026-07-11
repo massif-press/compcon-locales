@@ -2909,7 +2909,8 @@
             "cone": "Clonar",
             "line": "Línea",
             "thrown": "Ciudad pequeña",
-            "threat": "Hilo"
+            "threat": "Hilo",
+            "range": "Intervalo"
         }
     }
 }
