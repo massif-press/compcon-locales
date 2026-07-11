@@ -2249,7 +2249,8 @@
             "explosive": "Взрывной",
             "size": "Размер",
             "shards": "Осколки",
-            "totalDamage": "Общий урон"
+            "totalDamage": "Общий урон",
+            "noCover": "Укрытие отсутствует"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -2709,6 +2710,9 @@
         "systemType": {
             "system": "Система",
             "shield": "Щит"
+        },
+        "duration": {
+            "scene": "Сцены"
         }
     }
 }
