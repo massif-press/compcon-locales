@@ -1701,7 +1701,8 @@
             "skills": "Навыки",
             "icon": "значок",
             "up": "вверх",
-            "editPilotBiography": "Добавить биографию пилота"
+            "editPilotBiography": "Добавить биографию пилота",
+            "selectTemplate": "Выберите шаблон"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
