@@ -834,7 +834,8 @@
             "npcRoster": "Ростер персонажей ведущего",
             "campaignEditor": "Редактор кампаний",
             "encounterEditor": "Редактор столкновений",
-            "narrativeElement": "Нарративные элементы"
+            "narrativeElement": "Нарративные элементы",
+            "eidolons": "Эйдолон"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
