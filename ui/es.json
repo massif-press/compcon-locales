@@ -2843,7 +2843,8 @@
         "titles": {
             "resistance": "Resistencia",
             "heat": "Calor",
-            "explosive": "Explosivos"
+            "explosive": "Explosivos",
+            "heatcap": "Heat Lím."
         }
     },
     "enums": {
