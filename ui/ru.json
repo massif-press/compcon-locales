@@ -1247,6 +1247,9 @@
         },
         "jockey": {
             "jockey": "Абордаж"
+        },
+        "subtitles": {
+            "featureInDevelopmentV32": "Функция в разработке (v3.1)"
         }
     },
     "mainMenu": {
