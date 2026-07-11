@@ -2506,7 +2506,9 @@
         },
         "reserveType": {
             "resources": "Ресурсы",
-            "tactical": "Тактический"
+            "tactical": "Тактический",
+            "mech": "Мех",
+            "project": "Проект (Project)"
         }
     }
 }
