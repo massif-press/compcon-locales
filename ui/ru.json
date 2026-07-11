@@ -1249,7 +1249,8 @@
             "jockey": "Абордаж"
         },
         "subtitles": {
-            "featureInDevelopmentV32": "Функция в разработке (v3.1)"
+            "featureInDevelopmentV32": "Функция в разработке (v3.1)",
+            "featureInDevelopmentV31": "Функция в разработке (v3.1)"
         }
     },
     "mainMenu": {
@@ -1550,7 +1551,10 @@
             "youDoNotHaveAccess2": "У вас нет доступа к инструменту публикации подборок.",
             "compconCloudAccount": "Облачный аккаунт @:{'common.appName'}",
             "role": "Роль",
-            "filename": "Имя файла"
+            "filename": "Имя файла",
+            "latestVersion": "Последняя версия",
+            "installedVersion": "Установленная версия",
+            "autoUpdate": "Автоматическое обновление репозиториев"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
