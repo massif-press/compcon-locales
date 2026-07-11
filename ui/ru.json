@@ -1901,7 +1901,15 @@
             "exportV2Json": "Экспорт в формате JSON",
             "exportSuccess": "Экспорт успешно выполнен",
             "exportError": "Ошибка экспорта",
-            "pilotOnly": "Только пилоты"
+            "pilotOnly": "Только пилоты",
+            "killedInAction": "Погиб в бою",
+            "licenseLevel": "Уровень лицензии",
+            "spCost": "Стоимость (пункты систем)",
+            "full": "Полностью",
+            "manufacturer": "Производитель",
+            "size": "Размер",
+            "active": "Активное",
+            "inactive": "Неактивный"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
