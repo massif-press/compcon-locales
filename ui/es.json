@@ -2930,7 +2930,8 @@
         "damageType": {
             "heat": "Calor",
             "explosive": "Explosivos",
-            "energy": "Energía"
+            "energy": "Energía",
+            "kinetic": "Cinemática"
         }
     }
 }
