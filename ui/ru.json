@@ -1620,7 +1620,10 @@
             "free": "Свободно",
             "contentCollection": "Подборка материалов",
             "campaign": "Кампания",
-            "campaigns": "Кампании"
+            "campaigns": "Кампании",
+            "keepAll": "Сохранить все",
+            "last30": "Последние 30",
+            "mostRecentOnly": "Только последние"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
