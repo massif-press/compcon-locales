@@ -2608,7 +2608,11 @@
             "mechWeapons": "Вооружение меха",
             "icon": "Значок",
             "npcTemplates": "Шаблоны персонажей ведущего",
-            "eidolonLayers": "Слой эйдолона"
+            "eidolonLayers": "Слой эйдолона",
+            "statusesConditions": "Статусы и состояния",
+            "equipmentTags": "Метки снаряжения",
+            "coreBonuses": "Ключевые улучшения",
+            "pilotBackgrounds": "Происхождения пилотов"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
