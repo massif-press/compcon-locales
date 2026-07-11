@@ -1898,7 +1898,10 @@
             "tags": "Метки",
             "cloneQuirks": "Причуда клона",
             "setPilotTalents": "Таланты пилота",
-            "exportV2Json": "Экспорт в формате JSON"
+            "exportV2Json": "Экспорт в формате JSON",
+            "exportSuccess": "Экспорт успешно выполнен",
+            "exportError": "Ошибка экспорта",
+            "pilotOnly": "Только пилоты"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
