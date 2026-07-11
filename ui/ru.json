@@ -2686,7 +2686,8 @@
             "artillery": "Огневая поддержка",
             "striker": "Натиск",
             "controller": "Контроль",
-            "defender": "Защита"
+            "defender": "Защита",
+            "balanced": "Сбалансированный"
         },
         "reserveType": {
             "resources": "Ресурсы",
@@ -2737,10 +2738,13 @@
         },
         "systemType": {
             "system": "Система",
-            "shield": "Щит"
+            "shield": "Щит",
+            "deployable": "Размещаемое",
+            "drone": "Дрон"
         },
         "duration": {
-            "scene": "Сцены"
+            "scene": "Сцены",
+            "free": "Бесплатно"
         },
         "activationType": {
             "protocol": "Протокол (Protocol)"
