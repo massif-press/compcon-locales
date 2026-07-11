@@ -2741,6 +2741,9 @@
         },
         "duration": {
             "scene": "Сцены"
+        },
+        "activationType": {
+            "protocol": "Протокол (Protocol)"
         }
     }
 }
