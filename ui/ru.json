@@ -1927,7 +1927,8 @@
             "groupName": "Название отряда",
             "startingLicenseLevel": "Начальный уровень лицензии",
             "maximumStress": "Максимальное значение стресса",
-            "pilotStress": "стресс пилота"
+            "pilotStress": "стресс пилота",
+            "deletePilots": "Удалить пилота"
         },
         "titles": {
             "selectPilotBackground": "Выбрать происхождение пилота",
@@ -2237,7 +2238,8 @@
             "range": "Дальность",
             "hull": "Корпус",
             "energy": "Энергетический",
-            "explosive": "Взрывной"
+            "explosive": "Взрывной",
+            "size": "Размер"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
