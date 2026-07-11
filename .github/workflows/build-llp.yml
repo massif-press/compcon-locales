@@ -1,0 +1,62 @@
+name: Build LLP patches
+
+on:
+  push:
+    branches: [master]
+    paths: ['content/**']
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pack .llp files
+        run: |
+          mkdir -p dist
+          cat > pack.mjs <<'EOF'
+          import { readFileSync, writeFileSync, readdirSync, statSync } from 'node:fs'
+          import { join } from 'node:path'
+
+          const ALIAS = { zh_Hans: 'zh', pt_BR: 'pt' }
+          const today = new Date().toISOString().slice(0, 10)
+          let count = 0
+
+          for (const target of readdirSync('content')) {
+            const dir = join('content', target)
+            if (target.startsWith('lancer-') || !statSync(dir).isDirectory()) continue
+
+            for (const file of readdirSync(dir)) {
+              if (!file.endsWith('.json') || file === 'en.json') continue
+              const code = file.replace(/\.json$/, '')
+              const lang = ALIAS[code] ?? code
+              const raw = JSON.parse(readFileSync(join(dir, file), 'utf8'))
+              const data = Object.fromEntries(
+                Object.entries(raw).sort(([a], [b]) => a.localeCompare(b))
+              )
+              const llp = {
+                lang,
+                target,
+                translation_version: '0.1.0',
+                last_update: today,
+                translator: '',
+                data,
+              }
+              writeFileSync(join('dist', `${target}.${lang}.llp`), JSON.stringify(llp, null, 2) + '\n')
+              count++
+            }
+          }
+          console.log(`packed ${count} .llp files`)
+          EOF
+          node pack.mjs
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: llp-patches
+          path: dist/*.llp
+          if-no-files-found: error
