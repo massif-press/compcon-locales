@@ -133,7 +133,7 @@
         "byAuthor": "от {author}",
         "manageContent": "Управление контентом",
         "forceImport": "Форсированный импорт",
-        "hpBonus": "Бонус к ОЗ",
+        "hpBonus": "Бонус к ПЗ",
         "techAttack": "Тех. атака",
         "sensorRange": "Дальность сенсоров",
         "pilotGear": "Снаряжение пилота",
@@ -538,7 +538,7 @@
             "additionalArtBy": "Дополнительные изображения предоставлены",
             "patronThanks": "Развитие @:{'common.appName'} стало возможным благодаря щедрой",
             "supportOf": " ",
-            "tier": "Уровень подписки",
+            "tier": "Уровень подписки {patreonTierName}",
             "anonymousPatron": "анонимных подписчиков",
             "support": "поддержке"
         },
@@ -671,7 +671,8 @@
             "collection": "Подборка",
             "importErrorTitle": "Не удалось импортировать",
             "readyForImport": "Элемент можно импортировать",
-            "v2BackupText": "{count} столкновение сохранено в раздел Импорт формата v2 для последующего импорта. | {count} столкновений сохранено в раздел Импорт формата v2 для последующего импорта."
+            "v2BackupText": "{count} столкновение сохранено в раздел Импорт формата v2 для последующего импорта. | {count} столкновений сохранено в раздел Импорт формата v2 для последующего импорта.",
+            "stagedItems": "Элементы, запланированные для импорта"
         },
         "campaign": {
             "jsonFile": "JSON-файл",
@@ -878,6 +879,9 @@
         },
         "environment": {
             "modifiedWarning": "Указанная обстановка была изменена. Загрузка нового шаблона приведёт к сбросу изменений. Вы уверены, что хотите продолжить?"
+        },
+        "encImport": {
+            "stagedEncounters": "Столкновения, запланированные для импорта"
         }
     },
     "active": {
@@ -934,7 +938,10 @@
             "systemsCheck": "Проверка навыка (Системы)",
             "die": "Кость",
             "rollDice": "Бросить кость",
-            "noRolls": "Броски отсутствуют."
+            "noRolls": "Броски отсутствуют.",
+            "hullCheck": "Проверка навыка (Корпус)",
+            "agilityCheck": "Проверка навыка (Ловкость)",
+            "engineeringCheck": "Проверка навыка (Инженерное дело)"
         },
         "damageMenu": {
             "totalDamage": "Общий урон",
@@ -966,7 +973,8 @@
             "rollResults": "Результат броска",
             "risky": "Рискованный",
             "wins": "Побеждает",
-            "loses": "Проигрывает"
+            "loses": "Проигрывает",
+            "contested": "Оспариваемая"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
@@ -1011,7 +1019,8 @@
             "statusesConditions": "Статусы / Состояния",
             "resistances": "Сопротивление урону",
             "softCover": "Частичное укрытие",
-            "hardCover": "Полное укрытие"
+            "hardCover": "Полное укрытие",
+            "markActivation": "Завершить ваш ход?"
         },
         "equipCmd": {
             "reload": "Перезарядить"
@@ -1023,7 +1032,7 @@
             "pilotSkills": "Навыки пилота ({n})"
         },
         "fields": {
-            "mark1RepairToRestore": "Отметьте 1 Запчать, чтобы восстановить все ОЗ.",
+            "mark1RepairToRestore": "Отметьте 1 Набор запчастей, чтобы восстановить все ПЗ.",
             "showArchived": "Показать архив",
             "tableName": "Название таблицы",
             "pilotNameOrCallsign": "Имя или позывной пилота",
@@ -1034,7 +1043,7 @@
             "overkill": "Избыточное"
         },
         "tooltips": {
-            "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ОЗ, нагрев и тд) стандартным числовым отображением.",
+            "replaceTheThematicStatTrackers": "Заменить все тематические счётчики характеристик (ПЗ, нагрев и тд) стандартным числовым отображением.",
             "apply": "Применить",
             "addAPilotFromYourLocalPilotRoster": "Добавить пилота из локального списка личного состава"
         },
@@ -1061,7 +1070,10 @@
             "hull": "Корпус",
             "size": "Размер",
             "eDefense": "Тех. защита",
-            "grapple": "Захват"
+            "grapple": "Захват",
+            "shredded": "Изрешечён",
+            "saveTarget": "Спас-порог",
+            "repairCapacity": "Наборы запчастей"
         },
         "timedEffect": {
             "override": "// Заменить",
@@ -1216,13 +1228,17 @@
         },
         "addRoster": {
             "licenseLevelN": "Уровень лицензии {n}",
-            "addPcFull": "Добавить персонажа игрока"
+            "addPcFull": "Добавить персонажа игрока",
+            "addPc": "Добавить ПИ",
+            "addNpcFull": "Добавить персонажа ведущего"
         },
         "gmNotes": {
             "addClock": "Добавить счётчик"
         },
         "tableIndex": {
-            "otherTables": "Другие столы"
+            "otherTables": "Другие столы",
+            "title": "Список таблиц",
+            "encounterTables": "Таблицы столкновений"
         },
         "addStub": {
             "addPlaceholder": "Добавить заглушку"
@@ -1240,7 +1256,13 @@
             "noReserves": "Нет доступных резервов"
         },
         "runnerItem": {
-            "readyToDeploy": "Готов к развёртыванию"
+            "readyToDeploy": "Готов к развёртыванию",
+            "deploysOnRound": "Развёртывается в начале раунда {n}",
+            "deploysNextRound": "Развёртывается в следующем раунде",
+            "forceDeploy": "Принудительное развёртывание",
+            "resistanceLine": "{condition} к {type} урону",
+            "reactorDestroyed": "Реактор уничтожен",
+            "activationsRemaining": "В текущем раунде осталось {n} активаций"
         },
         "pcNotes": {
             "sessionNotes": "Заметки по игровой сессии"
@@ -1249,8 +1271,19 @@
             "jockey": "Абордаж"
         },
         "subtitles": {
-            "featureInDevelopmentV32": "Функция в разработке (v3.1)",
+            "featureInDevelopmentV32": "Функция в разработке (v3.2)",
             "featureInDevelopmentV31": "Функция в разработке (v3.1)"
+        },
+        "newEnc": {
+            "title": "Новое активное столкновение (сохранено на устройстве)"
+        },
+        "pcOptions": {
+            "stagedImport": "Запланированный импорт"
+        },
+        "initiative": {
+            "reinforcementsN": "подкрепления ({n})",
+            "destroyedN": "Уничтожено ({n})",
+            "statusGroupN": "{status} ({n})"
         }
     },
     "mainMenu": {
@@ -1386,7 +1419,8 @@
             "archiveSettings": "Настройки архива",
             "settingsDesc1": "@:{'common.appName'} может создавать и сохранять резервные копии ваших данных с выбранным интервалом. Эти архивы можно использовать для восстановления данных до предыдущего состояния.",
             "pruneItems": "Убран {count} элемент | Убрано {count} элементов",
-            "preventPrune": "Предотвратить автоматическое удаление указанного элемента. Сохранённые архивы будут учитываться при расчёте ограничений размеров хранилища и доступного свободного места."
+            "preventPrune": "Предотвратить автоматическое удаление указанного элемента. Сохранённые архивы будут учитываться при расчёте ограничений размеров хранилища и доступного свободного места.",
+            "nothingToPrune": "Отсутствуют элементы для удаления"
         },
         "publishing": {
             "addNew": "Добавить новое",
@@ -1554,13 +1588,13 @@
             "filename": "Имя файла",
             "latestVersion": "Последняя версия",
             "installedVersion": "Установленная версия",
-            "autoUpdate": "Автоматическое обновление репозиториев",
+            "autoUpdate": "Автоматическое обновление",
             "onStartup": "При запуске",
             "manualOnly": "Только вручную",
-            "last10": "Последний: %1",
-            "last5": "Последняя",
-            "pilotGroups": "Отряд пилотов",
-            "narrativeElement": "Нарративные элементы",
+            "last10": "Последние 10",
+            "last5": "Последние 5",
+            "pilotGroups": "Отряды пилотов",
+            "narrativeElement": "Нарративный элемент",
             "narrativeElements": "Нарративные элементы",
             "licenseLevel": "Уровень лицензии",
             "lastUpdate": "Последнее обновление",
@@ -1569,8 +1603,8 @@
             "lastSync": "Последняя синхронизация",
             "lastModified": "Последнее изменение",
             "lastUpdated": "Последнее обновление",
-            "lcp": "Контент-паки",
-            "collection": "Коллекция",
+            "lcp": "Контент-пак",
+            "collection": "Подборка",
             "author": "Автор",
             "source": "Источник",
             "size": "Размер",
@@ -1583,7 +1617,10 @@
             "encounter": "Столкновения",
             "pilots": "Пилоты",
             "lcps": "Контент-паки",
-            "free": "Свободно"
+            "free": "Свободно",
+            "contentCollection": "Подборка материалов",
+            "campaign": "Кампания",
+            "campaigns": "Кампании"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
@@ -1613,7 +1650,8 @@
             "thisIsAViewOf": "Это представление ваших данных @:{'common.appName'}, хранящихся как локально, так и в облаке. Вы можете использовать этот инструмент для управления состоянием ваших данных и синхронизации изменений между локальными данными и облаком.",
             "paidLcpContentRequiresA": "Для автоматического обновления платного контента LCP привязать покупки, совершенные на itch.io. В настоящее время поддерживаются только LCP, опубликованные Massif.",
             "theseOptionsControlHowAnd": "Эти параметры определяют, как и когда ваши данные синхронизируются с облаком. По умолчанию синхронизация данных осуществляется только вручную. В отличие от других пользовательских настроек, эти параметры хранятся в облаке и применяются ко всем используемым вами устройствам.",
-            "controlsWhichDataTypesAre": "Управляет тем, какие типы данных синхронизируются с облаком."
+            "controlsWhichDataTypesAre": "Управляет тем, какие типы данных синхронизируются с облаком.",
+            "signInFailed": "Не удалось авторизоваться"
         },
         "codeEntry": {
             "tooltip": "Введите код разблокировки, чтобы получить дополнительные возможности для аккаунта, либо материалы в формате LCP.",
@@ -1662,12 +1700,13 @@
         "subtitles": {
             "permanentlyRemovesItemsFlaggedFor": "Навсегда удаляет элементы, помеченные для удаления.",
             "pushesAllLocalDataTo": "Загружает все локальные данные в облако, переставляя дату и время выгрузки на текущие. Используйте после восстановления или импорта.",
-            "removeTheRemoteLinkAnd": "Убрать ссылку на источник в облаке. Данные хранятся локально."
+            "removeTheRemoteLinkAnd": "Убрать ссылку на источник в облаке и сохранить данные на устройстве."
         },
         "a11y": {
-            "signIn": "Войти",
-            "eMail": "Электронная почта",
-            "password": "Пароль"
+            "signIn": "Авторизоваться",
+            "eMail": "Эл. почта",
+            "password": "Пароль",
+            "cancelAndClose": "Отменить и закрыть"
         }
     },
     "pm": {
@@ -1701,8 +1740,9 @@
             "skills": "Навыки",
             "icon": "значок",
             "up": "вверх",
-            "editPilotBiography": "Добавить биографию пилота",
-            "selectTemplate": "Выберите шаблон"
+            "editPilotBiography": "Редактировать биографию пилота",
+            "selectTemplate": "Выберите {name} шаблон",
+            "startingLL": "Стартовый УЛ"
         },
         "sheet": {
             "sortByName": "Сортировать по имени",
@@ -1739,7 +1779,7 @@
             "errNAMENOTFOUNDUNABLETO": "Ошибка: имя не найдено, не удалось сгенерировать uuid",
             "includePilotNETDiscordEmoji": "Включить эмодзи с Discord-сервера Pilot NET",
             "doesnTWorkInCodeBlock": "Не поддерживается в формате блока кода",
-            "noBondPowersAvailable": "Силы уз недоступны",
+            "noBondPowersAvailable": "Способности уз недоступны",
             "bondsAvailableAfterLicenseLevel1": "Узы доступны после 1-го уровня лицнезии",
             "selectBond": "Выбрать узы",
             "printTabletopReadyCharacterAndMech": "Печать листов персонажа и меха для игры вживую",
@@ -1761,8 +1801,8 @@
             "pilotTALENTAUDIT": "Оценка талантов пилота",
             "errTALENTAUDITINCOMPLETE": "Ошибка: оценка талантов не пройдена",
             "overrideAllowLL0Bond": "[ОБХОД]:// Разрешить использование Уз на нулевом уровне лицензии",
-            "gainBondPower": "Получить способность, связанную с узами",
-            "bondPowersAvailable": "Доступны способности, связанные с узами",
+            "gainBondPower": "Получить способность уз",
+            "bondPowersAvailable": "Доступны способности уз",
             "setMaximumStress": "Задать максимальное значение стресса",
             "setMaximumPilotStressStressGains": "Задать максимальное значение стресса пилота. Стресс от таких источников, как, например, способности уз, начисляется вручную",
             "broken": "Сломлен",
@@ -1800,7 +1840,18 @@
             "removeBond": "Удалить узы",
             "xk401REGISTERMECHNAME": "XK-4-01 // зарегистрировать имя меха",
             "registerNewMech": "Зарегистрировать нового меха",
-            "requiredFor": "Обязательно"
+            "requiredFor": "Обязательно",
+            "powers": "Способности",
+            "heat": "Нагрев",
+            "err": "ОШИБКА",
+            "selectNewFrame": "Выбрать новую модель",
+            "minorIdeal": "Дополнительный идеал",
+            "allSelectedPowers": "Все выбранные способности",
+            "otherBonds": "Иные узы",
+            "selectionsAvailable": "Доступны новые способности уз",
+            "noBondPowerSelectionsRemaining": "Не осталось способностей уз для выбора",
+            "noBondPowersAssigned": "Способности уз не выбраны",
+            "majorIdeals": "Основные идеалы"
         },
         "print": {
             "pilotHP": "ПЗ пилота",
@@ -1817,14 +1868,31 @@
             "mechSYSTEM": "Система меха",
             "reserve": "Резервы",
             "mountLOCKED": "Крепление недоступно",
-            "pilotSheetOptions": "Опции листа пилота",
+            "pilotSheetOptions": "Опции для листа персонажа",
             "mechWEAPONMOUNT": "Крепление для оружия меха",
             "operatorNotes": "Заметки о сборке",
-            "heatCap": "Теплоёмкость",
-            "techAtk": "Тех. атака"
+            "heatCap": "Теплоёмкость.",
+            "techAtk": "Тех. атака",
+            "xp": "Пункты опыта",
+            "onATTACK": "При атаке",
+            "onHIT": "При попадании",
+            "onCRIT": "При критическом попадании",
+            "repairCAPACITY": "Наборы запчастей",
+            "corePassive": "Пассивная ключ. способность",
+            "gear": "// СНАРЯЖЕНИЕ",
+            "1d32": "[+1к3",
+            "1d62": "[+1к6",
+            "1d642": "[+1к6+4",
+            "atk": "АТК",
+            "coreActive": "Ключевая способность активна",
+            "maxParen": "({n} максимум)",
+            "capacityParen": "({n} зарядов)",
+            "slashesLl": "// УЛ",
+            "missionLog": "Лог миссии",
+            "cont": "(ПРОДОЛ.)"
         },
         "roster": {
-            "history": "История группы",
+            "history": "История отряда",
             "finishEditing": "Завершить редактирование",
             "deleteGroup": "Удалить отряд",
             "transfer": "Перенести",
@@ -1896,23 +1964,43 @@
             "licensesRequired": "Необходимые лицензии",
             "specialEquipment": "Специальное снаряжение",
             "tags": "Метки",
-            "cloneQuirks": "Причуда клона",
-            "setPilotTalents": "Таланты пилота",
-            "exportV2Json": "Экспорт в формате JSON",
+            "cloneQuirks": "Причуды клона",
+            "setPilotTalents": "Выбор талантов пилота",
+            "exportV2Json": "Экспорт в формате JSON версии v2",
             "exportSuccess": "Экспорт успешно выполнен",
             "exportError": "Ошибка экспорта",
-            "pilotOnly": "Только пилоты",
+            "pilotOnly": "Только пилот",
             "killedInAction": "Погиб в бою",
             "licenseLevel": "Уровень лицензии",
             "spCost": "Стоимость (пункты систем)",
             "full": "Полностью",
             "manufacturer": "Производитель",
             "size": "Размер",
-            "active": "Активное",
-            "inactive": "Неактивный",
+            "active": "Активно",
+            "inactive": "Неактивно",
             "pilot": "Пилот",
             "ll": "УЛ",
-            "group": "Группа"
+            "group": "Отряд",
+            "selectBondPowers": "Выбор способностей уз",
+            "selectPilotBond": "Выбор уз пилота",
+            "duplicateMech": "Сделать дубликат меха",
+            "selectDamage": "Выбор урона",
+            "addCustomReserve": "Добавить пользовательский резерв",
+            "addOrganization": "Добавить организацию",
+            "missingLicenseData": "Отсутствуют данные лицензии",
+            "missingInAction": "Пропал без вести",
+            "retired": "В отставке",
+            "unknown": "Неизвестно",
+            "kinetic": "Кинетический",
+            "launcher": "Пусковое",
+            "cqb": "ОБД",
+            "nexus": "Нексус",
+            "rifle": "Винтовка",
+            "cannon": "Пушка",
+            "range": "Дальность",
+            "energy": "Энергетический",
+            "explosive": "Взрывной",
+            "system": "Система"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
@@ -1936,7 +2024,12 @@
             "pilotCALLSIGNBlankOrInvalid": "ПОЗЫВНОЙ ПИЛОТА: незаполнен или недействителен",
             "selectSkillTriggers": "Выберите {word} ({count}) навыков пилота.",
             "selectLicenseRanks": "Выберите {word} ({count}) уровень лицензии | Выберите {word} ({count}) уровней лицензии.",
-            "selectCoreBonusesN": "Выберите {word} ({count}) ключевых улучшений {item}."
+            "selectCoreBonusesN": "Выберите {word} ({count}) ключевых улучшений {item}.",
+            "improveMechSkills": "Улучшить навыки пилотирования",
+            "addCOREBonus": "Добавить ключевое улучшение",
+            "improveTalents": "Улучшить таланты",
+            "licenseLevels": "Уровни лицензии",
+            "bonusesWord": "Бонусы"
         },
         "loadout": {
             "notSET": "Не задано",
@@ -1965,7 +2058,10 @@
             "gmsArmoryPrintid": "Печатный идентификатор арсенала GMS",
             "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL": "Санкционирование снаряжения из арсенала GMS: пилот/личный защитный боекомплект::TI - TVII-a",
             "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Санкционирование снаряжения из арсенала Союза: оборудование модели//боевая система",
-            "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Санкционирование снаряжения из арсенала GMS: пилот/личное оружие::S0 - S3(LTD)"
+            "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Санкционирование снаряжения из арсенала GMS: пилот/личное оружие::S0 - S3(LTD)",
+            "noMODINSTALLED": "Модификаций не установлено",
+            "appliedTO": "Применяется к",
+            "reorderSystems": "Изменить порядок отображения систем"
         },
         "selectors": {
             "startWith": "Начать с",
@@ -1975,7 +2071,8 @@
             "unavailable": "Недоступно",
             "download": "Скачать",
             "yourAbilityTo": "Ваше умение",
-            "equipment": "Снаряжение"
+            "equipment": "Снаряжение",
+            "addReserve": "Добавить резерв"
         },
         "link": {
             "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позднее",
@@ -1985,7 +2082,8 @@
             "eng": "Инж",
             "agi": "Лов",
             "sys": "Сис",
-            "hull": "Корпус"
+            "hull": "Корпус",
+            "bond": "Узы"
         },
         "subtitles": {
             "setPilotGroup": "Задать отряд пилота",
@@ -1998,7 +2096,7 @@
             "importSuccessTitle": "Импорт успешно выполнен",
             "importSuccessText": "{name} // {callsign} успешно внесены в раздел \"Личный состав\".",
             "importPilotErrorText": "Не удалось импортировать пилота: {error}",
-            "importErrorText": "Невозможно прочитать файл: %s"
+            "importErrorText": "Невозможно прочитать файл: {error}"
         },
         "export": {
             "exportErrorTitle": "Ошибка экспорта",
@@ -2016,7 +2114,12 @@
         },
         "tooltips": {
             "copyStatBlockToClipboard": "Скопировать статблок в буфер обмена",
-            "heatCapacity": "ТЕПЛОЁМКОСТЬ"
+            "heatCapacity": "ТЕПЛОЁМКОСТЬ",
+            "repairCapacity": "Наборы запчастей",
+            "electronicDefense": "ТЕХНИЧЕСКАЯ ЗАЩИТА",
+            "techAttack": "ТЕХ. АТАКА",
+            "mechHp": "ПЗ МЕХА",
+            "hull": "Корпус"
         },
         "actions": {
             "editLicenseLevel": "Изменить уровень лицензии",
@@ -2125,7 +2228,13 @@
             "immunity": "Иммунитет",
             "vulnerability": "Уязвимость",
             "burn": "Плавление",
-            "gear": "Снаряжение"
+            "gear": "Снаряжение",
+            "heat": "Нагрев",
+            "repairCapacity": "Наборы запчастей",
+            "range": "Дальность",
+            "hull": "Корпус",
+            "energy": "Энергетический",
+            "explosive": "Взрывной"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -2161,7 +2270,9 @@
             "active": "Активный",
             "damage": "Урон",
             "missingData": "Данные отсутствуют",
-            "click": "Нажмите"
+            "click": "Нажмите",
+            "toClose": "Закрыть",
+            "versionLabel": "вер. {version}"
         },
         "clock": {
             "deleteConfirm": "Вы уверены что хотите удалить этот счётчик? Это действие необратимо."
@@ -2239,6 +2350,11 @@
         },
         "cascade": {
             "pending": "Ожидается"
+        },
+        "bond": {
+            "bondPowers": "Способности уз",
+            "veteranPower": "Ветеранские способности",
+            "masterPower": "Исключительные способности"
         }
     },
     "notify": {
@@ -2355,7 +2471,7 @@
         "systems": "Системы",
         "engineering": "Инженерное дело",
         "agi": "Ловк",
-        "hp": "ОЗ",
+        "hp": "ПЗ",
         "sensors": "Сенсоры",
         "structure": "Структура",
         "evasion": "Уклонение",
@@ -2473,7 +2589,10 @@
             "environments": "Обстановка",
             "role": "Роль",
             "origin": "Источник",
-            "tags": "Метки"
+            "tags": "Метки",
+            "range": "Дальность",
+            "system": "Система",
+            "mechWeapons": "Вооружение меха"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
@@ -2499,23 +2618,67 @@
             "energy": "Энергетический",
             "explosive": "Взрывной",
             "heat": "Нагрев",
-            "burn": "Плавление"
+            "burn": "Плавление",
+            "applied_burn": "Причиняемое плавление",
+            "variable": "Вариативный",
+            "aoe": "Урон по площади"
         },
         "mechType": {
-            "support": "Поддержка"
+            "support": "Поддержка",
+            "artillery": "Огневая поддержка",
+            "striker": "Натиск",
+            "controller": "Контроль",
+            "defender": "Защита"
         },
         "reserveType": {
             "resources": "Ресурсы",
-            "tactical": "Тактический",
+            "tactical": "Тактические",
             "mech": "Мех",
-            "project": "Проект (Project)",
+            "project": "Проект",
             "organization": "Организация",
             "bonus": "Бонус"
         },
         "orgType": {
-            "military": "Военное",
-            "scientific": "Научный",
-            "academic": "Академические"
+            "military": "Военная",
+            "scientific": "Научная",
+            "academic": "Академическая",
+            "criminal": "Преступная",
+            "humanitarian": "Гуманитарная",
+            "industrial": "Промышленная",
+            "entertainment": "Развлекательная",
+            "political": "Политическая"
+        },
+        "weaponType": {
+            "launcher": "Пусковое",
+            "cqb": "ОБД",
+            "nexus": "Нексус",
+            "melee": "Холодное",
+            "improvised": "Импровизированное",
+            "rifle": "Винтовка",
+            "cannon": "Пушка"
+        },
+        "weaponSize": {
+            "auxiliary": "Вспомогательное",
+            "main": "Основное",
+            "heavy": "Тяжёлое",
+            "superheavy": "Сверхтяжёлое"
+        },
+        "mountType": {
+            "main": "Основное",
+            "heavy": "Тяжёлое",
+            "superheavy": "Сверхтяжёлое",
+            "aux_aux": "Вспом/Вспом",
+            "aux": "Вспомогательное",
+            "main_aux": "Осн/Вспом",
+            "flex": "Адаптивное"
+        },
+        "rangeType": {
+            "range": "Дальность",
+            "threat": "Досягаемость"
+        },
+        "systemType": {
+            "system": "Система",
+            "shield": "Щит"
         }
     }
 }
