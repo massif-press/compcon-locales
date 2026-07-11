@@ -2494,7 +2494,8 @@
         "image": {
             "uploadedTitle": "Изображение загружено",
             "deletedTitle": "Изображение удалено",
-            "deleteFailedTitle": "Не удалось удалить"
+            "deleteFailedTitle": "Не удалось удалить",
+            "deletedText": "Удален {itemType}{name}."
         },
         "link": {
             "copiedTitle": "Ссылка скопирована"
