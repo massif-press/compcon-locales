@@ -882,6 +882,9 @@
         },
         "encImport": {
             "stagedEncounters": "Столкновения, запланированные для импорта"
+        },
+        "a11y": {
+            "dragToReorder": "Перетащите, чтобы изменить порядок"
         }
     },
     "active": {
@@ -1928,7 +1931,8 @@
             "startingLicenseLevel": "Начальный уровень лицензии",
             "maximumStress": "Максимальное значение стресса",
             "pilotStress": "стресс пилота",
-            "deletePilots": "Удалить пилота"
+            "deletePilots": "Удалить пилота",
+            "project": "Проект"
         },
         "titles": {
             "selectPilotBackground": "Выбрать происхождение пилота",
@@ -2123,12 +2127,16 @@
             "electronicDefense": "ТЕХНИЧЕСКАЯ ЗАЩИТА",
             "techAttack": "ТЕХ. АТАКА",
             "mechHp": "ПЗ МЕХА",
-            "hull": "Корпус"
+            "hull": "Корпус",
+            "speed": "СКОРОСТЬ"
         },
         "actions": {
             "editLicenseLevel": "Изменить уровень лицензии",
             "pilotSkillTriggersReservesAnd": "Навыки, резервы и выкладка пилота",
             "pilotLicensesMechSkillsCore": "Лицензии, навыки пилотирование, ключевые улучшения и таланты пилота"
+        },
+        "a11y": {
+            "dragToReorder": "Перетащите, чтобы изменить порядок"
         }
     },
     "ui": {
@@ -2597,7 +2605,10 @@
             "tags": "Метки",
             "range": "Дальность",
             "system": "Система",
-            "mechWeapons": "Вооружение меха"
+            "mechWeapons": "Вооружение меха",
+            "icon": "Значок",
+            "npcTemplates": "Шаблоны персонажей ведущего",
+            "eidolonLayers": "Слой эйдолона"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
