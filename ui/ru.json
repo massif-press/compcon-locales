@@ -2514,7 +2514,8 @@
         },
         "orgType": {
             "military": "Военное",
-            "scientific": "Научный"
+            "scientific": "Научный",
+            "academic": "Академические"
         }
     }
 }
