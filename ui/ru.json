@@ -2500,6 +2500,13 @@
             "explosive": "Взрывной",
             "heat": "Нагрев",
             "burn": "Плавление"
+        },
+        "mechType": {
+            "support": "Поддержка"
+        },
+        "reserveType": {
+            "resources": "Ресурсы",
+            "tactical": "Тактический"
         }
     }
 }
