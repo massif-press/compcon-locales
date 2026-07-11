@@ -2509,7 +2509,8 @@
             "lcpUpdateErrorTitle": "Не удалось обновить LCP"
         },
         "compendium": {
-            "campaignUpdatedText": "Коллекция успешно обновлена"
+            "campaignUpdatedText": "Коллекция успешно обновлена",
+            "campaignUpdateFailedText": "Не удалось обновить Email"
         }
     },
     "print": {
