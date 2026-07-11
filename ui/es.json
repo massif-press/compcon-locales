@@ -2844,7 +2844,10 @@
             "resistance": "Resistencia",
             "heat": "Calor",
             "explosive": "Explosivos",
-            "heatcap": "Heat Lím."
+            "heatcap": "Heat Lím.",
+            "size": "Tamaño",
+            "eDefense": "Defensa-E",
+            "variableDamage": "Nombre de la variable"
         }
     },
     "enums": {
