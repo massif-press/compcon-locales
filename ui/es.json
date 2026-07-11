@@ -2898,7 +2898,13 @@
             "jockey": "Hockey",
             "invade": "Invadir",
             "full": "Completo",
-            "quick": "Rápido"
+            "quick": "Rápido",
+            "protocol": "Protocolo",
+            "free": "Libre",
+            "none": "Ninguno"
+        },
+        "rangeType": {
+            "burst": "Busto"
         }
     }
 }
