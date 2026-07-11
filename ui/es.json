@@ -2839,6 +2839,11 @@
         },
         "alt": {
             "packImage": "Elegir imagen"
+        },
+        "titles": {
+            "resistance": "Resistencia",
+            "heat": "Calor",
+            "explosive": "Explosivos"
         }
     },
     "enums": {
