@@ -2929,7 +2929,8 @@
         },
         "damageType": {
             "heat": "Calor",
-            "explosive": "Explosivos"
+            "explosive": "Explosivos",
+            "energy": "Energía"
         }
     }
 }
