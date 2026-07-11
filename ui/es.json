@@ -2897,7 +2897,8 @@
             "move": "Mover",
             "jockey": "Hockey",
             "invade": "Invadir",
-            "full": "Completo"
+            "full": "Completo",
+            "quick": "Rápido"
         }
     }
 }
