@@ -737,7 +737,8 @@
             "layer": "Слой"
         },
         "npcEditor": {
-            "statblock": "Статблок"
+            "statblock": "Статблок",
+            "v2Export": "Экспорт"
         },
         "fields": {
             "authors": "Автор(ы)",
@@ -767,7 +768,8 @@
             "block": "Блок",
             "outlined": "",
             "paletteColorsHelp": "Цвета {strong} меняются в зависимости от выбранной пользователем темы @:{'common.appName'}",
-            "themeColorsHelp": "Цвета меняются в зависимости от выбранной пользователем темы @:{'common.appName'}"
+            "themeColorsHelp": "Цвета меняются в зависимости от выбранной пользователем темы @:{'common.appName'}",
+            "palette": "Палитра"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -786,7 +788,8 @@
         },
         "sitrep": {
             "savePreset": "Сохранить шаблон",
-            "presets": "Шаблоны"
+            "presets": "Шаблоны",
+            "modifiedWarning": "Указанная обстановка была изменена. Загрузка нового шаблона приведёт к сбросу изменений. Вы уверены, что хотите продолжить?"
         },
         "encounterIndex": {
             "addFolder": "Добавить папку"
@@ -838,7 +841,8 @@
             "changeTierAndDiscardAll": "Изменить опасность и сбросить все отредактированные значения характеристик."
         },
         "encounterEditor": {
-            "additionalNotes": "Дополнительные примечания"
+            "additionalNotes": "Дополнительные примечания",
+            "editorHeading": "Редактор столкновений"
         },
         "npcTemplate": {
             "noTemplates": "Шаблоны отсутствуют",
@@ -893,6 +897,9 @@
         },
         "organizer": {
             "itemCount": "{0} элементов"
+        },
+        "encounterContent": {
+            "map": "Карта"
         }
     },
     "active": {
