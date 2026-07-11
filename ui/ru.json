@@ -2505,7 +2505,11 @@
         "lcp": {
             "lcpUpdatedText": "Последняя версия {pack} была загружена и установлена.",
             "lcpUpdateErrorText": "При попытке скачать {pack} произошла ошибка.",
-            "lcpUpdatedTitle": "LCP обновлены"
+            "lcpUpdatedTitle": "LCP обновлены",
+            "lcpUpdateErrorTitle": "Не удалось обновить LCP"
+        },
+        "compendium": {
+            "campaignUpdatedText": "Коллекция успешно обновлена"
         }
     },
     "print": {
@@ -2745,7 +2749,8 @@
         "duration": {
             "scene": "Сцены",
             "free": "Бесплатно",
-            "encounter": "Столкновения"
+            "encounter": "Столкновения",
+            "mission": "Миссия"
         },
         "activationType": {
             "protocol": "Протокол (Protocol)"
