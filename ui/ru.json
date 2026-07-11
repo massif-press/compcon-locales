@@ -1909,7 +1909,10 @@
             "manufacturer": "Производитель",
             "size": "Размер",
             "active": "Активное",
-            "inactive": "Неактивный"
+            "inactive": "Неактивный",
+            "pilot": "Пилот",
+            "ll": "УЛ",
+            "group": "Группа"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
