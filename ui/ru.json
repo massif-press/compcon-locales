@@ -835,7 +835,8 @@
             "campaignEditor": "Редактор кампаний",
             "encounterEditor": "Редактор столкновений",
             "narrativeElement": "Нарративные элементы",
-            "eidolons": "Эйдолон"
+            "eidolons": "Эйдолон",
+            "setNpcFeatures": "Особенности персонажа ведущего"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
