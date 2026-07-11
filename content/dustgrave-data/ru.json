@@ -1,1 +1,8 @@
-{}
+{
+    "cb_superheavy_mounting.description": "",
+    "cb_superheavy_mounting.name": "Сверхтяжёлое крепление",
+    "emergency_coolant_reservoir.action_emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
+    "emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
+    "env_automatedrepairstations.name": "",
+    "env_chokingdust.name": ""
+}
