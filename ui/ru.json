@@ -890,6 +890,9 @@
         },
         "sectionEditor": {
             "confirmDelete": "Вы уверены что хотите удалить {type} \"{title}\"? Это действие нельзя отменить."
+        },
+        "organizer": {
+            "itemCount": "{0} элементов"
         }
     },
     "active": {
