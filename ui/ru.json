@@ -1666,7 +1666,8 @@
         },
         "a11y": {
             "signIn": "Войти",
-            "eMail": "Электронная почта"
+            "eMail": "Электронная почта",
+            "password": "Пароль"
         }
     },
     "pm": {
@@ -1972,7 +1973,8 @@
             "groupImportErrorText": "Не удалось импортировать отряд пилотов: {error}",
             "importSuccessTitle": "Импорт успешно выполнен",
             "importSuccessText": "{name} // {callsign} успешно внесены в раздел \"Личный состав\".",
-            "importPilotErrorText": "Не удалось импортировать пилота: {error}"
+            "importPilotErrorText": "Не удалось импортировать пилота: {error}",
+            "importErrorText": "Невозможно прочитать файл: %s"
         },
         "export": {
             "exportErrorTitle": "Ошибка экспорта",
