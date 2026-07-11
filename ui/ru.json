@@ -760,7 +760,9 @@
             "conditions": "Условия",
             "service": "Связаться",
             "neutral": "Нейтральные",
-            "mustBeAnItchioUrl": "Для настройки автоматического управления в @:{'common.appName'} необходимо наличие ссылки на страницу на itch.io"
+            "mustBeAnItchioUrl": "Для настройки автоматического управления в @:{'common.appName'} необходимо наличие ссылки на страницу на itch.io",
+            "selectDataFile": "Выбор файла",
+            "moveIntoSection": "Переместить в подборку"
         },
         "pageContent": {
             "quote": "Цитата",
@@ -836,7 +838,13 @@
             "encounterEditor": "Редактор столкновений",
             "narrativeElement": "Нарративные элементы",
             "eidolons": "Эйдолон",
-            "setNpcFeatures": "Особенности персонажа ведущего"
+            "setNpcFeatures": "Особенности персонажа ведущего",
+            "alias": "Псевдоним",
+            "title": "Название",
+            "pronouns": "Местоимения",
+            "class": "Класс",
+            "layers": "Слои",
+            "templates": "Шаблоны"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
