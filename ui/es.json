@@ -2923,7 +2923,13 @@
             "auxiliary": "Auxiliar"
         },
         "weaponType": {
-            "improvised": "Mejorar"
+            "improvised": "Mejorar",
+            "melee": "Cuerpo a cuerpo",
+            "launcher": "Lanzador"
+        },
+        "damageType": {
+            "heat": "Calor",
+            "explosive": "Explosivos"
         }
     }
 }
