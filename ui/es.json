@@ -2908,7 +2908,8 @@
             "blast": "último",
             "cone": "Clonar",
             "line": "Línea",
-            "thrown": "Ciudad pequeña"
+            "thrown": "Ciudad pequeña",
+            "threat": "Hilo"
         }
     }
 }
