@@ -762,7 +762,8 @@
             "neutral": "Нейтральные",
             "mustBeAnItchioUrl": "Для настройки автоматического управления в @:{'common.appName'} необходимо наличие ссылки на страницу на itch.io",
             "selectDataFile": "Выбор файла",
-            "moveIntoSection": "Переместить в подборку"
+            "moveIntoSection": "Переместить в подборку",
+            "encounter": "Столкновения"
         },
         "pageContent": {
             "quote": "Цитата",
