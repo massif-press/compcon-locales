@@ -2847,7 +2847,9 @@
             "heatcap": "Heat Lím.",
             "size": "Tamaño",
             "eDefense": "Defensa-E",
-            "variableDamage": "Nombre de la variable"
+            "variableDamage": "Nombre de la variable",
+            "totalDamage": "Daño Total",
+            "repairCapacity": "Capacidad de reparación"
         }
     },
     "enums": {
