@@ -2911,6 +2911,19 @@
             "thrown": "Ciudad pequeña",
             "threat": "Hilo",
             "range": "Intervalo"
+        },
+        "mountType": {
+            "integrated": "Integrado",
+            "heavy": "Pesada",
+            "main": "Principal"
+        },
+        "weaponSize": {
+            "heavy": "Pesada",
+            "main": "Principal",
+            "auxiliary": "Auxiliar"
+        },
+        "weaponType": {
+            "improvised": "Mejorar"
         }
     }
 }
