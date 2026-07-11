@@ -1560,7 +1560,17 @@
             "last10": "Последний: %1",
             "last5": "Последняя",
             "pilotGroups": "Отряд пилотов",
-            "narrativeElement": "Нарративные элементы"
+            "narrativeElement": "Нарративные элементы",
+            "narrativeElements": "Нарративные элементы",
+            "licenseLevel": "Уровень лицензии",
+            "lastUpdate": "Последнее обновление",
+            "addItem": "Добавить элемент",
+            "uploadDate": "Дата загрузки",
+            "lastSync": "Последняя синхронизация",
+            "lastModified": "Последнее изменение",
+            "lastUpdated": "Последнее обновление",
+            "lcp": "Контент-паки",
+            "collection": "Коллекция"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
