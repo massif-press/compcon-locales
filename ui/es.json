@@ -2905,7 +2905,8 @@
         },
         "rangeType": {
             "burst": "Busto",
-            "blast": "último"
+            "blast": "último",
+            "cone": "Clonar"
         }
     }
 }
