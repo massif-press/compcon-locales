@@ -129,7 +129,12 @@
         },
         "filter": {
             "filters": "필터",
-            "showAll": "모두 보기"
+            "showAll": "모두 보기",
+            "hideAll": "모두 숨기기",
+            "clearAllFilters": "필터 비우기"
+        },
+        "noItem": {
+            "noItemSelected": "선택한 항목 없음"
         }
     },
     "language": {
