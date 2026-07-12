@@ -102,7 +102,9 @@
         "created": "생성됨",
         "detail": "상세",
         "effect": "효과",
-        "lcpDirectory": "디렉터리"
+        "lcpDirectory": "디렉터리",
+        "updateAll": "모두 업데이트",
+        "clearAllData": "데이터 지우기"
     },
     "gm": {
         "fields": {
