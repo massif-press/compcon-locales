@@ -142,7 +142,8 @@
         },
         "sitrep": {
             "myPresets": "내 프리셋",
-            "savePreset": "프리셋 저장"
+            "savePreset": "프리셋 저장",
+            "presets": "프리셋"
         },
         "encPrint": {
             "pcsAllies": "PC/아군"
@@ -157,6 +158,16 @@
         },
         "npcFeatures": {
             "saveConfig": "설정 저장"
+        },
+        "pageContent": {
+            "palette": "팔레트",
+            "deleteItemConfirm": "이 항목을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+        },
+        "combatant": {
+            "clickToEdit": "편집하려면 클릭하세요."
+        },
+        "encounterIndex": {
+            "addFolder": "폴더 추가"
         }
     },
     "language": {
