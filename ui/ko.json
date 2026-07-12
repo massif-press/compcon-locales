@@ -93,7 +93,7 @@
         "weapon": "무기",
         "frame": "프레임",
         "help": "도움말",
-        "cloudAccount": "계정 삭제",
+        "cloudAccount": "",
         "npcs": "NPC",
         "overcharge": "과부하",
         "player": "플레이어",
@@ -102,9 +102,11 @@
         "created": "생성됨",
         "detail": "상세",
         "effect": "효과",
-        "lcpDirectory": "디렉터리",
+        "lcpDirectory": "LCP 디렉터리",
         "updateAll": "모두 업데이트",
-        "clearAllData": "데이터 지우기"
+        "clearAllData": "모든 데이터 지우기",
+        "licenses": "라이선스",
+        "customItemName": "커스텀 아이템 이름"
     },
     "gm": {
         "fields": {
@@ -113,7 +115,9 @@
         "campaign": {
             "patch": "패치",
             "jsonFile": "JSON 파일",
-            "latestVersion": "최신 버전"
+            "latestVersion": "최신 버전",
+            "major": "주요",
+            "minor": "부차"
         }
     },
     "language": {
@@ -200,7 +204,7 @@
             "frameSuffix": "{type} 프레임"
         },
         "campaign": {
-            "recommendedLicenseLevel": "권장 라이센스 레벨",
+            "recommendedLicenseLevel": "권장 라이선스 레벨",
             "sortByTitle": "제목에 따라 정렬",
             "addCampaign": "캠페인 추가"
         },
@@ -226,7 +230,7 @@
             "refreshContent": "새로 고침"
         },
         "roster": {
-            "newPilot": "새 플롯"
+            "newPilot": "새 파일럿"
         },
         "settings": {
             "importData": "데이터 가져오기"
@@ -235,8 +239,8 @@
             "importAll": "모두 가져오기"
         },
         "nav": {
-            "pilotManagement": "색상 관리",
-            "achievements": "성취",
+            "pilotManagement": "파일럿 관리",
+            "achievements": "업적",
             "help": "도움말"
         },
         "help": {
@@ -244,7 +248,10 @@
             "reportBug": "버그 신고"
         },
         "achievements": {
-            "common": "공통"
+            "common": "일반",
+            "legendary": "전설",
+            "locked": "잠김",
+            "rarity": "희귀도"
         },
         "settingsPage": {
             "theme": "테마",
@@ -267,7 +274,7 @@
             "recentSearches": "최근 검색"
         },
         "achievementItem": {
-            "unlockedLabel": "잠금 해제됨"
+            "unlockedLabel": "해금됨"
         },
         "titles": {
             "latestVersion": "최신 버전",
@@ -301,7 +308,7 @@
     "ui": {
         "fields": {
             "size": "크기",
-            "license": "라이센스"
+            "license": "라이선스"
         },
         "pwa": {
             "updateAvailable": "@:{'common.appName'}의 새로운 버전이 있습니다.",
