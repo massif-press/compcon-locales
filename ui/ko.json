@@ -216,6 +216,15 @@
         },
         "roster": {
             "newPilot": "새 플롯"
+        },
+        "settings": {
+            "importData": "데이터 가져오기"
+        },
+        "v2Import": {
+            "importAll": "모두 가져오기"
+        },
+        "nav": {
+            "pilotManagement": "색상 관리"
         }
     },
     "stats": {
