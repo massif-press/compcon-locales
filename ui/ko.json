@@ -114,7 +114,8 @@
         "overview": "개요",
         "syncNow": "지금 동기화",
         "alert": "경고",
-        "ok": "OK"
+        "ok": "OK",
+        "tables": "굴림표"
     },
     "gm": {
         "fields": {
@@ -129,15 +130,33 @@
         },
         "filter": {
             "filters": "필터",
-            "showAll": "모두 보기",
+            "showAll": "모두 보이기",
             "hideAll": "모두 숨기기",
             "clearAllFilters": "필터 비우기"
         },
         "noItem": {
-            "noItemSelected": "선택한 항목 없음"
+            "noItemSelected": "선택한 아이템 없음"
         },
         "narrative": {
-            "clocks": "클럭"
+            "clocks": "시계"
+        },
+        "sitrep": {
+            "myPresets": "내 프리셋",
+            "savePreset": "프리셋 저장"
+        },
+        "encPrint": {
+            "pcsAllies": "PC/아군"
+        },
+        "npcTemplate": {
+            "noTemplates": "템플릿 없음",
+            "editTemplates": "NPC 템플릿 편집",
+            "selectNpcTemplate": "NPC 템플릿 선택"
+        },
+        "npcBuilder": {
+            "templates": "템플릿"
+        },
+        "npcFeatures": {
+            "saveConfig": "설정 저장"
         }
     },
     "language": {
