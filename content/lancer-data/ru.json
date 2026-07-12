@@ -66,5 +66,6 @@
     "glossary_SaveTarget.name": "Спас-порог",
     "tg_invade.name": "Взлом",
     "act_invade.name": "Взлом",
-    "glossary_TechAttack.description": "Вы добавляете ТЕХНИЧЕСКУЮ АТАКУ вашего меха как бонус, вместо ЗАКАЛКИ, когда ведете электронную войну."
+    "glossary_TechAttack.description": "При ведении радиоэлектронной борьбы вы добавляете значение тех. атаки вашего меха вместо значения закалки",
+    "glossary_SystemPoints.name": "Пункты систем"
 }
