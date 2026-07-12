@@ -53,5 +53,17 @@
     "glossary_Threat.name": "Досягаемость",
     "glossary_Range.name": "Дальность",
     "pbg_criminal.name": "Преступник",
-    "tg_shield.name": "Щит"
+    "tg_shield.name": "Щит",
+    "glossary_Damage.name": "Урон",
+    "glossary_EDefense.name": "Тех. защита",
+    "glossary_Size.name": "Размер",
+    "glossary_Line.name": "Линия",
+    "glossary_Cone.name": "Конус",
+    "glossary_Blast.name": "Взрыв",
+    "glossary_Burst.name": "Импульс",
+    "act_jockey.name": "Абордаж",
+    "tg_grenade.name": "Граната",
+    "glossary_SaveTarget.name": "Спас-порог",
+    "tg_invade.name": "Взлом",
+    "act_invade.name": "Взлом"
 }
