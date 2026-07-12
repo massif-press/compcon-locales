@@ -153,7 +153,7 @@
         "limitedBonus": "Доп. заряды Расходуемых систем",
         "systemPoints": "Пункты систем",
         "repairs": "Ремонт",
-        "contentLabel": "Содержимое",
+        "contentLabel": "Контент",
         "deleteItemsPermanently": "Удалить эти элементы навсегда",
         "item": "Элемент",
         "core": "Ключевая способность",
@@ -205,7 +205,8 @@
         "newEnvironment": "Новая обстановка",
         "newEnvironmentDescription": "Новый тип обстановки",
         "subtitles": {
-            "aStandardEnvironmentWithNoSpecial": "Стандартная обстановка без дополнительных факторов, влияющих на бой"
+            "aStandardEnvironmentWithNoSpecial": "Стандартная обстановка без дополнительных факторов, влияющих на бой",
+            "aSimpleAffairWithTwoSides": "Обычная схватка: стороны сражаются до тех пор, пока участники с одной из них не будут сломлены, либо уничтожены."
         },
         "titles": {
             "titlePage": "Заглавная страница",
@@ -448,7 +449,7 @@
             "communityContentTitle": "Контент-паки от сообщества @:{'common.gameName'}",
             "content": "Содержимое",
             "developmentBlog": "блог разработки",
-            "communityContent": "Контент Сообщества @:{'common.gameName'}"
+            "communityContent": "Материалы от фанатского сообщества @:{'common.gameName'}"
         },
         "packConfig": {
             "createConfig": "Создать новую конфигурацию",
@@ -657,7 +658,8 @@
             "lcp": "Контент-паки",
             "type": "Тип",
             "missing": "Не найдено",
-            "never": "Никогда"
+            "never": "Никогда",
+            "backedUp": "Сделана резервная копия"
         },
         "fields": {
             "interV3Default": "Inter (используется в v3 по умолчанию)",
@@ -673,7 +675,7 @@
             "readyForImport": "Элемент можно импортировать",
             "v2BackupText": "{count} столкновение сохранено в раздел Импорт формата v2 для последующего импорта. | {count} столкновений сохранено в раздел Импорт формата v2 для последующего импорта.",
             "stagedItems": "Элементы, запланированные для импорта",
-            "v2BackupTitle": "Импорт резервной копии v2"
+            "v2BackupTitle": "Импортировано в раздел \"Резервные копии v2\""
         },
         "campaign": {
             "jsonFile": "JSON-файл",
@@ -693,13 +695,24 @@
             "saveLocal": "Добавить в локальную подборку",
             "minor": "Минорная версия",
             "deletePageConfirm": "Вы уверены что хотите удалить {type} \"{title}\"? Это действие нельзя отменить.",
-            "permanentDeletion": "Безвозвратно удалить"
+            "permanentDeletion": "Безвозвратное удаление",
+            "versionLabel": "вер. {version}",
+            "deletePermanently": "Безвозвратно удалить кампанию",
+            "exportCampaign": "Экспорт кампании",
+            "releaseFor": "Релиз для",
+            "selectEncounter": "Выбор столкновения",
+            "deleteWarn1": "Эта кампания будет {strong}. Указанное действие нельзя отменить. Если вы уверены, что хотите удалить,",
+            "deleteWarn2": "напишите название кампании в текстовое поле ниже и нажмите {confirm}."
         },
         "labels": {
             "labels": "Метки",
             "label": "Метка",
             "addLabel": "Добавить метку",
-            "sortAlphabetically": "Сортировать по алфавиту"
+            "sortAlphabetically": "Сортировать по алфавиту",
+            "valueOptional": "Значение (опционально)",
+            "sortByUsage": "Сортировать по частоте использования",
+            "noLabelsAvailable": "Отсутствуют доступные отметки",
+            "noLabels": "Нет отметок"
         },
         "stats": {
             "custom": "Пользовательский",
@@ -715,7 +728,8 @@
         },
         "folder": {
             "setFolder": "Задать папку",
-            "collectionFolder": "Папка подборок"
+            "collectionFolder": "Папка подборок",
+            "noFolder": "Нет папки"
         },
         "filter": {
             "filters": "Фильтры",
@@ -728,17 +742,22 @@
         },
         "overview": {
             "addContact": "Добавить контакт",
-            "setCoverImage": "Задать изображение для обложки"
+            "setCoverImage": "Задать изображение для обложки",
+            "recommendedFor": "Рекомендуется для"
         },
         "npcFeatures": {
-            "saveConfig": "Сохранить настройки"
+            "saveConfig": "Сохранить настройки",
+            "noFeatures": "Особенности персонажа ведущего отсутствуют"
         },
         "eidolonPrint": {
-            "layer": "Слой"
+            "layer": "Слой",
+            "classLabel": "Класс {class}",
+            "persistentTraits": "Постоянные черты",
+            "newShards": "Новые осколки: {n}"
         },
         "npcEditor": {
             "statblock": "Статблок",
-            "v2Export": "Экспорт"
+            "v2Export": "Экспорт в формате v2"
         },
         "fields": {
             "authors": "Автор(ы)",
@@ -762,17 +781,25 @@
             "neutral": "Нейтральные",
             "mustBeAnItchioUrl": "Для настройки автоматического управления в @:{'common.appName'} необходимо наличие ссылки на страницу на itch.io",
             "selectDataFile": "Выбор файла",
-            "moveIntoSection": "Переместить в подборку",
-            "encounter": "Столкновения"
+            "moveIntoSection": "Переместить в раздел",
+            "encounter": "Столкновение",
+            "extraction": "Извлечение",
+            "allowDuplicates": "Разрешить дубликаты"
         },
         "pageContent": {
             "quote": "Цитата",
             "deleteItemConfirm": "Вы уверены что хотите это удалить? Это действие нельзя отменить.",
             "block": "Блок",
-            "outlined": "",
+            "outlined": "Эскиз",
             "paletteColorsHelp": "Цвета {strong} меняются в зависимости от выбранной пользователем темы @:{'common.appName'}",
             "themeColorsHelp": "Цвета меняются в зависимости от выбранной пользователем темы @:{'common.appName'}",
-            "palette": "Палитра"
+            "palette": "Палитра",
+            "h3": "H3",
+            "noImage": "Нет изображения",
+            "h1": "H1",
+            "h2": "H2",
+            "h4": "H4",
+            "hideTitle": "Скрыть заголовок"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -792,18 +819,24 @@
         "sitrep": {
             "savePreset": "Сохранить шаблон",
             "presets": "Шаблоны",
-            "modifiedWarning": "Указанная обстановка была изменена. Загрузка нового шаблона приведёт к сбросу изменений. Вы уверены, что хотите продолжить?"
+            "modifiedWarning": "Указанная обстановка была изменена. Загрузка нового шаблона приведёт к сбросу изменений. Вы уверены, что хотите продолжить?",
+            "myPresets": "Мои шаблоны"
         },
         "encounterIndex": {
-            "addFolder": "Добавить папку"
+            "addFolder": "Добавить папку",
+            "addNew": "Добавить новое столкновение"
         },
         "npcBuilder": {
-            "templates": "Шаблоны"
+            "templates": "Шаблоны",
+            "setClass": "Выбрать класс персонажа ведущего",
+            "npcTag": "Метка персонажа ведущего"
         },
         "eidolon": {
             "noLayers": "слои отсутствуют",
             "layers": "Слои",
-            "addLayer": "добавить слой"
+            "addLayer": "добавить слой",
+            "addRandomLayer": "Добавить случайно выбранный слой",
+            "layerDescription": "Описание слоя"
         },
         "itemCard": {
             "tierShort": "О{tier}"
@@ -837,15 +870,21 @@
             "npcRoster": "Ростер персонажей ведущего",
             "campaignEditor": "Редактор кампаний",
             "encounterEditor": "Редактор столкновений",
-            "narrativeElement": "Нарративные элементы",
-            "eidolons": "Эйдолон",
-            "setNpcFeatures": "Особенности персонажа ведущего",
+            "narrativeElement": "Нарративный элемент",
+            "eidolons": "Эйдолоны",
+            "setNpcFeatures": "Выбрать особенности персонажа ведущего",
             "alias": "Псевдоним",
             "title": "Название",
             "pronouns": "Местоимения",
             "class": "Класс",
             "layers": "Слои",
-            "templates": "Шаблоны"
+            "templates": "Шаблоны",
+            "addSubsection": "Добавить подраздел",
+            "addMission": "Добавить миссию",
+            "addDowntime": "Добавить простой",
+            "textSection": "Текстовый раздел",
+            "gmLabels": "Метки ведущего",
+            "tag": "Метка"
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Изменить опасность и скорректировать изменённые характеристики согласно стандартным изменениям.",
@@ -854,7 +893,8 @@
         },
         "encounterEditor": {
             "additionalNotes": "Дополнительные примечания",
-            "editorHeading": "Редактор столкновений"
+            "editorHeading": "Редактор столкновений",
+            "details": "Детальная информация о столкновении"
         },
         "npcTemplate": {
             "noTemplates": "Шаблоны отсутствуют",
@@ -865,7 +905,10 @@
             "assignTemplate": "Присвоить шаблон"
         },
         "npcFeature": {
-            "base": "Базовые"
+            "base": "Базовые",
+            "allAvailableFeatures": "Все доступные особенности",
+            "selectedClass": "Выбранный класс",
+            "otherFeatures": "Иные особенности"
         },
         "encounter": {
             "combatantAddedTitle": "Добавлен(а) {name}"
@@ -877,14 +920,17 @@
             "noncharacterObjectsSuchAsTerrain": "Объекты, не являющиеся персонажами (например, особенности ландшафта), которые могут отслеживаться в рамках боев."
         },
         "encPrint": {
-            "atLeastPcs": "При {count} или большем количестве персонажей игроков"
+            "atLeastPcs": "При {count} или большем количестве персонажей игроков",
+            "npcTracking": "Отслеживание персонажей ведущего"
         },
         "narrative": {
             "viewCollections": "Просмотр подборок",
-            "itemTypePlural": "({type})"
+            "itemTypePlural": "({type})",
+            "additionalDetail": "Дополнительные детали",
+            "clocks": "Счётчики"
         },
         "featurePrint": {
-            "weaponAttacks": ""
+            "weaponAttacks": "Это оружие может одновременно совершать {count} атак за раз."
         },
         "editorFooter": {
             "downloadRemote": "Загрузить все изменения, связанные с этим элементом из облака, перезаписав локальные данные."
@@ -905,13 +951,31 @@
             "dragToReorder": "Перетащите, чтобы изменить порядок"
         },
         "sectionEditor": {
-            "confirmDelete": "Вы уверены что хотите удалить {type} \"{title}\"? Это действие нельзя отменить."
+            "confirmDelete": "Вы уверены что хотите удалить текстовый элемент с названием \"{title}\"? Это действие нельзя отменить."
         },
         "organizer": {
-            "itemCount": "{0} элементов"
+            "itemCount": "{n} элементов"
         },
         "encounterContent": {
             "map": "Карта"
+        },
+        "labelDialog": {
+            "orOverwrite": "или перезаписать"
+        },
+        "narrativeLink": {
+            "noEncounterSelected": "Столкновения не выбраны",
+            "setNarrativeElement": "Настроить нарративный элемент",
+            "setEncounter": "Настроить столкновение"
+        },
+        "subtitles": {
+            "setItemFolder": "Настроить папку для элементов"
+        },
+        "layerSelector": {
+            "noData": "Данные об эйдолонах не найдены!",
+            "linkText": "No Room for a Wallflower"
+        },
+        "eidolonData": {
+            "noData": "Данные для редактора эйдолонов не найдены!"
         }
     },
     "active": {
@@ -936,16 +1000,19 @@
             "nominal": "Номинальный",
             "halfDamage": "Половина урона",
             "condition_status": "Состояние",
-            "destroyed": "Уничтожен"
+            "destroyed": "Уничтожен",
+            "currentlySelected": "Выбрано"
         },
         "runnerHeader": {
             "autosave": "Автосохранение",
             "lastSaved": "Последнее сохранение",
             "never": "Никогда",
-            "manualSave": "Ручное сохранение"
+            "manualSave": "Ручное сохранение",
+            "layoutOptions": "Параметры макета"
         },
         "leaveDialog": {
-            "exitWithoutSaving": "Выйти без сохранения"
+            "exitWithoutSaving": "Выйти без сохранения",
+            "prompt": "Вы хотите сохранить столкновение перед выходом?"
         },
         "actionChips": {
             "protocol": "Протокол",
@@ -958,7 +1025,12 @@
             "sortGm": "Сортировать по стобцу \"Ведущий\"",
             "gm": "Ведущий",
             "gmOffline": "Ведущий не в сети",
-            "nextSession": "Следующая сессия"
+            "nextSession": "Следующая сессия",
+            "sortOnline": "Сортировать по статусу \"в сети\"",
+            "sortLastOnline": "Сортировать по \"последнему появлению онлайн\"",
+            "sortNextSession": "Сортировать по дате следующей сессии",
+            "lastOnline": "Последнее появление онлайн",
+            "archivedTables": "Заархивированные столы"
         },
         "diceRoller": {
             "sessionHistory": "История сессий",
@@ -974,12 +1046,19 @@
             "engineeringCheck": "Проверка навыка (Инженерное дело)"
         },
         "damageMenu": {
-            "totalDamage": "Общий урон",
-            "applyClose": "Применить и закрыть"
+            "totalDamage": "Суммарный урон",
+            "applyClose": "Применить и закрыть",
+            "takeDamage": "Получить урон",
+            "incomingValue": "Значение получаемого урона",
+            "armorPiercing": "Бронебойный",
+            "irreducible": "Неснижаемый",
+            "armorN": "Броня {n}"
         },
         "telemetry": {
             "telemetry": "Сбор данных",
-            "lifetime": "за всю карьеру"
+            "lifetime": "за всю карьеру",
+            "devNote": "Указанная функция всё ещё в разработке. Дополнительные данные телеметрии станут доступны в обозримом будущем. {emphasis}",
+            "collectedNote": "Данные телеметрии собираются в конце каждого раунда"
         },
         "statblockExport": {
             "include": "// Включить",
@@ -1004,7 +1083,7 @@
             "risky": "Рискованный",
             "wins": "Побеждает",
             "loses": "Проигрывает",
-            "contested": "Оспариваемая"
+            "contested": "Встречная"
         },
         "eidolon": {
             "activeLayer": "Активный слой",
@@ -1023,7 +1102,10 @@
         },
         "trackable": {
             "ready": "Готов",
-            "corePower": "Заряд ядра"
+            "corePower": "Заряд ядра",
+            "clearMechCore": "Пометить использование для этого меха",
+            "restoreMechCore": "Восстановить для этого меха",
+            "corePowerQ": "заряд ключевой способности?"
         },
         "dmgCond": {
             "resistance": "Сопротивление",
@@ -1038,7 +1120,8 @@
             "current": "Текущий",
             "overrides": "Замена",
             "max": "Максимум",
-            "editReinforcements": "Редактировать подкрепления"
+            "editReinforcements": "Редактировать подкрепления",
+            "removeFromEncounter": "Убрать {name} из столкновения"
         },
         "panelBase": {
             "counters": "Счётчики",
@@ -1050,7 +1133,8 @@
             "resistances": "Сопротивление урону",
             "softCover": "Частичное укрытие",
             "hardCover": "Полное укрытие",
-            "markActivation": "Завершить ваш ход?"
+            "markActivation": "Завершить ваш ход?",
+            "endTurn": "Это закончит ход {name}."
         },
         "equipCmd": {
             "reload": "Перезарядить"
@@ -1146,7 +1230,8 @@
         "pcSheet": {
             "saveFailedText": "Не удалось сохранить лист персонажа: {callsign}",
             "activeMechChangedTitle": "Активный мех изменён",
-            "activeMechChangedText": "Активный мех изменён на {mechName}. Состояние листа персонажа было сброшено."
+            "activeMechChangedText": "Активный мех изменён на {mechName}. Состояние листа персонажа было сброшено.",
+            "saveSuccessfulText": "Сохранённый лист персонажа: {callsign}, раунд {round}"
         },
         "stats": {
             "hitPoints": "Пункты здоровья"
@@ -1166,7 +1251,8 @@
             "removalSuccess": "Успешное удаление",
             "addedTitle": "{callsign} добавлен в столкновение",
             "activeLoadout": "Активная выкладка",
-            "mechStats": "Характеристики меха"
+            "mechStats": "Характеристики меха",
+            "pilotNoMech": "Пилот будет загружен без меха"
         },
         "npcActions": {
             "npcDisengagedTitle": "Персонаж ведущего отошёл",
@@ -1186,11 +1272,16 @@
         },
         "encInfo": {
             "reinforcements": "Подкрепления",
-            "turnN": "Ход {n}"
+            "turnN": "Ход {n}",
+            "noReinforcements": "Подкрепления для указанного столкновения отсутствуют.",
+            "freeDeployment": "Свободное развёртывание"
         },
         "refTag": {
             "noTagsFound": "Метки не найдены",
-            "allTags": "Все метки"
+            "allTags": "Все метки",
+            "yourTags": "Ваши метки ({name})",
+            "relevantTags": "Релевантные метки ({name})",
+            "relevantTagsEncounter": "Релевантные метки (Столкновение)"
         },
         "encMgr": {
             "combatLogs": "Хроника столкновений",
@@ -1203,7 +1294,10 @@
             "afterActionReport": "Отчёт о результатах боя",
             "copyReport": "Скопировать отчёт",
             "logsTelemetry": "Логи и телеметрия",
-            "deleteArchivePrompt": "Удалить архив?"
+            "deleteArchivePrompt": "Удалить архив?",
+            "battlefieldTelemetry": "Боевая телеметрия",
+            "devNoteReport": "Указанная функция всё ещё в разработке. Отчёты о боевых действиях будут расширены с последующими обновлениями программы.",
+            "devNoteLogs": "Указанная функция всё ещё в разработке. Дополнительные данные и опции для экспорта станут доступны с последующими обновлениями программы."
         },
         "toolPalette": {
             "combatQuickRef": "Быстрая справка по боевой части",
@@ -1237,7 +1331,10 @@
             "placeholderN": "Пилот-заглушка #{n}"
         },
         "encSummary": {
-            "turnN": "(Ход {n})"
+            "turnN": "(Ход {n})",
+            "requiresPilot": "Для начала симуляции столкновения требуется хотя бы один пилот.",
+            "createAndLaunch": "Создать и запустить столкновение",
+            "createReturnLibrary": "Создать и вернуться в библиотеку"
         },
         "sheet": {
             "newCharacterSheet": "Новый лист персонажа"
@@ -1246,7 +1343,8 @@
             "archivedSheets": "Листы в архиве ({n})",
             "kia": "Убит в бою",
             "featureInDev": "Функция в разработке (v3.1)",
-            "savePilotHistory": "Сохранить историю пилота"
+            "savePilotHistory": "Сохранить историю пилота",
+            "encounterHash": "столкновение #"
         },
         "newSheet": {
             "llLevel": "УЛ{n}",
@@ -1263,7 +1361,8 @@
             "addNpcFull": "Добавить персонажа ведущего"
         },
         "gmNotes": {
-            "addClock": "Добавить счётчик"
+            "addClock": "Добавить счётчик",
+            "encounterClocks": "Счётчики в столкновении"
         },
         "tableIndex": {
             "otherTables": "Другие столы",
@@ -1292,10 +1391,13 @@
             "forceDeploy": "Принудительное развёртывание",
             "resistanceLine": "{condition} к {type} урону",
             "reactorDestroyed": "Реактор уничтожен",
-            "activationsRemaining": "В текущем раунде осталось {n} активаций"
+            "activationsRemaining": "В текущем раунде осталось {n} активаций",
+            "coverLabel": "{cover} укрытие",
+            "selfDestructInitiated": "Запущен процедура самоуничтожения"
         },
         "pcNotes": {
-            "sessionNotes": "Заметки по игровой сессии"
+            "sessionNotes": "Заметки по игровой сессии",
+            "playerNotes": "Заметки игрока"
         },
         "jockey": {
             "jockey": "Абордаж"
@@ -1305,15 +1407,41 @@
             "featureInDevelopmentV31": "Функция в разработке (v3.1)"
         },
         "newEnc": {
-            "title": "Новое активное столкновение (сохранено на устройстве)"
+            "title": "Новое активное столкновение (сохранено на устройстве)",
+            "encounterData": "Данные столкновения"
         },
         "pcOptions": {
-            "stagedImport": "Запланированный импорт"
+            "stagedImport": "Запланированный импорт",
+            "changeActiveMech": "Изменить активного меха",
+            "applySave": "Применить и сохранить"
         },
         "initiative": {
             "reinforcementsN": "подкрепления ({n})",
             "destroyedN": "Уничтожено ({n})",
             "statusGroupN": "{status} ({n})"
+        },
+        "endEnc": {
+            "endEncounter": "Завершить столкновение",
+            "confirmEndEncounter": "Подтвердить завершение столкновения"
+        },
+        "endRound": {
+            "endRound": "Завершить раунд",
+            "confirmEndRound": "Подтвердить завершение раунда"
+        },
+        "pcEndRound": {
+            "forfeitActions": "При завершении раунда вы потеряете все неиспользованные действия.",
+            "nextRound": "Следующий раунд",
+            "endsOnTurn": "{when} вашего хода"
+        },
+        "pcDeploy": {
+            "deployedEquipment": "Развёрнутое снаряжение",
+            "noSelected": "Снаряжение не выбрано."
+        },
+        "pilotRunner": {
+            "loading": "Загрузка листа персонажа…"
+        },
+        "invade": {
+            "invade": "Взлом"
         }
     },
     "mainMenu": {
@@ -1653,7 +1781,15 @@
             "campaigns": "Кампании",
             "keepAll": "Сохранить все",
             "last30": "Последние 30",
-            "mostRecentOnly": "Только последние"
+            "mostRecentOnly": "Только последние",
+            "encounterData": "Данные столкновения",
+            "narrativeData": "Нарративные данные",
+            "onAppStart": "При запуске приложения",
+            "onOpenClose": "При запуске и выключении приложения",
+            "every30Minutes": "Каждые 30 минут",
+            "every60Minutes": "Каждые 60 минут",
+            "pilotData": "Данные о пилотах",
+            "npcData": "Данные персонажей ведущего"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
@@ -1684,7 +1820,9 @@
             "paidLcpContentRequiresA": "Для автоматического обновления платного контента LCP привязать покупки, совершенные на itch.io. В настоящее время поддерживаются только LCP, опубликованные Massif.",
             "theseOptionsControlHowAnd": "Эти параметры определяют, как и когда ваши данные синхронизируются с облаком. По умолчанию синхронизация данных осуществляется только вручную. В отличие от других пользовательских настроек, эти параметры хранятся в облаке и применяются ко всем используемым вами устройствам.",
             "controlsWhichDataTypesAre": "Управляет тем, какие типы данных синхронизируются с облаком.",
-            "signInFailed": "Не удалось авторизоваться"
+            "signInFailed": "Не удалось авторизоваться",
+            "yourUniqueAccountIdThis": "Уникальный ID вашего аккаунта. Используется для идентификации в облаке и может запрашиваться в целях исправления неполадок.",
+            "usernameOptional": "Это поле <b>опционально</b> для заполнения: вы можете задать пользовательское имя для своего аккаунта. Такое имя <b>будет</b> отображаться для других пользователей в активном режиме и при обмене данными."
         },
         "codeEntry": {
             "tooltip": "Введите код разблокировки, чтобы получить дополнительные возможности для аккаунта, либо материалы в формате LCP.",
@@ -1733,7 +1871,8 @@
         "subtitles": {
             "permanentlyRemovesItemsFlaggedFor": "Навсегда удаляет элементы, помеченные для удаления.",
             "pushesAllLocalDataTo": "Загружает все локальные данные в облако, переставляя дату и время выгрузки на текущие. Используйте после восстановления или импорта.",
-            "removeTheRemoteLinkAnd": "Убрать ссылку на источник в облаке и сохранить данные на устройстве."
+            "removeTheRemoteLinkAnd": "Убрать ссылку на источник в облаке и сохранить данные на устройстве.",
+            "mergeAndSyncThisItem": "Немедленно провести слияние и синхронизацию указанного элемента."
         },
         "a11y": {
             "signIn": "Авторизоваться",
@@ -1884,7 +2023,8 @@
             "selectionsAvailable": "Доступны новые способности уз",
             "noBondPowerSelectionsRemaining": "Не осталось способностей уз для выбора",
             "noBondPowersAssigned": "Способности уз не выбраны",
-            "majorIdeals": "Основные идеалы"
+            "majorIdeals": "Основные идеалы",
+            "addExoticEquipment": "Добавить экзотическое снаряжение"
         },
         "print": {
             "pilotHP": "ПЗ пилота",
@@ -1922,7 +2062,21 @@
             "capacityParen": "({n} зарядов)",
             "slashesLl": "// УЛ",
             "missionLog": "Лог миссии",
-            "cont": "(ПРОДОЛ.)"
+            "cont": "(ПРОДОЛ.)",
+            "uses": "ЗАРЯДОВ",
+            "1d3": "+1к3",
+            "1d6": "+1к6",
+            "1d64": "+1к6+4",
+            "majorIDEAL": "Основной идеал",
+            "burdens": "Травмы",
+            "veteranPOWER2": "(Ветеранская способность)",
+            "downtimeREFERENCE": "Справочник по простою",
+            "skillTRIGGERDETAIL": "Детальное описание навыка пилота",
+            "onMISS": "При промахе",
+            "appliedMOD": "//Применяемая модификация",
+            "grit": "ЗАКАЛКА",
+            "mechSheetOptions": "Опции для листа меха",
+            "pageBreak": "Разрыв страницы"
         },
         "roster": {
             "history": "История отряда",
@@ -1958,8 +2112,10 @@
             "startingLicenseLevel": "Начальный уровень лицензии",
             "maximumStress": "Максимальное значение стресса",
             "pilotStress": "стресс пилота",
-            "deletePilots": "Удалить пилота",
-            "project": "Проект"
+            "deletePilots": "Удалить пилотов",
+            "project": "Проект",
+            "showAllFrames": "Показать все модели",
+            "setMaximumUses": "Установить максимальное количество использований"
         },
         "titles": {
             "selectPilotBackground": "Выбрать происхождение пилота",
@@ -2035,7 +2191,17 @@
             "range": "Дальность",
             "energy": "Энергетический",
             "explosive": "Взрывной",
-            "system": "Система"
+            "system": "Система",
+            "damage": "Урон",
+            "uses": "Заряды",
+            "biography": "Биография",
+            "bond": "Узы",
+            "skills": "Навыки",
+            "levelUp": "Повышение уровня",
+            "newPilotWizard": "Ассистент по созданию новых пилотов",
+            "melee": "Холодное",
+            "eDefense": "Тех. защита",
+            "techatk": "Тех. атака"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
@@ -2096,7 +2262,9 @@
             "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Санкционирование снаряжения из арсенала GMS: пилот/личное оружие::S0 - S3(LTD)",
             "noMODINSTALLED": "Модификаций не установлено",
             "appliedTO": "Применяется к",
-            "reorderSystems": "Изменить порядок отображения систем"
+            "reorderSystems": "Изменить порядок отображения систем",
+            "mechSYSTEMS": "Системы меха",
+            "integratedEquipment": "Интегрированное снаряжение"
         },
         "selectors": {
             "startWith": "Начать с",
@@ -2107,7 +2275,16 @@
             "download": "Скачать",
             "yourAbilityTo": "Ваше умение",
             "equipment": "Снаряжение",
-            "addReserve": "Добавить резерв"
+            "addReserve": "Добавить резерв",
+            "coreBonusSelectionComplete": "Выбор ключевых улучшений завершён",
+            "coreBonusAvailable": "доступно {count} {mf} ключевое улучшение | доступно {count} {mf} ключевых улучшений",
+            "exotic": "Экзотическое",
+            "licenseSelectionComplete": "Выбор лицензий завершён",
+            "resetMechSkills": "Сброс значений навыков пилотирования",
+            "addDowntimeProject": "Добавить проект на время простоя",
+            "skillSelectionComplete": "Выбор навыков завершён",
+            "talentSelectionComplete": "Выбор талантов завершён",
+            "influence": "Влияние"
         },
         "link": {
             "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позднее",
@@ -2163,7 +2340,11 @@
             "pilotLicensesMechSkillsCore": "Лицензии, навыки пилотирование, ключевые улучшения и таланты пилота"
         },
         "a11y": {
-            "dragToReorder": "Перетащите, чтобы изменить порядок"
+            "dragToReorder": "Перетащите, чтобы изменить порядок",
+            "dragToReorderGroup": "Перетащите, чтобы изменить порядок в отряде"
+        },
+        "misc": {
+            "skipSTEP": "Пропустить шаг"
         }
     },
     "ui": {
@@ -2175,12 +2356,26 @@
             "weaponAttacks": "Это оружие позволяет совершать {count} атак одновременно. Атаки могут быть совершены против одной и той же цели, либо разных.",
             "suggestedSkills": "Рекомендуемые навыки",
             "modifies": "Влияет на",
-            "modification": "Время изменения"
+            "modification": "Время изменения",
+            "variantFrame": "Вариант модели",
+            "availableMounts": "Доступные оружейные крепления",
+            "profileActions": "Доступные для профиля действия",
+            "classOptionalFeatures": "Опциональные особенности класса",
+            "controlZone": "Контроль территории"
         },
         "tooltips": {
             "resetCounter": "Сброс счётчика",
             "itemFilters": "Фильтры предметов",
-            "deleteCounter": "Удалить счётчик"
+            "deleteCounter": "Удалить счётчик",
+            "addAccuracy": "Добавить точность",
+            "addDifficulty": "Добавить помеху",
+            "addCoinFlipD2": "Добавить бросок монетки (к2)",
+            "addD4Roll": "Добавить бросок к4",
+            "addD6Roll": "Добавить бросок к6",
+            "addD8Roll": "Добавить бросок к8",
+            "addD10Roll": "Добавить бросок к10",
+            "addD12Roll": "Добавить бросок к12",
+            "addD20Roll": "Добавить бросок к20"
         },
         "fields": {
             "linkImage": "Ссылка на изображение",
@@ -2219,7 +2414,8 @@
             "relationship": "Отношения",
             "metric": "Метрический",
             "itemType": "Тип элемента",
-            "origin": "Источник"
+            "origin": "Источник",
+            "allItems": "Все элементы"
         },
         "image": {
             "upload": "Загрузить",
@@ -2276,8 +2472,19 @@
             "explosive": "Взрывной",
             "size": "Размер",
             "shards": "Осколки",
-            "totalDamage": "Общий урон",
-            "noCover": "Укрытие отсутствует"
+            "totalDamage": "Суммарный урон",
+            "noCover": "Укрытие отсутствует",
+            "eDefense": "Тех. защита",
+            "variableDamage": "Вариативный урон",
+            "softCover": "Частичное укрытие",
+            "hardCover": "Полное укрытие",
+            "line": "Линия",
+            "cone": "Конус",
+            "kinetic": "Кинетический",
+            "blast": "Взрыв",
+            "burst": "Импульс",
+            "areaOfEffect": "Урон по площади",
+            "saveTarget": "Спас-порог"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -2303,7 +2510,9 @@
         },
         "license": {
             "noRanks": "Отсутствуют ранги лицензии",
-            "allUnlocked": "Все ранги лицензии открыты"
+            "allUnlocked": "Все ранги лицензии открыты",
+            "prereqCumulative": "Указанная лицензия требует, по меньшей мере, {rank} суммарных уровней {source} лицензий",
+            "prereqSingle": "Указанная лицензия требует, по меньшей мере, одной иной {source} лицензии с рангом {rank} или выше"
         },
         "widget": {
             "noDescription": "Описание отсутствует.",
@@ -2315,7 +2524,10 @@
             "missingData": "Данные отсутствуют",
             "click": "Нажмите",
             "toClose": "Закрыть",
-            "versionLabel": "вер. {version}"
+            "versionLabel": "вер. {version}",
+            "selectedCount": "{n} выбрано",
+            "tap": "НАЖМИТЕ",
+            "selectDamageType": "Выберите тип урона"
         },
         "clock": {
             "deleteConfirm": "Вы уверены что хотите удалить этот счётчик? Это действие необратимо."
@@ -2324,7 +2536,8 @@
             "critical": "// Крит",
             "total": "Всего",
             "resetAll": "Сбросить все",
-            "clearAll": "Очистить всё"
+            "clearAll": "Очистить всё",
+            "noRoll": "Нет броска"
         },
         "pwa": {
             "updateNow": "Обновить сейчас",
@@ -2338,13 +2551,20 @@
             "greaterThan": "Больше чем",
             "savedConfigs": "Сохранённые профили",
             "lessThan": "Меньше, чем",
-            "spCost": "Стоимость (пункты систем)"
+            "spCost": "Стоимость (пункты систем)",
+            "setItemFilters": "Настроить фильтры элементов",
+            "noFilters": "Отсутствуют доступные фильтры"
         },
         "missing": {
             "gmHelp2": "Если вы приобрели физическое издание Lancer Core Book, но не получили инструкции по получению цифровой копии книги и связанных с ней материалов, включая данные о персонажах ведущего, пожалуйста, напишите Massif Press на {email}",
             "otherError": "@:{'common.appName'} столкнулся с ошибкой при загрузке указанного элемента.",
             "coreBookLink": "Страница @:{'common.gameName'}: Core Book на itch.io",
-            "activated": "активирован (а; о)"
+            "activated": "активирован (а; о)",
+            "missingContent": "Не найдены следующие материалы",
+            "hoverHelp": "Для {type} отсутствует необходимый LCP. Пока не будут загружены недостающие материалы, @:{'common.appName'} не сможет распознать указанный {type}.",
+            "npcHelp": "@:{'common.appName'} не может загрузить информацию о персонажах ведущего без установленного соответствующего контент-пака; прилагается к платной версии {pack} (для ведущего)",
+            "eidolonHelp": "Для использования эйдолонов необходим установленный контент-пак, доступный с {pack}",
+            "wallflowerPack": "No Room for a Wallflower Act 1"
         },
         "confirm": {
             "heading": "// Процесс прерван: требуется авторизация //"
@@ -2371,7 +2591,33 @@
             "clickClearBonus": "Нажмите, чтобы очистить значение дополнительного урона",
             "clickAddBonus": "Нажмите, чтобы добавить значение дополнительного урона",
             "resistanceType": "тип сопротивления урону",
-            "ifLabel": "ЕСЛИ"
+            "ifLabel": "ЕСЛИ",
+            "cannotActivateShort": "Невозможно активировать",
+            "insufficientActionsShort": "Не хватает пунктов действия",
+            "vs": "ПРОТИВ",
+            "clickToOverride": "Нажмите, чтобы принудительно перезаписать",
+            "criticalHit": "Критическое попадание",
+            "crit": "Крит",
+            "successfulSave": "Успешный спас-бросок",
+            "diceD": "к",
+            "cannotActivate": "Невозможно активировать.",
+            "heatSelf": "+{n} нагрева (себе)",
+            "mandatoryFields": "Оставшиеся обязательные к заполнению поля",
+            "alreadyActivated": "Уже активировано",
+            "fromOrigin": "От {name}",
+            "d20": "1к20",
+            "d20Plus": "1к20 +",
+            "noTarget": "Цель не выбрана",
+            "actionUsed": "Это действие уже было использовано.",
+            "passiveEffect": "Пассивный эффект",
+            "vsStat": "против {stat}",
+            "successfulAttack": "Успешная атака",
+            "failedAttack": "Неудавшаяся атака",
+            "reliableOnMiss": "БЕЗОТКАЗНОЕ {n} {type} применяется при промахе",
+            "reliableN": "Безотказное {n}",
+            "areaOfEffect": "Урон по площади",
+            "bonusDamageHalved": "Бонусный урон будет снижен наполовину (урон по площади)",
+            "overkillHeat": "+{n} нагрева (себе) [Избыточное]"
         },
         "table": {
             "previous": "предыдущие"
@@ -2382,7 +2628,9 @@
         "rollTable": {
             "step": "Шаг",
             "deleteConfirm": "Вы уверены что хотите удалить эту таблицу? Это действие нельзя отменить.",
-            "rebuild": "Пересобрать"
+            "rebuild": "Пересобрать",
+            "multipleOnes": "Несколько результатов, равных 1",
+            "d": "К"
         },
         "shareImport": {
             "itemShareCode": "Публичный код элемента",
@@ -2400,6 +2648,15 @@
             "bondPowers": "Способности уз",
             "veteranPower": "Ветеранские способности",
             "masterPower": "Исключительные способности"
+        },
+        "lcp": {
+            "downloadLcp": "Скачать LCP"
+        },
+        "relationship": {
+            "deleteConfirm": "Вы хотите удалить указанную связь? Это действие не может быть отменено."
+        },
+        "subtitles": {
+            "selectResult": "Выбор результата"
         }
     },
     "notify": {
@@ -2469,7 +2726,9 @@
             "convertedTitle": "Преобразование в локальные данные",
             "deletedPermanentlyTitle": "Элемент был безвозвратно удалён",
             "removedText": "Удалён {type} {name}.",
-            "bulkPartialText": "Не удалось удалить: {items}"
+            "bulkPartialText": "Не удалось удалить: {items}",
+            "bulkDeletedTitle": "{n} элемент удалён | {n} элементов удалено",
+            "restoredText": "Восстановлено {type} {name}."
         },
         "share": {
             "syncCompleteTitle": "Синхронизация завершена"
@@ -2495,7 +2754,7 @@
             "uploadedTitle": "Изображение загружено",
             "deletedTitle": "Изображение удалено",
             "deleteFailedTitle": "Не удалось удалить",
-            "deletedText": "Удален {itemType}{name}."
+            "deletedText": "Удален {type} {name}."
         },
         "link": {
             "copiedTitle": "Ссылка скопирована"
@@ -2510,8 +2769,8 @@
             "lcpUpdateErrorTitle": "Не удалось обновить LCP"
         },
         "compendium": {
-            "campaignUpdatedText": "Коллекция успешно обновлена",
-            "campaignUpdateFailedText": "Не удалось обновить Email"
+            "campaignUpdatedText": "Кампания успешно обновлена",
+            "campaignUpdateFailedText": "Не удалось обновить кампанию"
         }
     },
     "print": {
@@ -2561,7 +2820,7 @@
     "compendium": {
         "categories": {
             "manufacturers": "Производители",
-            "frames": "Шасси",
+            "frames": "Модели",
             "pilotBackground": "Происхождения пилотов",
             "npcTemplates": "Шаблоны персонажей ведущего",
             "mechWeapons": "Вооружение меха",
@@ -2570,7 +2829,8 @@
             "statusesConditions": "Статусы и состояния",
             "environments": "Обстановка",
             "sitreps": "Оперсводки",
-            "npcFeatures": "Особенности персонажа ведущего"
+            "npcFeatures": "Особенности персонажа ведущего",
+            "downtimeActions": "Действия простоя"
         },
         "reference": {
             "statuses": "Статусы",
@@ -2612,7 +2872,12 @@
             "recommendedForLine": "Рекомендуется для {players} игроков с уровнем лицензии {levels}",
             "addCampaign": "Добавить кампанию",
             "directoryComingSoon": "После выхода v3 здесь будет расположен каталог кампаний от Massif, а также созданных фанатами, поддерживающий возможность поиска. При входе в систему и привязке аккаунта itch.io вам будет доступен импорт кампаний из каталога. В противном случае вы будете перенаправлены на страницу на itch.io, где вы сможете приобрести и скачать кампанию.",
-            "developmentPreview": "Возможность создавать пользовательские кампании находится в стадии активной разработки; данный раздел останется недоступным вплоть до релиза версии v3.1. Предпросмотр нельзя использовать для тестирования кампаний, но вы можете ознакомиться с уже реализованными элементами данного раздела."
+            "developmentPreview": "Возможность создавать пользовательские кампании находится в стадии активной разработки; данный раздел останется недоступным вплоть до релиза версии v3.1. Предпросмотр нельзя использовать для тестирования кампаний, но вы можете ознакомиться с уже реализованными элементами данного раздела.",
+            "errNoCampaign": "Ошибка: не выбрана кампания для загрузки",
+            "recommendedPlayers": "Рекомендуемое количество игроков",
+            "sortBySuggestedPlayers": "Сортировать по рекомендуемому количеству игроков",
+            "removeConfirm": "Это приведет к удалению кампании из вашей подборки. Вы уверены?",
+            "existingNewer": "Существующая кампания имеет более новые данные, нежели импортированная версия."
         },
         "titles": {
             "reference": "Справка",
@@ -2646,14 +2911,34 @@
             "mechWeapons": "Вооружение меха",
             "icon": "Значок",
             "npcTemplates": "Шаблоны персонажей ведущего",
-            "eidolonLayers": "Слой эйдолона",
+            "eidolonLayers": "Слои эйдолона",
             "statusesConditions": "Статусы и состояния",
             "equipmentTags": "Метки снаряжения",
             "coreBonuses": "Ключевые улучшения",
-            "pilotBackgrounds": "Происхождения пилотов",
+            "pilotBackgrounds": "Варианты происхождения пилотов",
             "manufacturers": "Производители",
             "glossary": "Словарь",
-            "bonds": "Узы"
+            "bonds": "Узы",
+            "damage": "Урон",
+            "uses": "Заряды",
+            "eDefense": "Тех. защита",
+            "notYetImplemented": "В разработке",
+            "mechSystems": "Системы меха",
+            "skillTriggers": "Навыки пилота",
+            "npcClasses": "Классы персонажей ведущего",
+            "npcFeatures": "Особенности персонажа ведущего",
+            "frames": "Модели",
+            "downtimeActions": "Действия простоя",
+            "downtimeactions": "Действия простоя",
+            "techatk": "Тех. атака",
+            "referenceBasics": "Справочник: базовая информация",
+            "referenceCompCon": "Справочник: COMP/CON",
+            "referencePilots": "Справочник: пилоты",
+            "referenceMechs": "Справочник: мехи",
+            "referenceCombat": "Справочник: боевая часть игры",
+            "referenceNarrativePlay": "Справочник: нарративная часть игры",
+            "referenceErrata": "Справочник: исправления",
+            "referenceGlossary": "Справочник: словарь"
         },
         "search": {
             "resultCount": "{count} результат | {count} результатов"
@@ -2673,7 +2958,11 @@
             "frameSuffix": "Модель {type}"
         },
         "tooltips": {
-            "hitPoints": "Пункты здоровья"
+            "hitPoints": "Пункты здоровья",
+            "burstAreaOfEffect": "Тип урона по площади \"Импульс\"",
+            "blastAreaOfEffect": "Тип урона по площади \"Взрыв\"",
+            "lineAreaOfEffect": "Тип урона по площади \"Линия\"",
+            "coneAreaOfEffect": "Тип урона по площади \"Конус\""
         }
     },
     "enums": {
@@ -2735,27 +3024,58 @@
             "aux_aux": "Вспом/Вспом",
             "aux": "Вспомогательное",
             "main_aux": "Осн/Вспом",
-            "flex": "Адаптивное"
+            "flex": "Адаптивное",
+            "integrated": "Интегрированное"
         },
         "rangeType": {
             "range": "Дальность",
             "threat": "Досягаемость",
-            "thrown": "Метательное"
+            "thrown": "Метательное",
+            "line": "Линия",
+            "cone": "Конус",
+            "blast": "Взрыв",
+            "burst": "Импульс"
         },
         "systemType": {
             "system": "Система",
             "shield": "Щит",
             "deployable": "Размещаемое",
-            "drone": "Дрон"
+            "drone": "Дрон",
+            "tech": "Тех.",
+            "integrated": "Интегрированное",
+            "mod": "Модификация",
+            "mine": "Мина",
+            "grenade": "Граната",
+            "invade": "Взлом"
         },
         "duration": {
-            "scene": "Сцены",
-            "free": "Бесплатно",
-            "encounter": "Столкновения",
-            "mission": "Миссия"
+            "scene": "Сцена",
+            "free": "Свободное",
+            "encounter": "Столкновение",
+            "mission": "Миссия",
+            "next_round": "Следующий раунд",
+            "turn": "Ход",
+            "next_turn": "Следующий ход",
+            "round": "Раунд"
         },
         "activationType": {
-            "protocol": "Протокол (Protocol)"
+            "protocol": "Протокол",
+            "none": "Отсутствует",
+            "quick": "Быстрое",
+            "full": "Полное",
+            "jockey": "Абордаж",
+            "quick_tech": "Быстрое тех. действие",
+            "reaction": "Реакция",
+            "move": "Движение",
+            "other": "Иное",
+            "full_tech": "Полное тех. действие",
+            "free": "Свободно",
+            "invade": "Взлом"
+        },
+        "attackType": {
+            "melee": "Холодное",
+            "ranged": "Дальнобойное",
+            "tech": "Тех."
         }
     }
 }
