@@ -108,7 +108,8 @@
         "licenses": "라이선스",
         "customItemName": "커스텀 아이템 이름",
         "about": "소개",
-        "deletePermanently": "영구 삭제"
+        "deletePermanently": "영구 삭제",
+        "deleteItemsPermanently": "이 아이템을 영구 삭제"
     },
     "gm": {
         "fields": {
