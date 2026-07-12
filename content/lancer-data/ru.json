@@ -65,5 +65,6 @@
     "tg_grenade.name": "Граната",
     "glossary_SaveTarget.name": "Спас-порог",
     "tg_invade.name": "Взлом",
-    "act_invade.name": "Взлом"
+    "act_invade.name": "Взлом",
+    "glossary_TechAttack.description": "Вы добавляете ТЕХНИЧЕСКУЮ АТАКУ вашего меха как бонус, вместо ЗАКАЛКИ, когда ведете электронную войну."
 }
