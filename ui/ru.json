@@ -675,7 +675,10 @@
             "readyForImport": "Элемент можно импортировать",
             "v2BackupText": "{count} столкновение сохранено в раздел Импорт формата v2 для последующего импорта. | {count} столкновений сохранено в раздел Импорт формата v2 для последующего импорта.",
             "stagedItems": "Элементы, запланированные для импорта",
-            "v2BackupTitle": "Импортировано в раздел \"Резервные копии v2\""
+            "v2BackupTitle": "Импортировано в раздел \"Резервные копии v2\"",
+            "missingContentPacks": "Отсутствующие контент-паки",
+            "completeImport": "Импорт завершён ({n} элементов)",
+            "encounterImportErrorText": "Не удалось импортировать столкновение: {error}"
         },
         "campaign": {
             "jsonFile": "JSON-файл",
@@ -702,7 +705,16 @@
             "releaseFor": "Релиз для",
             "selectEncounter": "Выбор столкновения",
             "deleteWarn1": "Эта кампания будет {strong}. Указанное действие нельзя отменить. Если вы уверены, что хотите удалить,",
-            "deleteWarn2": "напишите название кампании в текстовое поле ниже и нажмите {confirm}."
+            "deleteWarn2": "напишите название кампании в текстовое поле ниже и нажмите {confirm}.",
+            "managedIn": "Импортированные кампании можно настроить в {library}",
+            "yourCampaigns": "Ваши кампании",
+            "importJsonTitle": "Импорт данных кампании в формате JSON",
+            "lcdExt": ".lcd",
+            "currentlyViewing": "Сейчас просматриваете",
+            "campaignInfo": "Информация о кампании",
+            "saveCampaign": "Сохранить кампанию",
+            "currentPublishedVersion": "Текущая версия опубликованной кампании",
+            "exportEditableHelp": "Вы можете экспортировать редактируемую кампанию в формате JSON для целей резервного копирования, переноса данных на иные устройства или совместного редактирования."
         },
         "labels": {
             "labels": "Метки",
@@ -735,15 +747,26 @@
             "filters": "Фильтры",
             "showAll": "Показать все",
             "hideAll": "Скрыть все",
-            "clearAllFilters": "Очистите все фильтры"
+            "clearAllFilters": "Очистите все фильтры",
+            "showItemsWith": "Показать элементы с",
+            "hideItemsWith": "Скрыть элементы с"
         },
         "noItem": {
-            "noItemSelected": "Ничего не выбрано"
+            "noItemSelected": "Ничего не выбрано",
+            "missingContent": "Отсутствуют материалы для ведущего"
         },
         "overview": {
-            "addContact": "Добавить контакт",
+            "addContact": "Добавить новую контактную информацию",
             "setCoverImage": "Задать изображение для обложки",
-            "recommendedFor": "Рекомендуется для"
+            "recommendedFor": "Рекомендуется для",
+            "authorContact": "Как можно связаться с автором (опционально)",
+            "coverImage": "Обложка кампании",
+            "fromLicenseLevels": "С уровня лицензии",
+            "to": "до",
+            "deleteHistory": "Удалить историю (вер.{ver})",
+            "bannerImage": "\"Шапка\" кампании",
+            "setBannerImage": "Выбор изображения для \"шапки\"",
+            "imagesMustLink": "Изображения, связанные с компанией, должны храниться в облаке, они не могут быть выбраны из данных @:{'common.appName'}, сохранённых на устройстве."
         },
         "npcFeatures": {
             "saveConfig": "Сохранить настройки",
@@ -799,7 +822,10 @@
             "h1": "H1",
             "h2": "H2",
             "h4": "H4",
-            "hideTitle": "Скрыть заголовок"
+            "hideTitle": "Скрыть заголовок",
+            "tonal": "Тональный",
+            "clippedBlock": "Врезка",
+            "themeAwareColors": "Цвета, согласующиеся с выбранной пользователем темой"
         },
         "combatant": {
             "sourceUnavailable": "Источник недоступен",
@@ -839,7 +865,8 @@
             "layerDescription": "Описание слоя"
         },
         "itemCard": {
-            "tierShort": "О{tier}"
+            "tierShort": "О{tier}",
+            "classLabel": "Класс {class}"
         },
         "tier": {
             "changeTo": "Изменить на О {n}",
@@ -976,6 +1003,18 @@
         },
         "eidolonData": {
             "noData": "Данные для редактора эйдолонов не найдены!"
+        },
+        "split": {
+            "addType": "Добавить {type}",
+            "createNewType": "Добавить новый {type}",
+            "itemsHidden": "{n} элементов было скрыто фильтром"
+        },
+        "print": {
+            "othersCount": "(+{n} иных)"
+        },
+        "sync": {
+            "syncCompleteText": "{itemType} {name} синхронизирован(ы).",
+            "syncFailedText": "Не удалось синхронизировать {itemType} {name}. {err}"
         }
     },
     "active": {
@@ -1071,7 +1110,8 @@
             "allActions": "Все действия",
             "selectIcon": "Выберите значок",
             "equipmentDeployableInstance": "",
-            "mounted": "Установлено"
+            "mounted": "Установлено",
+            "aiControl": "Под контролем ИИ"
         },
         "skillCheck": {
             "modifiers": "Модификаторы",
@@ -1129,7 +1169,7 @@
             "noCover": "Укрытие отсутствует",
             "hard": "Полное",
             "soft": "Частичное",
-            "statusesConditions": "Статусы / Состояния",
+            "statusesConditions": "Статусы/Состояния",
             "resistances": "Сопротивление урону",
             "softCover": "Частичное укрытие",
             "hardCover": "Полное укрытие",
@@ -1790,7 +1830,8 @@
             "every30Minutes": "Каждые 30 минут",
             "every60Minutes": "Каждые 60 минут",
             "pilotData": "Данные о пилотах",
-            "npcData": "Данные персонажей ведущего"
+            "npcData": "Данные персонажей ведущего",
+            "off": "Выключить"
         },
         "deleteAccount": {
             "notPurchases": "Удаление всех покупок, совершённые через itch.io или прекратитподписку на Patreon",
@@ -2265,7 +2306,10 @@
             "appliedTO": "Применяется к",
             "reorderSystems": "Изменить порядок отображения систем",
             "mechSYSTEMS": "Системы меха",
-            "integratedEquipment": "Интегрированное снаряжение"
+            "integratedEquipment": "Интегрированное снаряжение",
+            "currentlyEQUIPPED": "Текущее снаряжение",
+            "pilotMATERIELREGISTRATIONVERIFIED": "[ Подтверждена выдача техники пилоту ]",
+            "selectPilotEquipment": "Выбор снаряжения пилота"
         },
         "selectors": {
             "startWith": "Начать с",
@@ -2362,7 +2406,8 @@
             "availableMounts": "Доступные оружейные крепления",
             "profileActions": "Доступные для профиля действия",
             "classOptionalFeatures": "Опциональные особенности класса",
-            "controlZone": "Контроль территории"
+            "controlZone": "Контроль территории",
+            "equipmentActions": "Действия, доступные для данного снаряжения"
         },
         "tooltips": {
             "resetCounter": "Сброс счётчика",
@@ -2485,7 +2530,11 @@
             "blast": "Взрыв",
             "burst": "Импульс",
             "areaOfEffect": "Урон по площади",
-            "saveTarget": "Спас-порог"
+            "saveTarget": "Спас-порог",
+            "kineticDamage": "Кинетический урон",
+            "energyDamage": "Энергетический урон",
+            "heatDamage": "Тепловой урон",
+            "explosiveDamage": "Взрывной урон"
         },
         "counter": {
             "addCustom": "Добавить пользовательский счётчик"
@@ -2660,7 +2709,7 @@
             "selectResult": "Выбор результата"
         },
         "alt": {
-            "packImage": "Выбрать изображение"
+            "packImage": "Изображение контент-пака"
         }
     },
     "notify": {
@@ -2686,7 +2735,20 @@
             "itchLinkedText": "Ваш аккаунт на Itch.io был успешно привязан",
             "itchLinkFailedText": "При попытке привязать ваш аккаунт на Itch.io возникла ошибка",
             "itchUnlinkedText": "Ваш аккаунт на Itch.io был отвязан",
-            "noSubscriptionTitle": "Подписки не обнаружены"
+            "noSubscriptionTitle": "Подписки не обнаружены",
+            "verificationSentTitle": "Письмо с проверочным кодом было успешно отправлено",
+            "verificationSentText": "Пожалуйста, проверьте если письмо с проверочным кодом пришло вам на эл. почту, в папку \"Входящие\"",
+            "emailChangeInitFailedTitle": "Не удалось начать процедуру изменения адреса эл. почты",
+            "signOutTitle": "Успешный выход из системы",
+            "signOutText": "Сервис авторизации сообщает об успешном выходе из системы",
+            "emailChangeCompleteTitle": "Адрес эл. почты был успешно изменён",
+            "itchLinkedTitle": "Привязан аккаунт itch.io",
+            "itchLinkFailedTitle": "Не удалось привязать аккаунт Itch.io",
+            "itchUnlinkedTitle": "Аккаунт Itch.io был успешно отвязан",
+            "collectionPublishedText": "Подборка {name} была опубликована с версией {version}",
+            "collectionPublishFailedText": "Не удалось опубликовать подборку {name}",
+            "cloudArchiveTitle": "Облачный архив",
+            "cloudArchiveCooldownText": "Вам необходимо подождать {seconds} секунд, а затем создать новый архив."
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
@@ -2732,10 +2794,23 @@
             "removedText": "Удалён {type} {name}.",
             "bulkPartialText": "Не удалось удалить: {items}",
             "bulkDeletedTitle": "{n} элемент удалён | {n} элементов удалено",
-            "restoredText": "Восстановлено {type} {name}."
+            "restoredText": "Восстановлено {type} {name}.",
+            "bulkPartialTitle": "{n} удалено, {f} не удалось удалить",
+            "bulkFailedTitle": "Не удалось выполнить массовое удаление",
+            "connectionRestoredText": "{name} снова успешно привязано.",
+            "convertedText": "{name} теперь хранится только на устройстве.",
+            "markedDeletedText": "{type} {name} было помечено, как удалённое.",
+            "serverError": "Не удалось установить соединение с сервером. {err}",
+            "itemRestoredTitle": "Элемент восстановлен",
+            "failedToDeleteText": "Не удалось удалить {type} {name}. {err}"
         },
         "share": {
-            "syncCompleteTitle": "Синхронизация завершена"
+            "syncCompleteTitle": "Синхронизация завершена",
+            "syncInProgressTitle": "Выполняется синхронизация",
+            "syncInProgressText": "Пожалуйста, дождитесь окончания текущей попытки синхронизации.",
+            "syncCompleteText": "{name} синхронизировано с облаком.",
+            "syncFailedTitle": "Не удалось провести синхронизацию",
+            "syncFailedText": "{err}"
         },
         "common": {
             "error": "Ошибка",
@@ -2746,22 +2821,35 @@
             "downloadCompleteTitle": "Скачивание завершено",
             "uploadCompleteTitle": "Загрузка завершена",
             "uploadFailedTitle": "Не удалось загрузить",
-            "downloadFailedTitle": "Не удалось скачать"
+            "downloadFailedTitle": "Не удалось скачать",
+            "itemSynced": "{type} {name} синхронизировано.",
+            "itemSyncFailed": "Не удалось синхронизировать {type} {name}. {err}",
+            "itemUploaded": "Звгружено {type} {name}.",
+            "itemUploadFailed": "Не удалось загрузить {type} {name}. {err}",
+            "itemDownloaded": "Произошло слияние изменений в {type} {name} из облака.",
+            "itemDownloadFailed": "Не удалось скачать {type} {name}. {err}"
         },
         "settings": {
             "v2NoData": "Данные не найдены.",
             "unableToImportTitle": "Не удалось импортировать данные",
             "unableToReadFileTitle": "Не удалось распознать файл",
-            "dataImportSuccessTitle": "Данные успешно импортированы"
+            "dataImportSuccessTitle": "Данные успешно импортированы",
+            "errorPrefix": "Ошибка: {err}",
+            "v2BackupImportedTitle": "Импортирована резервная копия формата v2",
+            "dataReplaced": "Все существующие данные были заменены данными из импортированного файла.",
+            "dataMerged": "Было произведено слияние импортированных данных с уже существующими."
         },
         "image": {
             "uploadedTitle": "Изображение загружено",
             "deletedTitle": "Изображение удалено",
             "deleteFailedTitle": "Не удалось удалить",
-            "deletedText": "Удален {type} {name}."
+            "deletedText": "Удален {type} {name}.",
+            "deleteFailedText": "Не удалось установить соединение с сервером. {err}",
+            "uploadedText": "Загружен {file} ({size} Мбайт)"
         },
         "link": {
-            "copiedTitle": "Ссылка скопирована"
+            "copiedTitle": "Ссылка скопирована",
+            "copiedText": "Постоянная ссылка на {name} была скопирована в буфер обмена."
         },
         "achievement": {
             "unlockedTitle": "Достижение разблокировано!"
