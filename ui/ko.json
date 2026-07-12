@@ -106,7 +106,9 @@
         "updateAll": "모두 업데이트",
         "clearAllData": "모든 데이터 지우기",
         "licenses": "라이선스",
-        "customItemName": "커스텀 아이템 이름"
+        "customItemName": "커스텀 아이템 이름",
+        "about": "소개",
+        "deletePermanently": "영구 삭제"
     },
     "gm": {
         "fields": {
