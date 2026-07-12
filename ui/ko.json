@@ -96,14 +96,22 @@
         "cloudAccount": "계정 삭제",
         "npcs": "NPC",
         "overcharge": "과부하",
-        "player": "플레이어"
+        "player": "플레이어",
+        "settings": "설정",
+        "objective": "목표",
+        "created": "생성됨",
+        "detail": "상세",
+        "effect": "효과",
+        "lcpDirectory": "디렉터리"
     },
     "gm": {
         "fields": {
             "authors": "작성자"
         },
         "campaign": {
-            "patch": "패치"
+            "patch": "패치",
+            "jsonFile": "JSON 파일",
+            "latestVersion": "최신 버전"
         }
     },
     "language": {
@@ -258,6 +266,11 @@
         },
         "achievementItem": {
             "unlockedLabel": "잠금 해제됨"
+        },
+        "titles": {
+            "latestVersion": "최신 버전",
+            "installedVersion": "설치된 버전",
+            "version": "버전"
         }
     },
     "stats": {
