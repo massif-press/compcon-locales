@@ -209,7 +209,8 @@
     "nav": {
         "packsDirectory": {
             "communityContent": "@:{'common.gameName'} 커뮤니티 컨텐츠",
-            "communityContentTitle": "@:{'common.gameName'} 커뮤니티 컨텐츠 팩"
+            "communityContentTitle": "@:{'common.gameName'} 커뮤니티 컨텐츠 팩",
+            "clickHere": "여기를 클릭하세요"
         },
         "contentManager": {
             "refreshContent": "새로 고침"
@@ -234,6 +235,29 @@
         },
         "achievements": {
             "common": "공통"
+        },
+        "settingsPage": {
+            "theme": "테마",
+            "font": "글꼴",
+            "errorReporting": "오류 보고",
+            "errorReportingPrefix": "오류 보고"
+        },
+        "log": {
+            "error": "오류"
+        },
+        "packInstall": {
+            "install": "설치",
+            "success": "성공"
+        },
+        "communityTable": {
+            "currentVersion": "현재 버전"
+        },
+        "search": {
+            "searchResults": "검색결과",
+            "recentSearches": "최근 검색"
+        },
+        "achievementItem": {
+            "unlockedLabel": "잠금 해제됨"
         }
     },
     "stats": {
