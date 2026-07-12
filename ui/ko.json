@@ -109,7 +109,9 @@
         "customItemName": "커스텀 아이템 이름",
         "about": "소개",
         "deletePermanently": "영구 삭제",
-        "deleteItemsPermanently": "이 아이템을 영구 삭제"
+        "deleteItemsPermanently": "이 아이템을 영구 삭제",
+        "details": "상세",
+        "overview": "개요"
     },
     "gm": {
         "fields": {
