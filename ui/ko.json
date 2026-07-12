@@ -225,7 +225,15 @@
         },
         "nav": {
             "pilotManagement": "색상 관리",
-            "achievements": "성취"
+            "achievements": "성취",
+            "help": "도움말"
+        },
+        "help": {
+            "faq": "자주 묻는 질문",
+            "reportBug": "버그 신고"
+        },
+        "achievements": {
+            "common": "공통"
         }
     },
     "stats": {
