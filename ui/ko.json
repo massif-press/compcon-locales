@@ -224,7 +224,8 @@
             "importAll": "모두 가져오기"
         },
         "nav": {
-            "pilotManagement": "색상 관리"
+            "pilotManagement": "색상 관리",
+            "achievements": "성취"
         }
     },
     "stats": {
