@@ -111,7 +111,10 @@
         "deletePermanently": "영구 삭제",
         "deleteItemsPermanently": "이 아이템을 영구 삭제",
         "details": "상세",
-        "overview": "개요"
+        "overview": "개요",
+        "syncNow": "지금 동기화",
+        "alert": "경고",
+        "ok": "OK"
     },
     "gm": {
         "fields": {
@@ -123,6 +126,10 @@
             "latestVersion": "최신 버전",
             "major": "주요",
             "minor": "부차"
+        },
+        "filter": {
+            "filters": "필터",
+            "showAll": "모두 보기"
         }
     },
     "language": {
