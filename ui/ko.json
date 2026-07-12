@@ -89,7 +89,11 @@
         "changelog": "변경사항",
         "hidden": "숨김",
         "core": "코어",
-        "restore": "복구"
+        "restore": "복구",
+        "weapon": "무기",
+        "frame": "프레임",
+        "help": "도움말",
+        "cloudAccount": "계정 삭제"
     },
     "gm": {
         "fields": {
