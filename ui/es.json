@@ -1718,7 +1718,9 @@
             "repairCapacity": "Capacidad de reparación",
             "items": "Elementos",
             "round": "Redondo",
-            "observer": "SERVIDOR"
+            "observer": "SERVIDOR",
+            "pilot": "Piloto",
+            "reactor": "Reacciona"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
