@@ -2147,7 +2147,8 @@
             "pilots": "Pilotos",
             "campaigns": "Campaña",
             "role": "Rol",
-            "filename": "Nombre de archivo"
+            "filename": "Nombre de archivo",
+            "free": "Libre"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
@@ -2157,7 +2158,8 @@
             "controlsHowOftenYourData": "Controla que tan seguido sus datos son sincronizados con la nube. Debido a costos de servidor, ciertas opciones están solo disponibles para suscriptores de Patreon.",
             "controlsWhichDataTypesAre": "Controla cuales tipos de datos son sincronizados con la nube.",
             "yourUniqueAccountIdThis": "Su ID de cuenta único. Este es usado par identificar su cuenta en la nube y puede ser solicitado para propósitos de resolución de errores.",
-            "usernameOptional": "Este es un campo <b>opcional</b> que puede usar para dar un nombre personalizado para su cuenta. Este nombre de usuario <b>va a</b> ser visible a otros usuarios en modo activo y cuando compartan datos."
+            "usernameOptional": "Este es un campo <b>opcional</b> que puede usar para dar un nombre personalizado para su cuenta. Este nombre de usuario <b>va a</b> ser visible a otros usuarios en modo activo y cuando compartan datos.",
+            "signInFailed": "falló el inicio"
         },
         "subtitles": {
             "mergeAndSyncThisItem": "Combinar y sincronizar este artículo inmediatamente.",
