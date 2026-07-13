@@ -1091,7 +1091,8 @@
             "lastOnline": "Последнее появление онлайн",
             "archivedTables": "Заархивированные столы",
             "cdt": "CDT (Центральное летнее время; США)",
-            "currentlyRunning": "Активный виртуальный стол"
+            "currentlyRunning": "Активный виртуальный стол",
+            "at8pm": "в 20:00 CDT"
         },
         "diceRoller": {
             "sessionHistory": "История сессий",
