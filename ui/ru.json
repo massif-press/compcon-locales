@@ -633,7 +633,7 @@
             "reimportPendingText": "ожидается {count} элемент без необходимых зависимостей. | ожидается {count} элементов без необходимых зависимостей.",
             "noItemsToReimport": "Элементы для повторного импорта отсутствуют.",
             "reimportFailedText": "Не удалось импортировать повторно: {error}",
-            "missingDependencies": "",
+            "missingDependencies": "Отсутствующие зависимости ещё не доступны.",
             "importedSuccessfully": "Успешно импортировано.",
             "importFailedText": "Ошибка импорта: {error}",
             "forceImportComplete": "Принудительный импорт завершён.",
