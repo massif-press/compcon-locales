@@ -600,6 +600,9 @@
             "netlifyStatus": "Estado Netlify",
             "joinTheLancerDiscord": "Unirse al discord LANCER",
             "supportCompconOnPatreon": "Apoyar a @:{'common.appName'} en Patreon"
+        },
+        "titles": {
+            "latestVersion": "Versión más reciente"
         }
     },
     "gm": {
