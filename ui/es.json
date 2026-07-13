@@ -1716,7 +1716,8 @@
             "downAndOut": "Caído y Fuera",
             "repairCap": "Lim. Reparaciones",
             "repairCapacity": "Capacidad de reparación",
-            "items": "Elementos"
+            "items": "Elementos",
+            "round": "Redondo"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
