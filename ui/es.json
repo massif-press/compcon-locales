@@ -1056,7 +1056,14 @@
             "gmLabels": "Mis etiquetas",
             "role": "Rol",
             "folder": "Carpeta",
-            "shards": "Fragmento"
+            "shards": "Fragmento",
+            "npcRoster": "Listado de PNJ",
+            "encounterEditor": "Editor de Encuentro",
+            "title": "Título",
+            "pronouns": "Pronombres",
+            "class": "Clase",
+            "layers": "Capas",
+            "tag": "Etiqueta"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
