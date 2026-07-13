@@ -216,7 +216,7 @@
             "title": "@:{'common.contentManager'}",
             "packManagement": "Inhaltspaket-Verwaltung",
             "installedPacks": "Installierte Inhaltspakete",
-            "contentPacks": "@:{'common.contentManager'}",
+            "contentPacks": "@:{'common.contentPacks'}",
             "installLcp": ".LCP-Datei installieren",
             "lcpDirectory": "@:{'common.lcpDirectory'}",
             "contentConfig": "Inhaltskonfig.",
@@ -273,7 +273,7 @@
             "quickReference": "Schnellreferenz",
             "storageLimitExceeded": "Speicherkapazität überschritten",
             "noNewItemsSaved": "Keine neuen Elemente können gespeichert werden, bis die Kapazität erweitert wird oder Daten gelöscht werden.",
-            "storageWarningTooltip": "@:{'common.activeMode'} hat den Speicherwarnwert überschritten. Mehr Details können im Speicher-Reiter des Optionsmenüs eingesehen werden.",
+            "storageWarningTooltip": "@:{'common.appName'} hat den Speicherwarnwert überschritten. Mehr Details können im Speicher-Reiter des Optionsmenüs eingesehen werden.",
             "storageAlertTooltip": "@:{'common.appName'} hat den Speicher-Maximalwert überschritten.",
             "storageDetails": "Mehr Details können im <b>Speicher</b>-Reiter des Optionsmenüs eingesehen werden.",
             "cloudAccount": "@:{'common.cloudAccount'}",
@@ -327,8 +327,9 @@
             "additionalArtBy": "Zusätzliche Bilder von",
             "patronThanks": "Die anhaltende Weiterentwicklung von @:{'common.appName'} wäre nicht möglich ohne die großzügige",
             "supportOf": "von",
-            "tier": "@:{'common.tier'}",
-            "anonymousPatron": "Anonymer Patron"
+            "tier": "{patreonTierName} Rang",
+            "anonymousPatron": "Anonymer Patron",
+            "support": "Unterstützung"
         },
         "achievements": {
             "unlocked": "Freigeschaltet",
@@ -362,7 +363,8 @@
             "othersCount": "(+{count} andere)",
             "warningDataFull": "Dies wird Nutzer:innen-Errungenschaftsdaten {emphasis}.",
             "hidden": "@:{'common.hidden'}",
-            "cannotBeUndoneFull": "Dies {emphasis} rückgängig gemacht werden. Es wird stark empfohlen, zuerst ein Backup anzulegen."
+            "cannotBeUndoneFull": "Dies {emphasis} rückgängig gemacht werden. Es wird stark empfohlen, zuerst ein Backup anzulegen.",
+            "sort": "Sortieren"
         },
         "storage": {
             "noStorageAccess": "@:{'common.appName'} kann nicht auf den Gerätespeicher zugreifen. Dies kann aufgrund einer Browsereinstellung oder -erweiterung sein. @:{'common.appName'} wird stattdessen \"Local Storage\" verwenden, welches auf 5MB begrenzt ist. Dies kann dazu führen, dass @:{'common.appName'} gewisse Daten nicht speichern kann. Bitte überprüfen Sie Ihre Browser-Einstellungen und erlauben @:{'common.appName'} Zugriff auf \"Persistent Storage\" wenn Sie dazu aufgefordert werden. Falls Sie eine Browsererweiterung verwenden, die Zugriff auf den Speicher blockiert, bitte deaktivieren Sie diese für @:{'common.appName'}. Falls keine dieser Optionen funktioniert, bitte laden Sie @:{'common.appName'} als PWA herunter.",
@@ -566,7 +568,12 @@
             "dependencyInstalled": "Abhängigkeit installiert",
             "version": "@:{'common.version'}",
             "contentHeading": "Inhalte",
-            "changelog": "@:{'common.changelog'}"
+            "changelog": "@:{'common.changelog'}",
+            "languagePatchesTooltip": "Für dieses Inhaltspaket installierte Community-Übersetzungen. Werden angewendet, sobald deren Sprache ausgewählt wird.",
+            "patchByAuthor": "von {translator}",
+            "patchUnknownAuthor": "Unbekannte:r Übersetzer:in",
+            "patchOutdated": "Diese Übersetzung wurde für Paketversion {version} geschrieben und könnte veraltet sein.",
+            "removePatch": "Revision entfernen"
         },
         "communityTable": {
             "noData": "Keine Inhaltspakete verfügbar.",
@@ -599,7 +606,8 @@
             "unlockedLabel": "Freigeschaltet",
             "createdBy": "Erstellt von",
             "secretLabel": "Geheime Errungenschaft",
-            "hiddenNote": "Diese Errungenschaft ist versteckt und wird nach Freischaltung aufgedeckt"
+            "hiddenNote": "Diese Errungenschaft ist versteckt und wird nach Freischaltung aufgedeckt",
+            "dataRedacted": "Daten redigiert"
         },
         "optionsPage": {
             "tabSettings": "@:{'common.settings'}",
@@ -614,6 +622,30 @@
         "cloudNotifications": {
             "dismissAll": "Alle Benachrichtigungen verwerfen",
             "noRecentUpdates": "Keine kürzlichen Cloud-Aktualisierungen"
+        },
+        "titles": {
+            "latestVersion": "Neueste Version",
+            "installedVersion": "Installierte Version",
+            "backedUp": "Als Backup gesichert",
+            "x1Week": "1 Woche",
+            "x2Weeks": "2 Wochen",
+            "x1Month": "1 Monat",
+            "x3Months": "3 Monate",
+            "x6Months": "6 Monate",
+            "x1Year": "1 Jahr",
+            "active": "Aktiv",
+            "author": "Urheber:in",
+            "version": "Version",
+            "lcp": "LCP",
+            "type": "Typ",
+            "missing": "Fehlt",
+            "never": "Nie"
+        },
+        "fields": {
+            "interV3Default": "Inter (Standard für V3)",
+            "notoSansV3Alt": "Noto Sans (Alternative für V3)",
+            "helveticaV2Default": "Helvetica (Standard für V2)",
+            "opendyslexicExperimental": "OpenDyslexic (experimentell)"
         }
     },
     "active": {
@@ -1000,7 +1032,22 @@
             "mechDestroyedReactorMeltdown": "Mech zerstört - Kernschmelze",
             "repairCap": "Ersatzteilvermögen",
             "whatIsAPlaceholder": "Was ist ein Platzhalter?",
-            "youHaveRemainingActions": "Sie haben Aktionen übrig!"
+            "youHaveRemainingActions": "Sie haben Aktionen übrig!",
+            "saveTarget": "Rettungswurfzielwert",
+            "items": "Elemente",
+            "sitrep": "Lagebericht",
+            "round": "Runde",
+            "observer": "BEOBACHTER",
+            "pilot": "Pilot:in",
+            "reactor": "Reaktor",
+            "activations": "Aktivierungen",
+            "hull": "Hülle",
+            "size": "Größe",
+            "eDefense": "E-Verteidigung",
+            "grapple": "Packen",
+            "ram": "Rammen",
+            "exposed": "Verwundbar",
+            "shredded": "Zerfetzt"
         },
         "sheetMgr": {
             "featureInDev": "Funktion in Entwicklung (v3.1)",
@@ -1159,7 +1206,9 @@
             "exportsAStructuredJsonVersion": "Exportiert eine strukturierte JSON-Version des Kampfprotokolls, die von anderen Anwendungen genutzt werden kann.",
             "exportsAPlainTextVersion2": "Exportiert eine Klartextversion der aktuellen Werte des:der Kombattant:in.",
             "rollAllDiceTakingThe": "Alle Würfel werfen und das beste Ergebnis nehmen",
-            "reroll1s": "1er neu würfeln"
+            "reroll1s": "1er neu würfeln",
+            "thisWillAddACopy": "Dies wird eine Kopie diese:r Pilot:in Ihrem Gefecht hinzufügen. Falls die Urheber ihre Originaldaten aktualisieren, werden Sie diese Änderungen nicht erhalten.",
+            "reviewTheCombatLogAnd": "Prüfen Sie das Kampfprotokoll und die Schlachtfeldtelemetrie von diesem Bogen und speichern Sie es nach Wunsch im Verlauf Ihre:r Pilot:in."
         },
         "campaignDialog": {
             "setCampaign": "Kampagne setzen"
@@ -1265,6 +1314,35 @@
             "thisPilotContainsContentFromThe": "Diese:r Pilot:in enthält Inhalte aus den folgenden Lancer Inhaltspaketen, die aktuell nicht installiert/aktiviert sind, oder deren Versionen inkongruent sind",
             "thisPilotWillBeSavedTo": "Diese:r Pilot:in wird zur V2 Importierungs-Sammlung in der Inhaltsverwaltung abgelegt. Sobald die fehlenden Inhaltspakete installiert und aktiviert sind, kann der Import stattfinden. Alternativ kann der Import erzwungen werden, wobei fehlende Elemente entfernt werden.",
             "thisPilotMayBeImportedBut": "Diese:r Pilot:in kann importiert werden, aber einige Elemente aus fehlenden Inhaltspaketen werden aus gespeicherten Daten instanziert. Falls sie entfernt werden, können diese Elemente nicht ohne ihre fehlenden Inhaltspakete neu hinzugefügt werden."
+        },
+        "loadout": {
+            "armorEquippedTitle": "Pilot:innen-Panzerung ausgerüstet",
+            "gearEquippedTitle": "Pilot:innenzeug ausgerüstet",
+            "weaponEquippedTitle": "Pilot:innenwaffe ausgerüstet",
+            "equippedText": "{itemName} an {pilotName} ausgerüstet.",
+            "availableLoadouts": "Verfügbare Ausrüstungen",
+            "synergyWarning": "Die Regeln in diesen Synergiehinweisen werden {not} automatisch durch @:{'common.appName'} erzwungen. Bitte stellen Sie sicher, dass Sie alle im Spiel relevanten Effekte manuell anwenden.",
+            "not": "NICHT",
+            "coreBonusAvailable": "Kernbonus verfügbar",
+            "mountCOREBonus": "Lafetten-Kernbonus",
+            "improvedARMAMENT": "(Verbesserte Bewaffnung)",
+            "superheavyMOUNTING": "(Überschwere Lafette)",
+            "superheavyWEAPONBRACING": "Überschwere Waffenstützung",
+            "lancerSuperheavyClassArmamentRequiresTwo": "Lancer, überschwere Bewaffnung benötigt zwei Lafetten. Bitte wählen Sie eine {mount}",
+            "bracingMount": "Stützlafette.",
+            "thisBracingMountWillBeNot": "Diese Stützlafette wird keine Bewaffnung tragen können, bis die überschwere Waffe entfernt wird.",
+            "theSUPERHEAVYMOUNTINGCoreBonusRequires": "Für den Kernbonus ÜBERSCHWERE LAFETTE wird zur Stützung eine Schwere Lafette benötigt, falls eine vorhanden ist.",
+            "walkingARMORY": "Wandelndes Arsenal// {selected}",
+            "selectedAMMUNITION": "Ausgewählte Munition",
+            "costAMMOCASE": "Kosten::Munitionstasche",
+            "notSET": "Nicht gesetzt",
+            "setUSES": "Ladungen setzen",
+            "revisions": "Revisionen",
+            "weaponMods": "Waffenmods",
+            "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Ausrüstungsregistration des Rahmens bestätigt ]",
+            "currentlyEQUIPPED": "Aktuell ausgerüstet",
+            "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Ausrüstungsautorisierung der Union-Waffenkammer: Rahmenausrüstung//Kampfsystem",
+            "equipmentIDINVALIDORMISSING": "[ Ausrüstungs-ID fehlt oder ungültig ]"
         }
     },
     "mainMenu": {
@@ -1370,7 +1448,19 @@
             "addNew": "Neue Hinzufügen",
             "itemUpToDate": "Dieses Element ist mit der Lokaldaten-Version aktuell.",
             "itemNotFound": "Dieses Element konnte nicht in den Lokaldaten gefunden werden und kann nicht aktualisiert werden. Es wird in dieser Sammlung verweilen, bis Sie es entfernen.",
-            "removeItemTooltip": "Dieses Element aus dieser Sammlung entfernen. Dies wird dieses Element nicht aus Ihren Lokaldaten oder Ihren @:{'common.appName'}-Clouddaten entfernen."
+            "removeItemTooltip": "Dieses Element aus dieser Sammlung entfernen. Dies wird dieses Element nicht aus Ihren Lokaldaten oder Ihren @:{'common.appName'}-Clouddaten entfernen.",
+            "versionN": "Version {version}",
+            "saveDraft": "Entwurf speichern",
+            "publishMinor": "Nebenversion ({version}) veröffentlichen",
+            "publishMajor": "Hauptversion ({version}) veröffentlichen",
+            "collectionShareCode": "Teilbarer Code der Sammlung",
+            "lastUpdateOn": "Zuletzt am {date} aktualisiert",
+            "mustPublish": "Sammlung muss veröffentlicht werden, um einen teilbaren Code zu generieren.",
+            "deleteCollection": "Sammlung löschen",
+            "deleteCollectionWarning": "Das Löschen dieser Sammlung wird sie aus Ihren Lokal- und Clouddaten entfernen, und wird das Sammlungsarchiv aus dem Cloudspeicher löschen. Nutzer:innen werden diese Inhalte nicht weiter abonnieren können, und aktuelle Abonnent:innen werden Sammlungsdaten nicht aktualisieren können. Es {willNot} Inhalte der Sammlung löschen, weder lokal noch in der Cloud, und weder für Sie noch für Abonnent:innen.",
+            "willNotLabel": "wird nicht",
+            "actionUndone": "Diese Handlung kann nicht rückgängig gemacht werden.",
+            "confirmDelete": "Sind Sie sicher, dass Sie diese Sammlung löschen wollen?"
         },
         "archive": {
             "pruneItems": "{count} Element stutzen | {count} Elemente stutzen",
@@ -1394,7 +1484,33 @@
             "nothingToPrune": "Nichts zu Stutzen"
         },
         "dataItem": {
-            "deleteNItems": "{count} Element löschen | {count} Elemente löschen"
+            "deleteNItems": "{count} Element löschen | {count} Elemente löschen",
+            "cancelBulkSelection": "Massenauswahl abbrechen",
+            "bulkDelete": "Masse löschen",
+            "deleteSelected": "Ausgewählte ({count}) löschen",
+            "remoteItem": "Rechnerfernes Element",
+            "remoteItemDesc": "Dieses Element ist mit den Daten eine:r anderen Nutzer:in verknüpft. Deren Änderungen werden bei Synchronisierung heruntergeladen.",
+            "remoteItemInaccessible": "Rechnerfernes Element unzugänglich",
+            "remoteInaccessibleDesc": "Die Clouddaten für dieses Element konnten nicht gefunden werden. Dies kann geschehen wenn die Urheber:in das Element löscht, oder falls ein Fehler während der Synchronisation auftritt. Sie können versuchen, die Verknüpfung wiederherzustellen, oder das Element in eine Lokalkopie konvertieren.",
+            "typeCampaignData": "Kampagnendaten",
+            "typeActiveEncounter": "Aktives Gefecht",
+            "typeArchivedEncounter": "Archiviertes Gefecht",
+            "remoteLinkBroken": "Rechnerferne Verknüpfung defekt — Daten der Urheber:in konnten nicht gefunden werden. Neu versuchen oder zu Lokaldaten konvertieren.",
+            "deletedLocally": "Lokal gelöscht",
+            "markedDeletedCloud": "In Cloud als gelöscht markiert.",
+            "cloudOnly": "Nur Cloud — noch nicht heruntergeladen.",
+            "localOnly": "Nur Lokal - noch nicht synchronisiert.",
+            "pendingSync": "Ausstehende Sync.",
+            "editableCampaignDesc": "Dies ist eine bearbeitbare Kampagne, die Sie im SL-Kampagneneditor erstellt haben. Diese Daten können mit der Cloud synchronisiert werden, um sie zu sichern oder mit anderen Geräten zu teilen, aber sie können nicht über teilbare Codes geteilt werden.",
+            "retryConnection": "Verbindung neu versuchen",
+            "convertToLocalDesc": "Rechnerferne Verknüpfung entfernen. Daten werden lokal behalten.",
+            "restoreLocalDesc": "Dieses Element lokal wiederherstellen.",
+            "restoreItemDesc": "Dieses Element wiederherstellen. Es wird nicht mehr als gelöscht markiert und wird mit diesem und anderen Geräten synchronisiert.",
+            "manualControls": "Manuelle Steuerung",
+            "deletePermanentlyDesc": "Dies wird dieses Element permanent aus dem Lokalspeicher entfernen. Falls das Element mit der Cloud synchronisiert war, wird es dort als gelöscht markiert werden.",
+            "deleteImmediately": "Sofort löschen",
+            "deleteImmediatelyDesc": "Dieses Element zu löschen wird es auch aus dem Cloudspeicher entfernen. Lokalkopien dieses Elements bleiben dadurch unangetastet.",
+            "deleteLocalData": "Lokaldaten löschen"
         },
         "dataUsage": {
             "resetMigrationTool": "Kontomigrations-Werkzeug zurücksetzen",
@@ -1540,6 +1656,26 @@
             "persistentStoragePermission": "Erlaubnis für Persistent Storage",
             "denialNotice": "@:{'common.appName'} hat erkannt, dass Persistent Storage für diese App nicht gewährt wurde. Zur korrekten Funktionsweise muss Persistent Storage für @:{'common.appName'} aktiviert werden",
             "activated": "Persistent Storage wurde aktiviert! Warnung wird geschlossen…"
+        },
+        "subtitles": {
+            "doNotAutomaticallyDeleteAnyArchives": "Keine Archive automatisch löschen.",
+            "keepThe30NewestArchives": "Die 30 neuesten Archive behalten.",
+            "keepThe10NewestArchives": "Die 10 neuesten Archive behalten.",
+            "keepThe5NewestArchives": "Die 5 neuesten Archive behalten.",
+            "keepOnlyTheMostRecentArchive": "Nur das neueste Archiv behalten.",
+            "dataIsOnlySyncedWhenYou": "Daten werden nur mit klick auf \"Synchronisieren\" synchronisiert.",
+            "syncsWhenYouOpenAndClose": "Synchronisiert beim Öffnen und Schließen der App. Synchronisation beim Schließen wird u.U. nicht von allen Browsern unterstützt.",
+            "syncsAutomaticallyEvery30MinutesRequires": "Synchronisiert automatisch alle 30 Minuten. Benötigt Unterstützung auf Patreon.",
+            "syncsAutomaticallyEvery60MinutesRequires": "Synchronisiert automatisch alle 60 Minuten. Benötigt Unterstützung auf Patreon."
+        },
+        "a11y": {
+            "signInProgressLog": "Login-Fortschrittsprotokoll",
+            "abortSignIn": "Login abbrechen",
+            "retrySignIn": "Login neu versuchen",
+            "cancelAndClose": "Abbrechen und schließen",
+            "signIn": "Einloggen",
+            "eMail": "Email",
+            "password": "Passwort"
         }
     },
     "gm": {
@@ -1892,7 +2028,20 @@
             "textSection": "Textabschnitt",
             "rollableTable": "Bewürfelbare Tabelle",
             "narrativeElement": "Erzählelement",
-            "combatEncounter": "Gefecht"
+            "combatEncounter": "Gefecht",
+            "shards": "Scherben",
+            "gmToolkit": "SL-Werkzeuge",
+            "campaignEditor": "Kampagneneditor",
+            "npcRoster": "NSC-Liste",
+            "encounterEditor": "Gefechtseditor",
+            "narrativeItemManager": "Erzählgegenstands-Verwaltung",
+            "alias": "Alias",
+            "title": "Titel",
+            "pronouns": "Pronomen",
+            "class": "Klasse",
+            "layers": "Schichten",
+            "tag": "Marke",
+            "templates": "Vorlage"
         },
         "fields": {
             "selectDataFile": "Daten-Datei auswählen",
@@ -1935,7 +2084,11 @@
             "addANewEmptyBeat": "Fügt unter diesem Abschnitt einen neuen Takt ein. Ein Takt ist ein Abschnitt für ein wichtiges Event oder einen wichtigen Moment in der Geschichte.",
             "addANewEmptyMission": "Fügt unter dieser Seite eine neue Mission ein. Eine Mission hat spezifische Ziele, die innerhalb einer bestimmten Zeit erfüllt werden können, und involviert für gewöhnlich Kämpfe.",
             "addANewEmptyCombat": "Fügt unter dieser Seite einen neuen Kampf ein. Ein Kampf enthält Gefechte sowie Spielleiter-Anweisungen, erzähltechnische Details zum Kampf, und potentielle Auswirkungen.",
-            "addANewEmptyDowntime": "Fügt unter dieser Seite eine neue Freizeit hinzu. Freizeit ist der Erzählraum zwischen Missionen, wo Schlag-auf-Schlag Action weniger ins Gewicht fällt und ein größerer Fokus auf das Rollenspiel gerichtet wird."
+            "addANewEmptyDowntime": "Fügt unter dieser Seite eine neue Freizeit hinzu. Freizeit ist der Erzählraum zwischen Missionen, wo Schlag-auf-Schlag Action weniger ins Gewicht fällt und ein größerer Fokus auf das Rollenspiel gerichtet wird.",
+            "createModifyAndBrowseLancerCampaigns": "Erstellen, bearbeiten, und blättern Sie durch LANCER-Kampagnen (V3.1)",
+            "manageNonPlayerCombatUnits": "Nichtspieler-Kampfeinheiten verwalten",
+            "manageCharactersLocationsAndFactions": "Charaktere, Orte, und Fraktionen verwalten",
+            "createCombatEncounters": "Gefechte erstellen"
         },
         "labelDialog": {
             "addOverwrite": "Dies wird den Wert der Marke zu allen ausgewählten Elementen hinzufügen {emphasis}.",
@@ -1977,7 +2130,10 @@
         "tooltips": {
             "changeTierAndAdjustEdited": "Den Rang ändern und angepasste Werte um denselben Betrag ändern, wie sie auch normalerweise geändert würden.",
             "changeTierAndKeepEdited": "Den Rang ändern und alle angepassten Werte beibehalten, auch wenn sie dadurch unter die Standardbeträge des neuen Ranges fallen würden.",
-            "changeTierAndDiscardAll": "Den Rang ändern und alle Wertänderungen verwerfen."
+            "changeTierAndDiscardAll": "Den Rang ändern und alle Wertänderungen verwerfen.",
+            "thisWillDeleteThisNpcFrom": "Dies wird diesen NSC von der NSC-Liste löschen. NSCs dieses Typs, die zu Gefechten hinzugefügt wurden, bleiben unbeeinflusst. Sind Sie sicher?",
+            "confirmDuplicationOfThisNpc": "Duplizieren dieses NSCs bestätigen",
+            "thisWillDeleteThisEncounterFrom": "Dies wird dieses Gefecht aus Ihrer Bibliothek löschen. Sind Sie sicher?"
         },
         "eidolonData": {
             "noData": "Keine Daten für Eidolon-Editor gefunden!"
@@ -1987,6 +2143,9 @@
             "setClass": "NSC-Klasse setzen",
             "npcTag": "NSC-Marke",
             "templates": "Vorlagen"
+        },
+        "a11y": {
+            "dragToReorder": "Zum Rearrangieren ziehen"
         }
     },
     "compendium": {
