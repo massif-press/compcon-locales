@@ -469,7 +469,8 @@
             "contentHeading": "Contenido",
             "changelog": "@:{'common.changelog'}",
             "noDescription": "@:{'ui.widget.noDescription'}",
-            "none": "@:{'common.none'}"
+            "none": "@:{'common.none'}",
+            "patchByAuthor": "translator"
         },
         "communityTable": {
             "noData": "No hay paquetes de contenido disponibles.",
@@ -502,7 +503,8 @@
             "copiedToClipboard": "Registro copiado al portapapeles",
             "noData": "@:{'common.noData'}",
             "caller": "Llamado por",
-            "clearLog": "Borrar registros"
+            "clearLog": "Borrar registros",
+            "session": "Sesión"
         },
         "packConfig": {
             "title": "Configuraciones de Contenido",
