@@ -25,5 +25,6 @@
     "act_brace.detail": "Cuentas como teniendo RESSISTENCIA a todo el daño, abraso, y calor del ataque gatillante, y hasta el findal de tu siguiente turno, todos los otros ataques contra son hechoa con +1 de dificultad. Debido al estrés de prepararse, no puedes tomar reacciones hasta el final de tu siguiente turno y en ese turno, solo puedes tomar una acción rápida - no puedes hacer SOBRECARGA, moverte normalmente, tomar acciones completas o acciones gratuitas.",
     "act_brace.name": "Afianzar",
     "act_brace.terse": "Afianza tu mecha para el impacto, reduciendo daño al costo de las acciones de tu siguiente turno.",
-    "act_ace_supersonic_spinup.name": "Revolucionar Propulsores"
+    "act_ace_supersonic_spinup.name": "Revolucionar Propulsores",
+    "act_boot_up.name": "Arrancar"
 }
