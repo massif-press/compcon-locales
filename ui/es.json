@@ -1052,7 +1052,8 @@
             "eidolons": "Eidolones",
             "clock": "Reloj",
             "addBeat": "Añadir Beat",
-            "contentPack": "Paquetes de Contenido"
+            "contentPack": "Paquetes de Contenido",
+            "gmLabels": "Mis etiquetas"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
