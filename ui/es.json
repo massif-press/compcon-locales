@@ -1717,7 +1717,8 @@
             "repairCap": "Lim. Reparaciones",
             "repairCapacity": "Capacidad de reparación",
             "items": "Elementos",
-            "round": "Redondo"
+            "round": "Redondo",
+            "observer": "SERVIDOR"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
