@@ -470,7 +470,8 @@
             "changelog": "@:{'common.changelog'}",
             "noDescription": "@:{'ui.widget.noDescription'}",
             "none": "@:{'common.none'}",
-            "patchByAuthor": "translator"
+            "patchByAuthor": "translator",
+            "removePatch": "Eliminar parche"
         },
         "communityTable": {
             "noData": "No hay paquetes de contenido disponibles.",
