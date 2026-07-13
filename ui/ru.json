@@ -1085,7 +1085,8 @@
             "sortLastOnline": "Сортировать по \"Последнее появление в сети\"",
             "sortNextSession": "Сортировать по \"Дата следующей сессии\"",
             "lastOnline": "Последнее появление онлайн",
-            "archivedTables": "Заархивированные столы"
+            "archivedTables": "Заархивированные столы",
+            "cdt": "CDT"
         },
         "diceRoller": {
             "sessionHistory": "История сессий",
