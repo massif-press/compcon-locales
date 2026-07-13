@@ -209,7 +209,8 @@
         "newSitrep": "Nuevo Sitrep",
         "newSkillTrigger": "Nuevo Skill Trigger",
         "titles": {
-            "titlePage": "Portada"
+            "titlePage": "Portada",
+            "contributors": "Contribuidores"
         }
     },
     "nav": {
@@ -305,7 +306,8 @@
             "anonymousPatron": "Mecenas Anónimo",
             "graphicDesignBy": "Diseño gráfico por",
             "additionalArtBy": "Arte adicional por",
-            "tier": "@:{'common.tier'}"
+            "tier": "@:{'common.tier'}",
+            "support": "Ayuda"
         },
         "achievements": {
             "unlocked": "Desbloqueado",
