@@ -606,7 +606,8 @@
             "installedVersion": "Versión instalada",
             "backedUp": "Respaldado",
             "x1Week": "Una semana",
-            "x2Weeks": "5 Semanas"
+            "x2Weeks": "5 Semanas",
+            "x1Month": "Un mes"
         }
     },
     "gm": {
