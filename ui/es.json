@@ -602,7 +602,8 @@
             "supportCompconOnPatreon": "Apoyar a @:{'common.appName'} en Patreon"
         },
         "titles": {
-            "latestVersion": "Versión más reciente"
+            "latestVersion": "Versión más reciente",
+            "installedVersion": "Versión instalada"
         }
     },
     "gm": {
