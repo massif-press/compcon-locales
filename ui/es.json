@@ -2112,7 +2112,8 @@
             "youDoNotHaveAccess": "No tiene acceso a respaldos remotos.",
             "youDoNotHaveAccess2": "No tiene acceso a la herramienta para publicación de colección.",
             "compconCloudAccount": "Cuenta de Nube @:{'common.appName'}",
-            "latestVersion": "Versión más reciente"
+            "latestVersion": "Versión más reciente",
+            "installedVersion": "Versión instalada"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
