@@ -603,7 +603,9 @@
         },
         "titles": {
             "latestVersion": "Versión más reciente",
-            "installedVersion": "Versión instalada"
+            "installedVersion": "Versión instalada",
+            "backedUp": "Respaldado",
+            "x1Week": "Una semana"
         }
     },
     "gm": {
