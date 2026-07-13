@@ -15,5 +15,5 @@
     "act_eject.detail": "También puedes EJECTAR como acción adicional, volando 6 espacios en la dirección que escojas; pero, este es un sistema de un solo uso para emergencias - deja tu mecha IMPAIRED. Tú mecha se queda IMPAIRED y tú no puedes EJECTAR de nuevo hasta tu próxima REPARACIÓN COMPLETA.",
     "act_eject.name": "Ejectar",
     "act_eject.terse": "Ejectar de tu mecha, volando 6 espacios en la dirección que escojas.",
-    "act_ace_supersonic_spinup.detail": "Como acción rápida en tu turno, puedes rotar tus propulsores. Si terminas tú turno volando, puedes nominar a un personaje dentro de un rango igual a tu Velocidad y rango de visión, y conseguir la Reaccion Supersonica"
+    "act_ace_supersonic_spinup.detail": "Como acción rápida en su turno, puede revolucionar sus propulsores. Si termina su turno volando, puede nominar un personaje dentro de un rango igual a su velocidad y dentro de su línea de visión, y obtener la reacción Supersónico."
 }
