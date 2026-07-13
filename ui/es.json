@@ -1721,7 +1721,8 @@
             "observer": "SERVIDOR",
             "pilot": "Piloto",
             "reactor": "Reacciona",
-            "activations": "Activación"
+            "activations": "Activación",
+            "exposed": "Exportado"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
