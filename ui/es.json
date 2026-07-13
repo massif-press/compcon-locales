@@ -1722,7 +1722,8 @@
             "pilot": "Piloto",
             "reactor": "Reacciona",
             "activations": "Activación",
-            "exposed": "Exportado"
+            "exposed": "Exportado",
+            "shredded": "Compartición añadida."
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
