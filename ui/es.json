@@ -170,7 +170,11 @@
         "roll_verb": "Tirar",
         "changelog": "Bitácora de cambios",
         "mech": "Mecha",
-        "pilotSkillTriggers": "Skill Triggers de Piloto"
+        "pilotSkillTriggers": "Skill Triggers de Piloto",
+        "a11y": {
+            "mainNavigation": "Navegación principal",
+            "toggleNavigation": "Activar la navegación"
+        }
     },
     "language": {
         "selectLanguage": "Idioma",
