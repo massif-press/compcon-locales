@@ -615,7 +615,8 @@
             "author": "Autor",
             "version": "Versión",
             "type": "Tipo",
-            "missing": "Faltan"
+            "missing": "Faltan",
+            "never": "Nunca"
         }
     },
     "gm": {
@@ -1050,7 +1051,8 @@
             "addDowntime": "Añadir Tiempo Apeado",
             "eidolons": "Eidolones",
             "clock": "Reloj",
-            "addBeat": "Añadir Beat"
+            "addBeat": "Añadir Beat",
+            "contentPack": "Paquetes de Contenido"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
