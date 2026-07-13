@@ -408,7 +408,8 @@
             "neverAutoDelete": "eliminar automáticamente los datos marcados para la eliminación.",
             "cannotBeUndone": "deshacerse.",
             "deleteAllUserData": "Eliminar todos los datos de usuario",
-            "clearAllData": ""
+            "clearAllData": "",
+            "deleteAllConfirm": "TODOS"
         },
         "deletedItems": {
             "deletedOn": "Eliminado en",
@@ -500,7 +501,8 @@
             "trace": "Rastro",
             "copiedToClipboard": "Registro copiado al portapapeles",
             "noData": "@:{'common.noData'}",
-            "caller": "Llamado por"
+            "caller": "Llamado por",
+            "clearLog": "Borrar registros"
         },
         "packConfig": {
             "title": "Configuraciones de Contenido",
