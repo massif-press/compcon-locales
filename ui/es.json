@@ -1751,6 +1751,9 @@
             "rollAllDiceTakingThe": "Lanza todos los dados, tomando el mejor resultado",
             "reroll1s": "Re-lanzar 1s",
             "pilotGrit": "Grit del Piloto"
+        },
+        "subtitles": {
+            "featureInDevelopmentV32": "Característica en desarrollo (v3.1)"
         }
     },
     "mainMenu": {
