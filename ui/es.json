@@ -2120,7 +2120,10 @@
             "manualOnly": "Sólo de forma manual",
             "last10": "Último: %1",
             "last5": "Últimos 6",
-            "pilotGroups": "Grupo de Pilotos"
+            "pilotGroups": "Grupo de Pilotos",
+            "narrativeElement": "Elemento Narrativo",
+            "narrativeElements": "Elementos Narrativos",
+            "licenseLevel": "Nivel de Licencia {n}"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
