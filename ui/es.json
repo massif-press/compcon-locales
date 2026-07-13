@@ -2130,7 +2130,10 @@
             "lastSync": "Last Sync",
             "lastModified": "Última modificación",
             "encounterData": "Datos de Encuentro",
-            "lastUpdated": "Última actualización"
+            "lastUpdated": "Última actualización",
+            "collection": "Colección",
+            "author": "Autor",
+            "source": "Fuente"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
