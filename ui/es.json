@@ -173,8 +173,12 @@
         "pilotSkillTriggers": "Skill Triggers de Piloto",
         "a11y": {
             "mainNavigation": "Navegación principal",
-            "toggleNavigation": "Activar la navegación"
-        }
+            "toggleNavigation": "Alternar el panel de navegación"
+        },
+        "callsign": "Apodo",
+        "overshield": "Escudo Temporal",
+        "overview": "Descripción General",
+        "techAttack": "Tecno Ataque"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -209,8 +213,12 @@
         "newSitrep": "Nuevo Sitrep",
         "newSkillTrigger": "Nuevo Skill Trigger",
         "titles": {
-            "titlePage": "Portada",
+            "titlePage": "Página Titular",
             "contributors": "Contribuidores"
+        },
+        "subtitles": {
+            "aStandardEnvironmentWithNoSpecial": "Un entorno estándar sin condiciones especiales de combate",
+            "aSimpleAffairWithTwoSides": "Un duelo simple, con dos bandos enfrentados entre si hasta que uno de ellos es quebrado o destruido."
         }
     },
     "nav": {
@@ -306,8 +314,8 @@
             "anonymousPatron": "Mecenas Anónimo",
             "graphicDesignBy": "Diseño gráfico por",
             "additionalArtBy": "Arte adicional por",
-            "tier": "@:{'common.tier'}",
-            "support": "Ayuda"
+            "tier": "{patreonTierName} Rango",
+            "support": "apoya"
         },
         "achievements": {
             "unlocked": "Desbloqueado",
@@ -446,7 +454,8 @@
             "successText": "Paquetes de contenido instalados con éxito",
             "upgradeFromTo": "Actualización de {from} a {to}",
             "noChange": "No hay cambio ({from} a {to})",
-            "willUpgradeTo": "Se actualizará a v.{version}"
+            "willUpgradeTo": "Se actualizará a v.{version}",
+            "patchStringCount": "{count} cadenas"
         },
         "packsDirectory": {
             "officialContent": "Oficial",
@@ -470,8 +479,12 @@
             "changelog": "@:{'common.changelog'}",
             "noDescription": "@:{'ui.widget.noDescription'}",
             "none": "@:{'common.none'}",
-            "patchByAuthor": "translator",
-            "removePatch": "Eliminar parche"
+            "patchByAuthor": "por {translator}",
+            "removePatch": "Quitar parche",
+            "languagePatches": "Parches de Idioma",
+            "languagePatchesTooltip": "Traducciones comunitarias instaladas para este paquete de contenido. Aplicadas cuando su idioma es seleccionado.",
+            "patchUnknownAuthor": "Traductor desconocido",
+            "patchOutdated": "Esta traducción fue escrita para la versión {version} del paquete y puede ser obsoleta."
         },
         "communityTable": {
             "noData": "No hay paquetes de contenido disponibles.",
@@ -504,8 +517,10 @@
             "copiedToClipboard": "Registro copiado al portapapeles",
             "noData": "@:{'common.noData'}",
             "caller": "Llamado por",
-            "clearLog": "Borrar registros",
-            "session": "Sesión"
+            "clearLog": "Limpiar Bitácora",
+            "session": "Sesión",
+            "exportThisSession": "Exportar Bitácora de Esta Sesión",
+            "exportAllSessions": "Exportar Bitácora de Todas las Sesiones"
         },
         "packConfig": {
             "title": "Configuraciones de Contenido",
@@ -602,21 +617,26 @@
             "supportCompconOnPatreon": "Apoyar a @:{'common.appName'} en Patreon"
         },
         "titles": {
-            "latestVersion": "Versión más reciente",
-            "installedVersion": "Versión instalada",
+            "latestVersion": "Versión Más Reciente",
+            "installedVersion": "Versión Instalada",
             "backedUp": "Respaldado",
-            "x1Week": "Una semana",
-            "x2Weeks": "5 Semanas",
-            "x1Month": "Un mes",
-            "x3Months": "3 meses",
-            "x6Months": "6 meses",
-            "x1Year": "Un año",
+            "x1Week": "1 Semana",
+            "x2Weeks": "2 Semanas",
+            "x1Month": "1 Mes",
+            "x3Months": "3 Meses",
+            "x6Months": "6 Meses",
+            "x1Year": "1 Año",
             "active": "Activo",
             "author": "Autor",
             "version": "Versión",
             "type": "Tipo",
-            "missing": "Faltan",
+            "missing": "Faltantes",
             "never": "Nunca"
+        },
+        "fields": {
+            "interV3Default": "Inter (por defecto en v3)",
+            "notoSansV3Alt": "Noto Sans (alternativa en v3 )",
+            "helveticaV2Default": "Helvetica (por defecto en v2 )"
         }
     },
     "gm": {
@@ -1048,23 +1068,26 @@
             "organizeEncounters": "ordenar encuentros",
             "selectTemplate": "seleccionar plantilla",
             "selectNpcClass": "seleccionar clase de PNJ",
-            "addDowntime": "Añadir Tiempo Apeado",
+            "addDowntime": "Añadir Interludio",
             "eidolons": "Eidolones",
             "clock": "Reloj",
             "addBeat": "Añadir Beat",
-            "contentPack": "Paquetes de Contenido",
-            "gmLabels": "Mis etiquetas",
+            "contentPack": "Paquete de Contenido",
+            "gmLabels": "Etiquetas DJ",
             "role": "Rol",
             "folder": "Carpeta",
-            "shards": "Fragmento",
+            "shards": "Fragmentos",
             "npcRoster": "Listado de PNJ",
             "encounterEditor": "Editor de Encuentro",
             "title": "Título",
             "pronouns": "Pronombres",
             "class": "Clase",
             "layers": "Capas",
-            "tag": "Etiqueta",
-            "templates": "Plantillas"
+            "tag": "Descriptor",
+            "templates": "Plantillas",
+            "gmToolkit": "Herramientas de DJ",
+            "campaignEditor": "Editor de Campaña",
+            "narrativeItemManager": "Gestor de Artículo Narrativo"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
@@ -1074,7 +1097,11 @@
             "addANewEmptyBeat": "Añade un nuevo Pulso bajo esta sección. Un Pulso es una sección para un evento o momento importante en la historia.",
             "addANewEmptyMission": "Añade una nueva Misión vacía bajo esta página. Una Misión contiene objetivos y metas específicas que pueden ser completadas dentro de un periodo de tiempo discreto, y típicamente contiene Combates.",
             "addANewEmptyCombat": "Añade un Combate nuevo vacío bajo esta página. Un Combate contiene Encuentros, así como también directrices para DJ, detalles narrativos pertinentes a la batalla, y resultados potenciales.",
-            "addANewEmptyDowntime": "Añade un nuevo Downtime vacío bajo esta página. Downtime es el espacio narrativo entre misiones, donde la acción momento a momento no importa tanto y el juego de roles importa mucho más."
+            "addANewEmptyDowntime": "Añade un nuevo Downtime vacío bajo esta página. Downtime es el espacio narrativo entre misiones, donde la acción momento a momento no importa tanto y el juego de roles importa mucho más.",
+            "createModifyAndBrowseLancerCampaigns": "Crear, modificar, y navegar campañas LANCER (v3.1)",
+            "manageNonPlayerCombatUnits": "Gestionar unidades de combate no-jugadoras",
+            "manageCharactersLocationsAndFactions": "Gestionar personajes, locaciones y facciones",
+            "createCombatEncounters": "Crear encuentros de combate"
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Objetos no-personaje (tales como artículos del terreno) que pueden ser monitoreados en encuentros de combate."
@@ -1082,10 +1109,14 @@
         "tooltips": {
             "changeTierAndAdjustEdited": "Cambiar grado y ajustar estadísticas editadas por el mismo monto al de los cambios de estadísticas por defecto.",
             "changeTierAndKeepEdited": "Cambiar grado y mantener los valores de estadísticas editados, incluso si estas caen por debajo de los valores por defecto del nuevo grado.",
-            "changeTierAndDiscardAll": "Cambiar grado y descartar todos los valores editados de estadísticas."
+            "changeTierAndDiscardAll": "Cambiar grado y descartar todos los valores editados de estadísticas.",
+            "thisWillDeleteThisNpcFrom": "Esto eliminará este PNJ de su lista de PNJ. PNJs de este tipo agregados a Encuentros no serán afectados. ¿Está seguro?",
+            "convertingThisItemToLocalData": "Convertir este artículo a datos locales permitirá edición local pero quitará su enlace remoto a la\n      cuenta de nube del autor, y prevendrá recepción de cualquier actualización futura. Para re-habilitar\n      sincronización remota, tendrá que re-importar este artículo vía código de compartir.",
+            "confirmDuplicationOfThisNpc": "Confirmar duplicación de este PNJ",
+            "thisWillDeleteThisEncounterFrom": "Esto eliminará este Encuentro de su biblioteca. ¿Está seguro?"
         },
         "a11y": {
-            "dragToReorder": "Arrastrar para reordenar"
+            "dragToReorder": "Arrastre para reordenar"
         }
     },
     "active": {
@@ -1591,7 +1622,8 @@
         },
         "jockey": {
             "available": "Acciones Disponibles de Jockey",
-            "select": "Seleccione una Acción de Jockey"
+            "select": "Seleccione una Acción de Jockey",
+            "jockey": "Cabalgar"
         },
         "barrage": {
             "selectWeapon": "seleccionar arma de barrage",
@@ -1715,15 +1747,31 @@
             "burn": "Abrasar",
             "downAndOut": "Caído y Fuera",
             "repairCap": "Lim. Reparaciones",
-            "repairCapacity": "Capacidad de reparación",
-            "items": "Elementos",
-            "round": "Redondo",
-            "observer": "SERVIDOR",
+            "repairCapacity": "Capacidad de Reparación",
+            "items": "Artículos",
+            "round": "Ronda",
+            "observer": "OBSERVADOR",
             "pilot": "Piloto",
-            "reactor": "Reacciona",
-            "activations": "Activación",
-            "exposed": "Exportado",
-            "shredded": "Compartición añadida."
+            "reactor": "",
+            "activations": "Activaciones",
+            "exposed": "Expuesto",
+            "shredded": "Desgarrado",
+            "gameMaster": "DIRECTOR DEL JUEGO",
+            "activeCharacterSheets": "Hojas de Personaje Activas",
+            "joinAnOnlineTable": "Unirse a Mesa En Línea",
+            "localEncounters": "Encuentros Locales",
+            "localCampaigns": "Campañas Locales",
+            "hostAnOnlineTable": "Alojar una Mesa En Línea",
+            "spectatorMode": "Modo Espectador",
+            "campaignDisplay": "Mostrar Campaña",
+            "allPilots": "Todos los Pilotos",
+            "heatCapacity": "Capacidad de Calor",
+            "saveTarget": "Dificultad Salvación",
+            "hull": "Casco",
+            "size": "Tamaño",
+            "eDefense": "Defensa-E",
+            "grapple": "Presa",
+            "ram": "Embestir"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
@@ -1750,11 +1798,18 @@
             "exportsAPlainTextVersion2": "Exporta las estadísticas actuales del combatiente en versión texto plano.",
             "rollAllDiceTakingThe": "Lanza todos los dados, tomando el mejor resultado",
             "reroll1s": "Re-lanzar 1s",
-            "pilotGrit": "Grit del Piloto"
+            "pilotGrit": "Grit del Piloto",
+            "failedToImportSheetPleaseEnsure": "Fallo al importar hoja. Por favor asegúrese de que el archivo sea un JSON de hoja de personaje válido."
         },
         "subtitles": {
-            "featureInDevelopmentV32": "Característica en desarrollo (v3.1)",
-            "featureInDevelopmentV31": "Característica en desarrollo (v3.1)"
+            "featureInDevelopmentV32": "Característica en desarrollo (v3.2)",
+            "featureInDevelopmentV31": "Característica en desarrollo (v3.1)",
+            "inDevelopmentReleaseV32": "En Desarrollo (lanzamiento v3.2)",
+            "createManageAndRunActivePlayer": "Crear, gestionar, y ejecutar hojas de Personaje Jugador activas",
+            "resumeLast": "reanudar última",
+            "createManageAndRunLocalEncounters": "Crear, gestionar, y correr Encuentros locales para sus juegos Lancer",
+            "kineticExplosiveAndHeatDamageDoubled": "Daños cinético, explosivo, y calor doblados.",
+            "damageIgnoresArmorAndResistance": "Daño ignora armadura y resistencia."
         }
     },
     "mainMenu": {
@@ -2112,43 +2167,54 @@
             "youDoNotHaveAccess": "No tiene acceso a respaldos remotos.",
             "youDoNotHaveAccess2": "No tiene acceso a la herramienta para publicación de colección.",
             "compconCloudAccount": "Cuenta de Nube @:{'common.appName'}",
-            "latestVersion": "Versión más reciente",
-            "installedVersion": "Versión instalada",
-            "autoUpdate": "Actualización automática",
-            "contentCollection": "Recopilación de los contenidos",
-            "onStartup": "Al inicio",
-            "manualOnly": "Sólo de forma manual",
-            "last10": "Último: %1",
-            "last5": "Últimos 6",
-            "pilotGroups": "Grupo de Pilotos",
+            "latestVersion": "Versión Más Reciente",
+            "installedVersion": "Versión Instalada",
+            "autoUpdate": "Actualización Automática",
+            "contentCollection": "Colección de Contenido",
+            "onStartup": "Al Inicio",
+            "manualOnly": "Sólo Manualmente",
+            "last10": "Últimos 10",
+            "last5": "Últimos 5",
+            "pilotGroups": "Grupos de Piloto",
             "narrativeElement": "Elemento Narrativo",
             "narrativeElements": "Elementos Narrativos",
-            "licenseLevel": "Nivel de Licencia {n}",
+            "licenseLevel": "Nivel de Licencia",
             "lastUpdate": "Última Actualización",
-            "addItem": "Añadir un elemento",
-            "uploadDate": "Fecha de carga",
-            "lastSync": "Last Sync",
-            "lastModified": "Última modificación",
+            "addItem": "Añadir Artículo",
+            "uploadDate": "Fecha de Carga",
+            "lastSync": "Última Sincronía",
+            "lastModified": "Última Modificación",
             "encounterData": "Datos de Encuentro",
-            "lastUpdated": "Última actualización",
+            "lastUpdated": "Última Actualización",
             "collection": "Colección",
             "author": "Autor",
-            "source": "Fuente",
+            "source": "Origen",
             "size": "Tamaño",
             "preserve": "Conservar",
-            "off": "Desactivado",
+            "off": "Apagado",
             "daily": "Diaria",
             "weekly": "Semanal",
             "monthly": "Mensual",
             "pilot": "Piloto",
-            "npc": "NPC",
+            "npc": "PNJ",
             "encounter": "Encuentro",
             "campaign": "Campaña",
             "pilots": "Pilotos",
-            "campaigns": "Campaña",
+            "campaigns": "Campañas",
             "role": "Rol",
-            "filename": "Nombre de archivo",
-            "free": "Libre"
+            "filename": "Nombre de Archivo",
+            "free": "Libre",
+            "keepAll": "Conservar Todo",
+            "last30": "Últimos 30",
+            "mostRecentOnly": "Únicamente Más Recientes",
+            "onAppStart": "Al Iniciar Ap",
+            "lancerAndAbove": "Lancer (y superior)",
+            "onOpenClose": "Al Abrir & Cerrar",
+            "every30Minutes": "Cada 30 Minutos",
+            "every60Minutes": "Cada 60 Minutos",
+            "pilotData": "Datos del Piloto",
+            "npcData": "Datos PNJ",
+            "narrativeData": "Datos Narrativos"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
@@ -2159,7 +2225,7 @@
             "controlsWhichDataTypesAre": "Controla cuales tipos de datos son sincronizados con la nube.",
             "yourUniqueAccountIdThis": "Su ID de cuenta único. Este es usado par identificar su cuenta en la nube y puede ser solicitado para propósitos de resolución de errores.",
             "usernameOptional": "Este es un campo <b>opcional</b> que puede usar para dar un nombre personalizado para su cuenta. Este nombre de usuario <b>va a</b> ser visible a otros usuarios en modo activo y cuando compartan datos.",
-            "signInFailed": "falló el inicio"
+            "signInFailed": "Ingreso fallido"
         },
         "subtitles": {
             "mergeAndSyncThisItem": "Combinar y sincronizar este artículo inmediatamente.",
@@ -2168,7 +2234,13 @@
             "removeTheRemoteLinkAnd": "Quitar el enlace remoto y mantener los datos localmente.",
             "pushesAllLocalDataTo": "Forzar todos los datos locales a la nube incondicionalmente, restableciendo campos de marca de tiempo al de ahora. Usar tras una restauración o importación.",
             "pullsAllCloudDataAnd": "Obtiene todos los datos de la nube y los combina con los datos locales. Los campos locales con marcas de tiempo más recientes son preservados.",
-            "permanentlyRemovesItemsFlaggedFor": "Borra permanentemente artículos marcados para eliminación."
+            "permanentlyRemovesItemsFlaggedFor": "Borra permanentemente artículos marcados para eliminación.",
+            "doNotAutomaticallyDeleteAnyArchives": "No eliminar automáticamente ningún archivo.",
+            "keepThe30NewestArchives": "Mantener los 30 archivos más nuevos.",
+            "keepThe10NewestArchives": "Mantener los 10 archivos más nuevos.",
+            "keepThe5NewestArchives": "Mantener los 5 archivos más nuevos.",
+            "keepOnlyTheMostRecentArchive": "Mantener únicamente el archivo más reciente.",
+            "dataIsOnlySyncedWhenYou": "Los datos se sincronizan únicamente cuando pulsa Sincronizar."
         },
         "codeEntry": {
             "title": "Ingrese Código de Desbloqueo",
