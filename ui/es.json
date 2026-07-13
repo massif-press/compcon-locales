@@ -207,7 +207,10 @@
         "newEidolon": "Nuevo Eidolon",
         "newDoodad": "Nuevo Doodad",
         "newSitrep": "Nuevo Sitrep",
-        "newSkillTrigger": "Nuevo Skill Trigger"
+        "newSkillTrigger": "Nuevo Skill Trigger",
+        "titles": {
+            "titlePage": "Portada"
+        }
     },
     "nav": {
         "contentManager": {
