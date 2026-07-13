@@ -1715,7 +1715,8 @@
             "burn": "Abrasar",
             "downAndOut": "Caído y Fuera",
             "repairCap": "Lim. Reparaciones",
-            "repairCapacity": "Capacidad de reparación"
+            "repairCapacity": "Capacidad de reparación",
+            "items": "Elementos"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
