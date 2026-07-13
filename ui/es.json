@@ -610,7 +610,12 @@
             "x1Month": "Un mes",
             "x3Months": "3 meses",
             "x6Months": "6 meses",
-            "x1Year": "Un año"
+            "x1Year": "Un año",
+            "active": "Activo",
+            "author": "Autor",
+            "version": "Versión",
+            "type": "Tipo",
+            "missing": "Faltan"
         }
     },
     "gm": {
