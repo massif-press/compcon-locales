@@ -2115,7 +2115,8 @@
             "latestVersion": "Versión más reciente",
             "installedVersion": "Versión instalada",
             "autoUpdate": "Actualización automática",
-            "contentCollection": "Recopilación de los contenidos"
+            "contentCollection": "Recopilación de los contenidos",
+            "onStartup": "Al inicio"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
