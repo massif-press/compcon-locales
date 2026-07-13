@@ -1053,7 +1053,10 @@
             "clock": "Reloj",
             "addBeat": "Añadir Beat",
             "contentPack": "Paquetes de Contenido",
-            "gmLabels": "Mis etiquetas"
+            "gmLabels": "Mis etiquetas",
+            "role": "Rol",
+            "folder": "Carpeta",
+            "shards": "Fragmento"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
