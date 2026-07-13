@@ -1063,7 +1063,8 @@
             "pronouns": "Pronombres",
             "class": "Clase",
             "layers": "Capas",
-            "tag": "Etiqueta"
+            "tag": "Etiqueta",
+            "templates": "Plantillas"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
@@ -1082,6 +1083,9 @@
             "changeTierAndAdjustEdited": "Cambiar grado y ajustar estadísticas editadas por el mismo monto al de los cambios de estadísticas por defecto.",
             "changeTierAndKeepEdited": "Cambiar grado y mantener los valores de estadísticas editados, incluso si estas caen por debajo de los valores por defecto del nuevo grado.",
             "changeTierAndDiscardAll": "Cambiar grado y descartar todos los valores editados de estadísticas."
+        },
+        "a11y": {
+            "dragToReorder": "Arrastrar para reordenar"
         }
     },
     "active": {
