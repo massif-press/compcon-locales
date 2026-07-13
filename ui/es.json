@@ -1714,7 +1714,8 @@
             "youHaveRemainingActions": "¡Tiene acciones restantes!",
             "burn": "Abrasar",
             "downAndOut": "Caído y Fuera",
-            "repairCap": "Lim. Reparaciones"
+            "repairCap": "Lim. Reparaciones",
+            "repairCapacity": "Capacidad de reparación"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
