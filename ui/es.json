@@ -2127,7 +2127,8 @@
             "lastUpdate": "Última Actualización",
             "addItem": "Añadir un elemento",
             "uploadDate": "Fecha de carga",
-            "lastSync": "Last Sync"
+            "lastSync": "Last Sync",
+            "lastModified": "Última modificación"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
