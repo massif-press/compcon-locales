@@ -2251,6 +2251,9 @@
             "npcSubTooltipOff": "Habilita descarga y acceso automático de actualización a los datos de PNJ del Libro Base bien sea enlazando su cuenta itch.io con una compra del Lancer Core Book, o bien ingresando la URL del código QR en la tapa de su copia del Lancer Core Book .",
             "npcsAddedViaItch": "Su cuente tiene acceso a los datos de NPC del Lancer Core Book. Este contenido fue añadido a su cuenta a través de una compra itch.io enlazada.",
             "npcsAddedViaCode": "Su cuenta tiene acceso a los datos de PNJ del Lancer Core Book . Este contenido fue añadido a su cuenta a través del enlace del código QR."
+        },
+        "a11y": {
+            "cancelAndClose": "Guardar y cerrar"
         }
     },
     "pm": {
