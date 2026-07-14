@@ -2623,7 +2623,8 @@
             "theCombatOperationAbilityRequisitionOn": "La Requisición Habilidad Operativa de Combate, con la aprobación del sistema de aprobación automatizado de solicitudes guiado por NHP, confiere privilegios de simulador UNI, holofield y materiales de entrenamiento senso-cortical, datos de telemetría del campo de batalla en clasificaciones debajo de GREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern licencias de material bélico.",
             "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes inconvenientes",
             "critical": "CRÍTICO",
-            "pilotCALLSIGNBlankOrInvalid": "PILOT CALLSIGN blank o invalid"
+            "pilotCALLSIGNBlankOrInvalid": "PILOT CALLSIGN blank o invalid",
+            "pilotNAMEBlankOrInvalid": "Nombre en blanco o inválido"
         },
         "link": {
             "bond": "Lazo",
