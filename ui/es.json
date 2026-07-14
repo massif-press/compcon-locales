@@ -2624,7 +2624,8 @@
             "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes inconvenientes",
             "critical": "CRÍTICO",
             "pilotCALLSIGNBlankOrInvalid": "PILOT CALLSIGN blank o invalid",
-            "pilotNAMEBlankOrInvalid": "Nombre en blanco o inválido"
+            "pilotNAMEBlankOrInvalid": "Nombre en blanco o inválido",
+            "pilotSKILLTRIGGERSMissingOrIncomplete": "PILOT SKILL TRIGGERS desaparecido o incompleto"
         },
         "link": {
             "bond": "Lazo",
