@@ -2622,7 +2622,8 @@
             "theRM4bPILOTSELFASSESSMENT3": "La RM-4b AUTO-EVALUACIÓN DE PILOTO (Talentos) cataloga las aptitudes de operación en combate auto-reportadas de un piloto individual y otorga privilegios de requisición para el tiempo de simulación, materiales de entrenamiento de senso-cortical y holofield , datos de telemetría del campo de batalla en clasificaciones inferiores GREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern licencias de material bélico.",
             "theCombatOperationAbilityRequisitionOn": "La Requisición Habilidad Operativa de Combate, con la aprobación del sistema de aprobación automatizado de solicitudes guiado por NHP, confiere privilegios de simulador UNI, holofield y materiales de entrenamiento senso-cortical, datos de telemetría del campo de batalla en clasificaciones debajo de GREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern licencias de material bélico.",
             "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes inconvenientes",
-            "critical": "CRÍTICO"
+            "critical": "CRÍTICO",
+            "pilotCALLSIGNBlankOrInvalid": "PILOT CALLSIGN blank o invalid"
         },
         "link": {
             "bond": "Lazo",
