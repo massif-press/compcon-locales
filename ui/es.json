@@ -2253,7 +2253,8 @@
             "npcsAddedViaCode": "Su cuenta tiene acceso a los datos de PNJ del Lancer Core Book . Este contenido fue añadido a su cuenta a través del enlace del código QR."
         },
         "a11y": {
-            "cancelAndClose": "Guardar y cerrar"
+            "cancelAndClose": "Guardar y cerrar",
+            "signIn": "Acceder"
         }
     },
     "pm": {
