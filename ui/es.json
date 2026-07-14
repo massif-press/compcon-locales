@@ -2598,7 +2598,9 @@
             "download": "Descargar",
             "startWith": "Comienza con",
             "efficiency": "Eficiencia",
-            "collapse": "achicar"
+            "collapse": "achicar",
+            "influence": "Influencia",
+            "notInCompendium": "Los siguientes {type} no están presentes en el compendio:"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
