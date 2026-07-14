@@ -573,7 +573,8 @@
             "patchByAuthor": "von {translator}",
             "patchUnknownAuthor": "Unbekannte:r Übersetzer:in",
             "patchOutdated": "Diese Übersetzung wurde für Paketversion {version} geschrieben und könnte veraltet sein.",
-            "removePatch": "Revision entfernen"
+            "removePatch": "Revision entfernen",
+            "languagePatches": "Sprachrevisionen"
         },
         "communityTable": {
             "noData": "Keine Inhaltspakete verfügbar.",
@@ -706,7 +707,8 @@
             "armorPiercing": "Panzerbrechend",
             "armorN": "{n} Panzerung",
             "totalDamage": "Gesamtschaden",
-            "applyClose": "Anwenden und schließen"
+            "applyClose": "Anwenden und schließen",
+            "defenderStatus": "Verteidigerstatus"
         },
         "common": {
             "currentlySelected": "Aktuell ausgewählt",
@@ -764,10 +766,10 @@
             "battlefieldTelemetry": "Schlachtfeldtelemetrie",
             "combatLogs": "Kampfprotokoll",
             "deleteArchivePrompt": "Dieses Archiv löschen?",
-            "devNoteReport": "Diese Funktion wird noch entwickelt. Einsatznachberichte werden in zukünftigen Builds erweitert.",
+            "devNoteReport": "Diese Funktion ist noch in Entwicklung. Einsatznachberichte werden in zukünftigen Builds erweitert.",
             "deleteArchiveDetail": "Dies wird das Archiv zur Löschung markieren. Es wird nicht mehr in dieser Liste angezeigt werden, sondern wird auf Basis Ihrer Aufbewahrungsoptionen im Optionsmenü dauerhaft gelöscht.",
             "noArchivedFoundFiltered": "Keine archivierten Gefechte mit \"{search}\" konnten gefunden werden",
-            "devNoteLogs": "Diese Funktion ist noch in der Entwicklung. Weitere Daten und Exportoptionen werden in zukünftigen Builds verfügbar sein."
+            "devNoteLogs": "Diese Funktion ist noch in Entwicklung. Weitere Daten und Exportoptionen werden in zukünftigen Builds verfügbar sein."
         },
         "encSummary": {
             "turnN": "(Zug {n})",
@@ -879,7 +881,8 @@
             "coverLabel": "{cover} Deckung",
             "activationsRemaining": "{n} Aktivierungen in dieser Runde verbleibend",
             "aiControl": "Mech unter KI-Kontrolle",
-            "selfDestructInitiated": "Selbstzerstörung eingeleitet"
+            "selfDestructInitiated": "Selbstzerstörung eingeleitet",
+            "forceDeploy": "Einsatz erzwingen"
         },
         "addRoster": {
             "addPc": "SC hinzufügen",
@@ -1047,7 +1050,13 @@
             "grapple": "Packen",
             "ram": "Rammen",
             "exposed": "Verwundbar",
-            "shredded": "Zerfetzt"
+            "shredded": "Zerfetzt",
+            "hostAnOnlineTable": "Onlinetisch hosten",
+            "spectatorMode": "Beobachtermodus",
+            "campaignDisplay": "Kampagnenanzeige",
+            "allPilots": "Alle Pilot:innen",
+            "heatCapacity": "Reaktorauslastung",
+            "repairCapacity": "Ersatzteilvermögen"
         },
         "sheetMgr": {
             "featureInDev": "Funktion in Entwicklung (v3.1)",
@@ -1208,7 +1217,9 @@
             "rollAllDiceTakingThe": "Alle Würfel werfen und das beste Ergebnis nehmen",
             "reroll1s": "1er neu würfeln",
             "thisWillAddACopy": "Dies wird eine Kopie diese:r Pilot:in Ihrem Gefecht hinzufügen. Falls die Urheber ihre Originaldaten aktualisieren, werden Sie diese Änderungen nicht erhalten.",
-            "reviewTheCombatLogAnd": "Prüfen Sie das Kampfprotokoll und die Schlachtfeldtelemetrie von diesem Bogen und speichern Sie es nach Wunsch im Verlauf Ihre:r Pilot:in."
+            "reviewTheCombatLogAnd": "Prüfen Sie das Kampfprotokoll und die Schlachtfeldtelemetrie von diesem Bogen und speichern Sie es nach Wunsch im Verlauf Ihre:r Pilot:in.",
+            "replaceTheThematicStatTrackers": "Ersetzt die thematischen Anzeigen für TP, Abwärme, etc. mit simpleren Zahlen.",
+            "failedToImportSheetPleaseEnsure": "Bogen konnte nicht importiert werden. Bitte stellen Sie sicher, dass die Datei ein gültiges JSON für Charakterbögen ist."
         },
         "campaignDialog": {
             "setCampaign": "Kampagne setzen"
@@ -1289,6 +1300,16 @@
             "mountedText": "{name} ist auf deren Mech aufgesessen.",
             "hiddenTitle": "Pilot:in versteckt",
             "disengagedTitle": "Pilot:in losgelöst"
+        },
+        "subtitles": {
+            "inDevelopmentReleaseV32": "In Entwicklung (Version V3.2)",
+            "createManageAndRunActivePlayer": "Erstellen, verwalten, und nutzen Sie aktive Spielercharakterbögen",
+            "resumeLast": "zurück zum Letzten",
+            "featureInDevelopmentV32": "Funktion in Entwicklung (V3.2)",
+            "createManageAndRunLocalEncounters": "Erstellen, verwalten, und nutzen Sie lokale Gefechte für Ihre Lancer-Spiele",
+            "featureInDevelopmentV31": "Funktion in Entwicklung (V3.1)",
+            "kineticExplosiveAndHeatDamageDoubled": "Kinetischer, explosiver, und Abwärme-Schaden wird verdoppelt.",
+            "damageIgnoresArmorAndResistance": "Schaden ignoriert Panzerung und Widerstand."
         }
     },
     "pm": {
@@ -1343,6 +1364,12 @@
             "currentlyEQUIPPED": "Aktuell ausgerüstet",
             "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Ausrüstungsautorisierung der Union-Waffenkammer: Rahmenausrüstung//Kampfsystem",
             "equipmentIDINVALIDORMISSING": "[ Ausrüstungs-ID fehlt oder ungültig ]"
+        },
+        "print": {
+            "onATTACK": "Bei Angriff"
+        },
+        "tooltips": {
+            "techAttack": "CYBERANGRIFF"
         }
     },
     "mainMenu": {
@@ -1460,7 +1487,11 @@
             "deleteCollectionWarning": "Das Löschen dieser Sammlung wird sie aus Ihren Lokal- und Clouddaten entfernen, und wird das Sammlungsarchiv aus dem Cloudspeicher löschen. Nutzer:innen werden diese Inhalte nicht weiter abonnieren können, und aktuelle Abonnent:innen werden Sammlungsdaten nicht aktualisieren können. Es {willNot} Inhalte der Sammlung löschen, weder lokal noch in der Cloud, und weder für Sie noch für Abonnent:innen.",
             "willNotLabel": "wird nicht",
             "actionUndone": "Diese Handlung kann nicht rückgängig gemacht werden.",
-            "confirmDelete": "Sind Sie sicher, dass Sie diese Sammlung löschen wollen?"
+            "confirmDelete": "Sind Sie sicher, dass Sie diese Sammlung löschen wollen?",
+            "itemModified": "Dieses Element wurde lokal modifiziert und wird bei Veröffentlichung auf die neueste Version aktualisiert.",
+            "autoGenChangelog": "Automatisch dieses Änderungsprotokoll erstellen",
+            "viewFullChangelog": "Komplettes Änderungsprotokoll ansehen",
+            "collectionChangelogTitle": "Änderungsprotokoll von {name}"
         },
         "archive": {
             "pruneItems": "{count} Element stutzen | {count} Elemente stutzen",
@@ -1510,7 +1541,9 @@
             "deletePermanentlyDesc": "Dies wird dieses Element permanent aus dem Lokalspeicher entfernen. Falls das Element mit der Cloud synchronisiert war, wird es dort als gelöscht markiert werden.",
             "deleteImmediately": "Sofort löschen",
             "deleteImmediatelyDesc": "Dieses Element zu löschen wird es auch aus dem Cloudspeicher entfernen. Lokalkopien dieses Elements bleiben dadurch unangetastet.",
-            "deleteLocalData": "Lokaldaten löschen"
+            "deleteLocalData": "Lokaldaten löschen",
+            "deleteCloudData": "Clouddaten löschen",
+            "deleteCloudItem": "Cloud-Element löschen"
         },
         "dataUsage": {
             "resetMigrationTool": "Kontomigrations-Werkzeug zurücksetzen",
@@ -1676,6 +1709,105 @@
             "signIn": "Einloggen",
             "eMail": "Email",
             "password": "Passwort"
+        },
+        "fields": {
+            "updates": "Aktualisiert",
+            "doNotShowThisWarningAgain": "Diese Warnung nicht erneut anzeigen",
+            "autoBackupFrequency": "Häufigkeit automatischer Backups",
+            "itemLimit": "Elementlimit",
+            "filter": "Filter",
+            "showLocallyDeleted": "Lokal gelöschte anzeigen",
+            "deleteCloudAndMarkLocalAsDeleted": "Cloud löschen und Lokale als gelöscht markieren",
+            "itemTypes": "Elementtypen",
+            "oldPassword": "Altes Passwort",
+            "newPassword": "Neues Passwort",
+            "verificationCode": "Bestätigungscode",
+            "passwordResetCode": "Code zum Zurücksetzen des Passworts",
+            "deleteCloudDataOnlyKeep": "Nur Clouddaten löschen (Lokaldaten behalten)",
+            "deleteAccount": "Konto löschen",
+            "newEmail": "Neue Email-Adresse",
+            "confirmNewEmail": "Neue Email-Adresse bestätigen",
+            "emailAddress": "Email-Adresse"
+        },
+        "actions": {
+            "remoteBackups": "Rechnerferne Backups",
+            "dataViewer": "Datenanzeige",
+            "syncSettings": "Synchronisationseinstellungen",
+            "accountEmail": "Konto-Email",
+            "accountDetails": "Kontodetails",
+            "managePilots": "Pilot:innen verwalten",
+            "v2ImportsAwaitingResolution": "Auf Auflösung wartende V2-Importe"
+        },
+        "titles": {
+            "forceUpload": "Hochladen erzwingen",
+            "forceDownload": "Herunterladen erzwingen",
+            "convertToLocalData": "Zu Lokaldaten konvertieren",
+            "confirmDelete": "Löschung bestätigen",
+            "addNewSubscription": "Neues Abonnement hinzufügen",
+            "linkedMassifContent": "Verknüpfte Massif-Inhalte",
+            "membershipBenefits": "Mitgliedschaftsvorteile",
+            "removeDeletedItems": "Gelöschte Elemente entfernen",
+            "accountDeletion": "Kontolöschung",
+            "roster": "Liste",
+            "installCompconForReliableStorage": "@:{'common.appName'} für zuverlässige Speicherung installieren",
+            "storagePermissionRequired": "Speichererlaubnis wird benötigt!",
+            "youDoNotHaveAccess": "Sie haben keinen Zugriff auf rechnerferne Backups.",
+            "youDoNotHaveAccess2": "Sie haben keinen Zugriff auf das Werkzeug zur Veröffentlichung von Sammlungen.",
+            "compconCloudAccount": "@:{'common.appName'} Cloud-Konto",
+            "latestVersion": "Neueste Version",
+            "installedVersion": "Installierte Version",
+            "autoUpdate": "Automatisches Update",
+            "contentCollection": "Inhaltssammlung",
+            "onStartup": "Bei Startup",
+            "manualOnly": "Nur manuell",
+            "keepAll": "Alle behalten",
+            "last30": "Letze 30",
+            "last10": "Letzte 10",
+            "last5": "Letzte 5",
+            "mostRecentOnly": "Nur Neueste",
+            "onAppStart": "Bei Appstart",
+            "pilotGroups": "Pilot:innengruppen",
+            "narrativeElement": "Erzählelement",
+            "narrativeElements": "Erzählelemente",
+            "licenseLevel": "Lizenzlevel",
+            "lastUpdate": "Zuletzt aktualisiert",
+            "addItem": "Element hinzufügen",
+            "uploadDate": "Uploaddatum",
+            "lastSync": "Zuletzt synchronisiert",
+            "lastModified": "Zuletzt bearbeitet",
+            "lancerAndAbove": "Lancer (und darüber)",
+            "onOpenClose": "Bei Öffnen und Schließen",
+            "every30Minutes": "Alle 30 Minuten",
+            "every60Minutes": "Alle 60 Minuten",
+            "pilotData": "Pilot:innendaten",
+            "npcData": "NSC-Daten",
+            "encounterData": "Gefechtsdaten",
+            "narrativeData": "Erzähldaten",
+            "lastUpdated": "Zuletzt aktualisiert",
+            "lcp": "LCP",
+            "collection": "Sammlung",
+            "author": "Urheber:in",
+            "source": "Quelle",
+            "size": "Größe",
+            "preserve": "Bewahre",
+            "off": "Aus",
+            "daily": "Täglich",
+            "weekly": "Wöchentlich",
+            "monthly": "Monatlich",
+            "pilot": "Pilot:in",
+            "npc": "NSC",
+            "encounter": "Gefecht",
+            "campaign": "Kampagne",
+            "pilots": "Pilot:innen",
+            "campaigns": "Kampagnen",
+            "lcps": "LCPs",
+            "role": "Rolle",
+            "filename": "Dateiname"
+        },
+        "tooltips": {
+            "thisToolWillCaptureA": "Dieses Werkzeug wird einen Snapshot Ihrer lokalen @:{'common.appName'}-Daten erstellen und in einem Cloud-Archiv speichern. Sie können dies dann verwenden, um Ihre @:{'common.appName'}-Daten auf einen früheren Zustand zurückzusetzen. Diese Funktion ist nur für Unterstützer auf Patreon verfügbar.",
+            "thisIsAViewOf": "Dies ist eine Ansicht Ihrer @:{'common.appName'}-Daten, die sowohl in lokal als auch in der Cloud gespeichert sind. Sie können dieses Werkzeug nutzen, um den Status Ihrer Daten zu verwalten, und um Änderungen zwischen Ihrer Lokaldaten und der Cloud zu synchronisieren.",
+            "paidLcpContentRequiresA": "Bezahlte LCP-Inhalte müssen per itch.io verknüpft werden, damit sie automatisch aktualisiert werden können. Zum aktuellen Zeitpunkt werden nur von Massif veröffentlichte LCPs unterstützt."
         }
     },
     "gm": {
@@ -2041,7 +2173,10 @@
             "class": "Klasse",
             "layers": "Schichten",
             "tag": "Marke",
-            "templates": "Vorlage"
+            "templates": "Vorlage",
+            "gmLabels": "SL-Marken",
+            "role": "Rolle",
+            "folder": "Ordner"
         },
         "fields": {
             "selectDataFile": "Daten-Datei auswählen",
@@ -2176,10 +2311,26 @@
             "lancerCoreBook": "Lancer Core Book"
         },
         "fields": {
-            "fromContentPack": "Aus dem Inhaltspaket"
+            "fromContentPack": "Aus dem Inhaltspaket",
+            "attackType": "Angriffstyp"
         },
         "alt": {
             "packImage": "Paketbild"
+        },
+        "card": {
+            "weaponAttacks": "Diese Waffe kann {count} Angriffe auf einmal machen. Mehrfachangriffe dürfen auf dasselbe Ziel oder unterschiedliche Ziele gerichtet sein."
+        },
+        "combat": {
+            "noAttackRolled": "Kein Angriff gewürfelt",
+            "successfulAttack": "Erfolgreicher Angriff",
+            "failedAttack": "Fehlgeschlagener Angriff"
+        }
+    },
+    "enums": {
+        "attackType": {
+            "melee": "Nahkampf",
+            "ranged": "Fernkampf",
+            "tech": "Cyber"
         }
     }
 }
