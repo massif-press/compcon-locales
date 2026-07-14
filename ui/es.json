@@ -2625,7 +2625,8 @@
             "critical": "CRÍTICO",
             "pilotCALLSIGNBlankOrInvalid": "PILOT CALLSIGN blank o invalid",
             "pilotNAMEBlankOrInvalid": "Nombre en blanco o inválido",
-            "pilotSKILLTRIGGERSMissingOrIncomplete": "PILOT SKILL TRIGGERS desaparecido o incompleto"
+            "pilotSKILLTRIGGERSMissingOrIncomplete": "PILOT SKILL TRIGGERS desaparecido o incompleto",
+            "pilotTALENTSMissingOrIncomplete": "PILOT TALENTs missing or incomplete"
         },
         "link": {
             "bond": "Lazo",
