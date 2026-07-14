@@ -2627,7 +2627,8 @@
             "pilotNAMEBlankOrInvalid": "Nombre en blanco o inválido",
             "pilotSKILLTRIGGERSMissingOrIncomplete": "PILOT SKILL TRIGGERS desaparecido o incompleto",
             "pilotTALENTSMissingOrIncomplete": "PILOT TALENTs missing or incomplete",
-            "pilotMECHSKILLSMissingOrIncomplete": "PILOT MECH SKILLS desaparecido o incompleto"
+            "pilotMECHSKILLSMissingOrIncomplete": "PILOT MECH SKILLS desaparecido o incompleto",
+            "pilotLICENSEDATAMissingOrIncomplete": "PILOT LICENSE DATA missing or incomplete"
         },
         "link": {
             "bond": "Lazo",
