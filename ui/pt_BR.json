@@ -178,7 +178,8 @@
         "alert": "Alerta",
         "ok": "OK",
         "a11y": {
-            "mainNavigation": "Menu Principal"
+            "mainNavigation": "Menu Principal",
+            "toggleNavigation": "Alternar painel de navegação"
         }
     },
     "print": {
