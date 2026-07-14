@@ -14,5 +14,17 @@
     "act_dismount.terse": "Salir de tu mech",
     "act_eject.detail": "También puedes EJECTAR como acción adicional, volando 6 espacios en la dirección que escojas; pero, este es un sistema de un solo uso para emergencias - deja tu mecha IMPAIRED. Tú mecha se queda IMPAIRED y tú no puedes EJECTAR de nuevo hasta tu próxima REPARACIÓN COMPLETA.",
     "act_eject.name": "Ejectar",
-    "act_eject.terse": "Ejectar de tu mecha, volando 6 espacios en la dirección que escojas."
+    "act_eject.terse": "Ejectar de tu mecha, volando 6 espacios en la dirección que escojas.",
+    "act_ace_supersonic_spinup.detail": "Como acción rápida en su turno, puede revolucionar tus propulsores. Si terminas tu turno volando, puede nominar un personaje dentro de un Rango igual a tu velocidad y dentro de tu línea de visión, y obtener la reacción Supersónico.",
+    "act_barrage.terse": "Ataca con dos armas, o con una sola arma SUPERPESADA",
+    "act_bolster.name": "Cuando usas REFUERZO, tú usas el formidable poder de procesaciomento de tu mecha para mejorar los sistemas de otro personaje. Para usar REFUERZO, elige a un personaje dentro de SENSORES. Este recibe +2 de Precisión en su siguiente tirada de destreza de prueba o salvación entre ahora y el final de su siguiente turno. Los personajes solo se pueden beneficiar de un REFUERZO al mismo tiempo.",
+    "act_boost.detail": "Cuando usas ACELERAR, te mueves desde mínimo un espacio, hasta tu VELOCIDAD. Esto permite que hagas un movimiento extra, encima de tu movimiento estándar. Ciertos talentos y sistemas solo pueden ser usados al ACELERAR, no cuando usas tu movimiento estándar.",
+    "act_boost.name": "Acelerar",
+    "act_boot_up.detail": "Puedes ARRANCAR un mecha que estés piloteando como una acción completa, limpiando APAGADO y restaurando tu mecha a un estado encendido.",
+    "act_boot_up.terse": "Enciende tu mecha de Apagado.",
+    "act_brace.detail": "Cuentas como teniendo RESSISTENCIA a todo el daño, abraso, y calor del ataque gatillante, y hasta el findal de tu siguiente turno, todos los otros ataques contra son hechoa con +1 de dificultad. Debido al estrés de prepararse, no puedes tomar reacciones hasta el final de tu siguiente turno y en ese turno, solo puedes tomar una acción rápida - no puedes hacer SOBRECARGA, moverte normalmente, tomar acciones completas o acciones gratuitas.",
+    "act_brace.name": "Afianzar",
+    "act_brace.terse": "Afianza tu mecha para el impacto, reduciendo daño al costo de las acciones de tu siguiente turno.",
+    "act_ace_supersonic_spinup.name": "Revolucionar Propulsores",
+    "act_boot_up.name": "Arrancar"
 }

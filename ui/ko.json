@@ -89,20 +89,94 @@
         "changelog": "변경사항",
         "hidden": "숨김",
         "core": "코어",
-        "restore": "복구"
+        "restore": "복구",
+        "weapon": "무기",
+        "frame": "프레임",
+        "help": "도움말",
+        "cloudAccount": "",
+        "npcs": "NPC",
+        "overcharge": "과부하",
+        "player": "플레이어",
+        "settings": "설정",
+        "objective": "목표",
+        "created": "생성됨",
+        "detail": "상세",
+        "effect": "효과",
+        "lcpDirectory": "LCP 디렉터리",
+        "updateAll": "모두 업데이트",
+        "clearAllData": "모든 데이터 지우기",
+        "licenses": "라이선스",
+        "customItemName": "커스텀 아이템 이름",
+        "about": "소개",
+        "deletePermanently": "영구 삭제",
+        "deleteItemsPermanently": "이 아이템을 영구 삭제",
+        "details": "상세",
+        "overview": "개요",
+        "syncNow": "지금 동기화",
+        "alert": "경고",
+        "ok": "OK",
+        "tables": "굴림표"
     },
     "gm": {
         "fields": {
             "authors": "작성자"
         },
         "campaign": {
-            "patch": "패치"
+            "patch": "패치",
+            "jsonFile": "JSON 파일",
+            "latestVersion": "최신 버전",
+            "major": "주요",
+            "minor": "부차"
+        },
+        "filter": {
+            "filters": "필터",
+            "showAll": "모두 보이기",
+            "hideAll": "모두 숨기기",
+            "clearAllFilters": "필터 비우기"
+        },
+        "noItem": {
+            "noItemSelected": "선택한 아이템 없음"
+        },
+        "narrative": {
+            "clocks": "시계"
+        },
+        "sitrep": {
+            "myPresets": "내 프리셋",
+            "savePreset": "프리셋 저장",
+            "presets": "프리셋"
+        },
+        "encPrint": {
+            "pcsAllies": "PC/아군"
+        },
+        "npcTemplate": {
+            "noTemplates": "템플릿 없음",
+            "editTemplates": "NPC 템플릿 편집",
+            "selectNpcTemplate": "NPC 템플릿 선택"
+        },
+        "npcBuilder": {
+            "templates": "템플릿"
+        },
+        "npcFeatures": {
+            "saveConfig": "설정 저장"
+        },
+        "pageContent": {
+            "palette": "팔레트",
+            "deleteItemConfirm": "이 항목을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+        },
+        "combatant": {
+            "clickToEdit": "편집하려면 클릭하세요."
+        },
+        "encounterIndex": {
+            "addFolder": "폴더 추가"
         }
     },
     "language": {
         "selectLanguage": "언어",
         "experimentalNote": "영어 이외의 번역은 커뮤니티에 의해 이루어지는 중입니다. 몇몇 텍스트는 번역되지 않았거나 불완전할 수 있습니다.",
-        "pctTransComplete": "{pct}% 번역됨"
+        "pctTransComplete": "{pct}% 번역됨",
+        "components": {
+            "lancer-data": "컴펜디움"
+        }
     },
     "classes": {
         "newCampaign": "새 캠페인",
@@ -180,7 +254,7 @@
             "frameSuffix": "{type} 프레임"
         },
         "campaign": {
-            "recommendedLicenseLevel": "권장 라이센스 레벨",
+            "recommendedLicenseLevel": "권장 라이선스 레벨",
             "sortByTitle": "제목에 따라 정렬",
             "addCampaign": "캠페인 추가"
         },
@@ -199,7 +273,63 @@
     "nav": {
         "packsDirectory": {
             "communityContent": "@:{'common.gameName'} 커뮤니티 컨텐츠",
-            "communityContentTitle": "@:{'common.gameName'} 커뮤니티 컨텐츠 팩"
+            "communityContentTitle": "@:{'common.gameName'} 커뮤니티 컨텐츠 팩",
+            "clickHere": "여기를 클릭하세요"
+        },
+        "contentManager": {
+            "refreshContent": "새로 고침"
+        },
+        "roster": {
+            "newPilot": "새 파일럿"
+        },
+        "settings": {
+            "importData": "데이터 가져오기"
+        },
+        "v2Import": {
+            "importAll": "모두 가져오기"
+        },
+        "nav": {
+            "pilotManagement": "파일럿 관리",
+            "achievements": "업적",
+            "help": "도움말"
+        },
+        "help": {
+            "faq": "자주 묻는 질문",
+            "reportBug": "버그 신고"
+        },
+        "achievements": {
+            "common": "일반",
+            "legendary": "전설",
+            "locked": "잠김",
+            "rarity": "희귀도"
+        },
+        "settingsPage": {
+            "theme": "테마",
+            "font": "글꼴",
+            "errorReporting": "오류 보고",
+            "errorReportingPrefix": "오류 보고"
+        },
+        "log": {
+            "error": "오류"
+        },
+        "packInstall": {
+            "install": "설치",
+            "success": "성공"
+        },
+        "communityTable": {
+            "currentVersion": "현재 버전"
+        },
+        "search": {
+            "searchResults": "검색결과",
+            "recentSearches": "최근 검색"
+        },
+        "achievementItem": {
+            "unlockedLabel": "해금됨"
+        },
+        "titles": {
+            "latestVersion": "최신 버전",
+            "installedVersion": "설치된 버전",
+            "version": "버전"
         }
     },
     "stats": {
@@ -228,7 +358,7 @@
     "ui": {
         "fields": {
             "size": "크기",
-            "license": "라이센스"
+            "license": "라이선스"
         },
         "pwa": {
             "updateAvailable": "@:{'common.appName'}의 새로운 버전이 있습니다.",

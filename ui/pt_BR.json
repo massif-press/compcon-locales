@@ -178,7 +178,8 @@
         "alert": "Alerta",
         "ok": "OK",
         "a11y": {
-            "mainNavigation": "Menu Principal"
+            "mainNavigation": "Menu Principal",
+            "toggleNavigation": "Alternar painel de navegação"
         }
     },
     "print": {
@@ -415,7 +416,7 @@
             "lancerBy": "@:{'common.gameName'} by",
             "with": "Com",
             "graphicDesignBy": "Design Gráfico por",
-            "tier": "Ranque",
+            "tier": "{patreonTierName} Patamar",
             "patronThanks": "O desenvolvimento contínuo do @:{'common.appName'} não seria possível sem o generoso",
             "supportOf": "de",
             "compconBy": "@:{'common.appName'} Por",
@@ -3423,7 +3424,8 @@
             "efficiency": "Eficiência",
             "influence": "Influência",
             "collapse": "recolher",
-            "notInCompendium": "Os seguintes {type} não estão presentes no compêndio"
+            "notInCompendium": "Os seguintes {type} não estão presentes no compêndio",
+            "coreBonusAvailable": "{count} {mf} Bônus de Núcleo disponível | {count} {mf} Bônus de Núcleo disponíveis"
         },
         "shared": {
             "critical": "Crítico",

@@ -170,7 +170,15 @@
         "roll_verb": "Tirar",
         "changelog": "Bitácora de cambios",
         "mech": "Mecha",
-        "pilotSkillTriggers": "Skill Triggers de Piloto"
+        "pilotSkillTriggers": "Detonantes de Piloto",
+        "a11y": {
+            "mainNavigation": "Navegación principal",
+            "toggleNavigation": "Alternar el panel de navegación"
+        },
+        "callsign": "Apodo",
+        "overshield": "Escudo Temporal",
+        "overview": "Descripción General",
+        "techAttack": "Tecno Ataque"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -203,7 +211,15 @@
         "newEidolon": "Nuevo Eidolon",
         "newDoodad": "Nuevo Doodad",
         "newSitrep": "Nuevo Sitrep",
-        "newSkillTrigger": "Nuevo Skill Trigger"
+        "newSkillTrigger": "Nuevo Detonante",
+        "titles": {
+            "titlePage": "Página Titular",
+            "contributors": "Contribuidores"
+        },
+        "subtitles": {
+            "aStandardEnvironmentWithNoSpecial": "Un entorno estándar sin condiciones especiales de combate",
+            "aSimpleAffairWithTwoSides": "Un duelo simple, con dos bandos enfrentados entre si hasta que uno de ellos es quebrado o destruido."
+        }
     },
     "nav": {
         "contentManager": {
@@ -298,7 +314,8 @@
             "anonymousPatron": "Mecenas Anónimo",
             "graphicDesignBy": "Diseño gráfico por",
             "additionalArtBy": "Arte adicional por",
-            "tier": "@:{'common.tier'}"
+            "tier": "{patreonTierName} Rango",
+            "support": "apoya"
         },
         "achievements": {
             "unlocked": "Desbloqueado",
@@ -399,7 +416,8 @@
             "neverAutoDelete": "eliminar automáticamente los datos marcados para la eliminación.",
             "cannotBeUndone": "deshacerse.",
             "deleteAllUserData": "Eliminar todos los datos de usuario",
-            "clearAllData": ""
+            "clearAllData": "",
+            "deleteAllConfirm": "TODOS"
         },
         "deletedItems": {
             "deletedOn": "Eliminado en",
@@ -436,7 +454,8 @@
             "successText": "Paquetes de contenido instalados con éxito",
             "upgradeFromTo": "Actualización de {from} a {to}",
             "noChange": "No hay cambio ({from} a {to})",
-            "willUpgradeTo": "Se actualizará a v.{version}"
+            "willUpgradeTo": "Se actualizará a v.{version}",
+            "patchStringCount": "{count} cadenas"
         },
         "packsDirectory": {
             "officialContent": "Oficial",
@@ -459,7 +478,13 @@
             "contentHeading": "Contenido",
             "changelog": "@:{'common.changelog'}",
             "noDescription": "@:{'ui.widget.noDescription'}",
-            "none": "@:{'common.none'}"
+            "none": "@:{'common.none'}",
+            "patchByAuthor": "por {translator}",
+            "removePatch": "Quitar parche",
+            "languagePatches": "Parches de Idioma",
+            "languagePatchesTooltip": "Traducciones comunitarias instaladas para este paquete de contenido. Aplicadas cuando su idioma es seleccionado.",
+            "patchUnknownAuthor": "Traductor desconocido",
+            "patchOutdated": "Esta traducción fue escrita para la versión {version} del paquete y puede ser obsoleta."
         },
         "communityTable": {
             "noData": "No hay paquetes de contenido disponibles.",
@@ -491,7 +516,11 @@
             "trace": "Rastro",
             "copiedToClipboard": "Registro copiado al portapapeles",
             "noData": "@:{'common.noData'}",
-            "caller": "Llamado por"
+            "caller": "Llamado por",
+            "clearLog": "Limpiar Bitácora",
+            "session": "Sesión",
+            "exportThisSession": "Exportar Bitácora de Esta Sesión",
+            "exportAllSessions": "Exportar Bitácora de Todas las Sesiones"
         },
         "packConfig": {
             "title": "Configuraciones de Contenido",
@@ -586,6 +615,28 @@
             "netlifyStatus": "Estado Netlify",
             "joinTheLancerDiscord": "Unirse al discord LANCER",
             "supportCompconOnPatreon": "Apoyar a @:{'common.appName'} en Patreon"
+        },
+        "titles": {
+            "latestVersion": "Versión Más Reciente",
+            "installedVersion": "Versión Instalada",
+            "backedUp": "Respaldado",
+            "x1Week": "1 Semana",
+            "x2Weeks": "2 Semanas",
+            "x1Month": "1 Mes",
+            "x3Months": "3 Meses",
+            "x6Months": "6 Meses",
+            "x1Year": "1 Año",
+            "active": "Activo",
+            "author": "Autor",
+            "version": "Versión",
+            "type": "Tipo",
+            "missing": "Faltantes",
+            "never": "Nunca"
+        },
+        "fields": {
+            "interV3Default": "Inter (por defecto en v3)",
+            "notoSansV3Alt": "Noto Sans (alternativa en v3 )",
+            "helveticaV2Default": "Helvetica (por defecto en v2 )"
         }
     },
     "gm": {
@@ -1017,10 +1068,26 @@
             "organizeEncounters": "ordenar encuentros",
             "selectTemplate": "seleccionar plantilla",
             "selectNpcClass": "seleccionar clase de PNJ",
-            "addDowntime": "Añadir Tiempo Apeado",
+            "addDowntime": "Añadir Interludio",
             "eidolons": "Eidolones",
             "clock": "Reloj",
-            "addBeat": "Añadir Beat"
+            "addBeat": "Añadir Beat",
+            "contentPack": "Paquete de Contenido",
+            "gmLabels": "Etiquetas DJ",
+            "role": "Rol",
+            "folder": "Carpeta",
+            "shards": "Fragmentos",
+            "npcRoster": "Listado de PNJ",
+            "encounterEditor": "Editor de Encuentro",
+            "title": "Título",
+            "pronouns": "Pronombres",
+            "class": "Clase",
+            "layers": "Capas",
+            "tag": "Descriptor",
+            "templates": "Plantillas",
+            "gmToolkit": "Herramientas de DJ",
+            "campaignEditor": "Editor de Campaña",
+            "narrativeItemManager": "Gestor de Artículo Narrativo"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
@@ -1030,7 +1097,11 @@
             "addANewEmptyBeat": "Añade un nuevo Pulso bajo esta sección. Un Pulso es una sección para un evento o momento importante en la historia.",
             "addANewEmptyMission": "Añade una nueva Misión vacía bajo esta página. Una Misión contiene objetivos y metas específicas que pueden ser completadas dentro de un periodo de tiempo discreto, y típicamente contiene Combates.",
             "addANewEmptyCombat": "Añade un Combate nuevo vacío bajo esta página. Un Combate contiene Encuentros, así como también directrices para DJ, detalles narrativos pertinentes a la batalla, y resultados potenciales.",
-            "addANewEmptyDowntime": "Añade un nuevo Downtime vacío bajo esta página. Downtime es el espacio narrativo entre misiones, donde la acción momento a momento no importa tanto y el juego de roles importa mucho más."
+            "addANewEmptyDowntime": "Añade un nuevo Interludio vacío bajo esta página. Interludio es el espacio narrativo entre misiones, donde la acción momento a momento no importa tanto y el juego de roles importa mucho más.",
+            "createModifyAndBrowseLancerCampaigns": "Crear, modificar, y navegar campañas LANCER (v3.1)",
+            "manageNonPlayerCombatUnits": "Gestionar unidades de combate no-jugadoras",
+            "manageCharactersLocationsAndFactions": "Gestionar personajes, locaciones y facciones",
+            "createCombatEncounters": "Crear encuentros de combate"
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Objetos no-personaje (tales como artículos del terreno) que pueden ser monitoreados en encuentros de combate."
@@ -1038,7 +1109,14 @@
         "tooltips": {
             "changeTierAndAdjustEdited": "Cambiar grado y ajustar estadísticas editadas por el mismo monto al de los cambios de estadísticas por defecto.",
             "changeTierAndKeepEdited": "Cambiar grado y mantener los valores de estadísticas editados, incluso si estas caen por debajo de los valores por defecto del nuevo grado.",
-            "changeTierAndDiscardAll": "Cambiar grado y descartar todos los valores editados de estadísticas."
+            "changeTierAndDiscardAll": "Cambiar grado y descartar todos los valores editados de estadísticas.",
+            "thisWillDeleteThisNpcFrom": "Esto eliminará este PNJ de su lista de PNJ. PNJs de este tipo agregados a Encuentros no serán afectados. ¿Está seguro?",
+            "convertingThisItemToLocalData": "Convertir este artículo a datos locales permitirá edición local pero quitará su enlace remoto a la\n      cuenta de nube del autor, y prevendrá recepción de cualquier actualización futura. Para re-habilitar\n      sincronización remota, tendrá que re-importar este artículo vía código de compartir.",
+            "confirmDuplicationOfThisNpc": "Confirmar duplicación de este PNJ",
+            "thisWillDeleteThisEncounterFrom": "Esto eliminará este Encuentro de su biblioteca. ¿Está seguro?"
+        },
+        "a11y": {
+            "dragToReorder": "Arrastre para reordenar"
         }
     },
     "active": {
@@ -1168,7 +1246,7 @@
         "newEnc": {
             "title": "Nuevo Encuentro Local Activo",
             "encounterData": "Datos de encuentro",
-            "additionalNpcs": "Los PNJ adicionales pueden ser añadidos en el Corredor de Encuentros después de la creación."
+            "additionalNpcs": "Los PNJs adicionales pueden ser añadidos en el Corredor de Encuentros después de la creación."
         },
         "tableManager": {
             "published": "lista de mesas publicadas",
@@ -1389,7 +1467,7 @@
             "endTurn": "Esto finalizará el turno de {name}.",
             "cover": "Cobertura",
             "noCover": "Sin Cobertura",
-            "soft": "Suave",
+            "soft": "Ligera",
             "softCover": "Cobertura Blanda",
             "hard": "Dura",
             "hardCover": "Cobertura Dura",
@@ -1499,7 +1577,7 @@
             "warning": "Los efectos de bonificación de Montura en los ataques de armas son {not} automáticamente aplicados por @:{'common.appName'}. Por favor, asegúrese de aplicar manualmente cualquier efecto relevante durante el juego."
         },
         "overcharge": {
-            "cost": "OVERCHARGE Costo",
+            "cost": "Costo SOBRECARGA",
             "willIncur": "Sobrecargar incurrirá"
         },
         "unitLoadout": {
@@ -1544,7 +1622,8 @@
         },
         "jockey": {
             "available": "Acciones Disponibles de Jockey",
-            "select": "Seleccione una Acción de Jockey"
+            "select": "Seleccione una Acción de Jockey",
+            "jockey": "Cabalgar"
         },
         "barrage": {
             "selectWeapon": "seleccionar arma de barrage",
@@ -1639,15 +1718,15 @@
             "addTable": "Agregar Mesa",
             "tableConnectCode": "Código de Conexión de Mesa",
             "selectCharacterSheetExportFile": "Seleccionar Archivo de Exportación de Hoja de Personaje",
-            "coolYourMechClearingAll": "Refresque su mecha, disipando todo el calor y EXPOSED.",
-            "mark1RepairToRestore": "Marcar 1 REPAIR para restaurar todos los HP.",
-            "reloadAllLoadedWeapons": "Recargar todas las armas LOADED.",
+            "coolYourMechClearingAll": "Refresque su mecha, disipando todo el calor y EXPUESTO.",
+            "mark1RepairToRestore": "Marcar 1 REPARAR para restaurar todos los PG.",
+            "reloadAllLoadedWeapons": "Recargar todas las armas CARGADA.",
             "clearAnyBurnCurrentlyAffecting": "Despejar cualquier quemadura afectando actualmente su mecha.",
             "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc",
             "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc.",
             "overkill": "Saña",
             "maxLoadoutFeatureSetColumns": "Max Equipamiento Piloto/Juego de Columnas Presentadas",
-            "pilotNameOrCallsign": "Nombre del Piloto o Callsign"
+            "pilotNameOrCallsign": "Nombre o Apodo del Piloto"
         },
         "titles": {
             "addPilotFromRoster": "Agregar Piloto de la Lista",
@@ -1667,7 +1746,32 @@
             "youHaveRemainingActions": "¡Tiene acciones restantes!",
             "burn": "Abrasar",
             "downAndOut": "Caído y Fuera",
-            "repairCap": "Lim. Reparaciones"
+            "repairCap": "Lim. Reparaciones",
+            "repairCapacity": "Capacidad de Reparación",
+            "items": "Artículos",
+            "round": "Ronda",
+            "observer": "OBSERVADOR",
+            "pilot": "Piloto",
+            "reactor": "",
+            "activations": "Activaciones",
+            "exposed": "Expuesto",
+            "shredded": "Desgarrado",
+            "gameMaster": "DIRECTOR DEL JUEGO",
+            "activeCharacterSheets": "Hojas de Personaje Activas",
+            "joinAnOnlineTable": "Unirse a Mesa En Línea",
+            "localEncounters": "Encuentros Locales",
+            "localCampaigns": "Campañas Locales",
+            "hostAnOnlineTable": "Alojar una Mesa En Línea",
+            "spectatorMode": "Modo Espectador",
+            "campaignDisplay": "Mostrar Campaña",
+            "allPilots": "Todos los Pilotos",
+            "heatCapacity": "Capacidad de Calor",
+            "saveTarget": "Dificultad Salvación",
+            "hull": "Casco",
+            "size": "Tamaño",
+            "eDefense": "Defensa-E",
+            "grapple": "Presa",
+            "ram": "Embestir"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
@@ -1675,7 +1779,7 @@
             "apply": "Aplicar",
             "dismissWithoutApplying": "Descargar sin aplicar",
             "equipmentAction": "Acción de Equipamiento",
-            "markYourMechAsInCascade": "Marca su mecha como IN CASCADE",
+            "markYourMechAsInCascade": "Marca su meca como EN CASCADA",
             "resetUses": "Restablecer Usos",
             "toggleDestroyed": "Alternar Destruido",
             "rollableTables": "Tablas de Tiradas",
@@ -1685,7 +1789,7 @@
             "addsAPilottypeCombatantPlaceholder": "Añade un marcador de posición de tipo piloto sin datos de piloto.",
             "optionalForOrganizationalPurposes": "Opcional, para propósitos de organización.",
             "reviewTheCombatLogAnd": "Revisar la bitácora de combate y telemetría del campo de batalla desde esta cuartilla y opcionalmente guardarla en la historia de su piloto.",
-            "replaceTheThematicStatTrackers": "Reemplazar los medidores de estadísticas temáticos para HP, Heat, etc. con ingreso numérico directo.",
+            "replaceTheThematicStatTrackers": "Reemplazar los barras temáticas de estadísticas para PG, Calor, etc. con ingreso numérico directo.",
             "thisControlsIfColumnsWill": "Esto controla si las columnas serán usadas cuando se presente la información del combatiente en el panel encuentro. Esto solo funcionará en pantalla en resoluciones anchas.",
             "simpleTickbarsAreShownOn": "Barras simples son mostradas en resoluciones móviles (tableta y menor). Habilitar esto forzará a mostrar las barras estándar sin importar el tamaño de la pantalla. Esto puede causar problemas de diseño en pantallas pequeñas.",
             "thisControlsHowManyColumns": "Esto controla cuantas columnas serán usadas cuando se presente el equipo o juego de características de un combatiente en el panel encuentro. Valores altos pueden causar problemas de diseño en pantallas pequeñas.",
@@ -1694,7 +1798,18 @@
             "exportsAPlainTextVersion2": "Exporta las estadísticas actuales del combatiente en versión texto plano.",
             "rollAllDiceTakingThe": "Lanza todos los dados, tomando el mejor resultado",
             "reroll1s": "Re-lanzar 1s",
-            "pilotGrit": "Grit del Piloto"
+            "pilotGrit": "Temple de Piloto",
+            "failedToImportSheetPleaseEnsure": "Fallo al importar hoja. Por favor asegúrese de que el archivo sea un JSON de hoja de personaje válido."
+        },
+        "subtitles": {
+            "featureInDevelopmentV32": "Característica en desarrollo (v3.2)",
+            "featureInDevelopmentV31": "Característica en desarrollo (v3.1)",
+            "inDevelopmentReleaseV32": "En Desarrollo (lanzamiento v3.2)",
+            "createManageAndRunActivePlayer": "Crear, gestionar, y ejecutar hojas de Personaje Jugador activas",
+            "resumeLast": "reanudar última",
+            "createManageAndRunLocalEncounters": "Crear, gestionar, y correr Encuentros locales para sus juegos Lancer",
+            "kineticExplosiveAndHeatDamageDoubled": "Daños cinético, explosivo, y calor doblados.",
+            "damageIgnoresArmorAndResistance": "Daño ignora armadura y resistencia."
         }
     },
     "mainMenu": {
@@ -2051,7 +2166,55 @@
             "storagePermissionRequired": "¡Permiso de Almacenamiento Requerido!",
             "youDoNotHaveAccess": "No tiene acceso a respaldos remotos.",
             "youDoNotHaveAccess2": "No tiene acceso a la herramienta para publicación de colección.",
-            "compconCloudAccount": "Cuenta de Nube @:{'common.appName'}"
+            "compconCloudAccount": "Cuenta de Nube @:{'common.appName'}",
+            "latestVersion": "Versión Más Reciente",
+            "installedVersion": "Versión Instalada",
+            "autoUpdate": "Actualización Automática",
+            "contentCollection": "Colección de Contenido",
+            "onStartup": "Al Inicio",
+            "manualOnly": "Sólo Manualmente",
+            "last10": "Últimos 10",
+            "last5": "Últimos 5",
+            "pilotGroups": "Grupos de Piloto",
+            "narrativeElement": "Elemento Narrativo",
+            "narrativeElements": "Elementos Narrativos",
+            "licenseLevel": "Nivel de Licencia",
+            "lastUpdate": "Última Actualización",
+            "addItem": "Añadir Artículo",
+            "uploadDate": "Fecha de Carga",
+            "lastSync": "Última Sincronía",
+            "lastModified": "Última Modificación",
+            "encounterData": "Datos de Encuentro",
+            "lastUpdated": "Última Actualización",
+            "collection": "Colección",
+            "author": "Autor",
+            "source": "Origen",
+            "size": "Tamaño",
+            "preserve": "Conservar",
+            "off": "Apagado",
+            "daily": "Diaria",
+            "weekly": "Semanal",
+            "monthly": "Mensual",
+            "pilot": "Piloto",
+            "npc": "PNJ",
+            "encounter": "Encuentro",
+            "campaign": "Campaña",
+            "pilots": "Pilotos",
+            "campaigns": "Campañas",
+            "role": "Rol",
+            "filename": "Nombre de Archivo",
+            "free": "Libre",
+            "keepAll": "Conservar Todo",
+            "last30": "Últimos 30",
+            "mostRecentOnly": "Únicamente Más Recientes",
+            "onAppStart": "Al Iniciar Ap",
+            "lancerAndAbove": "Lancer (y superior)",
+            "onOpenClose": "Al Abrir & Cerrar",
+            "every30Minutes": "Cada 30 Minutos",
+            "every60Minutes": "Cada 60 Minutos",
+            "pilotData": "Datos del Piloto",
+            "npcData": "Datos PNJ",
+            "narrativeData": "Datos Narrativos"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
@@ -2061,7 +2224,8 @@
             "controlsHowOftenYourData": "Controla que tan seguido sus datos son sincronizados con la nube. Debido a costos de servidor, ciertas opciones están solo disponibles para suscriptores de Patreon.",
             "controlsWhichDataTypesAre": "Controla cuales tipos de datos son sincronizados con la nube.",
             "yourUniqueAccountIdThis": "Su ID de cuenta único. Este es usado par identificar su cuenta en la nube y puede ser solicitado para propósitos de resolución de errores.",
-            "usernameOptional": "Este es un campo <b>opcional</b> que puede usar para dar un nombre personalizado para su cuenta. Este nombre de usuario <b>va a</b> ser visible a otros usuarios en modo activo y cuando compartan datos."
+            "usernameOptional": "Este es un campo <b>opcional</b> que puede usar para dar un nombre personalizado para su cuenta. Este nombre de usuario <b>va a</b> ser visible a otros usuarios en modo activo y cuando compartan datos.",
+            "signInFailed": "Ingreso fallido"
         },
         "subtitles": {
             "mergeAndSyncThisItem": "Combinar y sincronizar este artículo inmediatamente.",
@@ -2070,7 +2234,13 @@
             "removeTheRemoteLinkAnd": "Quitar el enlace remoto y mantener los datos localmente.",
             "pushesAllLocalDataTo": "Forzar todos los datos locales a la nube incondicionalmente, restableciendo campos de marca de tiempo al de ahora. Usar tras una restauración o importación.",
             "pullsAllCloudDataAnd": "Obtiene todos los datos de la nube y los combina con los datos locales. Los campos locales con marcas de tiempo más recientes son preservados.",
-            "permanentlyRemovesItemsFlaggedFor": "Borra permanentemente artículos marcados para eliminación."
+            "permanentlyRemovesItemsFlaggedFor": "Borra permanentemente artículos marcados para eliminación.",
+            "doNotAutomaticallyDeleteAnyArchives": "No eliminar automáticamente ningún archivo.",
+            "keepThe30NewestArchives": "Mantener los 30 archivos más nuevos.",
+            "keepThe10NewestArchives": "Mantener los 10 archivos más nuevos.",
+            "keepThe5NewestArchives": "Mantener los 5 archivos más nuevos.",
+            "keepOnlyTheMostRecentArchive": "Mantener únicamente el archivo más reciente.",
+            "dataIsOnlySyncedWhenYou": "Los datos se sincronizan únicamente cuando pulsa Sincronizar."
         },
         "codeEntry": {
             "title": "Ingrese Código de Desbloqueo",
@@ -2081,6 +2251,12 @@
             "npcSubTooltipOff": "Habilita descarga y acceso automático de actualización a los datos de PNJ del Libro Base bien sea enlazando su cuenta itch.io con una compra del Lancer Core Book, o bien ingresando la URL del código QR en la tapa de su copia del Lancer Core Book .",
             "npcsAddedViaItch": "Su cuente tiene acceso a los datos de NPC del Lancer Core Book. Este contenido fue añadido a su cuenta a través de una compra itch.io enlazada.",
             "npcsAddedViaCode": "Su cuenta tiene acceso a los datos de PNJ del Lancer Core Book . Este contenido fue añadido a su cuenta a través del enlace del código QR."
+        },
+        "a11y": {
+            "cancelAndClose": "Cancelar y cerrar",
+            "signIn": "Ingresar",
+            "eMail": "Correo-E",
+            "password": "Contraseña"
         }
     },
     "pm": {
@@ -2125,7 +2301,7 @@
             "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Autorización de equipo de GMS armory: piloto/armamento personal::S0-S3(LTD)",
             "toAddSlashes": "Para añadir //",
             "gmsArmoryPrintid": "id impresión armería GMS",
-            "mountCOREBonus": "Bono CORE de Montura",
+            "mountCOREBonus": "Bono BASE de Afuste",
             "setUSES": "Establecer usos",
             "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Autorización de equipo de la armería de la Unión: chasis equipamiento//sistema de combate",
             "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Registro del equipo del chasis verificado ]"
@@ -2146,7 +2322,7 @@
             "exportErrorTitle": "Error de Exportación"
         },
         "level": {
-            "theUADIDENTMV2License": "La Solicitud de Adquisición de Licencia UAD IDENT MV-2 ha sido diseñada para permitir al personal activo de la Unión registrar actualizaciones de licencia mientras están desplegados en campo y recibir información inmediata y recursos de apoyo sobre el terreno de UN y GMS. El personal de la Unión debe confirmar la corrección del formulario presentado con su oficial local de la Unión, o, en caso de que un oficial no esté disponible, solicite una revisión dirigida por NHP en la dirección segura Onminet {node}",
+            "theUADIDENTMV2License": "La Solicitud de Adquisición de Licencia UAD IDENT MV-2 ha sido diseñada para permitir al personal activo de la Unión registrar actualizaciones de licencia mientras están desplegados en campo y recibir información inmediata y recursos de apoyo sobre el terreno de UN y GMS. El personal de la Unión debe confirmar la exactitud del formulario presentado con su oficial local de la Unión, o, en caso de que un oficial no esté disponible, solicite una revisión dirigida por PNH en la dirección segura Onminet {node}",
             "submittingUnauthorizedLicensingUpdatesAndOr": "Presentar actualizaciones de licencias no autorizadas y/o presentar de solicitudes no autorizadas de licencia o de derechos de licencia previamente retenidos sin previa autorización MV-8a/j por un Administrador de la Unión resultará en el rechazo automático de la solicitud de licencia y podrá resultar en una auditoría de licencia bajo DoJ/HR AR 716-J",
             "isEligibleForTheFollowingLicense": "es elegible para la siguiente actualización de licencia",
             "newLICENSEUNLOCK": "Desbloquear nueva licencia",
@@ -2156,11 +2332,11 @@
             "levelUpOverview": "Subir de Nivel (Vista General)",
             "coreBONUSINSTALLATION": "Instalación de bono Base",
             "ineligibleFORCOREBONUS": "No elegible para bonos base",
-            "coreBonuses": "Bonos CORE",
-            "pilotSKILLTRIGGERIMPROVEMENT": "Mejora de skill trigger de Piloto",
+            "coreBonuses": "Bonos BASE",
+            "pilotSKILLTRIGGERIMPROVEMENT": "Mejora detonante de Piloto",
             "pilotTALENTUPGRADE": "Mejora talento de Piloto",
             "mechSKILLUPGRADE": "Mejora habilidad Mecha",
-            "gritIMPROVEMENT": "Mejora de Grit"
+            "gritIMPROVEMENT": "Mejora de Temple"
         },
         "new": {
             "pilot": "Piloto",
@@ -2189,10 +2365,10 @@
             "addPilotDescription": "Añadir Descripción de Piloto",
             "rm4EXTERNALLICENSEDATATRANSFER": "RM-4-δ // TRANSFERFERENCIA DE DATOS LICENCIA EXTERNA (SI APLICA)",
             "rm406ATTACHEDOHMIMAGING": "RM-4-06 // escaneo de imagenología OHM adjunta",
-            "rm402APPROVEDCALLSIGNOR": "RM-4-02 // callsign aprobado (o designación del cadete, si aplica)",
+            "rm402APPROVEDCALLSIGNOR": "RM-4-02 // apodo aprobado (o designación del cadete, si aplica)",
             "rm403PRIOROCCUPATIONOR": "RM-4-03 // OCUPACIÓN PREVIA O POSICIÓN (RESPUESTA 17b EN RM-2-C)",
             "rm405ATTACHEDOHMHEALTH": "RM-4-05 // resultados de examen de salud OHM adjunto",
-            "startingLL": "LL Inicial",
+            "startingLL": "NL Inicial",
             "selectTemplate": "Seleccionar plantilla {name}",
             "templateSelected": "plantilla {name} seleccionada",
             "glyphMustBePopulated": "glifo debe ser poblado.",
@@ -2220,7 +2396,7 @@
             "clearConfiguration": "Limpiar Configuración",
             "editingThisPilotSLevelMay": "Editar el nivel de este Piloto puede evitar que ciertos logros se desbloqueen con este Piloto. Si desea utilizar este Piloto para desbloquear logros relacionados al Piloto, utilice el asistente de Subida de Nivel en su lugar.",
             "thisPilotSLevelHasBeen": "El nivel de este piloto ha sido editado. Esto impedirá que se desbloqueen ciertos logros con este Piloto.",
-            "thisToolSkipsTheLevelUp": "Esta herramienta salta el asistente de subida de nivel. Atributos de piloto adquiridos mediante subidas del nivel, como skill triggers, licencias, talentos, habilidades mecha y bonos CORE tendrán que ser actualizados manualmente",
+            "thisToolSkipsTheLevelUp": "Esta herramienta salta el asistente de subida de nivel. Atributos de piloto adquiridos mediante subidas del nivel, como detonantes, licencias, talentos, habilidades meca y bonos BASE tendrán que ser actualizados manualmente",
             "newLEVEL": "Nuevo nivel",
             "setPilotLevel": "Establecer Nivel de Piloto",
             "clone": "Clonar",
@@ -2306,12 +2482,14 @@
             "narrative": "Narrativo",
             "bonds": "Lazos",
             "tactical": "Táctico",
-            "pilotSKILLTRIGGERAUDIT": "Auditoría de skill trigger de Piloto",
+            "pilotSKILLTRIGGERAUDIT": "Auditoría detonantes de Piloto",
             "errSKILLAUDITINCOMPLETE": "Err auditoría de habilidad incompleta",
             "pilotTALENTAUDIT": "Auditoría de talento de Piloto",
             "broken": "Roto",
             "repcap": "RepLim",
-            "xk401REGISTERMECHNAME": "XK-4-01 // registrar nombre mecha"
+            "xk401REGISTERMECHNAME": "XK-4-01 // registrar nombre mecha",
+            "heat": "Calor",
+            "ll": "NL"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
@@ -2329,7 +2507,7 @@
             "capacityParen": "({n} capacidad)",
             "xp": "EXP",
             "majorIDEAL": "Ideal Principal",
-            "downtimeREFERENCE": "Referencia downtime",
+            "downtimeREFERENCE": "Referencia interludio",
             "missionLog": "Bitácora de Misión",
             "session": "Sesión",
             "repCAP": "Rep lím",
@@ -2341,18 +2519,23 @@
             "pilotNotes": "Notas del Piloto",
             "gain": "Ganancia",
             "veteranPOWER2": "(Poder veterano)",
-            "skillTRIGGERDETAIL": "Detalle Skill trigger",
+            "skillTRIGGERDETAIL": "Detalle Detonante",
             "onHIT": "Al golpear",
             "onCRIT": "En crít",
             "mechSYSTEM": "Mecha sistema",
             "pilotHP": "HP Piloto",
-            "maxHP": "HP Máx",
+            "maxHP": "Máx PG",
             "deployable": "Desplegable",
-            "heatCap": "Heat Lím.",
+            "heatCap": "Máx. Calor",
             "mountLOCKED": "Montura asegurada",
             "appliedMOD": "//Mod aplicado",
             "ltdSYS": "LTD sis",
-            "repairCAPACITY": "Capacidad de reparación"
+            "repairCAPACITY": "Capacidad de reparación",
+            "burdens": "Lastre",
+            "grit": "TEMPLE",
+            "gear": "//EQUIPO",
+            "atk": "ATQ",
+            "slashesLl": "// NL"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
@@ -2364,7 +2547,8 @@
             "reservesAndBonuses": "Reservas y Bonos",
             "setPilotLicenses": "Establecer Licencias de Piloto",
             "paper": "Papel",
-            "orientation": "Orientación"
+            "orientation": "Orientación",
+            "equipmentLoadout": "Carga de Equipamiento"
         },
         "roster": {
             "history": "Historial",
@@ -2400,7 +2584,10 @@
             "addANewPilotToThe": "Añadir un nuevo piloto a la lista",
             "uadCAVCOMOfficeOfRecords": "Oficina de Registros UAD/CAVCOM",
             "i7aSelfServiceUnitRegistration": "I-7a Registro de Unidad de Auto-Servicio",
-            "identCR7aCAVALRYUNITREGISTRATION": "IDENT-CR-7a (CAVALRY UNIT REGISTRATION) es un formulario de registro autodirigido para el propósito de registrar una nueva designación de unidad para uno o más pilotos registrados en IDENT. Esta formulario es para ser utilizado por pilotos que no están asignados actualmente a una unidad o que están registrando una nueva designación de unidad por primera vez. Si desea registrar una nueva designación para una unidad existente, por favor envíe el formulario CR-7b (CAVALRY UNIT DOCUMENTATION UPDATE) en su lugar."
+            "identCR7aCAVALRYUNITREGISTRATION": "IDENT-CR-7a (CAVALRY UNIT REGISTRATION) es un formulario de registro autodirigido para el propósito de registrar una nueva designación de unidad para uno o más pilotos registrados en IDENT. Esta formulario es para ser utilizado por pilotos que no están asignados actualmente a una unidad o que están registrando una nueva designación de unidad por primera vez. Si desea registrar una nueva designación para una unidad existente, por favor envíe el formulario CR-7b (CAVALRY UNIT DOCUMENTATION UPDATE) en su lugar.",
+            "unitRegistrationSubmissionWillBeReviewed": "La Oficina de Registros de la UAD/CAVCOM examinará la presentación del registro en el orden que se recibe.",
+            "cr700ENCODEDDATAREMIT": "CR-7-00 // datos remitidos codificados",
+            "optional": "(Opcional)"
         },
         "selectors": {
             "exotic": "Exótico",
@@ -2408,7 +2595,7 @@
             "mechSkillsSelected": "Habilidades Mecha seleccionadas",
             "resetMechSkills": "Reiniciar las Habilidades de Mecha",
             "coreBonusSelectionComplete": "Selección de Bonos Base Completada",
-            "addDowntimeProject": "Añadir Proyecto Downtime",
+            "addDowntimeProject": "Añadir Proyecto Interludio",
             "equipment": "Equipo",
             "skillSelectionComplete": "Selección de Habilidad Completa",
             "yourAbilityTo": "Su Habilidad Para",
@@ -2417,7 +2604,10 @@
             "addReserve": "Agregar Reserva",
             "download": "Descargar",
             "startWith": "Comienza con",
-            "efficiency": "Eficiencia"
+            "efficiency": "Eficiencia",
+            "collapse": "colapsar",
+            "influence": "Influencia",
+            "notInCompendium": "Los siguientes {type} no están presentes en el compendio"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
@@ -2438,7 +2628,14 @@
             "mv2BCOAResourceRequisition": "MV-2//b COA Requisición de Recurso",
             "theRM4bPILOTSELFASSESSMENT3": "La RM-4b AUTO-EVALUACIÓN DE PILOTO (Talentos) cataloga las aptitudes de operación en combate auto-reportadas de un piloto individual y otorga privilegios de requisición para el tiempo de simulación, materiales de entrenamiento de senso-cortical y holofield , datos de telemetría del campo de batalla en clasificaciones inferiores GREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern licencias de material bélico.",
             "theCombatOperationAbilityRequisitionOn": "La Requisición Habilidad Operativa de Combate, con la aprobación del sistema de aprobación automatizado de solicitudes guiado por NHP, confiere privilegios de simulador UNI, holofield y materiales de entrenamiento senso-cortical, datos de telemetría del campo de batalla en clasificaciones debajo de GREY SIERRA SHARP, y (en casos específicos) GMS MM-pattern licencias de material bélico.",
-            "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes inconvenientes"
+            "warningSubmission": "ADVERTENCIA: La presentación para el registro IDENT {id} tiene los siguientes inconvenientes",
+            "critical": "Crítico",
+            "pilotCALLSIGNBlankOrInvalid": "APODO PILOTO blanco o inválido",
+            "pilotNAMEBlankOrInvalid": "NOMBRE PILOTO blanco o inválido",
+            "pilotSKILLTRIGGERSMissingOrIncomplete": "DETONANTE PILOTO faltante o incompleto",
+            "pilotTALENTSMissingOrIncomplete": "TALENTOS PILOTO faltantes o incompletos",
+            "pilotMECHSKILLSMissingOrIncomplete": "HABILIDADES MECA PILOTO faltantes o incompletas",
+            "pilotLICENSEDATAMissingOrIncomplete": "DATOS LICENCIA PILOTO faltantes o incompletos"
         },
         "link": {
             "bond": "Lazo",
