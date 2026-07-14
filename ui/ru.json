@@ -1612,7 +1612,8 @@
             "nextRound": "Следующий раунд",
             "endsOnTurn": "{when} вашего хода",
             "willLoseStatuses": "избавится от следующих статусов",
-            "atThe": "в"
+            "atThe": "в",
+            "braceExit": "теряет {braced} и начинает {cooldown}."
         },
         "pcDeploy": {
             "deployedEquipment": "Развёрнутое снаряжение",
