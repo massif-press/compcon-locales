@@ -2255,7 +2255,8 @@
         "a11y": {
             "cancelAndClose": "Guardar y cerrar",
             "signIn": "Acceder",
-            "eMail": "Correo electrónico"
+            "eMail": "Correo electrónico",
+            "password": "Contraseña"
         }
     },
     "pm": {
@@ -2486,7 +2487,8 @@
             "pilotTALENTAUDIT": "Auditoría de talento de Piloto",
             "broken": "Roto",
             "repcap": "RepLim",
-            "xk401REGISTERMECHNAME": "XK-4-01 // registrar nombre mecha"
+            "xk401REGISTERMECHNAME": "XK-4-01 // registrar nombre mecha",
+            "heat": "Calor"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
@@ -2595,7 +2597,8 @@
             "addReserve": "Agregar Reserva",
             "download": "Descargar",
             "startWith": "Comienza con",
-            "efficiency": "Eficiencia"
+            "efficiency": "Eficiencia",
+            "collapse": "achicar"
         },
         "misc": {
             "skipSTEP": "Saltar paso"
