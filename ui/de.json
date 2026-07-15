@@ -882,7 +882,10 @@
             "activationsRemaining": "{n} Aktivierungen in dieser Runde verbleibend",
             "aiControl": "Mech unter KI-Kontrolle",
             "selfDestructInitiated": "Selbstzerstörung eingeleitet",
-            "forceDeploy": "Einsatz erzwingen"
+            "forceDeploy": "Einsatz erzwingen",
+            "deploysOnRound": "Wird in Runde {n} eingesetzt",
+            "deploysNextRound": "Wird nächste Runde eingesetzt",
+            "readyToDeploy": "Einsatzbereit"
         },
         "addRoster": {
             "addPc": "SC hinzufügen",
@@ -904,7 +907,9 @@
             "endsOnTargetTurn": "{when} im Zug von {target}",
             "braceExit": "beendet {braced} und nimmt einen {cooldown}-Zustand an.",
             "reinforcementsReady": "Verstärkungen sind nächste Runde bereit",
-            "willBeReady": "wird einsatzbereit sein."
+            "willBeReady": "wird einsatzbereit sein.",
+            "turnsNotEnded": "Züge nicht beendet",
+            "endTurnBtn": "Zug beenden"
         },
         "panelBase": {
             "itemDestroyed": "{type} zerstört",
@@ -919,7 +924,8 @@
             "hardCover": "Harte Deckung",
             "resistances": "Widerstände",
             "statusesConditions": "Stati/Zustände",
-            "counters": "Zähler"
+            "counters": "Zähler",
+            "endActivation": "Aktivierung beenden"
         },
         "activeEffect": {
             "hiddenEffects": "Versteckte Effekte",
@@ -1015,7 +1021,9 @@
             "customStatusName": "Eigener Statusname",
             "justify": "Rechtfertigen",
             "tableConnectCode": "Tischverbindungscode",
-            "coolYourMechClearingAll": "Kühlen Sie Ihren Mech, entfernen Sie Abwärme und den VERWUNDBAR Status."
+            "coolYourMechClearingAll": "Kühlen Sie Ihren Mech, entfernen Sie Abwärme und den VERWUNDBAR Status.",
+            "maxLoadoutFeatureSetColumns": "Maximale Spaltenanzahl für Ausrüstungen / Funktionen",
+            "mark1RepairToRestore": "Streichen Sie 1 ERSATZTEIL, um alle TP wiederherzustellen."
         },
         "titles": {
             "characterSheets": "Charakterbögen",
@@ -1056,7 +1064,12 @@
             "campaignDisplay": "Kampagnenanzeige",
             "allPilots": "Alle Pilot:innen",
             "heatCapacity": "Reaktorauslastung",
-            "repairCapacity": "Ersatzteilvermögen"
+            "repairCapacity": "Ersatzteilvermögen",
+            "gameMaster": "SPIELLEITER:IN",
+            "activeCharacterSheets": "Aktive Charakterbögen",
+            "joinAnOnlineTable": "Onlinetisch beitreten",
+            "localEncounters": "Lokale Gefechte",
+            "localCampaigns": "Lokale Kampagnen"
         },
         "sheetMgr": {
             "featureInDev": "Funktion in Entwicklung (v3.1)",
@@ -1135,7 +1148,8 @@
         "customStat": {
             "static": "Statisch",
             "removeStat": "Wert entfernen",
-            "trackable": "Nachverfolgbar"
+            "trackable": "Nachverfolgbar",
+            "editStats": "Werte bearbeiten"
         },
         "telemetry": {
             "telemetry": "Telemetrie",
@@ -1259,7 +1273,8 @@
         "actorLogs": {
             "exportText": "Textprotokoll exportieren",
             "exportJson": "JSON-Log exportieren",
-            "noEntries": "Keine Kampfprotokoll-Einträge."
+            "noEntries": "Keine Kampfprotokoll-Einträge.",
+            "log": "Protokoll"
         },
         "stabilize": {
             "chooseOne": "wählen Sie eines"
@@ -1310,6 +1325,38 @@
             "featureInDevelopmentV31": "Funktion in Entwicklung (V3.1)",
             "kineticExplosiveAndHeatDamageDoubled": "Kinetischer, explosiver, und Abwärme-Schaden wird verdoppelt.",
             "damageIgnoresArmorAndResistance": "Schaden ignoriert Panzerung und Widerstand."
+        },
+        "initiative": {
+            "destroyedN": "Zerstört ({n})",
+            "statusGroupN": "{status} ({n})"
+        },
+        "structureCheck": {
+            "structure": "Strukturschaden",
+            "pending": "{type} markiert",
+            "rollLabel": "{n}d{die} würfeln",
+            "rolled": "Würfelte",
+            "lowest": "Niedrigste",
+            "applyResolve": "Anwenden & Auflösen",
+            "markResolved": "Als aufgelöst markieren",
+            "manualNote": "Dieses Ergebnis muss manuell aufgelöst werden",
+            "diceCount": "{n} Punkt(e) markiert",
+            "resolution": "Auflösung",
+            "success": "Erfolg",
+            "fail": "Fehlschlag",
+            "saveCheck": "{check} Test",
+            "applyManual": "manuell anwenden",
+            "chooseOne": "Wählen Sie eines",
+            "reroll": "Neu würfeln",
+            "rollCheck": "{check} würfeln",
+            "rollPrompt": "{n}d{die} würfeln und das Niedrigste wählen"
+        },
+        "burnCheck": {
+            "title": "Brandtest",
+            "prompt": "Diese Einheit hat <b>{n}</b> Brand. Machen Sie einen TECHNIK Test.",
+            "onSuccess": "Bei Erfolg: allen Brand löschen",
+            "onFail": "Bei Fehlschlag: nehmen Sie {n} Brandschaden (der Brand verbleibt)",
+            "resolveEndTurn": "Auflösen & Zug beenden",
+            "ignore": "Ignorieren"
         }
     },
     "pm": {
