@@ -81,5 +81,7 @@
     "dt_buy_some_time.name": "시간 벌기",
     "dt_get_a_damn_drink.name": "한 잔 때리기",
     "dt_get_creative.name": "뚝딱거리기",
-    "dt_get_organized.name": "조직화"
+    "dt_get_organized.name": "조직화",
+    "dt_get_connected.name": "연줄 찾기",
+    "dt_get_focused.name": "배움에 집중하기"
 }
