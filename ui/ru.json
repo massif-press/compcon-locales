@@ -2636,7 +2636,8 @@
             "currentlyEQUIPPED": "Текущее снаряжение",
             "pilotMATERIELREGISTRATIONVERIFIED": "[ Подтверждена выдача техники пилоту ]",
             "selectPilotEquipment": "Выбор снаряжения пилота",
-            "toAddSlashes": "Добавить //"
+            "toAddSlashes": "Добавить //",
+            "synergyWarning": "@:{'common.appName'} {not} может автоматически применять бонусные эффекты для оружейных атак. Пожалуйста, убедитесь, что вы применили необходимые эффекты в ходе игры вручную."
         },
         "selectors": {
             "startWith": "Начать с",
