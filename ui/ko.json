@@ -119,7 +119,8 @@
         "roll_verb": "굴리기",
         "trigger": "발동 조건",
         "side": "진영",
-        "statsLabel": "스탯"
+        "statsLabel": "스탯",
+        "contents": "내용"
     },
     "gm": {
         "fields": {
