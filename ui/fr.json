@@ -38,7 +38,7 @@
         "result": "Résultat",
         "accuracy": "Atout",
         "mainMenu": "Menu principal",
-        "compendium": "Collection",
+        "compendium": "Compendium",
         "versionHistory": "Historique des versions",
         "copyToClipboard": "Copier dans le presse-papier",
         "copyShareCode": "Copier le code de partage",
@@ -134,7 +134,11 @@
         "ok": "OK",
         "skipToMainContent": "Sauter jusqu'au contenu principal",
         "pilotGroup": "Groupe de pilotes",
-        "statsLabel": "Caractéristiques"
+        "statsLabel": "Caractéristiques",
+        "mount": "Affût",
+        "done": "Terminé",
+        "features": "Fonctionnalités",
+        "roll_noun": "Jet"
     },
     "gm": {
         "fields": {
@@ -532,7 +536,11 @@
         "subtitles": {
             "aSimpleAffairWithTwoSides": "Une simple affaire, avec deux camps l'un contre l'autre jusqu'à ce que l'un d'entre eux soit vaincu ou détruit.",
             "aStandardEnvironmentWithNoSpecial": "Un environnement standard avec aucune particularité spéciale de combat"
-        }
+        },
+        "newClock": "Nouvelle horloge",
+        "newEnvironment": "Nouvel environnement",
+        "newEnvironmentDescription": "Un nouvel environnement",
+        "unknownLicense": "Licence inconnue"
     },
     "nav": {
         "contentManager": {
@@ -1008,18 +1016,21 @@
             "noArchivedFoundFiltered": "Aucune fiche archivée trouvée incluant \"{search}\"",
             "savePilotHistory": "Sauvegarder l'histoire du pilote",
             "featureInDev": "Fonctionnalité en développement (v3.1)",
-            "encounterHash": "rencontre #"
+            "encounterHash": "rencontre #",
+            "kia": "MAC"
         },
         "newSheet": {
             "campaignName": "Nom de la campagne",
             "createAndLaunch": "Créer et lancer le mode actif"
         },
         "sheetItem": {
-            "archiveSheet": "Fiche d'archive",
+            "archiveSheet": "Archiver la fiche",
             "exportSheet": "Exporter la fiche",
             "deleteSheet": "Supprimer la fiche",
             "started": "démarré",
-            "na": "N/A"
+            "na": "N/A",
+            "lastTurn": "dernier tour",
+            "roundN": "Round {n}"
         },
         "endEnc": {
             "endEncounter": "Terminer la rencontre",
@@ -1163,15 +1174,32 @@
         },
         "actions": {
             "selectIcon": "Sélectionner une icône",
-            "activeEffect": "Effet actif"
+            "activeEffect": "Effet actif",
+            "mounted": "Monté",
+            "braced": "Enduré",
+            "overwatch": "Executer une attaque sentinelle",
+            "passiveBonus": "Bonus passif"
         },
         "combatAction": {
-            "insufficient": "Insuffisant"
+            "insufficient": "Insuffisant",
+            "alreadyUsed": "Cette action a déjà été utilisée ce tour-ci.",
+            "actionsRemaining": "Actions restantes ce tour-ci.",
+            "activationAction": "{n} Action"
         },
         "skillCheck": {
             "standard": "Standard",
             "loses": "Perds",
-            "rollResults": "Résultat de jet"
+            "rollResults": "Résultat du jet",
+            "difficultMod": "-1 (Difficulté)",
+            "modifiers": "Modificteurs",
+            "heroic": "Heroïque",
+            "risky": "Risqué",
+            "checkType": "Type de jet",
+            "contested": "Opposé",
+            "difficult": "Difficile",
+            "targetValue": "Seuil à atteindre",
+            "checkSuccess": "Jet réussi",
+            "checkFail": "Jet échoué"
         },
         "stabilize": {
             "chooseOne": "choisissez en un"
@@ -1203,9 +1231,10 @@
             "cedeControl": "Céder le contrôle",
             "reclaimControl": "Reprendre le contrôle",
             "selectEncounterExportFile": "Sélectionner un fichier d'export de rencontre",
-            "mechName": "Nom de mécha",
+            "mechName": "Nom du mécha",
             "addTable": "Ajouter une table",
-            "selectCharacterSheetExportFile": "Sélectionner un fichier d'export de fiche de personnage"
+            "selectCharacterSheetExportFile": "Sélectionner un fichier d'export de fiche de personnage",
+            "overkill": "Carnage"
         },
         "titles": {
             "addPilotFromRoster": "Ajouter un pilote depuis le tableau de service",
@@ -1251,6 +1280,46 @@
             "createManageAndRunLocalEncounters": "Créer, gérer et jouer des rencontres pour vos parties de Lancer",
             "featureInDevelopmentV32": "Fonctionnalité en développement (v3.2)",
             "inDevelopmentReleaseV32": "En développement (sortie en v3.2)"
+        },
+        "unitLoadout": {
+            "reroll": "relancer",
+            "hiddenFeatures": "Fonctionnalités cachées",
+            "rechargeResult": "Résultat de la recharge (d6)",
+            "rechargesOn": "(Se recharge sur {n}+)"
+        },
+        "skirmish": {
+            "selectWeapon": "sélectionnez une arme pour escarmoucher"
+        },
+        "endRound": {
+            "endRound": "Fin du round",
+            "confirmEndRound": "Confirmer la fin du round"
+        },
+        "deploy": {
+            "deployNamed": "Déployer {name}",
+            "generateInstance": "Ceci générera et déploiera une nouvelle instance de {name} pour {actor} en tant qu'{action}"
+        },
+        "equipCmd": {
+            "reload": "recharger",
+            "reloadHint": "Cliquez pour {reload} cette arme.",
+            "clickUnused": "Cliquez pour indiquer comme Inutilée",
+            "clickUsed": "Cliquez pour maruqer comme utilisée"
+        },
+        "overcharge": {
+            "cost": "Coût de Surmenage du réacteur"
+        },
+        "invade": {
+            "invade": "Invasion",
+            "available": "Options d'invasion disponibles",
+            "select": "Sélectionnez une option d'Invasion"
+        },
+        "barrage": {
+            "selectWeapon": "Sélectionner une arme pour Bombarder"
+        },
+        "fight": {
+            "selectWeapon": "Sélectionnez une arme"
+        },
+        "reload": {
+            "selectWeapon": "Sélecionnez une arme à recharger"
         }
     },
     "mainMenu": {
@@ -1850,7 +1919,8 @@
             "startWith": "Commencer avec",
             "efficiency": "Efficacité",
             "influence": "Influence",
-            "notInCompendium": "Le {type} suivant n'est pas présent dans le compendium"
+            "notInCompendium": "Le {type} suivant n'est pas présent dans le compendium",
+            "licenseSelectionComplete": "Sélecion de la licence terminée"
         },
         "shared": {
             "critical": "Critique",
@@ -1864,7 +1934,8 @@
             "rm4bPilotSelfAssessment1": "RM-4b Auto évaluation du pilote (1/3)",
             "nb": "N.B.",
             "rm4cPilotSelfAssessment2": "RM-4c Auto évaluation de pilote (2/3)",
-            "warningSubmission": "AVERTISSEMENT : Le formulaire d'enregistrement IDENT {id} présente le(s) problème(s) suivant(s)"
+            "warningSubmission": "AVERTISSEMENT : Le formulaire d'enregistrement IDENT {id} présente le(s) problème(s) suivant(s)",
+            "improveMechSkill": "Améliorer une compétence de mécha."
         },
         "link": {
             "pilotBiography": "Biographie du pilote",
@@ -1915,7 +1986,8 @@
             "mechOnly": "Mécha uniquement",
             "pilotOnly": "Pilote uniquement",
             "exportError": "Erreur d'exportation",
-            "exportSuccess": "Exporté avec succès"
+            "exportSuccess": "Exporté avec succès",
+            "killedInAction": "Morte Au Combat"
         },
         "fields": {
             "generate": "Générer",
@@ -1953,7 +2025,7 @@
         }
     },
     "compendium": {
-        "returnToCompendium": "Retourner au Compendium",
+        "returnToCompendium": "Retourner au catalogue",
         "selectItem": "Sélectionner {name}",
         "categories": {
             "frames": "Châssis",
@@ -1986,7 +2058,8 @@
             "faqErrataNotice": "Cette FAQ et Erratas sont un projet porté par la communauté et n'est pas une publication officielle de Massif Press pour @:{'common.gameName'}. Cette page est approvisionné depuis le {repoLink} sur GitHub, maintenu actuellement par lenaleciel. Ce document est aussi disponible sur {siteLink}.",
             "lancerFaqRepo": "lancer-faq repository",
             "lancerFaqSite": "lancer-faq.netlify.app/",
-            "bookPage": "{book}, p. {page}"
+            "bookPage": "{book}, p. {page}",
+            "damageTables": "Tableaux des dégâts"
         },
         "search": {
             "resultCount": "{count} résultat | {count} résultats"
