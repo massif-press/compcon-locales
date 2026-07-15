@@ -1320,6 +1320,28 @@
         },
         "reload": {
             "selectWeapon": "Sélecionnez une arme à recharger"
+        },
+        "burnCheck": {
+            "ignore": "Ignorer",
+            "resolveEndTurn": "Résoudre et terminer le tour"
+        },
+        "structureCheck": {
+            "rollPrompt": "Jeter {n}d{die} et choisir le plus bas",
+            "reroll": "Relancer",
+            "chooseOne": "Choisir",
+            "applyManual": "appliquer manuellement",
+            "saveCheck": "jet de {check}",
+            "fail": "Échec",
+            "success": "Succès",
+            "resolution": "Résolution",
+            "diceCount": "{n} point(s) marqué(s)",
+            "manualNote": "Ce résultat doit être résolu manuellement",
+            "markResolved": "Marqué comme résolu",
+            "applyResolve": "Appliquer et résoudre",
+            "lowest": "Le plus bas",
+            "rolled": "Lancé",
+            "rollLabel": "Lancer {n}d{die}",
+            "pending": "{type} marqué"
         }
     },
     "mainMenu": {
