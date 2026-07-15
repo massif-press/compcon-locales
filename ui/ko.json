@@ -93,7 +93,7 @@
         "weapon": "무기",
         "frame": "프레임",
         "help": "도움말",
-        "cloudAccount": "",
+        "cloudAccount": "클라우드 계정",
         "npcs": "NPC",
         "overcharge": "과부하",
         "player": "플레이어",
@@ -115,11 +115,16 @@
         "syncNow": "지금 동기화",
         "alert": "경고",
         "ok": "OK",
-        "tables": "굴림표"
+        "tables": "굴림표",
+        "roll_verb": "굴리기",
+        "trigger": "발동 조건",
+        "side": "진영",
+        "statsLabel": "스탯"
     },
     "gm": {
         "fields": {
-            "authors": "작성자"
+            "authors": "작성자",
+            "service": "소셜"
         },
         "campaign": {
             "patch": "패치",
@@ -151,7 +156,7 @@
         "npcTemplate": {
             "noTemplates": "템플릿 없음",
             "editTemplates": "NPC 템플릿 편집",
-            "selectNpcTemplate": "NPC 템플릿 선택"
+            "selectNpcTemplate": "npc 템플릿 선택"
         },
         "npcBuilder": {
             "templates": "템플릿"
@@ -164,10 +169,29 @@
             "deleteItemConfirm": "이 항목을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
         },
         "combatant": {
-            "clickToEdit": "편집하려면 클릭하세요."
+            "clickToEdit": "편집하려면 클릭하세요"
         },
         "encounterIndex": {
             "addFolder": "폴더 추가"
+        },
+        "npcFeature": {
+            "selectedClass": "선택된 클래스"
+        },
+        "npcEditor": {
+            "v2Export": "v2 내보내기",
+            "statblock": "스탯블록"
+        },
+        "labels": {
+            "sortAlphabetically": "이름순으로 정렬"
+        },
+        "eidolon": {
+            "layers": "층위",
+            "addLayer": "층위 추가",
+            "addRandomLayer": "랜덤 층위 추가",
+            "noLayers": "층위 없음"
+        },
+        "eidolonPrint": {
+            "layer": "층위"
         }
     },
     "language": {
@@ -180,11 +204,15 @@
     },
     "classes": {
         "newCampaign": "새 캠페인",
-        "newEidolon": "새 아이돌론"
+        "newEidolon": "새 아이돌론",
+        "newEnvironment": "새 환경 생성",
+        "newEnvironmentDescription": "새 환경",
+        "unknownStatus": "알 수 없는 상태"
     },
     "active": {
         "mechActions": {
-            "pilotEjectedText": "{name}(이)가 메크에서 사출되어 ‘손상’ 상태이상을 얻음."
+            "pilotEjectedText": "{name}(이)가 메크에서 사출되어 ‘손상’ 상태이상을 얻음.",
+            "mechHiddenTitle": "은신한 메크"
         },
         "common": {
             "copiedToClipboard": "클립보드에 복사됨",
@@ -225,11 +253,16 @@
             "cover": "엄폐",
             "noCover": "엄폐 없음",
             "resistances": "저항",
-            "statusesConditions": "상태/상태이상"
+            "statusesConditions": "상태/상태이상",
+            "soft": "부분",
+            "softCover": "부분 엄폐",
+            "hardCover": "완전 엄폐"
         },
         "actorLogs": {
             "exportText": "텍스트 로그 내보내기",
-            "exportJson": "JSON 로그 내보내기"
+            "exportJson": "JSON 로그 내보내기",
+            "log": "로그",
+            "noEntries": "전투 로그 목록이 없습니다."
         },
         "timedEffect": {
             "roundsRemaining": "{n} 라운드 남음"
@@ -239,13 +272,41 @@
             "addCustom": "커스텀 상태 추가"
         },
         "combatAction": {
-            "alreadyUsed": "이 행동은 이미 이 턴에 사용되었습니다."
+            "alreadyUsed": "이 행동은 이미 이 턴에 사용되었습니다.",
+            "insufficient": "부족",
+            "activationAction": "{n} 행동"
         },
         "cards": {
             "equipmentDestroyed": "장비 파괴됨"
         },
         "titles": {
-            "burn": "화재"
+            "burn": "화재",
+            "pilot": "파일럿",
+            "movement": "이동"
+        },
+        "npcActions": {
+            "npcHiddenTitle": "은신한 NPC"
+        },
+        "telemetry": {
+            "lifetime": "생애"
+        },
+        "activeEffect": {
+            "title": "활성 효과",
+            "hiddenEffects": "숨겨진 효과"
+        },
+        "actions": {
+            "allActions": "모든 행동",
+            "selectIcon": "아이콘 선택",
+            "mounted": "마운트에 탑재됨",
+            "overwatch": "경계",
+            "activeEffect": "활성 효과",
+            "passiveBonus": "패시브 보너스"
+        },
+        "pilotActions": {
+            "hiddenTitle": "은신한 파일럿"
+        },
+        "fields": {
+            "customStatusName": "커스텀 상태 이름"
         }
     },
     "compendium": {
@@ -256,7 +317,15 @@
         "campaign": {
             "recommendedLicenseLevel": "권장 라이선스 레벨",
             "sortByTitle": "제목에 따라 정렬",
-            "addCampaign": "캠페인 추가"
+            "addCampaign": "캠페인 추가",
+            "noCampaignsFound": "캠페인 없음",
+            "updateCampaign": "캠페인 업데이트",
+            "openCampaign": "캠페인 열기",
+            "recommendedPlayers": "권장 플레이어",
+            "sortBySuggestedPlayers": "권장 플레이어에 따라 정렬",
+            "sortByLicenseLevel": "라이선스 레벨에 따라 정렬",
+            "recommendedForLine": "{players}명의 플레이어와 라이선스 레벨 {levels} 권장됨",
+            "index": "색인"
         },
         "categories": {
             "frames": "프레임",
@@ -267,14 +336,19 @@
             "mechActions": "메크 행동",
             "pilotActions": "파일럿 행동",
             "statuses": "상태",
-            "glossary": "용어"
+            "glossary": "용어",
+            "perTurn": "턴 당",
+            "fullAction": "전력 행동",
+            "or": "혹은",
+            "twoQuickActions": "빠른 행동 2개",
+            "faqErrata": "FAQ & 에라타"
         }
     },
     "nav": {
         "packsDirectory": {
             "communityContent": "@:{'common.gameName'} 커뮤니티 컨텐츠",
             "communityContentTitle": "@:{'common.gameName'} 커뮤니티 컨텐츠 팩",
-            "clickHere": "여기를 클릭하세요"
+            "clickHere": "여기를 클릭하세요."
         },
         "contentManager": {
             "refreshContent": "새로 고침"
@@ -345,7 +419,8 @@
         "structure": "구조",
         "stress": "스트레스",
         "sp": "SP",
-        "edefense": "전자방어"
+        "edefense": "전자방어",
+        "edef": "전자방어"
     },
     "pm": {
         "link": {
@@ -358,7 +433,13 @@
     "ui": {
         "fields": {
             "size": "크기",
-            "license": "라이선스"
+            "license": "라이선스",
+            "tags": "태그",
+            "systemType": "시스템 유형",
+            "weaponType": "무기 유형",
+            "requiredMount": "요구 마운트",
+            "attackType": "공격 유형",
+            "damageType": "피해 유형"
         },
         "pwa": {
             "updateAvailable": "@:{'common.appName'}의 새로운 버전이 있습니다.",
@@ -372,7 +453,17 @@
             "noFilters": "유효한 필터 없음"
         },
         "titles": {
-            "structureDamage": "구조 피해"
+            "structureDamage": "구조 피해",
+            "overheating": "과열",
+            "cascade": "폭주"
+        },
+        "combat": {
+            "statusEffect": "유효한 상태 효과",
+            "resistanceImmunity": "저항/면역 유효",
+            "resistanceType": "저항 유형"
+        },
+        "rollTable": {
+            "d": "D"
         }
     },
     "mainMenu": {
@@ -388,7 +479,10 @@
             "system": "시스템",
             "mod": "모드",
             "mine": "지뢰",
-            "grenade": "수류탄"
+            "grenade": "수류탄",
+            "shield": "실드",
+            "deployable": "설치물",
+            "drone": "드론"
         },
         "activationType": {
             "invade": "침투",
@@ -404,7 +498,9 @@
             "next_turn": "다음 턴",
             "round": "라운드",
             "next_round": "다음 라운드",
-            "scene": "장면"
+            "scene": "장면",
+            "encounter": "전투",
+            "mission": "임무"
         },
         "attackType": {
             "melee": "근접",
@@ -443,12 +539,21 @@
         "rangeType": {
             "range": "사거리",
             "blast": "방출"
+        },
+        "mechType": {
+            "balanced": "균형",
+            "artillery": "포수",
+            "striker": "공격수",
+            "controller": "제어",
+            "support": "지원",
+            "defender": "방어수"
         }
     },
     "notify": {
         "dataItem": {
             "bulkDeletedText": "선택된 아이템이 제거되었습니다.",
-            "bulkPartialTitle": "{n}개 제거됨, {f}개 실패"
+            "bulkPartialTitle": "{n}개 제거됨, {f}개 실패",
+            "bulkDeletedTitle": "{n} 개의 아이템 제거됨 | {n} 개의 아이템 제거됨"
         }
     }
 }
