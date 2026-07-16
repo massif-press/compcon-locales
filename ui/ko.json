@@ -200,7 +200,9 @@
         "titles": {
             "eidolons": "아이돌론",
             "selectImage": "이미지 선택",
-            "deletePreset": "사전 설정 삭제"
+            "deletePreset": "프리셋 삭제",
+            "selectLayer": "층위 선택",
+            "npcStatblock": "NPC 스탯블록"
         }
     },
     "language": {
@@ -316,6 +318,9 @@
         },
         "fields": {
             "customStatusName": "커스텀 상태 이름"
+        },
+        "barrage": {
+            "selectWeapon": "전력 공격 무기 선택"
         }
     },
     "compendium": {
@@ -400,7 +405,8 @@
             "success": "성공"
         },
         "communityTable": {
-            "currentVersion": "현재 버전"
+            "currentVersion": "현재 버전",
+            "free": "무료"
         },
         "search": {
             "searchResults": "검색결과",
@@ -423,7 +429,7 @@
         "agi": "민첩",
         "hp": "HP",
         "evasion": "회피",
-        "speed": "속도",
+        "speed": "이동속도",
         "sensors": "센서",
         "structure": "구조",
         "stress": "스트레스",
@@ -535,7 +541,7 @@
             "auxiliary": "보조",
             "main": "주",
             "superheavy": "초대형",
-            "heavy": ""
+            "heavy": "중형"
         },
         "mountType": {
             "main": "주",
@@ -543,11 +549,16 @@
             "aux": "보조",
             "main_aux": "주/보조",
             "superheavy": "초대형",
-            "heavy": ""
+            "heavy": "중형"
         },
         "rangeType": {
             "range": "사거리",
-            "blast": "방출"
+            "blast": "폭발",
+            "threat": "위협",
+            "thrown": "투척",
+            "line": "직선",
+            "cone": "원뿔",
+            "burst": "방출"
         },
         "mechType": {
             "balanced": "균형",
