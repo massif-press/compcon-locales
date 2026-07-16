@@ -82,7 +82,7 @@
         "cancelPermanentDeletion": "영구 삭제 취소",
         "confirmPermanentDeletion": "영구 삭제 확인",
         "contentLabel": "컨텐츠",
-        "show": "보기",
+        "show": "나타내기",
         "mount": "마운트",
         "environment": "환경",
         "background": "배경",
@@ -120,12 +120,14 @@
         "trigger": "발동 조건",
         "side": "진영",
         "statsLabel": "스탯",
-        "contents": "내용"
+        "contents": "내용",
+        "reserves": "보급",
+        "roll_noun": "굴림"
     },
     "gm": {
         "fields": {
             "authors": "작성자",
-            "service": "소셜"
+            "service": "소셜 서비스"
         },
         "campaign": {
             "patch": "패치",
@@ -193,7 +195,8 @@
         },
         "eidolonPrint": {
             "layer": "층위"
-        }
+        },
+        "gmNotes": "GM 메모"
     },
     "language": {
         "selectLanguage": "언어",
@@ -213,7 +216,7 @@
     "active": {
         "mechActions": {
             "pilotEjectedText": "{name}(이)가 메크에서 사출되어 ‘손상’ 상태이상을 얻음.",
-            "mechHiddenTitle": "은신한 메크"
+            "mechHiddenTitle": "메크 은신함"
         },
         "common": {
             "copiedToClipboard": "클립보드에 복사됨",
@@ -286,7 +289,7 @@
             "movement": "이동"
         },
         "npcActions": {
-            "npcHiddenTitle": "은신한 NPC"
+            "npcHiddenTitle": "NPC 은신함"
         },
         "telemetry": {
             "lifetime": "생애"
@@ -304,7 +307,7 @@
             "passiveBonus": "패시브 보너스"
         },
         "pilotActions": {
-            "hiddenTitle": "은신한 파일럿"
+            "hiddenTitle": "파일럿 은신함"
         },
         "fields": {
             "customStatusName": "커스텀 상태 이름"
@@ -481,7 +484,7 @@
             "mod": "모드",
             "mine": "지뢰",
             "grenade": "수류탄",
-            "shield": "실드",
+            "shield": "보호막",
             "deployable": "설치물",
             "drone": "드론"
         },
