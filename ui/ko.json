@@ -202,7 +202,8 @@
             "selectImage": "이미지 선택",
             "deletePreset": "프리셋 삭제",
             "selectLayer": "층위 선택",
-            "npcStatblock": "NPC 스탯블록"
+            "npcStatblock": "NPC 스탯블록",
+            "selectTemplate": "템플릿 선택"
         }
     },
     "language": {
