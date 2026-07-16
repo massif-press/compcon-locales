@@ -82,7 +82,7 @@
         "cancelPermanentDeletion": "영구 삭제 취소",
         "confirmPermanentDeletion": "영구 삭제 확인",
         "contentLabel": "컨텐츠",
-        "show": "나타내기",
+        "show": "표시",
         "mount": "마운트",
         "environment": "환경",
         "background": "배경",
@@ -196,7 +196,12 @@
         "eidolonPrint": {
             "layer": "층위"
         },
-        "gmNotes": "GM 메모"
+        "gmNotes": "GM 메모",
+        "titles": {
+            "eidolons": "아이돌론",
+            "selectImage": "이미지 선택",
+            "deletePreset": "사전 설정 삭제"
+        }
     },
     "language": {
         "selectLanguage": "언어",
