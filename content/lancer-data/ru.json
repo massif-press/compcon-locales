@@ -72,5 +72,6 @@
     "mf_minotaur.name": "Минотавр",
     "glossary_BonusDamage.name": "Дополнительный урон",
     "mf_monarch.name": "Монарх",
-    "mf_mourning_cloak.name": "Траурница"
+    "mf_mourning_cloak.name": "Траурница",
+    "mf_black_witch.core_system.active_name": "Магнитное поле"
 }
