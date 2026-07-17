@@ -40,7 +40,7 @@
     "act_move.name": "",
     "glossary_HeatCapacity.name": "Теплоёмкость",
     "glossary_Burn.name": "Плавление",
-    "act_eject.terse": "Катапультируйтесь из своего меха, пролетая 6 гексов в направлении по вашему выбору.",
+    "act_eject.terse": "Катапультируйтесь из своего меха, пролетая 6 клеток в направлении по вашему выбору.",
     "glossary_Speed.name": "Скорость",
     "glossary_Stress.description": "",
     "glossary_Stress.name": "",
