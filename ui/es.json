@@ -2575,7 +2575,9 @@
             "newOrganization": "Nueva organización",
             "editPilotDescription": "Editar descripción de la tarea",
             "confirmPilotDeletion": "Confirmar borrado",
-            "exportV2Json": "Exportar como JSON"
+            "exportV2Json": "Exportar como JSON",
+            "exportSuccess": "Exportación Exitosa",
+            "exportError": "Error de exportación"
         },
         "roster": {
             "history": "Historial",
