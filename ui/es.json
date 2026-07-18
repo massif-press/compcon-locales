@@ -3508,7 +3508,8 @@
             "markingAFieldOrItem": "Marcar un campo o artículo 'Solo DJ' lo ocultará para los jugadores en exportaciones y salida de impresión",
             "deleteCounter": "Borrar Contador",
             "resetCounter": "Reiniciar Contador",
-            "itemFilters": "Filtros de Artículo"
+            "itemFilters": "Filtros de Artículo",
+            "linkARemotelyHostedImageTo": "Enlaza una imagen alojada remotamente a este activo. Estas imágenes no son almacenadas o gestionadas por @:{'common.appName'} y son sujetos de cambio o remoción en base a su alojamiento."
         },
         "card": {
             "suggestedSkills": "Habilidades Sugeridas",
