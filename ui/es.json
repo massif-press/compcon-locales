@@ -2685,7 +2685,8 @@
             "selectSkillTriggers": "Seleccione {word} ({count}) Triggers de Habilidad.",
             "addMechSkillPoints": "Add {word} ({count}) Puntos de Habilidad Mech.",
             "selectPilotTalents": "Seleccione {word} ({count}) Talentos piloto.",
-            "selectLicenseRanks": "Seleccione {word} ({count}) Licencia Rank(s)."
+            "selectLicenseRanks": "Seleccione {word} ({count}) Licencia Rank(s).",
+            "selectCoreBonusesN": "Seleccione {word} ({count}) Core {item}."
         },
         "link": {
             "bond": "Lazo",
