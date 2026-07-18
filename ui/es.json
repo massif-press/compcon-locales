@@ -1813,6 +1813,9 @@
             "createManageAndRunLocalEncounters": "Crear, gestionar, y correr Encuentros locales para sus juegos Lancer",
             "kineticExplosiveAndHeatDamageDoubled": "Daños cinético, explosivo, y calor doblados.",
             "damageIgnoresArmorAndResistance": "Daño ignora armadura y resistencia."
+        },
+        "structureCheck": {
+            "rolled": "Rol"
         }
     },
     "mainMenu": {
