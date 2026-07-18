@@ -2676,7 +2676,8 @@
             "mv2CFrameConfigurationUpdate": "Actualización de configuración del marco MV-2/c",
             "improveSkillTriggers": "Mejorar los desencadenantes de habilidad",
             "addOrImproveSkill": "Añadir o mejorar un desencadenante de habilidad.",
-            "improveMechSkill": "Mejorar una Habilidad Mech."
+            "improveMechSkill": "Mejorar una Habilidad Mech.",
+            "addOrUpgradeTalent": "Añadir o actualizar un talento."
         },
         "link": {
             "bond": "Lazo",
