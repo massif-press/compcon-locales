@@ -2580,7 +2580,8 @@
             "exportError": "Error de exportación",
             "pilotOnly": "Solo Pilotos",
             "missingInAction": "Falta una sección",
-            "killedInAction": "Muerto en acción"
+            "killedInAction": "Muerto en acción",
+            "licenseLevel": "Nivel de Licencia {n}"
         },
         "roster": {
             "history": "Historial",
