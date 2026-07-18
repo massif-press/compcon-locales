@@ -2581,7 +2581,9 @@
             "pilotOnly": "Solo Pilotos",
             "missingInAction": "Falta una sección",
             "killedInAction": "Muerto en acción",
-            "licenseLevel": "Nivel de Licencia {n}"
+            "licenseLevel": "Nivel de Licencia {n}",
+            "spCost": "Costo PS",
+            "contentPack": "Paquetes de Contenido"
         },
         "roster": {
             "history": "Historial",
