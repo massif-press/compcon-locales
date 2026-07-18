@@ -1820,7 +1820,8 @@
             "resolution": "Resolución",
             "success": "Éxito",
             "fail": "Fallo",
-            "applyManual": "Sólo manualmente"
+            "applyManual": "Sólo manualmente",
+            "chooseOne": "elija uno"
         }
     },
     "mainMenu": {
