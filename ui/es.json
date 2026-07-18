@@ -2686,7 +2686,8 @@
             "addMechSkillPoints": "Add {word} ({count}) Puntos de Habilidad Mech.",
             "selectPilotTalents": "Seleccione {word} ({count}) Talentos piloto.",
             "selectLicenseRanks": "Seleccione {word} ({count}) Licencia Rank(s).",
-            "selectCoreBonusesN": "Seleccione {word} ({count}) Core {item}."
+            "selectCoreBonusesN": "Seleccione {word} ({count}) Core {item}.",
+            "bonusesWord": "Bonos"
         },
         "link": {
             "bond": "Lazo",
@@ -2698,7 +2699,8 @@
             "couldNotBeFound": "no se pudo encontrar.",
             "pilotRequiresReSync": "Piloto requiere re-sinc",
             "withShareCode": "con código para compartir",
-            "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse."
+            "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse.",
+            "hull": "Hull"
         }
     },
     "share": {
