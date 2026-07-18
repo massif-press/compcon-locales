@@ -1816,7 +1816,11 @@
         },
         "structureCheck": {
             "rolled": "Rol",
-            "markResolved": "Marcar como resuelto"
+            "markResolved": "Marcar como resuelto",
+            "resolution": "Resolución",
+            "success": "Éxito",
+            "fail": "Fallo",
+            "applyManual": "Sólo manualmente"
         }
     },
     "mainMenu": {
