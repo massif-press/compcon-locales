@@ -2571,7 +2571,8 @@
             "addProject": "Añadir proyecto",
             "addOrganization": "Añadir organización",
             "newProject": "Proyecto nuevo",
-            "missingLicenseData": "Falta la licencia"
+            "missingLicenseData": "Falta la licencia",
+            "newOrganization": "Nueva organización"
         },
         "roster": {
             "history": "Historial",
