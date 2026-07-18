@@ -2568,7 +2568,8 @@
             "selectDamage": "Seleccionar imagen",
             "pilotLicenses": "Establecer Licencias de Piloto",
             "addCustomReserve": "Agregar servidor personal",
-            "addProject": "Añadir proyecto"
+            "addProject": "Añadir proyecto",
+            "addOrganization": "Añadir organización"
         },
         "roster": {
             "history": "Historial",
