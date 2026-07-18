@@ -2650,7 +2650,8 @@
             "pilotLICENSEDATAMissingOrIncomplete": "DATOS LICENCIA PILOTO faltantes o incompletos",
             "pilotCOREBONUSDATAMissingOr": "PILOT CORE BONUS DATA desaparecido o incompleto",
             "pilotSKILLTRIGGERSIncompleteOrInvalid": "PILOT SKILL TRIGGERS incomplete or invalid",
-            "pilotTALENTSIncompleteOrInvalid": "PILOT TALENTS incompletos o inválidos"
+            "pilotTALENTSIncompleteOrInvalid": "PILOT TALENTS incompletos o inválidos",
+            "pilotMECHSKILLSIncompleteOrInvalid": "PILOT MECH SKILLS incompleto or invalid"
         },
         "link": {
             "bond": "Lazo",
