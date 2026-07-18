@@ -2701,7 +2701,8 @@
             "withShareCode": "con código para compartir",
             "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse.",
             "hull": "Hull",
-            "sys": "Sys"
+            "sys": "Sys",
+            "eng": "Eng"
         }
     },
     "share": {
