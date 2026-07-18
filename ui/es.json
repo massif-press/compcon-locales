@@ -2566,7 +2566,8 @@
             "equipmentLoadout": "Carga de Equipamiento",
             "removeItem": "Eliminar elemento",
             "selectDamage": "Seleccionar imagen",
-            "pilotLicenses": "Establecer Licencias de Piloto"
+            "pilotLicenses": "Establecer Licencias de Piloto",
+            "addCustomReserve": "Agregar servidor personal"
         },
         "roster": {
             "history": "Historial",
