@@ -2681,7 +2681,8 @@
             "selectACoreBonus": "Seleccione un bono de CORE",
             "nextCoreBonusIn": "BONUS DE CORE NEXO",
             "licenseLevels": "LICENSE LEVELS",
-            "onAcceptanceFrameConfig": "En la aceptación de la configuración de marco MV-2//c Actualizar el subsistema Union IDENT//eng actualizará automáticamente los protocolos de configuración de marcos almacenados en la dirección Vault Omninet registrada en su perfil IDENT (V.node::/{id})."
+            "onAcceptanceFrameConfig": "En la aceptación de la configuración de marco MV-2//c Actualizar el subsistema Union IDENT//eng actualizará automáticamente los protocolos de configuración de marcos almacenados en la dirección Vault Omninet registrada en su perfil IDENT (V.node::/{id}).",
+            "selectSkillTriggers": "Seleccione {word} ({count}) Triggers de Habilidad."
         },
         "link": {
             "bond": "Lazo",
