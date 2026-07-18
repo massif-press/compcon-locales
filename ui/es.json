@@ -2652,7 +2652,8 @@
             "pilotSKILLTRIGGERSIncompleteOrInvalid": "PILOT SKILL TRIGGERS incomplete or invalid",
             "pilotTALENTSIncompleteOrInvalid": "PILOT TALENTS incompletos o inválidos",
             "pilotMECHSKILLSIncompleteOrInvalid": "PILOT MECH SKILLS incompleto or invalid",
-            "pilotLICENSESIncompleteOrInvalid": "PILOT LICENSES incompletos o inválidos"
+            "pilotLICENSESIncompleteOrInvalid": "PILOT LICENSES incompletos o inválidos",
+            "pilotCOREBONUSESIncompleteOrInvalid": "PILOT CORE BONUSES incompleta o inválida"
         },
         "link": {
             "bond": "Lazo",
