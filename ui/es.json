@@ -2656,7 +2656,8 @@
             "pilotCOREBONUSESIncompleteOrInvalid": "PILOT CORE BONUSES incompleta o inválida",
             "registerNewPilot": "Registro Nuevo Piloto // {callsign} ({name})",
             "updatePilotRecord": "Update Pilot Record // {callsign} ({name})",
-            "registrationOverride": "Cambio de registro"
+            "registrationOverride": "Cambio de registro",
+            "addCOREBonus": "Add CORE Bonus"
         },
         "link": {
             "bond": "Lazo",
