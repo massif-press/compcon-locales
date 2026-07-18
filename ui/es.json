@@ -2707,7 +2707,8 @@
             "pilotAppearance": "Aparición piloto"
         },
         "common": {
-            "commaLl": ", LL"
+            "commaLl": ", LL",
+            "installName": "Instala {name}"
         }
     },
     "share": {
