@@ -149,7 +149,7 @@
         "remove": "Quitar",
         "hidden": "Oculto",
         "roll_noun": "Tira",
-        "hpBonus": "Bono de PV",
+        "hpBonus": "Bono de PG",
         "setCustomDescription": "Asignar Descripción Personalizada",
         "pilotGroup": "Grupo de Pilotos",
         "background": "Trasfondo",
@@ -1071,7 +1071,7 @@
             "addDowntime": "Añadir Interludio",
             "eidolons": "Eidolones",
             "clock": "Reloj",
-            "addBeat": "Añadir Beat",
+            "addBeat": "Añadir Punto Narrativo",
             "contentPack": "Paquete de Contenido",
             "gmLabels": "Etiquetas DJ",
             "role": "Rol",
@@ -1323,7 +1323,9 @@
             "atThe": "en el",
             "endsOnTurn": "{when} de tu turno",
             "braceExit": "Usted sale del estado {braced} y entra en {cooldown}.",
-            "braceCooldown": "Enfriamiento de Fortalecer"
+            "braceCooldown": "Enfriamiento de Fortalecer",
+            "burnTitle": "Incendiar",
+            "resolveBurn": "Resolver Incendio"
         },
         "joinTable": {
             "sortOnline": "Ordenar por Estado en línea",
@@ -1473,7 +1475,8 @@
             "hardCover": "Cobertura Dura",
             "resistances": "Resistencias",
             "statusesConditions": "Estados/Condiciones",
-            "counters": "Contadores"
+            "counters": "Contadores",
+            "endActivation": "Terminar Activación"
         },
         "damageMenu": {
             "takeDamage": "Recibe Daño",
@@ -1810,6 +1813,18 @@
             "createManageAndRunLocalEncounters": "Crear, gestionar, y correr Encuentros locales para sus juegos Lancer",
             "kineticExplosiveAndHeatDamageDoubled": "Daños cinético, explosivo, y calor doblados.",
             "damageIgnoresArmorAndResistance": "Daño ignora armadura y resistencia."
+        },
+        "structureCheck": {
+            "rolled": "Tirada",
+            "markResolved": "Marcar Resuelto",
+            "resolution": "Resolución",
+            "success": "Éxito",
+            "fail": "Fallo",
+            "applyManual": "aplicar manualmente",
+            "chooseOne": "Elija uno"
+        },
+        "burnCheck": {
+            "ignore": "Ignorar"
         }
     },
     "mainMenu": {
@@ -2489,7 +2504,8 @@
             "repcap": "RepLim",
             "xk401REGISTERMECHNAME": "XK-4-01 // registrar nombre mecha",
             "heat": "Calor",
-            "ll": "NL"
+            "ll": "NL",
+            "str": "FUE"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
@@ -2548,7 +2564,47 @@
             "setPilotLicenses": "Establecer Licencias de Piloto",
             "paper": "Papel",
             "orientation": "Orientación",
-            "equipmentLoadout": "Carga de Equipamiento"
+            "equipmentLoadout": "Carga de Equipamiento",
+            "removeItem": "Quitar Artículo",
+            "selectDamage": "Seleccionar Daño",
+            "pilotLicenses": "Licencias de Piloto",
+            "addCustomReserve": "Añadir Reserva Personalizada",
+            "addProject": "Añadir Proyecto",
+            "addOrganization": "Añadir Organización",
+            "newProject": "Nuevo Proyecto",
+            "missingLicenseData": "Datos de Licencia Faltantes",
+            "newOrganization": "Nueva Organización",
+            "editPilotDescription": "Editar Descripción de Piloto",
+            "confirmPilotDeletion": "confirmar eliminación de piloto",
+            "exportV2Json": "Exportar v2 JSON",
+            "exportSuccess": "Exportación Exitosa",
+            "exportError": "Error de Exportación",
+            "pilotOnly": "Solo Piloto",
+            "missingInAction": "Desaparecido En Acción",
+            "killedInAction": "Muerto En Acción",
+            "licenseLevel": "Nivel de Licencia",
+            "spCost": "Costo PS",
+            "contentPack": "Paquete de Contenido",
+            "statblockGenerator": "Generador de Bloques de Estadística",
+            "lcpConfigurationManager": "Gestor de Configuración LCP",
+            "selectBondPowers": "Seleccionar poderes de Lazo",
+            "otherClocks": "Otros Relojes",
+            "selectPilotBond": "Seleccionar Lazo de Piloto",
+            "cloneQuirks": "Clonar Peculiaridades",
+            "gearLoadout": "Equipamiento Preparado",
+            "skillTriggers": "Detonantes",
+            "setPilotSkillTriggers": "Establecer Detonantes",
+            "setPilotCoreBonuses": "Establecer Bonos BASE de Piloto",
+            "setPilotMechSkills": "Establecer Habilidades Meca de Piloto",
+            "specialEquipment": "Equipo Especial",
+            "addStandardEquipment": "Añadir Equipo Estándar",
+            "setPilotTalents": "Establecer Talentos de Piloto",
+            "layout": "Distribución",
+            "cardOptions": "Opciones Tarjeta",
+            "groupDescription": "Descripción Grupo",
+            "setGroupEmblem": "Elegir Emblema de Grupo",
+            "groupAlreadyExists": "Grupo Ya Existente",
+            "createPilotGroup": "Crear Grupo de Pilotos"
         },
         "roster": {
             "history": "Historial",
@@ -2635,7 +2691,48 @@
             "pilotSKILLTRIGGERSMissingOrIncomplete": "DETONANTE PILOTO faltante o incompleto",
             "pilotTALENTSMissingOrIncomplete": "TALENTOS PILOTO faltantes o incompletos",
             "pilotMECHSKILLSMissingOrIncomplete": "HABILIDADES MECA PILOTO faltantes o incompletas",
-            "pilotLICENSEDATAMissingOrIncomplete": "DATOS LICENCIA PILOTO faltantes o incompletos"
+            "pilotLICENSEDATAMissingOrIncomplete": "DATOS LICENCIA PILOTO faltantes o incompletos",
+            "pilotCOREBONUSDATAMissingOr": "DATOS DE BONOS BASE DE PILOTO faltantes o incompletos",
+            "pilotSKILLTRIGGERSIncompleteOrInvalid": "DETONANTES DE PILOTO incompletos o inválidos",
+            "pilotTALENTSIncompleteOrInvalid": "TALENTOS DE PILOTO incompletos o inválidos",
+            "pilotMECHSKILLSIncompleteOrInvalid": "HABILIDADES MECA DE PILOTO incompletas o inválidas",
+            "pilotLICENSESIncompleteOrInvalid": "LICENCIAS DE PILOTO incompletas o inválidas",
+            "pilotCOREBONUSESIncompleteOrInvalid": "BONOS BASE DE PILOTO incompletos o inválidos",
+            "registerNewPilot": "Registrar Nuevo Piloto // {callsign} ({name})",
+            "updatePilotRecord": "Actualizar Registro de Piloto // {callsign} ({name})",
+            "registrationOverride": "Anulación de Registro",
+            "addCOREBonus": "Añadir Bono BASE",
+            "rm4cS2CoreModification": "RM-4c (S-2) Modificación Suplementaria Base",
+            "mv2ACORESupplemental": "MV-2(a) Suplemento BASE",
+            "theRM4SupplementalIICore": "La RM-4β Suplemento II (Modificación BASE) registra el Archivo Datos Modificación Base (CMD) de un piloto individual dejandole disponible para servicios de impresión y equipamiento.",
+            "theMV2ASupplementalAmendment": "La Enmienda Suplementaria MV-2(a) registra una modificación BASE importante, actualización, reacondicionamiento, o mejora. La Junta de Inteligencia Naval de la Unión sólo reconoce el aumento BASE de un Licenciante aprobado y registrado por la Unión.",
+            "theUnionLicensingAuthorityAndThe": "La Autoridad de Licenciamiento de la Unión y el Departamento Administrativo de la Unión por la presente desconoce cualquier y toda responsabilidad por Modificaciones Base.",
+            "unlockLicense": "Desbloquear Licencia",
+            "rm4cS1LicensingAuthorization": "RM-4c (S-1) Suplemento Autorización de Licencias",
+            "mv2DLicensorLicenseeTransmit": "MV-2//d Registro de Transmisión Licenciante/Concesionario",
+            "theRM4SupplementalILicensing": "La RM-4α suplementaria I (Autorización de Licencias) registra las licencias de Impresión de Chasis y Operación (FP/O) para un piloto individual bajo la Autoridad de Concesión de Licencias de la Unión.",
+            "theMV2LicensorLicenseeTransmit": "El Registro MV-2 Licenciante/Concesionario Registro de Transmisión registra la transmisión y recepción de una Licencia de CHASIS reconocido por UN consistente, pero no limitada a, Plantillas de Impresión de Equipo sin exceder 1.5EB, Plantillas Impresión de CHASIS sin exceder 3.75EB, y protocolos de acceso a software de sistema compatible con CHASIS.",
+            "unlockALicense": "Desbloquea una Licencia.",
+            "unionAndItsRepresentativesAreNot": "Unión y sus representantes no son responsables de los problemas derivados de la impresión, instalación y/o uso de materiales de Licencia no reconocidos o prohibidos.",
+            "pilotMechSkills": "Habilidades Meca Piloto",
+            "improveMechSkills": "Mejorar Habilidades Meca",
+            "rm4dPilotSelfAssessment3": "RM-4d Auto-Evaluación de Piloto (3/3)",
+            "mv2CFrameConfigurationUpdate": "MV-2//c Actualización de Configuración del Chasis",
+            "improveSkillTriggers": "Mejorar Detonantes",
+            "addOrImproveSkill": "Añadir o Mejorar un Detonante.",
+            "improveMechSkill": "Mejorar una Habilidad Meca.",
+            "addOrUpgradeTalent": "Añadir o Mejorar un Talento.",
+            "selectACoreBonus": "Seleccione un bono BASE",
+            "nextCoreBonusIn": "Siguiente bono base en",
+            "licenseLevels": "Niveles de licencia",
+            "onAcceptanceFrameConfig": "En la aceptación de la MV-2//c Actualizar Configuración de Chasis el subsistema Unión IDENT//eng actualizará automáticamente los protocolos de configuración de chasis almacenados en la dirección Omninet Vault registrada en su perfil IDENT (V.node::/{id}).",
+            "selectSkillTriggers": "Seleccione {word} ({count}) Detonantes.",
+            "addMechSkillPoints": "Añada {word} ({count}) Puntos de Habilidad Meca.",
+            "selectPilotTalents": "Seleccione {word} ({count}) Talentos de Piloto.",
+            "selectLicenseRanks": "Seleccione {word} ({count}) Rango de Licencia. | Seleccione {word} ({count}) Rangos de Licencia.",
+            "selectCoreBonusesN": "Seleccione {word} ({count}) Base {item}.",
+            "bonusesWord": "Bonos",
+            "pilotINELIGIBLEFORCOREBONUS": "Piloto no eligible para bono base"
         },
         "link": {
             "bond": "Lazo",
@@ -2647,7 +2744,16 @@
             "couldNotBeFound": "no se pudo encontrar.",
             "pilotRequiresReSync": "Piloto requiere re-sinc",
             "withShareCode": "con código para compartir",
-            "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse."
+            "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse.",
+            "hull": "Casco",
+            "sys": "Sis",
+            "eng": "Ing",
+            "pilotBiography": "Biografía Piloto",
+            "pilotAppearance": "Apariencia Piloto"
+        },
+        "common": {
+            "commaLl": ", NL",
+            "installName": "Instalar {name}"
         }
     },
     "share": {

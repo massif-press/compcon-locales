@@ -734,8 +734,8 @@
             "size": "Tamanho",
             "mounts": "Suportes",
             "edef": "E.Def",
-            "heatcap": "CapCalor",
-            "repcap": "CapRep",
+            "heatcap": "Cap. Calor",
+            "repcap": "Cap. Rep.",
             "techatk": "AtaqTec",
             "role": "Função",
             "origin": "Origem",
@@ -754,11 +754,11 @@
             "equipmentTags": "Tags de Equipamento",
             "coreBonuses": "Bônus de Núcleo",
             "pilotBackgrounds": "Antecedentes de Piloto",
-            "downtimeActions": "Ações de Tempo de Inatividade",
+            "downtimeActions": "Ações de Tempo de Recesso",
             "referenceBasics": "Referência: Noções Básicas",
             "referenceCompCon": "Referência: COMP/CON",
             "referencePilots": "Referência: Pilotos",
-            "referenceMechs": "Referência: Mechs",
+            "referenceMechs": "Referência: Mechas",
             "referenceCombat": "Referência: Combate",
             "referenceNarrativePlay": "Referência: Jogo Narrativo",
             "referenceErrata": "Referência: Errata",
@@ -766,7 +766,7 @@
             "manufacturers": "Fabricantes",
             "frames": "Chassis",
             "glossary": "Glossário",
-            "downtimeactions": "AçõesDeTempoDeInatividade",
+            "downtimeactions": "Ações de Tempo de Recesso",
             "bonds": "Vínculos",
             "environments": "Ambientes",
             "sitreps": "SITREPs",
@@ -801,7 +801,7 @@
         },
         "content": {
             "eidolonLayer": "Camada do Eidolon",
-            "frameSuffix": "Estrutura de {type}"
+            "frameSuffix": "Chassi {type}"
         },
         "campaign": {
             "errNoCampaign": "Erro: nenhuma campanha carregada",
@@ -1201,7 +1201,7 @@
             "heatCapacity": "Capacidade de Calor",
             "repairCapacity": "Capacidade de Reparos",
             "totalDamage": "Dano Total",
-            "saveTarget": "Alvo de Salvamento",
+            "saveTarget": "Valor de Salvamento",
             "kineticDamage": "Dano Cinético",
             "energyDamage": "Dano de Energia",
             "heatDamage": "Dano de Calor",
@@ -1215,7 +1215,7 @@
             "size": "Tamanho",
             "range": "Alcance",
             "hull": "Casco",
-            "heatcap": "Cap.Calor",
+            "heatcap": "Cap. Calor",
             "evade": "Evasão",
             "threat": "Ameaça",
             "thrown": "Arremesso",
@@ -2116,7 +2116,11 @@
             "atThe": "no",
             "endsOnTurn": "{when} do seu turno",
             "braceExit": "Você sai do estado {braced} e entra no estado {cooldown}.",
-            "braceCooldown": "Espera do Suportar"
+            "braceCooldown": "Espera do Suportar",
+            "burnTitle": "Queimadura",
+            "resolveBurn": "Resolver Queimadura",
+            "burnResolved": "Queimadura resolvida",
+            "burnRequired": "Resolver ou ignorar sua Queimadura no fim da rodada."
         },
         "joinTable": {
             "sortOnline": "Ordenar por Status Online",
@@ -2256,7 +2260,9 @@
             "endsOnTargetTurn": "{when} do turno do {target}",
             "braceExit": "sai de {braced} e entra no estado {cooldown}.",
             "reinforcementsReady": "reforços prontos na próxima rodada",
-            "willBeReady": "estarão prontos para implantar."
+            "willBeReady": "estarão prontos para implantar.",
+            "turnsNotEnded": "Turnos não finalizados",
+            "endTurnBtn": "Finalizar Turno"
         },
         "panelBase": {
             "itemDestroyed": "{type} destruído",
@@ -2271,7 +2277,8 @@
             "hardCover": "Cobertura Pesada",
             "resistances": "Resistências",
             "statusesConditions": "Status/Condições",
-            "counters": "Contadores"
+            "counters": "Contadores",
+            "endActivation": "Terminar Ativação"
         },
         "damageMenu": {
             "takeDamage": "Sofrer Dano",
@@ -2552,7 +2559,7 @@
             "allPilots": "Todos os Pilotos",
             "heatCapacity": "Capacidade de Calor",
             "repairCapacity": "Capacidade de Reparos",
-            "saveTarget": "Alvo de Salvamento",
+            "saveTarget": "Valor de Salvamento",
             "items": "Itens",
             "sitrep": "SITREP",
             "round": "Rodada",
@@ -2605,6 +2612,35 @@
             "featureInDevelopmentV31": "Recurso em desenvolvimento (v3.1)",
             "kineticExplosiveAndHeatDamageDoubled": "Dano cinético, explosivo e de calor dobrado.",
             "damageIgnoresArmorAndResistance": "O dano ignora armadura e resistência."
+        },
+        "structureCheck": {
+            "structure": "Dano de Estrutura",
+            "stress": "Estresse do Reator",
+            "pending": "Marcado {type}",
+            "rollLabel": "Role {n}d{die}",
+            "rolled": "Rolagem",
+            "lowest": "Menor",
+            "applyResolve": "Aplicar e Resolver",
+            "markResolved": "Resolvido",
+            "manualNote": "Esse resultado deve ser resolvido manualmente",
+            "diceCount": "{n} ponto(s) marcados",
+            "resolution": "Resolução",
+            "success": "Sucesso",
+            "fail": "Falha",
+            "saveCheck": "Salvamento de {check}",
+            "applyManual": "Aplicar manualmente",
+            "chooseOne": "Escolha um",
+            "reroll": "Re-role",
+            "rollCheck": "Rolar {check}",
+            "rollPrompt": "Role {n}d{die} e escolha o menor"
+        },
+        "burnCheck": {
+            "title": "Salvamento de Queimadura",
+            "prompt": "Essa unidade tem <b>{n}</b> de Queimadura. Faça um salvamento de ENGENHARIA.",
+            "onSuccess": "Em um sucesso: limpe sua Queimadura",
+            "onFail": "Em uma falha: sofra {n} dano de Queimadura ( Queimadura persiste)",
+            "resolveEndTurn": "Resolver e Terminar Turno",
+            "ignore": "Ignorar"
         }
     },
     "mainMenu": {
@@ -3285,7 +3321,7 @@
             "removeBond": "Remover Vínculo",
             "str": "ESTRUTURA",
             "heat": "Calor",
-            "repcap": "CapRep",
+            "repcap": "Cap. Rep",
             "err": "ERRO",
             "sortByName": "Ordenar por Nome",
             "sortByManufacturer": "Ordenar por Fabricante",
@@ -3355,7 +3391,7 @@
             "atk": "ATK",
             "ltdSYS": "LTD sis",
             "repairCAPACITY": "Capacidade de reparo",
-            "repCAP": "Cap rep",
+            "repCAP": "Cap. rep.",
             "atkBONUS": "Bônus atk",
             "ltdBONUS": "Bônus LTD",
             "corePassive": "Passiva Principal",
@@ -3576,7 +3612,7 @@
             "mechOnly": "Apenas Mecha",
             "systemCapacityExceeded": "CAPACIDADE DO SISTEMA EXCEDIDA",
             "systemCapacityRemaining": "CAPACIDADE DO SISTEMA RESTANTE",
-            "emptyMountsDetected": "SUPORTES VAZIOS DETECTADOS",
+            "emptyMountsDetected": "ENCAIXES VAZIOS DETECTADOS",
             "unlicensedEquipmentDetected": "EQUIPAMENTO NÃO LICENCIADO DETECTADO",
             "incompatibleWeaponMod": "MODIFICAÇÃO DE ARMA INCOMPATÍVEL",
             "missingInAction": "Desaparecido Em Combate",
@@ -3593,7 +3629,7 @@
             "size": "Tamanho",
             "edef": "E.Def",
             "heatcap": "Cap.Calor",
-            "repcap": "Cap.Rep",
+            "repcap": "Cap. Rep.",
             "techatk": "Ataq.Tec",
             "active": "Ativo",
             "inactive": "Inativo",
