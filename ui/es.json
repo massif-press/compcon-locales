@@ -2675,7 +2675,8 @@
             "rm4dPilotSelfAssessment3": "Evaluación de Autonomía Pilota RM-4d (3/3)",
             "mv2CFrameConfigurationUpdate": "Actualización de configuración del marco MV-2/c",
             "improveSkillTriggers": "Mejorar los desencadenantes de habilidad",
-            "addOrImproveSkill": "Añadir o mejorar un desencadenante de habilidad."
+            "addOrImproveSkill": "Añadir o mejorar un desencadenante de habilidad.",
+            "improveMechSkill": "Mejorar una Habilidad Mech."
         },
         "link": {
             "bond": "Lazo",
