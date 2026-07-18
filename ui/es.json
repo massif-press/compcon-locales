@@ -2564,7 +2564,8 @@
             "paper": "Papel",
             "orientation": "Orientación",
             "equipmentLoadout": "Carga de Equipamiento",
-            "removeItem": "Eliminar elemento"
+            "removeItem": "Eliminar elemento",
+            "selectDamage": "Seleccionar imagen"
         },
         "roster": {
             "history": "Historial",
