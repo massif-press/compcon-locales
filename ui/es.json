@@ -2678,7 +2678,8 @@
             "addOrImproveSkill": "Añadir o mejorar un desencadenante de habilidad.",
             "improveMechSkill": "Mejorar una Habilidad Mech.",
             "addOrUpgradeTalent": "Añadir o actualizar un talento.",
-            "selectACoreBonus": "Seleccione un bono de CORE"
+            "selectACoreBonus": "Seleccione un bono de CORE",
+            "nextCoreBonusIn": "BONUS DE CORE NEXO"
         },
         "link": {
             "bond": "Lazo",
