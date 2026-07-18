@@ -2653,7 +2653,8 @@
             "pilotTALENTSIncompleteOrInvalid": "PILOT TALENTS incompletos o inválidos",
             "pilotMECHSKILLSIncompleteOrInvalid": "PILOT MECH SKILLS incompleto or invalid",
             "pilotLICENSESIncompleteOrInvalid": "PILOT LICENSES incompletos o inválidos",
-            "pilotCOREBONUSESIncompleteOrInvalid": "PILOT CORE BONUSES incompleta o inválida"
+            "pilotCOREBONUSESIncompleteOrInvalid": "PILOT CORE BONUSES incompleta o inválida",
+            "registerNewPilot": "Registro Nuevo Piloto // {callsign} ({name})"
         },
         "link": {
             "bond": "Lazo",
