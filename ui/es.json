@@ -2577,7 +2577,8 @@
             "confirmPilotDeletion": "Confirmar borrado",
             "exportV2Json": "Exportar como JSON",
             "exportSuccess": "Exportación Exitosa",
-            "exportError": "Error de exportación"
+            "exportError": "Error de exportación",
+            "pilotOnly": "Solo Pilotos"
         },
         "roster": {
             "history": "Historial",
