@@ -1815,7 +1815,8 @@
             "damageIgnoresArmorAndResistance": "Daño ignora armadura y resistencia."
         },
         "structureCheck": {
-            "rolled": "Rol"
+            "rolled": "Rol",
+            "markResolved": "Marcar como resuelto"
         }
     },
     "mainMenu": {
