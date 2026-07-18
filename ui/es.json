@@ -2569,7 +2569,8 @@
             "pilotLicenses": "Establecer Licencias de Piloto",
             "addCustomReserve": "Agregar servidor personal",
             "addProject": "Añadir proyecto",
-            "addOrganization": "Añadir organización"
+            "addOrganization": "Añadir organización",
+            "newProject": "Proyecto nuevo"
         },
         "roster": {
             "history": "Historial",
