@@ -2669,7 +2669,8 @@
             "theRM4SupplementalILicensing": "La RM-4α I suplementaria (autorización de licencias) registra la impresión de un piloto individual\ny licencias (FP/O) bajo la autoridad de concesión de licencias de la Unión.",
             "theMV2LicensorLicenseeTransmit": "El transmisor de licencia de MV-2/Licenario Registro registra la transmisión y recepción de un\nMarco reconocido por las Naciones Unidas Licencia consistente, pero no limitada a, Plantillas de impresión de equipo no\nmás de 1.5EB, FRAME Print Plantillas no superiores a 3.75EB, y protocolos de acceso a\nSoftware de sistema compatible con FRAME.",
             "unlockALicense": "Desbloquea una Licencia.",
-            "unionAndItsRepresentativesAreNot": "Union and its representatives are not liable for problems arising from the printing,\ninstalación y/o uso de materiales de licencia no reconocidos o prohibidos."
+            "unionAndItsRepresentativesAreNot": "Union and its representatives are not liable for problems arising from the printing,\ninstalación y/o uso de materiales de licencia no reconocidos o prohibidos.",
+            "pilotMechSkills": "Pilot Mech Skills"
         },
         "link": {
             "bond": "Lazo",
