@@ -2572,7 +2572,8 @@
             "addOrganization": "Añadir organización",
             "newProject": "Proyecto nuevo",
             "missingLicenseData": "Falta la licencia",
-            "newOrganization": "Nueva organización"
+            "newOrganization": "Nueva organización",
+            "editPilotDescription": "Editar descripción de la tarea"
         },
         "roster": {
             "history": "Historial",
