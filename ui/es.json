@@ -1822,6 +1822,9 @@
             "fail": "Fallo",
             "applyManual": "Sólo manualmente",
             "chooseOne": "elija uno"
+        },
+        "burnCheck": {
+            "ignore": "Ignorar"
         }
     },
     "mainMenu": {
@@ -2560,7 +2563,8 @@
             "setPilotLicenses": "Establecer Licencias de Piloto",
             "paper": "Papel",
             "orientation": "Orientación",
-            "equipmentLoadout": "Carga de Equipamiento"
+            "equipmentLoadout": "Carga de Equipamiento",
+            "removeItem": "Eliminar elemento"
         },
         "roster": {
             "history": "Historial",
