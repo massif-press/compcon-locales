@@ -2700,7 +2700,8 @@
             "pilotRequiresReSync": "Piloto requiere re-sinc",
             "withShareCode": "con código para compartir",
             "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse.",
-            "hull": "Hull"
+            "hull": "Hull",
+            "sys": "Sys"
         }
     },
     "share": {
