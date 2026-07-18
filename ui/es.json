@@ -2655,7 +2655,8 @@
             "pilotLICENSESIncompleteOrInvalid": "PILOT LICENSES incompletos o inválidos",
             "pilotCOREBONUSESIncompleteOrInvalid": "PILOT CORE BONUSES incompleta o inválida",
             "registerNewPilot": "Registro Nuevo Piloto // {callsign} ({name})",
-            "updatePilotRecord": "Update Pilot Record // {callsign} ({name})"
+            "updatePilotRecord": "Update Pilot Record // {callsign} ({name})",
+            "registrationOverride": "Cambio de registro"
         },
         "link": {
             "bond": "Lazo",
