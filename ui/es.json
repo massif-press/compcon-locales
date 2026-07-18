@@ -2702,7 +2702,8 @@
             "mustBeReSyncedToThe": "debe re-sincronizarse con la cuenta del autor antes de que pueda verse.",
             "hull": "Hull",
             "sys": "Sys",
-            "eng": "Eng"
+            "eng": "Eng",
+            "pilotBiography": "Pilot Biography"
         }
     },
     "share": {
