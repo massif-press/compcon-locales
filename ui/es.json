@@ -2567,7 +2567,8 @@
             "removeItem": "Eliminar elemento",
             "selectDamage": "Seleccionar imagen",
             "pilotLicenses": "Establecer Licencias de Piloto",
-            "addCustomReserve": "Agregar servidor personal"
+            "addCustomReserve": "Agregar servidor personal",
+            "addProject": "Añadir proyecto"
         },
         "roster": {
             "history": "Historial",
