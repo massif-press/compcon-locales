@@ -2679,7 +2679,8 @@
             "improveMechSkill": "Mejorar una Habilidad Mech.",
             "addOrUpgradeTalent": "Añadir o actualizar un talento.",
             "selectACoreBonus": "Seleccione un bono de CORE",
-            "nextCoreBonusIn": "BONUS DE CORE NEXO"
+            "nextCoreBonusIn": "BONUS DE CORE NEXO",
+            "licenseLevels": "LICENSE LEVELS"
         },
         "link": {
             "bond": "Lazo",
