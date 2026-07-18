@@ -2647,7 +2647,8 @@
             "pilotSKILLTRIGGERSMissingOrIncomplete": "DETONANTE PILOTO faltante o incompleto",
             "pilotTALENTSMissingOrIncomplete": "TALENTOS PILOTO faltantes o incompletos",
             "pilotMECHSKILLSMissingOrIncomplete": "HABILIDADES MECA PILOTO faltantes o incompletas",
-            "pilotLICENSEDATAMissingOrIncomplete": "DATOS LICENCIA PILOTO faltantes o incompletos"
+            "pilotLICENSEDATAMissingOrIncomplete": "DATOS LICENCIA PILOTO faltantes o incompletos",
+            "pilotCOREBONUSDATAMissingOr": "PILOT CORE BONUS DATA desaparecido o incompleto"
         },
         "link": {
             "bond": "Lazo",
