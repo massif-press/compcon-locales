@@ -2574,7 +2574,8 @@
             "missingLicenseData": "Falta la licencia",
             "newOrganization": "Nueva organización",
             "editPilotDescription": "Editar descripción de la tarea",
-            "confirmPilotDeletion": "Confirmar borrado"
+            "confirmPilotDeletion": "Confirmar borrado",
+            "exportV2Json": "Exportar como JSON"
         },
         "roster": {
             "history": "Historial",
