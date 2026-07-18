@@ -2657,7 +2657,8 @@
             "registerNewPilot": "Registro Nuevo Piloto // {callsign} ({name})",
             "updatePilotRecord": "Update Pilot Record // {callsign} ({name})",
             "registrationOverride": "Cambio de registro",
-            "addCOREBonus": "Add CORE Bonus"
+            "addCOREBonus": "Add CORE Bonus",
+            "rm4cS2CoreModification": "RM-4c (S-2)"
         },
         "link": {
             "bond": "Lazo",
