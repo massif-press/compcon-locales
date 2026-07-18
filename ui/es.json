@@ -2705,6 +2705,9 @@
             "eng": "Eng",
             "pilotBiography": "Pilot Biography",
             "pilotAppearance": "Aparición piloto"
+        },
+        "common": {
+            "commaLl": ", LL"
         }
     },
     "share": {
