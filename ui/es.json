@@ -2573,7 +2573,8 @@
             "newProject": "Proyecto nuevo",
             "missingLicenseData": "Falta la licencia",
             "newOrganization": "Nueva organización",
-            "editPilotDescription": "Editar descripción de la tarea"
+            "editPilotDescription": "Editar descripción de la tarea",
+            "confirmPilotDeletion": "Confirmar borrado"
         },
         "roster": {
             "history": "Historial",
