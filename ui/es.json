@@ -2579,7 +2579,8 @@
             "exportSuccess": "Exportación Exitosa",
             "exportError": "Error de exportación",
             "pilotOnly": "Solo Pilotos",
-            "missingInAction": "Falta una sección"
+            "missingInAction": "Falta una sección",
+            "killedInAction": "Muerto en acción"
         },
         "roster": {
             "history": "Historial",
