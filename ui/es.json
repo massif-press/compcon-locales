@@ -2703,7 +2703,8 @@
             "hull": "Hull",
             "sys": "Sys",
             "eng": "Eng",
-            "pilotBiography": "Pilot Biography"
+            "pilotBiography": "Pilot Biography",
+            "pilotAppearance": "Aparición piloto"
         }
     },
     "share": {
