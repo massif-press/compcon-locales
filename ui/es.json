@@ -2677,7 +2677,8 @@
             "improveSkillTriggers": "Mejorar los desencadenantes de habilidad",
             "addOrImproveSkill": "Añadir o mejorar un desencadenante de habilidad.",
             "improveMechSkill": "Mejorar una Habilidad Mech.",
-            "addOrUpgradeTalent": "Añadir o actualizar un talento."
+            "addOrUpgradeTalent": "Añadir o actualizar un talento.",
+            "selectACoreBonus": "Seleccione un bono de CORE"
         },
         "link": {
             "bond": "Lazo",
