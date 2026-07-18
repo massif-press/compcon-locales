@@ -2565,7 +2565,8 @@
             "orientation": "Orientación",
             "equipmentLoadout": "Carga de Equipamiento",
             "removeItem": "Eliminar elemento",
-            "selectDamage": "Seleccionar imagen"
+            "selectDamage": "Seleccionar imagen",
+            "pilotLicenses": "Establecer Licencias de Piloto"
         },
         "roster": {
             "history": "Historial",
