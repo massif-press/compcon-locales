@@ -1323,7 +1323,9 @@
             "atThe": "en el",
             "endsOnTurn": "{when} de tu turno",
             "braceExit": "Usted sale del estado {braced} y entra en {cooldown}.",
-            "braceCooldown": "Enfriamiento de Fortalecer"
+            "braceCooldown": "Enfriamiento de Fortalecer",
+            "burnTitle": "Incendiar",
+            "resolveBurn": "Servidor de resoluciones"
         },
         "joinTable": {
             "sortOnline": "Ordenar por Estado en línea",
