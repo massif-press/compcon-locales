@@ -1475,7 +1475,8 @@
             "hardCover": "Cobertura Dura",
             "resistances": "Resistencias",
             "statusesConditions": "Estados/Condiciones",
-            "counters": "Contadores"
+            "counters": "Contadores",
+            "endActivation": "Activación"
         },
         "damageMenu": {
             "takeDamage": "Recibe Daño",
