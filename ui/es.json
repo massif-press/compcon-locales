@@ -2570,7 +2570,8 @@
             "addCustomReserve": "Agregar servidor personal",
             "addProject": "Añadir proyecto",
             "addOrganization": "Añadir organización",
-            "newProject": "Proyecto nuevo"
+            "newProject": "Proyecto nuevo",
+            "missingLicenseData": "Falta la licencia"
         },
         "roster": {
             "history": "Historial",
