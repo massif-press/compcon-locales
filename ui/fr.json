@@ -63,7 +63,7 @@
         "armorBonus": "Bonus de blindage",
         "electronicDefense": "e-Défense",
         "hpBonus": "bonus de PC",
-        "npcs": "PNJs",
+        "npcs": "PNJ",
         "overcharge": "Surmener le réacteur",
         "overshield": "Surarmure",
         "pilotSheet": "Fiche de pilote",
@@ -108,7 +108,7 @@
         "update": "Mettre à jour",
         "pilotRoster": "Tableau de service",
         "pilotLoadout": "Équipement de Pilote",
-        "noData": "Données Manquantes",
+        "noData": "Données manquantes",
         "organize": "Organiser",
         "environment": "Environnement",
         "item": "Élément",
@@ -131,14 +131,22 @@
         "hidden": "Masqué | Masqués",
         "changelog": "Nouveautés",
         "alert": "Alerte",
-        "ok": "OK",
+        "ok": "Ok",
         "skipToMainContent": "Sauter jusqu'au contenu principal",
         "pilotGroup": "Groupe de pilotes",
         "statsLabel": "Caractéristiques",
         "mount": "Affût",
         "done": "Terminé",
         "features": "Fonctionnalités",
-        "roll_noun": "Jet"
+        "roll_noun": "Jet",
+        "background": "Historique",
+        "mech": "Mécha",
+        "talents": "Talents",
+        "type": "Type",
+        "credits": "Attributions",
+        "bonus": "Bonus",
+        "created": "Créé le",
+        "logLevel": "Niveau de journalisation"
     },
     "gm": {
         "fields": {
@@ -482,7 +490,8 @@
             "campaignEditor": "Éditeur de campagne",
             "gmToolkit": "Boîte à outil du Maître de Jeu",
             "folder": "Dossier",
-            "role": "Rôle"
+            "role": "Rôle",
+            "doodads": "Bidules"
         },
         "subtitles": {
             "addSetOrDeleteA": "Ajouter, définir ou supprimer une étiquette de MJ",
@@ -503,6 +512,9 @@
         },
         "a11y": {
             "dragToReorder": "Glisser pour réorganiser"
+        },
+        "doodad": {
+            "whatIs": "Qu'est-ce qu'un bidule ?"
         }
     },
     "language": {
@@ -540,7 +552,8 @@
         "newClock": "Nouvelle horloge",
         "newEnvironment": "Nouvel environnement",
         "newEnvironmentDescription": "Un nouvel environnement",
-        "unknownLicense": "Licence inconnue"
+        "unknownLicense": "Licence inconnue",
+        "newDoodad": "Nouveau bidule"
     },
     "nav": {
         "contentManager": {
@@ -941,7 +954,8 @@
         },
         "addCombatant": {
             "eidolonAddedTitle": "Eidolon ajouté",
-            "addedText": "{name} a été ajouté à la rencontre."
+            "addedText": "{name} a été ajouté à la rencontre.",
+            "doodadAddedTitle": "Bidule ajouté"
         },
         "mechActions": {
             "preparedTitle": "Mécha préparé"
@@ -1135,7 +1149,8 @@
             "addPcFull": "Ajouter Personnage Joueur"
         },
         "addOther": {
-            "addOther": "Ajouter autre"
+            "addOther": "Ajouter autre",
+            "doodad": "Bidule"
         },
         "addStub": {
             "addPlaceholder": "Ajouter substitut",
