@@ -146,7 +146,13 @@
         "credits": "Attributions",
         "bonus": "Bonus",
         "created": "Créé le",
-        "logLevel": "Niveau de journalisation"
+        "logLevel": "Niveau de journalisation",
+        "pilotTalents": "Talents de pilote",
+        "techAttack": "Technoattaque",
+        "sensorRange": "Portée de capteurs",
+        "pilotSkillTriggers": "Spécialités de pilote",
+        "pilotTalent": "Talent de pilote",
+        "deployables": "Installation"
     },
     "gm": {
         "fields": {
@@ -425,7 +431,7 @@
             "cannotAssign": "Ne peut pas être assigné (En conflit avec {conflict})"
         },
         "tier": {
-            "changeTo": "Modifier en Tier {n}",
+            "changeTo": "Modifier vers l'Échelon {n}",
             "detectedEdits": "@:{'common.appName'} a détecté des valeurs de statistiques modifiées. Comment voulez vous procéder?"
         },
         "eidolon": {
@@ -491,12 +497,14 @@
             "gmToolkit": "Boîte à outil du Maître de Jeu",
             "folder": "Dossier",
             "role": "Rôle",
-            "doodads": "Bidules"
+            "doodads": "Bidules",
+            "addDowntime": "Ajouter un temps libre",
+            "clock": "Horloge"
         },
         "subtitles": {
             "addSetOrDeleteA": "Ajouter, définir ou supprimer une étiquette de MJ",
             "addANewEmptyFreeform": "Ajouter une nouvelle section libre sous cette page. Une section est un conteneur pour d'autres éléments de contenu et peuvent être utilisé pour organiser votre campagne de la manière qui vous convient.",
-            "addANewEmptyMission": "Ajouter une nouvelle Mission sous cette page. Une mission contient des buts et objectifs qui peuvent être complétés en un temps donné, et contient typiquement des combats.",
+            "addANewEmptyMission": "Ajouter une nouvelle mission sous cette page. Une mission contient des buts et objectifs qui peuvent être complétés en un temps donné, et contient typiquement des combats.",
             "addANewEmptyCombat": "Ajouter un nouveau combat sous cette page. Un combat contient des rencontres, ainsi que des directives de MJ, des détails narratifs concernant la bataille, et les résultats possibles.",
             "createCombatEncounters": "Créer un affrontement",
             "manageCharactersLocationsAndFactions": "Gérer les personnages, lieux et factions",
@@ -515,6 +523,9 @@
         },
         "doodad": {
             "whatIs": "Qu'est-ce qu'un bidule ?"
+        },
+        "featurePrint": {
+            "weaponAttacks": "Cette arme peut faire {count} attaques à la fois."
         }
     },
     "language": {
@@ -775,7 +786,8 @@
             "cannotAddText": "Code invalide ou déjà débloqué",
             "progress": "{count} sur {total} débloqué",
             "othersCount": "(+{count} autres)",
-            "hiddenCount": "{count} succès masqué | {count}succès masqués"
+            "hiddenCount": "{count} succès masqué | {count}succès masqués",
+            "cannot": "ne peut pas"
         },
         "settingsPage": {
             "showUpdateMessages": "Montrer les notes de mise à jour",
@@ -818,7 +830,7 @@
         "storage": {
             "storageUsageFull": "@:{'common.appName'} utilise actuellement {used} sur {total}, ou {percent} de votre stockage disponible. Cela inclut l'espace réservé par @:{'common.appName'} pour la gestion de l'aplication.",
             "neverAutoDeleteFull": "@:{'common.appName'} ne supprimera {never} automatiquement les données marqué pour suppression.",
-            "autoDeleteFull": "@:{'common.appName'} supprimera définitivement les données marquées comme supprimé pour au moins {days}. Cela n'affectera pas les éléments non marqués pour suppression.",
+            "autoDeleteFull": "@:{'common.appName'} supprimera définitivement les données marquées comme supprimées depuis au moins {days}. Cela n'affectera pas les éléments non marqués pour suppression.",
             "daysCount": "{count} jours.",
             "deleteAllConfirm": "TOUT",
             "storageSettings": "Paramètres de stockage",
@@ -834,7 +846,7 @@
             "userData": "Données d'utilisateur",
             "clearAllData": "@:{'common.clearAllData'}",
             "deleteWarningBanner": "Alerte // alerte // alerte",
-            "areYouSure": "Êtes vous certain de vouloir continuer?",
+            "areYouSure": "Êtes vous certain de vouloir continuer ?",
             "deleteAllUserData": "Supprimer toutes les données d'utilisateur",
             "warningThresholdPct": "Seuil d'avertissement (%)",
             "warningThresholdMb": "Seuil d'avertissement (MB)",
