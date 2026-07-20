@@ -3429,7 +3429,9 @@
             "mechActions": "Mech Actions",
             "pilotActions": "Pilot Actions",
             "perTurn": "Per Turn",
-            "fullAction": "Full Action"
+            "fullAction": "Full Action",
+            "or": "o",
+            "twoQuickActions": "2 Medidas rápidas"
         }
     }
 }
