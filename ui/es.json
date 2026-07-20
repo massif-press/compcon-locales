@@ -3451,7 +3451,8 @@
             "frameSuffix": "Frame"
         },
         "campaign": {
-            "errNoCampaign": "ERR: NO CAMPAIGN LOADED"
+            "errNoCampaign": "ERR: NO CAMPAIGN LOADED",
+            "developmentPreview": "Las campañas están en desarrollo activo y no se desplegarán hasta v3.1. Esta vista previa debe ser ignorada para la prueba, pero no dude en explorar la funcionalidad existente."
         }
     }
 }
