@@ -2631,7 +2631,9 @@
             "range": "Intervalo",
             "damage": "Daño",
             "eDefense": "Defensa-E",
-            "uses": "Usar"
+            "uses": "Usar",
+            "biography": "Biografía",
+            "bond": "Enlace"
         },
         "roster": {
             "history": "Historial",
