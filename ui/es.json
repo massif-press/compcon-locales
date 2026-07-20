@@ -3371,5 +3371,8 @@
             "aoe": "AdE",
             "burn": "Incendiario"
         }
+    },
+    "compendium": {
+        "returnToCompendium": "Volver a Compendium"
     }
 }
