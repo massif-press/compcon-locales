@@ -3398,7 +3398,8 @@
             "manufacturer": "Fabricante",
             "shards": "Fragmento",
             "size": "Tamaño",
-            "mounts": "Montar"
+            "mounts": "Montar",
+            "heatcap": "Heat Lím."
         }
     }
 }
