@@ -3416,7 +3416,9 @@
             "npcTemplates": "Sin Plantillas",
             "statusesConditions": "Estados / Condiciones",
             "equipmentTags": "Equipamiento",
-            "referenceMechs": "Referencia:"
+            "referenceMechs": "Referencia:",
+            "manufacturers": "Fabricantes",
+            "frames": "Marcos:"
         }
     }
 }
