@@ -3455,7 +3455,8 @@
             "developmentPreview": "Las campañas están en desarrollo activo y no se desplegarán hasta v3.1. Esta vista previa debe ser ignorada para la prueba, pero no dude en explorar la funcionalidad existente.",
             "noCampaignsFound": "No Campaigns Found",
             "importHint": "Las campañas pueden ser importadas a través de Importación de archivos o el Directorio de Campañas Lancer",
-            "newVersionAvailable": "Hay una nueva versión de esta campaña disponible. Haga clic en la actualización de abajo para descargar e instalar la última versión de esta campaña."
+            "newVersionAvailable": "Hay una nueva versión de esta campaña disponible. Haga clic en la actualización de abajo para descargar e instalar la última versión de esta campaña.",
+            "updateCampaign": "Campaña de actualización"
         }
     }
 }
