@@ -3467,7 +3467,8 @@
             "sortByAuthor": "Ordenar por Autor",
             "sortBySuggestedPlayers": "Ordenar por Jugadores sugeridos",
             "sortByLicenseLevel": "Ordenar por Nivel de Licencia",
-            "lancerCampaignDirectory": "LANCER Campaign Directory"
+            "lancerCampaignDirectory": "LANCER Campaign Directory",
+            "directoryComingSoon": "Después de la versión v3 este será un directorio de Massif y campañas de creación comunitaria. Si estás conectado y has conectado una picazón. io account, podrás importar campañas directamente desde el directorio. Si no, te dirigirán a la picazón. io página para comprar y descargar la campaña."
         }
     }
 }
