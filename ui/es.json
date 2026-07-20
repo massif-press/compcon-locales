@@ -3462,7 +3462,8 @@
             "openCampaign": "Open Campaign",
             "recommendedPlayers": "Jugadores recomendados",
             "recommendedLicenseLevel": "Nivel de licencia recomendada",
-            "campaignWebsite": "Sitio web de campaña ({url})"
+            "campaignWebsite": "Sitio web de campaña ({url})",
+            "openInReader": "Abrir en Reader"
         }
     }
 }
