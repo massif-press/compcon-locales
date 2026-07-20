@@ -3405,7 +3405,9 @@
             "origin": "Origen",
             "tags": "Etiquetas",
             "eDefense": "Defensa-E",
-            "range": "Intervalo"
+            "range": "Intervalo",
+            "damage": "Daño",
+            "uses": "Usar"
         }
     }
 }
