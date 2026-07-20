@@ -2813,6 +2813,9 @@
         },
         "actions": {
             "thisPilotIsARemote": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones desde la cuenta vinculada."
+        },
+        "a11y": {
+            "dragToReorderGroup": "Arrastrar para reordenar"
         }
     },
     "share": {
