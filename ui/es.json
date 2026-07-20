@@ -3391,7 +3391,8 @@
         "selectItem": "Seleccione {name}",
         "titles": {
             "reference": "REFERENCIA",
-            "notYetImplemented": "No implementado"
+            "notYetImplemented": "No implementado",
+            "contentPack": "Paquetes de Contenido"
         }
     }
 }
