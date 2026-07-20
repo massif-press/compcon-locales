@@ -2793,7 +2793,8 @@
             "groupName": "Nombre de Grupo",
             "deletePilots": "Eliminar Piloto",
             "selectPilotDataFile": "Seleccionar Archivo de Datos",
-            "setMaximumUses": "Número Máximo de Usuarios"
+            "setMaximumUses": "Número Máximo de Usuarios",
+            "resourceName": "Nombre del recurso"
         }
     },
     "share": {
