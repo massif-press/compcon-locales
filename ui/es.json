@@ -3380,7 +3380,8 @@
             "mechWeapons": "Mech Weapons",
             "equipmentTags": "Equipos",
             "pilotBackground": "Antecedentes piloto",
-            "downtimeActions": "Actividades en tiempo de inactividad"
+            "downtimeActions": "Actividades en tiempo de inactividad",
+            "npcFeatures": "NPC Características"
         },
         "selectItem": "Seleccione {name}"
     }
