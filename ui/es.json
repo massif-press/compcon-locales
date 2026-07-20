@@ -3410,7 +3410,8 @@
             "uses": "Usar",
             "icon": "Icono",
             "system": "Sistema",
-            "mechSystems": "Mecha sistema"
+            "mechSystems": "Mecha sistema",
+            "npcClasses": "Clases de nodos"
         }
     }
 }
