@@ -2807,6 +2807,9 @@
             "influenceIsYourOrganizationsSizeReach": "Influencia es el tamaño, alcance, riqueza y reputación de su organización.\n                Influencia es usada para adquirir activos, crear oportunidades, o influir en la opinión\n                publica.",
             "hull": "Casco",
             "speed": "Velocidad"
+        },
+        "subtitles": {
+            "convertThisPilotToAn": "Convertir este Piloto a una instancia de datos local editable"
         }
     },
     "share": {
