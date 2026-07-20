@@ -3379,7 +3379,8 @@
             "frames": "Marcos:",
             "mechWeapons": "Mech Weapons",
             "equipmentTags": "Equipos",
-            "pilotBackground": "Antecedentes piloto"
+            "pilotBackground": "Antecedentes piloto",
+            "downtimeActions": "Actividades en tiempo de inactividad"
         },
         "selectItem": "Seleccione {name}"
     }
