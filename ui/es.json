@@ -3403,7 +3403,9 @@
             "repcap": "RepLim",
             "role": "Rol",
             "origin": "Origen",
-            "tags": "Etiquetas"
+            "tags": "Etiquetas",
+            "eDefense": "Defensa-E",
+            "range": "Intervalo"
         }
     }
 }
