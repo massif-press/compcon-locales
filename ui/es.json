@@ -3459,7 +3459,8 @@
             "updateCampaign": "Campaña de actualización",
             "removeFromCollection": "Eliminar de la colección",
             "removeConfirm": "Esto eliminará la campaña de su colección. ¿Estás seguro?",
-            "openCampaign": "Open Campaign"
+            "openCampaign": "Open Campaign",
+            "recommendedPlayers": "Jugadores recomendados"
         }
     }
 }
