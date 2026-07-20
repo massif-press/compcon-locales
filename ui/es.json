@@ -3387,6 +3387,9 @@
             "manufacturers": "MANUFACTURES",
             "npcClasses": "NPC Clases"
         },
-        "selectItem": "Seleccione {name}"
+        "selectItem": "Seleccione {name}",
+        "titles": {
+            "reference": "REFERENCIA"
+        }
     }
 }
