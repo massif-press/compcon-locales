@@ -3399,7 +3399,8 @@
             "shards": "Fragmento",
             "size": "Tamaño",
             "mounts": "Montar",
-            "heatcap": "Heat Lím."
+            "heatcap": "Heat Lím.",
+            "repcap": "RepLim"
         }
     }
 }
