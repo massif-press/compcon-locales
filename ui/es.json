@@ -3396,7 +3396,9 @@
             "licenseLevel": "Nivel de Licencia {n}",
             "spCost": "Costo PS",
             "manufacturer": "Fabricante",
-            "shards": "Fragmento"
+            "shards": "Fragmento",
+            "size": "Tamaño",
+            "mounts": "Montar"
         }
     }
 }
