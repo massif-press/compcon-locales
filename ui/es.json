@@ -3383,7 +3383,8 @@
             "downtimeActions": "Actividades en tiempo de inactividad",
             "npcFeatures": "NPC Características",
             "npcTemplates": "Plantillas NPC",
-            "statusesConditions": "Situación y condiciones"
+            "statusesConditions": "Situación y condiciones",
+            "manufacturers": "MANUFACTURES"
         },
         "selectItem": "Seleccione {name}"
     }
