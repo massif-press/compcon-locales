@@ -3465,7 +3465,9 @@
             "campaignWebsite": "Sitio web de campaña ({url})",
             "openInReader": "Abrir en Reader",
             "sortByAuthor": "Ordenar por Autor",
-            "sortBySuggestedPlayers": "Ordenar por Jugadores sugeridos"
+            "sortBySuggestedPlayers": "Ordenar por Jugadores sugeridos",
+            "sortByLicenseLevel": "Ordenar por Nivel de Licencia",
+            "lancerCampaignDirectory": "LANCER Campaign Directory"
         }
     }
 }
