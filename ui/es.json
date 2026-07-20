@@ -3445,6 +3445,9 @@
         },
         "search": {
             "resultCount": "{count} resultado Silencio {count} resultados"
+        },
+        "content": {
+            "eidolonLayer": "Eidolon Layer"
         }
     }
 }
