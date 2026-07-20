@@ -3426,7 +3426,8 @@
         "reference": {
             "iconGuide": "Guía de iconos",
             "damageTables": "Cuadros de daños",
-            "mechActions": "Mech Actions"
+            "mechActions": "Mech Actions",
+            "pilotActions": "Pilot Actions"
         }
     }
 }
