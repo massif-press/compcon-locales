@@ -3419,6 +3419,9 @@
             "referenceMechs": "Referencia:",
             "manufacturers": "Fabricantes",
             "frames": "Marcos:"
+        },
+        "nav": {
+            "systemReference": "Referencia del sistema"
         }
     }
 }
