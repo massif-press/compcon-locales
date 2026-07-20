@@ -2616,7 +2616,14 @@
             "unknown": "Desconocido",
             "pilot": "Piloto",
             "ll": "LL",
-            "group": "Agrupar"
+            "group": "Agrupar",
+            "rifle": "Fusil",
+            "cannon": "Cañón",
+            "launcher": "Lanzador",
+            "cqb": "CCD",
+            "nexus": "Nexo",
+            "melee": "Cuerpo a cuerpo",
+            "kinetic": "Cinemática"
         },
         "roster": {
             "history": "Historial",
