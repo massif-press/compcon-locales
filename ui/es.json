@@ -2801,7 +2801,8 @@
             "project": "Proyecto"
         },
         "tooltips": {
-            "copyStatBlockToClipboard": "Copiar ficha en el portapapeles"
+            "copyStatBlockToClipboard": "Copiar ficha en el portapapeles",
+            "increaseSkillBonus": "Aumentar puntos de Habilidad"
         }
     },
     "share": {
