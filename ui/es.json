@@ -2810,6 +2810,9 @@
         },
         "subtitles": {
             "convertThisPilotToAn": "Convertir este Piloto a una instancia de datos local editable"
+        },
+        "actions": {
+            "thisPilotIsARemote": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones desde la cuenta vinculada."
         }
     },
     "share": {
