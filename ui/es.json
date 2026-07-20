@@ -2792,7 +2792,8 @@
             "showAllFrames": "Ver marcos",
             "groupName": "Nombre de Grupo",
             "deletePilots": "Eliminar Piloto",
-            "selectPilotDataFile": "Seleccionar Archivo de Datos"
+            "selectPilotDataFile": "Seleccionar Archivo de Datos",
+            "setMaximumUses": "Número Máximo de Usuarios"
         }
     },
     "share": {
