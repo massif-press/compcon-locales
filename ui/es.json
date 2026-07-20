@@ -2628,7 +2628,10 @@
             "explosive": "Explosivos",
             "system": "Sistema",
             "tags": "Etiquetas",
-            "range": "Intervalo"
+            "range": "Intervalo",
+            "damage": "Daño",
+            "eDefense": "Defensa-E",
+            "uses": "Usar"
         },
         "roster": {
             "history": "Historial",
