@@ -2623,7 +2623,8 @@
             "cqb": "CCD",
             "nexus": "Nexo",
             "melee": "Cuerpo a cuerpo",
-            "kinetic": "Cinemática"
+            "kinetic": "Cinemática",
+            "energy": "Energía"
         },
         "roster": {
             "history": "Historial",
