@@ -3473,7 +3473,9 @@
             "directoryComingSoon": "Después de la versión v3 este será un directorio de Massif y campañas de creación comunitaria. Si está conectado y has enlazado una cuenta itch.io, podrá importar campañas directamente desde el directorio. Si no, te dirigirán a la página itch.io para comprar y descargar la campaña.",
             "stagedCampaignData": "Datos de la Campaña Preparada",
             "existingNewer": "La campaña existente es más nueva que los datos importados.",
-            "recommendedForLine": "Recomendado para {players} jugadores conNivel de Licencia {levels}"
+            "recommendedForLine": "Recomendado para {players} jugadores conNivel de Licencia {levels}",
+            "sortByTitle": "Ordenar por Título",
+            "index": "Índice"
         }
     }
 }
