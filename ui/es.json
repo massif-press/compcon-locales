@@ -2789,7 +2789,9 @@
         "fields": {
             "generate": "Generar",
             "maximumStress": "Establecer Estrés Máximo",
-            "showAllFrames": "Ver marcos"
+            "showAllFrames": "Ver marcos",
+            "groupName": "Nombre de Grupo",
+            "deletePilots": "Eliminar Piloto"
         }
     },
     "share": {
