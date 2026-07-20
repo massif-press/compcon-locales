@@ -3418,7 +3418,11 @@
             "equipmentTags": "Equipamiento",
             "referenceMechs": "Referencia:",
             "manufacturers": "Fabricantes",
-            "frames": "Marcos:"
+            "frames": "Marcos:",
+            "glossary": "Glosario",
+            "bonds": "Lazos",
+            "environments": "Entornos",
+            "lists": "Listas"
         },
         "nav": {
             "systemReference": "Referencia del sistema"
@@ -3432,7 +3436,10 @@
             "fullAction": "Full Action",
             "or": "o",
             "twoQuickActions": "2 Medidas rápidas",
-            "faqErrata": "FAQ \" ERRATA"
+            "faqErrata": "FAQ \" ERRATA",
+            "statuses": "Estados",
+            "glossary": "Glosario",
+            "pleaseNote": "Atención"
         }
     }
 }
