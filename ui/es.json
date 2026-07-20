@@ -2797,7 +2797,11 @@
             "resourceName": "Nombre del recurso",
             "projectName": "Nombre del proyecto",
             "requirements": "Requisitos",
-            "jumpTo": "Saltar a"
+            "jumpTo": "Saltar a",
+            "project": "Proyecto"
+        },
+        "tooltips": {
+            "copyStatBlockToClipboard": "Copiar ficha en el portapapeles"
         }
     },
     "share": {
