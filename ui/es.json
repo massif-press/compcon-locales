@@ -2788,7 +2788,8 @@
         },
         "fields": {
             "generate": "Generar",
-            "maximumStress": "Establecer Estrés Máximo"
+            "maximumStress": "Establecer Estrés Máximo",
+            "showAllFrames": "Ver marcos"
         }
     },
     "share": {
