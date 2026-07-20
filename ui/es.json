@@ -3439,7 +3439,8 @@
             "faqErrata": "FAQ \" ERRATA",
             "statuses": "Estados",
             "glossary": "Glosario",
-            "pleaseNote": "Atención"
+            "pleaseNote": "Atención",
+            "faqErrataNotice": "Este FAQ y Errata es un proyecto impulsado por la comunidad y no forma parte de un lanzamiento oficial de Massif Press LANCER. Esta página está amueblada por datos de preguntas frecuentes del {repoLink} en GitHub, actualmente mantenido por lenaleciel. Este documento también está disponible en {siteLink}."
         }
     }
 }
