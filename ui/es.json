@@ -3427,7 +3427,8 @@
             "iconGuide": "Guía de iconos",
             "damageTables": "Cuadros de daños",
             "mechActions": "Mech Actions",
-            "pilotActions": "Pilot Actions"
+            "pilotActions": "Pilot Actions",
+            "perTurn": "Per Turn"
         }
     }
 }
