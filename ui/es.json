@@ -3378,7 +3378,8 @@
         "categories": {
             "frames": "Marcos:",
             "mechWeapons": "Mech Weapons",
-            "equipmentTags": "Equipos"
+            "equipmentTags": "Equipos",
+            "pilotBackground": "Antecedentes piloto"
         },
         "selectItem": "Seleccione {name}"
     }
