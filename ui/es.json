@@ -3381,7 +3381,8 @@
             "equipmentTags": "Equipos",
             "pilotBackground": "Antecedentes piloto",
             "downtimeActions": "Actividades en tiempo de inactividad",
-            "npcFeatures": "NPC Características"
+            "npcFeatures": "NPC Características",
+            "npcTemplates": "Plantillas NPC"
         },
         "selectItem": "Seleccione {name}"
     }
