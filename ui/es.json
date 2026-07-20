@@ -3461,7 +3461,8 @@
             "removeConfirm": "Esto eliminará la campaña de su colección. ¿Estás seguro?",
             "openCampaign": "Open Campaign",
             "recommendedPlayers": "Jugadores recomendados",
-            "recommendedLicenseLevel": "Nivel de licencia recomendada"
+            "recommendedLicenseLevel": "Nivel de licencia recomendada",
+            "campaignWebsite": "Sitio web de campaña ({url})"
         }
     }
 }
