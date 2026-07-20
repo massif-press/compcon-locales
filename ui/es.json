@@ -2612,7 +2612,10 @@
             "repcap": "RepLim",
             "active": "Activo",
             "inactive": "Inactivos/as",
-            "retired": "Requerido"
+            "retired": "Requerido",
+            "unknown": "Desconocido",
+            "pilot": "Piloto",
+            "ll": "LL"
         },
         "roster": {
             "history": "Historial",
