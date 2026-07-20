@@ -2795,7 +2795,8 @@
             "selectPilotDataFile": "Seleccionar Archivo de Datos",
             "setMaximumUses": "Número Máximo de Usuarios",
             "resourceName": "Nombre del recurso",
-            "projectName": "Nombre del proyecto"
+            "projectName": "Nombre del proyecto",
+            "requirements": "Requisitos"
         }
     },
     "share": {
