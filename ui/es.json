@@ -3449,6 +3449,9 @@
         "content": {
             "eidolonLayer": "Eidolon Layer",
             "frameSuffix": "Frame"
+        },
+        "campaign": {
+            "errNoCampaign": "ERR: NO CAMPAIGN LOADED"
         }
     }
 }
