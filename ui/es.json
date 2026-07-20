@@ -3377,7 +3377,8 @@
         "returnToCompendium": "Volver a Compendium",
         "categories": {
             "frames": "Marcos:",
-            "mechWeapons": "Mech Weapons"
+            "mechWeapons": "Mech Weapons",
+            "equipmentTags": "Equipos"
         },
         "selectItem": "Seleccione {name}"
     }
