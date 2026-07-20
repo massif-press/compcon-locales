@@ -3384,7 +3384,8 @@
             "npcFeatures": "NPC Características",
             "npcTemplates": "Plantillas NPC",
             "statusesConditions": "Situación y condiciones",
-            "manufacturers": "MANUFACTURES"
+            "manufacturers": "MANUFACTURES",
+            "npcClasses": "NPC Clases"
         },
         "selectItem": "Seleccione {name}"
     }
