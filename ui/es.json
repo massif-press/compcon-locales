@@ -3463,7 +3463,9 @@
             "recommendedPlayers": "Jugadores recomendados",
             "recommendedLicenseLevel": "Nivel de licencia recomendada",
             "campaignWebsite": "Sitio web de campaña ({url})",
-            "openInReader": "Abrir en Reader"
+            "openInReader": "Abrir en Reader",
+            "sortByAuthor": "Ordenar por Autor",
+            "sortBySuggestedPlayers": "Ordenar por Jugadores sugeridos"
         }
     }
 }
