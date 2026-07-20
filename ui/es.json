@@ -3412,7 +3412,8 @@
             "system": "Sistema",
             "mechSystems": "Mecha sistema",
             "npcClasses": "Clases de nodos",
-            "npcFeatures": "Seleccionar Caraterísticas de PNJ"
+            "npcFeatures": "Seleccionar Caraterísticas de PNJ",
+            "npcTemplates": "Sin Plantillas"
         }
     }
 }
