@@ -3447,7 +3447,8 @@
             "resultCount": "{count} resultado Silencio {count} resultados"
         },
         "content": {
-            "eidolonLayer": "Eidolon Layer"
+            "eidolonLayer": "Eidolon Layer",
+            "frameSuffix": "Frame"
         }
     }
 }
