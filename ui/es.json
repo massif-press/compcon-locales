@@ -2633,7 +2633,9 @@
             "eDefense": "Defensa-E",
             "uses": "Usar",
             "biography": "Biografía",
-            "bond": "Enlace"
+            "bond": "Enlace",
+            "skills": "Habilidades",
+            "levelUp": "Subir nivel"
         },
         "roster": {
             "history": "Historial",
