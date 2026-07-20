@@ -2625,7 +2625,9 @@
             "melee": "Cuerpo a cuerpo",
             "kinetic": "Cinemática",
             "energy": "Energía",
-            "explosive": "Explosivos"
+            "explosive": "Explosivos",
+            "system": "Sistema",
+            "tags": "Etiquetas"
         },
         "roster": {
             "history": "Historial",
