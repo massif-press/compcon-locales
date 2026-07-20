@@ -2624,7 +2624,8 @@
             "nexus": "Nexo",
             "melee": "Cuerpo a cuerpo",
             "kinetic": "Cinemática",
-            "energy": "Energía"
+            "energy": "Energía",
+            "explosive": "Explosivos"
         },
         "roster": {
             "history": "Historial",
