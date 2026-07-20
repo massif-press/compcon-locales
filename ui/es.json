@@ -2611,7 +2611,8 @@
             "heatcap": "Heat Lím.",
             "repcap": "RepLim",
             "active": "Activo",
-            "inactive": "Inactivos/as"
+            "inactive": "Inactivos/as",
+            "retired": "Requerido"
         },
         "roster": {
             "history": "Historial",
