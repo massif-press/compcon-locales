@@ -3400,7 +3400,10 @@
             "size": "Tamaño",
             "mounts": "Montar",
             "heatcap": "Heat Lím.",
-            "repcap": "RepLim"
+            "repcap": "RepLim",
+            "role": "Rol",
+            "origin": "Origen",
+            "tags": "Etiquetas"
         }
     }
 }
