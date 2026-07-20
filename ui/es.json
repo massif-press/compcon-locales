@@ -3392,7 +3392,8 @@
         "titles": {
             "reference": "REFERENCIA",
             "notYetImplemented": "No implementado",
-            "contentPack": "Paquetes de Contenido"
+            "contentPack": "Paquetes de Contenido",
+            "licenseLevel": "Nivel de Licencia {n}"
         }
     }
 }
