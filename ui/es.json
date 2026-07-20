@@ -2627,7 +2627,8 @@
             "energy": "Energía",
             "explosive": "Explosivos",
             "system": "Sistema",
-            "tags": "Etiquetas"
+            "tags": "Etiquetas",
+            "range": "Intervalo"
         },
         "roster": {
             "history": "Historial",
