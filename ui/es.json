@@ -3425,7 +3425,8 @@
         },
         "reference": {
             "iconGuide": "Guía de iconos",
-            "damageTables": "Cuadros de daños"
+            "damageTables": "Cuadros de daños",
+            "mechActions": "Mech Actions"
         }
     }
 }
