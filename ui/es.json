@@ -3415,7 +3415,8 @@
             "npcFeatures": "Seleccionar Caraterísticas de PNJ",
             "npcTemplates": "Sin Plantillas",
             "statusesConditions": "Estados / Condiciones",
-            "equipmentTags": "Equipamiento"
+            "equipmentTags": "Equipamiento",
+            "referenceMechs": "Referencia:"
         }
     }
 }
