@@ -2608,7 +2608,8 @@
             "full": "Completo",
             "manufacturer": "Fabricante",
             "size": "Tamaño",
-            "heatcap": "Heat Lím."
+            "heatcap": "Heat Lím.",
+            "repcap": "RepLim"
         },
         "roster": {
             "history": "Historial",
