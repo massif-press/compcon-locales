@@ -2791,7 +2791,8 @@
             "maximumStress": "Establecer Estrés Máximo",
             "showAllFrames": "Ver marcos",
             "groupName": "Nombre de Grupo",
-            "deletePilots": "Eliminar Piloto"
+            "deletePilots": "Eliminar Piloto",
+            "selectPilotDataFile": "Seleccionar Archivo de Datos"
         }
     },
     "share": {
