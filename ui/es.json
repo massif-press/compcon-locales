@@ -3422,6 +3422,9 @@
         },
         "nav": {
             "systemReference": "Referencia del sistema"
+        },
+        "reference": {
+            "iconGuide": "Guía de iconos"
         }
     }
 }
