@@ -2794,7 +2794,8 @@
             "deletePilots": "Eliminar Piloto",
             "selectPilotDataFile": "Seleccionar Archivo de Datos",
             "setMaximumUses": "Número Máximo de Usuarios",
-            "resourceName": "Nombre del recurso"
+            "resourceName": "Nombre del recurso",
+            "projectName": "Nombre del proyecto"
         }
     },
     "share": {
