@@ -3385,11 +3385,13 @@
             "npcTemplates": "Plantillas NPC",
             "statusesConditions": "Situación y condiciones",
             "manufacturers": "MANUFACTURES",
-            "npcClasses": "NPC Clases"
+            "npcClasses": "NPC Clases",
+            "environments": "Entornos"
         },
         "selectItem": "Seleccione {name}",
         "titles": {
-            "reference": "REFERENCIA"
+            "reference": "REFERENCIA",
+            "notYetImplemented": "No implementado"
         }
     }
 }
