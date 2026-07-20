@@ -2604,7 +2604,11 @@
             "groupDescription": "Descripción Grupo",
             "setGroupEmblem": "Elegir Emblema de Grupo",
             "groupAlreadyExists": "Grupo Ya Existente",
-            "createPilotGroup": "Crear Grupo de Pilotos"
+            "createPilotGroup": "Crear Grupo de Pilotos",
+            "full": "Completo",
+            "manufacturer": "Fabricante",
+            "size": "Tamaño",
+            "heatcap": "Heat Lím."
         },
         "roster": {
             "history": "Historial",
