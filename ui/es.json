@@ -3440,7 +3440,11 @@
             "statuses": "Estados",
             "glossary": "Glosario",
             "pleaseNote": "Atención",
-            "faqErrataNotice": "Este FAQ y Errata es un proyecto impulsado por la comunidad y no forma parte de un lanzamiento oficial de Massif Press LANCER. Esta página está amueblada por datos de preguntas frecuentes del {repoLink} en GitHub, actualmente mantenido por lenaleciel. Este documento también está disponible en {siteLink}."
+            "faqErrataNotice": "Este FAQ y Errata es un proyecto impulsado por la comunidad y no forma parte de un lanzamiento oficial de Massif Press LANCER. Esta página está amueblada por datos de preguntas frecuentes del {repoLink} en GitHub, actualmente mantenido por lenaleciel. Este documento también está disponible en {siteLink}.",
+            "lancerFaqRepo": "repositorio de lancer-faq"
+        },
+        "search": {
+            "resultCount": "{count} resultado Silencio {count} resultados"
         }
     }
 }
