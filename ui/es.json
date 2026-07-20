@@ -3376,7 +3376,9 @@
     "compendium": {
         "returnToCompendium": "Volver a Compendium",
         "categories": {
-            "frames": "Marcos:"
-        }
+            "frames": "Marcos:",
+            "mechWeapons": "Mech Weapons"
+        },
+        "selectItem": "Seleccione {name}"
     }
 }
