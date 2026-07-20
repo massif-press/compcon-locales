@@ -73,5 +73,17 @@
     "glossary_BonusDamage.name": "Дополнительный урон",
     "mf_monarch.name": "Монарх",
     "mf_mourning_cloak.name": "Траурница",
-    "mf_black_witch.core_system.active_name": "Магнитное поле"
+    "mf_black_witch.core_system.active_name": "Магнитное поле",
+    "mf_balor.name": "Балор",
+    "mf_barbarossa.name": "Барбаросса",
+    "mf_black_witch.name": "Чёрная ведьма",
+    "mf_blackbeard.name": "Чёрная Борода",
+    "mf_drake.name": "Дрейк",
+    "mf_genghis.name": "Чингиз",
+    "mf_goblin.name": "Гоблин",
+    "mf_gorgon.name": "Горгона",
+    "mf_hydra.name": "Гидра",
+    "mf_iskander.name": "Искандер",
+    "mf_lancaster.name": "Ланкастер",
+    "mf_manticore.name": "Мантикора"
 }
