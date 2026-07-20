@@ -2803,7 +2803,10 @@
         "tooltips": {
             "copyStatBlockToClipboard": "Copiar ficha en el portapapeles",
             "increaseSkillBonus": "Aumentar puntos de Habilidad",
-            "convertingThisPilotToLocalData": "Convertir este artículo a datos locales permitirá edición local pero quitará su enlace remoto a la\n      cuenta de nube del autor, y prevendrá recepción de cualquier actualización futura. Para re-habilitar\n      sincronización remota, tendrá que re-importar este artículo vía código de compartir."
+            "convertingThisPilotToLocalData": "Convertir este artículo a datos locales permitirá edición local pero quitará su enlace remoto a la\n      cuenta de nube del autor, y prevendrá recepción de cualquier actualización futura. Para re-habilitar\n      sincronización remota, tendrá que re-importar este artículo vía código de compartir.",
+            "influenceIsYourOrganizationsSizeReach": "Influencia es el tamaño, alcance, riqueza y reputación de su organización.\n                Influencia es usada para adquirir activos, crear oportunidades, o influir en la opinión\n                publica.",
+            "hull": "Casco",
+            "speed": "Velocidad"
         }
     },
     "share": {
