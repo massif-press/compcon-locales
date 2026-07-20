@@ -3424,7 +3424,8 @@
             "systemReference": "Referencia del sistema"
         },
         "reference": {
-            "iconGuide": "Guía de iconos"
+            "iconGuide": "Guía de iconos",
+            "damageTables": "Cuadros de daños"
         }
     }
 }
