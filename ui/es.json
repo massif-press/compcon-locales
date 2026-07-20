@@ -2802,7 +2802,8 @@
         },
         "tooltips": {
             "copyStatBlockToClipboard": "Copiar ficha en el portapapeles",
-            "increaseSkillBonus": "Aumentar puntos de Habilidad"
+            "increaseSkillBonus": "Aumentar puntos de Habilidad",
+            "convertingThisPilotToLocalData": "Convertir este artículo a datos locales permitirá edición local pero quitará su enlace remoto a la\n      cuenta de nube del autor, y prevendrá recepción de cualquier actualización futura. Para re-habilitar\n      sincronización remota, tendrá que re-importar este artículo vía código de compartir."
         }
     },
     "share": {
