@@ -3475,7 +3475,9 @@
             "existingNewer": "La campaña existente es más nueva que los datos importados.",
             "recommendedForLine": "Recomendado para {players} jugadores conNivel de Licencia {levels}",
             "sortByTitle": "Ordenar por Título",
-            "index": "Índice"
+            "index": "Índice",
+            "returnToLibrary": "Volver a la Biblioteca",
+            "byAuthor": "Por {author}"
         }
     }
 }
