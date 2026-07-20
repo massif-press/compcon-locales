@@ -63,7 +63,7 @@
         "armorBonus": "Bonus de blindage",
         "electronicDefense": "e-Défense",
         "hpBonus": "bonus de PC",
-        "npcs": "PNJ",
+        "npcs": "PNJs",
         "overcharge": "Surmener le réacteur",
         "overshield": "Surarmure",
         "pilotSheet": "Fiche de pilote",
@@ -146,7 +146,7 @@
         "credits": "Attributions",
         "bonus": "Bonus",
         "created": "Créé le",
-        "logLevel": "Niveau de journalisation",
+        "logLevel": "Filtre de journal",
         "pilotTalents": "Talents de pilote",
         "techAttack": "Technoattaque",
         "sensorRange": "Portée de capteurs",
@@ -857,7 +857,12 @@
             "noData": "@:{'common.noData'}",
             "copiedToClipboard": "Entrée de journal copiée dans le presse-papier",
             "session": "Session",
-            "error": "Erreur"
+            "error": "Erreur",
+            "trace": "Trace",
+            "caller": "Origine",
+            "exportThisSession": "Exporter le journal de cette session",
+            "exportAllSessions": "Exporter les journaux de toutes les sessions",
+            "clearLog": "Effacer le journal"
         },
         "deletedItems": {
             "noItemsFound": "Aucun élément trouvé",
