@@ -2785,6 +2785,10 @@
         "common": {
             "commaLl": ", NL",
             "installName": "Instalar {name}"
+        },
+        "fields": {
+            "generate": "Generar",
+            "maximumStress": "Establecer Estrés Máximo"
         }
     },
     "share": {
