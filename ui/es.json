@@ -3393,7 +3393,10 @@
             "reference": "REFERENCIA",
             "notYetImplemented": "No implementado",
             "contentPack": "Paquetes de Contenido",
-            "licenseLevel": "Nivel de Licencia {n}"
+            "licenseLevel": "Nivel de Licencia {n}",
+            "spCost": "Costo PS",
+            "manufacturer": "Fabricante",
+            "shards": "Fragmento"
         }
     }
 }
