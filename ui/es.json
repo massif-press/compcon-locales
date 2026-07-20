@@ -3382,7 +3382,8 @@
             "pilotBackground": "Antecedentes piloto",
             "downtimeActions": "Actividades en tiempo de inactividad",
             "npcFeatures": "NPC Características",
-            "npcTemplates": "Plantillas NPC"
+            "npcTemplates": "Plantillas NPC",
+            "statusesConditions": "Situación y condiciones"
         },
         "selectItem": "Seleccione {name}"
     }
