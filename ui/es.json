@@ -3428,7 +3428,8 @@
             "damageTables": "Cuadros de daños",
             "mechActions": "Mech Actions",
             "pilotActions": "Pilot Actions",
-            "perTurn": "Per Turn"
+            "perTurn": "Per Turn",
+            "fullAction": "Full Action"
         }
     }
 }
