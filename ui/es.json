@@ -2815,7 +2815,8 @@
             "thisPilotIsARemote": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones desde la cuenta vinculada."
         },
         "a11y": {
-            "dragToReorderGroup": "Arrastrar para reordenar"
+            "dragToReorderGroup": "Arrastrar para reordenar",
+            "dragToReorder": "Arrastrar para reordenar"
         }
     },
     "share": {
@@ -3373,6 +3374,9 @@
         }
     },
     "compendium": {
-        "returnToCompendium": "Volver a Compendium"
+        "returnToCompendium": "Volver a Compendium",
+        "categories": {
+            "frames": "Marcos:"
+        }
     }
 }
