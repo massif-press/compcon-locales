@@ -3354,7 +3354,8 @@
             "irreducibleNo": "Este daño puede ser reducido por las defensas del objetivo",
             "exceptArmor": ", excepto la armadura",
             "overkillYes": "Este daño está sujeto a reglas OVERKILL (rollar 1s, añadir calor (self))",
-            "overkillNo": "Este daño no está sujeto a reglas de la OVERKILL"
+            "overkillNo": "Este daño no está sujeto a reglas de la OVERKILL",
+            "reliableDamage": "Daño confiable:"
         }
     },
     "enums": {
