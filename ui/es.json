@@ -3295,7 +3295,8 @@
         },
         "combat": {
             "passiveEffect": "Efecto pasivo",
-            "damageAssignment": "Asignación de daños Disponible"
+            "damageAssignment": "Asignación de daños Disponible",
+            "statusEffect": "Efecto del estado disponible"
         }
     },
     "enums": {
