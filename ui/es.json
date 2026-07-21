@@ -3275,7 +3275,8 @@
             "equipmentDeployables": "EQUIPMENT DEPLOYABLES",
             "compendiumData": "COMPENDIUM DATA",
             "variantFrame": "Frame variable",
-            "combatProfile": "COMBAT PROFILE"
+            "combatProfile": "COMBAT PROFILE",
+            "availableMounts": "MOUNTOS DE ARMAS AVAILABLES"
         }
     },
     "enums": {
