@@ -3315,7 +3315,8 @@
             "free": "Gratis*",
             "mandatoryFields": "Campos obligatorios que permanecen",
             "alreadyActivated": "Ya activado",
-            "insufficientActionsShort": "Medidas insuficientes"
+            "insufficientActionsShort": "Medidas insuficientes",
+            "noTarget": "No Target Selected"
         }
     },
     "enums": {
