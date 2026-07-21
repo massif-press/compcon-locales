@@ -3317,7 +3317,8 @@
             "alreadyActivated": "Ya activado",
             "insufficientActionsShort": "Medidas insuficientes",
             "noTarget": "No Target Selected",
-            "clickToOverride": "Click to Override"
+            "clickToOverride": "Click to Override",
+            "reliableOnMiss": "RELIABLE {n} {type} se aplica a la señorita"
         }
     },
     "enums": {
