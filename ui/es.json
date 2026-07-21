@@ -3278,7 +3278,8 @@
             "combatProfile": "COMBAT PROFILE",
             "availableMounts": "MOUNTOS DE ARMAS AVAILABLES",
             "onboardCore": "ONBOARD CORE SYSTEM",
-            "integrations": "INTEGRACIONES"
+            "integrations": "INTEGRACIONES",
+            "profileActions": "MEDIDAS DE APOYO"
         }
     },
     "enums": {
