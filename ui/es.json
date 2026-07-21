@@ -3292,6 +3292,9 @@
             "modification": "MODIFICACIÓN",
             "canBeAppliedTo": "SE PUEDE PERMITIR",
             "weaponAttacks": "Este arma puede hacer ataques {count} a la vez. Se pueden realizar múltiples ataques contra los mismos o diferentes objetivos."
+        },
+        "combat": {
+            "passiveEffect": "Efecto pasivo"
         }
     },
     "enums": {
