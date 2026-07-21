@@ -3273,7 +3273,8 @@
             "modifies": "Modifica:",
             "equipmentActions": "MEDIDAS DE EQUIPO",
             "equipmentDeployables": "EQUIPMENT DEPLOYABLES",
-            "compendiumData": "COMPENDIUM DATA"
+            "compendiumData": "COMPENDIUM DATA",
+            "variantFrame": "Frame variable"
         }
     },
     "enums": {
