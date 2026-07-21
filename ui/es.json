@@ -3297,7 +3297,8 @@
             "passiveEffect": "Efecto pasivo",
             "damageAssignment": "Asignación de daños Disponible",
             "statusEffect": "Efecto del estado disponible",
-            "saveAvailable": "Guardar Disponible"
+            "saveAvailable": "Guardar Disponible",
+            "resistanceImmunity": "Resistencia/inmunidad disponible"
         }
     },
     "enums": {
