@@ -3320,7 +3320,8 @@
             "clickToOverride": "Click to Override",
             "reliableOnMiss": "RELIABLE {n} {type} se aplica a la señorita",
             "reliableN": "RELIABLE {n}",
-            "noAttackRolled": "Sin ataque rodado"
+            "noAttackRolled": "Sin ataque rodado",
+            "criticalHit": "Visto crítico"
         }
     },
     "enums": {
