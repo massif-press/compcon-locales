@@ -3280,7 +3280,9 @@
             "reportedAppearances": "Apariciones Reportadas",
             "hints": "Pistas",
             "rules": "Reglas",
-            "shards": "Fragmento"
+            "shards": "Fragmento",
+            "tactics": "Tácticas",
+            "successfulHit": "Exitoso"
         },
         "subtitles": {
             "selectResult": "Seleccionar resultado"
