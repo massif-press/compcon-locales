@@ -3276,7 +3276,8 @@
             "compendiumData": "COMPENDIUM DATA",
             "variantFrame": "Frame variable",
             "combatProfile": "COMBAT PROFILE",
-            "availableMounts": "MOUNTOS DE ARMAS AVAILABLES"
+            "availableMounts": "MOUNTOS DE ARMAS AVAILABLES",
+            "onboardCore": "ONBOARD CORE SYSTEM"
         }
     },
     "enums": {
