@@ -3269,7 +3269,8 @@
         },
         "card": {
             "suggestedSkills": "Habilidades sugeridas",
-            "deprecated": "Este artículo está deprecado y se puede eliminar."
+            "deprecated": "Este artículo está deprecado y se puede eliminar.",
+            "modifies": "Modifica:"
         }
     },
     "enums": {
