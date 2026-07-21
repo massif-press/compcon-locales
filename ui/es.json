@@ -3338,7 +3338,9 @@
             "targetInCover": "(Target está en COVER)",
             "saveBonusVs": "(Save Bonus) vs",
             "areaOfEffect": "Area of Effect",
-            "singleTarget": "Meta única"
+            "singleTarget": "Meta única",
+            "half": "Medio",
+            "addTarget": "Añadir Destino"
         }
     },
     "enums": {
