@@ -3330,7 +3330,8 @@
             "hit": "Hit",
             "miss": "Srta.",
             "saveSuffix": "{stat} Save",
-            "noSaveRolled": "No Save Rolled"
+            "noSaveRolled": "No Save Rolled",
+            "successfulSave": "Salvación exitosa"
         }
     },
     "enums": {
