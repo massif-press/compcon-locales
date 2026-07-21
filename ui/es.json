@@ -3266,6 +3266,9 @@
             "deleteCounter": "Borrar Contador",
             "resetCounter": "Reiniciar Contador",
             "itemFilters": "Filtros de Artículo"
+        },
+        "card": {
+            "suggestedSkills": "Habilidades sugeridas"
         }
     },
     "enums": {
