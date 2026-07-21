@@ -3097,7 +3097,11 @@
             "used": "Usado",
             "counterName": "Ingresar nombre",
             "licenseLevel": "Nivel de Licencia {n}",
-            "fromManufacturer": "Sin Fabricante"
+            "fromManufacturer": "Sin Fabricante",
+            "role": "Rol",
+            "size": "Tamaño",
+            "license": "Licencia",
+            "tags": "Etiquetas"
         },
         "filter": {
             "greaterThan": "Mayor Que",
