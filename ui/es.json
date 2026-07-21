@@ -3288,7 +3288,8 @@
             "classOptionalFeatures": "Características opcionales de clase",
             "templateBaseFeatures": "Características de la base de plantilla",
             "templateOptionalFeatures": "Características opcionales",
-            "controlZone": "Zona de control"
+            "controlZone": "Zona de control",
+            "modification": "MODIFICACIÓN"
         }
     },
     "enums": {
