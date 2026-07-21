@@ -3294,7 +3294,8 @@
             "weaponAttacks": "Este arma puede hacer ataques {count} a la vez. Se pueden realizar múltiples ataques contra los mismos o diferentes objetivos."
         },
         "combat": {
-            "passiveEffect": "Efecto pasivo"
+            "passiveEffect": "Efecto pasivo",
+            "damageAssignment": "Asignación de daños Disponible"
         }
     },
     "enums": {
