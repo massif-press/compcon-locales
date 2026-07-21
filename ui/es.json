@@ -3336,7 +3336,8 @@
             "vsTarget": "vs Target",
             "currentlyEngaged": "(Actualmente ENGAGED)",
             "targetInCover": "(Target está en COVER)",
-            "saveBonusVs": "(Save Bonus) vs"
+            "saveBonusVs": "(Save Bonus) vs",
+            "areaOfEffect": "Area of Effect"
         }
     },
     "enums": {
