@@ -3089,7 +3089,8 @@
             "relationship": "Relación",
             "xAxis": "Eje X",
             "yAxis": "Eje Y",
-            "compareTo": "Comparar"
+            "compareTo": "Comparar",
+            "equipmentNotes": "Nombre de equipo"
         },
         "filter": {
             "greaterThan": "Mayor Que",
