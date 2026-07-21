@@ -222,7 +222,7 @@
             "aStandardEnvironmentWithNoSpecial": "Um ambiente padrão, sem condições especiais de combate"
         },
         "titles": {
-            "titlePage": "Capa",
+            "titlePage": "Página de título",
             "contributors": "Colaboradores"
         }
     },
@@ -728,11 +728,11 @@
             "tierIi": "Grau II",
             "tierIii": "Grau III",
             "licenseLevel": "Nível de Licença",
-            "spCost": "Custo de SP",
+            "spCost": "Custo de PS",
             "manufacturer": "Fabricante",
             "shards": "Fragmentos",
             "size": "Tamanho",
-            "mounts": "Suportes",
+            "mounts": "Encaixes",
             "edef": "E.Def",
             "heatcap": "Cap. Calor",
             "repcap": "Cap. Rep.",
@@ -740,7 +740,7 @@
             "role": "Função",
             "origin": "Origem",
             "tags": "Tags",
-            "eDefense": "E-Defesa",
+            "eDefense": "Defesa-E",
             "range": "Alcance",
             "damage": "Dano",
             "uses": "Usos",
@@ -748,9 +748,9 @@
             "system": "Sistema",
             "mechWeapons": "Armas de Mecha",
             "mechSystems": "Sistemas de Mecha",
-            "skillTriggers": "Gatilhos de Perícia",
+            "skillTriggers": "Gatilhos",
             "eidolonLayers": "Camadas de Eidolon",
-            "statusesConditions": "Status e Condições",
+            "statusesConditions": "Estados e Condições",
             "equipmentTags": "Tags de Equipamento",
             "coreBonuses": "Bônus de Núcleo",
             "pilotBackgrounds": "Antecedentes de Piloto",
@@ -772,7 +772,7 @@
             "sitreps": "SITREPs",
             "lists": "Listas",
             "npcClasses": "Classes PNJ",
-            "npcFeatures": "Características PNJ",
+            "npcFeatures": "Sistemas de PNJ",
             "npcTemplates": "Modelo PNJ"
         },
         "nav": {
@@ -1076,7 +1076,7 @@
             "setItemFilters": "Definir Filtros de Item",
             "noFilters": "Nenhum filtro disponível",
             "spCost": "Custo de PS",
-            "lessThan": "Menos Que",
+            "lessThan": "Menor Que",
             "equalTo": "Igual A",
             "greaterThan": "Maior Que"
         },
@@ -1166,7 +1166,7 @@
             "hasMount": "Possui Encaixe",
             "size": "Tamanho",
             "license": "Licença",
-            "tags": "Etiquetas",
+            "tags": "Tags",
             "systemType": "Tipo de Sistema",
             "weaponType": "Tipo de Arma",
             "requiredMount": "Encaixe Necessário",
@@ -2569,11 +2569,11 @@
             "activations": "Ativações",
             "hull": "Casco",
             "size": "Tamanho",
-            "eDefense": "E-Defesa",
+            "eDefense": "Defesa-E",
             "grapple": "Agarrar",
             "ram": "Investida",
             "exposed": "Exposto",
-            "shredded": "Despedaçado"
+            "shredded": "Dilacerado"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Adicione um piloto da sua Lista de Pilotos local",
@@ -2677,7 +2677,7 @@
             "itemAddedTitle": "Item Adicionado",
             "itemAddedText": "Item {name} adicionado à coleção",
             "jwtCopiedTitle": "JWT Copiado",
-            "jwtCopiedText": "Token de ID copiado para a área de transferência",
+            "jwtCopiedText": "ID do Token copiado para a área de transferência",
             "jwtCopyFailedTitle": "Falha ao Copiar JWT"
         },
         "auth": {
@@ -3651,7 +3651,7 @@
             "tags": "Tags",
             "range": "Alcance",
             "damage": "Dano",
-            "eDefense": "E-Defesa",
+            "eDefense": "Defesa-E",
             "uses": "Usos",
             "biography": "Biografia",
             "bond": "Vínculo",
@@ -3700,9 +3700,9 @@
             "convertingThisPilotToLocalData": "A conversão deste piloto em dados locais permitirá a edição local, mas removerá seu\n                    vínculo remoto com a conta na nuvem do autor e impedirá que quaisquer atualizações futuras sejam\n                    recebidas. Para reativar a sincronização remota, você terá que importar este\n                    piloto novamente através de seu código de compartilhamento.",
             "thisWillResetYourStressTo": "Isso redefinirá seu Estresse para zero e adicionará um novo Fardo. Continuar?",
             "thisWillRemoveThisBondFrom": "Isso removerá este vínculo do piloto e redefinirá todas as seleções relacionadas. Isso não pode ser desfeito. Continuar?",
-            "thisWillCloneTheSelectedPilot": "Isso clonará o piloto selecionado. Personagens clonados não podem participar de uma missão em andamento e recebem uma peculiaridade aleatória. A clonagem adicional e a impressão de subjetividade adicionam mais peculiaridades.",
+            "thisWillCloneTheSelectedPilot": "Isso clonará o piloto selecionado. Personagens clonados não podem participar de uma missão em andamento, e recebem uma peculiaridade aleatória. Clonagem adicional e impressão de subjetividade adicionam outras peculiaridades.",
             "thisWillRestoreTheSelectedPilot": "Isso restaurará o piloto selecionado e limpará o status KIA.",
-            "extendedHarness": "Arreios Estendidos",
+            "extendedHarness": "Coldre Estendido",
             "influenceIsYourOrganizationsSizeReach": "A influência é o tamanho, o alcance, a riqueza e a reputação de sua organização.\n                A influência pode ser usada para adquirir ativos, criar oportunidades ou influenciar a opinião\n                pública.",
             "compConWasUnableToExport": "COMP/CON não conseguiu exportar os dados do piloto",
             "loadoutConfigurationExceedsAvailableFrameSyste": "A configuração do equipamento excede a Capacidade do Sistema do Chassi disponível",

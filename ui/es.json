@@ -2551,7 +2551,8 @@
             "grit": "TEMPLE",
             "gear": "//EQUIPO",
             "atk": "ATQ",
-            "slashesLl": "// NL"
+            "slashesLl": "// NL",
+            "techAtk": "Tecno Atq"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
@@ -2604,7 +2605,38 @@
             "groupDescription": "Descripción Grupo",
             "setGroupEmblem": "Elegir Emblema de Grupo",
             "groupAlreadyExists": "Grupo Ya Existente",
-            "createPilotGroup": "Crear Grupo de Pilotos"
+            "createPilotGroup": "Crear Grupo de Pilotos",
+            "full": "Completo",
+            "manufacturer": "Fabricante",
+            "size": "Tamaño",
+            "heatcap": "Cap.Calor",
+            "repcap": "Cap.Rep",
+            "active": "Activo",
+            "inactive": "Inactivo/a",
+            "retired": "Retirado",
+            "unknown": "Desconocido",
+            "pilot": "Piloto",
+            "ll": "NL",
+            "group": "Grupo",
+            "rifle": "Fusil",
+            "cannon": "Cañón",
+            "launcher": "Lanzador",
+            "cqb": "CCD",
+            "nexus": "Nexo",
+            "melee": "Cuerpo a cuerpo",
+            "kinetic": "Cinético",
+            "energy": "Energético",
+            "explosive": "Explosivo",
+            "system": "Sistema",
+            "tags": "Descriptores",
+            "range": "Alcance",
+            "damage": "Daño",
+            "eDefense": "Defensa-E",
+            "uses": "Usos",
+            "biography": "Biografía",
+            "bond": "Lazo",
+            "skills": "Habilidades",
+            "levelUp": "Subir Nivel"
         },
         "roster": {
             "history": "Historial",
@@ -2754,6 +2786,38 @@
         "common": {
             "commaLl": ", NL",
             "installName": "Instalar {name}"
+        },
+        "fields": {
+            "generate": "Generar",
+            "maximumStress": "Estrés Máximo",
+            "showAllFrames": "Ver Todos los Chasis",
+            "groupName": "Nombre de Grupo",
+            "deletePilots": "Eliminar Pilotos",
+            "selectPilotDataFile": "Seleccionar Archivo de Datos de Piloto",
+            "setMaximumUses": "Elegir Máximo de Usos",
+            "resourceName": "Nombre del Recurso",
+            "projectName": "Nombre del Proyecto",
+            "requirements": "Requerimientos",
+            "jumpTo": "saltar a",
+            "project": "Proyecto"
+        },
+        "tooltips": {
+            "copyStatBlockToClipboard": "Copiar bloque de estadísticas al portapapeles",
+            "increaseSkillBonus": "Aumentar Bono de Habilidad",
+            "convertingThisPilotToLocalData": "Convertir este piloto a datos locales permitirá edición local pero quitará su enlace remoto a la\n      cuenta de nube del autor, y prevendrá la recepción de cualquier actualización futura. Para re-habilitar\n      sincronización remota, tendrá que re-importar este artículo vía código de compartir.",
+            "influenceIsYourOrganizationsSizeReach": "Influencia es el tamaño, alcance, riqueza y reputación de su organización.\n                Influencia es usada para adquirir activos, crear oportunidades, o influir en la opinión\n                publica.",
+            "hull": "Casco",
+            "speed": "VELOCIDAD"
+        },
+        "subtitles": {
+            "convertThisPilotToAn": "Convertir este Piloto a una instancia de datos local editable."
+        },
+        "actions": {
+            "thisPilotIsARemote": "Este piloto es un recurso remoto vinculado a la cuenta de otro usuario. Es de sólo lectura y recibirá actualizaciones desde la cuenta vinculada."
+        },
+        "a11y": {
+            "dragToReorderGroup": "Arrastrar para reordenar grupo",
+            "dragToReorder": "Arrastrar para reordenar"
         }
     },
     "share": {
@@ -3308,6 +3372,112 @@
             "kinetic": "Cinético",
             "aoe": "AdE",
             "burn": "Incendiario"
+        }
+    },
+    "compendium": {
+        "returnToCompendium": "Volver al Compendio",
+        "categories": {
+            "frames": "Chasis",
+            "mechWeapons": "Armas Meca",
+            "equipmentTags": "Descriptores Equipo",
+            "pilotBackground": "Trasfondo Piloto",
+            "downtimeActions": "Acciones Interludio",
+            "npcFeatures": "Características PNJ",
+            "npcTemplates": "Plantillas PNJ",
+            "statusesConditions": "Estados & Condiciones",
+            "manufacturers": "Fabricantes",
+            "npcClasses": "Clases PNJ",
+            "environments": "Entornos"
+        },
+        "selectItem": "Seleccione {name}",
+        "titles": {
+            "reference": "Referencia",
+            "notYetImplemented": "No implementado aún",
+            "contentPack": "Paquete de Contenido",
+            "licenseLevel": "Nivel de Licencia",
+            "spCost": "Costo PS",
+            "manufacturer": "Fabricante",
+            "shards": "Fragmentos",
+            "size": "Tamaño",
+            "mounts": "Afustes",
+            "heatcap": "CapCalor",
+            "repcap": "CapRep",
+            "role": "Rol",
+            "origin": "Origen",
+            "tags": "Descriptores",
+            "eDefense": "Defensa-E",
+            "range": "Alcance",
+            "damage": "Daño",
+            "uses": "Usos",
+            "icon": "Icono",
+            "system": "Sistema",
+            "mechSystems": "Meca Sistemas",
+            "npcClasses": "Clases PNJ",
+            "npcFeatures": "Características PNJ",
+            "npcTemplates": "Plantillas PNJ",
+            "statusesConditions": "Estados & Condiciones",
+            "equipmentTags": "Descriptores Equipamiento",
+            "referenceMechs": "Referencia: Mecas",
+            "manufacturers": "Fabricantes",
+            "frames": "Chasis",
+            "glossary": "Glosario",
+            "bonds": "Lazos",
+            "environments": "Entornos",
+            "lists": "Listas",
+            "usingCompcon": "usando @:{'common.appName'}"
+        },
+        "nav": {
+            "systemReference": "Referencia del Sistema"
+        },
+        "reference": {
+            "iconGuide": "Guía de Iconos",
+            "damageTables": "Tablas de Daño",
+            "mechActions": "Meca Acciones",
+            "pilotActions": "Piloto Acciones",
+            "perTurn": "Por Turno",
+            "fullAction": "Acción Completa",
+            "or": "o",
+            "twoQuickActions": "2 Acciones Rápidas",
+            "faqErrata": "PF & erratas",
+            "statuses": "Estados",
+            "glossary": "Glosario",
+            "pleaseNote": "Por favor tenga en cuenta",
+            "faqErrataNotice": "Este PF y Erratas es un proyecto impulsado por la comunidad y no forma parte de un lanzamiento oficial de Massif Press @:{'common.gameName'}. Esta página está alimentada por datos de preguntas frecuentes del {repoLink} en GitHub, actualmente mantenido por lenaleciel. Este documento también está disponible en {siteLink}.",
+            "lancerFaqRepo": "repositorio de lancer-faq"
+        },
+        "search": {
+            "resultCount": "{count} resultado | {count} resultados"
+        },
+        "content": {
+            "eidolonLayer": "Capa Eidolon",
+            "frameSuffix": "{type}Chasis"
+        },
+        "campaign": {
+            "errNoCampaign": "Err: no hay campaña cargada",
+            "developmentPreview": "Las campañas están en desarrollo activo y no se desplegarán hasta v3.1. Esta vista previa debe ser ignorada para la prueba, pero siéntase en libertad de explorar la funcionalidad existente.",
+            "noCampaignsFound": "No se Hallaron Campañas",
+            "importHint": "Las campañas pueden ser importadas a través de Importación de archivos o el Directorio de Campañas Lancer",
+            "newVersionAvailable": "Hay una nueva versión de esta campaña disponible. Pulse abajo actualizar para descargar e instalar la última versión de esta campaña.",
+            "updateCampaign": "Actualizar Campaña",
+            "removeFromCollection": "Quitar de la Colección",
+            "removeConfirm": "Esto quitará la campaña de su colección. ¿Está seguro?",
+            "openCampaign": "Abrir Campaña",
+            "recommendedPlayers": "Jugadores Recomendados",
+            "recommendedLicenseLevel": "Nivel de Licencia Recomendado",
+            "campaignWebsite": "Sitio Red de la Campaña ({url})",
+            "openInReader": "Abrir en Lector",
+            "sortByAuthor": "Ordenar por Autor",
+            "sortBySuggestedPlayers": "Ordenar por Jugadores Sugeridos",
+            "sortByLicenseLevel": "Ordenar por Nivel de Licencia",
+            "lancerCampaignDirectory": "Directorio de Campaña @:{'common.gameName'}",
+            "directoryComingSoon": "Después de la versión v3 este será un directorio de Massif y campañas de creación comunitaria. Si está conectado y has enlazado una cuenta itch.io, podrá importar campañas directamente desde el directorio. Si no, te dirigirán a la página itch.io para comprar y descargar la campaña.",
+            "stagedCampaignData": "Datos de la Campaña Preparada",
+            "existingNewer": "La campaña existente es más nueva que los datos importados.",
+            "recommendedForLine": "Recomendado para {players} jugadores conNivel de Licencia {levels}",
+            "sortByTitle": "Ordenar por Título",
+            "index": "Índice",
+            "returnToLibrary": "Volver a la Biblioteca",
+            "byAuthor": "Por {author}"
         }
     }
 }
