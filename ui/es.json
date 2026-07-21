@@ -3290,7 +3290,8 @@
             "templateOptionalFeatures": "Características opcionales",
             "controlZone": "Zona de control",
             "modification": "MODIFICACIÓN",
-            "canBeAppliedTo": "SE PUEDE PERMITIR"
+            "canBeAppliedTo": "SE PUEDE PERMITIR",
+            "weaponAttacks": "Este arma puede hacer ataques {count} a la vez. Se pueden realizar múltiples ataques contra los mismos o diferentes objetivos."
         }
     },
     "enums": {
