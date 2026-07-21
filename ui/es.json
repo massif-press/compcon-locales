@@ -3107,7 +3107,8 @@
             "itemType": "Tipo de elemento",
             "origin": "Origen",
             "addNewImage": "Añadir nueva imagen",
-            "imageType": "Tipo de imagen"
+            "imageType": "Tipo de imagen",
+            "linkImage": "Imagen del enlace"
         },
         "filter": {
             "greaterThan": "Mayor Que",
