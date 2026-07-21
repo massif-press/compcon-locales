@@ -3298,7 +3298,8 @@
             "damageAssignment": "Asignación de daños Disponible",
             "statusEffect": "Efecto del estado disponible",
             "saveAvailable": "Guardar Disponible",
-            "resistanceImmunity": "Resistencia/inmunidad disponible"
+            "resistanceImmunity": "Resistencia/inmunidad disponible",
+            "otherEffect": "Otros efectos disponibles"
         }
     },
     "enums": {
