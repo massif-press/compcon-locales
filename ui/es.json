@@ -3091,7 +3091,8 @@
             "yAxis": "Eje Y",
             "compareTo": "Comparar",
             "equipmentNotes": "Nombre de equipo",
-            "selectTarget": "Seleccionar Objetivos"
+            "selectTarget": "Seleccionar Objetivos",
+            "organizationName": "Nombre de organización"
         },
         "filter": {
             "greaterThan": "Mayor Que",
