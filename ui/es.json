@@ -3103,7 +3103,8 @@
             "license": "Licencia",
             "tags": "Etiquetas",
             "systemType": "Tipo de sistema",
-            "damageType": "Tipo de imagen"
+            "damageType": "Tipo de imagen",
+            "itemType": "Tipo de elemento"
         },
         "filter": {
             "greaterThan": "Mayor Que",
