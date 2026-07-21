@@ -3283,7 +3283,8 @@
             "profileDeployables": "PROFILE DEPLOYABLES",
             "profileTags": "PROFILE TAGS",
             "classStats": "Estantes de clase",
-            "tierColumns": "T1 / T2 / T3"
+            "tierColumns": "T1 / T2 / T3",
+            "classBaseFeatures": "Características de la base de clase"
         }
     },
     "enums": {
