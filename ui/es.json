@@ -3274,7 +3274,8 @@
             "equipmentActions": "MEDIDAS DE EQUIPO",
             "equipmentDeployables": "EQUIPMENT DEPLOYABLES",
             "compendiumData": "COMPENDIUM DATA",
-            "variantFrame": "Frame variable"
+            "variantFrame": "Frame variable",
+            "combatProfile": "COMBAT PROFILE"
         }
     },
     "enums": {
