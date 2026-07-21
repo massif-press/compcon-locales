@@ -3268,7 +3268,8 @@
             "itemFilters": "Filtros de Artículo"
         },
         "card": {
-            "suggestedSkills": "Habilidades sugeridas"
+            "suggestedSkills": "Habilidades sugeridas",
+            "deprecated": "Este artículo está deprecado y se puede eliminar."
         }
     },
     "enums": {
