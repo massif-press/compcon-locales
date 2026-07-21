@@ -3344,7 +3344,8 @@
             "target": "Destino",
             "damageValue": "valor del daño",
             "bonusDamage": "Daños por bonificación",
-            "bonusDamageHalved": "El daño de los huesos se reducirá a la mitad (Area de efecto)"
+            "bonusDamageHalved": "El daño de los huesos se reducirá a la mitad (Area de efecto)",
+            "overkillHeat": "+{n} Calor (Sí Mismo) [Overkill]"
         }
     },
     "enums": {
