@@ -3281,7 +3281,8 @@
             "integrations": "INTEGRACIONES",
             "profileActions": "MEDIDAS DE APOYO",
             "profileDeployables": "PROFILE DEPLOYABLES",
-            "profileTags": "PROFILE TAGS"
+            "profileTags": "PROFILE TAGS",
+            "classStats": "Estantes de clase"
         }
     },
     "enums": {
