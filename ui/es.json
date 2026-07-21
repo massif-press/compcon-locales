@@ -3332,7 +3332,8 @@
             "saveSuffix": "{stat} Save",
             "noSaveRolled": "No Save Rolled",
             "successfulSave": "Salvación exitosa",
-            "failedSave": "Failed Save"
+            "failedSave": "Failed Save",
+            "vsTarget": "vs Target"
         }
     },
     "enums": {
