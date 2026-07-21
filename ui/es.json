@@ -3357,7 +3357,8 @@
             "overkillNo": "Este daño no está sujeto a reglas de la OVERKILL",
             "reliableDamage": "Daño confiable:",
             "clearReliableDamage": "Daños fiables",
-            "clickClearBonus": "Haga clic para aclarar los daños de bonificación"
+            "clickClearBonus": "Haga clic para aclarar los daños de bonificación",
+            "clickAddBonus": "Haga clic para agregar daño de bonificación"
         }
     },
     "enums": {
