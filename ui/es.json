@@ -3095,7 +3095,8 @@
             "organizationName": "Nombre de organización",
             "organizationType": "Tipo de organización",
             "used": "Usado",
-            "counterName": "Ingresar nombre"
+            "counterName": "Ingresar nombre",
+            "licenseLevel": "Nivel de Licencia {n}"
         },
         "filter": {
             "greaterThan": "Mayor Que",
