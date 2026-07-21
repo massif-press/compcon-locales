@@ -3308,7 +3308,10 @@
             "staged": "Ataque:",
             "actionUsed": "Acción ya usada.",
             "insufficientActions": "Insuficientes {activation} acciones que siguen siendo este turno.",
-            "cannotActivate": "No puedo activar."
+            "cannotActivate": "No puedo activar.",
+            "cannotActivateShort": "No se puede activar",
+            "heatSelf": "+{n} Calor (Sí Mismo)",
+            "applyAll": "Aplicar todos"
         }
     },
     "enums": {
