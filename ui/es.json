@@ -3478,7 +3478,8 @@
             "index": "Índice",
             "returnToLibrary": "Volver a la Biblioteca",
             "byAuthor": "Por {author}",
-            "campaignForLine": "Una campaña {lancer} para pilotos {players} que comienzan en el nivel de licencia {levels}."
+            "campaignForLine": "Una campaña {lancer} para pilotos {players} que comienzan en el nivel de licencia {levels}.",
+            "addCampaign": "Add Campaign"
         }
     }
 }
