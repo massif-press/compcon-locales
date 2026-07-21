@@ -3337,7 +3337,8 @@
             "currentlyEngaged": "(Actualmente ENGAGED)",
             "targetInCover": "(Target está en COVER)",
             "saveBonusVs": "(Save Bonus) vs",
-            "areaOfEffect": "Area of Effect"
+            "areaOfEffect": "Area of Effect",
+            "singleTarget": "Meta única"
         }
     },
     "enums": {
