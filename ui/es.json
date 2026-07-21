@@ -3289,7 +3289,8 @@
             "templateBaseFeatures": "Características de la base de plantilla",
             "templateOptionalFeatures": "Características opcionales",
             "controlZone": "Zona de control",
-            "modification": "MODIFICACIÓN"
+            "modification": "MODIFICACIÓN",
+            "canBeAppliedTo": "SE PUEDE PERMITIR"
         }
     },
     "enums": {
