@@ -3329,7 +3329,8 @@
             "crit": "Crít.",
             "hit": "Hit",
             "miss": "Srta.",
-            "saveSuffix": "{stat} Save"
+            "saveSuffix": "{stat} Save",
+            "noSaveRolled": "No Save Rolled"
         }
     },
     "enums": {
