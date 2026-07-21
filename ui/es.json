@@ -3282,7 +3282,8 @@
             "profileActions": "MEDIDAS DE APOYO",
             "profileDeployables": "PROFILE DEPLOYABLES",
             "profileTags": "PROFILE TAGS",
-            "classStats": "Estantes de clase"
+            "classStats": "Estantes de clase",
+            "tierColumns": "T1 / T2 / T3"
         }
     },
     "enums": {
