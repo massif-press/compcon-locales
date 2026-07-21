@@ -3085,7 +3085,11 @@
             "linear": "Lineal",
             "gmOnly": "Solo GM",
             "resolution": "Resolución",
-            "showDeleted": "Mostrar eliminado"
+            "showDeleted": "Mostrar eliminado",
+            "relationship": "Relación",
+            "xAxis": "Eje X",
+            "yAxis": "Eje Y",
+            "compareTo": "Comparar"
         },
         "filter": {
             "greaterThan": "Mayor Que",
