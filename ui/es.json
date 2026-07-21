@@ -3340,7 +3340,8 @@
             "areaOfEffect": "Area of Effect",
             "singleTarget": "Meta única",
             "half": "Medio",
-            "addTarget": "Añadir Destino"
+            "addTarget": "Añadir Destino",
+            "target": "Destino"
         }
     },
     "enums": {
