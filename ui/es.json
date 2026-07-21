@@ -3347,7 +3347,11 @@
             "bonusDamageHalved": "El daño de los huesos se reducirá a la mitad (Area de efecto)",
             "overkillHeat": "+{n} Calor (Sí Mismo) [Overkill]",
             "critDamageYes": "Este daño se enrolla como daño crítico (rollar dos veces, tomar más alto)",
-            "critDamageNo": "Este daño no hace rodar como daño crítico"
+            "critDamageNo": "Este daño no hace rodar como daño crítico",
+            "apYes": "Este daño ignora la armadura",
+            "apNo": "Este daño no ignora la armadura",
+            "irreducibleYes": "Este daño no puede reducirse de ninguna manera",
+            "irreducibleNo": "Este daño puede ser reducido por las defensas del objetivo"
         }
     },
     "enums": {
