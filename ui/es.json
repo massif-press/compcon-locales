@@ -3300,7 +3300,11 @@
             "saveAvailable": "Guardar Disponible",
             "resistanceImmunity": "Resistencia/inmunidad disponible",
             "otherEffect": "Otros efectos disponibles",
-            "specialEffect": "Efecto especial disponible"
+            "specialEffect": "Efecto especial disponible",
+            "fromOrigin": "De {name}",
+            "originDestroyed": "El origen {type} ha sido destruido",
+            "originUsed": "Origen {type} se ha utilizado",
+            "ifLabel": "IF:"
         }
     },
     "enums": {
