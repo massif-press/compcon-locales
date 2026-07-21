@@ -3341,7 +3341,9 @@
             "singleTarget": "Meta única",
             "half": "Medio",
             "addTarget": "Añadir Destino",
-            "target": "Destino"
+            "target": "Destino",
+            "damageValue": "valor del daño",
+            "bonusDamage": "Daños por bonificación"
         }
     },
     "enums": {
