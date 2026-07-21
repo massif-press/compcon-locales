@@ -3199,7 +3199,8 @@
         },
         "cascade": {
             "inCascade": "En cascada",
-            "pending": "Pendiente"
+            "pending": "Pendiente",
+            "alert": "CASCADE ALERT"
         },
         "table": {
             "previous": "anterior"
