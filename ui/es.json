@@ -3104,7 +3104,9 @@
             "tags": "Etiquetas",
             "systemType": "Tipo de sistema",
             "damageType": "Tipo de imagen",
-            "itemType": "Tipo de elemento"
+            "itemType": "Tipo de elemento",
+            "origin": "Origen",
+            "addNewImage": "Añadir nueva imagen"
         },
         "filter": {
             "greaterThan": "Mayor Que",
