@@ -3479,7 +3479,11 @@
             "returnToLibrary": "Volver a la Biblioteca",
             "byAuthor": "Por {author}",
             "campaignForLine": "Una campaña {lancer} para pilotos {players} que comienzan en el nivel de licencia {levels}.",
-            "addCampaign": "Add Campaign"
+            "addCampaign": "Add Campaign",
+            "tableOfContents": "Tabla de Contenidos"
+        },
+        "fields": {
+            "selectLcdFile": "Seleccionar un archivo"
         }
     }
 }
