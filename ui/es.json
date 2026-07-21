@@ -3282,7 +3282,8 @@
             "rules": "Reglas",
             "shards": "Fragmento",
             "tactics": "Tácticas",
-            "successfulHit": "Exitoso"
+            "successfulHit": "Exitoso",
+            "printOptions": "Opciones de impresión"
         },
         "subtitles": {
             "selectResult": "Seleccionar resultado"
