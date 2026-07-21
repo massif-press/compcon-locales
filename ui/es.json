@@ -3358,7 +3358,9 @@
             "reliableDamage": "Daño confiable:",
             "clearReliableDamage": "Daños fiables",
             "clickClearBonus": "Haga clic para aclarar los daños de bonificación",
-            "clickAddBonus": "Haga clic para agregar daño de bonificación"
+            "clickAddBonus": "Haga clic para agregar daño de bonificación",
+            "resistanceType": "tipo de resistencia",
+            "saveHalf": "Guardar la mitad"
         }
     },
     "enums": {
