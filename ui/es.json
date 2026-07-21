@@ -3101,7 +3101,8 @@
             "role": "Rol",
             "size": "Tamaño",
             "license": "Licencia",
-            "tags": "Etiquetas"
+            "tags": "Etiquetas",
+            "systemType": "Tipo de sistema"
         },
         "filter": {
             "greaterThan": "Mayor Que",
