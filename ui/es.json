@@ -3346,7 +3346,8 @@
             "bonusDamage": "Daños por bonificación",
             "bonusDamageHalved": "El daño de los huesos se reducirá a la mitad (Area de efecto)",
             "overkillHeat": "+{n} Calor (Sí Mismo) [Overkill]",
-            "critDamageYes": "Este daño se enrolla como daño crítico (rollar dos veces, tomar más alto)"
+            "critDamageYes": "Este daño se enrolla como daño crítico (rollar dos veces, tomar más alto)",
+            "critDamageNo": "Este daño no hace rodar como daño crítico"
         }
     },
     "enums": {
