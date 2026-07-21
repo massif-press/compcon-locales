@@ -3286,7 +3286,8 @@
             "tierColumns": "T1 / T2 / T3",
             "classBaseFeatures": "Características de la base de clase",
             "classOptionalFeatures": "Características opcionales de clase",
-            "templateBaseFeatures": "Características de la base de plantilla"
+            "templateBaseFeatures": "Características de la base de plantilla",
+            "templateOptionalFeatures": "Características opcionales"
         }
     },
     "enums": {
