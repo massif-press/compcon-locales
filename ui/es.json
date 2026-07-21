@@ -3272,7 +3272,8 @@
             "deprecated": "Este artículo está deprecado y se puede eliminar.",
             "modifies": "Modifica:",
             "equipmentActions": "MEDIDAS DE EQUIPO",
-            "equipmentDeployables": "EQUIPMENT DEPLOYABLES"
+            "equipmentDeployables": "EQUIPMENT DEPLOYABLES",
+            "compendiumData": "COMPENDIUM DATA"
         }
     },
     "enums": {
