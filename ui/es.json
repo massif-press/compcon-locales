@@ -3083,7 +3083,9 @@
             "title": "Título",
             "segments": "Segmentos",
             "linear": "Lineal",
-            "gmOnly": "Solo GM"
+            "gmOnly": "Solo GM",
+            "resolution": "Resolución",
+            "showDeleted": "Mostrar eliminado"
         },
         "filter": {
             "greaterThan": "Mayor Que",
