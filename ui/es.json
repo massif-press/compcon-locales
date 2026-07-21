@@ -3102,7 +3102,8 @@
             "size": "Tamaño",
             "license": "Licencia",
             "tags": "Etiquetas",
-            "systemType": "Tipo de sistema"
+            "systemType": "Tipo de sistema",
+            "damageType": "Tipo de imagen"
         },
         "filter": {
             "greaterThan": "Mayor Que",
