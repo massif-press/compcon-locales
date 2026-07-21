@@ -3304,7 +3304,8 @@
             "fromOrigin": "De {name}",
             "originDestroyed": "El origen {type} ha sido destruido",
             "originUsed": "Origen {type} se ha utilizado",
-            "ifLabel": "IF:"
+            "ifLabel": "IF:",
+            "staged": "Ataque:"
         }
     },
     "enums": {
