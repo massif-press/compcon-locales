@@ -3108,7 +3108,8 @@
             "origin": "Origen",
             "addNewImage": "Añadir nueva imagen",
             "imageType": "Tipo de imagen",
-            "linkImage": "Imagen del enlace"
+            "linkImage": "Imagen del enlace",
+            "allItems": "Todos los Artículos"
         },
         "filter": {
             "greaterThan": "Mayor Que",
@@ -3275,7 +3276,11 @@
             "heatCapacity": "Capacidad Calor",
             "clockEditor": "editor de reloj",
             "cascade": "CASCADA",
-            "activateFreeAction": "Activar (Acción Libre)"
+            "activateFreeAction": "Activar (Acción Libre)",
+            "reportedAppearances": "Apariciones Reportadas",
+            "hints": "Pistas",
+            "rules": "Reglas",
+            "shards": "Fragmento"
         },
         "subtitles": {
             "selectResult": "Seleccionar resultado"
