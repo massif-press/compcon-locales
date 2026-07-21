@@ -3299,7 +3299,8 @@
             "statusEffect": "Efecto del estado disponible",
             "saveAvailable": "Guardar Disponible",
             "resistanceImmunity": "Resistencia/inmunidad disponible",
-            "otherEffect": "Otros efectos disponibles"
+            "otherEffect": "Otros efectos disponibles",
+            "specialEffect": "Efecto especial disponible"
         }
     },
     "enums": {
