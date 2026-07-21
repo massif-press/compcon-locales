@@ -396,6 +396,6 @@
     "wm_molten_wreathe.name": "Manoplas de Derretimento",
     "wm_molten_wreathe.on_hit.effect": "Você sofre 1 de Calor e ela projeta uma nuvem superaquecida de Cone 3 orientada para longe do seu alvo na direção de sua escolha. Seu alvo e quaisquer personagens capturados nesta nuvem sofrem 2 de Dano Explosivo cada.",
     "wm_supermassive_mod.description": "A primeira de um conjunto de modificações de melhores práticas para combate de curta distância do mesmo Projeto de Campo Titan–Enceladus que produciu o Calibã, as modificações supermassivas incluem uma série de alterações em armas de curta distância projetadas para aumentar sua letalidade e utilidade geral, removendo precauções de segurança.",
-    "wm_supermassive_mod.effect": "Escolha uma arma CQB, CANHÃO ou CORPO A CORPO: ela ganha EXCESSO DE DANO e REPULSÃO +1. Durante um REPARO COMPLETO, você pode ajustá-la para remover os limitadores de segurança, aumentando este benefício para REPULSÃO +2; no entanto, ela também ganha PREPARAR (se for de ataque à distância) ou IMPRECISA (se for corpo a corpo).",
+    "wm_supermassive_mod.effect": "Escolha uma arma CQB, CANHÃO ou CORPO A CORPO: ela ganha EXCESSO e REPULSÃO +1. Durante um REPARO COMPLETO, você pode ajustá-la para remover os limitadores de segurança, aumentando este benefício para REPULSÃO +2; no entanto, ela também ganha ARTILHARIA (se for de ataque à distância) ou IMPRECISA (se for corpo a corpo).",
     "wm_supermassive_mod.name": "Modificação Supermassiva"
 }
