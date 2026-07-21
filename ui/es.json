@@ -3096,7 +3096,8 @@
             "organizationType": "Tipo de organización",
             "used": "Usado",
             "counterName": "Ingresar nombre",
-            "licenseLevel": "Nivel de Licencia {n}"
+            "licenseLevel": "Nivel de Licencia {n}",
+            "fromManufacturer": "Sin Fabricante"
         },
         "filter": {
             "greaterThan": "Mayor Que",
