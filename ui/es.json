@@ -3092,7 +3092,8 @@
             "compareTo": "Comparar",
             "equipmentNotes": "Nombre de equipo",
             "selectTarget": "Seleccionar Objetivos",
-            "organizationName": "Nombre de organización"
+            "organizationName": "Nombre de organización",
+            "organizationType": "Tipo de organización"
         },
         "filter": {
             "greaterThan": "Mayor Que",
