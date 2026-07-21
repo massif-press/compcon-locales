@@ -3351,7 +3351,9 @@
             "apYes": "Este daño ignora la armadura",
             "apNo": "Este daño no ignora la armadura",
             "irreducibleYes": "Este daño no puede reducirse de ninguna manera",
-            "irreducibleNo": "Este daño puede ser reducido por las defensas del objetivo"
+            "irreducibleNo": "Este daño puede ser reducido por las defensas del objetivo",
+            "exceptArmor": ", excepto la armadura",
+            "overkillYes": "Este daño está sujeto a reglas OVERKILL (rollar 1s, añadir calor (self))"
         }
     },
     "enums": {
