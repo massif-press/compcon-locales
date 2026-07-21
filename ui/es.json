@@ -3360,7 +3360,8 @@
             "clickClearBonus": "Haga clic para aclarar los daños de bonificación",
             "clickAddBonus": "Haga clic para agregar daño de bonificación",
             "resistanceType": "tipo de resistencia",
-            "saveHalf": "Guardar la mitad"
+            "saveHalf": "Guardar la mitad",
+            "removeSpecialCondition": "eliminar condición especial"
         }
     },
     "enums": {
