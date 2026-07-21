@@ -3305,7 +3305,9 @@
             "originDestroyed": "El origen {type} ha sido destruido",
             "originUsed": "Origen {type} se ha utilizado",
             "ifLabel": "IF:",
-            "staged": "Ataque:"
+            "staged": "Ataque:",
+            "actionUsed": "Acción ya usada.",
+            "insufficientActions": "Insuficientes {activation} acciones que siguen siendo este turno."
         }
     },
     "enums": {
