@@ -3313,7 +3313,8 @@
             "heatSelf": "+{n} Calor (Sí Mismo)",
             "applyAll": "Aplicar todos",
             "free": "Gratis*",
-            "mandatoryFields": "Campos obligatorios que permanecen"
+            "mandatoryFields": "Campos obligatorios que permanecen",
+            "alreadyActivated": "Ya activado"
         }
     },
     "enums": {
