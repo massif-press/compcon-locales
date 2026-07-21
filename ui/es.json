@@ -3311,7 +3311,9 @@
             "cannotActivate": "No puedo activar.",
             "cannotActivateShort": "No se puede activar",
             "heatSelf": "+{n} Calor (Sí Mismo)",
-            "applyAll": "Aplicar todos"
+            "applyAll": "Aplicar todos",
+            "free": "Gratis*",
+            "mandatoryFields": "Campos obligatorios que permanecen"
         }
     },
     "enums": {
