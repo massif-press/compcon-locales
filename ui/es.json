@@ -3322,7 +3322,8 @@
             "reliableN": "RELIABLE {n}",
             "noAttackRolled": "Sin ataque rodado",
             "criticalHit": "Visto crítico",
-            "successfulAttack": "Ataque exitoso"
+            "successfulAttack": "Ataque exitoso",
+            "failedAttack": "Ataque fallido"
         }
     },
     "enums": {
