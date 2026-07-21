@@ -3333,7 +3333,8 @@
             "noSaveRolled": "No Save Rolled",
             "successfulSave": "Salvación exitosa",
             "failedSave": "Failed Save",
-            "vsTarget": "vs Target"
+            "vsTarget": "vs Target",
+            "currentlyEngaged": "(Actualmente ENGAGED)"
         }
     },
     "enums": {
