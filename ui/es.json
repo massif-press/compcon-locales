@@ -3321,7 +3321,8 @@
             "reliableOnMiss": "RELIABLE {n} {type} se aplica a la señorita",
             "reliableN": "RELIABLE {n}",
             "noAttackRolled": "Sin ataque rodado",
-            "criticalHit": "Visto crítico"
+            "criticalHit": "Visto crítico",
+            "successfulAttack": "Ataque exitoso"
         }
     },
     "enums": {
