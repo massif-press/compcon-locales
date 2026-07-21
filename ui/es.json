@@ -3093,7 +3093,9 @@
             "equipmentNotes": "Nombre de equipo",
             "selectTarget": "Seleccionar Objetivos",
             "organizationName": "Nombre de organización",
-            "organizationType": "Tipo de organización"
+            "organizationType": "Tipo de organización",
+            "used": "Usado",
+            "counterName": "Ingresar nombre"
         },
         "filter": {
             "greaterThan": "Mayor Que",
