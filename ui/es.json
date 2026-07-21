@@ -3323,7 +3323,10 @@
             "noAttackRolled": "Sin ataque rodado",
             "criticalHit": "Visto crítico",
             "successfulAttack": "Ataque exitoso",
-            "failedAttack": "Ataque fallido"
+            "failedAttack": "Ataque fallido",
+            "activate": "Activar",
+            "until": "Hasta",
+            "crit": "Crít."
         }
     },
     "enums": {
@@ -3542,6 +3545,9 @@
         },
         "fields": {
             "selectLcdFile": "Seleccionar un archivo"
+        },
+        "tooltips": {
+            "hitPoints": "Puntos de Golpe"
         }
     }
 }
