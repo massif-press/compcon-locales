@@ -3279,7 +3279,8 @@
             "availableMounts": "MOUNTOS DE ARMAS AVAILABLES",
             "onboardCore": "ONBOARD CORE SYSTEM",
             "integrations": "INTEGRACIONES",
-            "profileActions": "MEDIDAS DE APOYO"
+            "profileActions": "MEDIDAS DE APOYO",
+            "profileDeployables": "PROFILE DEPLOYABLES"
         }
     },
     "enums": {
