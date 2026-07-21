@@ -3356,7 +3356,8 @@
             "overkillYes": "Este daño está sujeto a reglas OVERKILL (rollar 1s, añadir calor (self))",
             "overkillNo": "Este daño no está sujeto a reglas de la OVERKILL",
             "reliableDamage": "Daño confiable:",
-            "clearReliableDamage": "Daños fiables"
+            "clearReliableDamage": "Daños fiables",
+            "clickClearBonus": "Haga clic para aclarar los daños de bonificación"
         }
     },
     "enums": {
