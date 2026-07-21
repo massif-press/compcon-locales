@@ -3328,7 +3328,8 @@
             "until": "Hasta",
             "crit": "Crít.",
             "hit": "Hit",
-            "miss": "Srta."
+            "miss": "Srta.",
+            "saveSuffix": "{stat} Save"
         }
     },
     "enums": {
