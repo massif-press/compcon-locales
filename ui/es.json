@@ -3307,7 +3307,8 @@
             "ifLabel": "IF:",
             "staged": "Ataque:",
             "actionUsed": "Acción ya usada.",
-            "insufficientActions": "Insuficientes {activation} acciones que siguen siendo este turno."
+            "insufficientActions": "Insuficientes {activation} acciones que siguen siendo este turno.",
+            "cannotActivate": "No puedo activar."
         }
     },
     "enums": {
