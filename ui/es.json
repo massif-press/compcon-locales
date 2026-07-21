@@ -3316,7 +3316,8 @@
             "mandatoryFields": "Campos obligatorios que permanecen",
             "alreadyActivated": "Ya activado",
             "insufficientActionsShort": "Medidas insuficientes",
-            "noTarget": "No Target Selected"
+            "noTarget": "No Target Selected",
+            "clickToOverride": "Click to Override"
         }
     },
     "enums": {
