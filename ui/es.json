@@ -3049,7 +3049,8 @@
             "addCustom": "Añadir Conteo Personalizado"
         },
         "action": {
-            "compendiumEntry": "Entrada Compendio"
+            "compendiumEntry": "Entrada Compendio",
+            "frequency_action": "Frecuencia"
         },
         "org": {
             "influence": "Influencia de la Organización",
@@ -3078,7 +3079,11 @@
             "prereqCumulative": "Esta Licencia requiere al menos {rank} Rangos acumulados de licencias {source}"
         },
         "fields": {
-            "metric": "Métrico"
+            "metric": "Métrico",
+            "title": "Título",
+            "segments": "Segmentos",
+            "linear": "Lineal",
+            "gmOnly": "Solo GM"
         },
         "filter": {
             "greaterThan": "Mayor Que",
