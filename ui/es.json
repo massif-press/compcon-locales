@@ -427,7 +427,7 @@
             "itemName": "Nombre de Artículo",
             "permanentlyDeleteAll": "Eliminar Todo Permanentemente",
             "permanentlyDelete": "Eliminar permanentemente",
-            "restore": "@:{'common.restore'}"
+            "restore": ""
         },
         "userDataViewer": {
             "value": "Valor",
@@ -476,9 +476,9 @@
             "authorsWebsite": "Sitio web del autor",
             "dependencyInstalled": "Dependencia instalada",
             "contentHeading": "Contenido",
-            "changelog": "@:{'common.changelog'}",
-            "noDescription": "@:{'ui.widget.noDescription'}",
-            "none": "@:{'common.none'}",
+            "changelog": "",
+            "noDescription": "",
+            "none": "",
             "patchByAuthor": "por {translator}",
             "removePatch": "Quitar parche",
             "languagePatches": "Parches de Idioma",
@@ -514,8 +514,8 @@
         },
         "log": {
             "trace": "Rastro",
-            "copiedToClipboard": "Registro copiado al portapapeles",
-            "noData": "@:{'common.noData'}",
+            "copiedToClipboard": "Entrada de labitácora copiada al portapapeles",
+            "noData": "",
             "caller": "Llamado por",
             "clearLog": "Limpiar Bitácora",
             "session": "Sesión",
@@ -538,7 +538,7 @@
             "editConfig": "Editar esta configuración",
             "lcpsSuffix": "{list} LCPs",
             "lancerCoreBook": "",
-            "byAuthor": "@:{'common.byAuthor'}"
+            "byAuthor": ""
         },
         "v2Auto": {
             "v2Data": "Datos V2",
@@ -590,7 +590,7 @@
         },
         "v2ImportNotify": {
             "importedSuccessfully": "Importado correctamente.",
-            "importFailedText": "Importación incorrecta: {error}",
+            "importFailedText": "Importación fallida: {error}",
             "reimportSuccessText": "{count} artículo importado con éxito. | {count} artículos importados con éxito.",
             "reimportPendingText": "{count} artículo aún pendiente contenido faltante. | {count} artículos aún pendientes contenido faltante.",
             "noItemsToReimport": "No hay artículos para reimportar.",
@@ -630,7 +630,7 @@
             "author": "Autor",
             "version": "Versión",
             "type": "Tipo",
-            "missing": "Faltantes",
+            "missing": "Faltante",
             "never": "Nunca"
         },
         "fields": {
@@ -713,7 +713,7 @@
             "valueOptional": "Valor (opcional)",
             "labels": "Etiquetas",
             "label": "Etiqueta",
-            "addLabel": "Añadir etiqueta",
+            "addLabel": "Añadir Etiqueta",
             "sortAlphabetically": "Ordenar alfabéticamente",
             "heading": "Etiquetas DJ",
             "labelPalette": "Etiqueta de Paleta",
@@ -724,7 +724,7 @@
         "stats": {
             "noStats": "No hay estadísticas para mostrar",
             "custom": "Personalizado",
-            "resetConfirm": "Esto restablecerá todas las estadísticas a los valores predeterminados para T{tier} {name}. ¿Está seguro?",
+            "resetConfirm": "Esto restablecerá todas las estadísticas a los valores predeterminados para G{tier} {name}. ¿Está seguro?",
             "confirmResetStats": "Confirme Reinicio de las Estadísticas",
             "addStat": "Añadir Estadística",
             "statCountSuffix": "{n} Estadística | {n} Estadísticas"
@@ -753,7 +753,7 @@
             "itemsHidden": "{n} artículos ocultos por filtrado"
         },
         "itemCard": {
-            "tierShort": "T{tier}",
+            "tierShort": "G{tier}",
             "classLabel": "Clase {class}"
         },
         "noItem": {
@@ -776,17 +776,17 @@
             "setBannerImage": "Seleccionar Imagen de Pancarta",
             "imagesMustLink": "Las imágenes de la campaña deben estar vinculadas, y no pueden provenir de datos locales de @:{'common.appName'} .",
             "fromLicenseLevels": "De los Niveles de Licencia",
-            "authorContact": "Información de contacto del Autor (Opcional)",
+            "authorContact": "Información de Contacto del Autor (Opcional)",
             "addContact": "Agregar Nuevo Contacto",
             "coverImage": "Imagen de Portada de Campaña",
             "setCoverImage": "Configurar Imagen de Portada",
             "deleteHistory": "Eliminar Historia (v.{ver})"
         },
         "pageContent": {
-            "h1": "H1",
-            "h2": "H2",
-            "h3": "H3",
-            "h4": "H4",
+            "h1": "",
+            "h2": "",
+            "h3": "",
+            "h4": "",
             "hideTitle": "Ocultar el Título",
             "tonal": "Tonal",
             "deleteItemConfirm": "¿Quieres eliminar este artículo? Esta acción no se puede deshacer.",
@@ -824,7 +824,7 @@
         },
         "npcFeature": {
             "nameFeatures": "{name} Características",
-            "base": "Base",
+            "base": "",
             "resetFeatures": "Restablecer Características",
             "allAvailableFeatures": "Todas las Características Disponibles",
             "allAssignedFeatures": "Todas las Características Asignadas",
@@ -869,14 +869,14 @@
         },
         "eidolonData": {
             "noData": "¡No se han encontrado datos del editor de Eidolon!",
-            "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room para un Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en {link}",
+            "help1": "Los datos de Eidolon se incluyen con la versión pagada de No Room for a Wallflower: Act 1, y se puede encontrar en la sección de contenido descargable en {link}",
             "linkText": "Página itch.io de No Room for a Wallflower: Act 1.",
             "help2": "Si ya ha descargado el LCP de DJ para Wallflower, puede importarlo a @:{'common.appName'} a través del Gestor de Contenidos disponible en el Menú Principal o en el menú Opciones en el lado derecho de la barra de navegación."
         },
         "npcBuilder": {
-            "noClass": "Sin Clase de NPC",
+            "noClass": "Sin Clase de PNJ",
             "setClass": "Seleccionar Clase de PNJ",
-            "npcTag": "Chapa PNJ",
+            "npcTag": "Descriptor PNJ",
             "templates": "Plantillas",
             "npcClass": "Clase de PNJ"
         },
@@ -986,7 +986,7 @@
             "setEncounter": "Seleccionar Encuentro"
         },
         "landing": {
-            "toolkit": "Herramientas de DJ"
+            "toolkit": "Herramientas DJ"
         },
         "combatant": {
             "combatants": "Combatientes",
@@ -1039,10 +1039,10 @@
             "resetStats": "Cambiar Grado y Restablecer Estadísticas"
         },
         "npcTag": {
-            "setTag": "Seleccionar Chapa de PNJ",
+            "setTag": "Seleccionar Descriptor de PNJ",
             "lockedBy": "Bloqueado por selección de plantillas ({name})",
-            "limitedBy": "Selección de Chapa limitada por plantilla ({name})",
-            "selectTag": "Seleccionar Chapa de PNJ"
+            "limitedBy": "Selección de Descriptor limitada por plantilla ({name})",
+            "selectTag": "Seleccionar Descriptor de PNJ"
         },
         "titles": {
             "setGmLabel": "Seleccionar Etiqueta de DJ",
@@ -1056,7 +1056,7 @@
             "combatEncounter": "Encuentro de Combate",
             "setMapImage": "Seleccionar Imagen de Mapa",
             "missingNpcs": "PNJs Faltantes",
-            "doodads": "Doodads",
+            "doodads": "",
             "selectLayer": "Seleccionar Capa",
             "setNpcFeatures": "Seleccionar Caraterísticas de PNJ",
             "confirmTierChange": "Confirmar Cambio de Grado",
@@ -1085,7 +1085,7 @@
             "layers": "Capas",
             "tag": "Descriptor",
             "templates": "Plantillas",
-            "gmToolkit": "Herramientas de DJ",
+            "gmToolkit": "Herramientas DJ",
             "campaignEditor": "Editor de Campaña",
             "narrativeItemManager": "Gestor de Artículo Narrativo"
         },
@@ -1094,7 +1094,7 @@
             "generateItemPrintables": "Generar imprimibles del artículo",
             "addSetOrDeleteA": "Añadir, seleccionar o eliminar una Etiqueta de DJ",
             "addANewEmptyFreeform": "Añadir una nueva sección de forma libre vacía bajo esta página. Una sección es un contenedor para otros artículos de contenido, y puede usarse para organizar su campaña en la manera que encuentre apropiada.",
-            "addANewEmptyBeat": "Añade un nuevo Pulso bajo esta sección. Un Pulso es una sección para un evento o momento importante en la historia.",
+            "addANewEmptyBeat": "Añade un nuevo Punto Narrativo bajo esta sección. Un Punto Narrativo es una sección para un evento o momento importante en la historia.",
             "addANewEmptyMission": "Añade una nueva Misión vacía bajo esta página. Una Misión contiene objetivos y metas específicas que pueden ser completadas dentro de un periodo de tiempo discreto, y típicamente contiene Combates.",
             "addANewEmptyCombat": "Añade un Combate nuevo vacío bajo esta página. Un Combate contiene Encuentros, así como también directrices para DJ, detalles narrativos pertinentes a la batalla, y resultados potenciales.",
             "addANewEmptyDowntime": "Añade un nuevo Interludio vacío bajo esta página. Interludio es el espacio narrativo entre misiones, donde la acción momento a momento no importa tanto y el juego de roles importa mucho más.",
@@ -1131,27 +1131,27 @@
             "addedText": "{name} se ha añadido al encuentro."
         },
         "mechActions": {
-            "preparedTitle": "Mecha Preparado",
+            "preparedTitle": "Meca Preparado",
             "ejectFailedTitle": "Eyección Fallida",
             "ejectFailedText": "{name} no está montada.",
             "pilotEjectedTitle": "Piloto Eyectado",
-            "pilotEjectedText": "{name} ha sido eyectado del mecha y ahora esta IMPEDIDO.",
+            "pilotEjectedText": "{name} ha sido eyectado del meca y ahora esta IMPEDIDO.",
             "dismountFailedText": "{name} no está montada.",
             "pilotDismountedTitle": "Piloto Desmontado",
-            "pilotDismountedText": "{name} ha desmontado del mecha.",
-            "mechHiddenTitle": "Mecha Oculto",
-            "mechDisengagedTitle": "Mecha Desenganchado",
+            "pilotDismountedText": "{name} ha desmontado del meca.",
+            "mechHiddenTitle": "Meca Oculto",
+            "mechDisengagedTitle": "Meca Desenganchado",
             "bootUpFailedTitle": "Fallo Iniciar Sistema",
             "bootUpFailedText": "{name} no está APAGADO.",
-            "mechBootedUpTitle": "Sistema del Mecha Iniciado",
+            "mechBootedUpTitle": "Sistema del Meca Iniciado",
             "mechBootedUpText": "{name} ha INICIADO SISTEMA.",
             "selfDestructFailedTitle": "Autodestrucción Falló",
             "selfDestructFailedText": "{name} se ha AUTO DESTRUIDO.",
-            "selfDestructInitiatedTitle": "Auto-Destrucción del Mecha Iniciada",
+            "selfDestructInitiatedTitle": "Auto-Destrucción del Meca Iniciada",
             "selfDestructInitiatedText": "{name} está a punto de AUTO DESTRUIRSE.",
-            "mechBracedTitle": "Mecha Fortalecido",
+            "mechBracedTitle": "Meca Fortalecido",
             "mechBracedText": "{name} ahora está FORTALECIDO.",
-            "overwatchTitle": "Mecha Vigilante",
+            "overwatchTitle": "Meca Vigilante",
             "overwatchText": "{name} está ahora en VIGILANCIA.",
             "dismountFailedTitle": "Fallo al Desmontar"
         },
@@ -1163,8 +1163,8 @@
             "npcDisengagedTitle": "PNJ Desenganchado"
         },
         "pcSheet": {
-            "activeMechChangedTitle": "Mecha Activo Cambiado",
-            "activeMechChangedText": "Mecha activo cambiado a {mechName}. El estado en la hoja de Personaje ha sido reajustado.",
+            "activeMechChangedTitle": "Meca Activo Cambiado",
+            "activeMechChangedText": "Meca activo cambiado a {mechName}. El estado en la hoja de Personaje ha sido reajustado.",
             "saveSuccessfulText": "Hoja de Personaje Guardada : {callsign} en la Ronda {round}",
             "saveFailedText": "Fallo al guardar Hoja de Personaje: {callsign}"
         },
@@ -1186,7 +1186,7 @@
             "saveSuccessful": "Guardado Exitoso",
             "saveFailed": "Guardado Fallido",
             "copiedToClipboard": "Copiado al Portapapeles",
-            "nominal": "Nominal",
+            "nominal": "",
             "halfDamage": "Mitad de Daño",
             "condition_status": "Condición"
         },
@@ -1196,10 +1196,10 @@
             "removeFromEncounter": "Eliminar del Encuentro",
             "playedBy": "Jugado Por",
             "pilotCombatStats": "Estadistícas de Combate del Piloto",
-            "activeMech": "Mecha activo",
-            "activeMechTooltip": "El mecha activo será instanciado para su uso en este encuentro. Una vez iniciado el encuentro, el mecha activo no se puede cambiar sin restablecer las estadísticas del mecha",
-            "pilotNoMech": "Piloto será instanciado sin un mecha",
-            "mechStats": "Estadísticas de Mecha",
+            "activeMech": "Meca activo",
+            "activeMechTooltip": "El meca activo será instanciado para su uso en este encuentro. Una vez iniciado el encuentro, el meca activo no se puede cambiar sin restablecer las estadísticas del meca",
+            "pilotNoMech": "Piloto será instanciado sin un meca",
+            "mechStats": "Estadísticas de Meca",
             "frameTraits": "Rasgos del Chasis",
             "coreSystem": "Sistema Base",
             "activeLoadout": "Carga Activa",
@@ -1207,7 +1207,7 @@
             "removedTitle": "Quitado {callsign} del encuentro",
             "removalSuccess": "Quitado Exitosamente",
             "addedTitle": "Añadido {callsign} al encuentro",
-            "ll": "LL {n}"
+            "ll": "NL {n}"
         },
         "labels": {
             "round": "Ronda",
@@ -1249,9 +1249,9 @@
             "additionalNpcs": "Los PNJs adicionales pueden ser añadidos en el Corredor de Encuentros después de la creación."
         },
         "tableManager": {
-            "published": "lista de mesas publicadas",
-            "offline": "lista de mesas fuera de línea",
-            "addNew": "añadir nueva mesa"
+            "published": "lista de tablas publicadas",
+            "offline": "lista de tablas fuera de línea",
+            "addNew": "añadir nueva tabla"
         },
         "sheet": {
             "newCharacterSheet": "Nueva Hoja de Personaje"
@@ -1260,13 +1260,13 @@
             "archivedSheets": "Hojas Archivadas ({n})",
             "noArchivedFound": "No se hallaron hojas archivadas",
             "noArchivedFoundFiltered": "No se hallaron hojas archivadas incluyendo \"{search}\"",
-            "kia": "KIA",
+            "kia": "MEA",
             "savePilotHistory": "Guardar Historia de Piloto",
             "featureInDev": "Característica en desarrollo (v3.1)",
             "encounterHash": "encuentro #"
         },
         "newSheet": {
-            "llLevel": "LL{n}",
+            "llLevel": "NL{n}",
             "campaignName": "Nombre de la Campaña",
             "createAndLaunch": "Crear y Lanzar Modo Activo"
         },
@@ -1278,7 +1278,7 @@
             "roundN": "Ronda {n}",
             "started": "iniciado",
             "lastTurn": "último turno",
-            "na": "N/A"
+            "na": ""
         },
         "campaignDialog": {
             "setCampaign": "Seleccionar Campaña"
@@ -1324,7 +1324,7 @@
             "endsOnTurn": "{when} de tu turno",
             "braceExit": "Usted sale del estado {braced} y entra en {cooldown}.",
             "braceCooldown": "Enfriamiento de Fortalecer",
-            "burnTitle": "Incendiar",
+            "burnTitle": "Incendio",
             "resolveBurn": "Resolver Incendio",
             "burnResolved": "Incendio resuelto",
             "burnRequired": "Resuelva o ignore su Incendio para terminar la ronda."
@@ -1337,7 +1337,7 @@
             "online": "En línea",
             "gm": "DJ",
             "lastOnline": "Última Conexión",
-            "cdt": "CDT",
+            "cdt": "",
             "nextSession": "Siguiente Sesión",
             "at8pm": "a las 8 PM CDT",
             "currentlyRunning": "Llevando Actualmente",
@@ -1353,7 +1353,7 @@
             "stagedImport": "Importación por Etapas",
             "atRound": "en la Ronda",
             "warningReplace": "Advertencia: El estado importado de la Hoja de Personaje sustituirá el estado actual de la Hoja de Personaje.",
-            "changeActiveMech": "Cambiar Mecha Activo",
+            "changeActiveMech": "Cambiar Meca Activo",
             "applySave": "Aplicar & Guardar"
         },
         "pcNotes": {
@@ -1389,15 +1389,15 @@
             "freeDeployment": "Libre Despliegue"
         },
         "gmNotes": {
-            "encounterClocks": "Cronómetros del Encuentro",
+            "encounterClocks": "Relojes del Encuentro",
             "addClock": "Agregar Reloj"
         },
         "refTag": {
-            "yourTags": "Sus Chapas ({name})",
-            "relevantTags": "Chapas Relevantes ({name})",
-            "noTagsFound": "No se Hallaron Chapas",
-            "relevantTagsEncounter": "Chapas Relevantes (Encuentro)",
-            "allTags": "Todas las Chapas"
+            "yourTags": "Sus Descriptores ({name})",
+            "relevantTags": "Descriptores Relevantes ({name})",
+            "noTagsFound": "No se Hallaron Descriptores",
+            "relevantTagsEncounter": "Descriptores Relevantes (Encuentro)",
+            "allTags": "Todos los Descriptores"
         },
         "diceRoller": {
             "count": "Conteo",
@@ -1414,7 +1414,7 @@
             "engineeringCheck": "Prueba de Ingeniería"
         },
         "toolPalette": {
-            "tagReference": "Referencia de la Chapa",
+            "tagReference": "Referencia del Descriptor",
             "combatQuickRef": "Referencia Rápida de Combate",
             "npcRef": "Referencia de Combate PNJ"
         },
@@ -1439,7 +1439,7 @@
             "bracedDesc": "Usted cuenta como si tuviera RESISTENCIA a todo daño, calor y quemadura del ataque que provocó este Fortalecimiento, y hasta el final de su próximo turno, todos los otros ataques contra usted se hacen con +1 Dificultad.",
             "coverLabel": "{cover} cobertura",
             "activationsRemaining": "{n} Activaciones restantes en esta ronda",
-            "aiControl": "Mecha Controlado por IA",
+            "aiControl": "Meca Controlado por IA",
             "selfDestructInitiated": "Auto destrucción iniciada"
         },
         "addRoster": {
@@ -1450,7 +1450,7 @@
         },
         "addOther": {
             "addOther": "Añadir Otro",
-            "doodad": "Doodad"
+            "doodad": ""
         },
         "addStub": {
             "addPlaceholder": "Añadir Marcador de Posicion",
@@ -1474,9 +1474,9 @@
             "cover": "Cobertura",
             "noCover": "Sin Cobertura",
             "soft": "Ligera",
-            "softCover": "Cobertura Blanda",
-            "hard": "Dura",
-            "hardCover": "Cobertura Dura",
+            "softCover": "Cobertura Ligera",
+            "hard": "Pesada",
+            "hardCover": "Cobertura Pesada",
             "resistances": "Resistencias",
             "statusesConditions": "Estados/Condiciones",
             "counters": "Contadores",
@@ -1493,11 +1493,11 @@
             "applyClose": "Aplicar y Cerrar"
         },
         "trackable": {
-            "corePower": "Poder del Núcleo",
+            "corePower": "Poder Base",
             "ready": "Listo",
-            "clearMechCore": "Limpiar los de este mecha",
-            "restoreMechCore": "Restaurar los de este mecha",
-            "corePowerQ": "¿poder de núcleo?"
+            "clearMechCore": "Limpiar los de este meca",
+            "restoreMechCore": "Restaurar los de este meca",
+            "corePowerQ": "¿poder base?"
         },
         "customStat": {
             "editStats": "Editar Estadísticas",
@@ -1555,7 +1555,7 @@
         "actions": {
             "allActions": "Todas las Acciones",
             "selectIcon": "Elegir Icono",
-            "mounted": "Montada",
+            "mounted": "Montado",
             "braced": "Fortalecido",
             "overwatch": "Vigilancia",
             "aiControl": "Control IA",
@@ -1574,7 +1574,7 @@
             "generateInstance": "Esto generará y desplegará una nueva instancia de {name} para {actor} como un {action}"
         },
         "equipCmd": {
-            "markUsedHint": "Haga clic para marcar como {used} . Las armas con la etiqueta LOADING deben ser recargadas antes de que puedan ser cargadas de nuevo",
+            "markUsedHint": "Haga clic para marcar como {used} . Las armas con la etiqueta RECARGA deben ser recargadas antes de que puedan ser cargadas de nuevo",
             "reloadHint": "Haga clic para {reload} esta arma.",
             "clickUnused": "Haga clic para marcar Sin uso",
             "clickUsed": "Haga clic para marcar Usado",
@@ -1623,17 +1623,17 @@
             "chooseOne": "elija uno"
         },
         "invade": {
-            "invade": "Invade",
-            "available": "Acciones Disponibles de Invasión",
-            "select": "Seleccione una Acción de Invasión"
+            "invade": "Invadir",
+            "available": "Acciones Disponibles al Invadir",
+            "select": "Seleccione una Acción de Invadir"
         },
         "jockey": {
-            "available": "Acciones Disponibles de Jockey",
-            "select": "Seleccione una Acción de Jockey",
+            "available": "Acciones Disponibles al Cabalgar",
+            "select": "Seleccione una Acción de Cabalgar",
             "jockey": "Cabalgar"
         },
         "barrage": {
-            "selectWeapon": "seleccionar arma de barrage",
+            "selectWeapon": "seleccionar arma de bombardeo",
             "additionalAux": "armas aux adicionales {name}"
         },
         "skirmish": {
@@ -1683,9 +1683,9 @@
             "noShards": "Capa no tiene Fragmentos"
         },
         "mechPanel": {
-            "meltdown": "Este mecha ha sufrido una fusión del reactor. Está permanentemente destruido y no se puede reparar.",
+            "meltdown": "Este meca ha sufrido una fusión del reactor. Está permanentemente destruido y no se puede reparar.",
             "frameTraits": "Rasgos de Chasis ({n})",
-            "coreBonuses": "Bonos de Núcleo ({n})",
+            "coreBonuses": "Bonos Base ({n})",
             "pilotTalents": "Talentos de Piloto ({n})",
             "pilotSkills": "Habilidades de Piloto {n}"
         },
@@ -1702,7 +1702,7 @@
             "preparedTitle": "Piloto Preparado",
             "mountFailedTitle": "Fallo al Montar",
             "mountFailedText": "{name} ya está montado.",
-            "mountedText": "{name} ha montado su Mecha.",
+            "mountedText": "{name} ha montado su Meca.",
             "hiddenTitle": "Piloto Oculto",
             "disengagedTitle": "Piloto Desenganchado"
         },
@@ -1721,14 +1721,14 @@
             "cedeControl": "Ceder Control",
             "reclaimControl": "Reclamar Control",
             "selectEncounterExportFile": "Seleccionar Archivo de Exportación de Encuentro",
-            "mechName": "Nombre Mecha",
-            "addTable": "Agregar Mesa",
-            "tableConnectCode": "Código de Conexión de Mesa",
+            "mechName": "Nombre Meca",
+            "addTable": "Agregar Tabla",
+            "tableConnectCode": "Código de Conexión de Tabla",
             "selectCharacterSheetExportFile": "Seleccionar Archivo de Exportación de Hoja de Personaje",
-            "coolYourMechClearingAll": "Refresque su mecha, disipando todo el calor y EXPUESTO.",
+            "coolYourMechClearingAll": "Refresque su meca, disipando todo el calor y EXPUESTO.",
             "mark1RepairToRestore": "Marcar 1 REPARAR para restaurar todos los PG.",
             "reloadAllLoadedWeapons": "Recargar todas las armas CARGADA.",
-            "clearAnyBurnCurrentlyAffecting": "Despejar cualquier quemadura afectando actualmente su mecha.",
+            "clearAnyBurnCurrentlyAffecting": "Despejar cualquier quemadura afectando actualmente su meca.",
             "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc",
             "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc.",
             "overkill": "Saña",
@@ -1737,21 +1737,21 @@
         },
         "titles": {
             "addPilotFromRoster": "Agregar Piloto de la Lista",
-            "noMechDataFound": "No se Hallaron Datos de Mecha",
+            "noMechDataFound": "No se Hallaron Datos de Meca",
             "addFromShareCode": "Agregar con Código de Compartir",
             "addPilots": "Agregar Pilotos",
             "characterSheets": "Hojas de Personaje",
-            "recalledToMech": "Retirado al Mecha",
+            "recalledToMech": "Retirado al Meca",
             "underAiControl": "Bajo Control IA",
             "pilotKia": "Piloto MEA",
             "movement": "Movimiento",
             "selectPilot": "seleccionar piloto",
-            "selectActiveMech": "seleccionar mecha activo",
+            "selectActiveMech": "seleccionar meca activo",
             "exitActiveMode": "¿Salir del Modo Activo?",
             "mechDestroyedReactorMeltdown": "Mecha Destruido — Fusión del Reactor",
             "whatIsAPlaceholder": "¿Qué es un Marcador de Posición?",
             "youHaveRemainingActions": "¡Tiene acciones restantes!",
-            "burn": "Abrasar",
+            "burn": "Incendio",
             "downAndOut": "Caído y Fuera",
             "repairCap": "Lim. Reparaciones",
             "repairCapacity": "Capacidad de Reparación",
@@ -1791,7 +1791,7 @@
             "toggleDestroyed": "Alternar Destruido",
             "rollableTables": "Tablas de Tiradas",
             "encounterInfo": "Info de Encuentro",
-            "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Lista chapas presentes en personajes o equipamiento en este encuentro",
+            "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Lista descriptores presentes en personajes o equipamiento en este encuentro",
             "thisWillAddACopy": "Esto agregará una copia de este piloto a su encuentro. Si el autor actualiza sus datos originales, usted no recibirá esos cambios.",
             "addsAPilottypeCombatantPlaceholder": "Añade un marcador de posición de tipo piloto sin datos de piloto.",
             "optionalForOrganizationalPurposes": "Opcional, para propósitos de organización.",
