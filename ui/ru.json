@@ -465,7 +465,7 @@
             "applyNote": "Профили могут быть применены к пилотам и персонажам ведущего через соответствующее меню Опций.",
             "lcpsInConfig": "LCP файлы в этом профиле",
             "noLcpsPrefix": "LCP файлы не были добавлены. Только материалы из",
-            "lcpsSuffix": "{list} LCPs",
+            "lcpsSuffix": "{list} наборы материалов",
             "willBeAvailable": "будут доступны.",
             "coreBookOnly": "только материалы из Lancer Core Book"
         },
