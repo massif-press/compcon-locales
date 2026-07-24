@@ -1509,7 +1509,8 @@
             "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "GMS Waffenkammer - Ausrüstungsbefugnis: Pilot:innen-/Personenbewaffnung::S0 - S3(GRZ)",
             "toAddSlashes": "Hinzuzufügen //",
             "unionArmoryPrintid": "Union Waffenkammer DruckID",
-            "gmsArmoryPrintid": "GMS Waffenkammer DruckID"
+            "gmsArmoryPrintid": "GMS Waffenkammer DruckID",
+            "integratedEquipment": "Integrierte Ausrüstung"
         },
         "print": {
             "onATTACK": "Bei Angriff",
