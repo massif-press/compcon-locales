@@ -1366,7 +1366,10 @@
             "mechSKILLUPGRADE": "Mechfertigkeits-Verbesserung"
         },
         "new": {
-            "skills": "Fertigkeiten"
+            "skills": "Fertigkeiten",
+            "newPilotRegistration": "Neue Pilot:innenanmeldung",
+            "welcomeToTheUnionAdministrativeDepartment": "Willkommen zum IDENT-Anmeldungsservice des Union Administrations-Departments. IDENT ist ein Omninet-basiertes Zertifikationssystem, das Nutzer:innen durch den Pilot:innen-Anmeldungsprozess des UAD leitet. IDENT nutzt NMP-geführte Datenvalidierungsprotokolle, um sicherzustellen, dass Pilot:innen die Anforderungen aller Vorschriften und Richtlinien erfüllen. Berufssoldat:innen von Union, denen bereits ein RM-4 IDENT Fingerabdruck ausgestellt wurde, sollten dieses Formular nicht ausfüllen, es sei denn, sie wurden von ihrem befehlshabenden Offizier dazu aufgefordert.",
+            "skipNewPilotRegistration": "Neue Pilot:innenanmeldung überspringen"
         },
         "shared": {
             "selectLicenseRanks": "{word} ({count}) Lizenzrang auswählen. | {word} ({count}) Lizenzränge auswählen."
@@ -1434,10 +1437,11 @@
             "setUSES": "Ladungen setzen",
             "revisions": "Revisionen",
             "weaponMods": "Waffenmods",
-            "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Ausrüstungsregistration des Rahmens bestätigt ]",
+            "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Anmeldung der Rahmenausrüstung bestätigt ]",
             "currentlyEQUIPPED": "Aktuell ausgerüstet",
             "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Ausrüstungsautorisierung der Union-Waffenkammer: Rahmenausrüstung//Kampfsystem",
-            "equipmentIDINVALIDORMISSING": "[ Ausrüstungs-ID fehlt oder ungültig ]"
+            "equipmentIDINVALIDORMISSING": "[ Ausrüstungs-ID fehlt oder ungültig ]",
+            "pilotMATERIELREGISTRATIONVERIFIED": "[ Anmeldung des Pilot:innen-Wehrmaterials bestätigt ]"
         },
         "print": {
             "onATTACK": "Bei Angriff",
