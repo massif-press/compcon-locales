@@ -1948,7 +1948,7 @@
             "cr700ENCODEDDATAREMIT": "CR-7-00 // transmission des données encodées",
             "optional": "(Optionnel)",
             "cr701UNITDESIGNATION": "CR-7-01 // dénomination de l'unité",
-            "cr702aATTACHEDNDAPCOMP": "CR-7-02a // ANALYSE DES RESULTATS NDAP COMP/DISP CI-JOINTS",
+            "cr702aATTACHEDNDAPCOMP": "CR-7-02a // RESULTATS D'ANALYSE NDAP COMP/DISP JOINTS",
             "addGroupDescription": "Ajouter la description du groupe",
             "editGroupDescription": "Modifier la description du groupe",
             "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // REGISTRE DES ANALYSES CI-JOINTS (COMPLEMENTAIRE)",
