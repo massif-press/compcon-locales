@@ -2173,7 +2173,8 @@
             "removeFromEncounter": "Remover {name} do Encontro",
             "noStatController": "Nenhum Controlador de Atributos Encontrado",
             "editReinforcements": "Editar Reforços",
-            "noReinforcementSchedule": "Sem Cronograma de Reforços"
+            "noReinforcementSchedule": "Sem Cronograma de Reforços",
+            "undoRemoveCombatant": "Remover {name} do Encontro"
         },
         "encInfo": {
             "reinforcements": "Reforços",
@@ -2194,7 +2195,9 @@
         },
         "gmRunner": {
             "loading": "Carregando instância do encontro…",
-            "roundN": "Rodada {n}"
+            "roundN": "Rodada {n}",
+            "undo": "Desfazer",
+            "redo": "Refazer"
         },
         "diceRoller": {
             "title": "Rolador de dados",
@@ -2376,7 +2379,8 @@
             "markUsedHint": "Clique para marcar como {used}. Armas com a tag Recarga devem ser recarregadas antes que possam ser carregadas novamente",
             "reloadHint": "Clique para {reload} esta arma.",
             "clickUnused": "Clique para marcar como Não Utilizada",
-            "clickUsed": "Clique para marcar como Utilizada"
+            "clickUsed": "Clique para marcar como Utilizada",
+            "undoEditItem": "Editar {{name}}"
         },
         "mountBonus": {
             "warning": "Os efeitos de bônus de montagem em ataques com armas {not} são aplicados automaticamente pelo @:{'common.appName'}. Certifique-se de aplicar manualmente quaisquer efeitos relevantes durante o jogo."
