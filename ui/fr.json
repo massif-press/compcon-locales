@@ -991,7 +991,7 @@
             "nominal": "Nominal"
         },
         "roster": {
-            "addFromRoster": "Ajouté depuis le roster",
+            "addFromRoster": "Ajouter depuis le tableau de service",
             "addToEncounter": "Ajouter à la rencontre",
             "removeFromEncounter": "Retirer de la rencontre",
             "playedBy": "Joué par",
@@ -1031,7 +1031,7 @@
         },
         "pilotsPanel": {
             "placeholderN": "Substitut de pilote #{n}",
-            "addFromFile": "Ajouté depuis le fichier",
+            "addFromFile": "Ajouter depuis un fichier",
             "addPlaceholder": "ajouter un substitut de pilote"
         },
         "newEnc": {
