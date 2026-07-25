@@ -1951,7 +1951,7 @@
             "cr702aATTACHEDNDAPCOMP": "CR-7-02a // RESULTATS D'ANALYSE NDAP COMP/DISP JOINTS",
             "addGroupDescription": "Ajouter la description du groupe",
             "editGroupDescription": "Modifier la description du groupe",
-            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // REGISTRE DES ANALYSES CI-JOINTS (COMPLEMENTAIRE)",
+            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // DOSSIERS D'ANALYSE TACTIQUE JOINTS (COMPLEMENTAIRE)",
             "addGroupHistory": "Ajouter l'historique du groupe",
             "editGroupHistory": "Modifier l'historique du groupe",
             "cr703UNITLIVERY": "CR-7-03 // livrée de l'unitée",
