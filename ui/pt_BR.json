@@ -982,7 +982,27 @@
             "deploy": "Implantar",
             "integratedMechWeapon": "Arma de mecha integrada",
             "passive": "Passivo",
-            "active": "Ativo"
+            "active": "Ativo",
+            "glossary": {
+                "rangeText": "{type}{value}",
+                "rangeTextBonus": "{type}{value} (+{bonus})",
+                "rangeDesc": {
+                    "maxRange": "O alcance máximo no qual {what}, medido a partir do personagem atacante.",
+                    "equipmentAffects": "Equipamento com um padrão de ataque {pattern} afeta {area}.",
+                    "whatRange": "uma arma pode ser usada para ataques à distância",
+                    "whatThreat": "Ataques corpo a corpo e Retaliar podem ser feitos com certas armas",
+                    "whatThrown": "uma arma Arremessável poe ser usada",
+                    "areaLine": "todos os alvos em uma linha reta de X espaços de comprimento. Uma jogada de ataque separada é feita contra cada alvo na linha.",
+                    "areaCone": "personagens dentro de um cone de X espaços de comprimento e X espaços de largura em seu ponto mais distante",
+                    "areaBlast": "Personagens dentro de um raio de X espaços, traçado a partir de um ponto dentro do ALCANCE e com o centro da explosão sobre o atacante ou adjacente ao mesmo",
+                    "areaBurst": "personagens dentro de um raio de X espaços, centrado em, e incluindo, o espaço ocupado pelo atacante"
+                },
+                "intro": "Esses equipamentos causa <b>{value}</b>{type} de Dano",
+                "heatLabel": "Calor:",
+                "heatDescription": "O Calor é um tipo especial de efeito prejudicial que não conta como dano e ignora ARMADURA, embora possa ser afetado por RESISTÊNCIA. Ele representa danos aos sistemas internos e ao reator de um mecha. É mais frequentemente infligido por guerra eletrônica, mas muitas vezes é gerado pelos próprios sistemas. Quando um mecha atinge sua Cap. de Calor, qualquer Calor adicional faz com que ele superaqueça. Personagem sem Cap. de Calor (como personagens BIOLÓGICOS e alguns DRONES) sofrem Dano de Energia equivalente ao Calor recebido.",
+                "burnLabel": "Queimadura:",
+                "burnDescription": "Algumas armas causam Queimadura (dano ao longo do tempo). Queimadura pode representar chamas, plasma escaldante, ácido ou algo mais insidioso, como um enxame de nanites greywash. Quando os personagens recebem Queimadura, isso tem dois efeitos: primeiro, eles sofrem dano de Queimadura imediatamente, ignorando ARMADURA, e então registram a Queimadura que acabaram de receber. No final de seu turno, personagens com Queimadura marcada devem rolar um teste de ENGENHARIA. Em um sucesso, eles removem toda a queimadura atualmente marcada; caso contrário, sofrem dano de Queimadura igual à quantidade de Queimadura atualmente marcada. Queimadura de fontes adicionais se soma ao total de Queimadura marcada."
+            }
         },
         "lcp": {
             "content": "Conteúdo LCP",
