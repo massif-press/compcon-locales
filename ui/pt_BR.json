@@ -180,7 +180,8 @@
         "a11y": {
             "mainNavigation": "Menu Principal",
             "toggleNavigation": "Alternar painel de navegação"
-        }
+        },
+        "shiftEnterNewline": "Shift + Enter para nova linha"
     },
     "print": {
         "generalOptions": "Opções Gerais de Impressão"
@@ -951,7 +952,8 @@
             "clickAddBonus": "Clique para adicionar Dano Bônus",
             "resistanceType": "tipo de resistência",
             "saveHalf": "Salvamento para Metade",
-            "removeSpecialCondition": "remover condição especial"
+            "removeSpecialCondition": "remover condição especial",
+            "self": "Próprio"
         },
         "cascade": {
             "alert": "Alerta de Cascata",
@@ -1100,7 +1102,8 @@
             "deployables": "Implantáveis de bônus de núcleo",
             "integrated": "Equipamento integrado de bônus de núcleo",
             "additional": "Equipamento adicional de bônus de núcleo",
-            "instancedWarning": "{warning} Este é um item instanciado. Se removido, este Bônus de núcleo não estará disponível até que o LCP associado seja instalado."
+            "instancedWarning": "{warning} Este é um item instanciado. Se removido, este Bônus de núcleo não estará disponível até que o LCP associado seja instalado.",
+            "ignoreRequirements": "Ignorar requisitos de Bônus de Núcleo"
         },
         "org": {
             "efficiency": "Eficiência da Organização",
@@ -2173,7 +2176,9 @@
             "removeFromEncounter": "Remover {name} do Encontro",
             "noStatController": "Nenhum Controlador de Atributos Encontrado",
             "editReinforcements": "Editar Reforços",
-            "noReinforcementSchedule": "Sem Cronograma de Reforços"
+            "noReinforcementSchedule": "Sem Cronograma de Reforços",
+            "undoRemoveCombatant": "Remover {name} do Encontro",
+            "undoEditOverrides": "Desfazer alterações de {name}"
         },
         "encInfo": {
             "reinforcements": "Reforços",
@@ -2194,7 +2199,13 @@
         },
         "gmRunner": {
             "loading": "Carregando instância do encontro…",
-            "roundN": "Rodada {n}"
+            "roundN": "Rodada {n}",
+            "undo": "Desfazer",
+            "redo": "Refazer",
+            "undoTooltip": "Desfazer: {label}",
+            "redoTooltip": "Refazer: {label}",
+            "undoRoundChange": "Trocar Rodada",
+            "undoAction": "Ação de combate"
         },
         "diceRoller": {
             "title": "Rolador de dados",
@@ -2301,7 +2312,8 @@
             "editStats": "Editar Atributos",
             "trackable": "Rastreável",
             "static": "Estático",
-            "removeStat": "Remover Atributo"
+            "removeStat": "Remover Atributo",
+            "undoEditStat": "Editar {name} {stat}"
         },
         "telemetry": {
             "telemetry": "Telemetria",
@@ -2376,7 +2388,8 @@
             "markUsedHint": "Clique para marcar como {used}. Armas com a tag Recarga devem ser recarregadas antes que possam ser carregadas novamente",
             "reloadHint": "Clique para {reload} esta arma.",
             "clickUnused": "Clique para marcar como Não Utilizada",
-            "clickUsed": "Clique para marcar como Utilizada"
+            "clickUsed": "Clique para marcar como Utilizada",
+            "undoEditItem": "Editar {name}"
         },
         "mountBonus": {
             "warning": "Os efeitos de bônus de montagem em ataques com armas {not} são aplicados automaticamente pelo @:{'common.appName'}. Certifique-se de aplicar manualmente quaisquer efeitos relevantes durante o jogo."
@@ -3850,7 +3863,8 @@
             "scene": "Cena",
             "free": "Livre",
             "encounter": "Encontro",
-            "mission": "Missão"
+            "mission": "Missão",
+            "unlimited": "Ilimitado"
         },
         "attackType": {
             "melee": "Corpo a Corpo",

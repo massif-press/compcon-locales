@@ -991,7 +991,7 @@
             "nominal": "Nominal"
         },
         "roster": {
-            "addFromRoster": "Ajouté depuis le roster",
+            "addFromRoster": "Ajouter depuis le tableau de service",
             "addToEncounter": "Ajouter à la rencontre",
             "removeFromEncounter": "Retirer de la rencontre",
             "playedBy": "Joué par",
@@ -1031,7 +1031,7 @@
         },
         "pilotsPanel": {
             "placeholderN": "Substitut de pilote #{n}",
-            "addFromFile": "Ajouté depuis le fichier",
+            "addFromFile": "Ajouter depuis un fichier",
             "addPlaceholder": "ajouter un substitut de pilote"
         },
         "newEnc": {
@@ -1948,10 +1948,10 @@
             "cr700ENCODEDDATAREMIT": "CR-7-00 // transmission des données encodées",
             "optional": "(Optionnel)",
             "cr701UNITDESIGNATION": "CR-7-01 // dénomination de l'unité",
-            "cr702aATTACHEDNDAPCOMP": "CR-7-02a // ANALYSE DES RESULTATS NDAP COMP/DISP CI-JOINTS",
+            "cr702aATTACHEDNDAPCOMP": "CR-7-02a // RESULTATS D'ANALYSE NDAP COMP/DISP JOINTS",
             "addGroupDescription": "Ajouter la description du groupe",
             "editGroupDescription": "Modifier la description du groupe",
-            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // REGISTRE DES ANALYSES CI-JOINTS (COMPLEMENTAIRE)",
+            "cr702bATTACHEDTACANALYSISRECORDS": "CR-7-02b // DOSSIERS D'ANALYSE TACTIQUE JOINTS (COMPLEMENTAIRE)",
             "addGroupHistory": "Ajouter l'historique du groupe",
             "editGroupHistory": "Modifier l'historique du groupe",
             "cr703UNITLIVERY": "CR-7-03 // livrée de l'unitée",
