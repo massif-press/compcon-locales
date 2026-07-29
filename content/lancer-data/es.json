@@ -36,5 +36,8 @@
     "act_free_action.detail": "Acciones gratuitas son frecuentemente entregadas por sistemas, talentos, equipamiento, o SOBRECARGA. Personajes pueden realizar cualquier numero de acciones gratuitas durante su turno, pero únicamente durante su turno, y sólo aquellas entregadas a este. Acciones gratuitas pueden ser siempre usadas para hacer acciones duplicadas.<br>La acción gratuita más comun es un PROTOCOLO, el cual es entregado por equipamiento o sistemas y puede ser activado o desactivado únicamente al comenzar de un turno. Cada Protocolo puede ser únicamente usado una vez por turno.",
     "act_fight.detail": "Cuando usas PELEAR, atacas (cuerpo a cuerpo o rango) con un arma.<br>Para PELEAR, escoge un arma y ataca a un objetivo dentro del RANGO o AMENAZA y con línea de visión como una acción completa. Ataques a rango son afectados por cobertura y reciben +1 dificultad si estás ENFRENTADO.",
     "act_free_action.name": "Acción Gratuita",
-    "act_free_action.terse": "Los Personajes pueden realizar cualquier número de Acciones Gratuitas en su turno."
+    "act_free_action.terse": "Los Personajes pueden realizar cualquier número de Acciones Gratuitas en su turno.",
+    "act_disengage.detail": "Cuando DESTRABAS, intentas zafarte de una situación peligrosa, realizar una retirada firme y calculada, o contar con la agility de tu mech para ponerte fuera de peligro antes de que el enemigo pueda golpear.<br>Hasta el final de tu turno actual, ignoras el Engagement y tu movimiento no provoca reacciones.",
+    "act_disengage.name": "Destrabarse",
+    "act_disengage.terse": "Destrabarse seguramente de una situación peligrosa. Hasta el final de tu turno actual, ignoras el Engagement y tu movimiento no provoca reacciones."
 }
