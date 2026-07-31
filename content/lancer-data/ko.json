@@ -83,5 +83,15 @@
     "dt_get_creative.name": "뚝딱거리기",
     "dt_get_organized.name": "조직화",
     "dt_get_connected.name": "연줄 찾기",
-    "dt_get_focused.name": "배움에 집중하기"
+    "dt_get_focused.name": "배움에 집중하기",
+    "tg_overshield.name": "오버실드",
+    "act_bolster.terse": "다른 캐릭터의 시스템을 향상시킵니다.",
+    "act_boost.terse": "자신의 이동속도만큼, 최소 1칸 이상 추가 이동을 합니다.",
+    "act_brace.trigger": "당신이 공격에 적중했고 피해를 굴렸을 때.",
+    "act_dismount.terse": "메크에서 하차합니다.",
+    "act_eject.terse": "메크에서 사출되어, 자신이 선택한 방향으로 6칸 비행합니다.",
+    "act_fight.name": "비행",
+    "act_fight.terse": "파일럿으로서 무기 하나로 공격합니다.",
+    "act_grapple.terse": "대상을 이동불가로 만들거나 올라타기 위해, 붙잡으려 시도합니다.",
+    "act_mount.terse": "메크에 탑승합니다."
 }

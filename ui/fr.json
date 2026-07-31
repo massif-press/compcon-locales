@@ -50,7 +50,7 @@
         "loadout": "Équipement",
         "weapon": "Arme",
         "frame": "Châssis",
-        "trigger": "Spécialité",
+        "trigger": "Condition",
         "effect": "Effet",
         "tierN": "Échelon {n}",
         "tierShort": "É{n}",
@@ -107,7 +107,7 @@
         "systemPoints": "Points de Système",
         "update": "Mettre à jour",
         "pilotRoster": "Tableau de service",
-        "pilotLoadout": "Équipement de Pilote",
+        "pilotLoadout": "Attirail",
         "noData": "Données manquantes",
         "organize": "Organiser",
         "environment": "Environnement",
@@ -124,7 +124,7 @@
         "overview": "Vue d'ensemble",
         "side": "Faction",
         "syncNow": "Synchroniser maintenant",
-        "importOverwriteWarning": "Ces données importées vont écraser une campagne existante au nom de {title}. La campagne existante a été dernièrement mise à jour le {date}.",
+        "importOverwriteWarning": "Ces données importées écraseront une campagne existante avec la même ID ({title}). Celle-ci a été dernièrement mise à jour le {date}.",
         "pilotArmor": "Armure de pilote",
         "pilotWeapon": "Arme de pilote",
         "player": "Joueur",
@@ -152,7 +152,9 @@
         "sensorRange": "Portée de capteurs",
         "pilotSkillTriggers": "Spécialités de pilote",
         "pilotTalent": "Talent de pilote",
-        "deployables": "Installation"
+        "deployables": "Installation",
+        "all": "Tout",
+        "pilotGear": "Équipement de pilote"
     },
     "gm": {
         "fields": {
@@ -314,7 +316,8 @@
         "narrative": {
             "additionalDetail": "Détail additionnel",
             "viewCollections": "Afficher les collections",
-            "itemTypePlural": "{type}"
+            "itemTypePlural": "{type}",
+            "clocks": "Compteurs"
         },
         "print": {
             "othersCount": "(+{n} autres)"
@@ -435,10 +438,11 @@
             "detectedEdits": "@:{'common.appName'} a détecté des valeurs de statistiques modifiées. Comment voulez vous procéder?"
         },
         "eidolon": {
-            "layers": "Couches",
-            "addLayer": "Ajouter une couche",
-            "addRandomLayer": "Ajouter une couche aléatoirement",
-            "noLayers": "pas de couches"
+            "layers": "Strates",
+            "addLayer": "Ajouter une strate",
+            "addRandomLayer": "Créer une strate aléatoire",
+            "noLayers": "pas de strates",
+            "layerDescription": "Description de la strate"
         },
         "layerSelector": {
             "noData": "Aucune donnée d'Eidolon trouvé!",
@@ -461,7 +465,8 @@
             "saveConfig": "Sauvegarder la configuration"
         },
         "eidolonPrint": {
-            "classLabel": "Classe {class}"
+            "classLabel": "Classe {class}",
+            "layer": "Strate"
         },
         "npcEditor": {
             "v2Export": "Exportation V2"
@@ -499,7 +504,9 @@
             "role": "Rôle",
             "doodads": "Bidules",
             "addDowntime": "Ajouter un temps libre",
-            "clock": "Horloge"
+            "clock": "Compteur",
+            "layers": "Strates",
+            "selectLayer": "Choisissez une couche"
         },
         "subtitles": {
             "addSetOrDeleteA": "Ajouter, définir ou supprimer une étiquette de MJ",
@@ -509,7 +516,8 @@
             "createCombatEncounters": "Créer un affrontement",
             "manageCharactersLocationsAndFactions": "Gérer les personnages, lieux et factions",
             "manageNonPlayerCombatUnits": "Gérer les unités de combat non joueur",
-            "createModifyAndBrowseLancerCampaigns": "Créer, modifier et consulter les campagnes LANCER (v3.1)"
+            "createModifyAndBrowseLancerCampaigns": "Créer, modifier et consulter les campagnes LANCER (v3.1)",
+            "addANewEmptyDowntime": "Ajouter un nouveau Temps Libre sur cette page. Le Temps Libre est l'espace narratif entre les missions, où les actions précises importent peu et le jeu de rôle bien davantage."
         },
         "tooltips": {
             "changeTierAndAdjustEdited": "Modifier le tier et ajuster les statistiques modifiés par la même quantité que les modifications de statistiques par défaut.",
@@ -560,7 +568,7 @@
             "aSimpleAffairWithTwoSides": "Une simple affaire, avec deux camps l'un contre l'autre jusqu'à ce que l'un d'entre eux soit vaincu ou détruit.",
             "aStandardEnvironmentWithNoSpecial": "Un environnement standard avec aucune particularité spéciale de combat"
         },
-        "newClock": "Nouvelle horloge",
+        "newClock": "Nouveau compteur",
         "newEnvironment": "Nouvel environnement",
         "newEnvironmentDescription": "Un nouvel environnement",
         "unknownLicense": "Licence inconnue",
@@ -779,7 +787,7 @@
             "createBackup": "Créer une sauvegarde des succès",
             "loadBackup": "Charger une sauvegarde des succès",
             "overwriteAllWarning": "Tout écraser",
-            "eraseAllWarning": "Tout effacer",
+            "eraseAllWarning": "effacera",
             "selectExportFile": "Sélectionner le fichier d'exportation des succès @:{'common.appName'}",
             "resetAchievements": "Réinitialiser les succès",
             "cannotAddTitle": "Ne peut pas ajouter de succès",
@@ -787,7 +795,10 @@
             "progress": "{count} sur {total} débloqué",
             "othersCount": "(+{count} autres)",
             "hiddenCount": "{count} succès masqué | {count}succès masqués",
-            "cannot": "ne peut pas"
+            "cannot": "ne peut pas",
+            "display": "Aperçu",
+            "warningDataFull": "Cela {emphasis} les données de succès de l'utilisateur.",
+            "cannotBeUndoneFull": "Cela {emphasis} être annulé. Il est fortement recommandé de créer une sauvegarde au préalable."
         },
         "settingsPage": {
             "showUpdateMessages": "Montrer les notes de mise à jour",
@@ -1162,7 +1173,7 @@
         },
         "addRoster": {
             "addPc": "Ajouter PJ",
-            "addNpcFull": "Ajouter Personnage Non Joueur",
+            "addNpcFull": "Ajouter un Personnage Non Joueur",
             "addPcFull": "Ajouter Personnage Joueur"
         },
         "addOther": {
@@ -1247,7 +1258,9 @@
         "eidolon": {
             "tierEidolon": "Eidolon Tier {n}",
             "active": "(Actif)",
-            "generateN": "Générer {n}"
+            "generateN": "Générer {n}",
+            "activeLayer": "Strate active",
+            "nameLayer": "Strate {name}"
         },
         "pilotPanel": {
             "killed": "Ce pilote a été tué au combat."
@@ -1377,6 +1390,12 @@
             "rolled": "Lancé",
             "rollLabel": "Lancer {n}d{die}",
             "pending": "{type} marqué"
+        },
+        "gmNotes": {
+            "addClock": "Ajouter un compteur"
+        },
+        "mechPanel": {
+            "coreBonuses": "Bonus d'architecture ({n})"
         }
     },
     "mainMenu": {
@@ -1671,7 +1690,9 @@
             "deleteCloudItem": "Supprimer un élément en ligne",
             "deleteCloudItemDesc": "Supprimer cet élément le marquera comme supprimé en ligne. Cela ne supprimera pas cet élément localment, mais l'empêchera de se synchroniser en lignes ou sur d'autres appareils.",
             "deleteNItems": "Supprimer {count} élément | Supprimer {count} éléments",
-            "chooseDeleteMethod": "Choisissez comment supprimer les éléments sélectionnés"
+            "chooseDeleteMethod": "Choisissez comment supprimer les éléments sélectionnés",
+            "remoteItem": "Élément externe",
+            "remoteItemInaccessible": "Élément externe inaccessible"
         },
         "fields": {
             "updates": "Mises à jour",
@@ -1804,7 +1825,8 @@
             "pilotMATERIELREGISTRATIONVERIFIED": "[ Enregistrement du matériel de pilote vérifié ]",
             "materielIDINVALIDORMISSING": "[ ID du matériel invalide ou manquant ]",
             "empty": "Vide",
-            "toAddSlashes": "À ajouter //"
+            "toAddSlashes": "À ajouter //",
+            "coreBonusAvailable": "Bonus d'architecture disponible"
         },
         "import": {
             "importSuccessTitle": "Importé avec succès",
@@ -1822,7 +1844,9 @@
             "exportSuccessText": "Données de pilotes enregistré en tant que \"{callsign}.json\""
         },
         "level": {
-            "unOmni18364AndesCerroboneteNode": "un_omni-18364.andes.cerrobonete.node:9"
+            "unOmni18364AndesCerroboneteNode": "un_omni-18364.andes.cerrobonete.node:9",
+            "coreBonuses": "Bonus d'architecture",
+            "ineligibleFORCOREBONUS": "Inéligible au bonus d'architecture"
         },
         "new": {
             "pilot": "Pilote",
@@ -1916,7 +1940,8 @@
             "revert": "Annuler",
             "setPilotPortrait": "Choisir portrait de pilote",
             "biometricRecordValid": "Données biométriques valides [[",
-            "pbOhmC": "PB]] :: OHM c//"
+            "pbOhmC": "PB]] :: OHM c//",
+            "addNewClock": "Ajouter un nouveau compteur"
         },
         "print": {
             "pilotSheetOptions": "Options de la fiche de pilote",
@@ -1977,7 +2002,10 @@
             "efficiency": "Efficacité",
             "influence": "Influence",
             "notInCompendium": "Le {type} suivant n'est pas présent dans le compendium",
-            "licenseSelectionComplete": "Sélecion de la licence terminée"
+            "licenseSelectionComplete": "Sélecion de la licence terminée",
+            "addDowntimeProject": "Ajouter un projet de Temps Libre",
+            "coreBonusSelectionComplete": "Sélection du bonus d'architecture complété",
+            "coreBonusAvailable": "{count} {mf} bonus d'architecture disponible | {count} {mf} bonus d'architecture disponibles"
         },
         "shared": {
             "critical": "Critique",
@@ -1992,7 +2020,13 @@
             "nb": "N.B.",
             "rm4cPilotSelfAssessment2": "RM-4c Auto évaluation de pilote (2/3)",
             "warningSubmission": "AVERTISSEMENT : Le formulaire d'enregistrement IDENT {id} présente le(s) problème(s) suivant(s)",
-            "improveMechSkill": "Améliorer une compétence de mécha."
+            "improveMechSkill": "Améliorer une compétence de mécha.",
+            "addCOREBonus": "Ajouter un bonus d'architecture",
+            "nextCoreBonusIn": "Prochain bonus d'architecture dans",
+            "pilotCOREBONUSDATAMissingOr": "DONNÉES DES BONUS D'ARCHITECTURE DU PILOTE manquants ou incomplets",
+            "pilotCOREBONUSESIncompleteOrInvalid": "BONUS D'ARCHITECTURE DU PILOTE incomplets ou invalides",
+            "pilotINELIGIBLEFORCOREBONUS": "Pilote inéligible pour le bonus d'architecture",
+            "selectACoreBonus": "Sélectionner un bonus d'architecture"
         },
         "link": {
             "pilotBiography": "Biographie du pilote",
@@ -2044,7 +2078,11 @@
             "pilotOnly": "Pilote uniquement",
             "exportError": "Erreur d'exportation",
             "exportSuccess": "Exporté avec succès",
-            "killedInAction": "Morte Au Combat"
+            "killedInAction": "Morte Au Combat",
+            "otherClocks": "Autres compteurs",
+            "coreBonuses": "Bonus d'architecture",
+            "pilotCoreBonuses": "Bonus d'architecture du pilote",
+            "setPilotCoreBonuses": "Définir les bonus d'architecture du pilote"
         },
         "fields": {
             "generate": "Générer",
@@ -2089,7 +2127,8 @@
             "environments": "Environnements",
             "npcTemplates": "Modèle de PNJ",
             "manufacturers": "Manufactureurs",
-            "npcClasses": "Classes de PNJ"
+            "npcClasses": "Classes de PNJ",
+            "downtimeActions": "Actions de Temps Libre"
         },
         "titles": {
             "reference": "Référence",
@@ -2105,7 +2144,11 @@
             "npcTemplates": "Modèles de PNJ",
             "icon": "Icône",
             "origin": "Origine",
-            "role": "Rôle"
+            "role": "Rôle",
+            "eidolonLayers": "Strates de l'Eidolon",
+            "downtimeactions": "Actions de Temps Libre",
+            "downtimeActions": "Actions de Temps Libre",
+            "coreBonuses": "Bonus d'architecture"
         },
         "reference": {
             "or": "ou",
@@ -2123,7 +2166,8 @@
             "resultCount": "{count} résultat | {count} résultats"
         },
         "content": {
-            "frameSuffix": "Châssis {type}"
+            "frameSuffix": "Châssis {type}",
+            "eidolonLayer": "Strate de l'Eidolon"
         },
         "campaign": {
             "errNoCampaign": "Err: aucune campagne chargée",
@@ -2218,7 +2262,8 @@
             "commitResult": "Appliquer résultat"
         },
         "remote": {
-            "collectionHelp": "Ce {type} est lié à une collection de contenu. Il est en lecture seul et recevra une mise à jour quand une nouvelle version de la collection sera publié par l'auteur de la collection."
+            "collectionHelp": "Ce {type} est lié à une collection de contenu. Il est en lecture seul et recevra une mise à jour quand une nouvelle version de la collection sera publié par l'auteur de la collection.",
+            "remoteHelp": "Ce {type} est un élément externe lié au profil d'un autre utilisateur. Il est en lecture seule et recevra les mises jour du profil lié."
         },
         "missing": {
             "missingContent": "Contenu manquant",
@@ -2303,7 +2348,8 @@
             "load": "Charger",
             "patreonNote": "Dans une version à venir, vous pourrez associer votre compte Patreon, et les contributeurs de @:{'common.appName'} n'auront plus aucune limite de stockage.",
             "artworkBy": "Illustration par {artist}",
-            "remoteGalleryNote": "Les images dans cette galerie sont des liens vers des ressources distantes et ne sont pas gérées par @:{'common.appName'}. Si vous ne contrôlez pas leur hébergement, ces éléments pourraient être retirées ou changées à n'importe quel moment."
+            "remoteGalleryNote": "Les images de cette galerie proviennent de liens externes et ne sont pas gérées par @:{'common.appName'}. Si vous ne contrôlez pas leur hébergement, elles pourraient être retirées ou modifiées à tout instant.",
+            "remoteImages": "Images externes"
         },
         "fields": {
             "title": "Titre",
@@ -2320,7 +2366,7 @@
             "organizationName": "Nom d'organisation",
             "organizationType": "Type d'organisation",
             "used": "Utilisé",
-            "fromManufacturer": "Du manufactureur",
+            "fromManufacturer": "Manufactureur",
             "role": "Rôle",
             "origin": "Origine",
             "addNewImage": "Ajouter une nouvelle image",
@@ -2335,7 +2381,8 @@
             "tactics": "Tactiques",
             "resetAllInputs": "Réinitialiser toutes les entrées",
             "printOptions": "Options d'impression",
-            "externalDataWarning": "Avertissement de données externes"
+            "externalDataWarning": "Avertissement de données externes",
+            "clockEditor": "Éditeur de compteur"
         },
         "tooltips": {
             "markingAFieldOrItem": "Marquer un champ ou un élément comme \"MJ uniquement\" le masquera des exportations à destination des joueurs et des impressions",
@@ -2344,6 +2391,14 @@
         },
         "subtitles": {
             "selectResult": "Sélectionner le résultat"
+        },
+        "clock": {
+            "deleteConfirm": "Voulez vous supprimer ce compteur? Cette action ne peut pas être annulée."
+        },
+        "coreBonus": {
+            "actions": "Action d'architecture",
+            "ignoreRequirements": "Ignorer les prérequis d'architecture",
+            "remove": "Retirer ce bonus d'architecture"
         }
     },
     "notify": {

@@ -122,7 +122,18 @@
         "statsLabel": "스탯",
         "contents": "내용",
         "reserves": "보급",
-        "roll_noun": "굴림"
+        "roll_noun": "굴림",
+        "deployables": "배치물",
+        "mech": "메크",
+        "talents": "재능",
+        "tierN": "티어 {n}",
+        "tierShort": "T{n}",
+        "contentManager": "컨텐츠 매니저",
+        "contentPacks": "컨텐츠 팩",
+        "deletePilot": "파일럿 제거",
+        "electronicDefense": "전자 방어",
+        "hpBonus": "HP 보너스",
+        "overshield": "오버실드"
     },
     "gm": {
         "fields": {
