@@ -209,7 +209,10 @@
         "newClock": "Neue Uhr",
         "newCharacter": "Neuer Charakter",
         "newEidolon": "Neues Eidolon",
-        "unknownLicense": "Unbekannte Lizenz"
+        "unknownLicense": "Unbekannte Lizenz",
+        "titles": {
+            "contributors": "Mitwirkende"
+        }
     },
     "nav": {
         "contentManager": {
@@ -328,7 +331,7 @@
             "patronThanks": "Die anhaltende Weiterentwicklung von @:{'common.appName'} wäre nicht möglich ohne die großzügige",
             "supportOf": "von",
             "tier": "{patreonTierName} Rang",
-            "anonymousPatron": "Anonymer Patron",
+            "anonymousPatron": "Anonyme:r Mäzen:in",
             "support": "Unterstützung"
         },
         "achievements": {
@@ -673,7 +676,8 @@
             "pilotSkills": "Pilot:innenfertigkeiten ({n})",
             "meltdown": "Dieser Mech hat eine Kernschmelze erlitten. Er ist permanent zerstört und kann nicht repariert werden.",
             "frameTraits": "Rahmeneigenschaften ({n})",
-            "pilotTalents": "Pilot:innentalente ({n})"
+            "pilotTalents": "Pilot:innentalente ({n})",
+            "coreBonuses": "Herstellerspezialisierungen ({n})"
         },
         "mechActions": {
             "mechBootedUpText": "{name} wurde HOCHGEFAHREN.",
@@ -957,7 +961,8 @@
             "markUsedHint": "Klicken, um als {used} zu markieren. Waffen mit der NACHLADEN-Marke müssen nachgeladen werden, bevor sie erneut genutzt werden können",
             "reloadHint": "Klicken, um diese Waffe {reload}.",
             "clickUnused": "Klicken, um als \"Unbenutzt\" zu markieren",
-            "clickUsed": "Klicken um als \"Benutzt\" zu markieren"
+            "clickUsed": "Klicken um als \"Benutzt\" zu markieren",
+            "undoEditItem": "{name} bearbeiten"
         },
         "mountBonus": {
             "warning": "Lafetten-Bonuseffekte auf Waffenangriffen werden {not} automatisch von @:{'common.appName'} angewendet. Bitte stellen Sie sicher, dass Sie alle relevanten Effekte manuell während des Spiels anwenden."
@@ -1011,7 +1016,7 @@
             "pilotNameOrCallsign": "Name oder Callsign der Pilot:in",
             "frameOrMechName": "Name des Rahmens oder Mechs",
             "campaign": "Kampagne",
-            "layoutColumns": "Layout-Spalten",
+            "layoutColumns": "Layoutspalten",
             "reloadAllLoadedWeapons": "Lädt alle Waffen mit NACHLADEN nach.",
             "clearAnyBurnCurrentlyAffecting": "Löscht jeglichen Brand Ihres Mechs.",
             "clearAConditionThatWasnt": "Entfernt einen Zustand, der nicht von einem Ihrer eigenen Systeme, Talente, usw. verursacht wurde",
@@ -1106,7 +1111,7 @@
         },
         "runnerHeader": {
             "autosave": "Auto-Speichern",
-            "layoutOptions": "Anordnungsoptionen",
+            "layoutOptions": "Layoutoptionen",
             "lastSaved": "Zuletzt gespeichert",
             "never": "Nie",
             "manualSave": "Manuell speichern"
@@ -1125,7 +1130,13 @@
         },
         "gmRunner": {
             "loading": "Gefechtsinstanz wird geladen…",
-            "roundN": "Runde {n}"
+            "roundN": "Runde {n}",
+            "undo": "Rückgängig",
+            "redo": "Wiederherstellen",
+            "undoTooltip": "Rückgängig: {label}",
+            "redoTooltip": "Wiederherstellen: {label}",
+            "undoRoundChange": "Rundenwechsel",
+            "undoAction": "Kampfaktion"
         },
         "diceRoller": {
             "title": "Würfler",
@@ -1149,14 +1160,16 @@
             "static": "Statisch",
             "removeStat": "Wert entfernen",
             "trackable": "Nachverfolgbar",
-            "editStats": "Werte bearbeiten"
+            "editStats": "Werte bearbeiten",
+            "undoEditStat": "{name} {stat} bearbeiten"
         },
         "telemetry": {
             "telemetry": "Telemetrie",
             "devNote": "Diese Funktion ist noch in Entwicklung. Zusätzliche Telemetriedaten werden in Kürze hinzugefügt. {emphasis}",
             "collectedNote": "Telemetriedaten werden am Ende jeder Runde erfasst",
             "encounterInstance": "GefechtsInstanz",
-            "exportText": "Als Text exportieren"
+            "exportText": "Als Text exportieren",
+            "lifetime": "Lebenszeit"
         },
         "dmgCond": {
             "immunity": "Immunität",
@@ -1233,7 +1246,9 @@
             "thisWillAddACopy": "Dies wird eine Kopie diese:r Pilot:in Ihrem Gefecht hinzufügen. Falls die Urheber ihre Originaldaten aktualisieren, werden Sie diese Änderungen nicht erhalten.",
             "reviewTheCombatLogAnd": "Prüfen Sie das Kampfprotokoll und die Schlachtfeldtelemetrie von diesem Bogen und speichern Sie es nach Wunsch im Verlauf Ihre:r Pilot:in.",
             "replaceTheThematicStatTrackers": "Ersetzt die thematischen Anzeigen für TP, Abwärme, etc. mit simpleren Zahlen.",
-            "failedToImportSheetPleaseEnsure": "Bogen konnte nicht importiert werden. Bitte stellen Sie sicher, dass die Datei ein gültiges JSON für Charakterbögen ist."
+            "failedToImportSheetPleaseEnsure": "Bogen konnte nicht importiert werden. Bitte stellen Sie sicher, dass die Datei ein gültiges JSON für Charakterbögen ist.",
+            "thisControlsIfColumnsWill": "Dies steuert, ob in der Darstellung der Kombattanteninformation im Gefechtspanel Spalten verwendet werden. Funktioniert nur auf Bildschirmen mit breiter Auflösung.",
+            "simpleTickbarsAreShownOn": "Auf Mobilgeräten werden einfache Balken zum Abhaken angezeigt. Durch diese Einstellung werden Standardbalken in der Darstellung erzwungen, unabhängig der Bildschirmgröße. Dies kann auf kleineren Bildschirmen zu Layoutproblemen führen."
         },
         "campaignDialog": {
             "setCampaign": "Kampagne setzen"
@@ -1328,7 +1343,8 @@
         },
         "initiative": {
             "destroyedN": "Zerstört ({n})",
-            "statusGroupN": "{status} ({n})"
+            "statusGroupN": "{status} ({n})",
+            "reinforcementsN": "Verstärkungen ({n})"
         },
         "structureCheck": {
             "structure": "Strukturschaden",
@@ -1348,7 +1364,8 @@
             "chooseOne": "Wählen Sie eines",
             "reroll": "Neu würfeln",
             "rollCheck": "{check} würfeln",
-            "rollPrompt": "{n}d{die} würfeln und das Niedrigste wählen"
+            "rollPrompt": "{n}d{die} würfeln und das Niedrigste wählen",
+            "stress": "Reaktorkapazität"
         },
         "burnCheck": {
             "title": "Brandtest",
@@ -1574,6 +1591,9 @@
             "exportErrorTitle": "Exportfehler",
             "exportErrorText": "@:{'common.appName'} konnte Pilot:innendaten nicht exportieren",
             "exportSuccessText": "Pilot:innendaten wurden als \"{callsign}.json\" gespeichert"
+        },
+        "titles": {
+            "layout": "Layout"
         }
     },
     "mainMenu": {
@@ -1747,7 +1767,10 @@
             "deleteImmediatelyDesc": "Dieses Element zu löschen wird es auch aus dem Cloudspeicher entfernen. Lokalkopien dieses Elements bleiben dadurch unangetastet.",
             "deleteLocalData": "Lokaldaten löschen",
             "deleteCloudData": "Clouddaten löschen",
-            "deleteCloudItem": "Cloud-Element löschen"
+            "deleteCloudItem": "Cloud-Element löschen",
+            "deleteLocalDataDesc": "Dies markiert das Element als \"lokal gelöscht\". Es wird aus dieser Tabelle entfernt und nicht synchronisiert. Wiederherstellungsoptionen können in den Nutzer:inneneinstellungen gefunden werden.",
+            "deleteCloudItemDesc": "Das Löschen dieses Elements wird es in der Cloud als gelöscht markieren. Es wird dieses Element nicht lokal löschen, aber wird es daran hindern, sich mit der Cloud oder anderen Geräten zu synchronisieren.",
+            "chooseDeleteMethod": "Wählen Sie, wie die ausgewählten Elemente gelöscht werden sollen"
         },
         "dataUsage": {
             "resetMigrationTool": "Kontomigrations-Werkzeug zurücksetzen",
@@ -2011,7 +2034,12 @@
         "tooltips": {
             "thisToolWillCaptureA": "Dieses Werkzeug wird einen Snapshot Ihrer lokalen @:{'common.appName'}-Daten erstellen und in einem Cloud-Archiv speichern. Sie können dies dann verwenden, um Ihre @:{'common.appName'}-Daten auf einen früheren Zustand zurückzusetzen. Diese Funktion ist nur für Unterstützer auf Patreon verfügbar.",
             "thisIsAViewOf": "Dies ist eine Ansicht Ihrer @:{'common.appName'}-Daten, die sowohl in lokal als auch in der Cloud gespeichert sind. Sie können dieses Werkzeug nutzen, um den Status Ihrer Daten zu verwalten, und um Änderungen zwischen Ihrer Lokaldaten und der Cloud zu synchronisieren.",
-            "paidLcpContentRequiresA": "Bezahlte LCP-Inhalte müssen per itch.io verknüpft werden, damit sie automatisch aktualisiert werden können. Zum aktuellen Zeitpunkt werden nur von Massif veröffentlichte LCPs unterstützt."
+            "paidLcpContentRequiresA": "Bezahlte LCP-Inhalte müssen per itch.io verknüpft werden, damit sie automatisch aktualisiert werden können. Zum aktuellen Zeitpunkt werden nur von Massif veröffentlichte LCPs unterstützt.",
+            "theseOptionsControlHowAnd": "Diese Einstellungen steuern, wie und wann Ihre Daten mit der Cloud synchronisiert werden. Standardmäßig werden Daten nur lokal synchronisiert. Anders als andere Nutzer:inneneinstellungen werden diese Einstellungen auch in der Cloud gespeichert und auf alle Geräte angewendet, die Sie benutzen.",
+            "controlsHowOftenYourData": "Steuert, wie oft Ihre Daten mit der Cloud synchronisiert werden. Aufgrund der damit verbundenen Serverkosten sind bestimmte Optionen nur für Abonnent:innen auf Patreon verfügbar.",
+            "controlsWhichDataTypesAre": "Steuert, welche Datentypen mit der Cloud synchronisiert sind.",
+            "yourUniqueAccountIdThis": "Ihre einzigartige Konto-ID. Dies wird dazu genutzt, Ihre Daten in der Cloud zu identifizieren, was u.A. für Fehleranalysen benötigt werden kann.",
+            "usernameOptional": "Dies ist ein <b>optionales</b> Feld, welches Sie nutzen können, um einen Eigennamen für Ihr Konto festzulegen. Dieser Benutzer:innenname <b>wird</b> im Aktiven Modus sichtbar für andere Nutzer:innen sein, sowie wenn Sie Daten teilen."
         }
     },
     "gm": {
