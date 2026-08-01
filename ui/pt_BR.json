@@ -840,7 +840,7 @@
             "selectLcdFile": "Selecionar Arquivo .lcd"
         },
         "tooltips": {
-            "userSelectedDamageTypeOrDamage": "Tipo de dano selecionado pelo usuário ou tipo de dano não especificado",
+            "userSelectedDamageTypeOrDamage": "Tipo de Dano selecionado pelo usuário ou tipo de Dano não especificado",
             "weaponThreatRange": "Alcance de Ameaça da Arma",
             "burstAreaOfEffect": "Área de Efeito \"Emanação\"",
             "blastAreaOfEffect": "Área de Efeito \"Explosão\"",
@@ -933,19 +933,19 @@
             "singleTarget": "Alvo Único",
             "addTarget": "Adicionar Alvo",
             "target": "Alvo",
-            "damageValue": "valor de dano",
+            "damageValue": "valor de Dano",
             "bonusDamage": "Dano Bônus",
             "bonusDamageHalved": "Dano Bônus será reduzido à metade (Área de Efeito)",
             "overkillHeat": "+{n} Calor (Próprio) [Excesso de Dano]",
-            "critDamageYes": "Este dano é rolado como dano crítico (role duas vezes, pegue o maior)",
-            "critDamageNo": "Este dano não é rolado como dano crítico",
-            "apYes": "Este dano ignora armadura",
-            "apNo": "Este dano não ignora armadura",
-            "irreducibleYes": "Este dano não pode ser reduzido de nenhuma forma",
-            "irreducibleNo": "Este dano pode ser reduzido pelas defesas do alvo",
+            "critDamageYes": "Este Dano é rolado como Dano crítico (role duas vezes, pegue o maior)",
+            "critDamageNo": "Este Dano não é rolado como Dano crítico",
+            "apYes": "Este Dano ignora armadura",
+            "apNo": "Este Dano não ignora armadura",
+            "irreducibleYes": "Este Dano não pode ser reduzido de nenhuma forma",
+            "irreducibleNo": "Este Dano pode ser reduzido pelas defesas do alvo",
             "exceptArmor": ", exceto por armadura",
-            "overkillYes": "Este dano está sujeito às regras de Exagerado (role novamente os 1s, adicione calor (próprio))",
-            "overkillNo": "Este dano não está sujeito às regras de Exagerado",
+            "overkillYes": "Este Dano está sujeito às regras de Exagerado (role novamente os 1s, adicione Calor (próprio))",
+            "overkillNo": "Este Dano não está sujeito às regras de Exagerado",
             "reliableDamage": "Dano Confiável",
             "clearReliableDamage": "Limpar Dano Confiável",
             "clickClearBonus": "Clique para limpar Dano Bônus",
@@ -1001,7 +1001,7 @@
                 "heatLabel": "Calor:",
                 "heatDescription": "O Calor é um tipo especial de efeito prejudicial que não conta como dano e ignora ARMADURA, embora possa ser afetado por RESISTÊNCIA. Ele representa danos aos sistemas internos e ao reator de um mecha. É mais frequentemente infligido por guerra eletrônica, mas muitas vezes é gerado pelos próprios sistemas. Quando um mecha atinge sua Cap. de Calor, qualquer Calor adicional faz com que ele superaqueça. Personagem sem Cap. de Calor (como personagens BIOLÓGICOS e alguns DRONES) sofrem Dano de Energia equivalente ao Calor recebido.",
                 "burnLabel": "Queimadura:",
-                "burnDescription": "Algumas armas causam Queimadura (dano ao longo do tempo). Queimadura pode representar chamas, plasma escaldante, ácido ou algo mais insidioso, como um enxame de nanites greywash. Quando os personagens recebem Queimadura, isso tem dois efeitos: primeiro, eles sofrem dano de Queimadura imediatamente, ignorando ARMADURA, e então registram a Queimadura que acabaram de receber. No final de seu turno, personagens com Queimadura marcada devem rolar um teste de ENGENHARIA. Em um sucesso, eles removem toda a queimadura atualmente marcada; caso contrário, sofrem dano de Queimadura igual à quantidade de Queimadura atualmente marcada. Queimadura de fontes adicionais se soma ao total de Queimadura marcada."
+                "burnDescription": "Algumas armas causam Queimadura (dano ao longo do tempo). Queimadura pode representar chamas, plasma escaldante, ácido ou algo mais insidioso, como um enxame de nanites greywash. Quando os personagens recebem Queimadura, isso tem dois efeitos: primeiro, eles sofrem dano de Queimadura imediatamente, ignorando ARMADURA, e então registram a Queimadura que acabaram de receber. No final de seu turno, personagens com Queimadura marcada devem rolar um teste de ENGENHARIA. Em um sucesso, eles removem toda a Queimadura atualmente marcada; caso contrário, sofrem dano de Queimadura igual à quantidade de Queimadura atualmente marcada. Queimadura de fontes adicionais se soma ao total de Queimadura marcada."
             }
         },
         "lcp": {
@@ -2263,9 +2263,9 @@
             "deploysNextRound": "Implementa na Próxima Rodada",
             "readyToDeploy": "Pronto para Implementar",
             "forceDeploy": "Forçar Implementação",
-            "resistanceLine": "{condition} a dano {type}",
+            "resistanceLine": "{condition} a Dano {type}",
             "reactorDestroyed": "Reator destruído",
-            "bracedDesc": "Você é considerado com RESISTÊNCIA a todo dano, calor e queimadura do ataque que desencadeou este Suportar, e até o final de seu próximo turno, todos os outros ataques contra você são feitos com +1 de Dificuldade.",
+            "bracedDesc": "Você é considerado com RESISTÊNCIA a todo Dano, Calor e Queimadura do ataque que desencadeou este Suportar, e até o final de seu próximo turno, todos os outros ataques contra você são feitos com +1 de Dificuldade.",
             "coverLabel": "{cover} cobertura",
             "activationsRemaining": "{n} Ativações restantes nesta rodada",
             "aiControl": "Mecha sob Controle de IA",
@@ -2354,7 +2354,7 @@
             "immunity": "Imunidade",
             "vulnerability": "Vulnerabilidade",
             "resistance": "Resistência",
-            "noDamage": "Sem dano",
+            "noDamage": "Sem Dano",
             "doubleDamage": "Dano duplo",
             "fullDamage": "Dano total",
             "fromAttacks": "de ataques do tipo {type}."
@@ -2518,7 +2518,7 @@
         },
         "pilotPanel": {
             "killed": "Este piloto foi morto em ação.",
-            "unconscious": "O piloto está inconsciente e qualquer dano adicional os matará."
+            "unconscious": "O piloto está inconsciente e qualquer Dano adicional os matará."
         },
         "pcPanel": {
             "pilotMounted": "Piloto Montado",
@@ -2555,10 +2555,10 @@
             "tableConnectCode": "Código de Conexão da Tabela",
             "selectCharacterSheetExportFile": "Selecionar Arquivo de Exportação de Ficha de Personagem",
             "maxLoadoutFeatureSetColumns": "Colunas Máx de Equipamento / Conjunto de Sistemas",
-            "coolYourMechClearingAll": "Resfrie seu mecha, limpando todo o calor e EXPOSTO.",
+            "coolYourMechClearingAll": "Resfrie seu mecha, limpando todo o Calor e EXPOSTO.",
             "mark1RepairToRestore": "Marque 1 REPARO para restaurar todos os PV.",
             "reloadAllLoadedWeapons": "Recarregue todas as armas de Recarga.",
-            "clearAnyBurnCurrentlyAffecting": "Limpe qualquer queimadura que esteja afetando seu mecha atualmente.",
+            "clearAnyBurnCurrentlyAffecting": "Limpe qualquer Queimadura que esteja afetando seu mecha atualmente.",
             "clearAConditionThatWasnt": "Limpe uma condição que não foi causada por um de seus próprios sistemas, talentos, etc",
             "clearAnAdjacentAlliedCharacters": "Limpe a condição de um personagem aliado adjacente que não foi causada por um de seus próprios sistemas, talentos, etc."
         },
@@ -2643,8 +2643,8 @@
             "featureInDevelopmentV32": "Recurso em desenvolvimento (v3.2)",
             "createManageAndRunLocalEncounters": "Criar, gerenciar e executar Encontros locais para seus jogos de Lancer",
             "featureInDevelopmentV31": "Recurso em desenvolvimento (v3.1)",
-            "kineticExplosiveAndHeatDamageDoubled": "Dano cinético, explosivo e de calor dobrado.",
-            "damageIgnoresArmorAndResistance": "O dano ignora armadura e resistência."
+            "kineticExplosiveAndHeatDamageDoubled": "Dano Cinético, Explosivo e de Calor dobrado.",
+            "damageIgnoresArmorAndResistance": "O Dano ignora armadura e resistência."
         },
         "structureCheck": {
             "structure": "Dano de Estrutura",
