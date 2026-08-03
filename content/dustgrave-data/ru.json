@@ -3,8 +3,8 @@
     "cb_superheavy_mounting.name": "Сверхтяжёлое крепление",
     "emergency_coolant_reservoir.action_emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
     "emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
-    "env_automatedrepairstations.name": "",
-    "env_chokingdust.name": "",
+    "env_automatedrepairstations.name": "Автоматизированные станции техобслуживания",
+    "env_chokingdust.name": "Удушливая пыль",
     "mw_reaper_assault_cannon.profile_superheavy.name": "Сверхтяжёлое",
     "mf_micro_monarch.name": "Наместник",
     "mf_störtebeker.name": "Штёртебекер"
