@@ -1026,7 +1026,7 @@
             "customStatusName": "Eigener Statusname",
             "justify": "Rechtfertigen",
             "tableConnectCode": "Tischverbindungscode",
-            "coolYourMechClearingAll": "Kühlen Sie Ihren Mech, entfernen Sie Abwärme und den VERWUNDBAR Status.",
+            "coolYourMechClearingAll": "Kühlen Sie Ihren Mech, entfernen Sie Hitze und den VERWUNDBAR Status.",
             "maxLoadoutFeatureSetColumns": "Maximale Spaltenanzahl für Ausrüstungen / Funktionen",
             "mark1RepairToRestore": "Streichen Sie 1 ERSATZTEIL, um alle TP wiederherzustellen."
         },
@@ -1068,7 +1068,7 @@
             "spectatorMode": "Beobachtermodus",
             "campaignDisplay": "Kampagnenanzeige",
             "allPilots": "Alle Pilot:innen",
-            "heatCapacity": "Reaktorauslastung",
+            "heatCapacity": "Hitzekapazität",
             "repairCapacity": "Ersatzteilvermögen",
             "gameMaster": "SPIELLEITER:IN",
             "activeCharacterSheets": "Aktive Charakterbögen",
@@ -1245,7 +1245,7 @@
             "reroll1s": "1er neu würfeln",
             "thisWillAddACopy": "Dies wird eine Kopie diese:r Pilot:in Ihrem Gefecht hinzufügen. Falls die Urheber ihre Originaldaten aktualisieren, werden Sie diese Änderungen nicht erhalten.",
             "reviewTheCombatLogAnd": "Prüfen Sie das Kampfprotokoll und die Schlachtfeldtelemetrie von diesem Bogen und speichern Sie es nach Wunsch im Verlauf Ihre:r Pilot:in.",
-            "replaceTheThematicStatTrackers": "Ersetzt die thematischen Anzeigen für TP, Abwärme, etc. mit simpleren Zahlen.",
+            "replaceTheThematicStatTrackers": "Ersetzt die thematischen Anzeigen für TP, Hitze, etc. mit simpleren Zahlen.",
             "failedToImportSheetPleaseEnsure": "Bogen konnte nicht importiert werden. Bitte stellen Sie sicher, dass die Datei ein gültiges JSON für Charakterbögen ist.",
             "thisControlsIfColumnsWill": "Dies steuert, ob in der Darstellung der Kombattanteninformation im Gefechtspanel Spalten verwendet werden. Funktioniert nur auf Bildschirmen mit breiter Auflösung.",
             "simpleTickbarsAreShownOn": "Auf Mobilgeräten werden einfache Balken zum Abhaken angezeigt. Durch diese Einstellung werden Standardbalken in der Darstellung erzwungen, unabhängig der Bildschirmgröße. Dies kann auf kleineren Bildschirmen zu Layoutproblemen führen."
@@ -1338,7 +1338,7 @@
             "featureInDevelopmentV32": "Funktion in Entwicklung (V3.2)",
             "createManageAndRunLocalEncounters": "Erstellen, verwalten, und nutzen Sie lokale Gefechte für Ihre Lancer-Spiele",
             "featureInDevelopmentV31": "Funktion in Entwicklung (V3.1)",
-            "kineticExplosiveAndHeatDamageDoubled": "Kinetischer, explosiver, und Abwärme-Schaden wird verdoppelt.",
+            "kineticExplosiveAndHeatDamageDoubled": "Kinetischer, explosiver, und Hitze-Schaden wird verdoppelt.",
             "damageIgnoresArmorAndResistance": "Schaden ignoriert Panzerung und Widerstand."
         },
         "initiative": {
@@ -1365,7 +1365,7 @@
             "reroll": "Neu würfeln",
             "rollCheck": "{check} würfeln",
             "rollPrompt": "{n}d{die} würfeln und das Niedrigste wählen",
-            "stress": "Reaktorkapazität"
+            "stress": "Reaktorstabilität"
         },
         "burnCheck": {
             "title": "Brandtest",
@@ -1449,7 +1449,36 @@
             "getAPlaintextRepresentationOfThis": "Eine Klartextversion dieses Charakters erhalten",
             "duplicateOrFlashCloneThisCharacter": "Diesen Charakter duplizieren oder blitzklonen",
             "pilotOptions": "Pilot:innenoptionen",
-            "generateStatblock": "Statblock generieren"
+            "generateStatblock": "Statblock generieren",
+            "setMaximumStress": "Maximalen Stress setzen",
+            "setMaximumPilotStressStressGains": "Setzt den maximalen Stress des:der Pilot:in. Stressgewinn von Quellen wie z.B. ausgewählten Bundkräften ist nicht automatisiert",
+            "heat": "Hitze",
+            "exportPilot": "Pilot:in exportieren",
+            "exportThisPilotAsAJSON": "Diese:n Pilot:in als JSON-Datei exportieren",
+            "convertThisPilotToAnEditable": "Diese:n Pilot:in in eine editierbare lokale Dateninstanz konvertieren",
+            "clone": "Klonen",
+            "setLCPConfiguration": "LCP-Konfiguration setzen",
+            "downloadLatestData": "Neueste Daten herunterladen",
+            "pilotIsUpToDateWith": "Pilot:in ist mit rechnerfernen Daten aktuell",
+            "downloadAllRemoteChangesToThis": "Alle rechnerfernen Änderungen auf diese:n Pilot:in herunterladen, dies überschreibt lokale Daten.",
+            "removeThisPilotFromTheRoster": "Diese:n Pilot:in aus der Liste entfernen",
+            "duplicatePilot": "Pilot:in duplizieren",
+            "flashClonePilot": "Pilot:in blitzklonen",
+            "anyOrganizationsIndividualsOrTechnologiesEngaging": "Alle Organisationen, Individuen, und Technologien, die Ganzkörper-Faksimileklone erzeugen oder ermöglichen, sind an die Erstkontakt-Abkommen von 3002 gebunden. Jegliche Aktivitäten, welche die Prinzipien der Abkommen verletzen, sind verboten. Dies beinhaltet, aber ist nicht begrenzt auf",
+            "reproductionOfTheSubjectivePersonageOf": "Reproduktion der subjektiven Persönlichkeit eines empfindungsfähigen Wesens oder einer andersweitigen subjektiven Kontinuität, als Ganzes oder in Teilen.",
+            "transferOrTheSubjectivePersonageOf": "Transfer der subjektiven Persönlichkeit eines empfindungsfähigen Wesens oder einer andersweitigen subjektiven Kontinuität in ein produziertes oder kultiviertes Trägermaterial.",
+            "emulationOfASentientIndividualS": "Emulation der subjektiven Persönlichkeit eines empfindungsfähigen Individuums in einem produzierten oder kultivierten Trägermaterial.",
+            "intentionalDecorporealizationOfASentientBeing": "Absichtliche Entkörperung eines empfindungsfähigen Wesens oder einer subjektiven Kontinuität.",
+            "engagingInAnyActivityThatCould": "Teilnahme an einer Aktivität, die u.U. ein empfindungsfähiges Wesen oder eine andersweit subjektive Kontinuität einer Prozessentgliederung, schizo-ontologischer Dissonanz, Persönlichkeitsauflösung, oder andersweitiger Subjektivitätsdisintegration unterziehen könnte.",
+            "allFormsOfWholeSubjectivityRapid": "Alle Formen des Gesamtsubjektivitäts-Schnellprozessklonens sind unter der Rechtsprechung von Union verboten. Sämtliche Personen, welche gegen dieses Gesetz verstoßen, werden durch das Amt für Faksimilerechte des Union Justiz- und Menschenrechtsministeriums strafrechtlich verfolgt.",
+            "cloneQUIRK": "Besonderheit des Klons",
+            "rerollQuirk": "Besonderheit neu würfeln",
+            "decantFlashClone": "Blitzklon dekantieren",
+            "duplicatingOrCloningAPilotWill": "Das Duplizieren oder Klonen eine:r Pilot:in wird auch sämtliche Tresorlinks entfernen. Der:die kopierte Pilot:in wird als neuer Charakter in Ihrem Konto gespeichert",
+            "sharePilot": "Pilot:in teilen",
+            "shareThisPilotSDataWith": "Erlaubt das Teilen der Daten diese:r Pilot:in mit anderen Nutzer:innen durch einen teilbaren Code",
+            "exportLegacyJSON": "Legacy-JSON exportieren",
+            "exportThisPilotAsAV2": "Exportiert diese:n Pilot:in als eine V2-kompatible JSON-Datei die mit VTT-Systemen und V2-Apps kompatibel ist"
         },
         "roster": {
             "includesDATAFROMTHEFOLLOWINGCONTENT": "Beinhaltet Daten aus den folgenden Inhaltspaketen",
@@ -1527,7 +1556,9 @@
             "toAddSlashes": "Hinzuzufügen //",
             "unionArmoryPrintid": "Union Waffenkammer DruckID",
             "gmsArmoryPrintid": "GMS Waffenkammer DruckID",
-            "integratedEquipment": "Integrierte Ausrüstung"
+            "integratedEquipment": "Integrierte Ausrüstung",
+            "appliedTO": "Angewendet auf",
+            "mechSYSTEMS": "Mech SYSTEME"
         },
         "print": {
             "onATTACK": "Bei Angriff",
@@ -1547,7 +1578,7 @@
             "maxHP": "Maximale TP",
             "reserve": "Reserve",
             "deployable": "Einsetzbar",
-            "heatCap": "Maximale Reaktorauslastung",
+            "heatCap": "Hitzekap.",
             "techAtk": "Cyberangriff",
             "mountLOCKED": "Lafette gesperrt",
             "appliedMOD": "//Angewendeter Mod",
@@ -1575,7 +1606,9 @@
         },
         "tooltips": {
             "techAttack": "CYBERANGRIFF",
-            "forcePilotRegistration": "Pilot:innenanmeldung erzwingen"
+            "forcePilotRegistration": "Pilot:innenanmeldung erzwingen",
+            "thisWillResetYourStressTo": "Dies wird Ihren Stress auf null setzen und eine neue Bürde hinzufügen. Fortfahren?",
+            "heatCapacity": "HITZEKAPAZITÄT"
         },
         "import": {
             "importSuccessTitle": "Import erfolgreich",
@@ -1593,7 +1626,12 @@
             "exportSuccessText": "Pilot:innendaten wurden als \"{callsign}.json\" gespeichert"
         },
         "titles": {
-            "layout": "Layout"
+            "layout": "Layout",
+            "heatcap": "Hitzekap"
+        },
+        "fields": {
+            "maximumStress": "Maximaler Stress",
+            "pilotStress": "Pilot:innenstress"
         }
     },
     "mainMenu": {
@@ -2518,6 +2556,9 @@
     "compendium": {
         "search": {
             "resultCount": "{count} Ergebnis | {count} Ergebnisse"
+        },
+        "titles": {
+            "heatcap": "Hitzekap"
         }
     },
     "notify": {
@@ -2555,7 +2596,23 @@
         "combat": {
             "noAttackRolled": "Kein Angriff gewürfelt",
             "successfulAttack": "Erfolgreicher Angriff",
-            "failedAttack": "Fehlgeschlagener Angriff"
+            "failedAttack": "Fehlgeschlagener Angriff",
+            "heatSelf": "+{n} Hitze (Selbst)",
+            "overkillHeat": "+{n} Hitze (Selbst) [Overkill]",
+            "overkillYes": "Dieser Schaden ist von OVERKILL abhängig (1er werden neu gewürfelt, fügt sich selbst Hitze zu)"
+        },
+        "widget": {
+            "glossary": {
+                "heatLabel": "HITZE:",
+                "heatDescription": "Hitze ist ein besonderer Schadenstyp, der nicht als Schaden zählt und PANZERUNG ignoriert, aber durch WIDERSTAND reduziert werden kann. Sie repräsentiert Schaden an den internen Systemen und dem Reaktor eines Mechs. Meistens wird sie durch Cyberangriffe zugefügt, kann aber auch durch die eigenen Systeme eines Mechs zugefügt werden. Wenn ein Mech seine HITZEKAPAZITÄT erreicht, führt jegliche weitere Hitze zu einer Überhitzung. Falls ein Charakter ohne HITZEKAPAZITÄT (wie z.B. BIOLOGISCHE Charaktere oder einige DROHNEN) Hitze erhalten würde, nimmt dieser stattdessen dieselbe Menge an Energieschaden."
+            }
+        },
+        "titles": {
+            "overheating": "ÜBERHITZT",
+            "heatCapacity": "Hitzekapazität",
+            "heatDamage": "Hitzeschaden",
+            "heatcap": "Hitzekap",
+            "heat": "Hitze"
         }
     },
     "enums": {
@@ -2563,6 +2620,12 @@
             "melee": "Nahkampf",
             "ranged": "Fernkampf",
             "tech": "Cyber"
+        },
+        "damageType": {
+            "heat": "Hitze"
         }
+    },
+    "stats": {
+        "stress": "Reaktor"
     }
 }
