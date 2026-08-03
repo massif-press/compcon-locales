@@ -32,7 +32,7 @@
         "unlock": "Débloquer",
         "back": "Retour",
         "print": "Imprimer",
-        "shareCode": "code de partage",
+        "shareCode": "Code de partage",
         "warning": "Avertissement",
         "preview": "Aperçu",
         "result": "Résultat",
@@ -905,17 +905,17 @@
             "willDowngradeTo": "Il va être mis à jour à la v.{version}"
         },
         "packsDirectory": {
-            "officialContent": "Officiel",
-            "content": "Contenu",
-            "massifPress": "MASSIF PRESS",
+            "officialContent": "Contenu officiel",
+            "content": " ",
+            "massifPress": "",
             "communityContent": "Contenu communautaire de @:{'common.gameName'}",
-            "communityContribute": "Si vous êtes intéressé par la création de votre propre contenu @:{'common.gameName'} maison, ou la présentation de votre contenu dans ce répertoire, merci",
-            "clickHere": "de cliquer ici.",
+            "communityContribute": "Si vous êtes intéressé par la création de votre propre contenu @:{'common.gameName'} maison, ou la présentation de votre contenu dans ce répertoire, merci de",
+            "clickHere": "cliquer ici.",
             "developmentBlog": "blog de développement"
         },
         "cloudNotifications": {
             "dismissAll": "Masquer toutes les notifications",
-            "noRecentUpdates": "Aucune mise à jour récente"
+            "noRecentUpdates": "Pas de nouvelle notification"
         },
         "achievementItem": {
             "dataRedacted": "Données expurgées",
@@ -1420,7 +1420,7 @@
             "syncPartialTitle": "{synced}/{total} éléments synchronisés",
             "syncCompleteTitle": "{total}/{total} éléments synchronisés",
             "syncCompleteText": "Tous les éléments ont été synchronisé avec succès.",
-            "deletionCompleteTitle": "{count} élémént supprimé définitivement | {count} éléments supprimés définitivement",
+            "deletionCompleteTitle": "{count} élément supprimé définitivement | {count} éléments supprimés définitivement",
             "noFlaggedText": "Aucun élément n'a été marqué pour suppression.",
             "deletionFailedBulkText": "Une erreur s'est produite pendant la suppression des éléments marqués.",
             "collectionErrorTitle": "Erreur en mettant à jour la collection",
@@ -1492,7 +1492,7 @@
         },
         "dataUsage": {
             "title": "Utilisation des données",
-            "ofMaxMb": "de {max} MB",
+            "ofMaxMb": "sur {max} MB",
             "resetMigrationTool": "Réinitialiser les outils de migration de compte"
         },
         "patreon": {
@@ -1521,7 +1521,7 @@
             "ensureRights": "Merci de vous assurez que vous avez les droits de distribuer tous les contenus que vous téléversez en ligne. En cas de doute, contactez l'auteur du contenu."
         },
         "cloudData": {
-            "reloadData": "Recharger les données",
+            "reloadData": "Rafraîchir les données",
             "dataTab": "Données",
             "dataTabDesc": "Les données de PJ et de MJ stockés dans votre compte @:{'common.appName'}.",
             "imagesTab": "Images",
@@ -1543,16 +1543,16 @@
             "incCloudData": "Les données en ligne, incluant les pilotes, méchas, PNJs et autres données de MJ",
             "incImages": "Les images téléversées dans vos archives en ligne personnelles",
             "incArchives": "Les comptes et archives LCP stockées en ligne",
-            "additionally": "Additionnellement",
+            "additionally": "De plus,",
             "addNoSync": "Vos données de sauvegarde ne se synchroniseront plus sur vos différents navigateurs et appareils",
-            "addShareExpire": "Tous les éléments partagés ne se mettront plus à jour, et tous les codes de partage expireront",
+            "addShareExpire": "Tous les éléments partagés ne seront plus mis à jour, et tous les codes de partage expireront",
             "addSyncTerminated": "Toutes les synchronisations actives seront interrompues",
             "addRemovedTables": "Vous serez expulsé de toutes les tables actives",
             "addGmTables": "Si vous êtes un MJ, toutes vos tables seront archivés et prévues pour suppression",
-            "addSubFeed": "Si vous publiez un flux d'abonnement, vos abonnés ne pourront plus recevoir de mises à jour",
-            "thisWillNot": "Ceci ne",
-            "notLocalData": "Supprimera aucune données locales sur vos appareils",
-            "notPurchases": "Révoquera aucun achat réalisé sur itch.io ni n'annulera vos contributions Patreon",
+            "addSubFeed": "Si vous publiez un flux d'abonnement, vos abonnés ne recevront plus de mises à jour",
+            "thisWillNot": "Ceci",
+            "notLocalData": "Ne supprimera aucune donnée locale sur vos appareils",
+            "notPurchases": "Ne révoquera aucun achat réalisé sur itch.io ni n'annulera vos contributions Patreon",
             "irreversible": "Cette action est irréversible. Vos données seront définitivement et irrévocablement supprimées.",
             "ensureBackup": "Merci de vous assurer d'avoir une sauvegarde locale de toutes les données que vous souhaiteriez garder.",
             "enterTextToConfirm": "Entrez le texte suivant {phrase} pour confirmer la suppression du compte.",
@@ -1621,8 +1621,8 @@
             "migrateNow": "Migrer maintenant"
         },
         "archive": {
-            "patreonOnly": "A causes des coûts liés associés à la création et au stockage des sauvegardes de données, cette fonctionnalité n'est disponible que pour les contributeurs Patreon. Si vous voulez avoir accès aux sauvegardes en ligne automatique, considérez {link} pour soutenir le développement de @:{'common.appName'} et gagner l'accès à des fonctionnalités supplémentaires.",
-            "subscribing": "prendre un abonnement",
+            "patreonOnly": "A causes des coûts liés associés à la création et au stockage des sauvegardes de données, cette fonctionnalité n'est disponible que pour les contributeurs Patreon. Si vous voulez avoir accès aux sauvegardes en ligne automatiques, considérez {link} pour soutenir le développement de @:{'common.appName'} et gagner l'accès à des fonctionnalités supplémentaires.",
+            "subscribing": "la prise d'un abonnement",
             "preventPrune": "Empêcher cet élément d'être automatiquement supprimé. Les archives préservées compteront toujours dans les limites de taille de stockage.",
             "removeProtection": "Retirer les protections de suppression automatique sur cet élément",
             "revertTooltip": "Restaurer @:{'common.appName'} vers cette sauvegarde",
@@ -1688,15 +1688,17 @@
             "deleteLocalDataDesc": "Cela marquera cet élément comme supprimé localement, et sera retiré de cette table et ne synchronisera plus. Les options de restauration des éléments supprimés peuvent être trouvés dans les paramètres utilisateurs.",
             "deleteCloudData": "Supprimer les données en ligne",
             "deleteCloudItem": "Supprimer un élément en ligne",
-            "deleteCloudItemDesc": "Supprimer cet élément le marquera comme supprimé en ligne. Cela ne supprimera pas cet élément localment, mais l'empêchera de se synchroniser en lignes ou sur d'autres appareils.",
+            "deleteCloudItemDesc": "Supprimer cet élément le marquera comme supprimé en ligne. Cela ne supprimera pas cet élément localement, mais l'empêchera de se synchroniser en lignes ou sur d'autres appareils.",
             "deleteNItems": "Supprimer {count} élément | Supprimer {count} éléments",
             "chooseDeleteMethod": "Choisissez comment supprimer les éléments sélectionnés",
             "remoteItem": "Élément externe",
-            "remoteItemInaccessible": "Élément externe inaccessible"
+            "remoteItemInaccessible": "Élément externe inaccessible",
+            "bulkDelete": "Sélectionner",
+            "cancelBulkSelection": "Ne pas sélectionner"
         },
         "fields": {
             "updates": "Mises à jour",
-            "doNotShowThisWarningAgain": "Ne montrez plus cet avertissement à nouveau",
+            "doNotShowThisWarningAgain": "Ne plus montrer cet avertissement à nouveau",
             "autoBackupFrequency": "Fréquence de sauvegarde automatique",
             "itemLimit": "Limite d'élément",
             "filter": "Filtre",
@@ -1713,12 +1715,13 @@
             "emailAddress": "Adresse électronique"
         },
         "actions": {
-            "dataViewer": "Visualisation des données",
+            "dataViewer": "Aperçu des données",
             "syncSettings": "Paramètres de synchronisation",
             "accountEmail": "Adresse électronique du compte",
             "accountDetails": "Détails du compte",
             "managePilots": "Gérer les pilotes",
-            "v2ImportsAwaitingResolution": "Importation v2 en attente de résolution"
+            "v2ImportsAwaitingResolution": "Importation v2 en attente de résolution",
+            "remoteBackups": "Sauvegardes en ligne"
         },
         "titles": {
             "forceUpload": "Forcer le téléversement",
@@ -1733,7 +1736,7 @@
             "roster": "Roster",
             "installCompconForReliableStorage": "Installer @:{'common.appName'} pour un stockage fiable",
             "storagePermissionRequired": "Permissions de stockage requis!",
-            "youDoNotHaveAccess": "Vous n'avez pas accès aux sauvegarde à distance.",
+            "youDoNotHaveAccess": "Vous n'avez pas accès aux sauvegarde en ligne.",
             "youDoNotHaveAccess2": "Vous n'avez pas accès à l'outil de publication des collections.",
             "compconCloudAccount": "Compte en ligne @:{'common.appName'}",
             "filename": "Nom du fichier",
