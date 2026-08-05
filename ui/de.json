@@ -1492,7 +1492,29 @@
             "addCOREBonus": "Herstellerspezialisierung hinzufügen",
             "rm4cS2CoreModification": "RM-4c (S-2) Kernmodifizierungs-Anhang",
             "mv2ACORESupplemental": "MV-2(a) KERN Anhang",
-            "theRM4SupplementalIICore": "Der RM-4β Anhang II (Kernmodifizierung) registriert das Archiv der Kernmodifizierungsdaten (CMD) eine:s individuellen Pilot:in, um für Druck- und Ausstattungszwecke zur Verfügung zu stehen."
+            "theRM4SupplementalIICore": "Der RM-4β Anhang II (Kernmodifizierung) registriert das Archiv der Kernmodifizierungsdaten (CMD) eine:s individuellen Pilot:in, um für Druck- und Ausstattungszwecke zur Verfügung zu stehen.",
+            "theMV2ASupplementalAmendment": "Der MV-2(a) Ergänzungsanhang registriert eine wesentliche Modifizierung eines Mechs unter Zulassung der vom Hersteller vorgesehenen Spezialisierungspfade. Die Union-Behörde zur Marineaufklärung erkennt derartige Herstellerspezialisierungen nur an, wenn sie durch von Union geprüften und registrierten Lizenzgebern veröffentlicht wurden.",
+            "theUnionLicensingAuthorityAndThe": "Die Union Lizenzbehörde und das Union Administrations-Department schließen hiermit sämtliche Verantwortungen ihrerseits für vorgenommene Herstellerspezialisierungen aus.",
+            "pilotINELIGIBLEFORCOREBONUS": "Pilot:in nicht zu Herstellerspezialisierungen befugt",
+            "unlockLicense": "Lizenz freischalten",
+            "rm4cS1LicensingAuthorization": "RM-4c (S-1) Lizenzautorisierungs-Anhang",
+            "mv2DLicensorLicenseeTransmit": "MV-2//d Lizenzgeber/Lizenznehmer Übertragungsprotokoll",
+            "theRM4SupplementalILicensing": "Der RM-4α Anhang I (Lizenzautorisierung) registriert die Rahmendruck- und Betriebslizenzen (RD/B) eine:r individuellen Pilot:in in der Union Lizenzbehörde.",
+            "theMV2LicensorLicenseeTransmit": "Das MV-2//d Lizenzgeber/Lizenznehmer Übertragungsprotokoll registriert die Übertragung und den Empfang einer durch die UN anerkannten RAHMEN-Lizenz. Diese besteht aus Ausrüstungs-Druckvorlagen unter 1.5 EB, RAHMEN-Druckvorlagen unter 3.75 EB, sowie Zugangsprotokollen zu RAHMEN-konformer Systemsoftware.",
+            "unlockALicense": "Schalten Sie eine Lizenz frei.",
+            "unionAndItsRepresentativesAreNot": "Union und ihre Abgeordneten sind nicht haftbar für Probleme, welche durch den Druck, die Installation, und/oder die Nutzung von nicht anerkannten oder verbotenen Lizenzmaterialien entstehen.",
+            "pilotMechSkills": "Pilot:innen-Mechfertigkeiten",
+            "improveMechSkills": "Mechfertigkeiten verbessern",
+            "rm4dPilotSelfAssessment3": "RM-4d Pilot:innen-Selbsteinschätzung (3/3)",
+            "mv2CFrameConfigurationUpdate": "MV-2//c Rahmenkonfigurations-Aktualisierung",
+            "theRM4bPILOTSELFASSESSMENT": "Die RM-4b PILOT:INNEN-SELBSTEINSCHÄTZUNG (Mechfertigkeiten) wird an das Druckerpersonal versendet, um die Konfiguration Ihres GMS-SP1 EVEREST abzuschließen.",
+            "bySubmittingThisFormYouAttest": "Durch das Einreichen dieses Formulars bestätigen Sie, dass Ihre Antworten nach bestem Wissen und Gewissen der Wahrheit entsprechen. Die wissentliche Bereitstellung von falschen oder unvollständigen Angaben wird nach DoJ/HR AR 303-J bestraft.",
+            "improveSkillTriggers": "Fertigkeitstrigger verbessern",
+            "rm4bPilotSelfAssessment1": "RM-4b Pilot:innen-Selbsteinschätzung (1/3)",
+            "mv2ASkillImprovementAssessment": "MV-2//a Einschätzung zur Verbesserung von Fertigkeiten",
+            "theRM4bPILOTSELFASSESSMENT2": "Der RM-4b PILOT:INNEN-SELBSTEINSCHÄTZUNG-Audit (Fertigkeiten) katalogisiert die selbst angegebenen Stärken eine:r angegebenen Pilot:in basierend auf Auswahlen, welche wiederum auf den Ergebnissen der OHM Gesundheitsuntersuchung // CR-2 Hirnaktivitäts-Scans und der Aufnahmeantworten basieren, welche dem NMP-Abgeordneten der amtierenden Union-Administrator:in gereicht wurden.",
+            "nb": "ZB",
+            "theFollowingFormIsComprisedOf": "Das folgende Formular besteht aus ungefilterten Ausgaben einer oder mehrerer Nicht-Mensch-Personen der UNI TAKANALYSE-Einheit und darf UNTER KEINEN UMSTÄNDEN ohne ausdrückliche Erlaubnis der Union-Behörde für Marineaufklärung kopiert, übersetzt, nachgebildet, übertragen oder codiert werden."
         },
         "sheet": {
             "manageWhichContentPacksAreAccessible": "Verwalten, welche Inhaltspakete für diese:n Pilot:in zur Verfügung stehen",
@@ -2565,7 +2587,7 @@
             "noData": "Keine Eidolondaten gefunden!",
             "help1": "Eidolondaten sind im No Room for a Wallflower Kampagnenbuch enthalten und daher nicht standardmäßig in @:{'common.appName'} verfügbar. Sie können Eidolondaten als zusätzliche herunterladbare Inhlte auf der {link} Kampagnenbuchseite finden.",
             "help2": "Falls Sie die Eidolondaten bereits heruntergeladen haben, können Sie diese in @:{'common.appName'} über die Inhaltsverwaltung im Hauptmenü oder Options-Menü rechts in der Navigationsleiste importieren.",
-            "linkText": "Kein Platz für Mauerblümchen"
+            "linkText": "No Room for a Wallflower"
         },
         "npcFeatures": {
             "selectClassToAdd": "Wählen Sie eine Klasse, um Funktionen hinzuzufügen",
