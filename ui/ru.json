@@ -221,7 +221,7 @@
         "components": {
             "ui": "Интерфейс",
             "lancer-data": "Каталог",
-            "lancer-srd": "Справка по правилам"
+            "lancer-srd": "Справочник по правилам"
         }
     },
     "nav": {
@@ -823,14 +823,14 @@
             "imageUrl": "Ссылка на изображение",
             "websiteUrl": "Ссылка на сайт",
             "optional": "Опционально",
-            "conditions": "Условия",
+            "conditions": "Условия победы",
             "service": "Связаться",
             "neutral": "Нейтральные",
             "mustBeAnItchioUrl": "Для настройки автоматического управления в @:{'common.appName'} необходимо наличие ссылки на страницу на itch.io",
             "selectDataFile": "Выбор файла",
             "moveIntoSection": "Переместить в раздел",
             "encounter": "Столкновение",
-            "extraction": "Эвакуация",
+            "extraction": "Извлечение",
             "allowDuplicates": "Разрешить дубликаты",
             "selectEncounterFile": "Выбор файла столкновения",
             "newTitle": "Новый заголовок",
@@ -1589,8 +1589,8 @@
             "noArchivedFoundFiltered": "Столкновений в архиве, включая \"{search}\", не найдено"
         },
         "toolPalette": {
-            "combatQuickRef": "Быстрая справка по боевой части",
-            "npcRef": "Справка по персонажам ведущего в бою",
+            "combatQuickRef": "Быстрая справка: бои",
+            "npcRef": "Справка: персонажи ведущего в бою",
             "tagReference": "Справочник по меткам"
         },
         "actorLogs": {
@@ -2556,7 +2556,7 @@
             "majorIDEAL": "Основной идеал",
             "burdens": "Травмы",
             "veteranPOWER2": "(Ветеранская способность)",
-            "downtimeREFERENCE": "Справочник по простою",
+            "downtimeREFERENCE": "Справка: действия простоя",
             "skillTRIGGERDETAIL": "Детальное описание навыка пилота",
             "onMISS": "При промахе",
             "appliedMOD": "//Применяемая модификация",
@@ -3738,14 +3738,14 @@
             "downtimeActions": "Действия простоя",
             "downtimeactions": "Действия простоя",
             "techatk": "Тех. атака",
-            "referenceBasics": "Справочник: базовая информация",
+            "referenceBasics": "Базовая информация",
             "referenceCompCon": "Справочник: COMP/CON",
-            "referencePilots": "Справочник: пилоты",
-            "referenceMechs": "Справочник: мехи",
-            "referenceCombat": "Справочник: боевая часть игры",
-            "referenceNarrativePlay": "Справочник: нарративная часть игры",
-            "referenceErrata": "Справочник: исправления",
-            "referenceGlossary": "Справочник: словарь",
+            "referencePilots": "Пилоты",
+            "referenceMechs": "Мехи",
+            "referenceCombat": "Бои",
+            "referenceNarrativePlay": "Повествование",
+            "referenceErrata": "Исправления",
+            "referenceGlossary": "Словарь",
             "repcap": "Ремзапас"
         },
         "search": {
