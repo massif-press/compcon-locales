@@ -1,3 +1,14 @@
 {
-    "mf_kidd.name": "Кидд"
+    "mf_kidd.name": "Кидд",
+    "mf_sagarmatha.name": "Сагарматха",
+    "mf_sagarmatha.trait_guardian.active_effect_guardian.name": "Страж",
+    "mf_sagarmatha.trait_guardian.name": "Страж",
+    "mf_sagarmatha.trait_heroism.active_effect_heroism.name": "Героизм",
+    "mf_sagarmatha.trait_heroism.name": "Героизм",
+    "mf_sagarmatha.core_system.name": "Боевой клич",
+    "mf_kidd.trait_rapid_deployment.active_effect_rapid_deployment.name": "Быстрое развёртывание",
+    "mf_kidd.trait_rapid_deployment.name": "Быстрое развёртывание",
+    "mf_sagarmatha.trait_replaceable_parts.name": "Сменные детали",
+    "mf_sagarmatha.core_system.active_effect_raise_the_banner.name": "Поднять знамя",
+    "mf_sagarmatha.core_system.active_name": "Поднять знамя"
 }
