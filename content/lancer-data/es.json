@@ -136,5 +136,7 @@
     "cb_armory_sculpted_chassis.active_effect_armory_sculpted_chassis.name": "Chasis personalizado de la armería",
     "cb_armory_sculpted_chassis.description": "Cualquiera puede imprimir un chasis de un meca de serie y confiar en que un conjunto de código genérico servirá para mantenerlo con vida. Sin embargo, los pilotos exigentes solo aceptan lo mejor: un chasis diseñado, probado y puesto a punto por uno de los maestros fabricantes de HA.",
     "cb_armory_sculpted_chassis.name": "Chasis personalizado de la armeria",
-    "cb_armory_sculpted_chassis.synergy_0.detail": "Cuando sobrecargas, ganas cobertura ligera hasta el inicio de tu siguiente turno."
+    "cb_armory_sculpted_chassis.synergy_0.detail": "Cuando sobrecargas, ganas cobertura ligera hasta el inicio de tu siguiente turno.",
+    "act_inv_fragment_signal.detail": "Envías información falsa, mensajes obscenos, o señales fantasma al centro de computación de tu objetivo. Quedan IMPAIRED y SLOWED hasta el final de si siguiente turno.",
+    "act_overwatch_npc.detail": "Cuando un personaje comienza su movimiento en rango de amenaza del arma de un NPC, ese NPC puede tomar una acción de combate contra el como reacción. Un NPC solo puede overwatch una vez ente turnos a menos que esté especificado. "
 }
