@@ -4,5 +4,9 @@
     "mf_emperor.name": "Император",
     "mf_minotaur_alt_wraith.name": "Календула",
     "t_pankrati.name": "Панкрати",
-    "intangible.name": "Неосязаем"
+    "intangible.name": "Неосязаем",
+    "mf_black_witch_alt_orchidea.trait_guardian.active_effect_guardian.name": "Страж",
+    "mf_black_witch_alt_orchidea.trait_guardian.name": "Страж",
+    "mf_white_witch.trait_guardian.active_effect_guardian.name": "Страж",
+    "mf_white_witch.trait_guardian.name": "Страж"
 }
