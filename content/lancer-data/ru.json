@@ -199,7 +199,7 @@
     "pbg_starship_pilot.name": "Пилот звездолёта",
     "sk_act_unseen_or_unheard.detail": "Добраться куда-либо или сделать что-либо незаметно (скорость - не приоритет). Прятаться, красться или бесшумно передвигаться. Пробраться на закрытый объект, минуя патрули, камеры и системы безопасности. Молниеносно сделать что-либо или незаметно пройти куда-то, например: украсть что-нибудь, вытащить пистолет, сжульничать в карточной игре. Замаскироваться.",
     "sitrep_recon.name": "Разведка",
-    "sitrep_holdout.name": "Осада",
+    "sitrep_holdout.name": "Сдерживание",
     "sitrep_escort.name": "Сопровождение",
     "reserve_vehicle.name": "Транспорт",
     "ctr_gunslinger.name": "Кость стрелка",
@@ -418,5 +418,6 @@
     "sk_assault.description": "Сразиться с оружием в руках.",
     "sitrep_gauntlet.name": "Прорыв",
     "mf_standard_pattern_i_everest.core_system.active_action_boost_hyperspec_fuel_injector.detail": "Вы можете Ускориться, как если бы это было свободное действие.",
-    "mf_standard_pattern_i_everest.trait_replaceable_parts.name": "Сменные детали"
+    "mf_standard_pattern_i_everest.trait_replaceable_parts.name": "Сменные детали",
+    "mf_standard_pattern_i_everest.core_system.active_action_boost_hyperspec_fuel_injector.name": "Ускориться (Топливный инжектор Hyperspec)"
 }
