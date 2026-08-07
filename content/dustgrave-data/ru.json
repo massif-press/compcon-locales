@@ -7,5 +7,10 @@
     "env_chokingdust.name": "Удушливая пыль",
     "mw_reaper_assault_cannon.profile_superheavy.name": "Сверхтяжёлое",
     "mf_micro_monarch.name": "Наместник",
-    "mf_störtebeker.name": "Штёртебекер"
+    "mf_störtebeker.name": "Штёртебекер",
+    "ms_madrigal_boarding_shotgun.name": "Абордажный дробовик Мадригал",
+    "ms_madrigal_thermal_visor.active_effect_madrigal_thermal_visor.name": "Тепловизор Мадригал",
+    "ms_madrigal_thermal_visor.name": "Тепловизор Мадригал",
+    "reserve_thermal_optics.action_thermal_optics.name": "Датчики тепла",
+    "reserve_thermal_optics.name": "Датчики тепла"
 }
