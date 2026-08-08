@@ -12,5 +12,7 @@
     "ms_madrigal_thermal_visor.active_effect_madrigal_thermal_visor.name": "Тепловизор Мадригал",
     "ms_madrigal_thermal_visor.name": "Тепловизор Мадригал",
     "reserve_thermal_optics.action_thermal_optics.name": "Датчики тепла",
-    "reserve_thermal_optics.name": "Датчики тепла"
+    "reserve_thermal_optics.name": "Датчики тепла",
+    "reserve_hyper_spec_fuel_canister.action_hyper_spec_fuel_canister.name": "Канистра высокоэффективного топлива",
+    "reserve_hyper_spec_fuel_canister.name": "Канистра высокоэффективного топлива"
 }
