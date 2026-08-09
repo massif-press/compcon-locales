@@ -7,5 +7,7 @@
     "mf_chomolungma.trait_brilliance.name": "Гениальность",
     "mf_chomolungma.core_system.passive_action_system_crusher.name": "Крушение систем",
     "mf_chomolungma.trait_data_siphon.active_effect_data_siphon.name": "Выкачивание данных",
-    "mf_chomolungma.trait_data_siphon.name": "Выкачивание данных"
+    "mf_chomolungma.trait_data_siphon.name": "Выкачивание данных",
+    "mf_chomolungma.core_system.passive_effect": "Вы получаете следующие опции для действия \"Взлом\":",
+    "mf_chomolungma.trait_replaceable_parts.description": "Во время отдыха Джомолунгму можно ремонтировать, потратив 1 ремкомплект на починку 1 пункта структурного урона вместо двух."
 }
