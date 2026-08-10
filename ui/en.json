@@ -819,7 +819,7 @@
             "additionalDetail": "Additional detail",
             "clocks": "Clocks",
             "viewCollections": "View Collections",
-            "itemTypePlural": "{type}"
+            "itemTypePlural": "({type})"
         },
         "print": {
             "othersCount": "(+{n} others)"
