@@ -3,5 +3,14 @@
     "mf_black_witch_alt_orchidea.name": "Ятрышник",
     "mf_emperor.name": "Император",
     "mf_minotaur_alt_wraith.name": "Календула",
-    "t_pankrati.name": "Панкрати"
+    "t_pankrati.name": "Панкрати",
+    "intangible.name": "Неосязаем",
+    "mf_black_witch_alt_orchidea.trait_guardian.active_effect_guardian.name": "Защитник",
+    "mf_black_witch_alt_orchidea.trait_guardian.name": "Защитник",
+    "mf_white_witch.trait_guardian.active_effect_guardian.name": "Защитник",
+    "mf_white_witch.trait_guardian.name": "Защитник",
+    "mf_black_witch_alt_orchidea.trait_guardian.description": "Союзники, находящиеся рядом с Ятрышником, могут заявить, что находятся в полном укрытии.",
+    "mf_black_witch_alt_orchidea.trait_guardian.active_effect_guardian.detail": "Союзники, находящиеся рядом с вами, могут заявить, что находятся в полном укрытии.",
+    "mf_white_witch.trait_guardian.description": "Союзники, находящиеся рядом с этим мехом, могут заявить, что находятся в полном укрытии.",
+    "mf_white_witch.trait_guardian.active_effect_guardian.detail": "Союзники, находящиеся рядом с вами, могут заявить, что находятся в полном укрытии."
 }

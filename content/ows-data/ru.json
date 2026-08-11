@@ -2,5 +2,8 @@
     "mf_amber_phantom.name": "Янтарный призрак",
     "mf_gilgamesh.name": "Гильгамеш",
     "mf_kutuzov.name": "Кутузов",
-    "mf_lycan.name": "Ликан"
+    "mf_lycan.name": "Ликан",
+    "mw_legion_nexus.name": "Нексус \"Легион\"",
+    "mw_legion_nexus.deployable_legion_drone.name": "Дрон \"Легион\"",
+    "mw_fusion_torch.name": "Термоядерный резак"
 }

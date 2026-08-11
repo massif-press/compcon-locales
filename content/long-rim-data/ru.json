@@ -1,4 +1,6 @@
 {
     "mf_atlas.name": "Атлас",
-    "mf_caliban.name": "Калибан"
+    "mf_caliban.name": "Калибан",
+    "mf_caliban.core_system.name": "Дробовик \"Живодёр\"",
+    "mw_caliban_integrated.name": "Дробовик HHS-075 \"Живодёр\""
 }

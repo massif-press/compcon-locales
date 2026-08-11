@@ -3,9 +3,16 @@
     "cb_superheavy_mounting.name": "Сверхтяжёлое крепление",
     "emergency_coolant_reservoir.action_emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
     "emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
-    "env_automatedrepairstations.name": "",
-    "env_chokingdust.name": "",
+    "env_automatedrepairstations.name": "Автоматизированные станции техобслуживания",
+    "env_chokingdust.name": "Удушливая пыль",
     "mw_reaper_assault_cannon.profile_superheavy.name": "Сверхтяжёлое",
     "mf_micro_monarch.name": "Наместник",
-    "mf_störtebeker.name": "Штёртебекер"
+    "mf_störtebeker.name": "Штёртебекер",
+    "ms_madrigal_boarding_shotgun.name": "Абордажный дробовик Мадригал",
+    "ms_madrigal_thermal_visor.active_effect_madrigal_thermal_visor.name": "Тепловизор Мадригал",
+    "ms_madrigal_thermal_visor.name": "Тепловизор Мадригал",
+    "reserve_thermal_optics.action_thermal_optics.name": "Датчики тепла",
+    "reserve_thermal_optics.name": "Датчики тепла",
+    "reserve_hyper_spec_fuel_canister.action_hyper_spec_fuel_canister.name": "Канистра высокоэффективного топлива",
+    "reserve_hyper_spec_fuel_canister.name": "Канистра высокоэффективного топлива"
 }

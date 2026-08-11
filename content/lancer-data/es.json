@@ -79,5 +79,18 @@
     "act_mount.terse": "Entrar en tu mech.",
     "act_move.detail": "Durante su turno un personaje siempre puede moverse una cantidad de casillas igual a su VELOCIDAD además de cualquier otra acción. A esto se le llama movimiento normal para diferenciarlo del movimiento otorgado por sistemas o talentos.<br>Únicamente se considera que un personaje se ha movido si se desplaza 1 o más casillas<br>Los personajes pueden moverse a cualquier casilla adyacente, incluso en diagonal, siempre que el espacio no esté ocupado por una obstrucción (y al que pueda ir: un personaje no puede moverse directamente hacia arriba a menos que pueda volar, por ejemplo). Varios factores pueden afectar al movimiento, y se detallan a continuación.",
     "act_move.name": "Movimiento",
-    "act_move.terse": "Mueve hasta la velocidad máxima de un personaje en cualquier dirección."
+    "act_move.terse": "Mueve hasta la velocidad máxima de un personaje en cualquier dirección.",
+    "act_improvised_attack_npc.terse": "Ataca con un puño, la culata de un arma, o un arama improvisada cuerpo a cuerpo.",
+    "act_grapple_npc.detail": "El NPC realiza un ataque cuerpo a cuerpo contra un personaje adjacente a el con un bonus de +1/2/3, apresandolos si aciertan.",
+    "act_overcharge.name": "Sobrecarga",
+    "act_overcharge.terse": "Sobrecargar permite inmediatamente realizar una acción rápida de tu elección como una Acción Gratis, incluido una que ya hayas hecho este turno.",
+    "act_overwatch_npc.name": "Cubrir",
+    "act_overwatch_npc.terse": "Atacar a un objetivo cercano intentando moverse.",
+    "act_overwatch.detail": "Cuando un arma de activa mediante CUBRIR, inmediatamente usa ese arma para ATACAR contra el objetivo activador con tu reacción, antes de que se muevan.",
+    "act_overwatch.name": "Cubrir",
+    "act_overwatch.terse": "Atacar a un enemigo cercano intentando moverse.",
+    "act_overwatch.trigger": "Un objetivo hostil comienza su movimiento(incluido IMPULSO y otras acciones) dentro del rango de AMENAZA de tu arma. Menos especificado de otra manera, todas las armas tienen uno de AMENAZA.",
+    "act_prepare.name": "Preparar",
+    "act_prepare.terse": "Preparar una acción rápida por una acción determinada. Hasta el inicio del siguiente turno cuando se activa, puedes tomar la acción preparada como una reacción. Tú preparación cuenta como tomar una acción, así que sigue todas las restricciones normales de la acción o múltiples acciones.",
+    "act_quick_tech.name": "Ataque Tecnológico Rápido"
 }
