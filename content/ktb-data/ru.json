@@ -1,6 +1,6 @@
 {
     "mf_white_witch.name": "Белая ведьма",
-    "mf_black_witch_alt_orchidea.name": "Ятрышник",
+    "mf_black_witch_alt_orchidea.name": "Орхис",
     "mf_emperor.name": "Император",
     "mf_minotaur_alt_wraith.name": "Календула",
     "t_pankrati.name": "Панкрати",
@@ -9,8 +9,10 @@
     "mf_black_witch_alt_orchidea.trait_guardian.name": "Защитник",
     "mf_white_witch.trait_guardian.active_effect_guardian.name": "Защитник",
     "mf_white_witch.trait_guardian.name": "Защитник",
-    "mf_black_witch_alt_orchidea.trait_guardian.description": "Союзники, находящиеся рядом с Ятрышником, могут заявить, что находятся в полном укрытии.",
+    "mf_black_witch_alt_orchidea.trait_guardian.description": "Союзники, находящиеся рядом с Орхисом, могут заявить, что находятся в полном укрытии.",
     "mf_black_witch_alt_orchidea.trait_guardian.active_effect_guardian.detail": "Союзники, находящиеся рядом с вами, могут заявить, что находятся в полном укрытии.",
     "mf_white_witch.trait_guardian.description": "Союзники, находящиеся рядом с этим мехом, могут заявить, что находятся в полном укрытии.",
-    "mf_white_witch.trait_guardian.active_effect_guardian.detail": "Союзники, находящиеся рядом с вами, могут заявить, что находятся в полном укрытии."
+    "mf_white_witch.trait_guardian.active_effect_guardian.detail": "Союзники, находящиеся рядом с вами, могут заявить, что находятся в полном укрытии.",
+    "mf_black_witch_alt_orchidea.trait_royal_guard.active_effect_royal_guard.name": "Королевская стража",
+    "mf_black_witch_alt_orchidea.trait_royal_guard.name": "Королевская стража"
 }
