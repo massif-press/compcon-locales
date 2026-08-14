@@ -1448,7 +1448,7 @@
             "additionalDetail": "Detalhe adicional",
             "clocks": "Relógios",
             "viewCollections": "Ver Coleções",
-            "itemTypePlural": "{type}"
+            "itemTypePlural": "({type})"
         },
         "print": {
             "othersCount": "(+{n} outros)"
