@@ -92,5 +92,6 @@
     "act_overwatch.trigger": "Un objetivo hostil comienza su movimiento(incluido IMPULSO y otras acciones) dentro del rango de AMENAZA de tu arma. Menos especificado de otra manera, todas las armas tienen uno de AMENAZA.",
     "act_prepare.name": "Preparar",
     "act_prepare.terse": "Preparar una acción rápida por una acción determinada. Hasta el inicio del siguiente turno cuando se activa, puedes tomar la acción preparada como una reacción. Tú preparación cuenta como tomar una acción, así que sigue todas las restricciones normales de la acción o múltiples acciones.",
-    "act_quick_tech.name": "Ataque Tecnológico Rápido"
+    "act_quick_tech.name": "Ataque Tecnológico Rápido",
+    "act_overcharge.detail": "Cuando SOBRECARGAS, llevas a tu meca durante un instante más allá de las especificaciones de fábrica para obtener una ventaja táctica. Unos instantes de acción intensa no afectarán demasiado a los sistemas de tu meca, pero una acción sostenida por encima de los límites prescritos conlleva un precio. <br>Puedes SOBRECARGAR tu meca una vez por turno, lo que te permite efectuar una acción rápida cualquiera como acción gratuita, incluso acciones que ya hayas llevado a cabo ese turno.<br> La primera vez que SOBRECARGUES acumulas 1 .<br>La segunda vez que SOBRECARGUES, acumulas 1d3 .<br>La tercera vez acumulas 1d6 , y a partir de ese momento, cada vez que SOBRECARGUES acumulas 1d6+4 .<br>Una REPARACIÓN COMPLETA restablece este contador."
 }
