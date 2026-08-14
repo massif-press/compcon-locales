@@ -48,7 +48,7 @@
         "mount": "Lafette",
         "manageContent": "Inhalte verwalten",
         "campaignLibrary": "Kampagnen-Bibliothek",
-        "pilotLoadout": "Pilot:innen-Ausrüstung",
+        "pilotLoadout": "Konfiguration (Pilot:in)",
         "fileImport": "Datei importieren",
         "convertToLocal": "Zu Lokaldaten konvertieren",
         "importCampaign": "Kampagne importieren",
@@ -63,7 +63,7 @@
         "actions": "Aktionen",
         "changeImage": "Bild ändern",
         "all": "Alle",
-        "loadout": "Ausrüstung",
+        "loadout": "Konfiguration",
         "weapon": "Waffe",
         "frame": "Rahmen",
         "tierN": "Rang {n}",
@@ -122,7 +122,7 @@
         "techAttack": "Cyberangriff",
         "sensorRange": "Sensorreichweite",
         "limitedBonus": "Bonus zu begrenzten Systemen",
-        "pilotGear": "Pilot:innenzeug",
+        "pilotGear": "Pilot:innenausrüstung",
         "pilotTalent": "Pilot:innentalent",
         "pilotArmor": "Pilot:innenpanzerung",
         "pilotWeapon": "Pilot:innenwaffe",
@@ -761,7 +761,7 @@
             "mechStats": "Mech-Statistiken",
             "frameTraits": "Rahmeneigenschaften",
             "coreSystem": "Kernsystem",
-            "activeLoadout": "Aktive Ausrüstung",
+            "activeLoadout": "Aktive Konfiguration",
             "selectPilot": "Eine:n Pilot:in auswählen",
             "removedTitle": "{callsign} wurde vom Gefecht entfernt",
             "removalSuccess": "Erfolgreich entfernt",
@@ -881,7 +881,7 @@
         "pcDeploy": {
             "deployedEquipment": "Eingesetzte Ausrüstung",
             "noActive": "Keine aktive Ausrüstung.",
-            "noSelected": "Kein Equipment ausgewählt."
+            "noSelected": "Keine Ausrüstung ausgewählt."
         },
         "pilotRunner": {
             "loading": "Pilot:innenblatt wird geladen…"
@@ -1051,7 +1051,7 @@
             "justify": "Rechtfertigen",
             "tableConnectCode": "Tischverbindungscode",
             "coolYourMechClearingAll": "Kühlen Sie Ihren Mech, entfernen Sie Hitze und den VERWUNDBAR Status.",
-            "maxLoadoutFeatureSetColumns": "Maximale Spaltenanzahl für Ausrüstungen / Funktionen",
+            "maxLoadoutFeatureSetColumns": "Maximale Spaltenanzahl für Konfiguration / Funktionen",
             "mark1RepairToRestore": "Streichen Sie 1 ERSATZTEIL, um alle TP wiederherzustellen."
         },
         "titles": {
@@ -1263,7 +1263,7 @@
             "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Alle Marken auflisten, die aktuell auf Charakteren oder Ausrüstung in diesem Gefecht sind",
             "addsAPilottypeCombatantPlaceholder": "Fügt einen Pilot:in-Platzhalter als Kombattant hinzu, ohne Pilot:innendaten.",
             "optionalForOrganizationalPurposes": "Optional, für organisatorische Zwecke.",
-            "thisControlsHowManyColumns": "Diese Einstellung steuert, wie viele Spalten in der Darstellung von Ausrüstung oder Funktionssets eines Kombattanten im Gefechtspanel verwendet werden. Höhere Werte können auf kleinen Bildschirmen zu Layoutproblemen führen.",
+            "thisControlsHowManyColumns": "Diese Einstellung steuert, wie viele Spalten in der Darstellung der Konfiguration bzw. Funktionssets eines Kombattanten im Gefechtspanel verwendet werden. Höhere Werte können auf kleinen Bildschirmen zu Layoutproblemen führen.",
             "exportsAPlainTextVersion": "Exportiert eine Klartextversion des Kampfprotokolls.",
             "exportsAStructuredJsonVersion": "Exportiert eine strukturierte JSON-Version des Kampfprotokolls, die von anderen Anwendungen genutzt werden kann.",
             "exportsAPlainTextVersion2": "Exportiert eine Klartextversion der aktuellen Werte des:der Kombattant:in.",
@@ -1464,7 +1464,7 @@
             "selectCharacterTemplate": "Charaktervorlage auswählen",
             "recommendedForNewPlayers": "Für neue Spieler:innen empfohlen",
             "prmALTQUICKACCESSSELECTION": "Prm-alt Schnellzugriffauswahl",
-            "selectingATemplateWillCompleteThe": "Die Auswahl einer Vorlage wird die Pilot:innenerstellung abschließen und Ihre:n Pilot:in mit einer Auswahl an Fertigkeiten und Talenten ausstatten, sowie mit einem GMS EVEREST Mech, welcher auf die ausgewählte Kampfrolle zugeschneidert wurde. Die so getroffene Auswahl kann jederzeit durch die Pilot:innen- und Mechbogen-Ausrüstungsabschnitte bearbeitet werden, sowie durch die Abschnitts-Überschriften mit dem",
+            "selectingATemplateWillCompleteThe": "Die Auswahl einer Vorlage wird die Pilot:innenerstellung abschließen und Ihre:n Pilot:in mit einer Auswahl an Fertigkeiten und Talenten ausstatten, sowie mit einem GMS EVEREST Mech, welcher auf die ausgewählte Kampfrolle zugeschneidert wurde. Die so getroffene Auswahl kann jederzeit durch die Pilot:innen- und Mechbogen-Konfigurationsabschnitte bearbeitet werden, sowie durch die Abschnitts-Überschriften mit der",
             "icon": "Icon",
             "mechARTCOURTESYOF": "Mechbilder stammen von",
             "selectTemplate": "{name}-Vorlage auswählen",
@@ -1634,7 +1634,7 @@
             "addNewClock": "Neue Uhr hinzufügen",
             "removeBond": "Bund entfernen",
             "str": "STR",
-            "repcap": "ErsVerm",
+            "repcap": "Erstztl",
             "err": "ERR",
             "sortByName": "Nach Name sortieren",
             "sortByManufacturer": "Nach Hersteller sortieren",
@@ -1698,10 +1698,10 @@
         },
         "loadout": {
             "armorEquippedTitle": "Pilot:innen-Panzerung ausgerüstet",
-            "gearEquippedTitle": "Pilot:innenzeug ausgerüstet",
+            "gearEquippedTitle": "Pilot:innenausrüstung ausgerüstet",
             "weaponEquippedTitle": "Pilot:innenwaffe ausgerüstet",
             "equippedText": "{itemName} an {pilotName} ausgerüstet.",
-            "availableLoadouts": "Verfügbare Ausrüstungen",
+            "availableLoadouts": "Verfügbare Konfigurationen",
             "synergyWarning": "Die Regeln in diesen Synergiehinweisen werden {not} automatisch durch @:{'common.appName'} erzwungen. Bitte stellen Sie sicher, dass Sie alle im Spiel relevanten Effekte manuell anwenden.",
             "not": "NICHT",
             "coreBonusAvailable": "Kernbonus verfügbar",
@@ -1772,7 +1772,7 @@
             "missionLog": "Missionsprotokoll",
             "session": "Sitzung",
             "cont": "(FORT.)",
-            "gear": "//ZEUG",
+            "gear": "//AUSRÜSTUNG",
             "resource": "Ressource",
             "1d32": "[+1d3",
             "1d62": "[+1d6",
@@ -1804,7 +1804,39 @@
             "techAttack": "CYBERANGRIFF",
             "forcePilotRegistration": "Pilot:innenanmeldung erzwingen",
             "thisWillResetYourStressTo": "Dies wird Ihren Stress auf null setzen und eine neue Bürde hinzufügen. Fortfahren?",
-            "heatCapacity": "HITZEKAPAZITÄT"
+            "heatCapacity": "HITZEKAPAZITÄT",
+            "loadoutConfigurationExceedsAvailableFrameSyste": "Konfiguration überschreitet verfügbare Systemkapazität",
+            "selectPredefinedBackground": "Vordefinierten Hintergrund auswählen",
+            "generateRandomName": "Zufälligen Namen generieren",
+            "generateRandomCallsign": "Zufällige Kennung generieren",
+            "copyStatBlockToClipboard": "Statblock in Zwischenablage kopieren",
+            "printMechSheet": "Mech-Bogen drucken",
+            "returnToPilotSheet": "Zurück zu Pilot:innenbogen",
+            "removeCloneQuirk": "Besonderheit des Klons entfernen",
+            "addSkill": "Fertigkeit hinzufügen",
+            "thisProjectIsCompleteAndAvailableToUseAsAReserve": "Dieses Projekt wurde vollendet und kann als Reserve genutzt werden",
+            "increaseSkillBonus": "Fertigkeitsbonus erhöhen",
+            "decreaseSkillBonus": "Fertigkeitsbonus verringern",
+            "startThisPilotAtA": "Lässt diese:n Pilot:in auf einem bestimmten Lizenzlevel starten. Empfohlen für erfahrene Nutzer:innen.",
+            "thisWillCreateACopy": "Dies wird eine Kopie der Daten diese:r Pilot:in erstellen und in der Pilot:innenliste registrieren.",
+            "thisWillCloneTheSelected": "Dies wird den:die ausgewählte:n Pilot:in klonen. Geklonte Charaktere können keiner aktuellen Mission beitreten, und geklonte Charaktere erhalten eine zufällig bestimmte Besonderheit. Zusätzliche Klonvorgänge und Subjektivitätsüberschreibungen fügen weitere Besonderheiten hinzu.",
+            "addingThisItemAsA": "Wenn Sie dieses Element als rechnerferne Ressource hinzufügen, wird eine schreibgeschützte Version erzeugt, die mit den Originaldaten des:der Urheber:in verknüpft ist. Wenn eine Aktualisierung des Originals im @:{'common.appName'}-Cloudkonto gespeichert wird, erhält Ihre lokale Version diese Änderungen ebenfalls.",
+            "thisProjectIsComplexResourceintensive": "Dieses Projekt ist komplex, ressourcenintensiv, oder einfach schwierig zu vollenden",
+            "thisWillRemoveThisBondFrom": "Dies wird diesen Bund von dem:der Pilot:in entfernen und alle darin getroffenen Auswahlen zurücksetzen. Dieser Schritt kann nicht rückgängig gemacht werden. Fortfahren?",
+            "thisWillCloneTheSelectedPilot": "Dies wird den:die ausgewählte:n Pilot:in klonen. Geklonte Charaktere können keiner aktuellen Mission beitreten, und erhalten eine zufällig bestimmte Besonderheit. Zusätzliche Klonvorgänge und Subjektivitätsüberschreibungen fügen weitere Besonderheiten hinzu.",
+            "thisWillRestoreTheSelectedPilot": "Dies wird den:die ausgewählte:n Pilot:in wiederherstellen und den \"Gefallen\"-Status entfernen.",
+            "extendedHarness": "Erweiterter Harnisch",
+            "compConWasUnableToExport": "COMP/CON konnte die Pilot:innendaten nicht exportieren",
+            "operationalCapacitySignificantlyImpaired": "Leistungsfähigkeit erheblich eingeschränkt",
+            "pilotIsMissingOneOrMore": "Dem:der Pilot:in fehlen eine oder mehrere Lizenzen, die zum legalen Druck und Gebrauch dieser Konfiguration benötigt werden",
+            "oneOrMoreWeaponModsAre": "Einer oder mehrere Waffenmods wurden auf nicht kompatiblen Waffen installiert",
+            "mechHp": "MECH-TP",
+            "repairCapacity": "ERSATZTEILVERMÖGEN",
+            "electronicDefense": "ELEKTRONISCHE VERTEIDIGUNG",
+            "limitedSystemsBonus": "BONUS ZU BEGRENZTEN SYSTEMEN",
+            "hull": "Hülle",
+            "evasion": "AUSWEICHEN",
+            "speed": "GESCHWINDIGKEIT"
         },
         "import": {
             "importSuccessTitle": "Import erfolgreich",
@@ -1834,11 +1866,11 @@
             "deleteMech": "Mech löschen",
             "duplicateMech": "Mech duplizieren",
             "licensesRequired": "Benötigte Lizenzen",
-            "equipmentLoadout": "Ausrüstung",
+            "equipmentLoadout": "Konfiguration (Mech-Ausrüstung)",
             "cloneQuirks": "Besonderheiten des Klons",
             "addReservesAndBonuses": "Reserven und Boni hinzufügen",
             "reservesAndBonuses": "Reserven und Boni",
-            "gearLoadout": "Zeug-Ausstattung",
+            "gearLoadout": "Konfiguration (Pilot:innenausrüstung)",
             "skillTriggers": "Fertigkeitstrigger",
             "setPilotSkillTriggers": "Pilot:innen-Fertigkeitstrigger setzen",
             "setPilotCoreBonuses": "Pilot:innen-Herstellerspezialisierungen setzen",
@@ -1854,7 +1886,7 @@
             "setGroupEmblem": "Gruppenemblem setzen",
             "groupAlreadyExists": "Gruppe existiert bereits",
             "createPilotGroup": "Pilot:innengruppe erstellen",
-            "addNewLoadout": "Neue Ausstattung hinzufügen",
+            "addNewLoadout": "Neue Konfiguration hinzufügen",
             "changeItem": "Element wechseln",
             "setMaxUses": "Anzahl Nutzungen setzen",
             "removeItem": "Element entfernen",
@@ -1892,11 +1924,61 @@
             "strippedReactorShielding": "Gekürzte Reaktorschirmung",
             "licenseLevel": "Lizenzlevel",
             "spCost": "SP-Kosten",
-            "contentPack": "Inhaltspaket"
+            "contentPack": "Inhaltspaket",
+            "coreBonuses": "Herstellerspezialisierungen",
+            "full": "Volle",
+            "manufacturer": "Hersteller",
+            "size": "Größe",
+            "edef": "EVert",
+            "repcap": "Erstztl",
+            "techatk": "CybAngr",
+            "active": "Aktiv",
+            "inactive": "Inaktiv",
+            "retired": "Außer Dienst",
+            "unknown": "Unbekannt",
+            "pilot": "Pilot:in",
+            "ll": "LL",
+            "group": "Gruppe",
+            "rifle": "Gewehr",
+            "cannon": "Kanone",
+            "launcher": "Werfer",
+            "cqb": "CQB",
+            "nexus": "Nexus",
+            "melee": "Nahkampf",
+            "kinetic": "Kinetisch",
+            "energy": "Energie",
+            "explosive": "Explosiv",
+            "system": "System",
+            "tags": "Marken",
+            "range": "Reichweite",
+            "damage": "Schaden",
+            "eDefense": "E-Verteidigung",
+            "uses": "Nutzungen",
+            "biography": "Biographie",
+            "bond": "Bund",
+            "skills": "Fertigkeiten",
+            "levelUp": "Level Up",
+            "newPilotWizard": "Assistent zur Erstellung neuer Pilot:innen"
         },
         "fields": {
             "maximumStress": "Maximaler Stress",
-            "pilotStress": "Pilot:innenstress"
+            "pilotStress": "Pilot:innenstress",
+            "startingLicenseLevel": "Anfangs-Lizenzlevel",
+            "generate": "Erstellen",
+            "selectMech": "Mech auswählen",
+            "editPilotBonds": "Pilot:innenbünde bearbeiten",
+            "showAllFrames": "Alle Rahmen anzeigen",
+            "groupName": "Gruppenname",
+            "deletePilots": "Pilot:innen löschen",
+            "selectPilotDataFile": "Pilot:innendaten-Datei auswählen",
+            "setMaximumUses": "Anzahl Nutzungen setzen",
+            "resourceName": "Name der Ressource",
+            "projectName": "Name des Projekts",
+            "requirements": "Voraussetzungen",
+            "pilotXp": "pilot:innen-xp",
+            "nameOrCallsign": "Name oder Kennung…",
+            "jumpTo": "springen zu",
+            "project": "Projekt"
         },
         "misc": {
             "skipSTEP": "Schritt überspringen"
@@ -1943,6 +2025,29 @@
         "common": {
             "commaLl": ", LL",
             "installName": "{name} installieren"
+        },
+        "actions": {
+            "createAndModifyMechsAndTheirLoadouts": "Mechs und deren Konfigurationen erstellen und bearbeiten",
+            "pilotSkillTriggersReservesAnd": "Pilot:innen-Fertigkeitstrigger, Reserven, und Konfiguration (Pilot:innenausrüstung)",
+            "editLicenseLevel": "Lizenzlevel bearbeiten",
+            "thisPilotIsARemote": "Diese:r Pilot:in ist eine rechnerferne Ressource, der:die mit dem Konto eine:r anderen Nutzer:in verknüpft ist. Es ist schreibgeschützt, aber wird Aktualisierungen über das verknüpfte Konto erhalten.",
+            "pilotLicensesMechSkillsCore": "Pilot:innen-Lizenzen, Mech-Fertigkeiten, Herstellerspezialisierungen, und Talente"
+        },
+        "subtitles": {
+            "getAPlaintextRepresentationOfThisMechConfiguration": "Klartextversion dieser Mech-Konfiguration erhalten",
+            "removeMechFromTheHangar": "Mech aus dem Hangar entfernen",
+            "setPilotGroup": "Pilot:innengruppe setzen",
+            "exportALegacyFormatFor": "Als Legacyformat für VTT-Systeme und V2-Apps exportieren",
+            "convertThisPilotToAn": "Diese:n Pilot:in in eine editierbare lokale Dateninstanz konvertieren.",
+            "printATabletopreadyMechSheet": "Pen-and-Paper-bereiten Mech-Bogen ausdrucken",
+            "yourHullSkillDescribesYourAbility": "Ihre HÜLLEN-Fertigkeit beschreibt Ihre Fähigkeit, schwere, belastbare, und widerstandsfähige Mechs zu bauen und steuern",
+            "yourAgilitySkillDescribesYourAbility": "Ihre AGILITÄTS-Fertigkeit beschreibt Ihre Fähigkeit, schnelle und wendige Mechs zu bauen und steuern",
+            "yourSystemsSkillDescribesYourAbility": "Ihre SYSTEME-Fertigkeit beschreibt Ihre Fähigkeit, Mechs zur elektronischen Kriegsführung zu bauen und steuern",
+            "yourEngineeringSkillDescribesYourAbility": "Ihre TECHNIK-Fertigkeit beschreibt Ihre Fähigkeit, Mechs mit fortschrittlichen Reaktoren, Energie- und Munitionssystemen zu bauen und steuern"
+        },
+        "a11y": {
+            "dragToReorderGroup": "Durch Ziehen Gruppe neu anordnen",
+            "dragToReorder": "Durch Ziehen neu anordnen"
         }
     },
     "mainMenu": {
@@ -2886,7 +2991,127 @@
             "resultCount": "{count} Ergebnis | {count} Ergebnisse"
         },
         "titles": {
-            "heatcap": "Hitzekap"
+            "heatcap": "Hitzekap",
+            "equipmentTags": "Ausrüstungsmarken",
+            "repcap": "Erstztl",
+            "reference": "Verweis",
+            "notYetImplemented": "Noch nicht implementiert",
+            "importLancerCampaignData": "Lancer-Kampagnendaten importieren",
+            "developmentPreview": "Entwicklungs-Vorschau",
+            "noBondData": "Keine Bunddaten",
+            "noEidolonData": "Keine Eidolondaten",
+            "lancerBasics": "Lancer-Grundlagen",
+            "usingCompcon": "Benutzung von @:{'common.appName'}",
+            "narrativePlay": "Erzählendes Spiel",
+            "contentPack": "Inhaltspaket",
+            "tierI": "Rang I",
+            "tierIi": "Rang II",
+            "tierIii": "Rang III",
+            "licenseLevel": "Lizenzlevel",
+            "spCost": "SP-Kosten",
+            "manufacturer": "Hersteller",
+            "shards": "Scherben",
+            "size": "Größe",
+            "mounts": "Lafetten",
+            "edef": "EVert",
+            "techatk": "CybAngr",
+            "role": "Rolle",
+            "origin": "Ursprung",
+            "tags": "Marken",
+            "eDefense": "E-Verteidigung",
+            "range": "Reichweite",
+            "damage": "Schaden",
+            "uses": "Nutzungen",
+            "icon": "Symbol",
+            "system": "System",
+            "mechWeapons": "Mech-Waffen",
+            "mechSystems": "Mech-Systeme",
+            "skillTriggers": "Fertigkeitstrigger",
+            "npcClasses": "NSC-Klassen",
+            "npcFeatures": "NSC-Funktionen",
+            "npcTemplates": "NSC-Vorlagen",
+            "eidolonLayers": "Eidolonschichten",
+            "statusesConditions": "Status & Zustände",
+            "coreBonuses": "Herstellerspezialisierungen",
+            "pilotBackgrounds": "Pilot:innenhintergründe",
+            "downtimeActions": "Freizeitaktionen",
+            "referenceBasics": "Verweis: Grundlagen",
+            "referenceCompCon": "Verweis: COMP/CON",
+            "referencePilots": "Verweis: Pilot:innen",
+            "referenceMechs": "Verweis: Mechs",
+            "referenceCombat": "Verweis: Kampf",
+            "referenceNarrativePlay": "Verweis: Erzählendes Spiel",
+            "referenceErrata": "Verweis: Errata",
+            "referenceGlossary": "Verweis: Glossar",
+            "manufacturers": "Hersteller",
+            "frames": "Rahmen",
+            "glossary": "Glossar",
+            "downtimeactions": "FreizeitAktionen",
+            "bonds": "Bünde",
+            "environments": "Umgebungen",
+            "sitreps": "LAGEBERICHTE",
+            "lists": "Listen"
+        },
+        "categories": {
+            "equipmentTags": "Ausrüstungsmarken",
+            "frames": "Rahmen",
+            "mechWeapons": "Mech-Waffen",
+            "pilotBackground": "Pilot:innenhintergrund",
+            "environments": "Umgebungen",
+            "sitreps": "Lageberichte",
+            "downtimeActions": "Freizeitaktionen",
+            "npcFeatures": "NSC-Funktionen",
+            "npcTemplates": "NSC-Vorlagen",
+            "statusesConditions": "Status und Zustände",
+            "manufacturers": "Hersteller",
+            "npcClasses": "NSC-Klassen"
+        },
+        "returnToCompendium": "Zurück zum Kompendium",
+        "selectItem": "{name} auswählen",
+        "nav": {
+            "systemReference": "Systemverweise"
+        },
+        "reference": {
+            "iconGuide": "Leitfaden zu Symbolen",
+            "damageTables": "Schadenstabellen",
+            "mechActions": "Mech-Aktionen",
+            "pilotActions": "Pilot:innenaktionen",
+            "perTurn": "Pro Zug",
+            "fullAction": "Volle Aktion",
+            "or": "oder",
+            "twoQuickActions": "2 Schnelle Aktionen",
+            "statuses": "Status",
+            "glossary": "Glossar",
+            "faqErrata": "FAQ & Errata",
+            "pleaseNote": "Anmerkung",
+            "faqErrataNotice": "Diese FAQ und Errata sind von der Community erstellte Projekte und nicht Teil der offiziellen Massif Press @:{'common.gameName'}-Veröffentlichungen. Diese Seite erhält ihre FAQ-Daten aus dem {repoLink} auf GitHub, welches aktuell von lenaleciel instand gehalten wird. Dieses Dokument ist auch auf {siteLink} verfügbar.",
+            "lancerFaqRepo": "\"lancer-faq\"-Repository",
+            "lancerFaqSite": "lancer-faq.netlify.app/",
+            "bookPage": "{book}, S. {page}"
+        },
+        "content": {
+            "eidolonLayer": "Eidolonschicht",
+            "frameSuffix": "{type}-Rahmen"
+        },
+        "campaign": {
+            "errNoCampaign": "Err: keine Kampagne geladen",
+            "developmentPreview": "Kampagnen sind aktuell noch in Entwicklung und werden frühestens mit V3.1 veröffentlicht. Diese Vorschau sollte zu Testzwecken ignoriert werden, aber die aktuell verfügbaren Funktionen dürfen gerne erkundet werden.",
+            "noCampaignsFound": "Keine Kampagnen gefunden",
+            "importHint": "Kampagnen können über den Datenimport oder das Lancer-Kampagnenverzeichnis importiert werden",
+            "newVersionAvailable": "Eine neue Version dieser Kampagne ist verfügbar. Klicken Sie auf die Aktualisierung unten, um die neueste Verson dieser Kampagne herunterzuladen und zu installieren.",
+            "updateCampaign": "Kampagne aktualisieren",
+            "removeFromCollection": "Aus Sammlung entfernen",
+            "removeConfirm": "Dies wird diese Kampagne aus Ihrer Sammlung entfernen. Sind Sie sich sicher?",
+            "openCampaign": "Kampagne öffnen",
+            "recommendedPlayers": "Empfohlene Spieleranzahl",
+            "recommendedLicenseLevel": "Empfohlenes Lizenzlevel",
+            "campaignWebsite": "Website der Kampagne ({url})",
+            "openInReader": "Im Leser öffnen",
+            "sortByTitle": "Nach Titel sortieren",
+            "sortByAuthor": "Nach Urheber:in sortieren",
+            "sortBySuggestedPlayers": "Nach empfohlener Spieleranzahl sortieren",
+            "sortByLicenseLevel": "Nach Lizenzlevel sortieren",
+            "lancerCampaignDirectory": "@:{'common.gameName'}-Kampagnenverzeichnis"
         }
     },
     "notify": {
@@ -2913,13 +3138,16 @@
         },
         "fields": {
             "fromContentPack": "Aus dem Inhaltspaket",
-            "attackType": "Angriffstyp"
+            "attackType": "Angriffstyp",
+            "equipmentNotes": "Ausrüstungsnotizen"
         },
         "alt": {
             "packImage": "Paketbild"
         },
         "card": {
-            "weaponAttacks": "Diese Waffe kann {count} Angriffe auf einmal machen. Mehrfachangriffe dürfen auf dasselbe Ziel oder unterschiedliche Ziele gerichtet sein."
+            "weaponAttacks": "Diese Waffe kann {count} Angriffe auf einmal machen. Mehrfachangriffe dürfen auf dasselbe Ziel oder unterschiedliche Ziele gerichtet sein.",
+            "equipmentActions": "Ausrüstungs-Aktionen",
+            "equipmentDeployables": "Einsetzbares der Ausrüstung"
         },
         "combat": {
             "noAttackRolled": "Kein Angriff gewürfelt",
@@ -2932,7 +3160,11 @@
         "widget": {
             "glossary": {
                 "heatLabel": "HITZE:",
-                "heatDescription": "Hitze ist ein besonderer Schadenstyp, der nicht als Schaden zählt und PANZERUNG ignoriert, aber durch WIDERSTAND reduziert werden kann. Sie repräsentiert Schaden an den internen Systemen und dem Reaktor eines Mechs. Meistens wird sie durch Cyberangriffe zugefügt, kann aber auch durch die eigenen Systeme eines Mechs zugefügt werden. Wenn ein Mech seine HITZEKAPAZITÄT erreicht, führt jegliche weitere Hitze zu einer Überhitzung. Falls ein Charakter ohne HITZEKAPAZITÄT (wie z.B. BIOLOGISCHE Charaktere oder einige DROHNEN) Hitze erhalten würde, nimmt dieser stattdessen dieselbe Menge an Energieschaden."
+                "heatDescription": "Hitze ist ein besonderer Schadenstyp, der nicht als Schaden zählt und PANZERUNG ignoriert, aber durch WIDERSTAND reduziert werden kann. Sie repräsentiert Schaden an den internen Systemen und dem Reaktor eines Mechs. Meistens wird sie durch Cyberangriffe zugefügt, kann aber auch durch die eigenen Systeme eines Mechs zugefügt werden. Wenn ein Mech seine HITZEKAPAZITÄT erreicht, führt jegliche weitere Hitze zu einer Überhitzung. Falls ein Charakter ohne HITZEKAPAZITÄT (wie z.B. BIOLOGISCHE Charaktere oder einige DROHNEN) Hitze erhalten würde, nimmt dieser stattdessen dieselbe Menge an Energieschaden.",
+                "rangeDesc": {
+                    "equipmentAffects": "Ausrüstung mit einem {pattern}-Angriffsmuster wirkt auf {area}."
+                },
+                "intro": "Diese Ausrüstung fügt <b>{value}</b> {type}schaden zu"
             }
         },
         "titles": {
@@ -2941,10 +3173,20 @@
             "heatDamage": "Hitzeschaden",
             "heatcap": "Hitzekap",
             "heat": "Hitze",
-            "externalDataWarning": "Externe Datenwarnung"
+            "externalDataWarning": "Externe Datenwarnung",
+            "gear": "Ausrüstung"
         },
         "coreBonus": {
-            "instancedWarning": "{warning} Dies ist ein instanziertes Element. Falls sie entfernt wird, ist diese Herstellerspezialisierung nicht mehr verfügbar, bis die damit verbundene LCP installiert wird."
+            "instancedWarning": "{warning} Dies ist ein instanziertes Element. Falls sie entfernt wird, ist diese Herstellerspezialisierung nicht mehr verfügbar, bis die damit verbundene LCP installiert wird.",
+            "integrated": "Durch Herstellerspezialisierung integrierte Ausrüstung",
+            "additional": "Durch Herstellerspezialisierung zusätzliche Ausrüstung"
+        },
+        "ref": {
+            "equipmentTagDetail": "Details zu Ausrüstungsmarken"
+        },
+        "corePanel": {
+            "integrated": "Kernintegrierte Ausrüstung",
+            "special": "Kern-Spezialausrüstung"
         }
     },
     "enums": {
