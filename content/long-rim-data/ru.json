@@ -2,5 +2,6 @@
     "mf_atlas.name": "Атлас",
     "mf_caliban.name": "Калибан",
     "mf_caliban.core_system.name": "Дробовик \"Живодёр\"",
-    "mw_caliban_integrated.name": "Дробовик HHS-075 \"Живодёр\""
+    "mw_caliban_integrated.name": "Дробовик HHS-075 \"Живодёр\"",
+    "ms_unhinge_chronoflow.action_slow.name": "Замедлить"
 }
