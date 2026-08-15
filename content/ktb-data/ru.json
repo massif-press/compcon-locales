@@ -14,5 +14,8 @@
     "mf_white_witch.trait_guardian.description": "Союзники, находящиеся рядом с этим мехом, могут заявить, что находятся в полном укрытии.",
     "mf_white_witch.trait_guardian.active_effect_guardian.detail": "Союзники, находящиеся рядом с вами, могут заявить, что находятся в полном укрытии.",
     "mf_black_witch_alt_orchidea.trait_royal_guard.active_effect_royal_guard.name": "Королевская стража",
-    "mf_black_witch_alt_orchidea.trait_royal_guard.name": "Королевская стража"
+    "mf_black_witch_alt_orchidea.trait_royal_guard.name": "Королевская стража",
+    "mw_retort_loop.profile_1_charge.name": "1 заряд",
+    "mw_retort_loop.profile_2_charges.name": "2 заряда",
+    "mw_retort_loop.profile_3_charges.name": "3 заряда"
 }
