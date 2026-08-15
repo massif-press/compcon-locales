@@ -21,5 +21,6 @@
     "ctr_jolly_roger.name": "Весёлый Роджер",
     "mf_kidd.core_system.passive_effect_jolly_roger.name": "Весёлый Роджер",
     "mf_kidd.core_system.passive_name": "Весёлый Роджер",
-    "t_empath.name": "Эмпат"
+    "t_empath.name": "Эмпат",
+    "mf_swallowtail_alt_swallowtail_ranger_variant.trait_weathering.active_effect_weathering.detail": "Вы игнорируете штраф к передвижению по труднопроходимой местности."
 }
