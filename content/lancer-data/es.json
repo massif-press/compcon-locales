@@ -93,5 +93,19 @@
     "act_prepare.name": "Preparar",
     "act_prepare.terse": "Preparar una acción rápida por una acción determinada. Hasta el inicio del siguiente turno cuando se activa, puedes tomar la acción preparada como una reacción. Tú preparación cuenta como tomar una acción, así que sigue todas las restricciones normales de la acción o múltiples acciones.",
     "act_quick_tech.name": "Ataque Tecnológico Rápido",
-    "act_overcharge.detail": "Cuando SOBRECARGAS, llevas a tu meca durante un instante más allá de las especificaciones de fábrica para obtener una ventaja táctica. Unos instantes de acción intensa no afectarán demasiado a los sistemas de tu meca, pero una acción sostenida por encima de los límites prescritos conlleva un precio. <br>Puedes SOBRECARGAR tu meca una vez por turno, lo que te permite efectuar una acción rápida cualquiera como acción gratuita, incluso acciones que ya hayas llevado a cabo ese turno.<br> La primera vez que SOBRECARGUES acumulas 1 .<br>La segunda vez que SOBRECARGUES, acumulas 1d3 .<br>La tercera vez acumulas 1d6 , y a partir de ese momento, cada vez que SOBRECARGUES acumulas 1d6+4 .<br>Una REPARACIÓN COMPLETA restablece este contador."
+    "act_overcharge.detail": "Cuando SOBRECARGAS, llevas a tu meca durante un instante más allá de las especificaciones de fábrica para obtener una ventaja táctica. Unos instantes de acción intensa no afectarán demasiado a los sistemas de tu meca, pero una acción sostenida por encima de los límites prescritos conlleva un precio. <br>Puedes SOBRECARGAR tu meca una vez por turno, lo que te permite efectuar una acción rápida cualquiera como acción gratuita, incluso acciones que ya hayas llevado a cabo ese turno.<br> La primera vez que SOBRECARGUES acumulas 1 .<br>La segunda vez que SOBRECARGUES, acumulas 1d3 .<br>La tercera vez acumulas 1d6 , y a partir de ese momento, cada vez que SOBRECARGUES acumulas 1d6+4 .<br>Una REPARACIÓN COMPLETA restablece este contador.",
+    "act_ram.name": "Embestir",
+    "act_reload.name": "Recargar",
+    "act_reload.terse": "Recargar un arma como piloto.",
+    "act_quick_tech.terse": "Ejecutas acciones rápidas de guerra electrónica o de potenciación de sistemas.",
+    "act_scan.name": "Escanear",
+    "act_scan.terse": "Realizas un escaneo en profundidad de un enemigo",
+    "act_search_pilot.detail": "Para BUSCAR con un piloto a pie, haz una tirada de habilidad añadiendo como de costumbre las bonificaciones de desencadenantes apropiadas. Esto se puede usar para revelar personajes situados dentro de ALCANCE 5.<br>Una vez que un personaje OCULTO haya sido localizado usando BUSCAR perderá el estado OCULTO de inmediato y podrá ser localizado de nuevo por cualquier personaje.",
+    "act_search_pilot.name": "Buscar",
+    "act_search_pilot.terse": "Buscas un objetivo oculto.",
+    "act_search.detail": "Cuando BUSCAS, intentas identificar personajes OCULTOS. Para BUSCAR con un meca, elige un personaje dentro de tu alcance de sensores que sospeches que está OCULTO y haz una tirada enfrentada de SISTEMAS contra su AGILIDAD.<br>Una vez que un personaje OCULTO haya sido localizado usando BUSCAR perderá el estado OCULTO de inmediato y podrá ser localizado de nuevo por cualquier personaje.",
+    "act_search.name": "Buscar",
+    "act_search.terse": "Buscas un objetivo oculto.",
+    "act_self_destruct.name": "Autodestrucción",
+    "act_self_destruct.terse": "Sobrecargas el reactor del meca para que entre en estado crítico y explote como última opción."
 }
