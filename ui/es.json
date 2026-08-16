@@ -791,7 +791,7 @@
             "missingContent": "Contenido del DJ Faltante"
         },
         "narrative": {
-            "itemTypePlural": "",
+            "itemTypePlural": "({type})",
             "additionalDetail": "Detalle adicional",
             "clocks": "Relojes",
             "viewCollections": "Ver Colecciones"
