@@ -2595,7 +2595,7 @@
             "resetConfirm": "Dies wird alle Statistiken auf R{tier} {name} Standardwerte zurücksetzen. Sind Sie sicher?",
             "confirmResetStats": "Zurücksetzung der Statistiken bestätigen",
             "addStat": "Statistik hinzufügen",
-            "custom": "Eigene:s"
+            "custom": "Eigene Auswahl"
         },
         "npcAlert": {
             "selectUpTo": "Sie dürfen bis zu {n} zusätzliche Funktion auswählen | Sie dürfen bis zu {n} zusätzliche Funktionen auswählen",
