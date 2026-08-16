@@ -600,11 +600,13 @@
             "foundFixable": "Hallado {count} problema reparable | Hallados {count} problemas reparables",
             "andRequiringManual": " y {count} problema que requiere medidas manuales | y {count} problemas que requieren medidas manuales",
             "applyFixesButton": "Aplicar {count} Reparación | Aplicar {count} Reparaciones",
-            "colItem": "@:{'common.item'}"
+            "colItem": "@:{'common.item'}",
+            "cancel": "@:{'common.cancel'}"
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
-            "recentSearches": "búsquedas recientes"
+            "recentSearches": "búsquedas recientes",
+            "search": "@:{'common.search'}"
         },
         "achievementItem": {
             "hiddenNote": "Este logro está oculto y será revelado una vez desbloqueado",
@@ -810,10 +812,10 @@
             "deleteHistory": "Eliminar Historia (v.{ver})"
         },
         "pageContent": {
-            "h1": "",
+            "h1": "H1",
             "h2": "H2",
-            "h3": "",
-            "h4": "",
+            "h3": "H3",
+            "h4": "H4",
             "hideTitle": "Ocultar el Título",
             "tonal": "Tonal",
             "deleteItemConfirm": "¿Quieres eliminar este artículo? Esta acción no se puede deshacer.",
@@ -1793,7 +1795,7 @@
             "round": "Ronda",
             "observer": "OBSERVADOR",
             "pilot": "Piloto",
-            "reactor": "",
+            "reactor": "Reactor",
             "activations": "Activaciones",
             "exposed": "Expuesto",
             "shredded": "Desgarrado",
@@ -2285,7 +2287,9 @@
             "every60Minutes": "Cada 60 Minutos",
             "pilotData": "Datos del Piloto",
             "npcData": "Datos PNJ",
-            "narrativeData": "Datos Narrativos"
+            "narrativeData": "Datos Narrativos",
+            "lcp": "LCP",
+            "lcps": "LCPs"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
@@ -2458,7 +2462,8 @@
             "rm404ATTACHEDBIOGRAPHICALDOSSIER": "RM-4-04 // ARCHIVO BIOGRÁFICO ADJUNTO (SUPLEMENTO RM-4b)",
             "prmALTQUICKACCESSSELECTION": "Prm-alt selección de acceso rápido",
             "mechARTCOURTESYOF": "Arte de Mecha cortesía de",
-            "gmsEVEREST": "GMS everest"
+            "gmsEVEREST": "GMS everest",
+            "i": "I"
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
@@ -2572,7 +2577,12 @@
             "ll": "NL",
             "str": "FUE",
             "callsignAVAILABLE": "Apodo disponible",
-            "gmsSTANDARDPILOTSLICENSE": "licencia de piloto GMS estándar"
+            "gmsSTANDARDPILOTSLICENSE": "licencia de piloto GMS estándar",
+            "cfg": "./cfg",
+            "hangar": "Hangar",
+            "ndlC": "//NDL-C-",
+            "err": "ERR",
+            "pbOhmC": "PB]] :: OHM c//"
         },
         "print": {
             "pilotSheetOptions": "Opciones Hoja de Piloto",
@@ -2620,7 +2630,14 @@
             "atk": "ATQ",
             "slashesLl": "// NL",
             "techAtk": "Tecno Atq",
-            "maxParen": "({n} máx)"
+            "maxParen": "({n} máx)",
+            "1d3": "+1d3",
+            "1d6": "+1d6",
+            "1d64": "+1d6+4",
+            "cont": "(CONT.)",
+            "1d32": "[+1d3",
+            "1d62": "[+1d6",
+            "1d642": "[+1d6+4"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
@@ -2874,7 +2891,8 @@
             "sys": "Sis",
             "eng": "Ing",
             "pilotBiography": "Biografía Piloto",
-            "pilotAppearance": "Apariencia Piloto"
+            "pilotAppearance": "Apariencia Piloto",
+            "agi": "Agi"
         },
         "common": {
             "commaLl": ", NL",
@@ -3115,11 +3133,12 @@
             "syncCompleteTitle": "Sincronización Completada",
             "syncCompleteText": "{name} sincronizado con la nube.",
             "syncInProgressText": "Por favor, espere que la sincronización actual se complete.",
-            "syncInProgressTitle": "Sincronización en Progreso"
+            "syncInProgressTitle": "Sincronización en Progreso",
+            "syncFailedText": "{err}"
         },
         "common": {
             "copied": "Copiado",
-            "error": "",
+            "error": "Error",
             "success": "Éxito"
         },
         "dataItem": {
@@ -3156,7 +3175,7 @@
         "evasion": "Evasión",
         "armor": "Armadura",
         "hp": "PG",
-        "agi": "",
+        "agi": "AGI",
         "engineering": "Ingeniería",
         "systems": "Sistemas",
         "speed": "Velocidad",
@@ -3385,14 +3404,19 @@
                     "whatThrown": "un arma arrojadiza puede ser usada",
                     "areaCone": "personajes en un cono de X espacios de largo y x de ancho desde su punto mas alejado",
                     "areaBlast": "personajes dentro de un radio de X espacios, trazados desde un punto dentro de RANGO y con el centro de la explosión sobre o adyacente al atacante",
-                    "areaBurst": "personajes dentro de un radio de X espacios, centrado en el espacio ocupado por el atacante e incluyéndolo"
+                    "areaBurst": "personajes dentro de un radio de X espacios, centrado en el espacio ocupado por el atacante e incluyéndolo",
+                    "equipmentAffects": "Los equipos con un patrón de ataque {pattern} afectan {area}",
+                    "areaLine": "todos los objetivos en una linea recta, de X casillas de largo. Un ataque por separado es realizado contra cada objetivo en la linea."
                 },
                 "intro": "Este equipo provoca <b>{value}</b> {type}",
                 "heatLabel": "Calor:",
                 "heatDescription": "El calor es un tipo especial de daño que no cuenta como daño e ignora el BLINDAJE, aunque puede verse afectado por la RESISTENCIA. Representa daño a los sistemas internos y el reactor de un meca. La mayoría de las veces se produce como consecuencia de ataques de guerra electrónica, pero a menudo lo generan los propios sistemas de un meca. Un meca que sufre calor lo marca en su ficha. Cuando acumule una cantidad igual a su CAPACIDAD CALORÍFICA, cualquier cantidad de calor adicional hará que se sobrecaliente. El sobrecalentamiento se describe de forma más detallada en la página 78. Si un personaje sin CAPACIDAD CALORÍFICA (como por ejemplo los personajes BIOLÓGICOS y los DRONES) sufre calor, en lugar de ello sufrirá la misma cantidad en daño energético .",
                 "burnLabel": "Daño Incendiario:",
-                "burnDescription": "Algunas armas provocan daño incendiario (que provoca daño adicional con el paso del tiempo). El daño incendiario puede representar llamas, plasma abrasador, ácido o algo más insidioso, como un enjambre de nanobots desensambladores.<br>Cuando un personaje sufre , este tiene dos efectos: primero recibe daño inmediatamente ignorando el BLINDAJE, y luego marca en su hoja el daño incendiario que acaba de recibir. Al final de su turno, un personaje con daño incendiario debe superar una tirada de INGENIERÍA. Si la supera, elimina de la hoja todo el daño incendiario que tenga marcado; de lo contrario sufrirá una cantidad de daño igual a la cantidad de daño incendiario marcado en ese momento. El daño incendiario de otras fuentes se añade al total actual de puntos de Daño Incendiario."
-            }
+                "burnDescription": "Algunas armas provocan daño incendiario (que provoca daño adicional con el paso del tiempo). El daño incendiario puede representar llamas, plasma abrasador, ácido o algo más insidioso, como un enjambre de nanobots desensambladores.<br>Cuando un personaje sufre , este tiene dos efectos: primero recibe daño inmediatamente ignorando el BLINDAJE, y luego marca en su hoja el daño incendiario que acaba de recibir. Al final de su turno, un personaje con daño incendiario debe superar una tirada de INGENIERÍA. Si la supera, elimina de la hoja todo el daño incendiario que tenga marcado; de lo contrario sufrirá una cantidad de daño igual a la cantidad de daño incendiario marcado en ese momento. El daño incendiario de otras fuentes se añade al total actual de puntos de Daño Incendiario.",
+                "rangeText": "{type} {value}",
+                "rangeTextBonus": "{type} {value} (+{bonus})"
+            },
+            "versionLabel": "v{version}"
         },
         "ref": {
             "equipmentTagDetail": "Detalle chapa de Equipo",
@@ -3578,7 +3602,12 @@
             "clickAddBonus": "Haga clic para agregar Bonificación de Daño",
             "resistanceType": "tipo de resistencia",
             "saveHalf": "Salva la Mitad",
-            "removeSpecialCondition": "quitar condición especial"
+            "removeSpecialCondition": "quitar condición especial",
+            "d20": "1d20",
+            "d20Plus": "1d20 +",
+            "vsStat": "vs {stat}",
+            "vs": "VS",
+            "diceD": "d"
         }
     },
     "enums": {
@@ -3601,11 +3630,12 @@
         "orgType": {
             "political": "Política",
             "entertainment": "Entretenimiento",
-            "industrial": "",
+            "industrial": "Industrial",
             "humanitarian": "Humanitaria",
             "academic": "Académica",
             "scientific": "Cientifica",
-            "military": "Militar"
+            "military": "Militar",
+            "criminal": "Criminal"
         },
         "reserveType": {
             "bonus": "Bono",
@@ -3665,7 +3695,10 @@
             "heavy": "Pesada",
             "main": "Principal",
             "superheavy": "Superpesada",
-            "main_aux": "Principal/Aux"
+            "main_aux": "Principal/Aux",
+            "aux_aux": "Aux/Aux",
+            "aux": "Aux",
+            "flex": "Flex"
         },
         "weaponSize": {
             "heavy": "Pesada",
@@ -3689,7 +3722,8 @@
             "kinetic": "Cinético",
             "aoe": "AdE",
             "burn": "Incendiario",
-            "applied_burn": "Incendio Infligido"
+            "applied_burn": "Incendio Infligido",
+            "variable": "Variable"
         }
     },
     "compendium": {
@@ -3788,7 +3822,9 @@
             "glossary": "Glosario",
             "pleaseNote": "Por favor tenga en cuenta",
             "faqErrataNotice": "Este PF y Erratas es un proyecto impulsado por la comunidad y no forma parte de un lanzamiento oficial de Massif Press @:{'common.gameName'}. Esta página está alimentada por datos de preguntas frecuentes del {repoLink} en GitHub, actualmente mantenido por lenaleciel. Este documento también está disponible en {siteLink}.",
-            "lancerFaqRepo": "repositorio de lancer-faq"
+            "lancerFaqRepo": "repositorio de lancer-faq",
+            "lancerFaqSite": "lancer-faq.netlify.app/",
+            "bookPage": "{book}, p. {page}"
         },
         "search": {
             "resultCount": "{count} resultado | {count} resultados"
