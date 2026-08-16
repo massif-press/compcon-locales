@@ -1,8 +1,8 @@
 {
     "common": {
         "cancel": "Cancelar",
-        "appName": "",
-        "gameName": "",
+        "appName": "COMP/CON",
+        "gameName": "LANCER",
         "save": "Guardar",
         "close": "Cerrar",
         "delete": "Eliminar",
@@ -178,7 +178,10 @@
         "callsign": "Apodo",
         "overshield": "Escudo Temporal",
         "overview": "Descripción General",
-        "techAttack": "Tecno Ataque"
+        "techAttack": "Tecno Ataque",
+        "sitrep": "REPSI",
+        "eidolon": "Eidolón",
+        "shiftEnterNewline": "Shift + Enter para nueva línea de texto"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -230,16 +233,20 @@
             "installLcp": "Instalar Archivo .LCP",
             "deletePackConfirm": "Esto eliminará este paquete y todo su contenido de @:{'common.appName'}. Los datos de usuario que se basan en este contenido seguirán disponibles. ¿Seguro que quiere continuar?",
             "noPacksInstalled": "No hay paquetes de contenido instalados.",
-            "addContent": "",
-            "removeContent": "",
-            "contentConfig": "Config. de Contenido"
+            "addContent": "@:{'common.addContent'}",
+            "removeContent": "@:{'common.remove'}",
+            "contentConfig": "Config. de Contenido",
+            "title": "@:{'common.contentManager'}",
+            "contentPacks": "@:{'common.contentPacks'}",
+            "lcpDirectory": "@:{'common.lcpDirectory'}",
+            "updateAll": "@:{'common.updateAll'}"
         },
         "settings": {
             "reset": "Restablecer valores predeterminados",
             "importData": "Importar Datos",
             "exportData": "Exportar todos los datos",
-            "title": "",
-            "clearData": ""
+            "title": "@:{'common.settings'}",
+            "clearData": "@:{'common.clearAllData'}"
         },
         "v2Import": {
             "deleteTitle": "Eliminar Respaldo",
@@ -255,8 +262,8 @@
             "panelTitle": "Importaciones V2 pendientes",
             "importAll": "Importar todo",
             "moreCount": "+{count} más",
-            "forceImportPanelTitle": "",
-            "confirmForceImport": ""
+            "forceImportPanelTitle": "@:{'common.forceImport'}",
+            "confirmForceImport": "@:{'common.forceImport'}"
         },
         "nav": {
             "navigateForward": "Navegar hacia adelante",
@@ -275,8 +282,14 @@
             "storageDetails": "Hay más detalles disponibles en la pestaña <b>Almacenamiento</b> del Menú de Opciones.",
             "supportCompcon": "Soporte @:{'common.appName'}",
             "encounters": "Encuentros",
-            "mainMenu": "",
-            "navigateBack": "Navegar de Vuelta"
+            "mainMenu": "@:{'common.mainMenu'}",
+            "navigateBack": "Navegar de Vuelta",
+            "compendium": "@:{'common.compendium'}",
+            "activeMode": "@:{'common.activeMode'}",
+            "cloudAccount": "@:{'common.cloudAccount'}",
+            "manageContent": "@:{'common.manageContent'}",
+            "options": "@:{'common.options'}",
+            "credits": "@:{'common.credits'}"
         },
         "help": {
             "faq": "Preguntas Más Frecuentes",
@@ -302,8 +315,8 @@
             "additionalHelp": "Ayuda adicional",
             "downloadDemo": "Descargar demo",
             "showExoticsToggleLabel": "\"Mostrar elementos exóticos en el Compendio\"",
-            "lcpDirectory": "",
-            "optionsLabel": ""
+            "lcpDirectory": "@:{'common.lcpDirectory'}",
+            "optionsLabel": "@:{'common.options'}"
         },
         "credits": {
             "with": "Con",
@@ -346,10 +359,11 @@
             "progress": "{count} de {total} desbloqueado",
             "othersCount": "(+{count} otros)",
             "cannotBeUndoneFull": "Este {emphasis} será deshecho. Es muy recomendable crear una copia de seguridad primero.",
-            "hidden": "",
+            "hidden": "@:{'common.hidden'}",
             "sort": "Ordenar",
-            "selectAll": "",
-            "none": ""
+            "selectAll": "@:{'common.selectAll'}",
+            "none": "@:{'common.none'}",
+            "name": "@:{'common.name'}"
         },
         "settingsPage": {
             "errorReporting": "Error al Reportar",
@@ -388,7 +402,10 @@
             "v2AppendNote": "las importaciones de copia de seguridad v2 siempre se procesan utilizando la estrategia de \"apéndice\".",
             "showDesktopTablesTooltip": "Por defecto, @:{'common.appName'} muestra una vista simplificada de las tablas de Compendio en dispósitivos móviles para mejorar la legibilidad y desempeño. Activar esta opción mostrará la versión completa de escritorio de las tablas en todos los dispositivos. Esto puede hacer que algunas tablas sean difíciles de leer o causar problemas de desempeño en algunos dispositivos móviles.",
             "showDesktopTablesLabel": "Forzar Tablas completas del Compendio",
-            "errorReportingPrefix": "Error al reportar"
+            "errorReportingPrefix": "Error al reportar",
+            "logLevelLabel": "@:{'common.logLevel'}",
+            "logLevel": "@:{'common.logLevel'}",
+            "confirmImport": "@:{'common.confirmImport'}"
         },
         "storage": {
             "userData": "Datos del usuario",
@@ -416,7 +433,7 @@
             "neverAutoDelete": "eliminar automáticamente los datos marcados para la eliminación.",
             "cannotBeUndone": "deshacerse.",
             "deleteAllUserData": "Eliminar todos los datos de usuario",
-            "clearAllData": "",
+            "clearAllData": "@:{'common.clearAllData'}",
             "deleteAllConfirm": "TODOS"
         },
         "deletedItems": {
@@ -427,13 +444,14 @@
             "itemName": "Nombre de Artículo",
             "permanentlyDeleteAll": "Eliminar Todo Permanentemente",
             "permanentlyDelete": "Eliminar permanentemente",
-            "restore": ""
+            "restore": "@:{'common.restore'}"
         },
         "userDataViewer": {
             "value": "Valor",
             "description": "Estos son los datos de usuario almacenados localmente. Estos artículos generalmente no deben ser reiniciados, pero pueden ser útiles para depurar o aclarar un problema de carga persistente.",
             "achievementNote": "Reiniciar Datos de Usuario no restablecerá los logros desbloqueados (eso puede hacerse en el Explorador de Logros).",
-            "resetUserData": "Restablecer datos de usuario"
+            "resetUserData": "Restablecer datos de usuario",
+            "item": "@:{'common.item'}"
         },
         "packInstall": {
             "install": "Instalar",
@@ -466,7 +484,8 @@
             "clickHere": "presione aquí.",
             "communityNotice": "La descarga dentro de aplicaciones y la suscripción automática a las actualizaciones de LCP de la comunidad aún no son soportadas . Una vez disponibles las herramientas de soporte del autor, los LCP comunitarios serán migrados a v3 y podrán aprovechar los mismos mecanismos de actualización y suscripción que los paquetes oficiales de contenido de Massif Press. Siga el {blog} para mantenerse al día en el progreso.",
             "content": "Contenido",
-            "developmentBlog": "bitácora de desarrollo"
+            "developmentBlog": "bitácora de desarrollo",
+            "massifPress": "Massif Press"
         },
         "packInfo": {
             "v2ContentTitle": "Contenido v2",
@@ -476,15 +495,16 @@
             "authorsWebsite": "Sitio web del autor",
             "dependencyInstalled": "Dependencia instalada",
             "contentHeading": "Contenido",
-            "changelog": "",
-            "noDescription": "",
-            "none": "",
+            "changelog": "@:{'common.changelog'}",
+            "noDescription": "@:{'ui.widget.noDescription'}",
+            "none": "@:{'common.none'}",
             "patchByAuthor": "por {translator}",
             "removePatch": "Quitar parche",
             "languagePatches": "Parches de Idioma",
             "languagePatchesTooltip": "Traducciones comunitarias instaladas para este paquete de contenido. Aplicadas cuando su idioma es seleccionado.",
             "patchUnknownAuthor": "Traductor desconocido",
-            "patchOutdated": "Esta traducción fue escrita para la versión {version} del paquete y puede ser obsoleta."
+            "patchOutdated": "Esta traducción fue escrita para la versión {version} del paquete y puede ser obsoleta.",
+            "version": "@:{'common.version'}"
         },
         "communityTable": {
             "noData": "No hay paquetes de contenido disponibles.",
@@ -497,30 +517,34 @@
             "payWhatYouWant": "Pague lo que quiera",
             "itchStorePage": "Página de la Tienda itch.io",
             "free": "Libre",
-            "currentVersion": "Versión actual"
+            "currentVersion": "Versión actual",
+            "authorsWebsite": "@:{'nav.packInfo.authorsWebsite'}"
         },
         "roster": {
             "newPilot": "Nuevo Piloto",
             "importPilot": "Importar Piloto",
             "clonePilot": "Clonar Piloto",
-            "deletePilot": ""
+            "deletePilot": "@:{'common.deletePilot'}",
+            "title": "@:{'common.pilotRoster'}"
         },
         "about": {
             "lancerCoreVersion": "Versión de @:{'common.gameName'} CORE",
             "description": "@:{'common.appName'} es una herramienta digital gratuita de código abierto, y asistente de juego para construir y jugar @:{'common.gameName'} TTRPG.",
             "coreBookInfo": "El libro BASE @:{'common.gameName'} , @:{'common.appName'}, y el contenido asociado se pueden encontrar en",
             "ccVersion": "Versión C/C",
-            "title": ""
+            "title": "@:{'common.appName'}"
         },
         "log": {
             "trace": "Rastro",
             "copiedToClipboard": "Entrada de labitácora copiada al portapapeles",
-            "noData": "",
+            "noData": "@:{'common.noData'}",
             "caller": "Llamado por",
             "clearLog": "Limpiar Bitácora",
             "session": "Sesión",
             "exportThisSession": "Exportar Bitácora de Esta Sesión",
-            "exportAllSessions": "Exportar Bitácora de Todas las Sesiones"
+            "exportAllSessions": "Exportar Bitácora de Todas las Sesiones",
+            "logLevel": "@:{'common.logLevel'}",
+            "error": "Error"
         },
         "packConfig": {
             "title": "Configuraciones de Contenido",
@@ -537,8 +561,8 @@
             "deleteConfig": "Eliminar esta configuración",
             "editConfig": "Editar esta configuración",
             "lcpsSuffix": "{list} LCPs",
-            "lancerCoreBook": "",
-            "byAuthor": ""
+            "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
+            "byAuthor": "@:{'common.byAuthor'}"
         },
         "v2Auto": {
             "v2Data": "Datos V2",
@@ -575,7 +599,8 @@
             "catNpcStats": "Estadísticas PNJ",
             "foundFixable": "Hallado {count} problema reparable | Hallados {count} problemas reparables",
             "andRequiringManual": " y {count} problema que requiere medidas manuales | y {count} problemas que requieren medidas manuales",
-            "applyFixesButton": "Aplicar {count} Reparación | Aplicar {count} Reparaciones"
+            "applyFixesButton": "Aplicar {count} Reparación | Aplicar {count} Reparaciones",
+            "colItem": "@:{'common.item'}"
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
@@ -601,7 +626,8 @@
         },
         "optionsPage": {
             "tabStorage": "Almacenamiento",
-            "tabLog": "Bitácora"
+            "tabLog": "Bitácora",
+            "tabSettings": "@:{'common.settings'}"
         },
         "packsList": {
             "activated": "activado",
@@ -631,7 +657,8 @@
             "version": "Versión",
             "type": "Tipo",
             "missing": "Faltante",
-            "never": "Nunca"
+            "never": "Nunca",
+            "lcp": "LCP"
         },
         "fields": {
             "interV3Default": "Inter (por defecto en v3)",
@@ -784,7 +811,7 @@
         },
         "pageContent": {
             "h1": "",
-            "h2": "",
+            "h2": "H2",
             "h3": "",
             "h4": "",
             "hideTitle": "Ocultar el Título",
@@ -824,7 +851,7 @@
         },
         "npcFeature": {
             "nameFeatures": "{name} Características",
-            "base": "",
+            "base": "Base",
             "resetFeatures": "Restablecer Características",
             "allAvailableFeatures": "Todas las Características Disponibles",
             "allAssignedFeatures": "Todas las Características Asignadas",
@@ -948,7 +975,7 @@
             "sortBy": "Ordenar por",
             "encounter": "Encuentro",
             "pronouns": "Pronombres",
-            "alias": "",
+            "alias": "Alias",
             "items": "Artículos",
             "allowDuplicates": "Permitir Duplicados",
             "npc": "Pnj",
@@ -1087,7 +1114,8 @@
             "templates": "Plantillas",
             "gmToolkit": "Herramientas DJ",
             "campaignEditor": "Editor de Campaña",
-            "narrativeItemManager": "Gestor de Artículo Narrativo"
+            "narrativeItemManager": "Gestor de Artículo Narrativo",
+            "alias": "Alias"
         },
         "subtitles": {
             "setItemFolder": "Seleccionar directorio del artículo",
@@ -1278,7 +1306,7 @@
             "roundN": "Ronda {n}",
             "started": "iniciado",
             "lastTurn": "último turno",
-            "na": ""
+            "na": "N/A"
         },
         "campaignDialog": {
             "setCampaign": "Seleccionar Campaña"
@@ -1380,7 +1408,8 @@
             "noStatController": "No se halló Controlador de Estadística",
             "editReinforcements": "Editar Refuerzos",
             "noReinforcementSchedule": "No hay Agenda de Refuerzos",
-            "max": "Máximo"
+            "max": "Máximo",
+            "undoRemoveCombatant": "Eliminar {name} del encuentro"
         },
         "encInfo": {
             "reinforcements": "Refuerzos",
@@ -1427,7 +1456,8 @@
         },
         "initiative": {
             "reinforcementsN": "refuerzos ({n})",
-            "destroyedN": "Destruido ({n})"
+            "destroyedN": "Destruido ({n})",
+            "statusGroupN": "{status} ({n})"
         },
         "runnerItem": {
             "deploysOnRound": "Despliegue en Ronda {n}",
@@ -1503,7 +1533,8 @@
             "editStats": "Editar Estadísticas",
             "removeStat": "Quitar Estadística",
             "trackable": "Rastreable",
-            "static": "Estática"
+            "static": "Estática",
+            "undoEditStat": "Editar {name} {stat}"
         },
         "telemetry": {
             "devNote": "Esta característica sigue en desarrollo. Se publicarán datos adicionales de telemetría.{emphasis}",
@@ -1578,7 +1609,8 @@
             "reloadHint": "Haga clic para {reload} esta arma.",
             "clickUnused": "Haga clic para marcar Sin uso",
             "clickUsed": "Haga clic para marcar Usado",
-            "reload": "recargar"
+            "reload": "recargar",
+            "undoEditItem": "Editar {name}"
         },
         "mountBonus": {
             "warning": "Los efectos de bonificación de Montura en los ataques de armas son {not} automáticamente aplicados por @:{'common.appName'}. Por favor, asegúrese de aplicar manualmente cualquier efecto relevante durante el juego."
@@ -1598,7 +1630,9 @@
         },
         "gmRunner": {
             "loading": "Cargando instancia de encuentro…",
-            "roundN": "Ronda {n}"
+            "roundN": "Ronda {n}",
+            "undoRoundChange": "Cambio de ronda",
+            "undoAction": "Acción de combate"
         },
         "skillCheck": {
             "checkType": "Tipo de Prueba",
@@ -1778,7 +1812,8 @@
             "size": "Tamaño",
             "eDefense": "Defensa-E",
             "grapple": "Presa",
-            "ram": "Embestir"
+            "ram": "Embestir",
+            "sitrep": "Informe de situación"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Agregar un piloto desde su Lista de Pilotos local",
@@ -2346,7 +2381,9 @@
             "mountCOREBonus": "Bono BASE de Afuste",
             "setUSES": "Establecer usos",
             "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Autorización de equipo de la armería de la Unión: chasis equipamiento//sistema de combate",
-            "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Registro del equipo del chasis verificado ]"
+            "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Registro del equipo del chasis verificado ]",
+            "walkingARMORY": "Armería con patas// {selected}",
+            "costAMMOCASE": "Coste::Caja de munición"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
@@ -2420,7 +2457,8 @@
             "rm401FULLNAMEOR": "RM-4-01 // nombre completo o alias primario",
             "rm404ATTACHEDBIOGRAPHICALDOSSIER": "RM-4-04 // ARCHIVO BIOGRÁFICO ADJUNTO (SUPLEMENTO RM-4b)",
             "prmALTQUICKACCESSSELECTION": "Prm-alt selección de acceso rápido",
-            "mechARTCOURTESYOF": "Arte de Mecha cortesía de"
+            "mechARTCOURTESYOF": "Arte de Mecha cortesía de",
+            "gmsEVEREST": "GMS everest"
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
@@ -2685,7 +2723,11 @@
             "incompatibleWeaponMod": "MOD DE ARMA INCOMPATIBLE",
             "coreBonuses": "Bonos Base",
             "techatk": "TecnoAtq",
-            "newPilotWizard": "Asistente Nuevo Piloto"
+            "newPilotWizard": "Asistente Nuevo Piloto",
+            "tweakedOptics": "Óptica Modificada",
+            "tweakedComputer": "Ordenador Modificado",
+            "strippedReactorShielding": "Reducción En Escudo Del Reactor",
+            "edef": "DefE"
         },
         "roster": {
             "history": "Historial",
@@ -2814,7 +2856,8 @@
             "selectLicenseRanks": "Seleccione {word} ({count}) Rango de Licencia. | Seleccione {word} ({count}) Rangos de Licencia.",
             "selectCoreBonusesN": "Seleccione {word} ({count}) Base {item}.",
             "bonusesWord": "Bonos",
-            "pilotINELIGIBLEFORCOREBONUS": "Piloto no eligible para bono base"
+            "pilotINELIGIBLEFORCOREBONUS": "Piloto no eligible para bono base",
+            "nb": "Tomar Nota"
         },
         "link": {
             "bond": "Lazo",
@@ -3140,7 +3183,8 @@
             "archive": "@:{'common.appName'} Archivo de imágenes",
             "remoteImages": "Imágenes Remotas",
             "load": "Cargar",
-            "upload": "Cargar"
+            "upload": "Cargar",
+            "mb": "MB"
         },
         "corePanel": {
             "special": "Equipo especial Base",
@@ -3163,7 +3207,8 @@
             "integrated": "Bono Base equipo integrado",
             "deployables": "Bono Base desplegables",
             "actions": "Bono Base acciones",
-            "remove": "Quitar este bono BASE"
+            "remove": "Quitar este bono BASE",
+            "ignoreRequirements": "Ignorar requerimientos de los bonificadores fundamentales"
         },
         "talent": {
             "unlocked": "Desbloqueado",
@@ -3331,7 +3376,23 @@
             "missingData": "Datos faltantes",
             "selectedCount": "{n} seleccionado(s)",
             "selectDamageType": "Seleccione el Tipo de Daño",
-            "damage": "Daño"
+            "damage": "Daño",
+            "glossary": {
+                "rangeDesc": {
+                    "maxRange": "El alcance máximo de {what}, medido desde el personaje atacante.",
+                    "whatRange": "un arma puede ser usada por ataques a distancia",
+                    "whatThreat": "ataques cuerpo a cuerpo y de fuego de supresión pueden ser hechos por ciertas armas",
+                    "whatThrown": "un arma arrojadiza puede ser usada",
+                    "areaCone": "personajes en un cono de X espacios de largo y x de ancho desde su punto mas alejado",
+                    "areaBlast": "personajes dentro de un radio de X espacios, trazados desde un punto dentro de RANGO y con el centro de la explosión sobre o adyacente al atacante",
+                    "areaBurst": "personajes dentro de un radio de X espacios, centrado en el espacio ocupado por el atacante e incluyéndolo"
+                },
+                "intro": "Este equipo provoca <b>{value}</b> {type}",
+                "heatLabel": "Calor:",
+                "heatDescription": "El calor es un tipo especial de daño que no cuenta como daño e ignora el BLINDAJE, aunque puede verse afectado por la RESISTENCIA. Representa daño a los sistemas internos y el reactor de un meca. La mayoría de las veces se produce como consecuencia de ataques de guerra electrónica, pero a menudo lo generan los propios sistemas de un meca. Un meca que sufre calor lo marca en su ficha. Cuando acumule una cantidad igual a su CAPACIDAD CALORÍFICA, cualquier cantidad de calor adicional hará que se sobrecaliente. El sobrecalentamiento se describe de forma más detallada en la página 78. Si un personaje sin CAPACIDAD CALORÍFICA (como por ejemplo los personajes BIOLÓGICOS y los DRONES) sufre calor, en lugar de ello sufrirá la misma cantidad en daño energético .",
+                "burnLabel": "Daño Incendiario:",
+                "burnDescription": "Algunas armas provocan daño incendiario (que provoca daño adicional con el paso del tiempo). El daño incendiario puede representar llamas, plasma abrasador, ácido o algo más insidioso, como un enjambre de nanobots desensambladores.<br>Cuando un personaje sufre , este tiene dos efectos: primero recibe daño inmediatamente ignorando el BLINDAJE, y luego marca en su hoja el daño incendiario que acaba de recibir. Al final de su turno, un personaje con daño incendiario debe superar una tirada de INGENIERÍA. Si la supera, elimina de la hoja todo el daño incendiario que tenga marcado; de lo contrario sufrirá una cantidad de daño igual a la cantidad de daño incendiario marcado en ese momento. El daño incendiario de otras fuentes se añade al total actual de puntos de Daño Incendiario."
+            }
         },
         "ref": {
             "equipmentTagDetail": "Detalle chapa de Equipo",
@@ -3446,7 +3507,8 @@
             "modification": "Modificación",
             "canBeAppliedTo": "Puede ser aplicado a",
             "weaponAttacks": "Esta arma puede hacer {count} ataques a la vez. Se pueden realizar múltiples ataques contra el mismo o diferentes objetivos.",
-            "systemPoints": "Punto de sistema | Puntos de sistema"
+            "systemPoints": "Punto de sistema | Puntos de sistema",
+            "kit": "Kit"
         },
         "combat": {
             "passiveEffect": "Efecto Pasivo",
@@ -3533,7 +3595,8 @@
             "round": "Ronda",
             "next_turn": "Turno Siguiente",
             "turn": "Turno",
-            "free": "Libre"
+            "free": "Libre",
+            "unlimited": "Ilimitado"
         },
         "orgType": {
             "political": "Política",
@@ -3571,7 +3634,8 @@
             "deployable": "Desplegable",
             "shield": "Escudo",
             "ai": "IA",
-            "system": "Sistema"
+            "system": "Sistema",
+            "mod": "Modificación"
         },
         "activationType": {
             "other": "Otro",
@@ -3641,7 +3705,8 @@
             "statusesConditions": "Estados & Condiciones",
             "manufacturers": "Fabricantes",
             "npcClasses": "Clases PNJ",
-            "environments": "Entornos"
+            "environments": "Entornos",
+            "sitreps": "Informes de situación"
         },
         "selectItem": "Seleccione {name}",
         "titles": {
@@ -3702,7 +3767,9 @@
             "referenceNarrativePlay": "Referencia: Juego Narrativo",
             "referenceErrata": "Referencia: Erratas",
             "referenceGlossary": "Referencia: Glosario",
-            "downtimeactions": "AccionesInterludio"
+            "downtimeactions": "AccionesInterludio",
+            "edef": "DefE",
+            "sitreps": "INFORMES DE SITUACIÓN"
         },
         "nav": {
             "systemReference": "Referencia del Sistema"
