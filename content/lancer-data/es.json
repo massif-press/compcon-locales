@@ -131,5 +131,10 @@
     "cb_all_theater_movement_suite.active_effect_all_theater_movement_suite.name": "Conjunto de Movimiento Todo Entorno",
     "cb_all_theater_movement_suite.description": "El CMTE es una modificación popular que añade potentes propulsores de impulsos que mejoran drásticamente la movilidad de un meca en cualquier entorno.",
     "cb_all_theater_movement_suite.effect": "Puedes elegir que todos tus movimientos se consideren Vuelo; sin embargo, sufres 1 de Calor al final de cada turno en el que vueles de esta manera.",
-    "cb_all_theater_movement_suite.name": "Conjunto de Movimiento Todo Entorno"
+    "cb_all_theater_movement_suite.name": "Conjunto de Movimiento Todo Entorno",
+    "cb_armory_sculpted_chassis.active_effect_armory_sculpted_chassis.detail": "Ganas cobertura parcial hasta el inicio de tu siguiente turno.",
+    "cb_armory_sculpted_chassis.active_effect_armory_sculpted_chassis.name": "Chasis personalizado de la armería",
+    "cb_armory_sculpted_chassis.description": "Cualquiera puede imprimir un chasis de un meca de serie y confiar en que un conjunto de código genérico servirá para mantenerlo con vida. Sin embargo, los pilotos exigentes solo aceptan lo mejor: un chasis diseñado, probado y puesto a punto por uno de los maestros fabricantes de HA.",
+    "cb_armory_sculpted_chassis.name": "Chasis personalizado de la armeria",
+    "cb_armory_sculpted_chassis.synergy_0.detail": "Cuando sobrecargas, ganas cobertura ligera hasta el inicio de tu siguiente turno."
 }
