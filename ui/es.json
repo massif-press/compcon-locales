@@ -601,7 +601,7 @@
             "andRequiringManual": " y {count} problema que requiere medidas manuales | y {count} problemas que requieren medidas manuales",
             "applyFixesButton": "Aplicar {count} Reparación | Aplicar {count} Reparaciones",
             "colItem": "@:{'common.item'}",
-            "cancel": "@:{'common.cancel'}"
+            "cancel": "{{common.cancel}}"
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
@@ -3607,7 +3607,8 @@
             "d20Plus": "1d20 +",
             "vsStat": "vs {stat}",
             "vs": "VS",
-            "diceD": "d"
+            "diceD": "d",
+            "self": "Propio"
         }
     },
     "enums": {
