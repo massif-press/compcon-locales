@@ -3841,7 +3841,7 @@
             "errNoCampaign": "Err: no hay campaña cargada",
             "developmentPreview": "Las campañas están en desarrollo activo y no se desplegarán hasta v3.1. Esta vista previa debe ser ignorada para la prueba, pero siéntase en libertad de explorar la funcionalidad existente.",
             "noCampaignsFound": "No se Hallaron Campañas",
-            "importHint": "Las campañas pueden ser importadas a través de Importación de archivos o el Directorio de Campañas Lancer",
+            "importHint": "Las campañas pueden ser importadas a través de Importación de Archivo o el Directorio de Campañas de Lancer",
             "newVersionAvailable": "Hay una nueva versión de esta campaña disponible. Pulse abajo actualizar para descargar e instalar la última versión de esta campaña.",
             "updateCampaign": "Actualizar Campaña",
             "removeFromCollection": "Quitar de la Colección",
