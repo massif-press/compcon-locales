@@ -2389,7 +2389,8 @@
             "unionARMORYEQUIPMENTAUTHORIZATIONFRAMEEQUIPMENT": "Autorización de equipo de la armería de la Unión: chasis equipamiento//sistema de combate",
             "frameEQUIPMENTREGISTRATIONVERIFIED": "[ Registro del equipo del chasis verificado ]",
             "walkingARMORY": "Armería con patas// {selected}",
-            "costAMMOCASE": "Coste::Caja de munición"
+            "costAMMOCASE": "Coste::Caja de munición",
+            "unionArmoryPrintid": "id impresión armería Unión"
         },
         "import": {
             "importSuccessTitle": "Importado Exitósamente",
