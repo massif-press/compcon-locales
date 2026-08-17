@@ -138,5 +138,15 @@
     "cb_armory_sculpted_chassis.name": "Chasis personalizado de la armeria",
     "cb_armory_sculpted_chassis.synergy_0.detail": "Cuando sobrecargas, ganas cobertura ligera hasta el inicio de tu siguiente turno.",
     "act_inv_fragment_signal.detail": "Envías información falsa, mensajes obscenos, o señales fantasma al centro de computación de tu objetivo. Quedan IMPAIRED y SLOWED hasta el final de si siguiente turno.",
-    "act_overwatch_npc.detail": "Cuando un personaje comienza su movimiento en rango de amenaza del arma de un NPC, ese NPC puede tomar una acción de combate contra el como reacción. Un NPC solo puede overwatch una vez ente turnos a menos que esté especificado. "
+    "act_overwatch_npc.detail": "Cuando un personaje comienza su movimiento en rango de amenaza del arma de un NPC, ese NPC puede tomar una acción de combate contra el como reacción. Un NPC solo puede overwatch una vez ente turnos a menos que esté especificado. ",
+    "cb_auto_stabilizing_hardpoints.description": "Utilizando lo mejor en absorción de impactos y tecnología de estabilización, puedes mantener la precisión durante periodos de disparo más largos y sostenidos.",
+    "cb_auto_stabilizing_hardpoints.effect": "Elige un afuste. Las armas conectadas a este afuste ganan +1 precisión.",
+    "cb_auto_stabilizing_hardpoints.mounted_effect": "Los ataques hechos por armas conectadas a este afuse ganan +1 Precisión.",
+    "cb_auto_stabilizing_hardpoints.name": "Afuses Autoestabilizados",
+    "cb_auto_stabilizing_hardpoints.synergy_0.detail": "Las armas conectadas a este afuse ganan +1 Precisión.",
+    "cb_briareos_frame.active_effect_briareos_frame.detail": "Mientras tu meca no tenga más de 1 punto de Estructura, obtienes Resistencia a todo el daño. Cuando tu meca quede reducido a 0 PG y Estructura 0, no resultará destruido: en lugar de ello, deberás hacer una tirada de daño a estructura cada vez que sufra daño. Mientras esté en este estado, tu meca no puede recuperar PG hasta que descanses o efectúes una Reparación completa, momento en el que podrá repararse de la forma habitual.",
+    "cb_briareos_frame.active_effect_briareos_frame.name": "Chasis Briareos",
+    "cb_briareos_frame.description": "El Briareos es el último modelo de la línea de IPS-N de mejora de chasis cercano a fallos: plantillas diseñadas para maximizar la funcionalidad de un meca antes de que se produzca un fallo catastrófico o la consiguiente necesidad de reimpresión. La plantilla Briareos incrementa la resistencia de los componentes inorgánicos al reforzar la estructura con un armazón superligero que incorpora capas entrelazadas de la icónica malla de tejido Goliath de IPS-N.",
+    "cb_briareos_frame.effect": "Mientras tu meca no tenga más de 1 punto de Estructura, obtienes Resistencia a todo el daño. Cuando tu meca quede reducido a 0 PG y Estructura 0, no resultará destruido: en lugar de ello, deberás hacer una tirada de daño a estructura cada vez que sufra daño. Mientras esté en este estado, tu meca no puede recuperar PG hasta que descanses o efectúes una Reparación completa, momento en el que podrá repararse de la forma habitual.",
+    "cb_briareos_frame.name": "Chasis Briareos"
 }
