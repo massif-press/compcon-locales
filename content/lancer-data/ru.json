@@ -715,5 +715,13 @@
     "t_leader.rank_open_channels.action_issue_command.name": "Отдать команду",
     "t_technophile.name": "Технофил",
     "cb_adaptive_reactor.name": "Адаптивный реактор",
-    "cb_full_subjectivity_sync.effect": "Значение Уклонения вашего меха увеличивается на 2 пункта."
+    "cb_full_subjectivity_sync.effect": "Значение Уклонения вашего меха увеличивается на 2 пункта.",
+    "env_primordealworld.name": "Первородный мир",
+    "env_highgravity.name": "Повышенная гравитация",
+    "cb_stasis_shielding.active_effect_stasis_shielding.name": "Стазисная защита",
+    "cb_sloped_plating.name": "Наклонное бронирование",
+    "ms_personalizations.active_effect_personalizations.name": "Индивидуализация",
+    "ms_type_3_projected_shield.action_project_shield.name": "Спроецировать щит",
+    "t_leader.rank_field_commander.name": "Полевой командир",
+    "cb_stasis_shielding.name": "Стазисная защита"
 }
