@@ -148,5 +148,17 @@
     "cb_briareos_frame.active_effect_briareos_frame.name": "Chasis Briareos",
     "cb_briareos_frame.description": "El Briareos es el último modelo de la línea de IPS-N de mejora de chasis cercano a fallos: plantillas diseñadas para maximizar la funcionalidad de un meca antes de que se produzca un fallo catastrófico o la consiguiente necesidad de reimpresión. La plantilla Briareos incrementa la resistencia de los componentes inorgánicos al reforzar la estructura con un armazón superligero que incorpora capas entrelazadas de la icónica malla de tejido Goliath de IPS-N.",
     "cb_briareos_frame.effect": "Mientras tu meca no tenga más de 1 punto de Estructura, obtienes Resistencia a todo el daño. Cuando tu meca quede reducido a 0 PG y Estructura 0, no resultará destruido: en lugar de ello, deberás hacer una tirada de daño a estructura cada vez que sufra daño. Mientras esté en este estado, tu meca no puede recuperar PG hasta que descanses o efectúes una Reparación completa, momento en el que podrá repararse de la forma habitual.",
-    "cb_briareos_frame.name": "Chasis Briareos"
+    "cb_briareos_frame.name": "Chasis Briareos",
+    "ms_hunter_lock.synergy_0.detail": "Una vez por ronda, el primer ataque con éxito, sea cuerpo a cuerpo o a distancia, contra el objetivo de Fijado de Cazador, provoca +3 de daño adicional.",
+    "cb_fomorian_frame.description": "El Fomori es una versión a mayor escala de la plantilla estándar de IPS-N que ha sido adaptada para responder a las necesidades de los cosmopolitas de larga duración que buscan una mayor estabilidad y una protección robusta contra impactos, tanto micro como macro.",
+    "cb_fomorian_frame.effect": "Aumenta el Tamaño de tu meca en un paso (por ejemplo, de 1/2 a 1, de 1 a 2, o de 2 a 3) hasta un máximo de Tamaño 3. No puedes ser Tumbado por personajes de menor tamaño, independientemente del sistema o arma que provoque el efecto.",
+    "cb_fomorian_frame.name": "Chasis Fomori",
+    "cb_full_subjectivity_sync.description": "Al crear un puente ontológico estable y bidireccional, CSS ha eliminado la necesidad de que los pilotos dependan únicamente de los controles físicos para pilotar su meca. Gracias a la sincronización de la subjetividad, los pilotos perciben su meca como si fuera su propio cuerpo y lo controlan mediante impulsos neuronales; la retroalimentación somatosensorial también se traslada al piloto, por lo que se recomienda tener precaución, aunque el sistema lleve incorporada una función de amortiguación de nocicepciones.",
+    "cb_full_subjectivity_sync.effect": "Obtienes +2 Evasión.",
+    "cb_full_subjectivity_sync.name": "Sincronización Total de Subjetividad",
+    "cb_ghostweave.active_effect_ghostweave.detail": "Durante tu turno, eres Invisible. Si no realizas ninguna otra acción en tu turno aparte de tu movimiento normal, Ocultarse o Acelerar, permaneces Invisible hasta el comienzo de tu siguiente turno. Dejas de ser Invisible de forma inmediata cuando efectúas una reacción.",
+    "cb_ghostweave.active_effect_ghostweave.name": "Tejido Fantasma",
+    "cb_ghostweave.description": "El tejido fantasma es una versión mejorada de los mismos sistemas que se encuentran en la panoplia Mythimna de CSS. Se trata de una aplicación patentada empleada para mejorar el camuflaje de los mecas en cualquier entorno.",
+    "cb_ghostweave.effect": "Durante tu turno, eres Invisible. Si no realizas ninguna otra acción en tu turno aparte de tu movimiento normal, Ocultarse o Acelerar, permaneces Invisible hasta el comienzo de tu siguiente turno. Dejas de ser Invisible de forma inmediata cuando efectúas una reacción.",
+    "cb_ghostweave.name": "Tejido Fantasma"
 }
