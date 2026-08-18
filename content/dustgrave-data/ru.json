@@ -17,5 +17,6 @@
     "reserve_hyper_spec_fuel_canister.name": "Канистра высокоэффективного топлива",
     "intel_die.name": "Кость разведданных",
     "transcendence_die.name": "Кость трансцендентности",
-    "mf_störtebeker.core_system.passive_name": "Доктрина Хопкинса"
+    "mf_störtebeker.core_system.passive_name": "Доктрина Хопкинса",
+    "mw_reaper_assault_cannon.profile_standard.name": "Стандартный режим"
 }
