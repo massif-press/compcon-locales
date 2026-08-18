@@ -143,7 +143,7 @@
         "frame": "Chasis",
         "loadout": "Equipamiento",
         "electronicDefense": "Defensa Electrónica",
-        "pilotSheet": "Hoja del Piloto",
+        "pilotSheet": "Hojas del Piloto",
         "side": "Bando",
         "systemPoints": "Puntos de Sistema",
         "remove": "Quitar",
@@ -601,12 +601,12 @@
             "andRequiringManual": " y {count} problema que requiere medidas manuales | y {count} problemas que requieren medidas manuales",
             "applyFixesButton": "Aplicar {count} Reparación | Aplicar {count} Reparaciones",
             "colItem": "@:{'common.item'}",
-            "cancel": ""
+            "cancel": "@:{'common.cancel'}"
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
             "recentSearches": "búsquedas recientes",
-            "search": ""
+            "search": "@:{'common.search'}"
         },
         "achievementItem": {
             "hiddenNote": "Este logro está oculto y será revelado una vez desbloqueado",
@@ -666,7 +666,7 @@
             "interV3Default": "Inter (por defecto en v3)",
             "notoSansV3Alt": "Noto Sans (alternativa en v3 )",
             "helveticaV2Default": "Helvetica (por defecto en v2 )",
-            "opendyslexicExperimental": ""
+            "opendyslexicExperimental": "OpenDyslexic (experimental)"
         }
     },
     "gm": {
@@ -791,7 +791,7 @@
             "missingContent": "Contenido del DJ Faltante"
         },
         "narrative": {
-            "itemTypePlural": "tipo",
+            "itemTypePlural": "({type})",
             "additionalDetail": "Detalle adicional",
             "clocks": "Relojes",
             "viewCollections": "Ver Colecciones"
@@ -895,7 +895,8 @@
         "layerSelector": {
             "noData": "¡No se han encontrado datos de Eidolon!",
             "help1": "Los datos de Eidolon se incluyen con el Libro de Campaña No Room for a Wallflower y por lo tanto no se incluyen con @:{'common.appName'} por defecto. Puede encontrar datos de Eidolon como contenido descargable adicional en la {link} página del Libro de Campaña.",
-            "help2": "Si ya ha descargado los datos de Eidolon, puede importarlo a @:{'common.appName'} a través del Gestor de Contenidos disponible en el Menú Principal o en el menú Opciones en el lado derecho de la barra de navegación."
+            "help2": "Si ya ha descargado los datos de Eidolon, puede importarlo a @:{'common.appName'} a través del Gestor de Contenidos disponible en el Menú Principal o en el menú Opciones en el lado derecho de la barra de navegación.",
+            "linkText": "No Room for a Wallflower"
         },
         "eidolonData": {
             "noData": "¡No se han encontrado datos del editor de Eidolon!",
@@ -1217,7 +1218,7 @@
             "saveSuccessful": "Guardado Exitoso",
             "saveFailed": "Guardado Fallido",
             "copiedToClipboard": "Copiado al Portapapeles",
-            "nominal": "",
+            "nominal": "Nominal",
             "halfDamage": "Mitad de Daño",
             "condition_status": "Condición"
         },
@@ -1368,7 +1369,7 @@
             "online": "En línea",
             "gm": "DJ",
             "lastOnline": "Última Conexión",
-            "cdt": "",
+            "cdt": "CDT",
             "nextSession": "Siguiente Sesión",
             "at8pm": "a las 8 PM CDT",
             "currentlyRunning": "Llevando Actualmente",
@@ -1636,7 +1637,11 @@
             "loading": "Cargando instancia de encuentro…",
             "roundN": "Ronda {n}",
             "undoRoundChange": "Cambio de ronda",
-            "undoAction": "Acción de combate"
+            "undoAction": "Acción de combate",
+            "undo": "Deshacer",
+            "redo": "Rehacer",
+            "undoTooltip": "Deshacer: {label}",
+            "redoTooltip": "Rehacer: {label}"
         },
         "skillCheck": {
             "checkType": "Tipo de Prueba",
@@ -2290,8 +2295,8 @@
             "pilotData": "Datos del Piloto",
             "npcData": "Datos PNJ",
             "narrativeData": "Datos Narrativos",
-            "lcp": "",
-            "lcps": ""
+            "lcp": "LCP",
+            "lcps": "LCPs"
         },
         "tooltips": {
             "thisToolWillCaptureA": "Esta herramienta capturará una instantánea de sus datos locales de @:{'common.appName'} y los almacenará en un archivo en la nube. Puede usar este para restaurar sus datos @:{'common.appName'} a un estado previo. Esta característica esta disponible únicamente para mecenas de Patreon.",
@@ -2422,7 +2427,8 @@
             "pilotSKILLTRIGGERIMPROVEMENT": "Mejora detonante de Piloto",
             "pilotTALENTUPGRADE": "Mejora talento de Piloto",
             "mechSKILLUPGRADE": "Mejora habilidad Mecha",
-            "gritIMPROVEMENT": "Mejora de Temple"
+            "gritIMPROVEMENT": "Mejora de Temple",
+            "unOmni18364AndesCerroboneteNode": "un_omni-18364.andes.cerrobonete.node:9"
         },
         "new": {
             "pilot": "Piloto",
@@ -2466,7 +2472,7 @@
             "prmALTQUICKACCESSSELECTION": "Prm-alt selección de acceso rápido",
             "mechARTCOURTESYOF": "Arte de Mecha cortesía de",
             "gmsEVEREST": "GMS everest",
-            "i": ""
+            "i": "I"
         },
         "sheet": {
             "exportThisPilotAsAV2": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
@@ -2581,11 +2587,11 @@
             "str": "FUE",
             "callsignAVAILABLE": "Apodo disponible",
             "gmsSTANDARDPILOTSLICENSE": "licencia de piloto GMS estándar",
-            "cfg": "",
-            "hangar": "",
-            "ndlC": "",
-            "err": "",
-            "pbOhmC": "",
+            "cfg": "./cfg",
+            "hangar": "Hangar",
+            "ndlC": "//NDL-C-",
+            "err": "ERR",
+            "pbOhmC": "PB]] :: OHM c//",
             "rm4IDENT": "rm-4://IDENTIDAD"
         },
         "print": {
@@ -2635,13 +2641,13 @@
             "slashesLl": "// NL",
             "techAtk": "Tecno Atq",
             "maxParen": "({n} máx)",
-            "1d3": "",
-            "1d6": "",
-            "1d64": "",
-            "cont": "",
-            "1d32": "",
-            "1d62": "",
-            "1d642": ""
+            "1d3": "+1d3",
+            "1d6": "+1d6",
+            "1d64": "+1d6+4",
+            "cont": "(CONT.)",
+            "1d32": "[+1d3",
+            "1d62": "[+1d6",
+            "1d642": "[+1d6+4"
         },
         "titles": {
             "sharePilotData": "Compartir Datos de Piloto",
@@ -2896,7 +2902,7 @@
             "eng": "Ing",
             "pilotBiography": "Biografía Piloto",
             "pilotAppearance": "Apariencia Piloto",
-            "agi": ""
+            "agi": "Agi"
         },
         "common": {
             "commaLl": ", NL",
@@ -3138,11 +3144,11 @@
             "syncCompleteText": "{name} sincronizado con la nube.",
             "syncInProgressText": "Por favor, espere que la sincronización actual se complete.",
             "syncInProgressTitle": "Sincronización en Progreso",
-            "syncFailedText": ""
+            "syncFailedText": "{err}"
         },
         "common": {
             "copied": "Copiado",
-            "error": "",
+            "error": "Error",
             "success": "Éxito"
         },
         "dataItem": {
@@ -3179,7 +3185,7 @@
         "evasion": "Evasión",
         "armor": "Armadura",
         "hp": "PG",
-        "agi": "",
+        "agi": "AGI",
         "engineering": "Ingeniería",
         "systems": "Sistemas",
         "speed": "Velocidad",
@@ -3345,7 +3351,8 @@
             "detected": "Falta de Contenido Detectada",
             "hoverHelp": "Este {type} no tiene los datos LCP necesarios. @:{'common.appName'} no podrá cargar este {type} hasta que se añada el contenido faltante.",
             "missingContent": "Contenido faltante",
-            "activated": "activado"
+            "activated": "activado",
+            "wallflowerPack": "No Room for a Wallflower Acto 1"
         },
         "remote": {
             "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones desde la cuenta vinculada.",
@@ -3409,7 +3416,7 @@
                     "areaCone": "personajes en un cono de X espacios de largo y x de ancho desde su punto mas alejado",
                     "areaBlast": "personajes dentro de un radio de X espacios, trazados desde un punto dentro de RANGO y con el centro de la explosión sobre o adyacente al atacante",
                     "areaBurst": "personajes dentro de un radio de X espacios, centrado en el espacio ocupado por el atacante e incluyéndolo",
-                    "equipmentAffects": "Los equipos con un patrón de ataque de {pattern} afectan a {area}",
+                    "equipmentAffects": "Los equipos con un patrón de ataque de {pattern} afectan a {area}.",
                     "areaLine": "todos los objetivos en una linea recta, de X casillas de largo. Una tirada de ataque separada es realizada contra cada objetivo en la linea."
                 },
                 "intro": "Este equipo provoca <b>{value}</b> {type}",
@@ -3417,10 +3424,10 @@
                 "heatDescription": "El calor es un tipo especial de daño que no cuenta como daño e ignora el BLINDAJE, aunque puede verse afectado por la RESISTENCIA. Representa daño a los sistemas internos y el reactor de un meca. La mayoría de las veces se produce como consecuencia de ataques de guerra electrónica, pero a menudo lo generan los propios sistemas de un meca. Un meca que sufre calor lo marca en su ficha. Cuando acumule una cantidad igual a su CAPACIDAD CALORÍFICA, cualquier cantidad de calor adicional hará que se sobrecaliente. El sobrecalentamiento se describe de forma más detallada en la página 78. Si un personaje sin CAPACIDAD CALORÍFICA (como por ejemplo los personajes BIOLÓGICOS y los DRONES) sufre calor, en lugar de ello sufrirá la misma cantidad en daño energético .",
                 "burnLabel": "Daño Incendiario:",
                 "burnDescription": "Algunas armas provocan daño incendiario (que provoca daño adicional con el paso del tiempo). El daño incendiario puede representar llamas, plasma abrasador, ácido o algo más insidioso, como un enjambre de nanobots desensambladores.<br>Cuando un personaje sufre , este tiene dos efectos: primero recibe daño inmediatamente ignorando el BLINDAJE, y luego marca en su hoja el daño incendiario que acaba de recibir. Al final de su turno, un personaje con daño incendiario debe superar una tirada de INGENIERÍA. Si la supera, elimina de la hoja todo el daño incendiario que tenga marcado; de lo contrario sufrirá una cantidad de daño igual a la cantidad de daño incendiario marcado en ese momento. El daño incendiario de otras fuentes se añade al total actual de puntos de Daño Incendiario.",
-                "rangeText": "",
-                "rangeTextBonus": ""
+                "rangeText": "{type} {value}",
+                "rangeTextBonus": "{type} {value} (+{bonus})"
             },
-            "versionLabel": ""
+            "versionLabel": "v{version}"
         },
         "ref": {
             "equipmentTagDetail": "Detalle chapa de Equipo",
@@ -3509,7 +3516,7 @@
             "deleteCounter": "Borrar Contador",
             "resetCounter": "Reiniciar Contador",
             "itemFilters": "Filtros de Artículo",
-            "linkARemotelyHostedImageTo": "Enlaza una imagen alojada remotamente a este activo. Estas imágenes no son almacenadas o gestionadas por @:{'common.appName'} y son sujetos de cambio o remoción en base a su alojamiento."
+            "linkARemotelyHostedImageTo": "Enlaza una imagen alojada remotamente a este activo. Estas imágenes no son almacenadas o gestionadas por COMP/CON y son sujetos de cambio o remoción en base a su alojamiento."
         },
         "card": {
             "suggestedSkills": "Habilidades Sugeridas",
@@ -3537,7 +3544,7 @@
             "canBeAppliedTo": "Puede ser aplicado a",
             "weaponAttacks": "Esta arma puede hacer {count} ataques a la vez. Se pueden realizar múltiples ataques contra el mismo o diferentes objetivos.",
             "systemPoints": "Punto de sistema | Puntos de sistema",
-            "kit": ""
+            "kit": "Kit"
         },
         "combat": {
             "passiveEffect": "Efecto Pasivo",
@@ -3608,11 +3615,11 @@
             "resistanceType": "tipo de resistencia",
             "saveHalf": "Salva la Mitad",
             "removeSpecialCondition": "quitar condición especial",
-            "d20": "",
-            "d20Plus": "",
-            "vsStat": "",
-            "vs": "",
-            "diceD": "",
+            "d20": "1d20",
+            "d20Plus": "1d20 +",
+            "vsStat": "vs {stat}",
+            "vs": "VS",
+            "diceD": "d",
             "self": "Propio"
         }
     },
@@ -3636,12 +3643,12 @@
         "orgType": {
             "political": "Política",
             "entertainment": "Entretenimiento",
-            "industrial": "",
+            "industrial": "Industrial",
             "humanitarian": "Humanitaria",
             "academic": "Académica",
             "scientific": "Cientifica",
             "military": "Militar",
-            "criminal": ""
+            "criminal": "Criminal"
         },
         "reserveType": {
             "bonus": "Bono",
@@ -3702,9 +3709,9 @@
             "main": "Principal",
             "superheavy": "Superpesada",
             "main_aux": "Principal/Aux",
-            "aux_aux": "",
-            "aux": "",
-            "flex": ""
+            "aux_aux": "Aux/Aux",
+            "aux": "Aux",
+            "flex": "Flex"
         },
         "weaponSize": {
             "heavy": "Pesada",
@@ -3729,7 +3736,7 @@
             "aoe": "AdE",
             "burn": "Incendiario",
             "applied_burn": "Incendio Infligido",
-            "variable": ""
+            "variable": "Variable"
         }
     },
     "compendium": {
@@ -3829,8 +3836,8 @@
             "pleaseNote": "Por favor tenga en cuenta",
             "faqErrataNotice": "Este PF y Erratas es un proyecto impulsado por la comunidad y no forma parte de un lanzamiento oficial de Massif Press @:{'common.gameName'}. Esta página está alimentada por datos de preguntas frecuentes del {repoLink} en GitHub, actualmente mantenido por lenaleciel. Este documento también está disponible en {siteLink}.",
             "lancerFaqRepo": "repositorio de lancer-faq",
-            "lancerFaqSite": "",
-            "bookPage": ""
+            "lancerFaqSite": "lancer-faq.netlify.app/",
+            "bookPage": "{book}, p. {page}"
         },
         "search": {
             "resultCount": "{count} resultado | {count} resultados"
