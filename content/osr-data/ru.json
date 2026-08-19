@@ -9,5 +9,9 @@
     "mf_chomolungma.trait_data_siphon.active_effect_data_siphon.name": "Выкачивание данных",
     "mf_chomolungma.trait_data_siphon.name": "Выкачивание данных",
     "mf_chomolungma.core_system.passive_effect": "Вы получаете следующие опции для действия \"Взлом\":",
-    "mf_chomolungma.trait_replaceable_parts.description": "Во время отдыха Джомолунгму можно ремонтировать, потратив 1 ремкомплект на починку 1 пункта структурного урона вместо двух."
+    "mf_chomolungma.trait_replaceable_parts.description": "Во время отдыха Джомолунгму можно ремонтировать, потратив 1 ремкомплект на починку 1 пункта структурного урона вместо двух.",
+    "t_demolitionist.name": "Подрывник",
+    "t_sysop.name": "Системный оператор",
+    "t_sysop.rank_firewall.active_effect_firewall.name": "Межсетевой экран",
+    "t_sysop.rank_firewall.name": "Межсетевой экран"
 }

@@ -5,5 +5,8 @@
     "mf_lycan.name": "Ликан",
     "mw_legion_nexus.name": "Нексус \"Легион\"",
     "mw_legion_nexus.deployable_legion_drone.name": "Дрон \"Легион\"",
-    "mw_fusion_torch.name": "Термоядерный резак"
+    "mw_fusion_torch.name": "Термоядерный резак",
+    "gilgamesh_arsenal.name": "Кость арсенала",
+    "cb_order_of_leander.action_order_of_leander.name": "Орден Леандра",
+    "cb_order_of_leander.name": "Орден Леандра"
 }

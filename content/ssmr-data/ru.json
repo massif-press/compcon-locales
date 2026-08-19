@@ -1,5 +1,13 @@
 {
     "ctr_voice_of_reason.name": "Кость оратора",
     "reserve_souled_out_class_vi_anti_materiel_rifle.action_souled_out_class_vi_anti_materiel_rifle.name": "Крупнокалиберная винтовка класса-VI \"Опустошённая\"",
-    "reserve_souled_out_class_vi_anti_materiel_rifle.name": "Крупнокалиберная винтовка класса-VI \"Опустошённая\""
+    "reserve_souled_out_class_vi_anti_materiel_rifle.name": "Крупнокалиберная винтовка класса-VI \"Опустошённая\"",
+    "mf_orator.name": "Оратор",
+    "mf_orator.rank_convincing_rhetoric.action_convincing_rhetoric.name": "Убедительная речь",
+    "mf_orator.rank_convincing_rhetoric.name": "Убедительная речь",
+    "mf_orator.rank_convincing_rhetoric.description": "Вы получаете реакцию <b>Убедительная речь</b>.",
+    "mf_orator.rank_the_march_of_the_ten_thousand.action_demoralize.name": "Подорвать дисциплину",
+    "mf_orator.rank_the_march_of_the_ten_thousand.name": "Отступление десяти тысяч",
+    "mf_orator.rank_voice_of_reason.action_cast_doubt.name": "Посеять сомнения",
+    "mf_orator.rank_voice_of_reason.action_encourage.name": "Воодушевить"
 }

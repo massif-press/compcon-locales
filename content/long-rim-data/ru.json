@@ -2,5 +2,9 @@
     "mf_atlas.name": "Атлас",
     "mf_caliban.name": "Калибан",
     "mf_caliban.core_system.name": "Дробовик \"Живодёр\"",
-    "mw_caliban_integrated.name": "Дробовик HHS-075 \"Живодёр\""
+    "mw_caliban_integrated.name": "Дробовик HHS-075 \"Живодёр\"",
+    "ms_unhinge_chronoflow.action_slow.name": "Замедлить",
+    "mf_sunzi.trait_safe_harbor.active_effect_safe_harbor.name": "Тихая гавань",
+    "mf_sunzi.trait_safe_harbor.name": "Тихая гавань",
+    "mw_caliban_integrated.profile_standard.name": "Стандартный режим"
 }
