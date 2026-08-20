@@ -17,5 +17,12 @@
     "mf_black_witch_alt_orchidea.trait_royal_guard.name": "Королевская стража",
     "mw_retort_loop.profile_1_charge.name": "1 заряд",
     "mw_retort_loop.profile_2_charges.name": "2 заряда",
-    "mw_retort_loop.profile_3_charges.name": "3 заряда"
+    "mw_retort_loop.profile_3_charges.name": "3 заряда",
+    "ctr_ferroreactive_armor.name": "Феррореактивная броня",
+    "mf_white_witch.core_system.passive_name": "Феррореактивная броня",
+    "mf_white_witch.core_system.name": "Феррореактивная оболочка",
+    "ms_ayah_of_the_syzygy.name": "Аят о Сизигии",
+    "ms_camuss_razor.name": "Бритва Камю",
+    "ms_shahnameh.action_shahnameh.name": "\"Шахнаме\"",
+    "ms_shahnameh.name": "\"Шахнаме\""
 }
