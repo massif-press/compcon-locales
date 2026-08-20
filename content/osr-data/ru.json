@@ -13,5 +13,7 @@
     "t_demolitionist.name": "Подрывник",
     "t_sysop.name": "Системный оператор",
     "t_sysop.rank_firewall.active_effect_firewall.name": "Межсетевой экран",
-    "t_sysop.rank_firewall.name": "Межсетевой экран"
+    "t_sysop.rank_firewall.name": "Межсетевой экран",
+    "t_sysop.rank_aggressive_countermeasures.name": "Агрессивные контрмеры",
+    "t_sysop.rank_aggressive_countermeasures.active_effect_aggressive_countermeasures.name": "Агрессивные контрмеры"
 }
