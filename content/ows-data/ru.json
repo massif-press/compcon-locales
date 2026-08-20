@@ -8,5 +8,9 @@
     "mw_fusion_torch.name": "Термоядерный резак",
     "gilgamesh_arsenal.name": "Кость арсенала",
     "cb_order_of_leander.action_order_of_leander.name": "Орден Леандра",
-    "cb_order_of_leander.name": "Орден Леандра"
+    "cb_order_of_leander.name": "Орден Леандра",
+    "mf_gilgamesh.trait_locked_and_loaded.active_effect_locked_and_loaded.name": "Полная боеготовность",
+    "mf_gilgamesh.trait_locked_and_loaded.name": "Полная боеготовность",
+    "mw_legionnaire_battle_rifle.name": "Боевая винтовка \"Легионер\"",
+    "mw_superthermal_blade.name": "Сверхтермальный меч"
 }
