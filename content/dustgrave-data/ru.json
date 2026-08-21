@@ -18,5 +18,6 @@
     "intel_die.name": "Кость разведданных",
     "transcendence_die.name": "Кость трансцендентности",
     "mf_störtebeker.core_system.passive_name": "Доктрина Хопкинса",
-    "mw_reaper_assault_cannon.profile_standard.name": "Стандартный режим"
+    "mw_reaper_assault_cannon.profile_standard.name": "Стандартный режим",
+    "mf_micro_monarch.trait_pressure_plating.name": "Герметичная обшивка"
 }
