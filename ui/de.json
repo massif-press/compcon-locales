@@ -165,10 +165,10 @@
         "eidolon": "Eidolon",
         "background": "Hintergrund",
         "mech": "Mech",
-        "player": "Spieler*in",
+        "player": "Spieler:in",
         "hidden": "Ausgeblendet",
         "changelog": "Änderungsprotokoll",
-        "deployables": "Einsetzbares",
+        "deployables": "Platzierbare Geräte",
         "talents": "Talente",
         "roll_verb": "Werfen",
         "hase_h": "H",
@@ -324,7 +324,7 @@
             "itchPageText": "Die itch.io-Seite von Massif Press.",
             "downloadDemo": "Demo herunterladen",
             "lcpDirectory": "@:{'common.lcpDirectory'}",
-            "howToSeeExoticsBody": "Um Spoiler für Spieler zu vermeiden, blendet @:{'common.appName'} standardmäßig Exotische Elemente aus. Um die Sichtbarkeit zu ändern, können Sie das {options}-Menü von @:{'common.appName'} verwenden und dort den {showExoticsToggle}-Schalter einschalten.",
+            "howToSeeExoticsBody": "Um Spoiler für Spieler:innen zu vermeiden, blendet @:{'common.appName'} standardmäßig Exotische Elemente aus. Um die Sichtbarkeit zu ändern, können Sie das {options}-Menü von @:{'common.appName'} verwenden und dort den {showExoticsToggle}-Schalter einschalten.",
             "optionsLabel": "@:{'common.options'}",
             "showExoticsToggleLabel": "\"Exotische Gegenstände im Kompendium anzeigen\"",
             "cloudAccountFaqBody": "@:{'common.appName'} Cloud-Konten sind gratis für alle Nutzer:innen. Unterstützer:innen auf Patreon erhalten Zugang zu zusätzlichen Funktionen in ihren Cloud-Konten, wie zum Beispiel erweiterten Cloud-Speicher und zusätzliche aktive Tisch-Instanzen.",
@@ -879,7 +879,7 @@
             "sessionNotes": "Sitzungsnotizen"
         },
         "pcDeploy": {
-            "deployedEquipment": "Eingesetzte Ausrüstung",
+            "deployedEquipment": "Platzierte Geräte",
             "noActive": "Keine aktive Ausrüstung.",
             "noSelected": "Keine Ausrüstung ausgewählt."
         },
@@ -968,7 +968,7 @@
             "aiControl": "KI-Kontrolle",
             "activeEffect": "Aktiver Effekt",
             "passiveBonus": "Passiver Bonus",
-            "equipmentDeployableInstance": "Einsetzbare Ausrüstung (Instanz)"
+            "equipmentDeployableInstance": "Platzierbares Gerät der Ausrüstung (Instanz)"
         },
         "combatAction": {
             "alreadyUsed": "Diese Aktion wurde in diesem Zug bereits einmal verwendet.",
@@ -977,8 +977,8 @@
             "activationAction": "{n} Aktion"
         },
         "deploy": {
-            "deployNamed": "{name} einsetzen",
-            "generateInstance": "Dies wird als eine {action} eine neue Instanz von {name} für {actor} einsetzen"
+            "deployNamed": "{name} platzieren",
+            "generateInstance": "Dies wird als eine {action} eine neue Instanz von {name} für {actor} platzieren"
         },
         "equipCmd": {
             "reload": "Nachladen",
@@ -1005,8 +1005,8 @@
             "reroll": "neu würfeln"
         },
         "deployPanel": {
-            "redeployment": "neu einsetzen",
-            "redeploy": "Neu einsetzen",
+            "redeployment": "neue Platzierung",
+            "redeploy": "Neu platzieren",
             "ownedBy": "Gehört",
             "removeType": "{type} entfernen",
             "recalledAwaiting": "{type} wurde zurückgerufen und wartet auf {redeployment}",
@@ -1762,7 +1762,7 @@
             "pilotHP": "Pilot:innen-TP",
             "maxHP": "Maximale TP",
             "reserve": "Reserve",
-            "deployable": "Einsetzbar",
+            "deployable": "Platzierbares Gerät",
             "heatCap": "Hitzekap.",
             "techAtk": "Cyberangriff",
             "mountLOCKED": "Lafette gesperrt",
@@ -2595,7 +2595,7 @@
             "resetConfirm": "Dies wird alle Statistiken auf R{tier} {name} Standardwerte zurücksetzen. Sind Sie sicher?",
             "confirmResetStats": "Zurücksetzung der Statistiken bestätigen",
             "addStat": "Statistik hinzufügen",
-            "custom": "Eigene Auswahl"
+            "custom": "Benutzerdefiniert"
         },
         "npcAlert": {
             "selectUpTo": "Sie dürfen bis zu {n} zusätzliche Funktion auswählen | Sie dürfen bis zu {n} zusätzliche Funktionen auswählen",
@@ -3111,7 +3111,32 @@
             "sortByAuthor": "Nach Urheber:in sortieren",
             "sortBySuggestedPlayers": "Nach empfohlener Spieleranzahl sortieren",
             "sortByLicenseLevel": "Nach Lizenzlevel sortieren",
-            "lancerCampaignDirectory": "@:{'common.gameName'}-Kampagnenverzeichnis"
+            "lancerCampaignDirectory": "@:{'common.gameName'}-Kampagnenverzeichnis",
+            "recommendedForLine": "Empfohlen für {players} Spieler:innen auf Lizenzlevel {levels}",
+            "campaignForLine": "Eine {lancer}-Kampagne für {players} Pilot:innen ab Lizenzlevel {levels}.",
+            "directoryComingSoon": "In V3 wird dies ein durchsuchbares Verzeichnis an Kampagnen sein, sowohl von Massif als auch von der Community. Falls Sie eingeloggt sind und ein verknüpftes itch.io-Konto haben, können Sie Kampagnen direkt aus dem Verzeichnis importieren. Andernfalls werden Sie zur itch.io-Seite weitergeleitet, um die Kampagne zu erwerben und herunterzuladen.",
+            "stagedCampaignData": "Bereitgestellte Kampagnendaten",
+            "existingNewer": "Die vorhandene Kampagne ist neuer als die importierten Daten.",
+            "index": "Index",
+            "returnToLibrary": "Zurück zur Bibliothek",
+            "byAuthor": "Von {author}",
+            "tableOfContents": "Inhaltsverzeichnis",
+            "addCampaign": "Kampagne hinzufügen"
+        },
+        "fields": {
+            "searchTheCampaignLibrary": "Kampagnenbibliothek durchsuchen",
+            "showFull": "Ganz anzeigen",
+            "selectLcdFile": ".LCD-Datei auswählen"
+        },
+        "tooltips": {
+            "userSelectedDamageTypeOrDamage": "Benutzerdefinierter oder unspezifischer Schadenstyp",
+            "weaponThreatRange": "Waffen-Drohweite",
+            "burstAreaOfEffect": "\"Umfeld\"-Wirkungsbereich",
+            "blastAreaOfEffect": "\"Radius\"-Wirkungsbereich",
+            "lineAreaOfEffect": "\"Linie\"-Wirkungsbereich",
+            "coneAreaOfEffect": "\"Kegel\"-Wirkungsbereich",
+            "hitPoints": "Trefferpunkte",
+            "denotesContentAddedByALancer": "Markiert Inhalte, die durch ein Lancer-Inhaltspaket (.LCP-Datei) hinzugefügt wurden"
         }
     },
     "notify": {
@@ -3125,7 +3150,9 @@
     },
     "ui": {
         "brokenRef": {
-            "partOfPack": "Dieses Element ist Teil des folgenden Lancer Inhaltspakets"
+            "partOfPack": "Dieses Element ist Teil des folgenden Lancer Inhaltspakets",
+            "instancedItem": "Instanziertes Element",
+            "instancedNote": "Dieses Element wurde als einzigartiges Objekt instanziert. Falls es entfernt wird, bleibt es bis zur Installation der verknüpften LCP nicht verfügbar."
         },
         "missing": {
             "eidolonHelp": "Für Eidolons muss das Inhaltspaket von {pack} installiert sein",
@@ -3134,12 +3161,61 @@
             "usesContent": "Dieses Element nutzt Inhalte vom {pack} Lancer Inhaltspaket. Ausrüstung aus diesem Inhaltspaket wird {instanced}, bis das benötigte LCP durch das Inhaltsverwaltungs-Menü {state} ist.",
             "requestsNewer": "Dieses Element erbittet eine Version des {pack} Lancer Inhaltspakets, das neuer ist als das aktuell Installierte.",
             "packActive": "Das {pack} Lancer Inhaltspaket ist installiert und aktiv.",
-            "lancerCoreBook": "Lancer Core Book"
+            "lancerCoreBook": "Lancer Core Book",
+            "missingContent": "Inhalte fehlen",
+            "hoverHelp": "Diesem {type} fehlen benötigte LCP-Daten. @:{'common.appName'} wird diese:s {type} nicht laden können, bis die fehlenden Inhalte hinzugefügt wurden.",
+            "detected": "Fehlende Inhalte erkannt",
+            "instanced": "instanziert",
+            "installedActivated": "installiert und aktiviert",
+            "activated": "aktiviert",
+            "otherError": "@:{'common.appName'} ist beim Laden dieses Elements auf einen Fehler gestoßen.",
+            "checkLog": "Für mehr Informationen prüfen Sie bitte das Fehlerprotokoll im \"Protokoll\"-Reiter des Optionsmenüs",
+            "noNpcData": "Keine NSC-Editordaten gefunden!",
+            "coreBookLink": "@:{'common.gameName'}: Core Book itch.io-Seite",
+            "gmHelp1": "Falls Sie die NSC-Daten bereits heruntergeladen haben, können Sie diese durch die Inhaltsverwaltung im Hauptmenü oder im Optionsmenü rechts in der Navigationsleiste in @:{'common.appName'} importieren.",
+            "gmHelp2": "Falls Sie eine physische Kopie des Lancer Core Book gekauft haben, aber keine Anleitung erhalten haben, wie Sie die digitale Version und die damit verbundenen Inhalte (inklusive der NSC-Daten) erhalten können, bitte kontaktieren Sie Massif Press über {email}",
+            "npcDataHelp": "NSC-Daten sind in der Bezahlversion des Lancer Core Book enthalten und sind daher standardmäßig nicht in @:{'common.appName'} erhältlich. Sie können NSC-Klassen, -Vorlagen und -Funktionsdaten als herunterladbare Inhalte über {link} erhalten."
         },
         "fields": {
             "fromContentPack": "Aus dem Inhaltspaket",
             "attackType": "Angriffstyp",
-            "equipmentNotes": "Ausrüstungsnotizen"
+            "equipmentNotes": "Ausrüstungsnotizen",
+            "title": "Titel",
+            "segments": "Abschnitte",
+            "linear": "Linear",
+            "gmOnly": "Nur SL",
+            "resolution": "Auflösung",
+            "showDeleted": "Gelöschte:s anzeigen",
+            "entity": "Entität",
+            "relationship": "Beziehung",
+            "metric": "Maßeinheit",
+            "xAxis": "X-Achse",
+            "yAxis": "Y-Achse",
+            "compareTo": "Vergleiche mit",
+            "selectTarget": "Ziel auswählen",
+            "organizationName": "Name der Organisation",
+            "organizationType": "Typ der Organisation",
+            "used": "Benutzt",
+            "counterName": "Name der Marke",
+            "licenseLevel": "Lizenzlevel",
+            "fromManufacturer": "Von Hersteller",
+            "role": "Rolle",
+            "hasMount": "Hat Lafette",
+            "size": "Größe",
+            "license": "Lizenz",
+            "tags": "Marken",
+            "systemType": "Systemtyp",
+            "weaponType": "Waffentyp",
+            "requiredMount": "Benötigte Lafette",
+            "damageType": "Schadenstyp",
+            "itemType": "Elementtyp",
+            "origin": "Ursprung",
+            "addNewImage": "Neues Bild hinzufügen",
+            "imageType": "Bildtyp",
+            "linkImage": "Bild verknüpfen",
+            "purposeGoalAndOrganizationDetails": "Zweck, Ziele, und Details der Organisation",
+            "costcomplications": "Kosten/Komplikationen",
+            "allItems": "Alle Elemente"
         },
         "alt": {
             "packImage": "Paketbild"
@@ -3147,7 +3223,30 @@
         "card": {
             "weaponAttacks": "Diese Waffe kann {count} Angriffe auf einmal machen. Mehrfachangriffe dürfen auf dasselbe Ziel oder unterschiedliche Ziele gerichtet sein.",
             "equipmentActions": "Ausrüstungs-Aktionen",
-            "equipmentDeployables": "Einsetzbares der Ausrüstung"
+            "equipmentDeployables": "Platzierbare Geräte der Ausrüstung",
+            "kit": "Kit",
+            "suggestedSkills": "Vorgeschlagene Fertigkeiten",
+            "deprecated": "Dieses Element ist veraltet und kann entfernt werden.",
+            "modifies": "Modifiziert",
+            "compendiumData": "Kompendiumsdaten",
+            "variantFrame": "Rahmenvariante",
+            "combatProfile": "Kampfprofil",
+            "availableMounts": "Verfügbare Waffenlafetten",
+            "onboardCore": "Eingebautes Kernsystem",
+            "integrations": "Integrationen",
+            "systemPoints": "Systempunkt | Systempunkte",
+            "profileActions": "Profilaktionen",
+            "profileDeployables": "Platzierbare Geräte aus Profil",
+            "profileTags": "Profilmarken",
+            "classStats": "Klassenstatistiken",
+            "tierColumns": "R1 / R2 / R3",
+            "classBaseFeatures": "Basisfunktionen der Klasse",
+            "classOptionalFeatures": "Optionale Funktionen der Klasse",
+            "templateBaseFeatures": "Basisfunktionen der Vorlage",
+            "templateOptionalFeatures": "Optionale Funktionen der Vorlage",
+            "controlZone": "Kontrollzone",
+            "modification": "Modifikation",
+            "canBeAppliedTo": "Anwendbar auf"
         },
         "combat": {
             "noAttackRolled": "Kein Angriff gewürfelt",
@@ -3155,17 +3254,111 @@
             "failedAttack": "Fehlgeschlagener Angriff",
             "heatSelf": "+{n} Hitze (Selbst)",
             "overkillHeat": "+{n} Hitze (Selbst) [Overkill]",
-            "overkillYes": "Dieser Schaden ist von OVERKILL abhängig (1er werden neu gewürfelt, fügt sich selbst Hitze zu)"
+            "overkillYes": "Dieser Schaden ist von OVERKILL abhängig (1er werden neu gewürfelt, fügt sich selbst Hitze zu)",
+            "passiveEffect": "Passiver Effekt",
+            "damageAssignment": "Schadenszuweisung verfügbar",
+            "statusEffect": "Statuseffekt verfügbar",
+            "saveAvailable": "Rettungswurf verfügbar",
+            "resistanceImmunity": "Widerstand/Immunität verfügbar",
+            "otherEffect": "Anderer Effekt verfügbar",
+            "specialEffect": "Sondereffekt verfügbar",
+            "fromOrigin": "Von {name}",
+            "originDestroyed": "Ursprung {type} wurde zerstört",
+            "originUsed": "Ursprung {type} wurde benutzt",
+            "ifLabel": "FALLS",
+            "staged": "Bereit",
+            "actionUsed": "Aktion wurde bereits verwendet.",
+            "insufficientActions": "Nicht genug {activation}-Aktionen für diesen Zug übrig.",
+            "cannotActivate": "Nicht aktivierbar.",
+            "cannotActivateShort": "Nicht aktivierbar",
+            "activate": "Aktivieren",
+            "applyAll": "Alle anwenden",
+            "free": "Frei*",
+            "mandatoryFields": "Pflichtfelder übrig",
+            "alreadyActivated": "Bereits aktiviert",
+            "insufficientActionsShort": "Nicht genug Aktionen",
+            "d20": "1w20",
+            "d20Plus": "1w20 +",
+            "until": "Bis",
+            "vsStat": "vs {stat}",
+            "noTarget": "Kein Ziel ausgewählt",
+            "vs": "VS",
+            "clickToOverride": "Zum Überbrücken klicken",
+            "reliableOnMiss": "ZUVERLÄSSIG {n} {type} wird bei Verfehlen angewendet",
+            "reliableN": "Zuverlässig {n}",
+            "criticalHit": "Kritischer Treffer",
+            "crit": "Krit.",
+            "hit": "Treffer",
+            "miss": "Verfehlt",
+            "saveSuffix": "{stat}-Rettungswurf",
+            "half": "Halbiert",
+            "noSaveRolled": "Kein Rettungswurf geworfen",
+            "successfulSave": "Erfolgreicher Rettungswurf",
+            "failedSave": "Fehlgeschlagener Rettungswurf",
+            "vsTarget": "gegen Ziel-",
+            "currentlyEngaged": "(Zur Zeit IM NAHKAMPF)",
+            "targetInCover": "(Ziel ist in DECKUNG)",
+            "saveBonusVs": "(Rettungswurfbonus) gegen",
+            "diceD": "w",
+            "areaOfEffect": "Wirkungsbereich",
+            "singleTarget": "Einzelnes Ziel",
+            "addTarget": "Ziel hinzufügen",
+            "target": "Ziel",
+            "self": "Selbst",
+            "damageValue": "Schadenswert",
+            "bonusDamage": "Bonusschaden",
+            "bonusDamageHalved": "Bonusschaden wird halbiert (Wirkungsbereich)",
+            "critDamageYes": "Dieser Schaden wird als kritisch gewürfelt (zweimal, höheres Ergebnis zählt)",
+            "critDamageNo": "Dieser Schaden wird nicht als kritisch gewürfelt",
+            "apYes": "Dieser Schaden ignoriert Panzerung",
+            "apNo": "Dieser Schaden ignoriert Panzerung nicht",
+            "irreducibleYes": "Dieser Schaden kann auf keine Weise reduziert werden",
+            "irreducibleNo": "Dieser Schaden kann von der Verteidigung des Ziels reduziert werden",
+            "exceptArmor": ", außer durch Panzerung",
+            "overkillNo": "Dieser Schaden wird nicht durch OVERKILL beeinflusst",
+            "reliableDamage": "Zuverlässiger Schaden",
+            "clearReliableDamage": "Zuverlässigen Schaden entfernen",
+            "clickClearBonus": "Klicken, um Bonusschaden zu entfernen",
+            "clickAddBonus": "Klicken, um Bonusschaden hinzuzufügen",
+            "resistanceType": "Widerstandstyp",
+            "saveHalf": "Rettung halbiert",
+            "removeSpecialCondition": "Sonderzustand entfernen"
         },
         "widget": {
             "glossary": {
                 "heatLabel": "HITZE:",
                 "heatDescription": "Hitze ist ein besonderer Schadenstyp, der nicht als Schaden zählt und PANZERUNG ignoriert, aber durch WIDERSTAND reduziert werden kann. Sie repräsentiert Schaden an den internen Systemen und dem Reaktor eines Mechs. Meistens wird sie durch Cyberangriffe zugefügt, kann aber auch durch die eigenen Systeme eines Mechs zugefügt werden. Wenn ein Mech seine HITZEKAPAZITÄT erreicht, führt jegliche weitere Hitze zu einer Überhitzung. Falls ein Charakter ohne HITZEKAPAZITÄT (wie z.B. BIOLOGISCHE Charaktere oder einige DROHNEN) Hitze erhalten würde, nimmt dieser stattdessen dieselbe Menge an Energieschaden.",
                 "rangeDesc": {
-                    "equipmentAffects": "Ausrüstung mit einem {pattern}-Angriffsmuster wirkt auf {area}."
+                    "equipmentAffects": "Ausrüstung mit einem {pattern}-Angriffsmuster wirkt auf {area}.",
+                    "maxRange": "Die maximale Reichweite, in der {what}, gemessen vom angreifenden Charakter.",
+                    "whatRange": "eine Waffe für Fernkampfangriffe genutzt werden kann",
+                    "whatThreat": "Nahkampf- und Feuerschutzangriffe mit bestimmten Waffen gemacht werden können",
+                    "whatThrown": "eine geworfene Waffe genutzt werden kann",
+                    "areaLine": "alle Ziele in einer geraden Linie, welche X Felder lang ist. Ein separater Angriffswurf wird für jedes Ziel auf der Linie benötigt.",
+                    "areaCone": "Charaktere in einem Kegel, welcher X Felder lang und an seiner fernsten Stelle X Felder breit ist",
+                    "areaBurst": "Charaktere innerhalb eines Radius von X Feldern, dessen Zentrum auf dem Feld des Angreifers liegt (und dieses mit einschließt)"
                 },
-                "intro": "Diese Ausrüstung fügt <b>{value}</b> {type}schaden zu"
-            }
+                "intro": "Diese Ausrüstung fügt <b>{value}</b> {type}schaden zu",
+                "rangeText": "{type} {value}",
+                "rangeTextBonus": "{type} {value} (+{bonus})",
+                "burnLabel": "BRAND:",
+                "burnDescription": "Manche Waffen fügen Brand (Schaden über Zeit) zu. Brand kann Flammen, sengendes Plasma oder Säure repräsentieren, oder sogar Schwärme an Grauflut-Naniten. Wenn Charaktere Brand erleiden, passieren zwei Dinge: Zuerst nehmen sie sofort Brandschaden der PANZERUNG ignoriert, dann markieren sie den Brand, den sie erlitten haben. Am Ende ihres Zuges müssen Charaktere mit Brand einen TECHNIK-Test würfeln. Bei Erfolg wird sämtlicher Brand von ihnen entfernt. Andernfalls nehmen sie erneut Brandschaden in Höhe des Brands, der auf ihnen markiert ist. Brand von zusätzlichen anderen Quellen wird auf den aktuell markierten Brand draufgerechnet."
+            },
+            "damage": "Schaden",
+            "selectDamageType": "Schadenstypen auswählen",
+            "selectedCount": "{n} ausgewählt",
+            "missingData": "Fehlende Daten",
+            "tap": "KLOPF",
+            "click": "Klicken",
+            "toClose": "Um zu schließen",
+            "versionLabel": "V{version}",
+            "noDescription": "Keine Beschreibung angegeben.",
+            "other": "Andere:s",
+            "noSelection": "Keine Auswahl",
+            "deploy": "Platzieren",
+            "integratedMechWeapon": "Integrierte Mechwaffe",
+            "passive": "Passiv",
+            "active": "Aktiv"
         },
         "titles": {
             "overheating": "ÜBERHITZT",
@@ -3174,19 +3367,215 @@
             "heatcap": "Hitzekap",
             "heat": "Hitze",
             "externalDataWarning": "Externe Datenwarnung",
-            "gear": "Ausrüstung"
+            "gear": "Ausrüstung",
+            "reportedAppearances": "Gemeldete Erscheinungen",
+            "hints": "Hinweise",
+            "rules": "Regeln",
+            "shards": "Scherben",
+            "shardFeatures": "Funktionen der Scherben",
+            "tactics": "Strategie",
+            "featureSelection": "Funktionsauswahl",
+            "resetAllInputs": "Alle Eingaben zurücksetzen",
+            "successfulHit": "Erfolgreicher Treffer",
+            "printOptions": "Druckoptionen",
+            "structureDamage": "STRUKTURSCHADEN",
+            "cascade": "KASKADE",
+            "clockEditor": "Uhren-Editor",
+            "activateFreeAction": "Aktivieren (Freie Aktion)",
+            "repairCapacity": "Ersatzteilvermögen",
+            "totalDamage": "Gesamtschaden",
+            "saveTarget": "Rettungswurfzielwert",
+            "kineticDamage": "Kinetischer Schaden",
+            "energyDamage": "Energieschaden",
+            "explosiveDamage": "Explosivschaden",
+            "variableDamage": "Veränderlicher Schaden",
+            "softCover": "Weiche Deckung",
+            "hardCover": "Harte Deckung",
+            "noCover": "Keine Deckung",
+            "areaOfEffect": "Wirkungsbereich",
+            "eDefense": "E-Verteidigung",
+            "size": "Größe",
+            "range": "Reichweite",
+            "hull": "Hülle",
+            "evade": "Ausweichen",
+            "threat": "Drohweite",
+            "thrown": "Wurfweite",
+            "line": "Linie",
+            "blast": "Radius",
+            "burst": "Umfeld",
+            "cone": "Kegel",
+            "kinetic": "Kinetisch",
+            "energy": "Energie",
+            "explosive": "Explosiv",
+            "burn": "Brand",
+            "resistance": "Widerstand",
+            "immunity": "Immunität",
+            "vulnerability": "Verwundbarkeit"
         },
         "coreBonus": {
             "instancedWarning": "{warning} Dies ist ein instanziertes Element. Falls sie entfernt wird, ist diese Herstellerspezialisierung nicht mehr verfügbar, bis die damit verbundene LCP installiert wird.",
             "integrated": "Durch Herstellerspezialisierung integrierte Ausrüstung",
-            "additional": "Durch Herstellerspezialisierung zusätzliche Ausrüstung"
+            "additional": "Durch Herstellerspezialisierung zusätzliche Ausrüstung",
+            "remove": "Diese Herstellerspezialisierung entfernen",
+            "actions": "Herstellerspezialisierungs-Aktionen",
+            "deployables": "Platzierbare Geräte von Herstellerspezialisierung",
+            "ignoreRequirements": "Voraussetzungen für Herstellerspezialisierungen ignorieren"
         },
         "ref": {
-            "equipmentTagDetail": "Details zu Ausrüstungsmarken"
+            "equipmentTagDetail": "Details zu Ausrüstungsmarken",
+            "actionReference": "Aktionsverweis"
         },
         "corePanel": {
             "integrated": "Kernintegrierte Ausrüstung",
             "special": "Kern-Spezialausrüstung"
+        },
+        "counter": {
+            "addCustom": "Eigenen Zähler hinzufügen"
+        },
+        "rollTable": {
+            "gmOnlyTooltip": "Felder und Gegenstände, die als \"Nur für SL\" markiert sind, werden in spielerseitigen Exporten und Ausdrucken ausgeblendet",
+            "step": "Schritt",
+            "rebuild": "Neu bauen",
+            "rebuildConfirm": "Möchten Sie diese Tabelle neu bauen? Dies wird die aktuellen Daten leeren. Diese Handlung kann nicht rückgängig gemacht werden.",
+            "confirmRebuild": "Neu Bauen bestätigen",
+            "deleteConfirm": "Möchten Sie diese Tabelle löschen? Dies kann nicht rückgängig gemacht werden.",
+            "multipleOnes": "Mehrere 1er",
+            "d": "W"
+        },
+        "tooltips": {
+            "markingAFieldOrItem": "Felder und Gegenstände, die als 'Nur für SL' markiert sind, werden in spielerseitigen Exporten und Ausdrucken ausgeblendet",
+            "itemFilters": "Elementfilter",
+            "resetCounter": "Zähler zurücksetzen",
+            "deleteCounter": "Zähler löschen",
+            "markThisResourceAsUsed": "Diese Ressource als gebraucht oder nicht verfügbar markieren (aber nicht als verbraucht, zerstört, oder verloren)",
+            "addCoinFlipD2": "Münzwurf hinzufügen (w2)",
+            "addD4Roll": "W4-Wurf hinzufügen",
+            "addD6Roll": "W6-Wurf hinzufügen",
+            "addD8Roll": "W8-Wurf hinzufügen",
+            "addD10Roll": "W10-Wurf hinzufügen",
+            "addD12Roll": "W12-Wurf hinzufügen",
+            "addD20Roll": "W20-Wurf hinzufügen",
+            "addAccuracy": "Genauigkeit hinzufügen",
+            "addDifficulty": "Schwierigkeit hinzufügen",
+            "thisWillPermanentlyDeleteThisImage": "Dies wird das Bild permanent aus dem Cloudspeicher löschen. Fortfahren?",
+            "linkARemotelyHostedImageTo": "Verknüpft ein rechnerfern gehostetes Bild mit diesem Element. Diese Bilder werden nicht von COMP/CON gespeichert oder verwaltet, und können von Ihren Hosts jederzeit geändert oder entfernt werden."
+        },
+        "cascade": {
+            "alert": "Warnung vor Kaskade",
+            "pending": "Ausstehend",
+            "inCascade": "Kaskadierend"
+        },
+        "table": {
+            "previous": "vorherige"
+        },
+        "lcp": {
+            "content": "LCP-Inhalte",
+            "downloadLcp": "LCP herunterladen",
+            "updateLcp": "LCP aktualisieren",
+            "installedDisabled": "LCP installiert aber deaktiviert"
+        },
+        "bond": {
+            "minorIdeals": "Nebenideale",
+            "bondPowers": "Bundkräfte",
+            "veteranPower": "Veteranenkraft",
+            "masterPower": "Meisterkraft"
+        },
+        "clock": {
+            "deleteConfirm": "Möchten Sie diese Uhr löschen? Dies kann nicht rückgängig gemacht werden."
+        },
+        "confirm": {
+            "heading": "// Prozessunterbrechung: Autorisierung benötigt //"
+        },
+        "dice": {
+            "critical": "// Kritisch",
+            "noRoll": "Kein Wurf",
+            "rolling": "Würfelt {n}w{sides}",
+            "flatModifier": "Statischer Summand",
+            "total": "Ergebnis",
+            "clearAll": "Alle leeren",
+            "resetAll": "Alle zurücksetzen",
+            "commitResult": "Ergebnis eintragen"
+        },
+        "remote": {
+            "collectionResource": "Sammlungsressource",
+            "collectionHelp": "Diese:s {type} ist mit einer Inhaltssammlung verknüpft. Es ist schreibgeschützt, aber wird Aktualisierungen erhalten wenn eine neue Version der Sammlung von deren Urheber:in veröffentlicht wird.",
+            "remoteHelp": "Diese:s {type} ist eine rechnerferne Ressource, die mit dem Konto eine:r anderen Nutzer:in verknüpft ist. Sie ist schreibgeschützt und wird Aktualisierungen von dem verknüpften Konto erhalten."
+        },
+        "shareImport": {
+            "itemShareCode": "Teilbarer Elementcode",
+            "findItem": "Element finden",
+            "noItemFound": "Kein Element mit Code {code} gefunden.",
+            "dataFound": "// {type}-Daten gefunden",
+            "userOwned": "Sie sind Urheber:in dieses Elements. Ihre eigenen Elemente können Sie nicht als rechnerferne Ressourcen hinzufügen.",
+            "alreadyAdded": "Dieses Element wurde bereits als rechnerferne Ressource hinzugefügt.",
+            "qrTypeHelp": "Dieses Element ist ein:e {qr}. Es kann importiert werden, aber erscheint nur in der {qr}-Liste, nicht der {type}-Liste."
+        },
+        "relationship": {
+            "deleteConfirm": "Möchten Sie diese Beziehung löschen? Diese Handlung kann nicht rückgängig gemacht werden."
+        },
+        "pwa": {
+            "updateAvailable": "Eine neue Version von @:{'common.appName'} ist verfügbar.",
+            "later": "Später",
+            "updateNow": "Jetzt aktualisieren",
+            "offlineReady": "@:{'common.appName'} ist zur Offlinenutzung bereit."
+        },
+        "filter": {
+            "savedConfigs": "Gespeicherte Konfigurationen",
+            "clearFilters": "Filter leeren",
+            "setItemFilters": "Elementfilter setzen",
+            "noFilters": "Keine Filter verfügbar",
+            "spCost": "SP-Kosten",
+            "lessThan": "Weniger als",
+            "equalTo": "Gleich",
+            "greaterThan": "Größer als"
+        },
+        "license": {
+            "prereqCumulative": "Diese Lizenz benötigt mindestens {rank} kumulative Ränge an {source}-Lizenzen",
+            "prereqSingle": "Diese Lizenz benötigt mindestens eine weitere {source}-Lizenz mit Rang {rank} oder höher",
+            "noRanks": "Keine Lizenzränge",
+            "allUnlocked": "Alle Ränge freigeschaltet"
+        },
+        "selector": {
+            "noManufacturer": "Kein Hersteller",
+            "select": "{name} auswählen"
+        },
+        "talent": {
+            "rankLocked": "Talentrang freigeschaltet",
+            "unlocked": "Freigeschaltet"
+        },
+        "org": {
+            "efficiency": "Effizienz der Organisation",
+            "influence": "Einfluss der Organisation"
+        },
+        "action": {
+            "compendiumEntry": "Kompendiumseintrag",
+            "frequency_action": "Häufigkeit"
+        },
+        "image": {
+            "remoteImages": "Rechnerferne Bilder",
+            "archive": "@:{'common.appName'}-Bilderarchiv",
+            "noAvatar": "kein Avatar gesetzt",
+            "requiresSelection": "Bildauswahl benötigt",
+            "clearImage": "Bild entfernen",
+            "setAvatar": "Avatar setzen",
+            "clearAvatar": "Avatar entfernen",
+            "dragHelp1": "Schablone zum Zurechtschneiden ziehen, Regler ziehen um Größe einzustellen",
+            "dragHelp2": "Bild zum Neu Positionieren ziehen, Mausrad für Zoom verwenden",
+            "requiresAccount": "Benötigt ein @:{'common.appName'}-Konto",
+            "mb": "MB",
+            "uploadImage": "Bild hochladen",
+            "upload": "Hochladen",
+            "accountUsage": "Kontobelegung",
+            "capacityExceeded": "Kapazität überschritten",
+            "overCapacity": "Ihr Konto hat die Kapazität überschritten. Gratiskonten sind auf maximal {max} MB Speicherplatz beschränkt.",
+            "addRemote": "Rechnerfernes Bild hinzufügen",
+            "load": "Laden",
+            "patreonNote": "In einer zukünftigen Version können Sie Ihr Patreon-Konto verknüpfen, und Unterstützer von @:{'common.appName'} werden keine Speicherbegrenzungen erfahren.",
+            "artworkBy": "Gezeichnet von {artist}",
+            "remoteGalleryNote": "Die Bilder in dieser Galerie sind Links auf rechnerferne Ressourcen die nicht von @:{'common.appName'} verwaltet werden. Falls Sie den Anbieter nicht steuern, könnten diese Elemente jederzeit entfernt oder geändert werden."
+        },
+        "subtitles": {
+            "selectResult": "Ergebnis auswählen"
         }
     },
     "enums": {
@@ -3196,10 +3585,78 @@
             "tech": "Cyber"
         },
         "damageType": {
-            "heat": "Hitze"
+            "heat": "Hitze",
+            "kinetic": "Kinetisch",
+            "energy": "Energie",
+            "explosive": "Explosiv",
+            "burn": "Brand",
+            "applied_burn": "Bestehender Brand",
+            "variable": "Veränderlich",
+            "aoe": "AoE"
+        },
+        "systemType": {
+            "deployable": "Platzierbares Gerät"
+        },
+        "weaponType": {
+            "rifle": "Gewehr",
+            "cannon": "Kanone",
+            "launcher": "Werfer",
+            "cqb": "CQB",
+            "nexus": "Nexus",
+            "melee": "Nahkampf",
+            "improvised": "Improvisiert"
+        },
+        "weaponSize": {
+            "auxiliary": "Leicht",
+            "main": "Standard",
+            "heavy": "Schwer",
+            "superheavy": "Überschwer"
+        },
+        "mountType": {
+            "main": "Haupt-",
+            "heavy": "Schwere",
+            "aux_aux": "Doppelleicht-",
+            "aux": "Leichte",
+            "main_aux": "Haupt/Leicht-",
+            "flex": "Flex-",
+            "integrated": "Integrierte",
+            "superheavy": "Überschwere"
+        },
+        "rangeType": {
+            "range": "Reichweite",
+            "threat": "Drohweite",
+            "thrown": "Wurfweite",
+            "line": "Linie",
+            "cone": "Kegel",
+            "blast": "Radius",
+            "burst": "Umfeld"
+        },
+        "activationType": {
+            "none": "Keine",
+            "free": "Freie",
+            "protocol": "Protokoll",
+            "quick": "Schnelle",
+            "full": "Volle",
+            "invade": "Eindringen",
+            "jockey": "Rangeln",
+            "full_tech": "Volle Cyberaktion",
+            "quick_tech": "Schnelle Cyberaktion"
         }
     },
     "stats": {
-        "stress": "Reaktor"
+        "stress": "Reaktor",
+        "agility": "Agilität",
+        "systems": "Systeme",
+        "engineering": "Technik",
+        "agi": "AGI",
+        "hp": "TP",
+        "armor": "Panzerung",
+        "evasion": "Ausweichen",
+        "edef": "E-VERT",
+        "edefense": "E-Verteidigung",
+        "speed": "Geschwindigkeit",
+        "sensors": "Sensorreichweite",
+        "structure": "Struktur",
+        "sp": "SP"
     }
 }
