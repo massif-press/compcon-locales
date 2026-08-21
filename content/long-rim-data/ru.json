@@ -4,7 +4,12 @@
     "mf_caliban.core_system.name": "Дробовик \"Живодёр\"",
     "mw_caliban_integrated.name": "Дробовик HHS-075 \"Живодёр\"",
     "ms_unhinge_chronoflow.action_slow.name": "Замедлить",
-    "mf_sunzi.trait_safe_harbor.active_effect_safe_harbor.name": "Тихая гавань",
-    "mf_sunzi.trait_safe_harbor.name": "Тихая гавань",
-    "mw_caliban_integrated.profile_standard.name": "Стандартный режим"
+    "mf_sunzi.trait_safe_harbor.active_effect_safe_harbor.name": "Безопасная гавань",
+    "mf_sunzi.trait_safe_harbor.name": "Безопасная гавань",
+    "mw_caliban_integrated.profile_standard.name": "Стандартный режим",
+    "mf_sunzi.trait_slip.action_slip.detail": "Телепортируйтесь на 2 клетки.",
+    "mf_sunzi.core_system.active_name": "Искусство войны",
+    "ctr_art_of_war.name": "Искусство войны",
+    "ctr_xiaoli_type_cqb_suite.name": "Кость Сяоли",
+    "mf_sunzi.core_system.active_action_art_of_war.name": "Искусство войны"
 }
