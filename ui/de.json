@@ -440,7 +440,7 @@
             "removeFromConfig": "Dieses Paket von der Konfiguration entfernen",
             "editConfig": "Diese Konfiguration bearbeiten",
             "byAuthor": "@:{'common.byAuthor'}",
-            "lcpsSuffix": "{list} LCPs"
+            "lcpsSuffix": "{list}-LCPs"
         },
         "userDataViewer": {
             "description": "Dies sind die lokal gespeicherten Nutzer:innendaten. Diese Elemente sollten generell nicht zurückgesetzt werden müssen, aber es kann hilfreich bei der Fehlersuche oder beim Lösen von hartnäckigen Ladeproblemen sein.",
@@ -1180,7 +1180,10 @@
         },
         "trackable": {
             "corePower": "Kernbatterie",
-            "ready": "Bereit"
+            "ready": "Bereit",
+            "clearMechCore": "Dieser Mech: Leeren der",
+            "restoreMechCore": "Dieser Mech: Wiederherstellen der",
+            "corePowerQ": "Kernbatterie?"
         },
         "customStat": {
             "static": "Statisch",
@@ -1836,7 +1839,9 @@
             "limitedSystemsBonus": "BONUS ZU BEGRENZTEN SYSTEMEN",
             "hull": "Hülle",
             "evasion": "AUSWEICHEN",
-            "speed": "GESCHWINDIGKEIT"
+            "speed": "GESCHWINDIGKEIT",
+            "convertingThisPilotToLocalData": "Die Konvertierung diese:r Pilot:in zu Lokaldaten erlaubt lokale Bearbeitung, aber entfernt die rechnerferne\nVerknüpfung zum Cloud-Konto des:der Urheber:in. Weitere Aktualisierungen können dann nicht mehr\nerhalten werden. Um rechnerferne Synchronisation wieder einzuschalten, werden Sie dieses Element über\neinen teilbaren Code neu importieren müssen.",
+            "influenceIsYourOrganizationsSizeReach": "Einfluss repräsentiert die Größe und Reichweite Ihrer Organisation, sowie deren Vermögen und Ruf.\nEinfluss kann genutzt werden um Vorteile zu erhalten, Gelegenheiten zu schaffen, oder die\nöffentliche Meinung zu beeinflussen."
         },
         "import": {
             "importSuccessTitle": "Import erfolgreich",
@@ -2967,7 +2972,8 @@
             "changeTierAndDiscardAll": "Den Rang ändern und alle Wertänderungen verwerfen.",
             "thisWillDeleteThisNpcFrom": "Dies wird diesen NSC von der NSC-Liste löschen. NSCs dieses Typs, die zu Gefechten hinzugefügt wurden, bleiben unbeeinflusst. Sind Sie sicher?",
             "confirmDuplicationOfThisNpc": "Duplizieren dieses NSCs bestätigen",
-            "thisWillDeleteThisEncounterFrom": "Dies wird dieses Gefecht aus Ihrer Bibliothek löschen. Sind Sie sicher?"
+            "thisWillDeleteThisEncounterFrom": "Dies wird dieses Gefecht aus Ihrer Bibliothek löschen. Sind Sie sicher?",
+            "convertingThisItemToLocalData": "Die Konvertierung dieses Elements zu Lokaldaten erlaubt lokale Bearbeitung aber entfernt die rechnerferne Verknüpfung zum Cloud-Konto \ndes:der Urheber:in. Weitere Aktualisierungen können dann nicht mehr erhalten werden. Um rechnerferne Synchronisation wieder \neinzuschalten, werden Sie dieses Element über einen teilbaren Code neu importieren müssen."
         },
         "eidolonData": {
             "noData": "Keine Daten für Eidolon-Editor gefunden!",
@@ -3141,11 +3147,157 @@
     },
     "notify": {
         "gm": {
-            "v2BackupText": "{count} Element wurde zu den ausstehenden V2 Importierungen in der Inhaltsverwaltung hinzugefügt. | {count} Elemente wurden zu den ausstehenden V2 Importierungen in der Inhaltsverwaltung hinzugefügt."
+            "v2BackupText": "{count} Element wurde zu den ausstehenden V2 Importierungen in der Inhaltsverwaltung hinzugefügt. | {count} Elemente wurden zu den ausstehenden V2 Importierungen in der Inhaltsverwaltung hinzugefügt.",
+            "npcImportErrorText": "SL-Daten konnten nicht importiert werden: {error}",
+            "v2BackupTitle": "Backup des V2-Imports",
+            "campaignPublishedTitle": "Kampagne veröffentlicht",
+            "campaignPublishedText": "Version {version} von {name} wurde veröffentlicht.",
+            "importCompleteTitle": "Import abgeschlossen",
+            "importCompleteText": "Kampagne wurde zu lokaler Sammlung hinzugefügt!",
+            "importErrorTitle": "Importfehler",
+            "campaignTransferErrorText": "Kampagne konnte nicht übertragen werden: {error}",
+            "loginRequiredTitle": "Login benötigt",
+            "loginRequiredText": "Um Kampagnendaten in das Cloud-Repository hochzuladen, müssen Sie eingeloggt sein.",
+            "uploadSuccessTitle": "Upload erfolgreich",
+            "uploadSuccessText": "Clouddaten aktualisiert!",
+            "uploadErrorTitle": "Uploadfehler",
+            "uploadErrorText": "Cloud konnte nicht aktualisiert werden: {error}"
         },
         "lcp": {
             "lcpUpdatedText": "Die neueste Version von {pack} wurde heruntergeladen und installiert.",
-            "lcpUpdateErrorText": "Ein Fehler ist während dem Herunterladen von {pack} aufgetreten."
+            "lcpUpdateErrorText": "Ein Fehler ist während dem Herunterladen von {pack} aufgetreten.",
+            "removedInvalidVersionText": "{name} wurde aus dem Import entfernt -- ungültige Versionsnummer beschädigt SemVer",
+            "lcpUpdatedTitle": "LCP aktualisiert",
+            "lcpUpdateErrorTitle": "Fehler bei Aktualisierung der LCP"
+        },
+        "dataItem": {
+            "bulkDeletedTitle": "{n} Element gelöscht | {n} Elemente gelöscht",
+            "bulkDeletedText": "Die ausgewählten Elemente wurden gelöscht.",
+            "bulkPartialTitle": "{n} gelöscht, {f} fehlgeschlagen",
+            "bulkPartialText": "Konnte nicht löschen: {items}",
+            "bulkFailedTitle": "Massenlöschung fehlgeschlagen",
+            "connectionRestoredTitle": "Verbindung wiederhergestellt",
+            "connectionRestoredText": "{name} wurde wieder verknüpft.",
+            "retryFailedTitle": "Neuversuch fehlgeschlagen",
+            "retryFailedText": "Das rechnerferne Element zu {name} konnte nicht gefunden werden.",
+            "convertedTitle": "Zu Lokaldatei konvertiert",
+            "convertedText": "{name} ist jetzt nur noch lokal vorhanden.",
+            "itemDeletedTitle": "Element gelöscht",
+            "markedDeletedText": "{type} {name} wurde als gelöscht markiert.",
+            "deleteFailedTitle": "Löschen fehlgeschlagen",
+            "serverError": "Kommunikation mit Server fehlgeschlagen. {err}",
+            "itemRestoredTitle": "Element wiederhergestellt",
+            "restoredText": "{type} {name} wurde wiederhergestellt.",
+            "restoreFailedTitle": "Wiederherstellung fehlgeschlagen",
+            "deletedPermanentlyTitle": "Element permanent gelöscht",
+            "removedText": "{type} {name} wurde entfernt.",
+            "failedToDeleteText": "{type} {name} konnte nicht gelöscht werden. {err}"
+        },
+        "share": {
+            "syncInProgressTitle": "Synchronisiert",
+            "syncInProgressText": "Bitte warten Sie, bis die Synchronisation abgeschlossen ist.",
+            "syncCompleteTitle": "Synchronisation abgeschlossen",
+            "syncCompleteText": "{name} mit Cloud synchronisiert.",
+            "syncFailedTitle": "Synchronisation fehlgeschlagen",
+            "syncFailedText": "{err}"
+        },
+        "common": {
+            "error": "Fehler",
+            "copied": "Kopiert",
+            "success": "Erfolg"
+        },
+        "transfer": {
+            "uploadCompleteTitle": "Upload abgeschlossen",
+            "uploadFailedTitle": "Upload fehlgeschlagen",
+            "downloadCompleteTitle": "Download abgeschlossen",
+            "downloadFailedTitle": "Download fehlgeschlagen",
+            "itemSynced": "{type} {name} synchronisiert.",
+            "itemSyncFailed": "{type} {name} konnte nicht synchronisiert werden. {err}",
+            "itemUploaded": "{type} {name} hochgeladen.",
+            "itemUploadFailed": "{type} {name} konnte nicht hochgeladen werden. {err}",
+            "itemDownloaded": "{type} {name} mit Clouddaten zusammengeführt.",
+            "itemDownloadFailed": "{type} {name} konnte nicht heruntergeladen werden. {err}"
+        },
+        "shareCode": {
+            "copiedText": "Teilbaren Code in Zwischenablage kopiert.",
+            "collectionCopiedText": "Teilbaren Code der Sammlung in Zwischenablage kopiert"
+        },
+        "pilot": {
+            "upToDateTitle": "Pilot:in ist aktuell",
+            "upToDateText": "Pilot:in {callsign} // {name} hat bereits die aktuellsten Clouddaten. Keine Aktualisierung notwendig.",
+            "syncedText": "Pilot:in {callsign} // {name} synchronisiert.",
+            "syncFailedText": "Pilot:in {callsign} // {name} konnte nicht synchronisiert werden. {err}"
+        },
+        "statblock": {
+            "copiedTitle": "Statblock in die Zwischenablage kopiert",
+            "copiedText": "Kopie erfolgreich",
+            "errorText": "Statblock konnte nicht kopiert werden"
+        },
+        "account": {
+            "updateCompleteTitle": "Update abgeschlossen",
+            "passwordChangedText": "Passwort wurde geändert",
+            "passwordFailedTitle": "Passwort konnte nicht aktualisiert werden",
+            "serverError": "Der Server hat einen Fehler zurückgegeben",
+            "verificationSentTitle": "Bestätigungs-Email verschickt",
+            "verificationSentText": "Bitten prüfen Sie Ihre Inbox auf einen Bestätigungscode",
+            "emailChangeInitFailedTitle": "Email-Änderung konnte nicht initiiert werden",
+            "signOutTitle": "Erfolgreich ausgeloggt",
+            "signOutText": "Auth-Service meldet eine erfolgreiche Abmeldung",
+            "dataUpdatedText": "Nutzer:innendaten aktualisiert",
+            "updateFailedTitle": "Aktualisierung fehlgeschlagen",
+            "emailChangeCompleteTitle": "Email-Änderung abgeschlossen",
+            "emailChangeCompleteText": "Ihre Email-Adresse wurde geändert",
+            "emailChangeFailedTitle": "Email-Änderung fehlgeschlagen",
+            "emailChangeCancelledTitle": "Email-Änderung abgebrochen",
+            "emailChangeCancelledText": "Die Email-Änderung wurde abgebrochen",
+            "itchLinkedTitle": "itch.io verknüpft",
+            "itchLinkedText": "Ihr itch.io-Konto wurde verknüpft",
+            "itchLinkFailedTitle": "itch.io-Verknüpfung fehlgeschlagen",
+            "itchLinkFailedText": "Bei der Verknüpfung Ihres itch.io-Kontos ist ein Fehler aufgetreten",
+            "itchUnlinkedTitle": "itch.io nicht mehr verknüpft",
+            "itchUnlinkedText": "Ihr itch.io-Konto ist nicht mehr verknüpft",
+            "patreonLinkedTitle": "Patreon verknüpft",
+            "patreonLinkedText": "Ihr Patreon-Konto wurde verknüpft",
+            "noSubscriptionTitle": "Kein Abonnement gefunden",
+            "noSubscriptionText": "Ihr Patreon-Konto wurde erfolgreich verknüpft, aber es wurde kein aktives Abonnement gefunden. Bitte abonnieren Sie den @:{'common.appName'}-Patreon und versuchen Sie es erneut.",
+            "patreonLinkFailedTitle": "Patreon-Verknüpfung fehlgeschlagen",
+            "patreonLinkFailedText": "Bei der Verknüpfung Ihres Patreon-Kontos ist ein Fehler aufgetreten",
+            "patreonUnlinkedTitle": "Patreon nicht mehr verknüpft",
+            "patreonUnlinkedText": "Ihr Patreon-Konto ist nicht mehr verknüpft",
+            "publishedTitle": "Veröffentlicht",
+            "collectionPublishedText": "Die Sammlung {name} wurde unter Version {version} veröffentlicht",
+            "collectionPublishFailedText": "Sammlung {name} konnte nicht veröffentlicht werden",
+            "cloudArchiveTitle": "Cloud-Archiv",
+            "cloudArchiveCooldownText": "Sie müssen vor der Erstellung eines neuen Archivs {seconds} Sekunden warten."
+        },
+        "settings": {
+            "unableToReadFileTitle": "Datei konnte nicht gelesen werden",
+            "errorPrefix": "Fehler: {err}",
+            "v2BackupImportedTitle": "V2-Backup importiert",
+            "v2NoData": "Keine Daten gefunden.",
+            "dataImportSuccessTitle": "Import der Daten erfolgreich",
+            "dataReplaced": "Alle vorhandenen Daten wurden durch importierte Daten ersetzt.",
+            "dataMerged": "Vorhandene Daten wurden mit importierten Daten zusammengeführt.",
+            "unableToImportTitle": "Daten konnten nicht importiert werden"
+        },
+        "compendium": {
+            "campaignUpdatedText": "Kampagne erfolgreich aktualisiert",
+            "campaignUpdateFailedText": "Kampagne konnte nicht aktualisiert werden"
+        },
+        "image": {
+            "uploadedTitle": "Bild hochgeladen",
+            "uploadedText": "{file} hochgeladen ({size} MB)",
+            "deletedTitle": "Bild gelöscht",
+            "deletedText": "{type} {name} wurde entfernt.",
+            "deleteFailedTitle": "Löschung fehlgeschlagen",
+            "deleteFailedText": "Kommunikation mit Server ist fehlgeschlagen. {err}"
+        },
+        "link": {
+            "copiedTitle": "Link kopiert",
+            "copiedText": "Statischer Link zu {name} wurde in Zwischenablage kopiert."
+        },
+        "achievement": {
+            "unlockedTitle": "Errungenschaft freigeschaltet!"
         }
     },
     "ui": {
@@ -3336,7 +3488,8 @@
                     "whatThrown": "eine geworfene Waffe genutzt werden kann",
                     "areaLine": "alle Ziele in einer geraden Linie, welche X Felder lang ist. Ein separater Angriffswurf wird für jedes Ziel auf der Linie benötigt.",
                     "areaCone": "Charaktere in einem Kegel, welcher X Felder lang und an seiner fernsten Stelle X Felder breit ist",
-                    "areaBurst": "Charaktere innerhalb eines Radius von X Feldern, dessen Zentrum auf dem Feld des Angreifers liegt (und dieses mit einschließt)"
+                    "areaBurst": "Charaktere innerhalb eines Radius von X Feldern, dessen Zentrum auf dem Feld des Angreifers liegt (und dieses mit einschließt)",
+                    "areaBlast": "Charaktere innerhalb eines Radius von X Feldern, gemessen von einem Punkt innerhalb der REICHWEITE und Sichtlinie. Deckung und Sichtlinie werden vom Mittelpunkt des Radius gemessen, statt dem Angreifer"
                 },
                 "intro": "Diese Ausrüstung fügt <b>{value}</b> {type}schaden zu",
                 "rangeText": "{type} {value}",
@@ -3458,7 +3611,8 @@
             "addAccuracy": "Genauigkeit hinzufügen",
             "addDifficulty": "Schwierigkeit hinzufügen",
             "thisWillPermanentlyDeleteThisImage": "Dies wird das Bild permanent aus dem Cloudspeicher löschen. Fortfahren?",
-            "linkARemotelyHostedImageTo": "Verknüpft ein rechnerfern gehostetes Bild mit diesem Element. Diese Bilder werden nicht von COMP/CON gespeichert oder verwaltet, und können von Ihren Hosts jederzeit geändert oder entfernt werden."
+            "linkARemotelyHostedImageTo": "Verknüpft ein rechnerfern gehostetes Bild mit diesem Element. Diese Bilder werden nicht von COMP/CON gespeichert oder verwaltet, und können von Ihren Hosts jederzeit geändert oder entfernt werden.",
+            "influenceIsYourOrganizationsSizeReach": "Einfluss repräsentiert die Größe und Reichweite Ihrer Organisation, sowie deren Vermögen und Ruf.\nEinfluss kann genutzt werden um Vorteile zu erhalten, Gelegenheiten zu schaffen, oder die\nöffentliche Meinung zu beeinflussen."
         },
         "cascade": {
             "alert": "Warnung vor Kaskade",
@@ -3595,7 +3749,18 @@
             "aoe": "AoE"
         },
         "systemType": {
-            "deployable": "Platzierbares Gerät"
+            "deployable": "Platzierbares Gerät",
+            "system": "System",
+            "ai": "KI",
+            "shield": "Schild",
+            "drone": "Drohne",
+            "tech": "Cyber",
+            "invade": "Eindringen",
+            "flight_system": "Flugsystem",
+            "integrated": "Integriert",
+            "mod": "Mod",
+            "mine": "Mine",
+            "grenade": "Granate"
         },
         "weaponType": {
             "rifle": "Gewehr",
@@ -3640,7 +3805,47 @@
             "invade": "Eindringen",
             "jockey": "Rangeln",
             "full_tech": "Volle Cyberaktion",
-            "quick_tech": "Schnelle Cyberaktion"
+            "quick_tech": "Schnelle Cyberaktion",
+            "reaction": "Reaktion",
+            "move": "Bewegung",
+            "other": "Sonstiges"
+        },
+        "mechType": {
+            "balanced": "Ausgewogen",
+            "artillery": "Artillerie",
+            "controller": "Kontrolle",
+            "support": "Unterstützung",
+            "defender": "Verteidigung",
+            "striker": "Vorstoß"
+        },
+        "reserveType": {
+            "resources": "Ressourcen",
+            "tactical": "Taktische",
+            "mech": "Mech-",
+            "project": "Projekt-",
+            "organization": "Organisations-",
+            "bonus": "Bonus"
+        },
+        "orgType": {
+            "military": "Militärisch",
+            "scientific": "Wissenschaftlich",
+            "academic": "Akademisch",
+            "criminal": "Kriminell",
+            "humanitarian": "Humanitär",
+            "industrial": "Industriell",
+            "entertainment": "Unterhaltung",
+            "political": "Politisch"
+        },
+        "duration": {
+            "free": "Frei",
+            "turn": "Zug",
+            "next_turn": "Nächster Zug",
+            "round": "Runde",
+            "next_round": "Nächste Runde",
+            "scene": "Szene",
+            "encounter": "Gefecht",
+            "mission": "Mission",
+            "unlimited": "Unbegrenzt"
         }
     },
     "stats": {
@@ -3658,5 +3863,33 @@
         "sensors": "Sensorreichweite",
         "structure": "Struktur",
         "sp": "SP"
+    },
+    "share": {
+        "shareCodesNote": "Teilbare Codes erlauben jedem mit einem @:{'common.appName'}-Konto eine Kopie dieses Elements herunterzuladen und Aktualisierungen von Ihnen zu erhalten. Bitte teilen Sie Daten mit Anderen verantwortungsbewusst.",
+        "lastLocalUpdate": "Letzte lokale Aktualisierung",
+        "lastSynced": "Zuletzt synchronisiert",
+        "notYetSynced": "Noch nicht synchronisiert",
+        "syncNeeded": "Synchronisierung benötigt",
+        "shareCodeTooltip": "Dieser Code erlaubt es anderen Nutzer:innen mit @:{'common.appName'}-Konten, eine Kopie dieses Elements herunterzuladen und Aktualisierungen von Ihnen zu abonnieren.",
+        "shareLink": "Link teilen",
+        "publicLinkNote": "Dieser Link ist eine {emphasis} die es jeder Person erlaubt, die Daten diese:r Pilot:in zu sehen.",
+        "publicLinkNoteBold": "öffentlich zugängliche URL",
+        "sheetStyle": "Bogenstil",
+        "includeMech": "Mech beinhalten",
+        "noShareCode": "Dieses Element hat keinen teilbaren Code. Synchronisieren Sie es mit Ihrem @:{'common.appName'}-Konto über die \"Jetzt Synchronisieren\"-Schaltfläche oben, um es zu teilen.",
+        "resultAuthor": "Urheber:in",
+        "resultLastUpdated": "Zuletzt aktualisiert",
+        "addAsRemote": "als rechnerferne Ressource hinzufügen",
+        "addAsLocalCopy": "als lokale Kopie hinzufügen",
+        "titles": {
+            "pleaseUseResponsibly": "Bitte verantwortungsbewusst nutzen"
+        },
+        "tooltips": {
+            "copyShareCodeToClipboard": "Teilbaren Code in Zwischenablage kopieren",
+            "copyShareLinkToClipboard": "Teilbaren Link in Zwischenablage kopieren"
+        }
+    },
+    "print": {
+        "generalOptions": "Generelle Druckoptionen"
     }
 }
