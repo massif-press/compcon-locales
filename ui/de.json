@@ -153,7 +153,7 @@
         "callsign": "Callsign",
         "roll_noun": "Wurf",
         "remoteResource": "Entfernte Ressource",
-        "addingLocalCopyTooltip": "Wenn Sie dieses Element als Lokalkopie hinzufügen, wird eine neue, editierbare Version dieses Elements in Ihren lokalen @:{'common.appName'}-Daten gespeichert. Änderungen an diesem Element werden die Originalversion des:der Urheber:in nicht beeinflussen, und Sie werden auch keine Aktualisierungen erhalten.",
+        "addingLocalCopyTooltip": "Wenn Sie dieses Element als Lokalkopie hinzufügen, wird eine neue, editierbare Version dieses Elements in Ihren lokalen @:{'common.appName'}-Daten gespeichert. Änderungen an diesem Element werden die Originalversion d: Urheber:in nicht beeinflussen, und Sie werden auch keine Aktualisierungen erhalten.",
         "armorBonus": "Panzerungsbonus",
         "cancelPermanentDeletion": "Permanente Löschung abbrechen",
         "confirmPermanentDeletion": "Permanente Löschung bestätigen",
@@ -1571,7 +1571,7 @@
             "cloneQUIRK": "Besonderheit des Klons",
             "rerollQuirk": "Besonderheit neu würfeln",
             "decantFlashClone": "Blitzklon dekantieren",
-            "duplicatingOrCloningAPilotWill": "Das Duplizieren oder Klonen eine:r Pilot:in wird auch sämtliche Tresorlinks entfernen. Der:die kopierte Pilot:in wird als neuer Charakter in Ihrem Konto gespeichert",
+            "duplicatingOrCloningAPilotWill": "Das Duplizieren oder Klonen ein: Pilot:in wird auch sämtliche Tresorlinks entfernen. D: kopierte Pilot:in wird als neuer Charakter in Ihrem Konto gespeichert",
             "sharePilot": "Pilot:in teilen",
             "shareThisPilotSDataWith": "Erlaubt das Teilen der Daten diese:r Pilot:in mit anderen Nutzer:innen durch einen teilbaren Code",
             "exportLegacyJSON": "Legacy-JSON exportieren",
@@ -1840,7 +1840,7 @@
             "hull": "Hülle",
             "evasion": "AUSWEICHEN",
             "speed": "GESCHWINDIGKEIT",
-            "convertingThisPilotToLocalData": "Die Konvertierung diese:r Pilot:in zu Lokaldaten erlaubt lokale Bearbeitung, aber entfernt die rechnerferne\nVerknüpfung zum Cloud-Konto des:der Urheber:in. Weitere Aktualisierungen können dann nicht mehr\nerhalten werden. Um rechnerferne Synchronisation wieder einzuschalten, werden Sie dieses Element über\neinen teilbaren Code neu importieren müssen.",
+            "convertingThisPilotToLocalData": "Die Konvertierung diese:r Pilot:in zu Lokaldaten erlaubt lokale Bearbeitung, aber entfernt die rechnerferne\nVerknüpfung zum Cloud-Konto d: Urheber:in. Weitere Aktualisierungen können dann nicht mehr\nerhalten werden. Um rechnerferne Synchronisation wieder einzuschalten, werden Sie dieses Element über\neinen teilbaren Code neu importieren müssen.",
             "influenceIsYourOrganizationsSizeReach": "Einfluss repräsentiert die Größe und Reichweite Ihrer Organisation, sowie deren Vermögen und Ruf.\nEinfluss kann genutzt werden um Vorteile zu erhalten, Gelegenheiten zu schaffen, oder die\nöffentliche Meinung zu beeinflussen."
         },
         "import": {
@@ -2035,7 +2035,7 @@
             "createAndModifyMechsAndTheirLoadouts": "Mechs und deren Konfigurationen erstellen und bearbeiten",
             "pilotSkillTriggersReservesAnd": "Pilot:innen-Fertigkeitstrigger, Reserven, und Konfiguration (Pilot:innenausrüstung)",
             "editLicenseLevel": "Lizenzlevel bearbeiten",
-            "thisPilotIsARemote": "Diese:r Pilot:in ist eine rechnerferne Ressource, der:die mit dem Konto eine:r anderen Nutzer:in verknüpft ist. Es ist schreibgeschützt, aber wird Aktualisierungen über das verknüpfte Konto erhalten.",
+            "thisPilotIsARemote": "Diese:r Pilot:in ist eine rechnerferne Ressource, d: mit dem Konto ein: anderen Nutzer:in verknüpft ist. Es ist schreibgeschützt, aber wird Aktualisierungen über das verknüpfte Konto erhalten.",
             "pilotLicensesMechSkillsCore": "Pilot:innen-Lizenzen, Mech-Fertigkeiten, Herstellerspezialisierungen, und Talente"
         },
         "subtitles": {
@@ -3653,7 +3653,7 @@
         "remote": {
             "collectionResource": "Sammlungsressource",
             "collectionHelp": "Diese:s {type} ist mit einer Inhaltssammlung verknüpft. Es ist schreibgeschützt, aber wird Aktualisierungen erhalten wenn eine neue Version der Sammlung von deren Urheber:in veröffentlicht wird.",
-            "remoteHelp": "Diese:s {type} ist eine rechnerferne Ressource, die mit dem Konto eine:r anderen Nutzer:in verknüpft ist. Sie ist schreibgeschützt und wird Aktualisierungen von dem verknüpften Konto erhalten."
+            "remoteHelp": "Diese:s {type} ist eine rechnerferne Ressource, die mit dem Konto ein: anderen Nutzer:in verknüpft ist. Sie ist schreibgeschützt und wird Aktualisierungen von dem verknüpften Konto erhalten."
         },
         "shareImport": {
             "itemShareCode": "Teilbarer Elementcode",
@@ -3872,7 +3872,7 @@
         "syncNeeded": "Synchronisierung benötigt",
         "shareCodeTooltip": "Dieser Code erlaubt es anderen Nutzer:innen mit @:{'common.appName'}-Konten, eine Kopie dieses Elements herunterzuladen und Aktualisierungen von Ihnen zu abonnieren.",
         "shareLink": "Link teilen",
-        "publicLinkNote": "Dieser Link ist eine {emphasis} die es jeder Person erlaubt, die Daten diese:r Pilot:in zu sehen.",
+        "publicLinkNote": "Dieser Link ist eine {emphasis} die es jeder Person erlaubt, die Daten dies: Pilot:in zu sehen.",
         "publicLinkNoteBold": "öffentlich zugängliche URL",
         "sheetStyle": "Bogenstil",
         "includeMech": "Mech beinhalten",
