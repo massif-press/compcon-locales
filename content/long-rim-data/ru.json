@@ -47,8 +47,8 @@
     "mf_lich.trait_immortal.action_immortal.name": "Бессмертие",
     "mf_lich.trait_immortal.name": "Бессмертие",
     "mf_lich.name": "Лич",
-    "mf_kobold.trait_mimic_carapace.active_effect_mimic_carapace.name": "Панцирь \"Мимик\"",
-    "mf_kobold.trait_mimic_carapace.name": "Панцирь \"Мимик\"",
+    "mf_kobold.trait_mimic_carapace.active_effect_mimic_carapace.name": "Мимикрирующий панцирь",
+    "mf_kobold.trait_mimic_carapace.name": "Мимикрирующий панцирь",
     "mf_caliban.trait_pursue_prey.active_effect_pursue_prey.name": "Преследование добычи",
     "mf_caliban.trait_pursue_prey.name": "Преследование добычи"
 }
