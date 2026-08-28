@@ -26,5 +26,11 @@
     "ms_shahnameh.action_shahnameh.name": "\"Шахнаме\"",
     "ms_shahnameh.name": "\"Шахнаме\"",
     "mf_black_witch_alt_orchidea.core_system.passive_action_hunting_eagle.name": "Охотничий орёл",
-    "mf_black_witch_alt_orchidea.core_system.passive_name": "Охотничий орёл"
+    "mf_black_witch_alt_orchidea.core_system.passive_name": "Охотничий орёл",
+    "t_pankrati.rank_veni.active_effect_veni.name": "Veni",
+    "t_pankrati.rank_veni.name": "Veni",
+    "t_pankrati.rank_vici.active_effect_vici.name": "Vici",
+    "t_pankrati.rank_vici.name": "Vici",
+    "t_pankrati.rank_vidi.name": "Vidi",
+    "t_pankrati.rank_vidi.action_valiant_charge.name": "Отчаянная атака"
 }
