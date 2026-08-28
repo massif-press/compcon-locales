@@ -27,5 +27,9 @@
     "mf_kidd.core_system.name": "Весёлый Роджер",
     "mf_tokugawa_alt_enkidu.name": "Энкиду",
     "mf_swallowtail_alt_swallowtail_ranger_variant.name": "Ласточкин хвост (вариант \"Следопыт\")",
-    "reserve_high_caliber_ammo.name": "Крупнокалиберные снаряды"
+    "reserve_high_caliber_ammo.name": "Крупнокалиберные снаряды",
+    "mf_kidd.trait_recycle.name": "Переработка",
+    "mf_kidd.trait_recycle.active_effect_recycle.name": "Переработка",
+    "ms_exo_anti_armor_signature_weapon.name": "Бронебойное отличительное оружие",
+    "ms_exo_anti_armor_signature_weapon.active_effect_anti_armor_signature_weapon.name": "Бронебойное отличительное оружие"
 }
