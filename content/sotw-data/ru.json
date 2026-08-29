@@ -3,5 +3,7 @@
     "mf_balor_alt_hecatoncheires.name": "Гекатонхейр",
     "pbg_company_squire.name": "Оруженосец",
     "pbg_noble_heir.name": "Наследник",
-    "pbg_pankrati.name": "Панкрати"
+    "pbg_pankrati.name": "Панкрати",
+    "mf_balor_alt_hecatoncheires.trait_smoke_and_mirrors.name": "Отвод глаз",
+    "mf_balor_alt_hecatoncheires.trait_smoke_and_mirrors.active_effect_smoke_and_mirrors.name": "Отвод глаз"
 }
