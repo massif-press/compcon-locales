@@ -18,5 +18,20 @@
     "intel_die.name": "Кость разведданных",
     "transcendence_die.name": "Кость трансцендентности",
     "mf_störtebeker.core_system.passive_name": "Доктрина Хопкинса",
-    "mw_reaper_assault_cannon.profile_standard.name": "Стандартный режим"
+    "mw_reaper_assault_cannon.profile_standard.name": "Стандартный режим",
+    "mf_micro_monarch.trait_pressure_plating.name": "Герметичная обшивка",
+    "ms_iconoclast.name": "Нестабильная НЧЛ",
+    "t_field_analyst.name": "Полевой аналитик",
+    "t_field_analyst.rank_active_interference.action_active_interference.name": "Активное вмешательство",
+    "t_field_analyst.rank_active_interference.name": "Активное вмешательство",
+    "t_field_analyst.rank_tactical_intelligence.action_superior_intelligence.name": "Превосходная разведка",
+    "t_field_analyst.rank_information_handling.name": "Обращение с информацией",
+    "t_field_analyst.rank_tactical_intelligence.name": "Тактическая разведка",
+    "t_iconoclast.name": "Иконоборец",
+    "t_iconoclast.rank_transmutation.name": "Трансмутация",
+    "t_prospector.name": "Старатель",
+    "t_prospector.rank_gold_fever.active_effect_gold_fever.name": "Золотая лихорадка",
+    "t_prospector.rank_gold_fever.name": "Золотая лихорадка",
+    "t_prospector.rank_mother_lode.active_effect_mother_lode.name": "Золотая жила",
+    "t_prospector.rank_mother_lode.name": "Золотая жила"
 }

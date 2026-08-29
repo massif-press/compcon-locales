@@ -9,5 +9,10 @@
     "mf_orator.rank_the_march_of_the_ten_thousand.action_demoralize.name": "Подорвать дисциплину",
     "mf_orator.rank_the_march_of_the_ten_thousand.name": "Отступление десяти тысяч",
     "mf_orator.rank_voice_of_reason.action_cast_doubt.name": "Посеять сомнения",
-    "mf_orator.rank_voice_of_reason.action_encourage.name": "Воодушевить"
+    "mf_orator.rank_voice_of_reason.action_encourage.name": "Воодушевить",
+    "mf_Empakaai_alt_blackbeard.core_system.active_action_iku_s_hand.name": "Длань Ику",
+    "mf_Empakaai_alt_blackbeard.name": "Эмпакай",
+    "mf_Empakaai_alt_blackbeard.trait_indomitable_force.active_effect_indomitable_force.name": "Неукротимая мощь",
+    "mf_Empakaai_alt_blackbeard.trait_indomitable_force.name": "Неукротимая мощь",
+    "mf_orator.rank_voice_of_reason.name": "Голос разума"
 }

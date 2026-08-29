@@ -22,5 +22,14 @@
     "mf_kidd.core_system.passive_effect_jolly_roger.name": "Весёлый Роджер",
     "mf_kidd.core_system.passive_name": "Весёлый Роджер",
     "t_empath.name": "Эмпат",
-    "mf_swallowtail_alt_swallowtail_ranger_variant.trait_weathering.active_effect_weathering.detail": "Вы игнорируете штраф к передвижению по труднопроходимой местности."
+    "mf_swallowtail_alt_swallowtail_ranger_variant.trait_weathering.active_effect_weathering.detail": "Вы игнорируете штраф к передвижению по труднопроходимой местности.",
+    "mf_genghis_alt_worldkiller_genghis_mk_i.trait_insulated.name": "Герметичный",
+    "mf_kidd.core_system.name": "Весёлый Роджер",
+    "mf_tokugawa_alt_enkidu.name": "Энкиду",
+    "mf_swallowtail_alt_swallowtail_ranger_variant.name": "Ласточкин хвост (вариант \"Следопыт\")",
+    "reserve_high_caliber_ammo.name": "Крупнокалиберные снаряды",
+    "mf_kidd.trait_recycle.name": "Переработка",
+    "mf_kidd.trait_recycle.active_effect_recycle.name": "Переработка",
+    "ms_exo_anti_armor_signature_weapon.name": "Бронебойное отличительное оружие",
+    "ms_exo_anti_armor_signature_weapon.active_effect_anti_armor_signature_weapon.name": "Бронебойное отличительное оружие"
 }
