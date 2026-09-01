@@ -122,5 +122,15 @@
     "combat_3_7.title": "Objetos y Daño",
     "combat_3.title": "Dañar",
     "combat_4_0_0.content": "<p>Movimiento hasta la máxima <strong>VELOCIDAD</strong> del personaje</p>",
-    "combat_4_0_0.title": "Movimiento Éstandar"
+    "combat_4_0_0.title": "Movimiento Éstandar",
+    "combat_4_0_1.content": "<p>Acciones que toman un breve momento, tales como un disparo rápido con un arma, activar un sistema, o moverse más lejos.</p>",
+    "combat_4_0_1.title": "Acción Rápida",
+    "combat_4_0_2.content": "<p>Acciones que requieren atención completa (p.e. disparar un bombardeo, realizar reparaciones de campo a un meca).</p>",
+    "combat_4_0_2.title": "Acción Completa",
+    "combat_4_0_3.content": "<p>Las acciones libres son acciones especiales obtenidas por rasgos del personaje, como sistemas meca y talentos. Los personajese pueden tomar acciones libres en cualquier momento durante su turno, y estas no cuentan para el número de acciones rápidas o completas que ellos toman. Estas también pueden usarse para tomar acciones más de una vez por turno. Por ejemplo, si un personaje puede <strong>ACELERAR</strong> como acción libre, ellos pueden asi hacerlo aún si ya han usado <strong>ACELERAR</strong> en el mismo turno.</p>",
+    "combat_4_0_3.title": "Acción Libre",
+    "combat_4_0_4.content": "<p>Reacciones son acciones especiales que pueden hacerse fuera del orden de turnos usual como respuesta a ataques entrantes, movimiento enemigo, y otros eventos. Cada reacción únicamente puede usarse un cierto número de veces por ronda, y un personaje puede tomar únicamente una reacción por turno (su turno o el de otro personaje), pero no hay un límite en cuantas reacciones pueden ser tomadas, en general. Los mecas tienen dos reacciones por defecto, cada una de las cuales puede ser tomada una vez por ronda - <strong>AFIANZARSE</strong> y <strong>FUEGO DE SUPRESIÓN</strong> - pero algunos sistemas y talentos otorgan reacciones adicionales. A menso que se especifique, las reacciones se resuelven tras la acción que las disparó. Algunas se resuelven de antemano bajo detonantes específicos, tales como cuando un ataque es declarado pero antes de que la tirada sea hecha - de ser así, la reacción lo especificará.</p>",
+    "combat_4_0_4.title": "Reacción",
+    "combat_4_0_5.content": "<p>Los pilotos pueden sobrecargar sus meca, permitiéndoles hacer una acción rápida adicional al costo de más calor.</p>",
+    "combat_4_0_5.title": "Sobrecarga"
 }
