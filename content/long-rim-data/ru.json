@@ -50,5 +50,15 @@
     "mf_kobold.trait_mimic_carapace.active_effect_mimic_carapace.name": "Мимикрирующий панцирь",
     "mf_kobold.trait_mimic_carapace.name": "Мимикрирующий панцирь",
     "mf_caliban.trait_pursue_prey.active_effect_pursue_prey.name": "Преследование добычи",
-    "mf_caliban.trait_pursue_prey.name": "Преследование добычи"
+    "mf_caliban.trait_pursue_prey.name": "Преследование добычи",
+    "mf_atlas.trait_giantkiller.active_effect_giantkiller.name": "Убийца великанов",
+    "mf_atlas.trait_exposed_reactor.name": "Уязвимый реактор",
+    "mf_kobold.trait_exposed_reactor.name": "Уязвимый реактор",
+    "mf_atlas.trait_exposed_reactor.description": "Атлас получает +1 Помеху на проверки и испытания, связанные с навыком \"Инженерное дело\".",
+    "mf_kobold.trait_exposed_reactor.description": "Кобольд получает +1 Помеху на проверки и испытания, связанные с навыком Инженерное дело.",
+    "act_lr_gunfight.name": "Перестрелка",
+    "mf_atlas.trait_j_ger_dodge.action_j_ger_dodge.name": "Охотничье уклонение",
+    "mf_atlas.trait_j_ger_dodge.name": "Охотничье уклонение",
+    "mf_caliban.trait_weak_computer.description": "Калибан получает +1 Помеху на все проверки и испытания, связанные с навыком СИСТЕМЫ.",
+    "mf_atlas.trait_giantkiller.name": "Убийца великанов"
 }
