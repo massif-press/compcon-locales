@@ -32,5 +32,19 @@
     "t_pankrati.rank_vici.active_effect_vici.name": "Vici",
     "t_pankrati.rank_vici.name": "Vici",
     "t_pankrati.rank_vidi.name": "Vidi",
-    "t_pankrati.rank_vidi.action_valiant_charge.name": "Отчаянная атака"
+    "t_pankrati.rank_vidi.action_valiant_charge.name": "Отчаянная атака",
+    "mf_black_witch_alt_orchidea.trait_perfect_parry.active_effect_perfect_parry.name": "Идеальное парирование",
+    "mf_black_witch_alt_orchidea.trait_perfect_parry.name": "Идеальное парирование",
+    "intangible.terse": "Невозможно взаимодействовать с чем угодно, что также не является неосязаемым.",
+    "mf_emperor.core_system.active_action_xerxes_apex.name": "Кульминация Ксеркса",
+    "mf_emperor.core_system.active_effect_xerxes_apex.name": "Кульминация Ксеркса",
+    "mf_emperor.core_system.active_name": "Кульминация Ксеркса",
+    "mf_emperor.core_system.name": "Регалии Дария",
+    "mf_emperor.trait_imperial_vestment.active_effect_imperial_vestment.name": "Императорские одежды",
+    "mf_emperor.trait_imperial_vestment.name": "Императорские одежды",
+    "mf_emperor.trait_sovereign_presence.action_sovereign_presence.name": "Присутствие монарха",
+    "mf_minotaur_alt_wraith.core_system.passive_action_execrate.name": "Проклясть",
+    "mf_minotaur_alt_wraith.core_system.passive_name": "Проклясть",
+    "mf_minotaur_alt_wraith.core_system.passive_effect": "Вы получаете вариант быстрого действия \"Проклясть\".",
+    "mf_minotaur_alt_wraith.core_system.name": "Проклятие имён презренных мертвецов"
 }
