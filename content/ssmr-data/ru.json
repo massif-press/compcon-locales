@@ -14,5 +14,6 @@
     "mf_Empakaai_alt_blackbeard.name": "Эмпакай",
     "mf_Empakaai_alt_blackbeard.trait_indomitable_force.active_effect_indomitable_force.name": "Неукротимая мощь",
     "mf_Empakaai_alt_blackbeard.trait_indomitable_force.name": "Неукротимая мощь",
-    "mf_orator.rank_voice_of_reason.name": "Голос разума"
+    "mf_orator.rank_voice_of_reason.name": "Голос разума",
+    "mf_orator.rank_voice_of_reason.action_investigate.name": "Проанализировать"
 }

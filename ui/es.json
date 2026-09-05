@@ -143,7 +143,7 @@
         "frame": "Chasis",
         "loadout": "Equipamiento",
         "electronicDefense": "Defensa Electrónica",
-        "pilotSheet": "Hojas del Piloto",
+        "pilotSheet": "Hoja del Piloto",
         "side": "Bando",
         "systemPoints": "Puntos de Sistema",
         "remove": "Quitar",
@@ -287,7 +287,7 @@
             "compendium": "@:{'common.compendium'}",
             "activeMode": "@:{'common.activeMode'}",
             "cloudAccount": "@:{'common.cloudAccount'}",
-            "manageContent": "@:{'common.manageContent'}",
+            "manageContent": "",
             "options": "@:{'common.options'}",
             "credits": "@:{'common.credits'}"
         },
@@ -363,7 +363,7 @@
             "sort": "Ordenar",
             "selectAll": "@:{'common.selectAll'}",
             "none": "@:{'common.none'}",
-            "name": "@:{'common.name'}"
+            "name": ""
         },
         "settingsPage": {
             "errorReporting": "Error al Reportar",
@@ -405,7 +405,7 @@
             "errorReportingPrefix": "Error al reportar",
             "logLevelLabel": "@:{'common.logLevel'}",
             "logLevel": "@:{'common.logLevel'}",
-            "confirmImport": "@:{'common.confirmImport'}"
+            "confirmImport": ""
         },
         "storage": {
             "userData": "Datos del usuario",
@@ -601,7 +601,7 @@
             "andRequiringManual": " y {count} problema que requiere medidas manuales | y {count} problemas que requieren medidas manuales",
             "applyFixesButton": "Aplicar {count} Reparación | Aplicar {count} Reparaciones",
             "colItem": "@:{'common.item'}",
-            "cancel": "@:{'common.cancel'}"
+            "cancel": ""
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
@@ -791,7 +791,7 @@
             "missingContent": "Contenido del DJ Faltante"
         },
         "narrative": {
-            "itemTypePlural": "({type})",
+            "itemTypePlural": "",
             "additionalDetail": "Detalle adicional",
             "clocks": "Relojes",
             "viewCollections": "Ver Colecciones"
@@ -1310,7 +1310,7 @@
             "roundN": "Ronda {n}",
             "started": "iniciado",
             "lastTurn": "último turno",
-            "na": "N/A"
+            "na": ""
         },
         "campaignDialog": {
             "setCampaign": "Seleccionar Campaña"
