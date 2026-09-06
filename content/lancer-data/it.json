@@ -1,1 +1,7 @@
-{}
+{
+    "act_ace_supersonic_spinup.detail": "Nel tuo turno, come azione rapida, puoi mandare su di giri i propulsori. Se termini il turno in volo puoi scegliere un personaggio entro un numero di spazi pari alla tua velocità e ottenere la reazione Supersonico.",
+    "act_ace_supersonic_spinup.name": "Supersonico",
+    "act_activate_full.detail": "Attivare permette di usare un sistema o equipaggiamento che richiede un'azione rapida o completa. Questi sistemi hanno il tag AZIONE RAPIDA o AZIONE COMPLETA. È possibile attivare molteplici sistemi per turno, ma non lo stesso più volte, a meno che il sistema ti permetta di farlo usando un'azione gratuita.",
+    "act_activate_full.name": "Attivare (Completa)",
+    "act_activate_full.terse": "Impiegare un sistema o equipaggiamento che richiede un'azione completa."
+}
