@@ -628,8 +628,7 @@
         },
         "optionsPage": {
             "tabStorage": "Almacenamiento",
-            "tabLog": "Bitácora",
-            "tabSettings": "@:{'common.settings'}"
+            "tabLog": "Bitácora"
         },
         "packsList": {
             "activated": "activado",
@@ -1027,7 +1026,6 @@
             "encounterInstance": "(Instancia de Encuentro #{n})",
             "uniqueInstanceHelp": "Esta es una instancia única de este PNJ enlazado a los datos de este Encuentro. Editar este PNJ no afectará los datos originales del PNJ.",
             "linkedSource": "La fuente de esta instancia de PNJ está presente en su lista de PNJ ({name}) y puede recibir actualizaciones del original",
-            "notLinkedSource": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ",
             "notLinkedSourceDot": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ.",
             "sourceLinked": "Origen Vinculado",
             "sourceUnavailable": "Origen No Disponible",
@@ -1528,11 +1526,7 @@
             "applyClose": "Aplicar y Cerrar"
         },
         "trackable": {
-            "corePower": "Poder Base",
-            "ready": "Listo",
-            "clearMechCore": "Limpiar los de este meca",
-            "restoreMechCore": "Restaurar los de este meca",
-            "corePowerQ": "¿poder base?"
+            "corePower": "Poder Base"
         },
         "customStat": {
             "editStats": "Editar Estadísticas",
@@ -3814,7 +3808,6 @@
             "referenceNarrativePlay": "Referencia: Juego Narrativo",
             "referenceErrata": "Referencia: Erratas",
             "referenceGlossary": "Referencia: Glosario",
-            "downtimeactions": "AccionesInterludio",
             "edef": "DefE",
             "sitreps": "INFORMES DE SITUACIÓN"
         },
