@@ -54,7 +54,7 @@
     "act_improvised_attack_npc.detail": "O PNJ faz um Ataque Corpo a Corpo com um bônus de +1/2/3 e causa 3/4/6 de Dano Cinético, baseado em seu Tier",
     "act_improvised_attack_npc.name": "Improvisar Ataque",
     "act_improvised_attack_npc.terse": "Ataque com um punho ou arma corpo a corpo improvisada.",
-    "act_improvised_attack.detail": "Quando <b>IMPROVISAR ATAQUE</b>, você ataca com a coronha de um fuzil, punho ou outra arma corpo a corpo improvisada. Você pode usar qualquer coisa desde a coronha de uma arma a uma laje de concreto ou um pedaço de placa de casco – a descrição do ataque cabe a você!<br>Para <b>IMPROVISAR ATAQUE</b>, faça um Ataque Corpo a Corpo contra um alvo adjacente. Se for bem-sucedido, ele sofre 1d6 de <b>DANO CINÉTICO</b>.",
+    "act_improvised_attack.detail": "Quando <b>IMPROVISAR ATAQUE</b>, você ataca com a coronha de um fuzil, punho ou outra arma corpo a corpo improvisada. Você pode usar qualquer coisa desde a coronha de uma arma a uma laje de concreto ou um pedaço de placa de casco – a descrição do ataque cabe a você!<br/>Para <b>IMPROVISAR ATAQUE</b>, faça um Ataque Corpo a Corpo contra um alvo adjacente. Se for bem-sucedido, ele sofre 1d6 de <b>DANO CINÉTICO</b>.",
     "act_improvised_attack.name": "Improvisar Ataque",
     "act_improvised_attack.terse": "Ataque com um punho, coronha de fuzil ou arma improvisada em combate corpo a corpo.",
     "act_inv_fragment_signal.detail": "Você transmite informações falsas, mensagens obscenas ou sinais fantasmas para o núcleo computacional do alvo. Ele fica <b>IMPEDIDO</b> e <b>LENTO</b> até o final do próximo turno dele.",
