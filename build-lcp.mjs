@@ -133,6 +133,45 @@ function nestedEntries(_collection, item) {
   walk(item, item.id);
   return out;
 }
+var HAS_MARKUP = /<[a-zA-Z/]/;
+var BARE_AMP = /&(?!#\d+;|#x[0-9a-fA-F]+;|[a-zA-Z][a-zA-Z0-9]*;)/g;
+var VOID_TAG = /<(area|base|br|col|embed|hr|img|input|link|meta|param|source|track|wbr)\b([^<>]*?)\s*\/?>/gi;
+function normalizeMarkup(str) {
+  const s = String(str);
+  if (!HAS_MARKUP.test(s)) return s;
+  return s.replace(BARE_AMP, "&amp;").replace(VOID_TAG, (_, tag, attrs) => `<${tag}${attrs}/>`);
+}
+var VOID_NAMES = new Set(
+  "area base br col embed hr img input link meta param source track wbr".split(" ")
+);
+var TAG = /<(\/?)([a-zA-Z][\w-]*)([^<>]*?)(\/?)>/g;
+function markupFault(str) {
+  const s = String(str);
+  if (!HAS_MARKUP.test(s)) return null;
+  if (BARE_AMP.test(s)) {
+    BARE_AMP.lastIndex = 0;
+    return "bare & (not an entity)";
+  }
+  if (/<[^<>]*$/.test(s)) return "unterminated tag";
+  const stack = [];
+  let m;
+  TAG.lastIndex = 0;
+  while (m = TAG.exec(s)) {
+    const [, close, name, , selfClose] = m;
+    const tag = name.toLowerCase();
+    if (VOID_NAMES.has(tag)) {
+      if (!selfClose) return `<${tag}> not self-closed`;
+      continue;
+    }
+    if (selfClose) continue;
+    if (close) {
+      if (!stack.length) return `stray </${tag}>`;
+      const open = stack.pop();
+      if (open !== tag) return `</${tag}> closes <${open}>`;
+    } else stack.push(tag);
+  }
+  return stack.length ? `unclosed <${stack[stack.length - 1]}>` : null;
+}
 
 // scripts/build-llp.mjs
 var ALIAS = { zh_Hans: "zh", pt_BR: "pt" };
@@ -154,12 +193,12 @@ function extractFromLcp(dir) {
         const val = item[field];
         if (val == null || val === "") continue;
         const str = Array.isArray(val) ? val.join("\n") : typeof val === "object" ? val.detail ?? "" : String(val);
-        if (str.trim()) data[`${item.id}.${field}`] = str;
+        if (str.trim()) data[`${item.id}.${field}`] = normalizeMarkup(str);
       }
       for (const { prefix, fields: nf } of nestedEntries(collection, item)) {
         for (const [field, val] of Object.entries(nf)) {
           const str = Array.isArray(val) ? val.join("\n") : String(val);
-          if (str.trim()) data[`${prefix}.${field}`] = str;
+          if (str.trim()) data[`${prefix}.${field}`] = normalizeMarkup(str);
         }
       }
     }
@@ -206,6 +245,11 @@ async function main() {
     });
     const out = flags.out || `${target}.${llp.lang}.llp`;
     writeFileSync(out, JSON.stringify(llp, null, 2) + "\n");
+    const faults = Object.entries(data).map(([k, v]) => [k, markupFault(v)]).filter(([, f]) => f);
+    if (faults.length) {
+      console.warn(`${faults.length} string(s) still unparseable as XML (fix in the pack source):`);
+      for (const [k, f] of faults) console.warn(`  ${k}: ${f}`);
+    }
     console.log(`extract: ${Object.keys(data).length} keys -> ${out}`);
     return;
   }
