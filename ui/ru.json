@@ -1884,6 +1884,15 @@
             "reroll": "Перебросить",
             "rollCheck": "Сделать бросок {check}",
             "rollPrompt": "Бросить {n}к{die} и выбрать наименьшее значение(я)"
+        },
+        "layout": {
+            "presets": {
+                "custom": "Пользовательский"
+            },
+            "labels": "Метки",
+            "labelModes": {
+                "icon": "Только значок"
+            }
         }
     },
     "mainMenu": {
