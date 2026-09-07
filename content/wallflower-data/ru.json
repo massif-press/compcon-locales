@@ -31,5 +31,11 @@
     "mf_kidd.trait_recycle.name": "Переработка",
     "mf_kidd.trait_recycle.active_effect_recycle.name": "Переработка",
     "ms_exo_anti_armor_signature_weapon.name": "Бронебойное отличительное оружие",
-    "ms_exo_anti_armor_signature_weapon.active_effect_anti_armor_signature_weapon.name": "Бронебойное отличительное оружие"
+    "ms_exo_anti_armor_signature_weapon.active_effect_anti_armor_signature_weapon.name": "Бронебойное отличительное оружие",
+    "mf_swallowtail_alt_swallowtail_ranger_variant.core_system.active_effect_guerrilla_warfare.name": "Партизанство",
+    "mf_swallowtail_alt_swallowtail_ranger_variant.core_system.active_name": "Партизанство",
+    "mf_genghis_alt_worldkiller_genghis_mk_i.trait_insulated.description": "Чингиз получает иммунитет к Плавлению.",
+    "mf_genghis_alt_worldkiller_genghis_mk_i.name": "Чингиз I поколения, модель \"Мироубийца\"",
+    "mf_genghis_alt_worldkiller_genghis_mk_i.trait_weak_computer.description": "Чингиз получает +1 Помеху на все проверки и испытания, связанные с навыком СИСТЕМЫ.",
+    "mf_genghis_alt_worldkiller_genghis_mk_i.trait_tbk_munitions.description": "При совершении атак Чингиз игнорирует сопротивление к Плавлению и нагреву."
 }
