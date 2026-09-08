@@ -1302,7 +1302,8 @@
             "markDeletedMultiple": "Marcar múltiplos itens como Deletados",
             "restoreMultiple": "Restaura Múltiplos",
             "unmarkDeleted": "Remover status Deletado do Item",
-            "unmarkDeletedMultiple": "Remover status Deletado dos Itens"
+            "unmarkDeletedMultiple": "Remover status Deletado dos Itens",
+            "archive": "Arquivo"
         }
     },
     "stats": {
