@@ -48,7 +48,7 @@
     "act_inv_fragment_signal.terse": "IMPAIR y SLOW un personaje hasta el final de su siguiente turno.",
     "act_invade.detail": "Cuando INVADES, montas un ataque electrónico directo contra tu objetivo. Para INVADIR,realiza un ataque tecnológico contra un personaje dentro de tus SENSORS y línea de visión. Si aciertas, tu enemigo recibe 2 de Heat y tu escoges una de las opciones de INVASIÓN que tengas disponibles. FRAGMENT SIGNAL está disponible para todos los personajes, las opciones adicionales se consiguen mediante systems y equipamiento con la maraca de INVADE.También puedes INVADE personajes aliados para conseguir diversos efectos. Si tú objetivo esta a favor y es aliado, aciertas automáticamente, no cuenta como un ataque y tu objetivo no recibe heat alguno.",
     "act_full_tech.detail": "Cuando usas una ACCIÓN TECNOLÓGICA COMPLETA efectúas varias acciones tecnológicas o una sola acción más compleja.<br/>Para usar una ACCIÓN TECNOLÓGICA COMPLETA elige dos opciones de ACCIÓN TECNOLÓGICA RÁPIDA o una sola opción de sistema o tecnológica que para su activación precise una ACCIÓN TECNOLÓGICA COMPLETA. Si eliges dos opciones de ACCIÓN TECNOLÓGICA RÁPIDA, puedes elegir la misma opción varias veces.",
-    "act_full_tech.name": "Acción Tecnoologica Completa",
+    "act_full_tech.name": "Acción Tecnológica Completa",
     "act_full_tech.terse": "Elige y realiza dos opciones de Acción Tecnológica Rápida, o realiza una sola Acción Tecnológica Completa. Si eliges dos opciones de Acción Tecnológica Rápida, puedes elegir la misma opción varias veces.",
     "act_grapple_npc.name": "Presa",
     "act_grapple_npc.terse": "El NPC realiza un ataque cuerpo a cuerpo contra un personaje adyacente a el con un plus de +1/2/3, apresandolos si aciertan.",
