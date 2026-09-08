@@ -2694,7 +2694,9 @@
             },
             "statSets": {
                 "all": "Todos os estados"
-            }
+            },
+            "content": "Conteúdo",
+            "showPortraits": "Mostrar Avatar"
         }
     },
     "mainMenu": {
