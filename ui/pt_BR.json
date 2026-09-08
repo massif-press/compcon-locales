@@ -2696,7 +2696,8 @@
                 "all": "Todos os estados"
             },
             "content": "Conteúdo",
-            "showPortraits": "Mostrar Avatar"
+            "showPortraits": "Mostrar Avatar",
+            "resetToDefault": "Redefinir padrões"
         }
     },
     "mainMenu": {
