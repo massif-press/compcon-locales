@@ -2390,7 +2390,10 @@
             "alreadyUsed": "Esta ação já foi usada neste turno.",
             "insufficient": "Insuficiente",
             "actionsRemaining": "ações restantes neste turno.",
-            "activationAction": "Ação {n}"
+            "activationAction": "Ação {n}",
+            "protocol": "Protocolo",
+            "full": "Completa",
+            "quick": "Rápido"
         },
         "deploy": {
             "deployNamed": "Implantar {name}",
