@@ -2393,7 +2393,11 @@
             "activationAction": "Ação {n}",
             "protocol": "Protocolo",
             "full": "Completa",
-            "quick": "Rápido"
+            "quick": "Rápido",
+            "move": "Mover",
+            "overcharge": "Sobrecarregar",
+            "reaction": "Reação",
+            "spent": "Gasto"
         },
         "deploy": {
             "deployNamed": "Implantar {name}",
@@ -2670,6 +2674,27 @@
             "onFail": "Em uma falha: sofra {n} dano de Queimadura ( Queimadura persiste)",
             "resolveEndTurn": "Resolver e Terminar Turno",
             "ignore": "Ignorar"
+        },
+        "layout": {
+            "preset": "Predefinição",
+            "presets": {
+                "default": "Padrão",
+                "dense": "Denso",
+                "custom": "Personalizado"
+            },
+            "labels": "Rótulos",
+            "labelModes": {
+                "icon": "Somente ícone",
+                "text": "Somente texto"
+            },
+            "density": "Densidade",
+            "densities": {
+                "compact": "Compacto",
+                "default": "Padrão"
+            },
+            "statSets": {
+                "all": "Todos os estados"
+            }
         }
     },
     "mainMenu": {
