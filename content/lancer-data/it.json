@@ -26,5 +26,6 @@
     "act_brace.trigger": "Vieni colpito da un attacco e il danno è stato tirato.",
     "act_disengage.detail": "DISINGAGGIARE vuol dire allontanarsi con prudenza dal pericolo, effettuare una ritirata controllata o affidarsi all'agilità del mech per colpire e scappare prima che il nemico possa rispondere.<br/>Fino al termine di questo turno, ignori gli ingaggi e non provochi reazioni muovendoti.",
     "act_disengage.name": "Disingaggiare",
-    "act_disengage.terse": "Muoversi con prudenza fuori da una situazione pericolosa. Fino al termine di questo turno, ignori gli ingaggi e non provochi reazioni muovendoti."
+    "act_disengage.terse": "Muoversi con prudenza fuori da una situazione pericolosa. Fino al termine di questo turno, ignori gli ingaggi e non provochi reazioni muovendoti.",
+    "act_dismount.name": "Smontare"
 }
