@@ -1165,7 +1165,7 @@
         "common": {
             "exportAsJson": "Экспорт в формате JSON",
             "override": "заменить",
-            "dangerZone": "Зона риска",
+            "dangerZone": "Опасная зона",
             "saveSuccessful": "Сохранение завершено",
             "copiedToClipboard": "Скопировано в буфер обмена",
             "saveFailed": "Ошибка сохранения",
