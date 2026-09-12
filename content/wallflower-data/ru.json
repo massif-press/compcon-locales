@@ -37,5 +37,6 @@
     "mf_genghis_alt_worldkiller_genghis_mk_i.trait_insulated.description": "Чингиз получает иммунитет к Плавлению.",
     "mf_genghis_alt_worldkiller_genghis_mk_i.name": "Чингиз I поколения, модель \"Мироубийца\"",
     "mf_genghis_alt_worldkiller_genghis_mk_i.trait_weak_computer.description": "Чингиз получает +1 Помеху на все проверки и испытания, связанные с навыком СИСТЕМЫ.",
-    "mf_genghis_alt_worldkiller_genghis_mk_i.trait_tbk_munitions.description": "При совершении атак Чингиз игнорирует сопротивление к Плавлению и нагреву."
+    "mf_genghis_alt_worldkiller_genghis_mk_i.trait_tbk_munitions.description": "При совершении атак Чингиз игнорирует сопротивление к Плавлению и нагреву.",
+    "ms_exo_assault_carapace_armor.name": "Штурмовой экзокостюм панцирного типа"
 }
