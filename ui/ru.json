@@ -555,7 +555,7 @@
         },
         "packsList": {
             "activated": "активировано",
-            "deactivated": "деактивировано",
+            "deactivated": "деактивирован",
             "toggleSuccessText": "Контент-пак успешно {action}.",
             "toggleErrorText": "Не удалось активировать LCP: {error}",
             "deleteAllSuccess": "Все контент-паки были успешно удалены.",
