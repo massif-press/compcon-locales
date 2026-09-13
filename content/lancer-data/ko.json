@@ -94,5 +94,12 @@
     "act_fight.terse": "파일럿으로서 무기 하나로 공격합니다.",
     "act_grapple.terse": "대상을 이동불가로 만들거나 올라타기 위해, 붙잡으려 시도합니다.",
     "act_mount.terse": "메크에 탑승합니다.",
-    "tg_blast.description": "이 무기로 만들어진 공격은 사거리 및 시야선 내 지점에 반경 {VAL}칸 이내의 캐릭터들에게 영향을 끼칩니다. 엄폐와 시야선은 공격자의 위치가 아닌 blast의 중심 지점으로부터 계산됩니다."
+    "tg_blast.description": "이 무기로 만들어진 공격은 사거리 및 시야선 내 지점에 반경 {VAL}칸 이내의 캐릭터들에게 영향을 끼칩니다. 엄폐와 시야선은 공격자의 위치가 아닌 blast의 중심 지점으로부터 계산됩니다.",
+    "act_jockey_shred.name": "파쇄",
+    "act_shut_down.name": "셧다운",
+    "cb_briareos_frame.active_effect_briareos_frame.name": "브리아레오스 프레임",
+    "cb_fomorian_frame.name": "포모리안 프레임",
+    "cb_full_subjectivity_sync.name": "주체성 완전 연동",
+    "cb_ghostweave.active_effect_ghostweave.name": "유령매듭",
+    "cb_ghostweave.name": "유령매듭"
 }
