@@ -182,7 +182,8 @@
             "mainNavigation": "Hauptnavigation",
             "toggleNavigation": "Navigationsfenster umschalten"
         },
-        "deselectAll": "Alle abwählen"
+        "deselectAll": "Alle abwählen",
+        "unknown": "Unbekannt"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
@@ -635,7 +636,8 @@
         },
         "optionsPage": {
             "tabStorage": "Speicherplatz",
-            "tabLog": "Protokoll"
+            "tabLog": "Protokoll",
+            "tabActiveMode": "Aktiver Modus"
         },
         "alt": {
             "supportCompconOnPatreon": "Unterstützen Sie @:{'common.appName'} auf Patreon",
@@ -987,7 +989,10 @@
             "quick": "Schnelle",
             "quickN": "Schnelle {n}",
             "move": "Bewegung",
-            "orTwoQuick": "Eine volle Aktion darf als zwei schnelle Aktionen genutzt werden"
+            "orTwoQuick": "Eine volle Aktion darf als zwei schnelle Aktionen genutzt werden",
+            "overcharge": "Überladen",
+            "reaction": "Reaktion",
+            "spent": "Ausgegeben"
         },
         "deploy": {
             "deployNamed": "{name} platzieren",
@@ -3787,7 +3792,9 @@
         },
         "talent": {
             "rankLocked": "Talentrang freigeschaltet",
-            "unlocked": "Freigeschaltet"
+            "unlocked": "Freigeschaltet",
+            "hideAll": "Alle ausblenden",
+            "showAll": "Alle anzeigen"
         },
         "org": {
             "efficiency": "Effizienz der Organisation",
