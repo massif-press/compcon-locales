@@ -628,8 +628,7 @@
         },
         "optionsPage": {
             "tabStorage": "Almacenamiento",
-            "tabLog": "Bitácora",
-            "tabSettings": "@:{'common.settings'}"
+            "tabLog": "Bitácora"
         },
         "packsList": {
             "activated": "activado",
@@ -703,7 +702,7 @@
             "permanentDeletion": "Eliminación Permanente",
             "deleteWarn2": "escriba el título de la campaña en el campo de entrada de texto a continuación y presione {confirm}.",
             "importJsonTitle": "Importar Datos JSON de Campaña",
-            "importHelp": "Esta herramienta importará una campaña editable e inédita {jsonFile} desde su dispositivo.{br}Para importar un archivo de campaña publicado con la extensión {lcd} a su colección, utilice la herramienta de importación de archivos en el menú {campaignCollection}, o la herramienta Importar Campaña en el cuadro de diálogo {manageContent} bajo el menú principal.",
+            "importHelp": "Esta herramienta importará una campaña editable e inédita {jsonFile} desde su dispositivo.{br}Para importar un archivo de campaña publicado con la extensión {lcd} a su colección, utilice la herramienta de importación de archivos en el menú {campaignCollection}, o la herramienta Importar Campaña en el cuadro de diálogo {manageContent} bajo el menú principal .",
             "campaignCollection": "Colección de Campañas",
             "campaignInfo": "Información de campaña",
             "saveCampaign": "Guardar Campaña",
@@ -1027,7 +1026,6 @@
             "encounterInstance": "(Instancia de Encuentro #{n})",
             "uniqueInstanceHelp": "Esta es una instancia única de este PNJ enlazado a los datos de este Encuentro. Editar este PNJ no afectará los datos originales del PNJ.",
             "linkedSource": "La fuente de esta instancia de PNJ está presente en su lista de PNJ ({name}) y puede recibir actualizaciones del original",
-            "notLinkedSource": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ",
             "notLinkedSourceDot": "Esta instancia de PNJ no está vinculada a una fuente válida en su lista de PNJ.",
             "sourceLinked": "Origen Vinculado",
             "sourceUnavailable": "Origen No Disponible",
@@ -1528,11 +1526,7 @@
             "applyClose": "Aplicar y Cerrar"
         },
         "trackable": {
-            "corePower": "Poder Base",
-            "ready": "Listo",
-            "clearMechCore": "Limpiar los de este meca",
-            "restoreMechCore": "Restaurar los de este meca",
-            "corePowerQ": "¿poder base?"
+            "corePower": "Poder Base"
         },
         "customStat": {
             "editStats": "Editar Estadísticas",
@@ -1772,7 +1766,7 @@
             "mark1RepairToRestore": "Marcar 1 REPARAR para restaurar todos los PG.",
             "reloadAllLoadedWeapons": "Recargar todas las armas CARGADA.",
             "clearAnyBurnCurrentlyAffecting": "Despejar cualquier quemadura afectando actualmente su meca.",
-            "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc",
+            "clearAConditionThatWasnt": "Limpiar una condición que no fue causada por uno de sus propios sistemas, talentos, etc.",
             "clearAnAdjacentAlliedCharacters": "Limpiar una condición de un personaje aliado adyacente que no fue causada por uno de sus propios sistemas, talentos, etc.",
             "overkill": "Saña",
             "maxLoadoutFeatureSetColumns": "Max Equipamiento Piloto/Juego de Columnas Presentadas",
@@ -3814,7 +3808,6 @@
             "referenceNarrativePlay": "Referencia: Juego Narrativo",
             "referenceErrata": "Referencia: Erratas",
             "referenceGlossary": "Referencia: Glosario",
-            "downtimeactions": "AccionesInterludio",
             "edef": "DefE",
             "sitreps": "INFORMES DE SITUACIÓN"
         },
