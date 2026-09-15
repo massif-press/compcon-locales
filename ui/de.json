@@ -110,8 +110,8 @@
         "pilotTalents": "Pilot:innentalente",
         "removeName": "{name} entfernen",
         "reserves": "Reserven",
-        "setCustomDescription": "Eigene Beschreibung setzen",
-        "setCustomName": "Eigenen Namen setzen",
+        "setCustomDescription": "Benutzerdefinierte Beschreibung setzen",
+        "setCustomName": "Benutzerdefinierten Namen setzen",
         "side": "Seite",
         "statsLabel": "Statistiken",
         "syncNow": "Jetzt synchronisieren",
@@ -157,8 +157,8 @@
         "armorBonus": "Panzerungsbonus",
         "cancelPermanentDeletion": "Permanente Löschung abbrechen",
         "confirmPermanentDeletion": "Permanente Löschung bestätigen",
-        "customItemDescription": "Eigene Gegenstandsbeschreibung",
-        "customItemName": "Eigener Gegenstandsname",
+        "customItemDescription": "Benutzerdefinierte Gegenstandsbeschreibung",
+        "customItemName": "Benutzerdefinierter Gegenstandsname",
         "deletePermanently": "Permanent löschen",
         "deleteItemsPermanently": "Diese Elemente permanent löschen",
         "details": "Details",
@@ -181,7 +181,8 @@
         "a11y": {
             "mainNavigation": "Hauptnavigation",
             "toggleNavigation": "Navigationsfenster umschalten"
-        }
+        },
+        "deselectAll": "Alle abwählen"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
@@ -459,7 +460,9 @@
             "exportAllSessions": "Alle Sitzungsprotokolle exportieren",
             "clearLog": "Protokoll leeren",
             "error": "Fehler",
-            "session": "Sitzung"
+            "session": "Sitzung",
+            "clearAllLogs": "Alle Protokolle löschen",
+            "clearAllLogsConfirm": "Dies wird permanent alle Protokolle aus allen Sitzungen löschen, inklusive gespeicherter Protokolle vorheriger Besuche."
         },
         "deletedItems": {
             "noItemsFound": "Keine Elemente gefunden",
@@ -956,7 +959,9 @@
         },
         "activeEffect": {
             "hiddenEffects": "Versteckte Effekte",
-            "title": "Aktive Effekte"
+            "title": "Aktive Effekte",
+            "hidingUsedEffects": "Gebrauchte/verfallene Effekte werden versteckt",
+            "showingUsedEffects": "Gebrauchte/verfallene Effekte werden angezeigt"
         },
         "actions": {
             "allActions": "Alle Aktionen",
@@ -973,7 +978,16 @@
             "alreadyUsed": "Diese Aktion wurde in diesem Zug bereits einmal verwendet.",
             "insufficient": "Nicht genügend",
             "actionsRemaining": "Aktionen in diesem Zug übrig.",
-            "activationAction": "{n} Aktion"
+            "activationAction": "{n} Aktion",
+            "usesRemaining": "{n} von {max} Nutzungen verbleibend bis Ende {period}",
+            "usesExhausted": "Keine verbleibenden Benutzungen bis Ende {period}",
+            "restoreUse": "Klicken, um eine Nutzung wiederherzustellen",
+            "protocol": "Protokoll",
+            "full": "Volle",
+            "quick": "Schnelle",
+            "quickN": "Schnelle {n}",
+            "move": "Bewegung",
+            "orTwoQuick": "Eine volle Aktion darf als zwei schnelle Aktionen genutzt werden"
         },
         "deploy": {
             "deployNamed": "{name} platzieren",
@@ -1001,7 +1015,9 @@
             "rechargesFeatures": "Lädt die folgenden Funktionen wieder auf",
             "rechargesOn": "(Lädt auf {n}+ wieder auf)",
             "clickToRoll": "Zum Würfeln klicken. NSC-Funktionen laden sich auf Würfen wieder auf, deren Ergebnis größer oder gleich ihrem Aufladungswert sind.",
-            "reroll": "neu würfeln"
+            "reroll": "neu würfeln",
+            "hidingPassiveFeatures": "Passive Funktionen werden versteckt",
+            "showingPassiveFeatures": "Passive Funktionen werden angezeigt"
         },
         "deployPanel": {
             "redeployment": "neue Platzierung",
@@ -1042,11 +1058,11 @@
             "layoutColumns": "Layoutspalten",
             "reloadAllLoadedWeapons": "Lädt alle Waffen mit NACHLADEN nach.",
             "clearAnyBurnCurrentlyAffecting": "Löscht jeglichen Brand Ihres Mechs.",
-            "clearAConditionThatWasnt": "Entfernt einen Zustand, der nicht von einem Ihrer eigenen Systeme, Talente, usw. verursacht wurde",
+            "clearAConditionThatWasnt": "Entfernt einen Zustand, der nicht von einem Ihrer eigenen Systeme, Talente, usw. verursacht wurde.",
             "clearAnAdjacentAlliedCharacters": "Entfernt einen Zustand eines benachbarten Verbündeten, der nicht von einem derer eigenen Systeme, Talente, usw. verursacht wurde.",
             "forceStandardTickbars": "Standardbalken zum Abhaken erzwingen",
             "statValue": "Statistikwert",
-            "customStatusName": "Eigener Statusname",
+            "customStatusName": "Benutzerdefinierter Statusname",
             "justify": "Rechtfertigen",
             "tableConnectCode": "Tischverbindungscode",
             "coolYourMechClearingAll": "Kühlen Sie Ihren Mech, entfernen Sie Hitze und den VERWUNDBAR Status.",
@@ -1121,7 +1137,8 @@
             "exportSheet": "Bogen Exportieren",
             "deleteSheet": "Bogen löschen",
             "unmounted": "Nicht aufgesessen",
-            "na": "N.Z."
+            "na": "N.Z.",
+            "noCampaignInformation": "Keine Kampagneninformationen vorhanden"
         },
         "endEnc": {
             "confirmEndEncounter": "Ende des Gefechts bestätigen",
@@ -1139,7 +1156,9 @@
             "layoutOptions": "Layoutoptionen",
             "lastSaved": "Zuletzt gespeichert",
             "never": "Nie",
-            "manualSave": "Manuell speichern"
+            "manualSave": "Manuell speichern",
+            "autosaveOnRoundEnd": "Am Rundenende",
+            "autosaveOff": "Aus (Nur Manuelles Speichern)"
         },
         "leaveDialog": {
             "prompt": "Möchten Sie dieses Gefecht vor dem Verlassen speichern?",
@@ -1178,7 +1197,13 @@
             "sessionHistory": "Sitzungsverlauf"
         },
         "trackable": {
-            "corePower": "Kernbatterie"
+            "corePower": "Kernbatterie",
+            "corePowerReady": "Kernbatterie verfügbar",
+            "corePowerUnavailable": "Kernbatterie nicht verfügbar",
+            "clearCorePowerQ": "Kernbatterie dieses Mechs entladen?",
+            "restoreCorePowerQ": "Kernbatterie dieses Mechs wieder aufladen?",
+            "confirmClearCore": "Entladung bestätigen",
+            "confirmRestoreCore": "Aufladung bestätigen"
         },
         "customStat": {
             "static": "Statisch",
@@ -1203,7 +1228,8 @@
             "doubleDamage": "Doppelter Schaden",
             "fullDamage": "Voller Schaden",
             "fromAttacks": "von {type}-Angriffen.",
-            "title": "Widerst./Immun./Verw."
+            "title": "Widerst./Immun./Verw.",
+            "normal": "Normal"
         },
         "timedEffect": {
             "roundsRemaining": "{n} Runden verbleibend",
@@ -1216,7 +1242,7 @@
         },
         "statusCond": {
             "title": "Status / Zustände",
-            "addCustom": "Eigenen Status hinzufügen"
+            "addCustom": "Benutzerdefinierten Status hinzufügen"
         },
         "scan": {
             "scan": "Scannen"
@@ -1306,7 +1332,7 @@
             "title": "Tabellenindex",
             "encounterTables": "Gefechtstabellen",
             "otherTables": "Andere Tabellen",
-            "coreOnly": "Aktuell werden nur Tabellen aus dem Lancer Core Book unterstützt. LCP- und eigene Tabellen müssen manuell aufgelöst werden",
+            "coreOnly": "Aktuell werden nur Tabellen aus dem Lancer Core Book unterstützt. LCP- und benutzerdefinierte Tabellen müssen manuell aufgelöst werden",
             "selectTable": "Wählen Sie eine Tabelle aus, um deren Inhalte zu sehen."
         },
         "actorLogs": {
@@ -1345,7 +1371,8 @@
         "pcPanel": {
             "pilotMounted": "Pilot:in aufgesessen",
             "pilotUnmounted": "Pilot:in abgesessen",
-            "noReserves": "Keine Reserven zur Verfügung"
+            "noReserves": "Keine Reserven zur Verfügung",
+            "unusedOnly": "Nur unbenutzte"
         },
         "pilotActions": {
             "preparedTitle": "Pilot:in vorbereitet",
@@ -1403,6 +1430,49 @@
             "published": "Liste veröffentlichter Tische",
             "offline": "Liste an Offline-Tischen",
             "addNew": "Neuen Tisch hinzufügen"
+        },
+        "layout": {
+            "title": "Layout Aktiver Modus",
+            "description": "Regelt die Anordnung von Kombattanten, Statistiken, und Aktionsschaltflächen während eines Gefechts. Diese Einstellungen beeinflussen nur Ihre Ansicht und haben keine Auswirkung auf andere Spieler:innen am Tisch.",
+            "preset": "Voreinstellung",
+            "presets": {
+                "default": "Standard",
+                "textFirst": "Text Voran",
+                "dense": "Dicht",
+                "phone": "Mobilgerät",
+                "custom": "Benutzerdefiniert"
+            },
+            "labels": "Symbole",
+            "labelModes": {
+                "icon": "Nur Symbole",
+                "iconText": "Symbole mit Text",
+                "text": "Nur Text"
+            },
+            "density": "Dichte",
+            "densities": {
+                "compact": "Kompakt",
+                "default": "Standard",
+                "comfortable": "Bequem"
+            },
+            "tickbars": "Wertezähler",
+            "tickbarModes": {
+                "auto": "Automatisch (auf kleinen Bildschirmen vereinfacht)",
+                "simple": "Immer vereinfacht",
+                "standard": "Immer standardmäßig"
+            },
+            "statSet": "Werteanzeige",
+            "statSets": {
+                "all": "Alle Werte",
+                "core": "Nur Kernwerte (benutzerdefinierte Werte werden immer angezeigt)"
+            },
+            "structure": "Paneelstruktur",
+            "columnsLabel": "Paneele in Spalten aufteilen",
+            "content": "Inhalt",
+            "showPortraits": "Portraits anzeigen",
+            "showPortraitsTooltip": "Blendet Portraitbilder aus, um mehr Informationen auf den Bildschirm zu passen.",
+            "showFlavor": "Kulissentext anzeigen",
+            "showFlavorTooltip": "Zeigt Beschreibungen und Hintergrundwissen auf Ausrüstungs- und Funktionskarten an. Abstellen, um nur Regeltexte anzuzeigen.",
+            "resetToDefault": "Auf Standardeinstellungen zurücksetzen"
         }
     },
     "pm": {
@@ -1653,7 +1723,10 @@
             "unionAdministrativeIdentRecord": "Union Adminstrative RM-4 Pilot:innenidentifikationsprotokoll (IDENT) Akte",
             "biometricRecordValid": "Biometrische Akte gültig [[",
             "pbOhmC": "PB]] :: OHM c//",
-            "identRecordNotice": "Unbefugter Gebrauch dieser IDENT-Akte oder der darin enthaltenen Daten durch den Akteninhaber oder andere Personen wird nach A-645-c des DoJ/HR strafrechtlich verfolgt. Diese Akte ist Eigentum des Union Administrationsbüros und alle darin enthaltenen Daten müssen auf Nachfrage über NDL-C-ZWIETRÄCHTIGER-ATEM-Verschlüsselungsprotokolle verschlüsselt versendet werden. Diese RM-4-Akte muss alle fünf (5) Cradle-Standardjahre aktualisiert werden, um die GMS-Lizenzrechte zu bewahren. Fernfeld-Funktionäre, deren Einsätze auf mehr als fünf Cradle-Standardjahre geschätzt werden, die aber noch nicht mit tragbaren Omninet-Haken ausgestattet wurden, sollten eine RM-11-B IDENT Anhangserweiterung (b) beantragen. Für andere Anliegen bezüglich dieser Akte, kontaktieren Sie bitte Ihren lokalen Union Administrationsoffizier. V-CDL//M-265-114-831 (A)"
+            "identRecordNotice": "Unbefugter Gebrauch dieser IDENT-Akte oder der darin enthaltenen Daten durch den Akteninhaber oder andere Personen wird nach A-645-c des DoJ/HR strafrechtlich verfolgt. Diese Akte ist Eigentum des Union Administrationsbüros und alle darin enthaltenen Daten müssen auf Nachfrage über NDL-C-ZWIETRÄCHTIGER-ATEM-Verschlüsselungsprotokolle verschlüsselt versendet werden. Diese RM-4-Akte muss alle fünf (5) Cradle-Standardjahre aktualisiert werden, um die GMS-Lizenzrechte zu bewahren. Fernfeld-Funktionäre, deren Einsätze auf mehr als fünf Cradle-Standardjahre geschätzt werden, die aber noch nicht mit tragbaren Omninet-Haken ausgestattet wurden, sollten eine RM-11-B IDENT Anhangserweiterung (b) beantragen. Für andere Anliegen bezüglich dieser Akte, kontaktieren Sie bitte Ihren lokalen Union Administrationsoffizier. V-CDL//M-265-114-831 (A)",
+            "requiresCloudAccount": "Benötigt Cloud-Konto",
+            "favoriteMech": "Mech favorisieren",
+            "unfavoriteMech": "Mech entfavorisieren"
         },
         "roster": {
             "includesDATAFROMTHEFOLLOWINGCONTENT": "Beinhaltet Daten aus den folgenden Inhaltspaketen",
@@ -1692,7 +1765,8 @@
             "doneReordering": "Umsortierung fertig",
             "addGroup": "Gruppe hinzufügen",
             "pilots": "Pilot:innen",
-            "addANewPilotToName": "Neue:n Pilot:in zu {name} hinzufügen"
+            "addANewPilotToName": "Neue:n Pilot:in zu {name} hinzufügen",
+            "editGroupInformation": "Gruppeninformation bearbeiten"
         },
         "loadout": {
             "armorEquippedTitle": "Pilot:innen-Panzerung ausgerüstet",
@@ -1741,7 +1815,18 @@
             "appliedTO": "Angewendet auf",
             "mechSYSTEMS": "Mech SYSTEME",
             "noMODINSTALLED": "Kein Mod installiert",
-            "emptySYSTEMSLOT": "Leerer Systemslot"
+            "emptySYSTEMSLOT": "Leerer Systemslot",
+            "showUnlicensed": "Nicht Lizensiertes anzeigen",
+            "unlicensedShown": "Nicht lizensierte Ausrüstung: GEZEIGT",
+            "unlicensedHidden": "Nicht lizensierte Ausrüstung: VERBORGEN",
+            "showExceedsSp": "Übersteigt SP anzeigen",
+            "exceedsSpShown": "Systeme welche SP-Kapazität übersteigen: GEZEIGT",
+            "exceedsSpHidden": "Systeme welche SP-Kapazität übersteigen: VERBORGEN",
+            "incompatibleModsShown": "Inkompatible Mods: GEZEIGT",
+            "incompatibleModsHidden": "Inkompatible Mods: VERBORGEN",
+            "modifyModification": "{name}-Modifikation modifizieren",
+            "installModification": "{name}-Modifikation installieren",
+            "showIncompatibleMods": "Inkompatibles anzeigen"
         },
         "print": {
             "onATTACK": "Bei Angriff",
@@ -1896,7 +1981,7 @@
             "selectPilotBackground": "Pilot:innen-Hintergrund auswählen",
             "pilotCoreBonuses": "Pilot:innen-Herstellerspezialisierungen",
             "pilotLicenses": "Pilot:innen-Lizenzen",
-            "addCustomReserve": "Eigene Reserve hinzufügen",
+            "addCustomReserve": "Benutzerdefinierte Reserve hinzufügen",
             "addProject": "Projekt hinzufügen",
             "addOrganization": "Organisation hinzufügen",
             "newProject": "Neues Projekt",
@@ -2169,7 +2254,11 @@
             "itemModified": "Dieses Element wurde lokal modifiziert und wird bei Veröffentlichung auf die neueste Version aktualisiert.",
             "autoGenChangelog": "Automatisch dieses Änderungsprotokoll erstellen",
             "viewFullChangelog": "Komplettes Änderungsprotokoll ansehen",
-            "collectionChangelogTitle": "Änderungsprotokoll von {name}"
+            "collectionChangelogTitle": "Änderungsprotokoll von {name}",
+            "headerShort": "HERAUSGABE VON SAMMLUNGEN",
+            "header": "HERAUSGABE VON INHALTSSAMMLUNGEN",
+            "nameRequired": "Name (benötigt)",
+            "authorRequired": "Urheber:in (benötigt)"
         },
         "archive": {
             "pruneItems": "{count} Element stutzen | {count} Elemente stutzen",
@@ -2351,7 +2440,10 @@
             "unsubscribeInfo": "Das Abbestellen dieser Sammlung wird sie aus Ihrer Sammlungsliste entfernen. Sie werden keine weiteren Aktualisierungen der Urheber:innen erhalten. Lokaldaten aus dieser Sammlung werden nicht entfernt.",
             "newVersionAvailable": "Eine neue Version dieser Sammlung ist verfügbar.",
             "deletedCollection": "Gelöschte Sammlung",
-            "deletedCollectionInfo": "Die Sammlung \"{name}\" wurde von deren Urheber:innen gelöscht. Ihre Lokaldaten wurden nicht entfernt, aber Sie werden keine weiteren Aktualisierungen von dieser Sammlung erhalten."
+            "deletedCollectionInfo": "Die Sammlung \"{name}\" wurde von deren Urheber:innen gelöscht. Ihre Lokaldaten wurden nicht entfernt, aber Sie werden keine weiteren Aktualisierungen von dieser Sammlung erhalten.",
+            "authorContentShort": "Urheber:innen-Inhalte",
+            "authorContentHeader": "ABONNEMENTS ZU URHEBER:INNEN-INHALTEN",
+            "lcpHeader": "LCP-Abonnements"
         },
         "storage": {
             "iosWarning": "Browser auf iOS begrenzen den Speicherplatz für Webseiten und könnten nach 7 Tagen Inaktivität {emphasis}. Um Datenverlust zu verhindern, installieren Sie @:{'common.appName'} auf Ihren Home-Screen",
@@ -2501,7 +2593,7 @@
             "controlsHowOftenYourData": "Steuert, wie oft Ihre Daten mit der Cloud synchronisiert werden. Aufgrund der damit verbundenen Serverkosten sind bestimmte Optionen nur für Abonnent:innen auf Patreon verfügbar.",
             "controlsWhichDataTypesAre": "Steuert, welche Datentypen mit der Cloud synchronisiert sind.",
             "yourUniqueAccountIdThis": "Ihre einzigartige Konto-ID. Dies wird dazu genutzt, Ihre Daten in der Cloud zu identifizieren, was u.A. für Fehleranalysen benötigt werden kann.",
-            "usernameOptional": "Dies ist ein <b>optionales</b> Feld, welches Sie nutzen können, um einen Eigennamen für Ihr Konto festzulegen. Dieser Benutzer:innenname <b>wird</b> im Aktiven Modus sichtbar für andere Nutzer:innen sein, sowie wenn Sie Daten teilen.",
+            "usernameOptional": "Dies ist ein <b>optionales</b> Feld, welches Sie nutzen können, um einen benutzerdefinierten Namen für Ihr Konto festzulegen. Dieser Benutzer:innenname <b>wird</b> im Aktiven Modus sichtbar für andere Nutzer:innen sein, sowie wenn Sie Daten teilen.",
             "signInFailed": "Anmeldung fehlgeschlagen"
         }
     },
@@ -2567,7 +2659,7 @@
             "h2": "H2",
             "h3": "H3",
             "h4": "H4",
-            "hideTitle": "Titel verbergen",
+            "hideTitle": "Titel ausblenden",
             "block": "Block",
             "clippedBlock": "Abgeschnittener Block",
             "quote": "Zitat",
@@ -2640,7 +2732,7 @@
             "additionalDetail": "Zusätzliche Details",
             "clocks": "Uhren",
             "viewCollections": "Sammlungen anzeigen",
-            "itemTypePlural": "({type})"
+            "itemTypePlural": "{type}"
         },
         "print": {
             "othersCount": "(+{n} weitere)"
@@ -2673,7 +2765,7 @@
             "map": "Karte"
         },
         "landing": {
-            "toolkit": "Spielleiter-Werkzeuge"
+            "toolkit": "SL-Werkzeug"
         },
         "combatant": {
             "combatants": "Kombattanten",
@@ -2738,7 +2830,7 @@
         "filter": {
             "filters": "Filter",
             "showItemsWith": "Zeige Elemente mit",
-            "hideItemsWith": "Verstecke Elemente mit",
+            "hideItemsWith": "Ausblenden: Elemente mit",
             "showAll": "Alle anzeigen",
             "hideAll": "Alle ausblenden",
             "clearAllFilters": "Alle Filter entfernen"
@@ -2858,7 +2950,7 @@
             "narrativeElement": "Erzählelement",
             "combatEncounter": "Gefecht",
             "shards": "Scherben",
-            "gmToolkit": "SL-Werkzeuge",
+            "gmToolkit": "SL-Werkzeug",
             "campaignEditor": "Kampagneneditor",
             "npcRoster": "NSC-Liste",
             "encounterEditor": "Gefechtseditor",
@@ -2907,7 +2999,8 @@
             "allowDuplicates": "Duplikate erlauben",
             "npc": "Nsc",
             "authors": "Urheber:innen",
-            "mustBeAnItchioUrl": "Muss eine itch.io-URL sein, um automatische Verwaltung in @:{'common.appName'} zu aktivieren"
+            "mustBeAnItchioUrl": "Muss eine itch.io-URL sein, um automatische Verwaltung in @:{'common.appName'} zu aktivieren",
+            "condition": "Bedingung"
         },
         "subtitles": {
             "setItemFolder": "Elementordner setzen",
@@ -2931,7 +3024,8 @@
         "folder": {
             "collectionFolder": "Sammlungsordner",
             "setFolder": "Ordner setzen",
-            "noFolder": "Kein Ordner"
+            "noFolder": "Kein Ordner",
+            "deleteFolderWarning": "Dies wird den '{folder}'-Ordner löschen. Alle Elemente darin werden in die '{noFolder}'-Gruppe verschoben"
         },
         "organizer": {
             "itemCount": "{n} Elemente"
@@ -3086,7 +3180,8 @@
             "faqErrataNotice": "Diese FAQ und Errata sind von der Community erstellte Projekte und nicht Teil der offiziellen Massif Press @:{'common.gameName'}-Veröffentlichungen. Diese Seite erhält ihre FAQ-Daten aus dem {repoLink} auf GitHub, welches aktuell von lenaleciel instand gehalten wird. Dieses Dokument ist auch auf {siteLink} verfügbar.",
             "lancerFaqRepo": "\"lancer-faq\"-Repository",
             "lancerFaqSite": "lancer-faq.netlify.app/",
-            "bookPage": "{book}, S. {page}"
+            "bookPage": "{book}, S. {page}",
+            "conditions": "Zustände"
         },
         "content": {
             "eidolonLayer": "Eidolonschicht",
@@ -3573,10 +3668,12 @@
         },
         "corePanel": {
             "integrated": "Kernintegrierte Ausrüstung",
-            "special": "Kern-Spezialausrüstung"
+            "special": "Kern-Spezialausrüstung",
+            "corePowerAvailable": "Kernbatterie verfügbar",
+            "corePowerDepleted": "Kernbatterie erschöpft"
         },
         "counter": {
-            "addCustom": "Eigenen Zähler hinzufügen"
+            "addCustom": "Benutzerdefinierten Zähler hinzufügen"
         },
         "rollTable": {
             "gmOnlyTooltip": "Felder und Gegenstände, die als \"Nur für SL\" markiert sind, werden in spielerseitigen Exporten und Ausdrucken ausgeblendet",
@@ -3646,7 +3743,9 @@
         "remote": {
             "collectionResource": "Sammlungsressource",
             "collectionHelp": "Diese:s {type} ist mit einer Inhaltssammlung verknüpft. Es ist schreibgeschützt, aber wird Aktualisierungen erhalten wenn eine neue Version der Sammlung von deren Urheber:in veröffentlicht wird.",
-            "remoteHelp": "Diese:s {type} ist eine rechnerferne Ressource, die mit dem Konto ein: anderen Nutzer:in verknüpft ist. Sie ist schreibgeschützt und wird Aktualisierungen von dem verknüpften Konto erhalten."
+            "remoteHelp": "Diese:s {type} ist eine rechnerferne Ressource, die mit dem Konto ein: anderen Nutzer:in verknüpft ist. Sie ist schreibgeschützt und wird Aktualisierungen von dem verknüpften Konto erhalten.",
+            "mustBeLoggedInToAdd": "Sie müssen eingeloggt sein, um Elemente als rechnerferne Ressourcen hinzuzufügen.",
+            "addRemoteResourceInfo": "Wenn Sie dieses Element als rechnerferne Ressource hinzufügen, wird eine schreibgeschützte Version erzeugt, die mit den Originaldaten der Urheber:in verknüpft ist. Wenn eine Aktualisierung des Originals im @:{'common.appName'}-Cloudkonto gespeichert wird, erhält Ihre lokale Version diese Änderungen ebenfalls."
         },
         "shareImport": {
             "itemShareCode": "Teilbarer Elementcode",
@@ -3723,6 +3822,20 @@
         },
         "subtitles": {
             "selectResult": "Ergebnis auswählen"
+        },
+        "organizer": {
+            "archive": "Archivieren",
+            "archiveMultiple": "Mehrere archivieren",
+            "deleteMultiple": "Mehrere löschen",
+            "printMultiple": "Mehrere ausdrucken",
+            "exportCollection": "Sammlung exportieren",
+            "exportItemJson": "Elements-JSON exportieren",
+            "exportPackage": "Multielement-Exportpaket generieren",
+            "markDeleted": "Element als gelöscht markieren",
+            "markDeletedMultiple": "Mehrere Elemente als gelöscht markieren",
+            "restoreMultiple": "Mehrere wiederherstellen",
+            "unmarkDeleted": "\"Gelöscht\"-Status von Element entfernen",
+            "unmarkDeletedMultiple": "\"Gelöscht\"-Status von Elementen entfernen"
         }
     },
     "enums": {
