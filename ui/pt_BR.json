@@ -2367,8 +2367,6 @@
         },
         "telemetry": {
             "telemetry": "Telemetria",
-            "devNote": "Este recurso ainda está em desenvolvimento. Dados de telemetria adicionais em breve. {emphasis}",
-            "collectedNote": "Os dados de telemetria são coletados ao final de cada rodada",
             "encounterInstance": "instânciaDoEncontro",
             "lifetime": "tempo de vida",
             "exportText": "Exportar como Texto"

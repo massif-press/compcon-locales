@@ -1192,7 +1192,6 @@
         },
         "telemetry": {
             "telemetry": "Télémétrie",
-            "devNote": "Cette fonctionnalité est toujours en développement. Des données de télémétrie supplémentaires sont à venir. {emphasis}",
             "encounterInstance": "Instance de rencontre",
             "exportText": "Exporter comme un texte"
         },
