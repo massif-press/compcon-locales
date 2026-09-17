@@ -181,7 +181,9 @@
             "mainNavigation": "Menu Principal",
             "toggleNavigation": "Alternar painel de navegação"
         },
-        "shiftEnterNewline": "Shift + Enter para nova linha"
+        "shiftEnterNewline": "Shift + Enter para nova linha",
+        "unknown": "Desconhecido",
+        "deselectAll": "Desselecionar tudo"
     },
     "print": {
         "generalOptions": "Opções Gerais de Impressão"
@@ -532,7 +534,9 @@
             "exportAllSessions": "Exportar todos Registros de Sessão",
             "clearLog": "Limpar Registros",
             "error": "Erro",
-            "session": "Sessão"
+            "session": "Sessão",
+            "clearAllLogs": "Limpar todos os logs",
+            "clearAllLogsConfirm": "Isso vai deletar permanentemente todos os logs de todas as sessões, incluindo sessões salvas de visitas anteriores."
         },
         "packInfo": {
             "v2ContentTitle": "Conteúdo v2",
@@ -619,9 +623,9 @@
             "secretLabel": "Conquista Secreta"
         },
         "optionsPage": {
-            "tabSettings": "@:{'common.settings'}",
             "tabLog": "Log",
-            "tabStorage": "Armazenamento"
+            "tabStorage": "Armazenamento",
+            "tabActiveMode": "Modo Ativo"
         },
         "packsList": {
             "toggleSuccessText": "Pacote {action} com sucesso.",
@@ -767,7 +771,6 @@
             "manufacturers": "Fabricantes",
             "frames": "Chassis",
             "glossary": "Glossário",
-            "downtimeactions": "Ações de Tempo de Recesso",
             "bonds": "Vínculos",
             "environments": "Ambientes",
             "sitreps": "SITREPs",
@@ -795,7 +798,8 @@
             "faqErrataNotice": "Este FAQ e Errata é um projeto conduzido pela comunidade e não faz parte de um lançamento oficial da Massif Press para o @:{'common.gameName'}. Esta página é fornecida pelos dados do FAQ de {repoLink} no GitHub, atualmente mantido por lenaleciel. Este documento também está disponível em {siteLink}.",
             "lancerFaqRepo": "repositório lancer-faq",
             "lancerFaqSite": "lancer-faq.netlify.app/",
-            "bookPage": "{book}, p. {page}"
+            "bookPage": "{book}, p. {page}",
+            "conditions": "Condições"
         },
         "search": {
             "resultCount": "{count} resultado | {count} resultados"
@@ -1040,7 +1044,9 @@
         "remote": {
             "collectionResource": "Recurso de Coleção",
             "collectionHelp": "Este {type} está vinculado a uma coleção de conteúdo. É somente leitura e receberá atualizações quando uma nova versão da coleção for publicada pelo autor da coleção.",
-            "remoteHelp": "Este {type} é um recurso remoto vinculado à conta de outro usuário. É somente leitura e receberá atualizações da conta vinculada."
+            "remoteHelp": "Este {type} é um recurso remoto vinculado à conta de outro usuário. É somente leitura e receberá atualizações da conta vinculada.",
+            "addRemoteResourceInfo": "Adicionar este item como um recurso remoto criará uma versão somente leitura deste item, vinculada aos dados originais do autor. Quando o autor salvar uma atualização deste item em sua conta na nuvem do @:{'common.appName'}, sua versão local poderá receber essas alterações.",
+            "mustBeLoggedInToAdd": "Voce precisa estar logado para adicionar itens como recursos remotos."
         },
         "missing": {
             "missingContent": "Conteúdo ausente",
@@ -1114,7 +1120,9 @@
         },
         "talent": {
             "rankLocked": "Ranque de talento bloqueado",
-            "unlocked": "Desbloqueado"
+            "unlocked": "Desbloqueado",
+            "hideAll": "Ocultar Todos",
+            "showAll": "Exibir tudo"
         },
         "coreBonus": {
             "remove": "Remover este Bônus de Núcleo",
@@ -1138,7 +1146,9 @@
         },
         "corePanel": {
             "integrated": "Equipamento integrado de núcleo",
-            "special": "Equipamento especial de núcleo"
+            "special": "Equipamento especial de núcleo",
+            "corePowerAvailable": "Poder de Núcleo Disponível",
+            "corePowerDepleted": "Poder de Núcleo Gasto"
         },
         "image": {
             "remoteImages": "Imagens Remotas",
@@ -1280,6 +1290,20 @@
         },
         "subtitles": {
             "selectResult": "Selecionar resultado"
+        },
+        "organizer": {
+            "archiveMultiple": "Arquivar Múltiplos",
+            "deleteMultiple": "Deletar Múltiplos",
+            "printMultiple": "Imprimir Múltiplos",
+            "exportCollection": "Exportar Coleção",
+            "exportItemJson": "Exportar JSON do item",
+            "exportPackage": "Gerar um pacote de exportação com vários itens",
+            "markDeleted": "Marcar item como Deletado",
+            "markDeletedMultiple": "Marcar múltiplos itens como Deletados",
+            "restoreMultiple": "Restaura Múltiplos",
+            "unmarkDeleted": "Remover status Deletado do Item",
+            "unmarkDeletedMultiple": "Remover status Deletado dos Itens",
+            "archive": "Arquivo"
         }
     },
     "stats": {
@@ -1418,7 +1442,8 @@
         "folder": {
             "collectionFolder": "Pasta da coleção",
             "setFolder": "Definir Pasta",
-            "noFolder": "Nenhuma Pasta"
+            "noFolder": "Nenhuma Pasta",
+            "deleteFolderWarning": "Isso vai deletar a pasta {folder}. Todos os itens dela serão enviados para o grupo {noFolder}"
         },
         "organizer": {
             "itemCount": "{n} itens"
@@ -1509,7 +1534,6 @@
             "encounterInstance": "(Instância de Encontro #{n})",
             "uniqueInstanceHelp": "Esta é uma instância única deste PNJ vinculada a esses dados de Encontro. Editar este PNJ não afetará os dados originais do PNJ.",
             "linkedSource": "A origem desta instância de PNJ está presente na sua lista de PNJs ({name}) e pode receber atualizações do original",
-            "notLinkedSource": "Esta instância de PNJ não está vinculada a uma origem válida na sua lista de PNJs",
             "notLinkedSourceDot": "Esta instância de PNJ não está vinculada a uma origem válida na sua lista de PNJs.",
             "sourceLinked": "Origem Vinculada",
             "sourceUnavailable": "Origem Indisponível",
@@ -1748,7 +1772,8 @@
             "allowDuplicates": "Permitir Duplicatas",
             "npc": "PNJ",
             "authors": "Autor(es)",
-            "mustBeAnItchioUrl": "Deve ser um URL do itch.io para habilitar o gerenciamento automático no @:{'common.appName'}"
+            "mustBeAnItchioUrl": "Deve ser um URL do itch.io para habilitar o gerenciamento automático no @:{'common.appName'}",
+            "condition": "Condição"
         },
         "subtitles": {
             "setItemFolder": "Definir pasta do item",
@@ -2094,7 +2119,8 @@
             "roundN": "Rodada {n}",
             "started": "iniciado",
             "lastTurn": "último turno",
-            "na": "N/D"
+            "na": "N/D",
+            "noCampaignInformation": "Sem Informações de Campanha"
         },
         "campaignDialog": {
             "setCampaign": "Definir Campanha"
@@ -2118,7 +2144,9 @@
             "never": "Nunca",
             "manualSave": "Salvar Manualmente",
             "autosave": "Salvamento Automático",
-            "layoutOptions": "Opções de Layout"
+            "layoutOptions": "Opções de Layout",
+            "autosaveOnRoundEnd": "No Fnal da Rodada",
+            "autosaveOff": "Off ( Apenas Salvamento Manual)"
         },
         "leaveDialog": {
             "prompt": "Deseja salvar este encontro antes de sair?",
@@ -2323,10 +2351,12 @@
         },
         "trackable": {
             "corePower": "Poder de Núcleo",
-            "ready": "Pronto",
-            "clearMechCore": "Limpar deste mecha a",
-            "restoreMechCore": "Restaurar deste mecha a",
-            "corePowerQ": "Poder de Núcleo?"
+            "corePowerReady": "Poder de Núcleo Pronto",
+            "corePowerUnavailable": "Poder de Núcleo Indisponível",
+            "clearCorePowerQ": "Limpar o Poder de Núcleo desse mecha ?",
+            "restoreCorePowerQ": "Restaurar o Poder de Núcleo desse mecha ?",
+            "confirmClearCore": "Confirmar limpar Núcleo",
+            "confirmRestoreCore": "Confirmar Restaurar Núcleo"
         },
         "customStat": {
             "editStats": "Editar Atributos",
@@ -2357,7 +2387,8 @@
             "noDamage": "Sem Dano",
             "doubleDamage": "Dano duplo",
             "fullDamage": "Dano total",
-            "fromAttacks": "de ataques do tipo {type}."
+            "fromAttacks": "de ataques do tipo {type}.",
+            "normal": "Normal"
         },
         "timedEffect": {
             "roundsRemaining": "{n} Rodadas restantes",
@@ -2380,7 +2411,9 @@
         },
         "activeEffect": {
             "title": "Efeitos ativos",
-            "hiddenEffects": "Efeitos Ocultos"
+            "hiddenEffects": "Efeitos Ocultos",
+            "hidingUsedEffects": "Esconder efeitos usados/expirados",
+            "showingUsedEffects": "Exibir efeitos usados/expirados"
         },
         "actions": {
             "allActions": "Todas as Ações",
@@ -2397,7 +2430,19 @@
             "alreadyUsed": "Esta ação já foi usada neste turno.",
             "insufficient": "Insuficiente",
             "actionsRemaining": "ações restantes neste turno.",
-            "activationAction": "Ação {n}"
+            "activationAction": "Ação {n}",
+            "protocol": "Protocolo",
+            "full": "Completa",
+            "quick": "Rápida",
+            "move": "Mover",
+            "overcharge": "Sobrecarregar",
+            "reaction": "Reação",
+            "spent": "Gasto",
+            "usesRemaining": "{n}de {max} usos restantes nesse {period}",
+            "usesExhausted": "sem usos restantes nesse {period}",
+            "restoreUse": "Click para restaurar um uso",
+            "quickN": "Rápida {n}",
+            "orTwoQuick": "Uma Ação completa pode ser gasta como duas Ações Rápidas"
         },
         "deploy": {
             "deployNamed": "Implantar {name}",
@@ -2425,7 +2470,9 @@
             "rechargesFeatures": "Recarrega os seguintes sistemas",
             "rechargesOn": "(Recarrega em {n}+)",
             "clickToRoll": "Clique para rolar. Os sitemas do PNJ recarregarão em resultados iguais ou superiores ao seu valor de rolagem.",
-            "reroll": "rolar novamente"
+            "reroll": "rolar novamente",
+            "hidingPassiveFeatures": "Esconder traços passivos",
+            "showingPassiveFeatures": "Exibir traços passivos"
         },
         "skillCheck": {
             "checkStat": "Atributo do Teste",
@@ -2523,7 +2570,8 @@
         "pcPanel": {
             "pilotMounted": "Piloto Montado",
             "pilotUnmounted": "Piloto desmontado",
-            "noReserves": "Sem reservas disponíveis"
+            "noReserves": "Sem reservas disponíveis",
+            "unusedOnly": "Apenas Não utilizados"
         },
         "pilotActions": {
             "preparedTitle": "Piloto Preparado",
@@ -2559,7 +2607,7 @@
             "mark1RepairToRestore": "Marque 1 REPARO para restaurar todos os PV.",
             "reloadAllLoadedWeapons": "Recarregue todas as armas de Recarga.",
             "clearAnyBurnCurrentlyAffecting": "Limpe qualquer Queimadura que esteja afetando seu mecha atualmente.",
-            "clearAConditionThatWasnt": "Limpe uma condição que não foi causada por um de seus próprios sistemas, talentos, etc",
+            "clearAConditionThatWasnt": "Limpe uma condição que não foi causada por um de seus próprios sistemas, talentos, etc.",
             "clearAnAdjacentAlliedCharacters": "Limpe a condição de um personagem aliado adjacente que não foi causada por um de seus próprios sistemas, talentos, etc."
         },
         "titles": {
@@ -2674,6 +2722,49 @@
             "onFail": "Em uma falha: sofra {n} dano de Queimadura ( Queimadura persiste)",
             "resolveEndTurn": "Resolver e Terminar Turno",
             "ignore": "Ignorar"
+        },
+        "layout": {
+            "preset": "Predefinição",
+            "presets": {
+                "default": "Padrão",
+                "dense": "Denso",
+                "custom": "Personalizado",
+                "textFirst": "Texto Primeiro",
+                "phone": "Telefone"
+            },
+            "labels": "Rótulos",
+            "labelModes": {
+                "icon": "Somente ícone",
+                "text": "Somente texto",
+                "iconText": "Ícones com texto"
+            },
+            "density": "Densidade",
+            "densities": {
+                "compact": "Compacto",
+                "default": "Padrão",
+                "comfortable": "Confortável"
+            },
+            "statSets": {
+                "all": "Todos os Status",
+                "core": "Apenas estatísticas principais (estatísticas personalizadas sempre mostradas)"
+            },
+            "content": "Conteúdo",
+            "showPortraits": "Mostrar Retratos",
+            "resetToDefault": "Redefinir Padrões",
+            "title": "Layout do Modo Ativo",
+            "description": "Controla como os painéis dos combatentes, estatísticas e controles de ação são exibidos durante um encontro. Essas configurações são só suas e não afetam os outros jogadores na mesa.",
+            "tickbars": "Rastreadores de Status",
+            "tickbarModes": {
+                "auto": "Automático (simples em telas pequenas)",
+                "simple": "Sempre simples",
+                "standard": "Sempre padrão"
+            },
+            "statSet": "Display de Status",
+            "structure": "Painel de Estrutura",
+            "columnsLabel": "Dividir painéis em colunas",
+            "showPortraitsTooltip": "Ocultar imagens dos retratos dos combatentes para caber mais informações na tela.",
+            "showFlavor": "Mostar texto flavor",
+            "showFlavorTooltip": "Mostre texto descritivo e de história em cartas de equipamentos e recursos. Desative para ver apenas as regras."
         }
     },
     "mainMenu": {
@@ -2872,7 +2963,10 @@
             "unsubscribeInfo": "Cancelar a assinatura desta coleção irá removê-la da sua lista de coleções. Você não receberá mais atualizações deste autor. Os dados locais desta coleção não serão removidos.",
             "newVersionAvailable": "Há uma nova versão desta coleção disponível.",
             "deletedCollection": "Coleção Excluída",
-            "deletedCollectionInfo": "A coleção \"{name}\" foi excluída pelo autor. Embora seus dados locais não tenham sido removidos, você não receberá mais atualizações desta coleção."
+            "deletedCollectionInfo": "A coleção \"{name}\" foi excluída pelo autor. Embora seus dados locais não tenham sido removidos, você não receberá mais atualizações desta coleção.",
+            "authorContentShort": "Conteúdo do Autor",
+            "authorContentHeader": "ASSINATURAS DE CONTEÚDO DO AUTOR",
+            "lcpHeader": "LCP de assinaturas"
         },
         "storage": {
             "iosWarning": "Navegadores iOS limitam o armazenamento para sites e podem {emphasis} após 7 dias de inatividade. Para evitar a perda de dados, instale o @:{'common.appName'} na sua tela inicial",
@@ -2961,7 +3055,11 @@
             "deleteCollectionWarning": "A exclusão desta coleção a removerá de seus dados locais e em nuvem, e excluirá o arquivo da coleção do armazenamento em nuvem. Os usuários não poderão assinar este conteúdo e os assinantes atuais não poderão mais atualizar os dados da coleção. Ele {willNot} excluirá nenhum conteúdo da coleção, seja localmente ou na nuvem para você ou para os assinantes da coleção.",
             "willNotLabel": "não",
             "actionUndone": "Essa ação não pode ser desfeita.",
-            "confirmDelete": "Tem certeza de que deseja excluir esta coleção?"
+            "confirmDelete": "Tem certeza de que deseja excluir esta coleção?",
+            "headerShort": "COLEÇÃO DE CONTEÚDO",
+            "header": "PUBLICAÇÃO DE COLEÇÃO DE CONTEÚDO",
+            "nameRequired": "Nome (obrigatório)",
+            "authorRequired": "Autor (obrigatório)"
         },
         "dataItem": {
             "cancelBulkSelection": "Cancelar Seleção em Lote",
@@ -3179,7 +3277,18 @@
             "gmsARMORYEQUIPMENTAUTHORIZATIONPILOTPERSONAL2": "Autorização de equipamento do arsenal da GMS: piloto/armamento pessoal::S0 - S3(LTD)",
             "toAddSlashes": "Para adicionar //",
             "unionArmoryPrintid": "ID de impressão do arsenal da União",
-            "gmsArmoryPrintid": "ID de impressão do arsenal da GMS"
+            "gmsArmoryPrintid": "ID de impressão do arsenal da GMS",
+            "showUnlicensed": "Exibir Sem Licença",
+            "unlicensedShown": "Equipamento sem licença: EXIBINDO",
+            "unlicensedHidden": "Equipamento sem licença: ESCONDIDO",
+            "showExceedsSp": "Exibir SP excedente",
+            "exceedsSpShown": "Sistemas que excedem a capacidade de SP: EXIBINDO",
+            "exceedsSpHidden": "Sistemas que excedem a capacidade de SP: ESCODIDO",
+            "incompatibleModsShown": "Mods Incompatíveis: EXIBINDO",
+            "incompatibleModsHidden": "Mods Incompatíveis: ESCONDIDO",
+            "modifyModification": "Modificar {name}",
+            "installModification": "Instalar modificiação {name}",
+            "showIncompatibleMods": "Exibir Incompatíveis"
         },
         "import": {
             "importSuccessTitle": "Importação Bem-sucedida",
@@ -3376,7 +3485,10 @@
             "unionAdministrativeIdentRecord": "Registro do Protocolo de Identificação de Piloto (IDENT) RM-4 Administrativo da União",
             "biometricRecordValid": "Registro biométrico válido [[",
             "pbOhmC": "PB]] :: OHM c//",
-            "identRecordNotice": "O uso indevido deste registro IDENT e/ou de seus dados constituintes pelo detentor do registro ou por quaisquer outras pessoas é punível de acordo com o DoJ/HR A-645-c. Este registro é propriedade do Escritório Administrativo da União e as informações contidas nele devem ser transmitidas mediante solicitação sob os protocolos de criptografia NDL-C-DISCORDANT-BREATH. Este registro RM-4 deve ser atualizado a cada cinco (5) Anos Padrão do Berço de tempo objetivo para reter os direitos de licenciamento da GMS. Operativos de campo distante que preveem implantações durando mais de cinco Anos Padrão do Berço e que não receberam um Gancho Omninet portátil devem solicitar a Extensão Suplementar (b) RM-11-B IDENT. Contate seu Oficial Administrativo da União local para quaisquer outros assuntos referentes a este registro. V-CDL//M-265-114-831 (A)"
+            "identRecordNotice": "O uso indevido deste registro IDENT e/ou de seus dados constituintes pelo detentor do registro ou por quaisquer outras pessoas é punível de acordo com o DoJ/HR A-645-c. Este registro é propriedade do Escritório Administrativo da União e as informações contidas nele devem ser transmitidas mediante solicitação sob os protocolos de criptografia NDL-C-DISCORDANT-BREATH. Este registro RM-4 deve ser atualizado a cada cinco (5) Anos Padrão do Berço de tempo objetivo para reter os direitos de licenciamento da GMS. Operativos de campo distante que preveem implantações durando mais de cinco Anos Padrão do Berço e que não receberam um Gancho Omninet portátil devem solicitar a Extensão Suplementar (b) RM-11-B IDENT. Contate seu Oficial Administrativo da União local para quaisquer outros assuntos referentes a este registro. V-CDL//M-265-114-831 (A)",
+            "requiresCloudAccount": "Requer Conta da Nuvem",
+            "favoriteMech": "Mecha Favorito",
+            "unfavoriteMech": "Desfavoritar Mecha"
         },
         "print": {
             "pilotSheetOptions": "Opções da Ficha de Piloto",
@@ -3470,7 +3582,8 @@
             "doneReordering": "Reordenação Concluída",
             "addGroup": "Adicionar Grupo",
             "pilots": "Pilotos",
-            "addANewPilotToName": "Adicionar um novo piloto a {name}"
+            "addANewPilotToName": "Adicionar um novo piloto a {name}",
+            "editGroupInformation": "Editar Informações de Grupo"
         },
         "misc": {
             "skipSTEP": "Pular etapa"

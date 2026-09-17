@@ -16,5 +16,11 @@
     "mf_Empakaai_alt_blackbeard.trait_indomitable_force.name": "Неукротимая мощь",
     "mf_orator.rank_voice_of_reason.name": "Голос разума",
     "mf_orator.rank_voice_of_reason.action_investigate.name": "Проанализировать",
-    "mf_Empakaai_alt_blackbeard.core_system.name": "Снисхождение в Калунгу"
+    "mf_Empakaai_alt_blackbeard.core_system.name": "Снисхождение в Калунгу",
+    "ms_exo_emi_theater.name": "\"Театр душ\"",
+    "reserve_aganju_tower.action_aganju_tower.name": "Башня Аганджу",
+    "reserve_esus_eyes_occular_apparatus.active_effect_esu_s_eyes.name": "Очи Эшу",
+    "reserve_oba_liquidmetal_cloak.name": "Жидкометаллический плащ \"Оба\"",
+    "reserve_oguns_powerarm.name": "Силовая рука \"Огун\"",
+    "reserve_aganju_tower.name": "Башня Аганджу"
 }
