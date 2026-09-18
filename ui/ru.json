@@ -1559,7 +1559,9 @@
             "statusExpiredName": "Статус/Состояние истекло",
             "statusExpiredDetail": "Статус {name} истёк.",
             "specialExpiredName": "Особый статус истёк",
-            "specialExpiredDetail": "Особый статус {attribute} истёк."
+            "specialExpiredDetail": "Особый статус {attribute} истёк.",
+            "selfDestructName": "Самоуничтожение",
+            "reactorMeltdownName": "Расплав реактора"
         },
         "pilotActions": {
             "mountFailedTitle": "Не удалось оседлать меха",
@@ -1694,7 +1696,8 @@
             "filterRound": "Раунд",
             "allRounds": "Все раунды",
             "noMatches": "Записи, соответствующие выбранным параметрам сортировки, не найдены.",
-            "showing": "Отображаются {shown} из {total} записей"
+            "showing": "Отображаются {shown} из {total} записей",
+            "round": "Раунд {n}"
         },
         "combatAction": {
             "alreadyUsed": "Указанное действие уже было использовано в этом ходу.",
@@ -3224,7 +3227,9 @@
             "destroyed": "Уничтожено",
             "title": "Бортовые журналы пилотов",
             "allCampaigns": "Все кампании",
-            "colRounds": "Раунды"
+            "colRounds": "Раунды",
+            "colEncounter": "Столкновение",
+            "colDate": "Дата"
         }
     },
     "ui": {
