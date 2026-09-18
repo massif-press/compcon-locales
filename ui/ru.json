@@ -1243,7 +1243,10 @@
             "telemetry": "Сбор данных",
             "lifetime": "за всю карьеру",
             "encounterInstance": "Экземпляр столкновения",
-            "exportText": "Экспортировать в текстовом виде"
+            "exportText": "Экспортировать в текстовом виде",
+            "kills": "Убийств",
+            "none": "Не записано",
+            "equipmentDestroyed": "Снаряжение уничтожено"
         },
         "statblockExport": {
             "include": "// Включить",
