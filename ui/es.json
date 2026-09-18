@@ -1536,8 +1536,6 @@
             "undoEditStat": "Editar {name} {stat}"
         },
         "telemetry": {
-            "devNote": "Esta característica sigue en desarrollo. Se publicarán datos adicionales de telemetría.{emphasis}",
-            "collectedNote": "Los datos de telemetría se recopilan al final de cada ronda",
             "encounterInstance": "instanciaEncuentro",
             "lifetime": "por vida",
             "exportText": "Exportar como Texto",
