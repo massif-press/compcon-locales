@@ -17,5 +17,6 @@
     "t_sysop.rank_aggressive_countermeasures.name": "Агрессивные контрмеры",
     "t_sysop.rank_aggressive_countermeasures.active_effect_aggressive_countermeasures.name": "Агрессивные контрмеры",
     "env_improvisedexplosives.name": "Самодельная взрывчатка",
-    "env_fueltanks.name": "Топливные резервуары"
+    "env_fueltanks.name": "Топливные резервуары",
+    "mf_chomolungma.core_system.passive_name": "Комплект продвинутых программ-взломщиков"
 }
