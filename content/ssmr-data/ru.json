@@ -22,5 +22,6 @@
     "reserve_esus_eyes_occular_apparatus.active_effect_esu_s_eyes.name": "Очи Эшу",
     "reserve_oba_liquidmetal_cloak.name": "Жидкометаллический плащ \"Оба\"",
     "reserve_oguns_powerarm.name": "Силовая рука \"Огун\"",
-    "reserve_aganju_tower.name": "Башня Аганджу"
+    "reserve_aganju_tower.name": "Башня Аганджу",
+    "ms_exo_kinesthetic_suit_upgrade.action_spatial_awareness.name": "Пространственное восприятие"
 }
