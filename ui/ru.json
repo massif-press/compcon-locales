@@ -3229,7 +3229,8 @@
             "allCampaigns": "Все кампании",
             "colRounds": "Раунды",
             "colEncounter": "Столкновение",
-            "colDate": "Дата"
+            "colDate": "Дата",
+            "suggested": "Возможные совпадения"
         }
     },
     "ui": {
