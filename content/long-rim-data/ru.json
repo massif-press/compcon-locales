@@ -101,5 +101,8 @@
     "ms_ricochet_blades.name": "Рикошетящие чакры",
     "ms_ricochet_blades.action_throw_ricochet_blade.name": "Метнуть рикошетящую чакру",
     "ms_seismic_pulse.action_seismic_pulse.name": "Сейсмическая вибрация",
-    "t_spaceborn.rank_home_in_the_void.name": "Космос, дом родной"
+    "t_spaceborn.rank_home_in_the_void.name": "Космос, дом родной",
+    "t_black_thumb.name": "Механик",
+    "ms_spike_charges.action_spike_grenade.name": "Шипованная граната",
+    "ms_spike_charges.deployable_spike_mine.name": "Шипованная мина"
 }
