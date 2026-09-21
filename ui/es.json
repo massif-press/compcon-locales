@@ -1536,8 +1536,8 @@
             "undoEditStat": "Editar {name} {stat}"
         },
         "telemetry": {
-            "encounterInstance": "instanciaEncuentro",
-            "lifetime": "por vida",
+            "encounterInstance": "Este Encuentro",
+            "lifetime": "Vida y obra",
             "exportText": "Exportar como Texto",
             "telemetry": "Telemetría"
         },
