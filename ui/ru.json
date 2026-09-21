@@ -3310,7 +3310,8 @@
             "colTaken": "Получено",
             "chooseFile": "Выберите файл",
             "survived": "Выжил(а)",
-            "encounterHistory": "История столкновений"
+            "encounterHistory": "История столкновений",
+            "deleteSelected": "Удалить выбранное ({count})"
         }
     },
     "ui": {
@@ -3681,7 +3682,8 @@
             "self": "На себя",
             "sideAlly": "Союзники",
             "sideEnemy": "Враги",
-            "consumeLockOn": "Используйте ЗАХВАТ ЦЕЛИ, чтобы получить +1 Точность"
+            "consumeLockOn": "Используйте ЗАХВАТ ЦЕЛИ, чтобы получить +1 Точность",
+            "sideNeutral": "Нейтральный"
         },
         "table": {
             "previous": "предыдущие"
