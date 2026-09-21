@@ -2036,7 +2036,8 @@
             "durationRestOfScene": "до конца сцены",
             "noteAfterDieTurns": "после 1к6 ваших ходов",
             "noteEndOfNextTurn": "в конце вашего следующего хода",
-            "destroyed": "Уничтожено"
+            "destroyed": "Уничтожено",
+            "reactorMeltdown": "Расплав реактора"
         },
         "layout": {
             "presets": {
@@ -2088,7 +2089,11 @@
                 "neutral": "НЕЙТРАЛЬНЫЕ"
             },
             "pilotStatus": "{who} теперь {status}",
-            "armorReduced": "-{n} пунктов Брони"
+            "armorReduced": "-{n} пунктов Брони",
+            "condition": {
+                "exposed": "Уязвим",
+                "shredded": "Изрешечён"
+            }
         },
         "charts": {
             "saves": "Испытания",
