@@ -2095,7 +2095,8 @@
                 "shredded": "Изрешечён"
             },
             "blockedReason": {
-                "immobilized": "Обездвижен"
+                "immobilized": "Обездвижен",
+                "engaged": "Клинч"
             }
         },
         "charts": {
