@@ -1782,7 +1782,7 @@
             "permanentlyDeleted": "eliminata definitivamente",
             "deletePermanently": "Elimina campagna definitivamente",
             "importJsonTitle": "Importa Dati JSON Campagna",
-            "importHelp": "Questo strumento importerà dal tuo dispositivo un {jsonFile} di Campagna modificabile e non pubblicata.{br}Per importare nella tua raccolta un file di campagna pubblicata con estensione {lcd}, usa lo strumento di importazione file nel menu {campaignCollection}, oppure lo strumento Importa Campagna nella finestra {manageContent} sotto il menu principale.",
+            "importHelp": "Questo strumento importerà dal tuo dispositivo un {jsonFile} di Campagna modificabile e non pubblica.{br}Per importare nella tua raccolta un file di campagna pubblica con estensione {lcd}, usa lo strumento di importazione file nel menu {campaignCollection}, oppure lo strumento Importa Campagna nella finestra {manageContent} sotto il menu principale.",
             "jsonFile": "file JSON",
             "campaignCollection": "Raccolta Campagne",
             "currentlyViewing": "Stai visualizzando",
