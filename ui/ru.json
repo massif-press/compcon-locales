@@ -2102,7 +2102,8 @@
         "charts": {
             "saves": "Испытания",
             "round": "Раунд",
-            "selectEncounter": "Столкновение"
+            "selectEncounter": "Столкновение",
+            "showTable": "Показать таблицу"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
@@ -2111,7 +2112,8 @@
             "folder": "Папка",
             "campaign": "Кампания",
             "allFolders": "Все папки",
-            "byTemplate": "Шаблоны персонажей ведущего"
+            "byTemplate": "Шаблоны персонажей ведущего",
+            "deleteSelected": "Удалить выбранное ({count})"
         },
         "weaponSelect": {
             "unavailableCount": "недоступно"
