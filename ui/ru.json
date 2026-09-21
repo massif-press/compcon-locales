@@ -2104,7 +2104,9 @@
             "round": "Раунд",
             "selectEncounter": "Столкновение",
             "showTable": "Показать таблицу",
-            "dealt": "Нормальный"
+            "dealt": "Нормальный",
+            "passed": "Пройдено",
+            "failed": "Не удалось"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
