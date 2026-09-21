@@ -2101,11 +2101,17 @@
         },
         "charts": {
             "saves": "Испытания",
-            "round": "Раунд"
+            "round": "Раунд",
+            "selectEncounter": "Столкновение"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
-            "byClass": "Класс персонажа ведущего"
+            "byClass": "Класс персонажа ведущего",
+            "groupBy": "Группировать по",
+            "folder": "Папка",
+            "campaign": "Кампания",
+            "allFolders": "Все папки",
+            "byTemplate": "Шаблоны персонажей ведущего"
         },
         "weaponSelect": {
             "unavailableCount": "недоступно"
