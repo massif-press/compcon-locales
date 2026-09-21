@@ -2093,6 +2093,9 @@
             "condition": {
                 "exposed": "Уязвим",
                 "shredded": "Изрешечён"
+            },
+            "blockedReason": {
+                "immobilized": "Обездвижен"
             }
         },
         "charts": {
