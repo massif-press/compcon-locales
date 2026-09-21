@@ -2103,7 +2103,8 @@
             "saves": "Испытания",
             "round": "Раунд",
             "selectEncounter": "Столкновение",
-            "showTable": "Показать таблицу"
+            "showTable": "Показать таблицу",
+            "dealt": "Нормальный"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
