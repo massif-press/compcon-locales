@@ -2108,7 +2108,14 @@
             "passed": "Пройдено",
             "failed": "Не удалось",
             "dangerZone": "Опасная зона",
-            "otherHeat": "Всё остальное"
+            "otherHeat": "Всё остальное",
+            "colType": "Тип урона",
+            "colDamage": "Урон",
+            "colEncounter": "Столкновение",
+            "colGroup": "Группа",
+            "sideAlly": "Союзники",
+            "sideEnemy": "Противники",
+            "sideNeutral": "Нейтральный"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
