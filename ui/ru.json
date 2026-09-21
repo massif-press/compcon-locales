@@ -2106,6 +2106,13 @@
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
             "byClass": "Класс персонажа ведущего"
+        },
+        "weaponSelect": {
+            "unavailableCount": "недоступно"
+        },
+        "expiration": {
+            "start": "начало",
+            "end": "конец"
         }
     },
     "mainMenu": {
