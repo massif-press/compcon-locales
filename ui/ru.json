@@ -2106,7 +2106,9 @@
             "showTable": "Показать таблицу",
             "dealt": "Нормальный",
             "passed": "Пройдено",
-            "failed": "Не удалось"
+            "failed": "Не удалось",
+            "dangerZone": "Опасная зона",
+            "otherHeat": "Всё остальное"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
