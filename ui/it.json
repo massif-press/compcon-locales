@@ -176,7 +176,14 @@
         "hase_s": "SIS",
         "hase_e": "ING",
         "alert": "Avviso",
-        "ok": "OK"
+        "ok": "OK",
+        "unknown": "Sconosciuto",
+        "deselectAll": "Deseleziona tutto",
+        "shiftEnterNewline": "Shift + Invio per andare a capo",
+        "a11y": {
+            "mainNavigation": "Navigazione principale",
+            "toggleNavigation": "Attiva/disattiva pannello navigazione"
+        }
     },
     "language": {
         "experimentalNote": "Le traduzioni non in inglese sono fornite dalla community e in continua evoluzione. Alcuni testi potrebbero non essere tradotti o risultare imperfetti.",
@@ -228,7 +235,11 @@
         "newSkillTrigger": "Nuovo Impulso",
         "newTable": "Nuova Tabella",
         "unknownLicense": "Licenza Sconosciuta",
-        "unknownStatus": "Status Sconosciuto"
+        "unknownStatus": "Status Sconosciuto",
+        "titles": {
+            "contributors": "Collaboratori",
+            "titlePage": "Pagina del titolo"
+        }
     },
     "share": {
         "addAsLocalCopy": "aggiungi come copia locale",
@@ -599,9 +610,10 @@
             "graphicDesignBy": "Progettazione grafica di",
             "additionalArtBy": "Illustrazioni aggiuntive di",
             "patronThanks": "Il continuo sviluppo di @:{'common.appName'} non sarebbe possibile senza il generoso",
-            "supportOf": "sostegno di",
-            "tier": "@:{'common.tier'}",
-            "anonymousPatron": "Sostenitore Anonimo"
+            "supportOf": "di",
+            "tier": "Rango {patreonTierName}",
+            "anonymousPatron": "Sostenitore Anonimo",
+            "support": "sostegno"
         },
         "achievements": {
             "unlocked": "Sbloccati",
@@ -643,7 +655,14 @@
             "trace": "Traccia",
             "caller": "Chiamante",
             "copiedToClipboard": "Voce di log copiata negli appunti",
-            "noData": "@:{'common.noData'}"
+            "noData": "@:{'common.noData'}",
+            "exportThisSession": "Esporta il log di questa sessione",
+            "exportAllSessions": "Esporta i log di tutte le sessioni",
+            "clearLog": "Cancella log",
+            "clearAllLogs": "Cancella tutti i log",
+            "clearAllLogsConfirm": "Questa operazione eliminerà permanentemente tutti i log da ogni sessione, incluse le sessioni salvate da visite al sito precedenti.",
+            "error": "Errore",
+            "session": "Sessione"
         },
         "deletedItems": {
             "noItemsFound": "Nessun elemento trovato",
@@ -680,7 +699,8 @@
         },
         "optionsPage": {
             "tabStorage": "Archiviazione",
-            "tabLog": "Log"
+            "tabLog": "Registro",
+            "tabActiveMode": "Modalità attiva"
         },
         "alt": {
             "netlifyStatus": "Stato Netlify",
@@ -794,7 +814,8 @@
             "noChange": "Nessuna modifica (da {from} a {to})",
             "installingPacks": "Installazione di {count} pacchetto di contenuti… | Installazione di {count} pacchetti di contenuti…",
             "willUpgradeTo": "Verrà aggiornato alla v.{version}",
-            "willDowngradeTo": "Verrà retrocesso alla versione {version}"
+            "willDowngradeTo": "Verrà retrocesso alla versione {version}",
+            "patchStringCount": "{count} stringhe"
         },
         "packsDirectory": {
             "officialContent": "Ufficiali",
@@ -837,7 +858,13 @@
             "dependencyInstalled": "Dipendenza installata",
             "version": "@:{'common.version'}",
             "contentHeading": "Contenuto",
-            "changelog": "@:{'common.changelog'}"
+            "changelog": "@:{'common.changelog'}",
+            "languagePatches": "Patch di traduzione",
+            "languagePatchesTooltip": "Traduzioni create dalla community installate per questo pacchetto di contenuti. Vengono applicate quando la lingua è selezionata.",
+            "patchByAuthor": "traduzione di {translator}",
+            "patchUnknownAuthor": "Traduttore sconosciuto",
+            "patchOutdated": "Questa traduzione è stata scritta per la versione {version} del pacchetto e potrebbe essere obsoleta.",
+            "removePatch": "Rimuovi la patch"
         },
         "communityTable": {
             "noData": "Nessun pacchetto di contenuti disponibile.",
@@ -886,7 +913,8 @@
             "catNpcStats": "Statistiche PNG",
             "foundFixable": "Trovato {count} problema risolvibile | Trovati {count} problemi risolvibili",
             "andRequiringManual": " e {count} problema che richiede intervento manuale | e {count} problemi che richiedono intervento manuale",
-            "applyFixesButton": "Applica {count} Correzione | Applica {count} Correzioni"
+            "applyFixesButton": "Applica {count} Correzione | Applica {count} Correzioni",
+            "catLcpFlavorState": "Testo personalizzato LCP"
         },
         "packsList": {
             "toggleSuccessText": "Pacchetto {action} con successo.",
@@ -906,6 +934,30 @@
             "importFailedText": "Importazione non riuscita: {error}",
             "forceImportComplete": "Forzatura importazione completata.",
             "forceImportFailedText": "Forzatura importazione non riuscita: {error}"
+        },
+        "titles": {
+            "latestVersion": "Ultima versione",
+            "installedVersion": "Versione installata",
+            "backedUp": "In back up",
+            "x1Week": "1 settimana",
+            "x2Weeks": "2 settimane",
+            "x1Month": "1 mese",
+            "x3Months": "3 mesi",
+            "x6Months": "6 mesi",
+            "x1Year": "1 anno",
+            "active": "Attivo",
+            "author": "Autore",
+            "version": "Versione",
+            "lcp": "LCP",
+            "type": "Tipo",
+            "missing": "Mancante",
+            "never": "Mai"
+        },
+        "fields": {
+            "interV3Default": "Inter (default v3)",
+            "notoSansV3Alt": "Noto Sans (alternativo v3)",
+            "helveticaV2Default": "Helvetica (default v2)",
+            "opendyslexicExperimental": "OpenDyslexic (sperimentale)"
         }
     },
     "mainMenu": {
@@ -1775,7 +1827,8 @@
         "folder": {
             "collectionFolder": "Cartella raccolta",
             "setFolder": "Imposta Cartella",
-            "noFolder": "Nessuna Cartella"
+            "noFolder": "Nessuna Cartella",
+            "deleteFolderWarning": "Questa azione eliminerà la cartella '{folder}'. Tutti gli elementi saranno spostati nella sezione '{noFolder}'"
         },
         "organizer": {
             "itemCount": "{n} elementi"
@@ -1923,7 +1976,7 @@
             "readyForImport": "Lo scontro è pronto per l'importazione",
             "missingNpcs": "Questo scontro fa riferimento a PNG non ancora importati. Verrà salvato nella raccolta Importazioni v2 nella Gestione Contenuti e potrà essere importato una volta disponibili i PNG richiesti.",
             "someMissingNpcs": "Alcuni scontri fanno riferimento a PNG non ancora importati. Questi scontri verranno salvati nella raccolta Importazioni v2 nella Gestione Contenuti e potranno essere importati una volta disponibili i PNG richiesti.",
-            "importCount": ""
+            "importCount": "Importa ({n} scontro) | Importa ({n} scontri)"
         },
         "gmNotes": "Note GM",
         "npcFeature": {
@@ -1940,7 +1993,8 @@
             "noSelectionsRemaining": "Nessuna selezione di Caratteristica PNG rimanente",
             "ignoreLimitHint": "Le caratteristiche aggiuntive oltre le linee guida consigliate possono essere aggiunte attivando l'opzione \"Ignora Limite\" qui sopra",
             "noAssigned": "Nessuna Caratteristica PNG assegnata",
-            "noneFound": "Nessuna Caratteristica PNG trovata per questa selezione"
+            "noneFound": "Nessuna Caratteristica PNG trovata per questa selezione",
+            "selectedTemplate": "Template selezionato | Template selezionati"
         },
         "npcAlert": {
             "selectUpTo": "Puoi selezionare fino a {n} caratteristica aggiuntiva | Puoi selezionare fino a {n} caratteristiche aggiuntive",
@@ -2052,7 +2106,23 @@
             "sitrepModified": "sitrep modificato",
             "organizeEncounters": "organizza scontri",
             "selectTemplate": "seleziona template",
-            "selectNpcClass": "seleziona classe PNG"
+            "selectNpcClass": "seleziona classe PNG",
+            "contentPack": "Pacchetto di Contenuti",
+            "gmLabels": "Etichette del GM",
+            "role": "Ruolo",
+            "folder": "Cartella",
+            "gmToolkit": "Strumenti del GM",
+            "campaignEditor": "Editor Campagna",
+            "npcRoster": "Lista PNG",
+            "encounterEditor": "Editor Scontro",
+            "narrativeItemManager": "Gestione Oggetti Narrativi",
+            "alias": "Alias",
+            "title": "Titolo",
+            "pronouns": "Pronomi",
+            "class": "Classe",
+            "layers": "Livelli",
+            "tag": "Tag",
+            "templates": "Template"
         },
         "fields": {
             "selectDataFile": "Seleziona File Dati",
@@ -2086,7 +2156,8 @@
             "allowDuplicates": "Consenti Duplicati",
             "npc": "PNG",
             "authors": "Autore/i",
-            "mustBeAnItchioUrl": "Deve essere un URL itch.io per abilitare la gestione automatica in @:{'common.appName'}"
+            "mustBeAnItchioUrl": "Deve essere un URL itch.io per abilitare la gestione automatica in @:{'common.appName'}",
+            "condition": "Condizione"
         },
         "subtitles": {
             "setItemFolder": "Imposta cartella elemento",
@@ -2096,7 +2167,11 @@
             "addANewEmptyBeat": "Aggiungi un nuovo Beat vuoto sotto questa sezione. Un Beat è una sezione per un evento o un momento importante della storia.",
             "addANewEmptyMission": "Aggiungi una nuova Missione vuota sotto questa pagina. Una Missione contiene obiettivi e traguardi specifici completabili in un periodo di tempo definito, e tipicamente contiene Combattimenti.",
             "addANewEmptyCombat": "Aggiungi un nuovo Combattimento vuoto sotto questa pagina. Un Combattimento contiene Scontri, oltre a linee guida per il GM, dettagli narrativi sulla battaglia e possibili esiti.",
-            "addANewEmptyDowntime": "Aggiungi un nuovo Interludio vuoto sotto questa pagina. L'Interludio è lo spazio narrativo tra le missioni, dove l'azione momento per momento conta meno e l'interpretazione conta molto di più."
+            "addANewEmptyDowntime": "Aggiungi un nuovo Interludio vuoto sotto questa pagina. L'Interludio è lo spazio narrativo tra le missioni, dove l'azione momento per momento conta meno e l'interpretazione conta molto di più.",
+            "createModifyAndBrowseLancerCampaigns": "Crea, modifica e cerca campagne di LANCER (v3.1)",
+            "manageNonPlayerCombatUnits": "Gestisci unità in combattimento non giocanti",
+            "manageCharactersLocationsAndFactions": "Gestisci personaggi, luoghi e fazioni",
+            "createCombatEncounters": "Crea scontri"
         },
         "actions": {
             "noncharacterObjectsSuchAsTerrain": "Oggetti non-personaggio (come elementi del terreno) tracciabili negli scontri di combattimento."
@@ -2104,7 +2179,14 @@
         "tooltips": {
             "changeTierAndAdjustEdited": "Cambia rango e modifica le statistiche già modificate della stessa quantità di cui cambiano le statistiche predefinite.",
             "changeTierAndKeepEdited": "Cambia rango e conserva i valori delle statistiche modificate, anche se scendono sotto i valori predefiniti del nuovo rango.",
-            "changeTierAndDiscardAll": "Cambia rango e scarta tutti i valori delle statistiche modificate."
+            "changeTierAndDiscardAll": "Cambia rango e scarta tutti i valori delle statistiche modificate.",
+            "thisWillDeleteThisNpcFrom": "Questa azione eliminerà questo PNG dalla tua lista PNG. PNG di questo tipo aggiunti agli Scontri non saranno influenzati. Confermi?",
+            "convertingThisItemToLocalData": "La conversione di questo elemento in dati locali permetterà la modifica in locale ma rimuoverà il suo collegamento remoto\n      all'account cloud dell'autore, e impedirà la ricezione di aggiornamenti futuri. Per riattivare la sincronizzazione\n       da remoto, dovrai importare di nuovo questo elemento tramite il suo codice di condivisione.",
+            "confirmDuplicationOfThisNpc": "Conferma la duplicazione di questo PNG",
+            "thisWillDeleteThisEncounterFrom": "Questa azione eliminerà questo Scontro dalla tua libreria. Confermi?"
+        },
+        "a11y": {
+            "dragToReorder": "Trascina per riordinare"
         }
     },
     "active": {
@@ -2141,7 +2223,9 @@
             "mechBracedTitle": "Mech in Incasso",
             "mechBracedText": "{name} ora sta INCASSANDO.",
             "overwatchTitle": "Mech in Sorveglianza",
-            "overwatchText": "{name} ora è in SORVEGLIANZA."
+            "overwatchText": "{name} ora è in SORVEGLIANZA.",
+            "shutDownTitle": "Spegnimento del Mech",
+            "shutDownText": "{name} è stato spento. Tutto il calore e lo status VULNERABILE sono rimossi; il mech è STORDITO e immune a tutte le azioni e attacchi tech finché non viene riavviato."
         },
         "npcActions": {
             "npcPreparedTitle": "PNG Approntato",
@@ -2218,7 +2302,9 @@
             "devNoteReport": "Questa funzione è ancora in sviluppo. I rapporti post-azione verranno ampliati nelle prossime build.",
             "devNoteLogs": "Questa funzione è ancora in sviluppo. Ulteriori dati e opzioni di esportazione saranno disponibili nelle prossime build.",
             "deleteArchiveDetail": "Questo contrassegnerà l'archivio per l'eliminazione. Non comparirà più in questa lista, ma verrà eliminato definitivamente in base alle tue opzioni di conservazione nel Menu Opzioni.",
-            "noArchivedFoundFiltered": "Nessuno scontro archiviato trovato che includa \"{search}\""
+            "noArchivedFoundFiltered": "Nessuno scontro archiviato trovato che includa \"{search}\"",
+            "exportActorLog": "Esporta Log",
+            "exportActorLogTooltip": "Esporta il log di questo combattente come file che puoi condividere con il suo giocatore. Comprende solo i suoi eventi e i riferimenti che ha menzionato."
         },
         "encSummary": {
             "turnN": "(Turno {n})",
@@ -2251,12 +2337,20 @@
             "kia": "KIA",
             "savePilotHistory": "Salva Cronologia Pilota",
             "featureInDev": "Funzione in sviluppo (v3.1)",
-            "encounterHash": "scontro #"
+            "encounterHash": "scontro #",
+            "saveToLogbook": "Salva nel Registro Pilota",
+            "saveToLogbookTooltip": "Trascrive l'incontro di questa scheda nel registro pilota. Salvare nuovamente sovrascrive la trascrizione già presente per questo incontro.",
+            "historySaved": "Documentazione incontro trascritta nel registro di {name}.",
+            "historySaveFailed": "Impossibile trascrivere l'incontro nel registro del pilota.",
+            "noEvents": "In questa scheda non sono stati registrati scontri.",
+            "viewSheet": "Visualizza Scheda",
+            "viewSheetTooltip": "Visualizza le statistiche, gli status e l'equipaggiamento di questo pilota nel momento in cui questa scheda è stata archiviata.",
+            "viewSheetUnavailable": "Questa scheda non ha informazioni su nessun mech attivo."
         },
         "newSheet": {
             "llLevel": "LL{n}",
             "campaignName": "Nome Campagna",
-            "createAndLaunch": "Crea e Avvia Modalità Attiva"
+            "createAndLaunch": "Crea e avvia la Modalità Attiva"
         },
         "sheetItem": {
             "archiveSheet": "Archivia Scheda",
@@ -2266,7 +2360,8 @@
             "roundN": "Round {n}",
             "started": "iniziato",
             "lastTurn": "ultimo turno",
-            "na": "N/D"
+            "na": "N/D",
+            "noCampaignInformation": "Nessuna informazione sulla Campagna"
         },
         "campaignDialog": {
             "setCampaign": "Imposta Campagna"
@@ -2290,7 +2385,9 @@
             "never": "Mai",
             "manualSave": "Salvataggio Manuale",
             "autosave": "Salvataggio Automatico",
-            "layoutOptions": "Opzioni Layout"
+            "layoutOptions": "Opzioni Layout",
+            "autosaveOnRoundEnd": "A Fine Round",
+            "autosaveOff": "Spento (Solo Salvataggio Manuale)"
         },
         "leaveDialog": {
             "prompt": "Vuoi salvare questo scontro prima di uscire?",
@@ -2311,7 +2408,13 @@
             "atThe": "al",
             "endsOnTurn": "{when} del tuo turno",
             "braceExit": "Esci da {braced} ed entri nello stato di {cooldown}.",
-            "braceCooldown": "Raffreddamento Incasso"
+            "braceCooldown": "Raffreddamento Incasso",
+            "burnTitle": "Fuoco",
+            "resolveBurn": "Risolvi Fuoco",
+            "burnResolved": "Fuoco risolto",
+            "burnRequired": "Risolvi o ignora il danno da Fuoco per concludere il round.",
+            "movementRemainingTitle": "Hai ancora del movimento disponibile",
+            "movementRemaining": "{n} spazi di movimento saranno persi."
         },
         "joinTable": {
             "sortOnline": "Ordina per Stato Online",
@@ -2364,7 +2467,9 @@
             "removeFromEncounter": "Rimuovi {name} dallo Scontro",
             "noStatController": "Nessun Controller di Statistiche Trovato",
             "editReinforcements": "Modifica Rinforzi",
-            "noReinforcementSchedule": "Nessuna Pianificazione Rinforzi"
+            "noReinforcementSchedule": "Nessuna Pianificazione Rinforzi",
+            "undoEditOverrides": "Modifica forzature di {name}",
+            "undoRemoveCombatant": "Rimuovi {name} dallo scontro"
         },
         "encInfo": {
             "reinforcements": "Rinforzi",
@@ -2385,7 +2490,13 @@
         },
         "gmRunner": {
             "loading": "Caricamento istanza scontro…",
-            "roundN": "Round {n}"
+            "roundN": "Round {n}",
+            "undo": "Annulla",
+            "redo": "Ripeti",
+            "undoTooltip": "Annulla: {label}",
+            "redoTooltip": "Ripeti: {label}",
+            "undoRoundChange": "Cambio round",
+            "undoAction": "Azione in combattimento"
         },
         "diceRoller": {
             "title": "Lancia Dadi",
@@ -2415,7 +2526,8 @@
         },
         "initiative": {
             "reinforcementsN": "rinforzi ({n})",
-            "destroyedN": "Distrutti ({n})"
+            "destroyedN": "Distrutti ({n})",
+            "statusGroupN": "({n}) {status}"
         },
         "runnerItem": {
             "deploysOnRound": "Si dispiega al Round {n}",
@@ -2450,7 +2562,9 @@
             "endsOnTargetTurn": "{when} del turno di {target}",
             "braceExit": "esce da {braced} ed entra nello stato di {cooldown}.",
             "reinforcementsReady": "rinforzi pronti il prossimo round",
-            "willBeReady": "sarà pronto a dispiegarsi."
+            "willBeReady": "sarà pronto a dispiegarsi.",
+            "turnsNotEnded": "turni non conclusi",
+            "endTurnBtn": "Termina il turno"
         },
         "panelBase": {
             "itemDestroyed": "{type} distrutto",
@@ -2465,7 +2579,8 @@
             "hardCover": "Copertura Pesante",
             "resistances": "Resistenze",
             "statusesConditions": "Status/Condizioni",
-            "counters": "Contatori"
+            "counters": "Contatori",
+            "endActivation": "Termina attivazione"
         },
         "damageMenu": {
             "takeDamage": "Subisci Danno",
@@ -2478,25 +2593,105 @@
             "applyClose": "Applica e Chiudi"
         },
         "trackable": {
-            "corePower": "Riserva Primaria"
+            "corePower": "Riserva Primaria",
+            "corePowerReady": "Riserva Primaria Disponibile",
+            "corePowerUnavailable": "Riserva Primaria Non Disponibile",
+            "clearCorePowerQ": "Esaurire la riserva primaria di questo mech?",
+            "restoreCorePowerQ": "Ripristinare la riserva primaria di questo mech?",
+            "confirmClearCore": "Conferma esaurimento riserva",
+            "confirmRestoreCore": "Conferma ripristino riserva"
         },
         "customStat": {
             "editStats": "Modifica Statistiche",
             "trackable": "Tracciabile",
             "static": "Statica",
-            "removeStat": "Rimuovi Statistica"
+            "removeStat": "Rimuovi Statistica",
+            "undoEditStat": "Modifica {stat} di {name}"
         },
         "telemetry": {
             "telemetry": "Telemetria",
-            "encounterInstance": "encounterInstance",
-            "lifetime": "complessivo",
-            "exportText": "Esporta come Testo"
+            "encounterInstance": "Questo scontro",
+            "lifetime": "Complessivo",
+            "exportText": "Esporta come Testo",
+            "rounds": "Round",
+            "turns": "Turni",
+            "unmounted": "Appiedato",
+            "roundsUnmounted": "Round Appiedato",
+            "actionsUnmounted": "Azioni da appiedato",
+            "damageDealtUnmounted": "Danno inflitto da appiedato",
+            "damageTakenUnmounted": "Danno subito da appiedato",
+            "movementUnmounted": "Spazi attraversati da appiedato",
+            "movementSpent": "Movimento effettuato",
+            "offense": "Attacco",
+            "defense": "Difesa",
+            "checks": "Prove e tiri salvezza",
+            "statuses": "Status ottenuti",
+            "actions": "Azioni effettuate",
+            "attacks": "Attacchi effettuati",
+            "crits": "Colpi critici",
+            "misses": "Attacchi mancati",
+            "kills": "Uccisioni",
+            "damageDealt": "Danni inflitti",
+            "damageTaken": "Danni subiti",
+            "reducedByArmor": "Ridotti dall'armatura",
+            "structureChecks": "Prove di Struttura",
+            "stressChecks": "Prove di Surriscaldamento",
+            "mechsLost": "Mech persi",
+            "savesPassed": "Tiri salvezza superati",
+            "savesFailed": "Tiri salvezza falliti",
+            "checksPassed": "Prove superate",
+            "checksFailed": "Prove fallite",
+            "heatGained": "Calore subito",
+            "overcharges": "Sovralimentazioni (Calore)",
+            "deployablesLaunched": "Dispiegabili utilizzati",
+            "deployablesDestroyed": "Dispiegabili distrutti",
+            "none": "Nessun dato",
+            "noLifetimeData": "Non ci sono ancora resoconti complessivi per questo pilota. Il registro viene aggiornato quando uno scontro è archiviato.",
+            "encountersLogged": "Scontri registrati",
+            "heatCleared": "Calore rimosso",
+            "equipmentDestroyed": "Equipaggiamento distrutto",
+            "coreEnergySpent": "Riserve primarie consumate",
+            "rollup": {
+                "rounds": "Round",
+                "turns": "Turni",
+                "movementSpent": "Movimento effettuato",
+                "attacks": "Attacchi",
+                "crits": "Colpi critici",
+                "saves": "Tiri salvezza",
+                "savesValue": "{passed} superati, {failed} falliti",
+                "kills": "Uccisioni",
+                "killsValue": "{confirmed} (+{reported} riportate)",
+                "damageDealt": "Danni inflitti",
+                "damageTaken": "Danni subiti",
+                "reducedByArmor": "Ridotti dall'armatura",
+                "heatGained": "Calore subito",
+                "heatCleared": "Calore rimosso",
+                "overcharges": "Sovralimentazioni",
+                "structureChecks": "Prove di Struttura",
+                "stressChecks": "Prove di Surriscaldamento",
+                "deployables": "Dispiegabili",
+                "deployablesValue": "{n} utilizzati",
+                "equipmentDestroyed": "Equipaggiamento distrutto",
+                "coreEnergySpent": "Riserve primarie consumate",
+                "roundsUnmounted": "Round da appiedato",
+                "actionsUnmounted": "Azioni da appiedato",
+                "damageDealtUnmounted": "Danni inflitti da appiedato",
+                "damageTakenUnmounted": "Danni subiti da appiedato",
+                "movementUnmounted": "Spazi attraversati da appiedato",
+                "summaryHeader": "{name} - {n} round"
+            }
         },
         "actorLogs": {
-            "log": "Log",
-            "noEntries": "Nessuna voce nel log di combattimento.",
-            "exportText": "Esporta Log Testuale",
-            "exportJson": "Esporta Log JSON"
+            "log": "Registro",
+            "noEntries": "Nessuna voce nel registro di combattimento.",
+            "exportText": "Esporta Registro Testuale",
+            "exportJson": "Esporta Registro JSON",
+            "filterKind": "Filtra per evento",
+            "filterRound": "Round",
+            "allRounds": "Tutti i round",
+            "noMatches": "Nessuna voce corrisponde ai filtri attuali.",
+            "showing": "Visualizzando {shown} di {total} voci totali",
+            "round": "{n} round"
         },
         "dmgCond": {
             "title": "Resist. / immun. / vuln.",
@@ -2506,11 +2701,23 @@
             "noDamage": "Nessun danno",
             "doubleDamage": "Danno doppio",
             "fullDamage": "Danno Pieno",
-            "fromAttacks": "dagli attacchi da {type}."
+            "fromAttacks": "dagli attacchi da {type}.",
+            "normal": "Normale"
         },
         "timedEffect": {
             "roundsRemaining": "{n} Round rimanenti",
-            "override": "// Forza"
+            "override": "// Forza",
+            "retryMeltdown": "Ritenta la prova INGEGNERIA (azione completa) per evitare la fusione del nocciolo",
+            "selfDestructName": "Autodistruzione",
+            "selfDestructDetail": "Questo mech esploderà come se avesse subito la fusione del nocciolo. Il mech verrà annichilito insieme a tutto ciò che contiene e infliggerà 4d6 danni esplosivi in una Scarica di area 2 intorno a sé.",
+            "reactorMeltdownName": "Fusione del nocciolo",
+            "reactorMeltdownDetail": "Questo mech subirà la fusione del nocciolo, venendo annichilito insieme a tutto ciò che contiene e infliggendo 4d6 danni esplosivi in una Scarica di area 2 intorno a sé.",
+            "meltdownDamageName": "Infliggi danno da fusione del nocciolo",
+            "meltdownDamageDetail": "L'esplosione del reattore infligge 4d6 danni esplosivi in una Scarica di area 2 intorno a questo mech.",
+            "statusExpiredName": "Status/Condizione scaduto/a",
+            "statusExpiredDetail": "Lo status {name} è scaduto.",
+            "specialExpiredName": "Status speciale scaduto",
+            "specialExpiredDetail": "Lo status speciale {attribute} è scaduto."
         },
         "statblockExport": {
             "title": "Blocco Statistiche di Combattimento",
@@ -2519,7 +2726,9 @@
         },
         "statusCond": {
             "title": "Status / Condizioni",
-            "addCustom": "Aggiungi Status Personalizzato"
+            "addCustom": "Aggiungi Status Personalizzato",
+            "braceCooldownDetail": "A causa dello stress sulle articolazioni, non puoi effettuare altre reazioni fino al termine del tuo prossimo turno, nel quale potrai usare solo un’azione rapida, quindi non potrai usare Sovralimentare, movimento standard, azioni complete o gratuite.",
+            "cascadeDetail": "Una PNU installata ha provocato una CASCATA e ha preso il controllo del mech. Il mech viene gestito dal GM fino a quanto il pilota riacquista il controllo scegliendo di Spegnere il mech."
         },
         "scan": {
             "scan": "Analizzare"
@@ -2529,7 +2738,9 @@
         },
         "activeEffect": {
             "title": "Effetti attivi",
-            "hiddenEffects": "Effetti Nascosti"
+            "hiddenEffects": "Effetti Nascosti",
+            "hidingUsedEffects": "Effetti utilizzati/scaduti nascosti",
+            "showingUsedEffects": "Effetti utilizzati/scaduti visibili"
         },
         "actions": {
             "allActions": "Tutte le Azioni",
@@ -2546,7 +2757,20 @@
             "alreadyUsed": "Questa azione è già stata usata in questo turno.",
             "insufficient": "Insufficienti",
             "actionsRemaining": "azioni rimanenti in questo turno.",
-            "activationAction": "{n} Azione"
+            "activationAction": "{n} Azione",
+            "usesRemaining": "{n} di {max} utilizzi rimanenti durante questo {period}",
+            "usesExhausted": "Nessun utilizzo rimasto in questo {period}",
+            "restoreUse": "Clicca per recuperare un utilizzo",
+            "protocol": "Protocollo",
+            "full": "Completa",
+            "quick": "Rapida",
+            "move": "Movimento",
+            "overcharge": "Sovralimentazione",
+            "reaction": "Reazione",
+            "spent": "Utilizzata",
+            "orTwoQuick": "Un'azione completa può essere usata come due azioni rapide",
+            "restoreAction": "Clicca per recuperare questa azione",
+            "overchargeReady": "Sovralimentato - qualsiasi azione rapida è gratuita"
         },
         "deploy": {
             "deployNamed": "Dispiega {name}",
@@ -2557,7 +2781,8 @@
             "markUsedHint": "Clicca per contrassegnare come {used} . Le armi con il tag COLPO SINGOLO devono essere ricaricate prima di poter essere caricate di nuovo",
             "reloadHint": "Clicca per {reload} quest'arma.",
             "clickUnused": "Clicca per contrassegnare come Non Usato",
-            "clickUsed": "Clicca per contrassegnare come Usato"
+            "clickUsed": "Clicca per contrassegnare come Usato",
+            "undoEditItem": "Modifica {name}"
         },
         "mountBonus": {
             "warning": "Gli effetti del bonus di supporto sugli attacchi con arma {not} vengono applicati automaticamente da @:{'common.appName'}. Assicurati di applicare manualmente eventuali effetti rilevanti durante il gioco."
@@ -2573,7 +2798,9 @@
             "rechargesFeatures": "Ricarica le seguenti caratteristiche",
             "rechargesOn": "(Si ricarica con {n}+)",
             "clickToRoll": "Clicca per tirare. Le Caratteristiche PNG si ricaricano con tiri pari o superiori al loro valore di ricarica.",
-            "reroll": "ritira"
+            "reroll": "ritira",
+            "hidingPassiveFeatures": "Caratteristiche passive nascoste",
+            "showingPassiveFeatures": "Caratteristiche passive visibili"
         },
         "skillCheck": {
             "checkStat": "Statistica della Prova",
@@ -2671,7 +2898,8 @@
         "pcPanel": {
             "pilotMounted": "Pilota a Bordo",
             "pilotUnmounted": "Pilota sceso",
-            "noReserves": "Nessuna risorsa disponibile"
+            "noReserves": "Nessuna risorsa disponibile",
+            "unusedOnly": "Solo inutilizzate"
         },
         "pilotActions": {
             "preparedTitle": "Pilota Approntato",
@@ -2728,7 +2956,33 @@
             "mechDestroyedReactorMeltdown": "Mech Distrutto — Fusione del Reattore",
             "repairCap": "Riparazioni Massime",
             "whatIsAPlaceholder": "Cos'è un Segnaposto?",
-            "youHaveRemainingActions": "Hai ancora azioni disponibili!"
+            "youHaveRemainingActions": "Hai ancora azioni disponibili!",
+            "gameMaster": "GAME MASTER",
+            "activeCharacterSheets": "Schede personaggio attive",
+            "joinAnOnlineTable": "Unisciti a un tavolo online",
+            "localEncounters": "Scontri Locali",
+            "localCampaigns": "Campagne Locali",
+            "hostAnOnlineTable": "Crea un tavolo online",
+            "spectatorMode": "Modalità Spettatore",
+            "campaignDisplay": "Schermata Campagna",
+            "allPilots": "Tutti i piloti",
+            "heatCapacity": "Capienza Calore",
+            "repairCapacity": "Capienza Riparazioni",
+            "saveTarget": "Soglia di Salvezza",
+            "items": "Oggetti",
+            "sitrep": "Sitrep",
+            "round": "Round",
+            "observer": "OSSERVATORE",
+            "pilot": "Pilota",
+            "reactor": "Reattore",
+            "activations": "Attivazioni",
+            "hull": "Scafo",
+            "size": "Taglia",
+            "eDefense": "D-Tech",
+            "grapple": "Afferrare",
+            "ram": "Speronare",
+            "exposed": "Vulnerabile",
+            "shredded": "Squarciato"
         },
         "tooltips": {
             "addAPilotFromYourLocalPilotRoster": "Aggiungi un pilota dalla tua Lista Piloti locale",
@@ -2755,7 +3009,336 @@
             "exportsAStructuredJsonVersion": "Esporta una versione JSON strutturata del log di combattimento per l'uso in altre applicazioni.",
             "exportsAPlainTextVersion2": "Esporta una versione in testo semplice delle statistiche attuali del combattente.",
             "rollAllDiceTakingThe": "Tira tutti i dadi, prendendo il risultato migliore",
-            "reroll1s": "Ritira gli 1"
+            "reroll1s": "Ritira gli 1",
+            "failedToImportSheetPleaseEnsure": "Importazione scheda fallita. Assicurati che il file sia una scheda personaggio JSON valida."
+        },
+        "subtitles": {
+            "inDevelopmentReleaseV32": "In sviluppo (uscita in v3.2)",
+            "createManageAndRunActivePlayer": "Crea, gestisci e avvia Schede Personaggio Giocante attive",
+            "resumeLast": "riprendi l'ultima",
+            "featureInDevelopmentV32": "Componente in fase di sviluppo (v3.2)",
+            "createManageAndRunLocalEncounters": "Crea, gestisci e avvia Scontri in locale per le tue partite di Lancer",
+            "featureInDevelopmentV31": "Componente in fase di sviluppo (v3.1)",
+            "kineticExplosiveAndHeatDamageDoubled": "Danni cinetici, esplosivi e calore raddoppiati.",
+            "damageIgnoresArmorAndResistance": "Il danno ignora armatura e resistenze."
+        },
+        "structureCheck": {
+            "structure": "Danno strutturale",
+            "stress": "Stress sul reattore",
+            "pending": "{type} marcato",
+            "rollLabel": "Tira {n}d{die}",
+            "rolled": "Tirato",
+            "lowest": "Più basso",
+            "applyResolve": "Applica e risolvi",
+            "markResolved": "Segna come risolto",
+            "manualNote": "Questo risultato deve essere risolto manualmente",
+            "diceCount": "{n} punto/i segnato/i",
+            "resolution": "Risoluzione",
+            "success": "Successo",
+            "fail": "Fallimento",
+            "saveCheck": "Prova di {check}",
+            "saveSave": "Tiro salvezza di {check}",
+            "applyManual": "Applica manualmente",
+            "chooseOne": "Scegli uno",
+            "reroll": "Ritira",
+            "rollCheck": "Tira {check}",
+            "rollPrompt": "Tira {n}d{die} e scegli il più basso",
+            "blocksTurn": "Risolvi la prova di struttura o di surriscaldamento in sospeso prima di concludere il turno",
+            "allWeaponsOnMountDestroyed": "Tutte le armi su un supporto vengono distrutte",
+            "oneSystemDestroyed": "Un sistema viene distrutto",
+            "structure3Plus": "3+ Struttura",
+            "structure2": "2 Struttura",
+            "structure1": "1 Struttura",
+            "stress3Plus": "3+ Stress",
+            "stress2": "2 Stress",
+            "stress1": "1 Stress",
+            "durationEndOfNextTurn": "fino alla fine del suo prossimo turno",
+            "durationRestOfScene": "per il resto della scena",
+            "noteAfterDieTurns": "dopo 1d6 tuoi turni",
+            "noteEndOfNextTurn": "alla fine del tuo prossimo turno",
+            "withNote": "{label} ({note})",
+            "destroyed": "Distrutto",
+            "reactorMeltdown": "Fusione del nocciolo",
+            "damage": "{roll} danni {type}",
+            "nothingDestroyable": "Niente di distruttibile, Colpo Diretto",
+            "mountToDestroy": "Supporto da distruggere",
+            "systemToDestroy": "Sistema da distruggere"
+        },
+        "burnCheck": {
+            "title": "Prova Fuoco",
+            "prompt": "Questa unità ha subito <b>{n}</b> Fuoco. Fai una prova di INGEGNERIA.",
+            "onSuccess": "Se superata: rimuovi tutto il Fuoco",
+            "onFail": "Se fallita: subisci {n} danni da Fuoco (Fuoco non viene rimosso)",
+            "resolveEndTurn": "Risolvi e termina il turno",
+            "ignore": "Ignora"
+        },
+        "layout": {
+            "title": "Layout Modalità Attiva",
+            "description": "Controlla la disposizione delle finestre combattente, statistiche e azioni durante uno scontro. Queste impostazioni sono personali e non influenzano gli altri giocatori al tavolo.",
+            "preset": "Preset",
+            "presets": {
+                "default": "Default",
+                "textFirst": "Testo prioritario",
+                "dense": "Compatto",
+                "phone": "Telefono",
+                "custom": "Personalizzato"
+            },
+            "labels": "Etichette",
+            "labelModes": {
+                "icon": "Solo icone",
+                "iconText": "Icone con testo",
+                "text": "Solo testo"
+            },
+            "density": "Densità",
+            "densities": {
+                "compact": "Compatta",
+                "default": "Default",
+                "comfortable": "Comfortevole"
+            },
+            "tickbars": "Tracciatori statistiche",
+            "tickbarModes": {
+                "auto": "Automatici (semplici su schermi piccoli)",
+                "simple": "Sempre semplici",
+                "standard": "Sempre standard"
+            },
+            "statSet": "Visualizza statistiche",
+            "statSets": {
+                "all": "Tutte",
+                "core": "Solo statistiche primarie (statistiche personalizzate sempre visibili)"
+            },
+            "structure": "Struttura pannelli",
+            "columnsLabel": "Dividi i pannelli in colonne",
+            "content": "Contenuti",
+            "showPortraits": "Mostra immagini",
+            "showPortraitsTooltip": "Nascondi immagini dei combattenti per contenere più informazioni sullo schermo.",
+            "showFlavor": "Mostra testo descrittivo",
+            "showFlavorTooltip": "Mostra il testo descrittivo sulle carte equipaggiamento e abilità. Disattiva per visualizzare solo le regole.",
+            "resetToDefault": "Ripristina a default"
+        },
+        "log": {
+            "encounterStart": "Scontro avviato: {name}",
+            "encounterEnd": "Scontro terminato dopo {rounds} round: {result}",
+            "roundStart": "Inizio round {round}",
+            "roundEnd": "Fine round {round}",
+            "turnStart": "{who} inizia il turno ({n} attivazione/i rimasta/e)",
+            "turnEnd": "{who} termina il turno ({n} attivazione/i rimasta/e)",
+            "action": "{who} usa {action} come azione {activation}",
+            "actionFree": "{who} usa {action} come azione gratuita",
+            "actionPlain": "{who} usa {action}",
+            "attack": "{who} attacca {target} con {weapon}: {roll} vs {defenseValue} {defense} - {result}",
+            "attackUntargeted": "{who} attacca con {weapon}: {roll} vs {defenseValue} {defense} - {result}",
+            "damage": "{who} infligge {amount} danni {type} a {target}",
+            "damageNone": "{who} non ha inflitto danni da {incoming}{type} a {target}",
+            "armorReduced": "-{n} armatura",
+            "heat": "{who} subisce {n} calore",
+            "heatDangerZone": "{who} subisce {n} calore ed è in zona rossa",
+            "heatReason": {
+                "stabilize": "stabilizzato",
+                "shutdown": "spento",
+                "effect": "effetto di sistema",
+                "cap": "al massimo",
+                "manual": "calibrato manualmente"
+            },
+            "saveSuccess": "{who} supera un tiro salvezza di {stat}: {roll} vs {target}",
+            "saveSuccessUnrolled": "{who} supera un tiro salvezza di {stat}",
+            "saveFailure": "{who} fallisce un tiro salvezza di {stat}: {roll} vs {target}",
+            "saveFailureUnrolled": "{who} fallisce un tiro salvezza di {stat}",
+            "check": "{who} effettua una prova di {stat}: {roll} vs {target} - {result}",
+            "checkContested": "{who} effettua una prova contrapposta di {stat} contro {opponent}: {roll} - {result}",
+            "structureCheck": "{who} effettua una prova di struttura: [{dice}] più basso {lowest} - {row}",
+            "stressCheck": "{who} effettua una prova di surriscaldamento: [{dice}] più basso {lowest} - {row}",
+            "statusGain": "{who} diventa {status}",
+            "statusGainTimed": "{who} subisce {status} ({duration})",
+            "statusLose": "{who} perde {status}",
+            "resistChange": "{who} subisce {condition} {type}",
+            "resistChangeRemoved": "{who} perde {condition} {type}",
+            "move": "{who} si muove di {n} spazi",
+            "moveBoost": "{who} si muove accelerando di {n} spazi",
+            "moveBoosted": "{who} accelera, ottenendo {n} spazi di movimento",
+            "overcharge": "{who} sovralimenta a livello {level} per {heat} di calore",
+            "deployableLaunch": "{who} implementa {name}",
+            "deployableDestroy": "Il {name} di {who} viene distrutto",
+            "actorDestroy": "{who} distrugge {target}",
+            "actorDestroyUnknown": "{who} distrugge un nemico",
+            "pilotStatus": "{who} è {status}",
+            "mechStatus": "Il mech di {who} è {status}",
+            "repair": "{who} ripara: {kind}",
+            "stabilize": "{who} stabilizza: {choices}",
+            "hit": {
+                "hit": "COLPITO",
+                "miss": "MANCATO",
+                "crit": "CRITICO"
+            },
+            "resist": {
+                "immunity": "immune",
+                "resistance": "resistente",
+                "vulnerable": "vulnerabile"
+            },
+            "condition": {
+                "exposed": "vulnerabile",
+                "shredded": "squarciato"
+            },
+            "reload": "{who} ricarica {items}",
+            "recharge": "{who} ricarica {item} con un {roll}",
+            "rechargeFailed": "{who} non riesce a ricaricare {item} con un {roll}",
+            "corePower": "{who} attiva il suo sistema primario",
+            "corePowerOff": "{who} disattiva il suo sistema primario",
+            "mount": "{who} monta",
+            "mountDismount": "{who} smonta",
+            "mountEject": "{who} eietta",
+            "aiControl": "L'IA prende il controllo di {who}",
+            "aiControlOff": "{who} riprende il controllo dall'IA",
+            "cover": "{who} prende copertura {cover}",
+            "prepare": "{who} appronta un'azione",
+            "prepareRelease": "{who} esegue l'azione approntata",
+            "blocked": "{who} non può {action}: {reason}",
+            "meltdown": {
+                "scheduled": "Il reattore di {who} raggiungerà la fusione del nocciolo in {turns} turno/i",
+                "averted": "{who} ha evitato la fusione del nocciolo",
+                "committed": "Il reattore di {who} ha raggiunto la fusione del nocciolo",
+                "self_destruct": "{who} attiva l'autodistruzione"
+            },
+            "carry": {
+                "drag": "{who} inizia a trascinare",
+                "lift": "{who} inizia a sollevare",
+                "none": "{who} smette di trasportare"
+            },
+            "blockedReason": {
+                "immobilized": "immobilizzato",
+                "engaged": "ingaggiato",
+                "prone": "non prono",
+                "mounted": "già montato",
+                "unmounted": "non montato",
+                "immune": "il bersaglio è immune",
+                "reactor_destroyed": "il relitto è stato annichilito",
+                "shut_down": "già spento",
+                "unavailable": "non disponibile",
+                "no_uses": "nessun utilizzo rimasto",
+                "insufficient": "non rimangono azioni sufficienti",
+                "no_target": "nessun bersaglio selezionato",
+                "no_weapon": "nessuna arma selezionata",
+                "ordnance": "l'artiglieria non può essere usata dopo un movimento",
+                "untargetable": "il bersaglio non può essere attaccato",
+                "already_applied": "già risolto",
+                "unknown_status": "status non riconosciuto"
+            },
+            "damageSelf": "{who} subisce {amount} danni {type}",
+            "damageSelfNone": "{who} non subisce danni {type} da {incoming}",
+            "side": {
+                "ally": "ALLEATO",
+                "enemy": "NEMICO",
+                "neutral": "NEUTRALE"
+            },
+            "type": {
+                "pilot": "PILOTA",
+                "mech": "MECH",
+                "npc": "PNG",
+                "eidolon": "EIDOLON",
+                "deployable": "DISPIEGABILE",
+                "doodad": "OGGETTO"
+            },
+            "damageUntargeted": "{who} infligge {amount} danni {type}",
+            "damageUntargetedNone": "{who} non infligge danni {type} da {incoming}",
+            "self": "SÉ STESSO",
+            "clause": {
+                "damage": "per {amount} danni {type}",
+                "kill": "- BERSAGLIO DISTRUTTO"
+            },
+            "blockedNoAction": "{who} viene bloccato: {reason}",
+            "attackOverridden": "risultato deciso dal GM",
+            "attackInvisible": "mancato a causa dell'invisibilità",
+            "equipmentUsed": "{who} segna {item} come utilizzato",
+            "equipmentUnused": "{who} segna {item} come non utilizzato",
+            "equipmentDestroyed": "{item} di {who} viene distrutto",
+            "equipmentRepaired": "{item} di {who} viene riparato",
+            "counterUp": "{who} incrementa {counter} di {n} fino a {to}",
+            "counterDown": "{who} diminuisce {counter} di {n} fino a {to}"
+        },
+        "pcEndEncounter": {
+            "confirm": "Terminare questo scontro chiuderà l'istanza della scheda attiva, invierà una copia all'archivio e la trascriverà nel registro di questo pilota. Vuoi procedere?"
+        },
+        "gmTelemetry": {
+            "title": "Telemetria dello Scontro",
+            "subtitle": "Statistiche di combattimento complessive di ogni scontro archiviato",
+            "groupBy": "Raggruppa per",
+            "folder": "Cartella",
+            "label": "Etichetta",
+            "campaign": "Campagna",
+            "allFolders": "Tutte le cartelle",
+            "allLabels": "Tutte le etichette",
+            "allCampaigns": "Tutte le Campagne",
+            "byClass": "Classi PNG",
+            "byTemplate": "Template PNG",
+            "byCombatant": "Combattente individuale",
+            "scopeSummary": "{archives} scontri archiviati, {groups} gruppi",
+            "empty": "Nessuno scontro archiviato corrisponde ai filtri. La telemetria è scritta quando uno scontro viene archiviato.",
+            "manageData": "Gestisci dati telemetria",
+            "deleteTitle": "Elimina dati telemetria",
+            "deleteSelected": "Elimina selezione ({count})",
+            "deleteConfirm": "Questa azione eliminerà definitivamente {count} scontri archiviati, inclusi tutti i dati di telemetria. L'azione non può essere annullata.",
+            "omitted": "{count} scontri archiviati non contengono dati di telemetria e sono stati omessi."
+        },
+        "charts": {
+            "noData": "Raccolta dati incompleta. Archivia ulteriori scontri.",
+            "showTable": "Mostra come tabella",
+            "showChart": "Mostra come grafico",
+            "round": "Round",
+            "dealt": "Inflitti",
+            "taken": "Subiti",
+            "cumulative": "Danni cumulativi",
+            "careerAverage": "Media di carriera",
+            "saves": "Tiri salvezza",
+            "checks": "Prove abilità",
+            "passed": "Superati",
+            "failed": "Falliti",
+            "heat": "Calore",
+            "dangerZone": "Zona Rossa",
+            "overchargeHeat": "Da Sovralimentazione",
+            "otherHeat": "Tutto il resto",
+            "crit": "Critico",
+            "hit": "Colpito",
+            "miss": "Mancato",
+            "killsPer": "Uccisioni per comparsa",
+            "dealtPer": "Danni per comparsa",
+            "appearances": "Comparse",
+            "colType": "Tipo di danno",
+            "colDamage": "Danni",
+            "colEncounter": "Scontro",
+            "colGroup": "Gruppo",
+            "colKind": "Tipo",
+            "p1": "Danni inflitti per tipo",
+            "p1Sub": "Totali complessivi per ogni Scontro registrato",
+            "p2": "Danni inflitti e subiti per Scontro",
+            "p3": "Danno in carriera",
+            "p4Sub": "Media di carriera {n}%",
+            "p5": "Tiri salvezza e prove",
+            "p6": "Calore per Scontro",
+            "p6Sub": "Quando Calore ha accumulato questo pilota",
+            "p7": "Azioni più utilizzate",
+            "p8": "Status subiti",
+            "p9": "Danni per round",
+            "p10": "Curva del Calore",
+            "p10Sub": "Capienza Calore {n}",
+            "p11": "Timeline dello Scontro",
+            "p11Sub": "Cosa ha fatto questo pilota ogni round",
+            "g1": "Danni inflitti dal gruppo",
+            "g2Sub": "Danni inflitti vs. danni assorbiti. Le dimensioni della bolla rispecchiano il rateo di comparsa.",
+            "g3": "Letalità per comparsa",
+            "g3Sub": "Uccisioni totali per comparsa",
+            "g4Sub": "Danni per comparsa.",
+            "g5": "Durata Scontro",
+            "g7": "Esiti degli attacchi",
+            "g8": "Bilanciamento dello Scontro",
+            "selectEncounter": "Scontro",
+            "noStream": "La registrazione completa di questo Scontro non è più presente, perciò i grafici per round non sono disponibili.",
+            "sideAlly": "Alleati",
+            "sideEnemy": "Nemici",
+            "sideNeutral": "Neutrali",
+            "expandChart": "Espandi il grafico",
+            "collapseChart": "Riduci il grafico"
+        },
+        "override": {
+            "prompt": "Non è possibile: {reason}. Risolvere comunque?"
         }
     },
     "pm": {
