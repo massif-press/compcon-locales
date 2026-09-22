@@ -2037,7 +2037,11 @@
             "noteAfterDieTurns": "после 1к6 ваших ходов",
             "noteEndOfNextTurn": "в конце вашего следующего хода",
             "destroyed": "Уничтожено",
-            "reactorMeltdown": "Расплав реактора"
+            "reactorMeltdown": "Расплав реактора",
+            "nothingDestroyable": "Нет снаряжения, которое можно уничтожить - Прямое попадание",
+            "mountToDestroy": "Выбор крепления, которое будет уничтожено",
+            "systemToDestroy": "Выбор системы, которая будет уничтожено",
+            "damage": "{roll} {type} урона"
         },
         "layout": {
             "presets": {
@@ -2092,21 +2096,41 @@
             "armorReduced": "-{n} пунктов Брони",
             "condition": {
                 "exposed": "Уязвим",
-                "shredded": "Изрешечён"
+                "shredded": "изрешечён"
             },
             "blockedReason": {
-                "immobilized": "Обездвижен",
-                "engaged": "Клинч"
-            }
+                "immobilized": "обездвижен",
+                "engaged": "клинч",
+                "unavailable": "недоступно",
+                "no_weapon": "оружие не выбрано"
+            },
+            "heatReason": {
+                "stabilize": "стабилизирован",
+                "shutdown": "отключён"
+            },
+            "hit": {
+                "hit": "ПОПАДАНИЕ",
+                "miss": "ПРОМАХ"
+            },
+            "resist": {
+                "vulnerable": "уязвимый"
+            },
+            "type": {
+                "npc": "ПВ"
+            },
+            "encounterStart": "Начало столкновения: {name}",
+            "encounterEnd": "Столкновение завершилось после {rounds} раунда/раундов: {result}",
+            "roundStart": "Начало {round} раунда",
+            "roundEnd": "Конец {round} раунда"
         },
         "charts": {
             "saves": "Испытания",
             "round": "Раунд",
             "selectEncounter": "Столкновение",
-            "showTable": "Показать таблицу",
-            "dealt": "Нормальный",
+            "showTable": "Отобразить как таблицу",
+            "dealt": "Нанесено",
             "passed": "Пройдено",
-            "failed": "Не удалось",
+            "failed": "Провалено",
             "dangerZone": "Опасная зона",
             "otherHeat": "Всё остальное",
             "colType": "Тип урона",
@@ -2115,7 +2139,17 @@
             "colGroup": "Группа",
             "sideAlly": "Союзники",
             "sideEnemy": "Противники",
-            "sideNeutral": "Нейтральный"
+            "sideNeutral": "Нейтральные",
+            "taken": "Получено",
+            "checks": "Проверки навыков",
+            "heat": "Нагрев",
+            "count": "Количество",
+            "crit": "Критическое",
+            "hit": "Попадание",
+            "miss": "Промах",
+            "appearances": "Появления",
+            "g8": "Соотношение сил в столкновении",
+            "expandChart": "Раскрыть график"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
@@ -2124,15 +2158,17 @@
             "folder": "Папка",
             "campaign": "Кампания",
             "allFolders": "Все папки",
-            "byTemplate": "Шаблоны персонажей ведущего",
-            "deleteSelected": "Удалить выбранное ({count})"
+            "byTemplate": "Шаблон персонажа ведущего",
+            "deleteSelected": "Удалить выбранное ({count})",
+            "label": "Метка"
         },
         "weaponSelect": {
             "unavailableCount": "недоступно"
         },
         "expiration": {
-            "start": "начало",
-            "end": "конец"
+            "start": "в начале",
+            "end": "в конце",
+            "endsOnSelfTurn": "Заканчивается {when} вашего ({name}) хода"
         }
     },
     "mainMenu": {
@@ -3267,9 +3303,14 @@
             "colEncounter": "Столкновение",
             "colDate": "Дата",
             "suggested": "Возможные совпадения",
-            "addNew": "Добавить новый",
-            "pilot": "Пилот",
-            "campaign": "Кампания"
+            "addNew": "Добавить нового/новую",
+            "pilot": "Пилота",
+            "campaign": "Кампанию",
+            "colDealt": "Нанесено",
+            "colTaken": "Получено",
+            "chooseFile": "Выберите файл",
+            "survived": "Выжил(а)",
+            "encounterHistory": "История столкновений"
         }
     },
     "ui": {
@@ -3607,8 +3648,8 @@
             "vsStat": "против {stat}",
             "successfulAttack": "Успешная атака",
             "failedAttack": "Неудавшаяся атака",
-            "reliableOnMiss": "БЕЗОТКАЗНОЕ {n} {type} применяется при промахе",
-            "reliableN": "Безотказное {n}",
+            "reliableOnMiss": "НАДЁЖНОЕ {n} {type} применяется при промахе",
+            "reliableN": "Надёжное {n}",
             "areaOfEffect": "Урон по площади",
             "bonusDamageHalved": "Дополнительный урон будет снижен наполовину (урон по площади)",
             "overkillHeat": "+{n} нагрева (себе) [Избыточное]",
@@ -3639,7 +3680,8 @@
             "removeSpecialCondition": "убирает особое состояние",
             "self": "На себя",
             "sideAlly": "Союзники",
-            "sideEnemy": "Враги"
+            "sideEnemy": "Враги",
+            "consumeLockOn": "Используйте ЗАХВАТ ЦЕЛИ, чтобы получить +1 Точность"
         },
         "table": {
             "previous": "предыдущие"
