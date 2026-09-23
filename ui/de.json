@@ -1219,8 +1219,6 @@
         },
         "telemetry": {
             "telemetry": "Telemetrie",
-            "devNote": "Diese Funktion ist noch in Entwicklung. Zusätzliche Telemetriedaten werden in Kürze hinzugefügt. {emphasis}",
-            "collectedNote": "Telemetriedaten werden am Ende jeder Runde erfasst",
             "encounterInstance": "GefechtsInstanz",
             "exportText": "Als Text exportieren",
             "lifetime": "Lebenszeit"
