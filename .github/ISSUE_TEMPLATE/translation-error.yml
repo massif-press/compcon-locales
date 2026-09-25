@@ -27,7 +27,7 @@ body:
     attributes:
       label: String key or location
       description: The Weblate key or a short description of where the string appears in the app
-      placeholder: 'e.g. actions.boost or the Boost action description'
+      placeholder: 'e.g. nav.achievements.hiddenCount, or where the string appears in the app'
     validations:
       required: true
 

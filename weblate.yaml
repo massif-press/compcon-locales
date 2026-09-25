@@ -9,8 +9,6 @@ project:
 defaults:
   file_format: json
   base_is_readonly: true
-  placeholder_regex: '\{[A-Za-z0-9_]+\}|@:[\w.]+'
-  plural_style: pipe
   checks:
     - placeholders
     - same
@@ -22,6 +20,10 @@ components:
     filemask: ui/*.json
     template: ui/en.json
     new_base: ui/en.json
+    flags: 'vue-format, placeholders:r"@:\{''[\w.]+''\}"'
+    addons:
+      - weblate.cleanup.generic
+      - weblate.json.customize
 
   # English base generated from @massif/lancer-data
   - name: CRB Compendium

@@ -9,10 +9,10 @@ Translations are managed through **[Weblate](https://weblate.org/)**. You should
 
 ## Update Flow
 
-1. **English is automatically generated.** `ui/en.json` is pushed from the app repo's CI whenever UI strings change. Content English is generated from `@massif/lancer-data`. **Base (English) files are read-only in Weblate**. Edits here are overwritten.
+1. **English is automatically generated.** `ui/en.json` arrives as an automated pull request (branch `automated/locales-sync`) opened by the app repo's CI whenever UI strings change on `dev`; merging that PR is what updates the English source in Weblate. Content English is generated from `@massif/lancer-data`.
 2. Weblate pulls new/changed English source strings and flags affected translations as "needs editing."
 3. Translators work in Weblate.
-4. Weblate commits translations back **as pull requests to the `weblate` branch**. Awaits review before merge to `master`.
+4. Weblate commits translations back as pull requests to the `weblate` branch.
 
 ## Translating
 
@@ -20,5 +20,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## License
 
-[GPLv3](./LICENSE), matching COMP/CON. Translations contributed via Weblate are licensed under the
-same terms.
+[GPLv3](./LICENSE), matching COMP/CON. Translations contributed via Weblate are licensed under the same terms.
