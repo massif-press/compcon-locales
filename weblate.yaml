@@ -20,10 +20,15 @@ components:
     filemask: ui/*.json
     template: ui/en.json
     new_base: ui/en.json
-    flags: 'vue-format, placeholders:r"@:\{''[\w.]+''\}"'
+    file_format: i18nextv4
+    flags: 'vue-format, ignore-i18next-interpolation'
     addons:
       - weblate.cleanup.generic
-      - weblate.json.customize
+    # Settings > Files > file format parameters (replaced the "Customize JSON output" add-on in Weblate 5.13)
+    file_format_params:
+      json_indent: 4
+      json_indent_style: spaces
+      json_sort_keys: none
 
   # English base generated from @massif/lancer-data
   - name: CRB Compendium

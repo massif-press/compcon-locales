@@ -26,11 +26,9 @@ Strings can contain `{param}` placeholder tokens the app replaces at runtime:
 
 ### 2. Plurals
 
-Plural strings separate forms with `|`:
+Weblate shows one field per plural form your language needs (for example `one` / `few` / `many` / `other` in Russian, only `other` in Japanese), each labeled with sample counts. Fill every field; the count goes in as `{count}` or `{n}`.
 
-> `{count} pilot | {count} pilots`
-
-Translate each form and keep the `|`. Keep exactly two forms, singular first. The app picks the first form for the "one" case of your language and the second for every other count, so if your language has more plural forms (Russian, Arabic, Polish), write the second form the way it reads for 5.
+When plural support was switched on, existing translations were copied into `one` and `other`, and any extra forms (`few`, `many`, `zero`, `two`) were left empty. Those strings show as untranslated until the missing forms are filled in. Until then the app uses your `other` form for those counts.
 
 ### 3. Linked messages
 
@@ -54,7 +52,7 @@ COMP/CON is a diegetic assistant for mech pilots and translations should strive 
 
 ### 7. Context
 
-Every string's key (for example `nav.achievements.hiddenCount`) says which part of the app it belongs to: `pm` pilot management, `gm` GM tools, `active` Active Mode, `mainMenu`, `compendium`, `nav` navigation and options, `ui` shared components, `common` / `stats` / `enums` shared vocabulary. Check the explanation panel and any screenshot attached to a string before translating a short or ambiguous word. If a single word could be read two ways (Roll, Save, Free, Condition), ask in the string's comments.
+Every string's key (for example `nav.achievements.hiddenCount`) says which part of the app it belongs to: `pm` pilot management, `gm` GM tools, `active` Active Mode, `combat` combat rules text and the combat log, `mainMenu`, `compendium`, `nav` navigation and options, `ui` shared components, `common` / `stats` / `enums` shared vocabulary. Check the explanation panel and any screenshot attached to a string before translating a short or ambiguous word. If a single word could be read two ways (Roll, Save, Free, Condition), ask in the string's comments.
 
 ## Do NOT translate
 
@@ -68,8 +66,15 @@ These stay in English everywhere:
 
 ## Glossary
 
-Recurring LANCER terms should map to **one** agreed word per language. Add your language's
-choice to the **Weblate glossary** so it auto-suggests everywhere.
+Recurring LANCER terms should map to **one** agreed word per language. The **Weblate glossary**
+lists about 230 of them (stats, statuses and conditions, actions, tags, weapon and system types,
+damage and range types), each with an explanation of its game meaning. Where a word is also an
+everyday UI word (Save, Mount, Hide, Search, Size, Free, Full), the explanation says so; the UI
+sense has its own key and is not bound by the glossary.
+
+Many targets were pre-filled from the existing translations of the rules content (lancer-data)
+and of the app. Correct them in the glossary if your team has settled on a different word. Terms
+marked read-only (brand and manufacturer names) stay in English.
 
 Keep stat abbreviations (HULL, AGI, SYS, ENG, HP, SP, E-DEF) consistent and recognizable; consider keeping them in English if appropriate, since they appear on stat blocks.
 
