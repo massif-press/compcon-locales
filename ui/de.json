@@ -298,27 +298,15 @@
     },
     "nav": {
         "contentManager": {
-            "title": "@:{'common.contentManager'}",
             "packManagement": "Inhaltspaket-Verwaltung",
-            "contentPacks": "@:{'common.contentPacks'}",
             "installLcp": ".LCP-Datei installieren",
-            "lcpDirectory": "@:{'common.lcpDirectory'}",
             "contentConfig": "Inhaltskonfig.",
-            "addContent": "@:{'common.addContent'}",
-            "removeContent": "@:{'common.remove'}",
-            "updateAll": "@:{'common.updateAll'}",
             "deleteAll": "Alle löschen",
             "noPacksInstalled": "Keine Inhaltspakete installiert.",
             "deletePackConfirm": "Dies wird dieses Paketund sämtliche Inhalte darin von @:{'common.appName'} entfernen. Nutzer:innendaten, die auf diese Inhalte angewiesen sind, bleiben weiterhin verfügbar. Sind Sie sicher, dass Sie fortfahren wollen?"
         },
-        "roster": {
-            "title": "@:{'common.pilotRoster'}",
-            "deletePilot": "@:{'common.deletePilot'}"
-        },
         "settings": {
-            "title": "@:{'common.settings'}",
             "importData": "Daten importieren",
-            "clearData": "@:{'common.clearAllData'}",
             "interV3Default": "Inter (Standard für V3)",
             "notoSansV3Alt": "Noto Sans (Alternative für V3)",
             "helveticaV2Default": "Helvetica (Standard für V2)",
@@ -331,9 +319,7 @@
             "forceImportAll": "Import Aller erzwingen",
             "forceImportAllTooltip": "Erzwingen des Imports aller ausstehender Elemente. Nicht auflösbare Abhängigkeiten werden entfernt. Benutzen Sie diese Option, wenn Sie alles trotz fehlender Inhalte importieren wollen, aber bedenken Sie, dass den importierten Elementen fehlende Daten entfernt werden. Eventuell werden Sie diese nach dem Import manuell beheben müssen.",
             "forceImport": "Import erzwingen (entfernt fehlende Elemente)",
-            "forceImportPanelTitle": "@:{'common.forceImport'}",
             "attemptReimport": "Import neu versuchen",
-            "confirmForceImport": "@:{'common.forceImport'}",
             "deleteTitle": "Backup löschen",
             "deleteConfirm": "Dieses ausstehende V2 Backup löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
             "strippedTitle": "Elemente die bei erzwungenem Import entfernt wurden",
@@ -344,28 +330,19 @@
         "nav": {
             "navigateBack": "Zurück navigieren",
             "navigateForward": "Vorwärts navigieren",
-            "mainMenu": "@:{'common.mainMenu'}",
-            "compendium": "@:{'common.compendium'}",
             "pilotManagement": "Pilot:innenverwaltung",
-            "npcRoster": "NSC-Liste",
             "narrativeElements": "Erzählelemente",
             "campaignManager": "Kampagnenverwaltung",
-            "activeMode": "@:{'common.activeMode'}",
             "quickReference": "Schnellreferenz",
             "storageLimitExceeded": "Speicherkapazität überschritten",
             "storageLimitReachedNotice": "Keine neuen Elemente können gespeichert werden, bis die Kapazität erweitert wird oder Daten gelöscht werden.",
             "storageWarningTooltip": "@:{'common.appName'} hat den Speicherwarnwert überschritten. Mehr Details können im Speicher-Reiter des Optionsmenüs eingesehen werden.",
             "storageAlertTooltip": "@:{'common.appName'} hat den Speicher-Maximalwert überschritten.",
             "storageDetails": "Mehr Details können im <b>Speicher</b>-Reiter des Optionsmenüs eingesehen werden.",
-            "cloudAccount": "@:{'common.cloudAccount'}",
             "achievements": "Errungenschaften",
-            "manageContent": "@:{'common.manageContent'}",
-            "options": "@:{'common.options'}",
-            "credits": "@:{'common.credits'}",
             "supportCompcon": "@:{'common.appName'} unterstützen"
         },
         "about": {
-            "title": "@:{'common.appName'}",
             "ccVersion": "C/C Version",
             "lancerCoreVersion": "@:{'common.gameName'} CORE Version",
             "description": "@:{'common.appName'} ist ein kostenloser, digitaler, quelloffener Werkzeugkasten und Spielassistent zum Erstellen und Spielen von @:{'common.gameName'} Tabletop-Rollenspielen.",
@@ -389,9 +366,7 @@
             "howToAddContentBody": "Offizielle @:{'common.gameName'}-Inhalte können auf {itchLink} gefunden werden. Spielerseitige LCP-Inhalte für @:{'common.appName'} finden Sie im {downloadDemo}-Abschnitt sämtlicher Massif Press Herausgaben. Spielleiterseitige Inhalte (wie z.B. NSCs) können zusammen mit den PDF-Inhalten gekauft werden. Links zu diesen Inhalten (und hervorgehobenen Community-Inhalten) finden Sie auch im {lcpDirectory} der Inhaltsverwaltung.",
             "itchPageText": "Die itch.io-Seite von Massif Press.",
             "downloadDemo": "Demo herunterladen",
-            "lcpDirectory": "@:{'common.lcpDirectory'}",
             "howToSeeExoticsBody": "Um Spoiler für Spieler:innen zu vermeiden, blendet @:{'common.appName'} standardmäßig Exotische Elemente aus. Um die Sichtbarkeit zu ändern, können Sie das {options}-Menü von @:{'common.appName'} verwenden und dort den {showExoticsToggle}-Schalter einschalten.",
-            "optionsLabel": "@:{'common.options'}",
             "cloudAccountFaqBody": "@:{'common.appName'} Cloud-Konten sind gratis für alle Nutzer:innen. Unterstützer:innen auf Patreon erhalten Zugang zu zusätzlichen Funktionen in ihren Cloud-Konten, wie zum Beispiel erweiterten Cloud-Speicher und zusätzliche aktive Tisch-Instanzen.",
             "additionalHelpBody": "Das {faqLink} kann Ihnen mit Ihrer Frage evtl. weiterhelfen! Falls Sie dennoch nicht finden können, wonach Sie suchen, besuchen Sie uns gerne auf {discordLink} (insbesondere im #comp-con Kanal) und posten Sie Ihre Frage oder Ihren Kommentar direkt an die Entwickler.",
             "faqLinkText": "@:{'common.appName'} FAQ",
@@ -419,9 +394,6 @@
             "legendary": "Legendär",
             "mythic": "Mythisch",
             "locked": "Gesperrt",
-            "selectAll": "@:{'common.selectAll'}",
-            "none": "@:{'common.none'}",
-            "name": "@:{'common.name'}",
             "rarity": "Seltenheitsgrad",
             "dateUnlocked": "Freischaltungsdatum",
             "createBackup": "Errungenschafts-Backup erstellen",
@@ -438,7 +410,6 @@
             "cannot": "kann nicht",
             "othersCount": "(+{count} andere)",
             "warningDataFull": "Dies wird Nutzer:innen-Errungenschaftsdaten {emphasis}.",
-            "hidden": "@:{'common.hidden'}",
             "cannotBeUndoneFull": "Dies {emphasis} rückgängig gemacht werden. Es wird stark empfohlen, zuerst ein Backup anzulegen."
         },
         "storage": {
@@ -451,7 +422,6 @@
             "deletedItems": "Gelöschte Elemente (nur Lokaldaten)",
             "userData": "Nutzer:innendaten",
             "deleteAllUserData": "Alle Nutzer*innendaten löschen",
-            "clearAllData": "@:{'common.clearAllData'}",
             "cannotBeUndone": "rückgängig gemacht werden.",
             "areYouSure": "Sind Sie sicher, dass Sie fortfahren möchten?",
             "deleteWarningBanner": "Achtung // Achtung // Achtung",
@@ -504,29 +474,24 @@
             "description": "Inhaltskonfigurationen ermöglichen es Ihnen, Sets von LCPs zu erstellen und zu verwalten, die auf Piloten und NSCs angewendet werden können, um die Auswahl auf bestimmte Inhalte zuzulassen oder zu begrenzen. Piloten und NSCs ohne gesetzte Konfigurationen haben Zugriff auf alle installierten und aktivierten LCPs",
             "noConfigs": "Keine Konfigurationen gefunden.",
             "lcpsInConfig": "LCPs in dieser Konfiguration",
-            "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
             "coreBookOnly": "Nur Inhalte aus dem Lancer Core Book",
             "addLcp": "LCP hinzufügen",
             "createConfig": "Konfiguration erstellen",
             "deleteConfig": "Diese Konfiguration löschen",
             "removeFromConfig": "Dieses Paket von der Konfiguration entfernen",
             "editConfig": "Diese Konfiguration bearbeiten",
-            "byAuthor": "@:{'common.byAuthor'}",
             "lcpsList": "{list}-LCPs",
             "noLcpsNotice": "Keine LCPs hinzugefügt. Nur Inhalte aus dem {book} werden verfügbar sein."
         },
         "userDataViewer": {
             "description": "Dies sind die lokal gespeicherten Nutzer:innendaten. Diese Elemente sollten generell nicht zurückgesetzt werden müssen, aber es kann hilfreich bei der Fehlersuche oder beim Lösen von hartnäckigen Ladeproblemen sein.",
             "achievementNote": "Nutzer:innendaten zurückzusetzen wird keine freigeschalteten Errungenschaften zurücksetzen (dies kann über den Errungenschafts-Browser erreicht werden).",
-            "item": "@:{'common.item'}",
             "resetUserData": "Nutzer:innendaten zurücksetzen"
         },
         "log": {
-            "logLevel": "@:{'common.logLevel'}",
             "trace": "Nachverfolgung",
             "caller": "Aufrufer",
             "copiedToClipboard": "Log-Eintrag in Zwischenablage kopiert",
-            "noData": "@:{'common.noData'}",
             "exportThisSession": "Dieses Sitzungsprotokoll exportieren",
             "exportAllSessions": "Alle Sitzungsprotokolle exportieren",
             "clearLog": "Protokoll leeren",
@@ -537,7 +502,6 @@
             "noItemsFound": "Keine Elemente gefunden",
             "itemName": "Elementname",
             "itemType": "Elementtyp",
-            "restore": "@:{'common.restoreAction'}",
             "permanentlyDelete": "Permanent löschen",
             "permanentlyDeleteAll": "Alle permanent löschen",
             "restoreAll": "Alle wiederherstellen",
@@ -581,11 +545,9 @@
             "scanning": "Scanne Daten…",
             "noIssues": "Keine migrationsbezogenen Fehler gefunden.",
             "colCategory": "Kategorie",
-            "colItem": "@:{'common.item'}",
             "colIssue": "Fehler",
             "colFixable": "Reparierbar",
             "manualActionRequired": "Manuelle Handlung erforderlich",
-            "cancel": "@:{'common.cancel'}",
             "catFlavorText": "Kulissentext",
             "catNpcStats": "NSC Statistiken",
             "catLcpOrigin": "LCP Ursprung"
@@ -636,12 +598,9 @@
             "v2BackupDetected": "V2 Backup erkannt",
             "v2AppendNote": "Importe von V2 Backups werden immer zu existierenden Daten zusätzlich hinzugefügt.",
             "importV2Backup": "V2 Backup importieren",
-            "logLevel": "@:{'common.logLevel'}",
             "enabled": "aktiviert",
             "font": "Schriftart",
-            "logLevelLabel": "@:{'common.logLevel'}",
             "errorReporting": "Fehlerberichterstattung",
-            "confirmImport": "@:{'common.confirmImport'}",
             "errorReportingStatus": "Fehlerberichterstattung {status}"
         },
         "packsDirectory": {
@@ -658,14 +617,10 @@
         "packInfo": {
             "v2ContentTitle": "V2 Inhalte",
             "v2ContentDescription": "Dieses Inhaltspaket wurde noch nicht als V3-kompatibel registriert. Dieses Paket wird weiterhin funktionieren, aber es wird nicht V3-Funktionen nutzen können.",
-            "noDescription": "@:{'ui.widget.noDescription'}",
             "dependencies": "Abhängigkeiten",
             "dependenciesTooltip": "Abhängigkeiten sind andere Inhaltspakete, die von diesem Paket zur korrekten Funktion benötigt werden. Diese müssen installiert und aktiviert sein, damit dieses Paket korrekt laden kann.",
-            "none": "@:{'common.none'}",
             "authorsWebsite": "Webseite der Autor:in",
             "dependencyInstalled": "Abhängigkeit installiert",
-            "version": "@:{'common.version'}",
-            "changelog": "@:{'common.changelog'}",
             "languagePatchesTooltip": "Für dieses Inhaltspaket installierte Community-Übersetzungen. Werden angewendet, sobald deren Sprache ausgewählt wird.",
             "patchByAuthor": "von {translator}",
             "patchUnknownAuthor": "Unbekannte:r Übersetzer:in",
@@ -696,7 +651,6 @@
             "packActive": "Aktiv"
         },
         "search": {
-            "search": "@:{'common.search'}",
             "recentSearches": "kürzliche Suchanfragen",
             "searchResults": "Suchergebnisse"
         },
@@ -707,8 +661,7 @@
             "dataRedacted": "Daten redigiert"
         },
         "optionsPage": {
-            "tabStorage": "Speicherplatz",
-            "tabActiveMode": "Aktiver Modus"
+            "tabStorage": "Speicherplatz"
         },
         "alt": {
             "supportCompconOnPatreon": "Unterstützen Sie @:{'common.appName'} auf Patreon",
@@ -843,7 +796,6 @@
             "battlefieldTelemetry": "Schlachtfeldtelemetrie",
             "combatLogs": "Kampfprotokoll",
             "deleteArchivePrompt": "Dieses Archiv löschen?",
-            "devNoteReport": "Diese Funktion ist noch in Entwicklung. Einsatznachberichte werden in zukünftigen Builds erweitert.",
             "deleteArchiveDetail": "Dies wird das Archiv zur Löschung markieren. Es wird nicht mehr in dieser Liste angezeigt werden, sondern wird auf Basis Ihrer Aufbewahrungsoptionen im Optionsmenü dauerhaft gelöscht.",
             "noArchivedFoundFiltered": "Keine archivierten Gefechte mit \"{search}\" konnten gefunden werden",
             "devNoteLogs": "Diese Funktion ist noch in Entwicklung. Weitere Daten und Exportoptionen werden in zukünftigen Builds verfügbar sein."
@@ -1889,9 +1841,6 @@
             "exportErrorText": "@:{'common.appName'} konnte Pilot:innendaten nicht exportieren",
             "exportSuccessText": "Pilot:innendaten wurden als \"{callsign}.json\" gespeichert"
         },
-        "titles": {
-            "licenseLevel": "Lizenzlevel"
-        },
         "misc": {
             "skipStep": "Schritt überspringen"
         },
@@ -2450,13 +2399,6 @@
             "retrySignIn": "Login neu versuchen",
             "cancelAndClose": "Abbrechen und schließen"
         },
-        "titles": {
-            "installedVersion": "Installierte Version",
-            "narrativeElement": "Erzählelement",
-            "narrativeElements": "Erzählelemente",
-            "licenseLevel": "Lizenzlevel",
-            "addItem": "Element hinzufügen"
-        },
         "authorSubscriptions": {
             "updates": "Aktualisiert",
             "contentCollection": "Inhaltssammlung",
@@ -2987,15 +2929,6 @@
             "resultCount_one": "{count} Ergebnis",
             "resultCount_other": "{count} Ergebnisse"
         },
-        "titles": {
-            "licenseLevel": "Lizenzlevel",
-            "spCost": "SP-Kosten",
-            "mechWeapons": "Mech-Waffen",
-            "skillTriggers": "Fertigkeitstrigger",
-            "npcFeatures": "NSC-Funktionen",
-            "statusesConditions": "Status & Zustände",
-            "coreBonuses": "Herstellerspezialisierungen"
-        },
         "categories": {
             "equipmentTags": "Ausrüstungsmarken",
             "frames": "Rahmen",
@@ -3068,9 +3001,6 @@
             "returnToLibrary": "Zurück zur Bibliothek",
             "tableOfContents": "Inhaltsverzeichnis",
             "addCampaign": "Kampagne hinzufügen"
-        },
-        "tooltips": {
-            "hitPoints": "Trefferpunkte"
         },
         "shared": {
             "reference": "Verweis",
@@ -3297,9 +3227,6 @@
             "gmHelp2": "Falls Sie eine physische Kopie des Lancer Core Book gekauft haben, aber keine Anleitung erhalten haben, wie Sie die digitale Version und die damit verbundenen Inhalte (inklusive der NSC-Daten) erhalten können, bitte kontaktieren Sie Massif Press über {email}",
             "npcDataHelp": "NSC-Daten sind in der Bezahlversion des Lancer Core Book enthalten und sind daher standardmäßig nicht in @:{'common.appName'} erhältlich. Sie können NSC-Klassen, -Vorlagen und -Funktionsdaten als herunterladbare Inhalte über {link} erhalten."
         },
-        "fields": {
-            "itemType": "Elementtyp"
-        },
         "alt": {
             "packImage": "Paketbild"
         },
@@ -3435,14 +3362,6 @@
             "integratedMechWeapon": "Integrierte Mechwaffe",
             "passive": "Passiv"
         },
-        "titles": {
-            "repairCapacity": "Ersatzteilvermögen",
-            "totalDamage": "Gesamtschaden",
-            "saveTarget": "Rettungswurfzielwert",
-            "softCover": "Weiche Deckung",
-            "hardCover": "Harte Deckung",
-            "noCover": "Keine Deckung"
-        },
         "coreBonus": {
             "instancedWarning": "{warning} Dies ist ein instanziertes Element. Falls sie entfernt wird, ist diese Herstellerspezialisierung nicht mehr verfügbar, bis die damit verbundene LCP installiert wird.",
             "integrated": "Durch Herstellerspezialisierung integrierte Ausrüstung",
@@ -3562,8 +3481,7 @@
             "noManufacturer": "Kein Hersteller"
         },
         "talent": {
-            "rankLocked": "Talentrang freigeschaltet",
-            "hideAll": "Alle ausblenden"
+            "rankLocked": "Talentrang freigeschaltet"
         },
         "org": {
             "efficiency": "Effizienz der Organisation",
