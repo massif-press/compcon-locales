@@ -181,7 +181,7 @@
         },
         "shiftEnterNewline": "Shift + Enter para nova linha",
         "unknown": "Desconhecido",
-        "deselectAll": "Desselecionar tudo",
+        "deselectAll": "Desmarcar Tudo",
         "pilotDisplayName": "{callsign} // {name}",
         "sortOrder": "Organizar",
         "unlocked": "Desbloqueado",
@@ -2459,7 +2459,8 @@
                 "damageTakenUnmounted": "Dano sofrido desmontado",
                 "movementUnmounted": "Espaços movidos desmontado",
                 "summaryHeader": "{name}- Rodada {n}",
-                "logEntryHeader": "Rodada {n} ({time})"
+                "logEntryHeader": "Rodada {n} ({time})",
+                "attacks": "Ataques"
             },
             "checks": "Teste e Salvamento",
             "statuses": "Condições Obtidas",
@@ -2476,7 +2477,10 @@
             "deployablesDestroyed": "Implementos Destruídos",
             "none": "Nada Gravado",
             "noLifetimeData": "Ainda não há registros para este piloto. As entradas no diário de bordo são gravadas quando um encontro é arquivado.",
-            "encountersLogged": "Encontros Registrados"
+            "encountersLogged": "Encontros Registrados",
+            "offense": "Ofensivo",
+            "defense": "Defensivo",
+            "crits": "Acertos Críticos"
         },
         "actorLogs": {
             "noEntries": "Nenhuma entrada no registro de combate.",
@@ -2485,7 +2489,8 @@
             "round": "Rodada {n}",
             "filterKind": "Filtrar por Evento",
             "allRounds": "Todas as Rodadas",
-            "showing": "Exibindo {shown} de {total} entradas"
+            "showing": "Exibindo {shown} de {total} entradas",
+            "noMatches": "Nenhum item corresponde ao seu filtro atual."
         },
         "dmgCond": {
             "title": "Resist. / imune / vuln.",
@@ -2875,7 +2880,8 @@
             "manageData": "Gerenciar Dados de Telemetria",
             "deleteTitle": "Apagar Dados de Telemetria",
             "deleteConfirm": "Isso excluirá permanentemente {count} registros de encontros arquivados, incluindo todos os dados de telemetria. Esta ação não pode ser desfeita.",
-            "omitted": "{count} encontros arquivados não contêm dados de telemetria e foram omitidos."
+            "omitted": "{count} encontros arquivados não contêm dados de telemetria e foram omitidos.",
+            "byTemplate": "Modelo PNJ"
         },
         "override": {
             "prompt": "Isto não pode ser concluído: {reason}. Resolver mesmo assim?",
