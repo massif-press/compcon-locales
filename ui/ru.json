@@ -219,7 +219,7 @@
         "damage": "Урон",
         "pilots": "Пилоты",
         "bonds": "Узы",
-        "gear": "СНАРЯЖЕНИЕ",
+        "gear": "Снаряжение",
         "manufacturer": "Производитель",
         "tags": "Метки",
         "uses": "Заряды",
@@ -236,7 +236,7 @@
         "overkill": "Избыточное",
         "mechName": "Название меха",
         "addTable": "Добавить таблицу",
-        "repairCap": "Запас ремкомплектов",
+        "repairCap": "Запас ремкомплектов.",
         "allPilots": "Все пилоты",
         "heatCapacity": "Теплоёмкость",
         "repairCapacity": "Запас ремкомплектов",
@@ -376,8 +376,8 @@
             "othersCount": "(+{count} иных)",
             "cannotBeUndoneFull": "Это {emphasis} будет отменено. Настоятельно рекомендуется сначала создать резервную копию.",
             "hiddenCount_one": "{count} достижение не отображается",
-            "hiddenCount_few": "",
-            "hiddenCount_many": "",
+            "hiddenCount_few": "{count} достижения не отображаются",
+            "hiddenCount_many": "{count} достижений не отображаются",
             "dateUnlocked": "Дата разблокировки",
             "cannotAddText": "Код недействителен, либо материалы уже были разблокированы",
             "warningDataFull": "Это {emphasis} данные о достижениях пользователя.",
@@ -425,9 +425,9 @@
             "storageSettings": "Настройки хранилища",
             "userData": "Данные пользователя",
             "areYouSure": "Вы уверены, что хотите продолжить?",
-            "daysCount_one": "{count} дней.",
-            "daysCount_few": "",
-            "daysCount_many": "",
+            "daysCount_one": "{count} день.",
+            "daysCount_few": "{count} дня.",
+            "daysCount_many": "{count} дней.",
             "neverAutoDeleteFull": "@:{'common.appName'} {never} будет автоматически удалять данные, помеченные для удаления.",
             "storageThresholds": "Пороги хранения",
             "maxThresholdPct": "Верхний порог использования (%)",
@@ -475,15 +475,15 @@
             "selectFile": "Выберите .LCP файл",
             "willUpgradeTo": "Будет обновлено до версии {version}",
             "installingPacks_one": "Устанавливается {count} набор материалов…",
-            "installingPacks_few": "",
-            "installingPacks_many": "",
+            "installingPacks_few": "Устанавливается {count} набора материалов…",
+            "installingPacks_many": "Устанавливается {count} наборов материалов…",
             "dependencyError_one": "Следующий набор материалов имеет неустановленные зависимости и пока не может быть установлен. Он будет пропущен",
-            "dependencyError_few": "",
-            "dependencyError_many": "",
+            "dependencyError_few": "Следующие наборы материалов имеют неустановленные зависимости и пока не могут быть установлены. Они будут пропущены",
+            "dependencyError_many": "Следующие наборы материалов имеют неустановленные зависимости и пока не могут быть установлены. Они будут пропущены",
             "v3Warning": "Следующий набор материалов не был зарегистрирован как совместимый с форматом v3. Такие наборы материалов будут работать, но не смогут использовать все возможности формата v3, особенно в игровом режиме.",
             "alreadyInstalledWarning_one": "Следующий набор материалов уже установлен и будет заменён",
-            "alreadyInstalledWarning_few": "",
-            "alreadyInstalledWarning_many": "",
+            "alreadyInstalledWarning_few": "Следующие наборы материалов уже установлены и будут заменены",
+            "alreadyInstalledWarning_many": "Следующие наборы материалов уже установлены и будут заменены",
             "willReplace": "Указанный элемент будет заменён этой копией.",
             "alreadyInstalledNote": "Контент-пак с тем же названием и того же авторства уже установлен.",
             "noPackSelected": "Не выбраны наборы материалов для установки",
@@ -495,9 +495,9 @@
             "willDowngradeTo": "Произойдёт откат к версии {version}",
             "byAuthorRequires": "от {author} требует",
             "noChange": "Без изменений ({from} к {to})",
-            "patchStringCount_one": "{count} строк",
-            "patchStringCount_few": "",
-            "patchStringCount_many": ""
+            "patchStringCount_one": "{count} строка",
+            "patchStringCount_few": "{count} строки",
+            "patchStringCount_many": "{count} строк"
         },
         "packsDirectory": {
             "officialContent": "Официальные",
@@ -534,9 +534,9 @@
             "foundFixable_one": "Найдена {count} устранимая проблема.",
             "foundFixable_few": "",
             "foundFixable_many": "",
-            "requiresManual_one": "а также {count} проблема, требующая ручного вмешательства",
-            "requiresManual_few": "",
-            "requiresManual_many": "",
+            "requiresManual_one": "{count} проблема, требующая ручного вмешательства.",
+            "requiresManual_few": "{count} проблемы, требующих ручного вмешательства.",
+            "requiresManual_many": "{count} проблем, требующих ручного вмешательства.",
             "applyFixesButton_one": "Применить {count} исправление",
             "applyFixesButton_few": "",
             "applyFixesButton_many": "",
@@ -648,14 +648,14 @@
         "v2Auto": {
             "pendingNote": "Элементы в ожидании синхронизации можно импортировать повторно с панели \"Контент-паки\" после установки необходимых файлов LCP.",
             "pilotsImported_one": "импортирован {count} пилот",
-            "pilotsImported_few": "",
-            "pilotsImported_many": "",
+            "pilotsImported_few": "импортировано {count} пилота",
+            "pilotsImported_many": "импортировано {count} пилотов",
             "pilotsPending_one": "ожидается {count} пилот (отсутствуют LCP)",
-            "pilotsPending_few": "",
-            "pilotsPending_many": "",
+            "pilotsPending_few": "ожидаются {count} пилота (отсутствуют LCP)",
+            "pilotsPending_many": "ожидаются {count} пилотов (отсутствуют LCP)",
             "npcsImported_one": "импортирован {count} персонаж ведущего",
-            "npcsImported_few": "",
-            "npcsImported_many": "",
+            "npcsImported_few": "импортировано {count} персонажа ведущего",
+            "npcsImported_many": "импортировано {count} персонажа ведущего",
             "npcsPending_one": "ожидается {count} персонаж ведущего (отсутствуют LCP)",
             "npcsPending_few": "",
             "npcsPending_many": "",
@@ -890,7 +890,7 @@
             "templates": "Шаблоны",
             "setClass": "Выбрать класс персонажа ведущего",
             "npcTag": "Метка персонажа ведущего",
-            "npcClass": "Класс персонажа ведущего",
+            "npcClass": "Класс ПВ",
             "noClass": "Класс персонажа ведущего отсутствует"
         },
         "eidolon": {
@@ -967,7 +967,9 @@
             "additionalDetail": "Дополнительные детали",
             "clocks": "Счётчики",
             "collectionTitle": {
-                "character": "Персонажи"
+                "character": "Персонажи",
+                "location": "Локации",
+                "faction": "Фракции"
             }
         },
         "featurePrint": {
@@ -1187,7 +1189,7 @@
             "halfDamage": "Половина урона",
             "conditionStatus": "Состояние",
             "currentlySelected": "Выбрано",
-            "invalidJsonFile": "Некорректный файл JSON"
+            "invalidJsonFile": "Некорректный файл JSON."
         },
         "runnerHeader": {
             "autosave": "Автосохранение",
@@ -1644,7 +1646,7 @@
         "addStub": {
             "addPlaceholder": "Добавить заглушку",
             "noPersist": "Заглушки существуют только в столкновении, для которого они были созданы.",
-            "description": "Заглушки представляют собой временные элементы для отслеживания сущностей в рамках столкновения, которые отсутстствуют в вашем списке персонажей @:{'common.appName'} или не могут быть корректно отображены. Заглушки можно использовать для персонажей игроков, персонажей ведущего, составных элементов столкновения, внешних угроз и так далее. {emphasis}"
+            "description": "Заглушки представляют собой временные элементы для отслеживания сущностей в рамках столкновения, которые отсутстствуют в вашем списке персонажей @:{'common.appName'} или не могут быть корректно отображены в @:{'common.appName'}. Заглушки можно использовать для персонажей игроков, персонажей ведущего, составных элементов столкновения, внешних угроз и так далее. {emphasis}"
         },
         "tableManager": {
             "offline": "список виртуальных столов (не в сети)",
@@ -1997,7 +1999,15 @@
             "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Отображает релевантные для текущего столкновения метки, связанные с персонажами или снаряжением"
         },
         "aar": {
-            "next": "Далее"
+            "next": "Далее",
+            "roundsValue_one": "{n} раунд",
+            "roundsValue_few": "{n} раунда",
+            "roundsValue_many": "{n} раундов",
+            "roundTag": "Р{n}:",
+            "mechStatus": "Статус меха",
+            "pilotStatus": "Статус пилота",
+            "step": "Шаг {n} из {total}",
+            "chartsTitle": "ГРАФИКИ"
         }
     },
     "mainMenu": {
@@ -2131,8 +2141,8 @@
             "downloading": "Скачивание и импорт данных формата v2…",
             "noData": "В вашем облачном хранилище формата v2 не обнаружено данных, пригодных для импорта.",
             "encountersImported_one": "импортировано {count} столкновение",
-            "encountersImported_few": "",
-            "encountersImported_many": "",
+            "encountersImported_few": "импортировано {count} столкновения",
+            "encountersImported_many": "импортировано {count} столкновений",
             "completedSuccess": "Миграция прошла успешно!",
             "dismissNote": "Эту панель можно безопасно закрыть. Если вам потребуется повторить миграцию, вы можете сделать это на вкладке \"Облачные данные\".",
             "retryMigration": "Повторить миграцию",
@@ -2697,8 +2707,8 @@
             "andPilots_few": "",
             "andPilots_many": "",
             "pilotCount_one": "{n} Пилот",
-            "pilotCount_few": "",
-            "pilotCount_many": "",
+            "pilotCount_few": "{n} Пилота",
+            "pilotCount_many": "{n} Пилотов",
             "groupDescription": "Описание отряда",
             "setGroupEmblem": "Выбрать эмблему отряда",
             "groupAlreadyExists": "Отряд с этим названием уже есть",
@@ -2717,7 +2727,7 @@
             "attestation": "Подписывая настоящую форму вы подтверждаете, что все представленные ответы правдивы и соответствуют действительности. Умышленное сообщение ложных или неполных данных влечёт за собой наказание согласно указу ДЮ/ПЧ AR 303-J.",
             "rm4bPilotSelfAssessment1": "Самоаттестация пилота по форме RM-4b (1/3)",
             "rm4cPilotSelfAssessment2": "Самоаттестация пилота по форме RM-4c (2/3)",
-            "warningSubmission": "ПРЕДУПРЕЖДЕНИЕ: Заявка для записи ИДЕНТ {id} содержит следующее(ие) замечание(я)",
+            "warningSubmission": "ПРЕДУПРЕЖДЕНИЕ: Заявка для записи ИДЕНТ {id} содержит следующие замечания",
             "mechSkillsAssessmentIntro": "Данные самоаттестации пилота по форме RM-4b (Навыки пилотирования) будут направлены в печатный цех для доработки конфигурации вашего GMS-SP1 ЭВЕРЕСТ.",
             "addSuggestedSkills": "Добавить рекомендуемые навыки",
             "skillsAssessmentIntro": "Самоаттестация по форме RM-4b (Навыки пилота) фиксирует заявленные пилотом сильные стороны согласно результатам медицинского освидетельствования OHM// Нейросканирования CR-2 и опроса, проведённого НЧЛ-агентом администратора Союза.",
@@ -2730,9 +2740,9 @@
             "nb": "Обратите внимание",
             "issueCallsignInvalid": "ПОЗЫВНОЙ ПИЛОТА не заполнен, либо недействителен",
             "selectSkillTriggers": "Выберите {word} ({count}) навыков пилота.",
-            "selectLicenseRanks_one": "Выберите {word} ({count}) ранг лицензии",
-            "selectLicenseRanks_few": "",
-            "selectLicenseRanks_many": "",
+            "selectLicenseRanks_one": "Выберите {word} ({count}) ранг лицензии.",
+            "selectLicenseRanks_few": "Выберите {word} ({count}) ранга лицензии.",
+            "selectLicenseRanks_many": "Выберите {word} ({count}) рангов лицензии.",
             "selectCoreBonusesN_one": "Выберите {word} ({count}) ключевых улучшений Модификатор.",
             "selectCoreBonusesN_few": "",
             "selectCoreBonusesN_many": "",
@@ -2838,7 +2848,7 @@
             "modifyModification": "Изменить модификацию {name}",
             "installModification": "Установить модификацию {name}",
             "showIncompatibleMods": "Показать несовместимые",
-            "tapToAdd": "НАЖМИТЕ Добавить",
+            "tapToAdd": "Кликните, чтобы добавить",
             "clickToAdd": "Нажмите Добавить",
             "addNewLoadout": "Добавить новую выкладку",
             "changeItem": "Изменить элемент",
@@ -2897,13 +2907,19 @@
             "pilotRequiresReSync": "Для просмотра данных пилота требуется повторная синхронизация",
             "withShareCode": "с применением публичного кода",
             "mustBeReSyncedToThe": "должен быть повторно синхронизирован в аккаунте автора, прежде чем снова будет возможно посмотреть данные пилота.",
-            "serverErrorTooManyRequests": "Ошибка сервера - слишком много запросов"
+            "serverErrorTooManyRequests": "Ошибка сервера - слишком много запросов",
+            "retryMinutes_one": "{n} минута",
+            "retryMinutes_few": "{n} минуты",
+            "retryMinutes_many": "{n} минут",
+            "retrySeconds_one": "{n} секунда",
+            "retrySeconds_few": "{n} секунды",
+            "retrySeconds_many": "{n} секунд"
         },
         "import": {
             "groupImportSuccessText": "{name} успешно добавлен(а).",
             "groupImportErrorText": "Не удалось импортировать отряд пилотов: {error}",
             "importSuccessTitle": "Импорт успешно выполнен",
-            "importSuccessText": "@:{'common.pilotDisplayName'} успешно внесены в раздел \"Личный состав\".",
+            "importSuccessText": "Данные о @:{'common.pilotDisplayName'} успешно внесены в раздел \"Личный состав\".",
             "importPilotErrorText": "Не удалось импортировать пилота: {error}",
             "importErrorText": "Невозможно прочитать файл: {error}",
             "v2BackupText": "{callsign} был сохранён в раздел \"Элементы, ожидающие импорта формата v2\" в меню \"Управление материалами\"."
@@ -3059,7 +3075,7 @@
         },
         "mechSkillsSelector": {
             "mechHp": "ПЗ МЕХА",
-            "limitedSystemsBonus": "МОДИФИКАТОР ИСПОЛЬЗОВАНИЙ РАСХОДУЕМЫХ СИСТЕМ",
+            "limitedSystemsBonus": "Модификатор зарядов расходуемых систем",
             "hullSkillDescription": "Корпус отражает способность пилота создавать и пилотировать прочных, тяжёлых мехов, которые способны выдержать много урона",
             "agilitySkillDescription": "Ловкость отражает способность пилота создавать и пилотировать быстрых и манёвренных мехов",
             "systemsSkillDescription": "Системы отражают способность пилота создавать и пилотировать мехов с внушительным арсеналом средств радиоэлектронной борьбы",
@@ -3571,8 +3587,8 @@
         "pilot": {
             "upToDateTitle": "Данные о пилоте обновлены",
             "upToDateText": "Запись о пилоте @:{'common.pilotDisplayName'} уже содержит последнюю информацию из облака. Обновление не требуется.",
-            "syncedText": "Данные о @:{'common.pilotDisplayName'} синхронизированы.",
-            "syncFailedText": "Не удалось синхронизировать данные о пилоте@:{'common.pilotDisplayName'}.{err}"
+            "syncedText": "Данные пилота @:{'common.pilotDisplayName'} синхронизированы.",
+            "syncFailedText": "Не удалось синхронизировать данные пилота @:{'common.pilotDisplayName'}.{err}"
         },
         "statblock": {
             "copiedTitle": "Список характеристик скопирован в буфер обмена",
@@ -3673,7 +3689,7 @@
         "sensors": "Сенсоры",
         "structure": "Структура",
         "evasion": "Уклонение",
-        "edef": "Тех. защ.",
+        "edef": "Т. защ.",
         "armor": "Броня",
         "speed": "Скорость",
         "edefense": "Тех. защита",
@@ -3826,7 +3842,7 @@
             "blastAreaOfEffect": "Тип урона по площади \"Взрыв\"",
             "lineAreaOfEffect": "Тип урона по площади \"Линия\"",
             "coneAreaOfEffect": "Тип урона по площади \"Конус\"",
-            "lcpContentHint": "Обозначает материалы, добавленные НИМ для Lancer (файл формата .lcp)"
+            "lcpContentHint": "Обозначает материалы, добавленные набором игровых материалов для Lancer (файл формата .lcp)"
         }
     },
     "enums": {
@@ -3951,7 +3967,19 @@
         "syncItemCount": {
             "item_one": "{n} элементов",
             "item_few": "",
-            "item_many": ""
+            "item_many": "",
+            "pilot_one": "{n} пилот",
+            "pilot_few": "{n} пилота",
+            "pilot_many": "{n} пилотов",
+            "unit_one": "{n} юнит",
+            "unit_few": "{n} юнита",
+            "unit_many": "{n} юнитов",
+            "character_one": "{n} персонаж",
+            "character_few": "{n} персонажа",
+            "character_many": "{n} персонажей",
+            "location_one": "{n} локация",
+            "location_few": "{n} локации",
+            "location_many": "{n} локаций"
         }
     },
     "combat": {
@@ -4044,13 +4072,14 @@
             "type": {
                 "npc": "ПВ"
             },
-            "npcStatus": "{who} теперь {status}"
+            "npcStatus": "{who} теперь {status}",
+            "mechStatus": "мех {who} теперь {status}"
         },
         "expiration": {
             "start": "в начале",
             "end": "в конце",
             "endsOnSelfTurn": "Заканчивается {when} вашего ({name}) хода",
-            "endsOnOtherTurn": "Заканчивается {when} вашего ({name}) хода"
+            "endsOnOtherTurn": "Заканчивается {when} хода {name}"
         }
     }
 }
