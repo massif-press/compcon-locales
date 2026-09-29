@@ -1995,6 +1995,9 @@
             "rollableTables": "Таблицы значений бросков",
             "encounterInfo": "Информация о столкновении",
             "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Отображает релевантные для текущего столкновения метки, связанные с персонажами или снаряжением"
+        },
+        "aar": {
+            "next": "Далее"
         }
     },
     "mainMenu": {
@@ -3317,7 +3320,8 @@
             "sideAlly": "Союзники",
             "sideEnemy": "Враги",
             "consumeLockOn": "Используйте ЗАХВАТ ЦЕЛИ, чтобы получить +1 Точность",
-            "irreducibleNoExceptArmor": "Урон может быть снижен согласно значению защиты цели, кроме значения брони"
+            "irreducibleNoExceptArmor": "Урон может быть снижен согласно значению защиты цели, кроме значения брони",
+            "targets": "Цели"
         },
         "table": {
             "previous": "предыдущие"
@@ -4039,12 +4043,14 @@
             },
             "type": {
                 "npc": "ПВ"
-            }
+            },
+            "npcStatus": "{who} теперь {status}"
         },
         "expiration": {
             "start": "в начале",
             "end": "в конце",
-            "endsOnSelfTurn": "Заканчивается {when} вашего ({name}) хода"
+            "endsOnSelfTurn": "Заканчивается {when} вашего ({name}) хода",
+            "endsOnOtherTurn": "Заканчивается {when} вашего ({name}) хода"
         }
     }
 }
