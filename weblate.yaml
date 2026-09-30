@@ -1,135 +1,166 @@
 # Weblate component configuration for compcon-locales
 
 project:
-  name: CompCon
+  name: COMP/CON
   slug: compcon
-  push_branch: weblate
   source_language: en
 
 defaults:
+  repo: weblate://compcon/ui
+  branch: master
+  push_branch: weblate
+  merge_style: rebase
   file_format: json
-  base_is_readonly: true
-  checks:
-    - placeholders
-    - same
-    - punctuation_spacing
+  new_lang: add
+  language_regex: '^[^.]+$'
+  file_format_params:
+    dos_eol: false
+    json_indent: 4
+    json_sort_keys: "none"
+    json_indent_style: "spaces"
+    json_use_compact_separators: false
 
 components:
-  - name: UI
+  - name: "UI"
     slug: ui
+    repo: https://github.com/massif-press/compcon-locales
     filemask: ui/*.json
     template: ui/en.json
-    new_base: ui/en.json
     file_format: i18nextv4
+    edit_template: true
+    manage_units: false
     flags: 'vue-format, ignore-i18next-interpolation'
-    addons:
-      - weblate.cleanup.generic
-    # Settings > Files > file format parameters (replaced the "Customize JSON output" add-on in Weblate 5.13)
-    file_format_params:
-      json_indent: 4
-      json_indent_style: spaces
-      json_sort_keys: none
+    enforced_checks: [placeholders, xml-tags, xml-invalid]
+    variant_regex: 'placeholders:r"@:\{''[\w.]+''\}"'
+    allow_translation_propagation: false
+
+  - name: "Glossary"
+    slug: glossary
+    filemask: glossary/*.csv
+    template: glossary/en.csv
+    file_format: csv
+    is_glossary: true
+    edit_template: true
+    manage_units: true
 
   # English base generated from @massif/lancer-data
-  - name: CRB Compendium
+  - name: "CRB Compendium"
     slug: lancer-data
     filemask: content/lancer-data/*.json
     template: content/lancer-data/en.json
-    new_base: content/lancer-data/en.json
+    edit_template: true
+    manage_units: true
+    enforced_checks: [placeholders, xml-tags, xml-invalid]
 
   # English base generated from the in-app SRD reference (src/assets/srd)
-  - name: CRB Reference
+  - name: "CRB Reference"
     slug: lancer-srd
     filemask: content/lancer-srd/*.json
     template: content/lancer-srd/en.json
-    new_base: content/lancer-srd/en.json
-
-  # English base generated from @massif/wallflower-data via build-llp extract
-  - name: "Lancer Wallflower Data"
-    slug: wallflower-data
-    filemask: content/wallflower-data/*.json
-    template: content/wallflower-data/en.json
-    new_base: content/wallflower-data/en.json
-
-  # English base generated from @massif/ktb-data via build-llp extract
-  - name: "Lancer KTB Data"
-    slug: ktb-data
-    filemask: content/ktb-data/*.json
-    template: content/ktb-data/en.json
-    new_base: content/ktb-data/en.json
+    edit_template: true
+    manage_units: true
+    enforced_checks: [placeholders, xml-tags, xml-invalid]
 
   # English base generated from @massif/dustgrave-data via build-llp extract
-  - name: "LANCER: Dustgrave"
-    slug: dustgrave-data
+  - name: "LCP: Dustgrave"
+    slug: dustgrave-compendium
     filemask: content/dustgrave-data/*.json
     template: content/dustgrave-data/en.json
-    new_base: content/dustgrave-data/en.json
-    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+    edit_template: true
+    manage_units: true
 
-  # English base generated from @massif/sotw-data via build-llp extract
-  - name: "Shadow of the Wolf"
-    slug: sotw-data
-    filemask: content/sotw-data/*.json
-    template: content/sotw-data/en.json
-    new_base: content/sotw-data/en.json
-    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+  # English base generated from @massif/ktb-data via build-llp extract
+  - name: "LCP: Karrakin Trade Baronies"
+    slug: lcp-karrakin-trade-baronies
+    filemask: content/ktb-data/*.json
+    template: content/ktb-data/en.json
+    edit_template: true
+    manage_units: true
 
   # English base generated from @massif/long-rim-data via build-llp extract
-  - name: "Lancer Long Rim Data"
-    slug: long-rim-data
+  - name: "LCP: The Long Rim"
+    slug: lcp-the-long-rim
     filemask: content/long-rim-data/*.json
     template: content/long-rim-data/en.json
-    new_base: content/long-rim-data/en.json
+    edit_template: true
+    manage_units: true
 
   # English base generated from @massif/osr-data via build-llp extract
-  - name: "Operation Solstice Rain Data"
-    slug: osr-data
+  - name: "LCP: Operation Solstice Rain"
+    slug: lcp-operation-solstice-rain
     filemask: content/osr-data/*.json
     template: content/osr-data/en.json
-    new_base: content/osr-data/en.json
+    edit_template: true
+    manage_units: true
 
   # English base generated from @massif/ows-data via build-llp extract
-  - name: "Operation Winter Scar"
-    slug: ows-data
+  - name: "LCP: Operation Winter Scar"
+    slug: lcp-operation-winter-scar
     filemask: content/ows-data/*.json
     template: content/ows-data/en.json
-    new_base: content/ows-data/en.json
+    edit_template: true
+    manage_units: true
+
+  # English base generated from @massif/sotw-data via build-llp extract
+  - name: "LCP: Shadow of the Wolf"
+    slug: lcp-shadow-of-the-wolf
+    filemask: content/sotw-data/*.json
+    template: content/sotw-data/en.json
+    edit_template: true
+    manage_units: true
 
   # English base generated from @massif/ssmr-data via build-llp extract
-  - name: "Siren's Song, A Mountain's Remorse"
-    slug: ssmr-data
+  - name: "LCP: Siren's Song: A Mountain's Remorse"
+    slug: lcp-sirens-song-a-mountains-remorse
     filemask: content/ssmr-data/*.json
     template: content/ssmr-data/en.json
-    new_base: content/ssmr-data/en.json
+    edit_template: true
+    manage_units: true
+
+  # English base generated from @massif/wallflower-data via build-llp extract
+  - name: "LCP: No Room for a Wallflower"
+    slug: lcp-no-room-for-a-wallflower
+    filemask: content/wallflower-data/*.json
+    template: content/wallflower-data/en.json
+    edit_template: true
+    manage_units: true
 
   # English base generated from @massif/lancer-npc-data via build-llp extract
-  - name: "Lancer CORE NPCs"
-    slug: lancer-npc-data
+  - name: "LCP: Core NPCs"
+    slug: lcp-core-npcs
     filemask: content/lancer-npc-data/*.json
     template: content/lancer-npc-data/en.json
-    new_base: content/lancer-npc-data/en.json
+    edit_template: false
+    manage_units: false
     flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+    enforced_checks: [placeholders, xml-invalid, xml-tags]
 
   # English base generated from @massif/ows-npc-data via build-llp extract
-  - name: "Operation Winter Scar NPC Data"
-    slug: ows-npc-data
+  - name: "LCP: Operation Winter Scar NPCs"
+    slug: lcp-operation-winter-scar-npcs
     filemask: content/ows-npc-data/*.json
     template: content/ows-npc-data/en.json
-    new_base: content/ows-npc-data/en.json
+    edit_template: false
+    manage_units: false
     flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+    enforced_checks: [placeholders, xml-invalid, xml-tags]
 
   # English base generated from @massif/ssmr-npc-data via build-llp extract
-  - name: "Siren's Song, A Mountain's Remorse NPC Data"
-    slug: ssmr-npc-data
+  - name: "LCP: Siren's Song: A Mountain's Remorse NPCs"
+    slug: lcp-sirens-song-a-mountains-remorse-npcs
     filemask: content/ssmr-npc-data/*.json
     template: content/ssmr-npc-data/en.json
-    new_base: content/ssmr-npc-data/en.json
+    edit_template: false
+    manage_units: false
     flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+    enforced_checks: [placeholders, xml-invalid, xml-tags]
 
   # English base generated from @massif/wallflower-npc-data (+ app-bundled Eidolon core layer and persistent traits) via build-llp extract
-  - name: "No Room for a Wallflower NPCs"
-    slug: wallflower-npc-data
+  - name: "LCP: No Room for a Wallflower NPCs"
+    slug: lcp-no-room-for-a-wallflower-npcs
     filemask: content/wallflower-npc-data/*.json
     template: content/wallflower-npc-data/en.json
-    new_base: content/wallflower-npc-data/en.json
+    edit_template: false
+    manage_units: false
     flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+    enforced_checks: [placeholders, xml-invalid, xml-tags]
