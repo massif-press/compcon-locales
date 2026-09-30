@@ -50,5 +50,6 @@
     "t_prospector.rank_stake_a_claim.action_create_entrance.name": "Создать проход",
     "t_prospector.rank_stake_a_claim.name": "Заявить права на участок",
     "mw_reaper_assault_cannon.name": "Штурмовой пулемёт \"Жнец\"",
-    "mw_tempest_charged_blade.name": "Заряженный меч \"Вихрь\""
+    "mw_tempest_charged_blade.name": "Заряженный меч \"Вихрь\"",
+    "npcf_automated_battlefield_awareness_node_spec_op.action_battlefield_awareness.name": "Тактическая боеготовность"
 }
