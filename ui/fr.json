@@ -215,7 +215,6 @@
             "encounterImportErrorText": "Échec de l'importation d'une rencontre: {error}",
             "v2BackupTitle": "Importé vers une sauvegarde de données V2",
             "v2BackupText_one": "{count} rencontre sauvegardée vers une importation V2 pour importation ultérieure.",
-            "v2BackupText_many": "",
             "v2BackupText_other": "{count} rencontres sauvegardées vers une importation V2 pour importation ultérieure."
         },
         "sync": {
@@ -276,7 +275,6 @@
             "addStat": "Ajouter statistique",
             "custom": "Personnalisé",
             "statCount_one": "{n} statistique",
-            "statCount_many": "",
             "statCount_other": "{n} statistiques"
         },
         "editorFooter": {
@@ -311,7 +309,6 @@
         },
         "split": {
             "itemsHidden_one": "{n} éléments masqués par les filtres",
-            "itemsHidden_many": "",
             "itemsHidden_other": "{n} éléments masqués par les filtres",
             "addType": "Ajouter {type}",
             "createNewType": "Créer un nouveau {type}"
@@ -429,7 +426,6 @@
             "missingNpcs": "Cette rencontre référence des PNJs qui n'ont pas encore été importés. Elle sera sauvegardée dans la collection des importations V2 dans le gestionnaire de contenu et peut être importés une fois que les PNJs requis seront disponibles.",
             "someMissingNpcs": "Plusieurs rencontres référencent des PNJs qui n'ont pas encore été importés. Elles seront sauvegardées dans la collection des importations V2 dans le gestionnaire de contenu et peuvent être importées une fois que les PNJs requis seront disponibles.",
             "importCount_one": "Importer ({n} rencontre)",
-            "importCount_many": "",
             "importCount_other": "Importer ({n} rencontres)"
         },
         "gmNotes": "Notes de MJ",
@@ -604,18 +600,8 @@
         "contentManager": {
             "installLcp": "Installer un fichier .LCP",
             "deleteAll": "Tout supprimer",
-            "title": "@:{'common.contentManager'}",
-            "contentPacks": "@:{'common.contentPacks'}",
-            "lcpDirectory": "@:{'common.lcpDirectory'}",
-            "addContent": "@:{'common.addContent'}",
-            "removeContent": "@:{'common.remove'}",
-            "updateAll": "@:{'common.updateAll'}",
             "noPacksInstalled": "Aucun contenu installé",
             "contentConfig": "Configuration du contenu"
-        },
-        "roster": {
-            "title": "@:{'common.pilotRoster'}",
-            "deletePilot": "@:{'common.deletePilot'}"
         },
         "nav": {
             "campaignManager": "Gestionnaire de campagne",
@@ -623,19 +609,12 @@
             "storageLimitExceeded": "Limite de stockage dépassée",
             "navigateBack": "Reculer",
             "navigateForward": "Avancer",
-            "mainMenu": "@:{'common.mainMenu'}",
-            "compendium": "@:{'common.compendium'}",
             "pilotManagement": "Gestion de pilote",
-            "activeMode": "@:{'common.activeMode'}",
             "storageLimitReachedNotice": "Aucun nouvel élément ne sera sauvegardé avant que la limite ne soit augmenté ou des données supprimées",
             "storageWarningTooltip": "@:{'common.appName'} a dépassé un seuil de stockage. Plus de détails disponibles dans l'onglet Stockage dans le menu des Options.",
             "storageAlertTooltip": "@:{'common.appName'} a dépassé la limite maximum de stockage.",
             "storageDetails": "Plus de détails sont disponibles dans l'onglet <b>Stockage</b> dans le menu des options.",
-            "cloudAccount": "@:{'common.cloudAccount'}",
             "achievements": "Succès",
-            "manageContent": "@:{'common.manageContent'}",
-            "options": "@:{'common.options'}",
-            "credits": "@:{'common.credits'}",
             "quickReference": "Pense-bête",
             "supportCompcon": "Support @:{'common.appName'}"
         },
@@ -649,9 +628,7 @@
             "applyNote": "Ces configurations peuvent être appliqués aux pilotes et PNJs dans leurs menus d'options.",
             "noConfigs": "Aucune configuration trouvée.",
             "lcpsInConfig": "LCPs dans cette configuration",
-            "lancerCoreBook": "@:{'ui.missing.lancerCoreBook'}",
             "coreBookOnly": "Contenu du Lancer Core Book uniquement",
-            "byAuthor": "@:{'common.byAuthor'}",
             "lcpsList": "{list} LCPs",
             "noLcpsNotice": "Aucun LCP ajouté. Seul le contenu du {book} sera disponible."
         },
@@ -660,10 +637,6 @@
             "dependencies": "Dépendances",
             "authorsWebsite": "Site de l'auteur",
             "dependencyInstalled": "Dépendance installée",
-            "changelog": "@:{'common.changelog'}",
-            "noDescription": "@:{'ui.widget.noDescription'}",
-            "none": "@:{'common.none'}",
-            "version": "@:{'common.version'}",
             "removePatch": "Annuler le correctif",
             "patchUnknownAuthor": "Traducteur inconnu",
             "patchByAuthor": "par {translator}"
@@ -685,28 +658,21 @@
             "downloadBackupTooltip": "Ce fichier .compcon peut être utilisé en version V2 sur https://old.compcon.app. Il peut être téléchargé à tout moment depuis le menu des options",
             "autoMigrated": "Vos données V2 ont été migrées automatiquement vers la V3",
             "pilotsImported_one": "{count} pilote importé",
-            "pilotsImported_many": "",
             "pilotsImported_other": "{count} pilotes importés",
             "pilotsPending_one": "{count} pilote en attente (LCPs manquants)",
-            "pilotsPending_many": "",
             "pilotsPending_other": "{count} pilotes en attente (LCPs manquants)",
             "npcsImported_one": "{count} PNJ importé",
-            "npcsImported_many": "",
             "npcsImported_other": "{count} PNJs importés",
             "npcsPending_one": "{count} PNJ en attente (LCPs manquants)",
-            "npcsPending_many": "",
             "npcsPending_other": "{count} PNJs en attente (LCPs manquants)",
             "encountersPending_one": "{count} rencontre en attente (PNJs manquants)",
-            "encountersPending_many": "",
             "encountersPending_other": "{count} rencontres en attente (PNJs manquants)",
             "errorsDuringMigration_one": "{count} erreur pendant la migration",
-            "errorsDuringMigration_many": "",
             "errorsDuringMigration_other": "{count} erreurs pendant la migration"
         },
         "search": {
             "searchResults": "résultats de la recherche",
-            "recentSearches": "recherches récentes",
-            "search": "@:{'common.search'}"
+            "recentSearches": "recherches récentes"
         },
         "migrationRepair": {
             "colCategory": "Catégorie",
@@ -715,28 +681,21 @@
             "buttonTooltip": "Scan et réparation des problèmes communs avec les données V2 migrées.",
             "scanning": "Scan des données…",
             "noIssues": "Aucun problème de migration trouvé.",
-            "colItem": "@:{'common.item'}",
             "colIssue": "Problème",
             "colFixable": "Réparable",
             "manualActionRequired": "Action manuelle requise",
-            "cancel": "@:{'common.cancel'}",
             "catFlavorText": "Texte d'ambiance",
             "catLcpOrigin": "Origine du LCP",
             "catNpcStats": "Statistique de PNJ",
             "foundFixable_one": "A trouvé {count} problème résolvable.",
-            "foundFixable_many": "",
             "foundFixable_other": "A trouvé {count} problèmes résolvables.",
             "requiresManual_one": "et {count} problème requérant une action manuelle",
-            "requiresManual_many": "",
             "requiresManual_other": "et {count} problèmes requérant une action manuelle",
             "applyFixesButton_one": "Application de {count} résolution",
-            "applyFixesButton_many": "",
             "applyFixesButton_other": "Application de {count} résolutions"
         },
         "settings": {
-            "title": "@:{'common.settings'}",
             "importData": "Importer les données",
-            "clearData": "@:{'common.clearAllData'}",
             "interV3Default": "Inter (Défaut v3)",
             "notoSansV3Alt": "Noto Sans (alt v3)",
             "helveticaV2Default": "Helvetica (Défaut v2)",
@@ -749,9 +708,7 @@
             "forceImportAll": "Forcer toutes les importations",
             "forceImportAllTooltip": "Forcer l'importation de tous les éléments en attente, retirant toutes les dépendances ne pouvant être résolues. Utilisez ceci si vous voulez tout importer quelque soit le contenu manquant, mais soyez conscients que les éléments importés seront purgés des données manquantes et peuvent nécessiter d'être corrigés manuellement après l'importation.",
             "forceImport": "Forcer l'importation (Retire les éléments manquants)",
-            "forceImportPanelTitle": "@:{'common.forceImport'}",
             "attemptReimport": "Nouvelle tentative d'importation",
-            "confirmForceImport": "@:{'common.forceImport'}",
             "strippedTitle": "Éléments retirés lors l'importation forcée",
             "strippedBody": "Les éléments suivants ont été retiré car ils ne pouvaient être résolus",
             "moreCount": "+{count} supplémentaires",
@@ -759,7 +716,6 @@
             "deleteConfirm": "Supprimer cette sauvegarde de données V2 en attente? Cette action ne peut être annulée."
         },
         "about": {
-            "title": "@:{'common.appName'}",
             "ccVersion": "Version de C/C",
             "lancerCoreVersion": "Version Core de @:{'common.gameName'}",
             "description": "@:{'common.appName'} est un assistant de jeu, libre et gratuit, pour préparer et jouer à des parties du jeu de rôle @:{'common.gameName'}.",
@@ -783,9 +739,7 @@
             "howToAddContentBody": "Le contenu officiel de @:{'common.gameName'} peut être trouvé sur {itchLink}. Le LCP des contenus des joueurs pour @:{'common.appName'} peut être trouvé dans la section {downloadDemo} de toutes les publications de Massif Press; Le contenu du MJ (i.e. les PNJs) peut être acheté avec la version PDF. Les liens vers ces contenus (et d'autres contenus de la communauté mises en avant ) peuvent être trouvé dans l'onglet {lcpDirectory} du gestionnaire de contenu.",
             "itchPageText": "Page itch.io de Massif Press",
             "downloadDemo": "Télécharger la démo",
-            "lcpDirectory": "@:{'common.lcpDirectory'}",
             "howToSeeExoticsBody": "Pour éviter de divulgâcher les joueurs, @:{'common.appName'} masque par défaut les équipements exotiques. Pour les rendre visible, vous pouvez utiliser le menu {options} de @:{'common.appName'} et l'activer avec le bouton {showExoticsToggle}.",
-            "optionsLabel": "@:{'common.options'}",
             "additionalHelpBody": "La {faqLink} peut avoir la réponse à vos questions! Si malgré tout vous ne trouvez pas ce que vous cherchez, n'hésitez pas à passer sur {discordLink} (et spécifiquement le canal #comp-con channel) avec vos questions ou commentaires pour les développeurs.",
             "faqLinkText": "FAQ @:{'common.appName'}",
             "discordLinkText": "Le discord non officel de @:{'common.gameName'}"
@@ -802,7 +756,6 @@
             "support": "contributions"
         },
         "achievements": {
-            "hidden": "@:{'common.hidden'}",
             "byRarity": "Par rareté",
             "byLabel": "Par étiquette",
             "secretAchievements": "Succès secrets",
@@ -812,9 +765,6 @@
             "legendary": "Légendaire",
             "mythic": "Mythique",
             "locked": "Bloqué",
-            "selectAll": "@:{'common.selectAll'}",
-            "none": "@:{'common.none'}",
-            "name": "@:{'common.name'}",
             "rarity": "Rareté",
             "dateUnlocked": "Date de déblocage",
             "createBackup": "Créer une sauvegarde des succès",
@@ -828,7 +778,6 @@
             "progress": "{count} sur {total} débloqué",
             "othersCount": "(+{count} autres)",
             "hiddenCount_one": "{count} succès masqué",
-            "hiddenCount_many": "",
             "hiddenCount_other": "{count}succès masqués",
             "cannot": "ne peut pas",
             "displayOptions": "Aperçu",
@@ -843,9 +792,7 @@
             "showExoticsTooltip": "Activer cette option peut divulgâcher une campagne et il est recommandé de laisser ce paramètre DÉSACTIVÉ si vous n'êtes pas le MJ",
             "theme": "Thème",
             "font": "Police de caractère",
-            "logLevelLabel": "@:{'common.logLevel'}",
             "errorReporting": "Rapport d'erreur",
-            "logLevel": "@:{'common.logLevel'}",
             "enabled": "activé",
             "disabled": "désactivé",
             "errorReportingTooltip": "Les rapports d'erreurs permettent l'envoi de données d'erreur anonymes au développeur pour identifier et résoudre des bugs et autres problèmes.",
@@ -869,7 +816,6 @@
             "selectBulkFile": "Sélectionner le fichier d'export .compcon",
             "v2BackupDetected": "Sauvegarde de données V2 détectée",
             "importV2Backup": "Importer une sauvegarde de données V2",
-            "confirmImport": "@:{'common.confirmImport'}",
             "errorReportingStatus": "Rapport d'erreur {status}"
         },
         "storage": {
@@ -877,7 +823,6 @@
             "neverAutoDeleteFull": "@:{'common.appName'} ne supprimera {never} automatiquement les données marqué pour suppression.",
             "autoDeleteFull": "@:{'common.appName'} supprimera définitivement les données marquées comme supprimées depuis au moins {days}. Cela n'affectera pas les éléments non marqués pour suppression.",
             "daysCount_one": "{count} jours.",
-            "daysCount_many": "",
             "daysCount_other": "{count} jours.",
             "deleteAllConfirm": "TOUT",
             "storageSettings": "Paramètres de stockage",
@@ -890,7 +835,6 @@
             "autoDelete": "Suppression automatique",
             "deletedItems": "Éléments supprimés (données locales uniquement)",
             "userData": "Données d'utilisateur",
-            "clearAllData": "@:{'common.clearAllData'}",
             "deleteWarningBanner": "Alerte // alerte // alerte",
             "areYouSure": "Êtes vous certain de vouloir continuer ?",
             "deleteAllUserData": "Supprimer toutes les données d'utilisateur",
@@ -905,8 +849,6 @@
             "x1Year": "1 an"
         },
         "log": {
-            "logLevel": "@:{'common.logLevel'}",
-            "noData": "@:{'common.noData'}",
             "copiedToClipboard": "Entrée de journal copiée dans le presse-papier",
             "trace": "Trace",
             "caller": "Origine",
@@ -918,7 +860,6 @@
             "noItemsFound": "Aucun élément trouvé",
             "itemType": "",
             "deletedOn": "Supprimé le",
-            "restore": "@:{'common.restoreAction'}",
             "permanentlyDelete": "Supprimer définitivement",
             "restoreAll": "Tout restaurer",
             "permanentlyDeleteAll": "Tout supprimer définitivement"
@@ -926,7 +867,6 @@
         "userDataViewer": {
             "description": "Ce sont les données d'utilisateur sauvegardées localement. Ces éléments ne devraient généralement pas être réinitialisées, mais peuvent être utiles pour débugguer ou résoudre des problèmes persistants de chargement.",
             "achievementNote": "Réinitialiser les données d'utilisateurs ne réinitialisera pas les succès débloqués (Cela peut être fait dans le menu des succès).",
-            "item": "@:{'common.item'}",
             "resetUserData": "Réinitialiser les données d'utilisateur"
         },
         "packInstall": {
@@ -969,10 +909,8 @@
         },
         "v2ImportNotify": {
             "reimportSuccessText_one": "{count} élément importés avec succès.",
-            "reimportSuccessText_many": "",
             "reimportSuccessText_other": "{count} éléments importés avec succès.",
             "reimportPendingText_one": "{count} élément en attente avec du contenu manquant.",
-            "reimportPendingText_many": "",
             "reimportPendingText_other": "{count} éléments en attente avec du contenu manquant.",
             "noItemsToReimport": "Aucun élément à ré-importer.",
             "reimportFailedText": "Ré-importation échoué: {error}",
@@ -1044,7 +982,6 @@
             "battlefieldTelemetry": "Télémétrie de champ de bataille",
             "combatLogs": "Historique de combat",
             "deleteArchivePrompt": "Supprimer cette archive?",
-            "devNoteReport": "Cette fonctionnalité est toujours en développement. Les débriefings seront étendus dans le futur.",
             "devNoteLogs": "Cette fonctionnalité est toujours en développement. Les données supplémentaires et les options d'exportation seront étendus dans le futur.",
             "deleteArchiveDetail": "Ceci marquera l'archive pour suppression. Il n'apparaîtra dans cette liste, mais sera définitivement supprimé selon vos options de rétention dans le menu des options.",
             "noArchivedFoundFiltered": "Aucune rencontre archivée trouvé incluant \"{search}\""
@@ -1412,7 +1349,6 @@
             "syncCompleteTitle": "{total}/{total} éléments synchronisés",
             "syncCompleteText": "Tous les éléments ont été synchronisé avec succès.",
             "deletionCompleteTitle_one": "{count} élément supprimé définitivement",
-            "deletionCompleteTitle_many": "",
             "deletionCompleteTitle_other": "{count} éléments supprimés définitivement",
             "noFlaggedText": "Aucun élément n'a été marqué pour suppression.",
             "deletionFailedBulkText": "Une erreur s'est produite pendant la suppression des éléments marqués.",
@@ -1636,19 +1572,15 @@
             "detectedText": "@:{'common.appName'} a détecté que vous avez un compte existant qui n'a pas encore migré vers la v3.",
             "migrationDesc": "{detected} L'outil de migration va tenter de transférer toutes les données en ligne V2 vers le nouvelle version V3. Ce processus peut prendre un peu de temps; merci de ne pas actualiser ou fermer la page pendant la migration. Après avoir utilisé (ou rejeté) cet outil, vous pourrez le trouver à nouveau dans le menu \"Données en ligne\".",
             "pilotsDetected_one": "{count} Pilote",
-            "pilotsDetected_many": "",
             "pilotsDetected_other": "{count} Pilotes",
             "npcsDetected_one": "{count} PNJ",
-            "npcsDetected_many": "",
             "npcsDetected_other": "{count} PNJs",
             "encountersDetected_one": "{count} Rencontre",
-            "encountersDetected_many": "",
             "encountersDetected_other": "{count} Rencontres",
             "v2NotModified": "Vos données V2 ne seront {not} modifiés ou supprimés par ce processus.",
             "downloading": "Téléchargement et importation des données V2…",
             "noData": "Aucune donnée importable n'a été trouvé dans votre stockage en ligne V2.",
             "encountersImported_one": "{count} rencontre importée",
-            "encountersImported_many": "",
             "encountersImported_other": "{count} rencontres importées",
             "completedSuccess": "Migration complétée avec succès !",
             "retryMigration": "Réessayer la migration",
@@ -1673,7 +1605,6 @@
             "settingsDesc2": "@:{'common.appName'} supprimera automatiquement les vieilles archives pour gagner de l'espace. Ce processus sera exécuté chaque fois qu'une nouvelle archive est créée, ou peut être déclenché manuellement en cliquant sur le bouton élaguer ci dessous.",
             "storageLimit": "Limite de stockage",
             "pruneItems_one": "Élagage de {count} élément",
-            "pruneItems_many": "",
             "pruneItems_other": "Élagage de {count} éléments",
             "nothingToPrune": "Rien à élaguer"
         },
@@ -1726,19 +1657,12 @@
             "deleteCloudItem": "Supprimer un élément en ligne",
             "deleteCloudItemDesc": "Supprimer cet élément le marquera comme supprimé en ligne. Cela ne supprimera pas cet élément localement, mais l'empêchera de se synchroniser en lignes ou sur d'autres appareils.",
             "deleteNItems_one": "Supprimer {count} élément",
-            "deleteNItems_many": "",
             "deleteNItems_other": "Supprimer {count} éléments",
             "chooseDeleteMethod": "Choisissez comment supprimer les éléments sélectionnés",
             "remoteItem": "Élément externe",
             "remoteItemInaccessible": "Élément externe inaccessible",
             "bulkDelete": "Sélectionner",
             "cancelBulkSelection": "Ne pas sélectionner"
-        },
-        "titles": {
-            "addItem": "Ajouter un élément",
-            "narrativeElements": "Éléments narratifs",
-            "narrativeElement": "Élément narratif",
-            "installedVersion": "Version installée"
         },
         "a11y": {
             "cancelAndClose": "Annuler et fermer",
@@ -1971,13 +1895,10 @@
             "addGroup": "Ajouter un groupe",
             "addANewPilotToName": "Ajouter un nouveau pilote à {name}",
             "hiddenPilots_one": "{n} pilote Masqué",
-            "hiddenPilots_many": "",
             "hiddenPilots_other": "Masqués",
             "andPilots_one": "et {n} Pilote",
-            "andPilots_many": "",
             "andPilots_other": "et {n} Pilotes",
             "pilotCount_one": "{n} Pilote",
-            "pilotCount_many": "",
             "pilotCount_other": "{n} Pilotes",
             "groupDescription": "Description du groupe",
             "setGroupEmblem": "Choisir un emblème de groupe",
@@ -2003,7 +1924,6 @@
             "addDowntimeProject": "Ajouter un projet de Temps Libre",
             "coreBonusSelectionComplete": "Sélection du bonus d'architecture complété",
             "coreBonusAvailable_one": "{count} {mf} bonus d'architecture disponible",
-            "coreBonusAvailable_many": "",
             "coreBonusAvailable_other": "{count} {mf} bonus d'architecture disponibles",
             "addProject": "Ajouter un projet",
             "addOrganization": "Ajouter une organisation",
@@ -2115,9 +2035,6 @@
             "npcClasses": "Classes de PNJ",
             "downtimeActions": "Actions de Temps Libre"
         },
-        "titles": {
-            "coreBonuses": "Bonus d'architecture"
-        },
         "reference": {
             "or": "ou",
             "glossary": "Glossaire",
@@ -2132,7 +2049,6 @@
         },
         "search": {
             "resultCount_one": "{count} résultat",
-            "resultCount_many": "",
             "resultCount_other": "{count} résultats"
         },
         "content": {
@@ -2397,7 +2313,6 @@
     "notify": {
         "dataItem": {
             "bulkDeletedTitle_one": "{n} élément supprimé",
-            "bulkDeletedTitle_many": "",
             "bulkDeletedTitle_other": "{n} éléments supprimés",
             "bulkDeletedText": "Les éléments sélectionnés ont été supprimés.",
             "bulkPartialTitle": "{n} supprimé, {f} échoué",
@@ -2588,7 +2503,6 @@
         },
         "syncItemCount": {
             "item_one": "{n} éléments",
-            "item_many": "",
             "item_other": "{n} éléments"
         }
     },
