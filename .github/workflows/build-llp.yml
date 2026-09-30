@@ -29,7 +29,7 @@ jobs:
 
           for (const target of readdirSync('content')) {
             const dir = join('content', target)
-            if (target.startsWith('lancer-') || !statSync(dir).isDirectory()) continue
+            if (['lancer-data', 'lancer-srd'].includes(target) || !statSync(dir).isDirectory()) continue
 
             for (const file of readdirSync(dir)) {
               if (!file.endsWith('.json') || file === 'en.json') continue
