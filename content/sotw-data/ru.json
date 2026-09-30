@@ -5,5 +5,10 @@
     "pbg_noble_heir.name": "Наследник",
     "pbg_pankrati.name": "Панкрати",
     "mf_balor_alt_hecatoncheires.trait_smoke_and_mirrors.name": "Отвод глаз",
-    "mf_balor_alt_hecatoncheires.trait_smoke_and_mirrors.active_effect_smoke_and_mirrors.name": "Отвод глаз"
+    "mf_balor_alt_hecatoncheires.trait_smoke_and_mirrors.active_effect_smoke_and_mirrors.name": "Отвод глаз",
+    "sotw-bond-celebrant.name": "Сибарит",
+    "sotw-bond-firebrand.name": "Бунтарь",
+    "sotw-bond-firebrand.power_iconoclast.name": "Иконоборец",
+    "sotw-bond-knave.name": "Плут",
+    "sotw-bond-seneschal.name": "Паладин"
 }
