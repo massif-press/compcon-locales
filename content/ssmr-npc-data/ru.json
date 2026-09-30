@@ -1,1 +1,10 @@
-{}
+{
+    "npc_Leech_EMPPulse.action_emp_pulse.name": "ЭМИ импульс",
+    "npc_Leech_EMPPulse.name": "ЭМИ импульс",
+    "ssmr_Tempest.name": "Буря",
+    "ssmr_Leech.name": "Пиявка",
+    "npc_Leech_Leech.active_effect_leech.name": "Пиявка",
+    "npc_Leech_Leech.name": "Пиявка",
+    "npc_Tempest_LightningGenerator.action_lightning_generator.name": "Генератор грозовых импульсов",
+    "npc_Tempest_LightningGenerator.name": "Генератор грозовых импульсов"
+}
