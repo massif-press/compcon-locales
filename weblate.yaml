@@ -64,6 +64,7 @@ components:
     filemask: content/dustgrave-data/*.json
     template: content/dustgrave-data/en.json
     new_base: content/dustgrave-data/en.json
+    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
 
   # English base generated from @massif/sotw-data via build-llp extract
   - name: "Shadow of the Wolf"
@@ -71,6 +72,7 @@ components:
     filemask: content/sotw-data/*.json
     template: content/sotw-data/en.json
     new_base: content/sotw-data/en.json
+    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
 
   # English base generated from @massif/long-rim-data via build-llp extract
   - name: "Lancer Long Rim Data"
@@ -99,3 +101,35 @@ components:
     filemask: content/ssmr-data/*.json
     template: content/ssmr-data/en.json
     new_base: content/ssmr-data/en.json
+
+  # English base generated from @massif/lancer-npc-data via build-llp extract
+  - name: "Lancer CORE NPCs"
+    slug: lancer-npc-data
+    filemask: content/lancer-npc-data/*.json
+    template: content/lancer-npc-data/en.json
+    new_base: content/lancer-npc-data/en.json
+    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+
+  # English base generated from @massif/ows-npc-data via build-llp extract
+  - name: "Operation Winter Scar NPC Data"
+    slug: ows-npc-data
+    filemask: content/ows-npc-data/*.json
+    template: content/ows-npc-data/en.json
+    new_base: content/ows-npc-data/en.json
+    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+
+  # English base generated from @massif/ssmr-npc-data via build-llp extract
+  - name: "Siren's Song, A Mountain's Remorse NPC Data"
+    slug: ssmr-npc-data
+    filemask: content/ssmr-npc-data/*.json
+    template: content/ssmr-npc-data/en.json
+    new_base: content/ssmr-npc-data/en.json
+    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
+
+  # English base generated from @massif/wallflower-npc-data (+ app-bundled Eidolon core layer and persistent traits) via build-llp extract
+  - name: "No Room for a Wallflower NPCs"
+    slug: wallflower-npc-data
+    filemask: content/wallflower-npc-data/*.json
+    template: content/wallflower-npc-data/en.json
+    new_base: content/wallflower-npc-data/en.json
+    flags: 'placeholders:r"\{[^}]*\}|\d+/\d+/\d+"'
