@@ -259,7 +259,8 @@
         "hints": "Подсказки",
         "rules": "Правила",
         "tactics": "Тактика",
-        "activateFreeAction": "Активация (свободное действие)"
+        "activateFreeAction": "Активация (свободное действие)",
+        "updated": "Обновлено"
     },
     "classes": {
         "newFaction": "Новая фракция",
@@ -286,7 +287,10 @@
         "aStandardEnvironmentWithNoSpecial": "Стандартная обстановка без дополнительных факторов, влияющих на бой",
         "standardEncounterDescription": "Обычная схватка: стороны сражаются до тех пор, пока участники с одной из них не будут сломлены, либо уничтожены.",
         "titlePage": "Заглавная страница",
-        "contributors": "Авторы"
+        "contributors": "Авторы",
+        "expressionVariable": {
+            "ll": "Изменить уровень лицензии"
+        }
     },
     "language": {
         "selectLanguage": "Язык",
