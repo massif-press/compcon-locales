@@ -1,1 +1,10 @@
-{}
+{
+    "npcc_ows_mbt.name": "ОБТ",
+    "npcc_ows_mbt_smokescreen.action_smokescreen.name": "Дымовая завеса",
+    "npcc_ows_mbt_smokescreen.name": "Дымовая завеса",
+    "npcc_ows_mbt_smoothbore_cannon.effect": "Это оружие наносит {10/20/30} ББ взрывного урона объектам, укрытию и элементам ландшафта.",
+    "npcc_ows_mbt_stabilized_railgun.name": "Стабилизированный рельсотрон",
+    "npcc_ows_mbt_siege_mode.name": "Осадный режим",
+    "npcc_ows_mbt_siege_mode.action_siege_mode.name": "Осадный режим",
+    "npct_marine.name": "Морпех"
+}
