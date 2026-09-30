@@ -46,5 +46,14 @@
     "mf_minotaur_alt_wraith.core_system.passive_action_execrate.name": "Проклясть",
     "mf_minotaur_alt_wraith.core_system.passive_name": "Проклясть",
     "mf_minotaur_alt_wraith.core_system.passive_effect": "Вы получаете вариант быстрого действия \"Проклясть\".",
-    "mf_minotaur_alt_wraith.core_system.name": "Проклятие имён презренных мертвецов"
+    "mf_minotaur_alt_wraith.core_system.name": "Проклятие имён презренных мертвецов",
+    "ktb-bond-broker.name": "Посредник",
+    "ktb-bond-builder.name": "Зодчий",
+    "ktb-bond-builder.power_the_clockmaker.name": "Часовщик",
+    "ktb-bond-fool.name": "Чудак",
+    "ktb-bond-harlequin.name": "Арлекин",
+    "ktb-bond-magus.name": "Волхв",
+    "ktb-bond-pathfinder.name": "Следопыт",
+    "ktb-bond-titan.name": "Исполин",
+    "ktb-bond-wolf.name": "Хищник"
 }
