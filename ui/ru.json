@@ -4156,7 +4156,8 @@
         },
         "summary": {
             "criticalHit": "Критическое попадание",
-            "reliable": "Надёжное {n}"
+            "reliable": "Надёжное {n}",
+            "irreducibleTag": "Неснижаемое"
         }
     },
     "bonuses": {
