@@ -4153,6 +4153,9 @@
             "end": "в конце",
             "endsOnSelfTurn": "Заканчивается {when} вашего ({name}) хода",
             "endsOnOtherTurn": "Заканчивается {when} хода {name}"
+        },
+        "summary": {
+            "criticalHit": "Критическое попадание"
         }
     },
     "bonuses": {
