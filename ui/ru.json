@@ -4155,7 +4155,8 @@
             "endsOnOtherTurn": "Заканчивается {when} хода {name}"
         },
         "summary": {
-            "criticalHit": "Критическое попадание"
+            "criticalHit": "Критическое попадание",
+            "reliable": "Надёжное {n}"
         }
     },
     "bonuses": {
