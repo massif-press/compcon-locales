@@ -3547,6 +3547,9 @@
         },
         "eidolonLayer": {
             "newShards": "Новые осколки: {n}"
+        },
+        "textEditor": {
+            "editText": "Правка текста"
         }
     },
     "notify": {
@@ -3704,7 +3707,11 @@
         }
     },
     "print": {
-        "generalOptions": "Стандартные опции для печати"
+        "generalOptions": "Стандартные опции для печати",
+        "statblock": {
+            "integratedMount": "Интегрированное крепление",
+            "noMechSelected": "Модель не выбрана"
+        }
     },
     "stats": {
         "agility": "Ловкость",
