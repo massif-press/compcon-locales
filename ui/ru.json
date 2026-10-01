@@ -2013,6 +2013,9 @@
             "pilotStatus": "Статус пилота",
             "step": "Шаг {n} из {total}",
             "chartsTitle": "ГРАФИКИ"
+        },
+        "playMode": {
+            "undoChange": "Изменить режим"
         }
     },
     "mainMenu": {
