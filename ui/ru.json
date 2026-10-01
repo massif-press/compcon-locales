@@ -4158,6 +4158,10 @@
             "criticalHit": "Критическое попадание",
             "reliable": "Надёжное {n}",
             "irreducibleTag": "Неснижаемое"
+        },
+        "weaponUse": {
+            "barrage": "Залп",
+            "skirmish": "Выпад"
         }
     },
     "bonuses": {
@@ -4165,10 +4169,23 @@
             "title": "@:{'stats.engineering'}"
         },
         "engineeringCheck": {
-            "title": "@:{'stats.engineering'}"
+            "title": "@:{'stats.engineering'}",
+            "target": "Проверка навыка (Инженерное дело)"
         },
         "engineeringSave": {
             "title": "@:{'stats.engineering'}"
+        },
+        "skillPoint": {
+            "title": "Навыки пилота"
+        },
+        "unstableSystem": {
+            "title": "Нестабильная система"
+        },
+        "check": {
+            "title": "Проверки"
+        },
+        "melee": {
+            "target": "Атака в ближнем бою"
         }
     }
 }
