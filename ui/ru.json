@@ -3710,7 +3710,9 @@
         "generalOptions": "Стандартные опции для печати",
         "statblock": {
             "integratedMount": "Интегрированное крепление",
-            "noMechSelected": "Модель не выбрана"
+            "noMechSelected": "Модель не выбрана",
+            "edefShort": "Т. защ.",
+            "attackBonusValue": "Модификатор атаки"
         }
     },
     "stats": {
