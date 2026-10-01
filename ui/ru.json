@@ -2015,7 +2015,8 @@
             "chartsTitle": "ГРАФИКИ"
         },
         "playMode": {
-            "undoChange": "Изменить режим"
+            "undoChange": "Изменить режим",
+            "markUnused": "Отметить как непрочитанное"
         }
     },
     "mainMenu": {
