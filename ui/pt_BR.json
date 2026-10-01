@@ -1794,17 +1794,17 @@
             "templateClassRange": "O {name} escolhe entre {min} e {max} características opcionais adicionais da sua classe",
             "templateClassRangePerTier": "O {name} escolhe entre {min} e {max} características opcionais adicionais da sua classe por Patamar de PNJ",
             "templateAny": "Ao escolher sistemas opcionais, o {name} também pode escolher da lista de Características Opcionais do Modelo {name}.",
-            "templateExact_one": "O {name} escolhe {min} opção da lista de Características Opcionais do Modelo {name}",
-            "templateExact_many": "O {name} escolhe {min} opções da lista de Características Opcionais do Modelo {name}",
-            "templateExact_other": "O {name} escolhe {min} opções da lista de Características Opcionais do Modelo {name}",
+            "templateExact_one": "O {name} escolhe {min} opção da lista de Características Opcionais do Modelo {name}O {name} escolhe {min} opções da lista de Características Opcionais do Modelo {name}O {name} escolhe {min} opções da lista de Características Opcionais do Modelo {name}",
+            "templateExact_many": "",
+            "templateExact_other": "",
             "templateRange": "O {name} escolhe entre {min} e {max} opções da lista de Características Opcionais do Modelo {name}",
-            "templateMayExact_one": "O {name} pode escolher {min} opção da lista de Características Opcionais do Modelo {name}",
-            "templateMayExact_many": "O {name} pode escolher {min} opções da lista de Características Opcionais do Modelo {name}",
-            "templateMayExact_other": "O {name} pode escolher {min} opções da lista de Características Opcionais do Modelo {name}",
+            "templateMayExact_one": "O {name} pode escolher {min} opção da lista de Características Opcionais do Modelo {name}O {name} pode escolher {min} opções da lista de Características Opcionais do Modelo {name}O {name} pode escolher {min} opções da lista de Características Opcionais do Modelo {name}",
+            "templateMayExact_many": "",
+            "templateMayExact_other": "",
             "templateMayRange": "O {name} pode escolher entre {min} e {max} opções da lista de Características Opcionais do Modelo {name}",
-            "templatePerTier_one": "O {name} pode escolher uma característica opcional adicional por Grau de NPC",
-            "templatePerTier_many": "O {name} pode escolher {n} características opcionais adicionais por Grau de NPC",
-            "templatePerTier_other": "O {name} pode escolher {n} características opcionais adicionais por Grau de NPC"
+            "templatePerTier_one": "O {name} pode escolher uma característica opcional adicional por Grau de NPCO {name} pode escolher {n} características opcionais adicionais por Grau de NPCO {name} pode escolher {n} características opcionais adicionais por Grau de NPC",
+            "templatePerTier_many": "",
+            "templatePerTier_other": ""
         }
     },
     "notify": {
