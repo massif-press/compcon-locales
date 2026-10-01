@@ -289,7 +289,9 @@
         "titlePage": "Заглавная страница",
         "contributors": "Авторы",
         "expressionVariable": {
-            "ll": "Изменить уровень лицензии"
+            "ll": "Уровень лицензии пилота",
+            "hp": "Максимальные ПЗ",
+            "currentHp": "Текущие ПЗ"
         }
     },
     "language": {
@@ -379,7 +381,7 @@
             "progress": "Открыто {count} из {total}",
             "othersCount": "(+{count} иных)",
             "cannotBeUndoneFull": "Это {emphasis} будет отменено. Настоятельно рекомендуется сначала создать резервную копию.",
-            "hiddenCount_one": "{count} достижение не отображается",
+            "hiddenCount_one": "{count} достижение не отображается | {count} достижений не отображаются",
             "hiddenCount_few": "{count} достижения не отображаются",
             "hiddenCount_many": "{count} достижений не отображаются",
             "dateUnlocked": "Дата разблокировки",
@@ -429,7 +431,7 @@
             "storageSettings": "Настройки хранилища",
             "userData": "Данные пользователя",
             "areYouSure": "Вы уверены, что хотите продолжить?",
-            "daysCount_one": "{count} день.",
+            "daysCount_one": "{count} день. | {count} дней.",
             "daysCount_few": "{count} дня.",
             "daysCount_many": "{count} дней.",
             "neverAutoDeleteFull": "@:{'common.appName'} {never} будет автоматически удалять данные, помеченные для удаления.",
@@ -478,7 +480,7 @@
             "install": "Установить",
             "selectFile": "Выберите .LCP файл",
             "willUpgradeTo": "Будет обновлено до версии {version}",
-            "installingPacks_one": "Устанавливается {count} набор материалов…",
+            "installingPacks_one": "Устанавливается {count} набор материалов… | Устанавливается {count} наборов материалов…",
             "installingPacks_few": "Устанавливается {count} набора материалов…",
             "installingPacks_many": "Устанавливается {count} наборов материалов…",
             "dependencyError_one": "Следующий набор материалов имеет неустановленные зависимости и пока не может быть установлен. Он будет пропущен",
@@ -499,7 +501,7 @@
             "willDowngradeTo": "Произойдёт откат к версии {version}",
             "byAuthorRequires": "от {author} требует",
             "noChange": "Без изменений ({from} к {to})",
-            "patchStringCount_one": "{count} строка",
+            "patchStringCount_one": "{count} строка | {count} строк",
             "patchStringCount_few": "{count} строки",
             "patchStringCount_many": "{count} строк"
         },
@@ -535,13 +537,13 @@
             "manualActionRequired": "Необходимо исправить вручную",
             "catLcpOrigin": "Исходный LCP",
             "catNpcStats": "Характеристики персонажей ведущего",
-            "foundFixable_one": "Найдена {count} устранимая проблема | Найдено {count} устранимых проблем",
-            "foundFixable_few": "",
-            "foundFixable_many": "",
-            "requiresManual_one": "{count} проблема, требующая ручного вмешательства.",
+            "foundFixable_one": "Найдена {count} устранимая проблема. | Найдено {count} устранимых проблем.",
+            "foundFixable_few": "Найдено {count} устранимых проблемы.",
+            "foundFixable_many": "Найдено {count} устранимых проблем.",
+            "requiresManual_one": "{count} проблема, требующая ручного вмешательства. | {count} проблем, требующих ручного вмешательства.",
             "requiresManual_few": "{count} проблемы, требующих ручного вмешательства.",
             "requiresManual_many": "{count} проблем, требующих ручного вмешательства.",
-            "applyFixesButton_one": "Применить {count} исправление",
+            "applyFixesButton_one": "Применить {count} исправление | Применить {count} исправлений",
             "applyFixesButton_few": "Применить {count} исправления",
             "applyFixesButton_many": "Применить {count} исправлений",
             "dialogTitle": "Инструмент исправления данных после миграции",
@@ -651,7 +653,7 @@
         },
         "v2Auto": {
             "pendingNote": "Элементы в ожидании синхронизации можно импортировать повторно с панели \"Контент-паки\" после установки необходимых файлов LCP.",
-            "pilotsImported_one": "импортирован {count} пилот",
+            "pilotsImported_one": "импортирован {count} пилот | импортировано {count} пилотов",
             "pilotsImported_few": "импортировано {count} пилота",
             "pilotsImported_many": "импортировано {count} пилотов",
             "pilotsPending_one": "ожидается {count} пилот (отсутствуют LCP) | ожидается {count} пилотов (отсутствуют LCP)",
@@ -666,9 +668,9 @@
             "encountersPending_one": "ожидается {count} столкновение (отсутствуют персонажи ведущего) | ожидается {count} столкновений (отсутствуют персонажи ведущего)",
             "encountersPending_few": "",
             "encountersPending_many": "",
-            "lcpsImported_one": "импортирован {count} набор материалов",
+            "lcpsImported_one": "импортирован {count} набор материалов | импортировано {count} наборов материалов",
             "lcpsImported_few": "импортировано {count} набора материалов",
-            "lcpsImported_many": "импортирован {count} наборов материалов",
+            "lcpsImported_many": "импортировано {count} наборов материалов",
             "errorsDuringMigration_one": "{count} ошибка в процессе миграции | {count} ошибок в процессе миграции",
             "errorsDuringMigration_few": "",
             "errorsDuringMigration_many": "",
@@ -679,10 +681,10 @@
             "downloadBackupTooltip": "Этот файл .compcon можно использовать в среде версии v2 по адресу https://old.compcon.app. Его можно скачать в любой момент через меню «Параметры»"
         },
         "v2ImportNotify": {
-            "reimportSuccessText_one": "успешно импортирован {count} элемент.",
+            "reimportSuccessText_one": "успешно импортирован {count} элемент. | успешно импортировано {count} элементов.",
             "reimportSuccessText_few": "успешно импортированы {count} элемента.",
             "reimportSuccessText_many": "успешно импортировано {count} элементов.",
-            "reimportPendingText_one": "ожидается {count} элемент без необходимых зависимостей.",
+            "reimportPendingText_one": "ожидается {count} элемент без необходимых зависимостей. | ожидается {count} элементов без необходимых зависимостей.",
             "reimportPendingText_few": "ожидается {count} элемента без необходимых зависимостей.",
             "reimportPendingText_many": "ожидается {count} элементов без необходимых зависимостей.",
             "noItemsToReimport": "Элементы для повторного импорта отсутствуют.",
@@ -706,7 +708,7 @@
         "import": {
             "importErrorTitle": "Не удалось импортировать",
             "readyForImport": "Элемент можно импортировать",
-            "v2BackupText_one": "{count} столкновение сохранено в раздел Импорт формата v2 для последующего импорта.",
+            "v2BackupText_one": "{count} столкновение сохранено в раздел Импорт формата v2 для последующего импорта. | {count} столкновений сохранено в раздел Импорт формата v2 для последующего импорта.",
             "v2BackupText_few": "{count} столкновения сохранено в раздел Импорт формата v2 для последующего импорта.",
             "v2BackupText_many": "{count} столкновений сохранено в раздел Импорт формата v2 для последующего импорта.",
             "stagedItems": "Элементы, запланированные для импорта",
@@ -759,7 +761,7 @@
             "generateShareCodeHelp": "Если вы загрузите кампанию в облачное хранилище, вам станет доступна генерация публичных кодов. Это позволит другим пользователям импортировать вашу кампанию в своё хранилище в @:{'common.appName'}. При генерации публичного кода в облачное хранилище загружается самая новая версия кампании (происходит при публикации новых версий).",
             "changeSectionType": "Изменить тип раздела",
             "versionExists": "Версия {version} уже есть!",
-            "importHelp": "Это позволит вам импортировать редактируемую и неопубликованную версию кампании {jsonFile} с вашего устройства.{br}Для импорта опубликованной кампании в вашу подборку в формате {lcd} вы можете использовать \"импорт файлов\" в меню {campaignCollection}, либо \"импорт кампаний\" в диалоговом меню вкладки {manageContent}, расположенной в самом низу главного меню .",
+            "importHelp": "Это позволит вам импортировать редактируемую и неопубликованную версию кампании {jsonFile} с вашего устройства.{br}Для импорта опубликованной кампании в вашу подборку в формате {lcd} вы можете использовать \"импорт файлов\" в меню {campaignCollection}, либо \"импорт кампаний\" в диалоговом меню вкладки {manageContent}, расположенной в самом низу главного меню.",
             "exportLcd": "Экспорт файла в формате .lcd",
             "exportLcdHelp": "Скачать дистрибутив кампании Lancer (.lcd), который другие пользователи могут импортировать себе в @:{'common.appName'}",
             "saveLocalHelp": "Сохранить копию этой кампании в режиме \"для чтения\" в Библиотеку кампаний на вашем устройстве (можно использовать в игровом режиме, либо для игры по сети)",
@@ -770,7 +772,7 @@
             "custom": "Пользовательский",
             "resetConfirm": "Это приведёт к сбросу всех характеристик к дефолтным значениям О{tier} {name}. Вы уверены, что хотите это сделать?",
             "addStat": "Добавить характеристику",
-            "statCount_one": "{n} характеристика",
+            "statCount_one": "{n} характеристика | {n} характеристик",
             "statCount_few": "{n} характеристики",
             "statCount_many": "{n} характеристик",
             "noStats": "Отсутствуют характеристики для отображения",
@@ -828,7 +830,7 @@
         "eidolonPrint": {
             "layer": "Слой",
             "persistentTraits": "Постоянные черты",
-            "newShards_one": "Новый осколок: {n}",
+            "newShards_one": "Новый осколок: {n} | Новых осколков: {n}",
             "newShards_few": "Новых осколков: {n}",
             "newShards_many": "Новых осколков: {n}"
         },
@@ -993,7 +995,7 @@
             "stagedEncounters": "Столкновения, запланированные для импорта",
             "notEncounterFile": "Файл не содержит данных столкновения.",
             "readyForImport": "Столкновение можно импортировать",
-            "importCount_one": "Импорт ({n} столкновение)",
+            "importCount_one": "Импорт ({n} столкновение) | Импорт ({n} столкновений)",
             "importCount_few": "Импорт ({n} столкновения)",
             "importCount_many": "Импорт ({n} столкновений)",
             "someMissingNpcs": "В ряде столкновений упоминаются ПВ, которые ещё не были импортированы. Упомянутые столкновения будут сохранены в подборку \"Импорт в формате v2\" в меню \"Управление материалами\". Повторный импорт станет возможен сразу после импорта необходимых ПВ.",
@@ -1040,7 +1042,7 @@
         "split": {
             "addType": "Добавить {type}",
             "createNewType": "Добавить новый {type}",
-            "itemsHidden_one": "{n} элемент был скрыт настройками поиска",
+            "itemsHidden_one": "{n} элемент был скрыт настройками поиска | {n} элементов были скрыты настройками поиска",
             "itemsHidden_few": "{n} элемента были скрыты настройками поиска",
             "itemsHidden_many": "{n} элементов были скрыты настройками поиска"
         },
@@ -1064,10 +1066,10 @@
         },
         "gmNotes": "Заметки ведущего",
         "npcAlert": {
-            "selectN_one": "Выберите {n} дополнительную способность",
+            "selectN_one": "Выберите {n} дополнительную способность | Выберите {n} дополнительных способностей",
             "selectN_few": "Выберите {n} дополнительные способности",
             "selectN_many": "Выберите {n} дополнительных способностей",
-            "selectUpTo_one": "Вы можете выбрать вплоть до {n} дополнительной способности",
+            "selectUpTo_one": "Вы можете выбрать вплоть до {n} дополнительной способности | Вы можете выбрать {n} дополнительных способностей",
             "selectUpTo_few": "Вы можете выбрать вплоть до {n} дополнительных способностей",
             "selectUpTo_many": "Вы можете выбрать вплоть до {n} дополнительных способностей",
             "selectionsComplete": "{source} выбор завершён"
@@ -1169,6 +1171,9 @@
             "manageNonPlayerCombatUnits": "Управление боевыми подразделениями ведущего",
             "manageCharactersLocationsAndFactions": "Управление персонажами, локациями и фракциями",
             "createCombatEncounters": "Создать боевое столкновение"
+        },
+        "npcFeatureSelector": {
+            "allAvailable": "Все доступные"
         }
     },
     "active": {
@@ -1315,7 +1320,10 @@
         "statblockExport": {
             "include": "Включить",
             "title": "Список боевых характеристик",
-            "exportText": "Экспорт списка характеристик в текстовом виде"
+            "exportText": "Экспорт списка характеристик в текстовом виде",
+            "notInCover": "Не в укрытии",
+            "techAttackShort": "Тех. ат.",
+            "save": "Порог испытания"
         },
         "scan": {
             "scan": "Сканировать"
@@ -1346,7 +1354,7 @@
             "nameLayer": "слой {name}",
             "noShards": "На указанном слое отсутствуют осколки",
             "persistentTraits": "Постоянные черты ({n})",
-            "generateShards_one": "Сконструировать {n} Осколок",
+            "generateShards_one": "Сконструировать {n} Осколок | Сконструировать {n} Осколков",
             "generateShards_few": "Сконструировать {n} Осколка",
             "generateShards_many": "Сконструировать {n} Осколков"
         },
@@ -1403,7 +1411,8 @@
             "itemDestroyed": "{type} уничтожен",
             "reduceActivations": "Это приведёт к снижению общего количества активаций на 1 и сбросит все трекеры действий.",
             "endActivation": "Конец активации (хода)",
-            "pilotGrit": "Закалка пилота"
+            "pilotGrit": "Закалка пилота",
+            "combatImage": "Отображение в бою"
         },
         "equipCmd": {
             "reload": "Перезарядить",
@@ -1534,7 +1543,7 @@
             "createNewEncounter": "Создать новое столкновение",
             "archivedEncounters": "Заархивированные столкновения ({n})",
             "noArchivedFound": "Заархивированных столкновений не найдено",
-            "roundsCount_one": "{n} раунд",
+            "roundsCount_one": "{n} раунд | {n} раундов",
             "roundsCount_few": "{n} раунда",
             "roundsCount_many": "{n} раундов",
             "afterActionReport": "Отчёт о результатах боя",
@@ -1693,7 +1702,7 @@
             "forceDeploy": "Принудительное развёртывание",
             "resistanceLine": "{condition} к {type} урону",
             "reactorDestroyed": "Реактор уничтожен",
-            "activationsRemaining_one": "В текущем раунде осталась {n} активация",
+            "activationsRemaining_one": "В текущем раунде осталась {n} активация | В текущем раунде осталось {n} активаций",
             "activationsRemaining_few": "В текущем раунде осталось {n} активации",
             "activationsRemaining_many": "В текущем раунде осталось {n} активаций",
             "coverLabel": "{cover} укрытие",
@@ -1747,7 +1756,7 @@
             "burnResolved": "Проверка (урон от Плавления) разрешена",
             "burnRequired": "Разрешите проверку (урон от Плавления) или проигнорируйте её до конца раунда.",
             "movementRemainingTitle": "У вас осталось неиспользованное передвижение",
-            "movementRemaining_one": "{n} клетка передвижения будет потеряна.",
+            "movementRemaining_one": "{n} клетка передвижения будет потеряна. | {n} клеток передвижения будут потеряны.",
             "movementRemaining_few": "{n} клетки передвижения будут потеряны.",
             "movementRemaining_many": "{n} клеток передвижения будут потеряны.",
             "youHaveRemainingActions": "У вас есть неиспользованные действия!"
@@ -2009,7 +2018,7 @@
         },
         "aar": {
             "next": "Далее",
-            "roundsValue_one": "{n} раунд",
+            "roundsValue_one": "{n} раунд | {n} раундов",
             "roundsValue_few": "{n} раунда",
             "roundsValue_many": "{n} раундов",
             "roundTag": "Р{n}:",
@@ -2019,8 +2028,11 @@
             "chartsTitle": "ГРАФИКИ"
         },
         "playMode": {
-            "undoChange": "Изменить режим",
-            "markUnused": "Отметить как непрочитанное"
+            "undoChange": "Изменить режим игры",
+            "markUnused": "Отметить как неиспользованное",
+            "label": "Режим игры",
+            "full": "Полный",
+            "simple": "Упрощённый"
         }
     },
     "mainMenu": {
@@ -2086,7 +2098,9 @@
             "dataIsOnlySyncedWhenYou": "Синхронизация происходит только когда вы нажимаете кнопку \"Синхронизировать\".",
             "syncOnOpenCloseDescription": "Синхронизация происходит в момент запуска и выхода из приложения. Синхронизация при выходе из приложения может не поддерживаться некоторыми браузерами.",
             "syncsAutomaticallyEvery30MinutesRequires": "Синхронизация происходит автоматически каждые 30 минут. Для использования этой опции необходима активная подписка на Patreon.",
-            "syncsAutomaticallyEvery60MinutesRequires": "Синхронизация происходит автоматически каждые 60 минут. Для использования этой опции необходима активная подписка на Patreon."
+            "syncsAutomaticallyEvery60MinutesRequires": "Синхронизация происходит автоматически каждые 60 минут. Для использования этой опции необходима активная подписка на Patreon.",
+            "allItemTypes": "Все типы элементов",
+            "noItemTypes": "Нет типов элементов"
         },
         "collection": {
             "colChanges": "Изменения",
@@ -2143,23 +2157,23 @@
         },
         "migration": {
             "migrateNow": "Мигрировать сейчас",
-            "npcsDetected_one": "{count} персонаж ведущего",
+            "npcsDetected_one": "{count} персонаж ведущего | {count} персонажей ведущего",
             "npcsDetected_few": "{count} персонажа ведущего",
             "npcsDetected_many": "{count} персонажей ведущего",
-            "encountersDetected_one": "{count} Столкновение",
+            "encountersDetected_one": "{count} Столкновение | {count} Столкновений",
             "encountersDetected_few": "{count} Столкновения",
             "encountersDetected_many": "{count} Столкновений",
             "contentPacksAvailable": "Контент-паки (если доступны)",
             "v2NotModified": "Ваши данные формата v2 {not} будут изменены или удалены в результате этой операции.",
             "downloading": "Скачивание и импорт данных формата v2…",
             "noData": "В вашем облачном хранилище формата v2 не обнаружено данных, пригодных для импорта.",
-            "encountersImported_one": "импортировано {count} столкновение",
+            "encountersImported_one": "импортировано {count} столкновение | импортировано {count} столкновений",
             "encountersImported_few": "импортировано {count} столкновения",
             "encountersImported_many": "импортировано {count} столкновений",
             "completedSuccess": "Миграция прошла успешно!",
             "dismissNote": "Эту панель можно безопасно закрыть. Если вам потребуется повторить миграцию, вы можете сделать это на вкладке \"Облачные данные\".",
             "retryMigration": "Повторить миграцию",
-            "pilotsDetected_one": "{count} пилот",
+            "pilotsDetected_one": "{count} пилот | {count} пилотов",
             "pilotsDetected_few": "{count} пилота",
             "pilotsDetected_many": "{count} пилотов",
             "title": "Миграция аккаунта на формат v3",
@@ -2183,7 +2197,7 @@
             "cloudFullArchive": "Облачное хранилище переполнено! Не удалось создать новые архивы.",
             "archiveSettings": "Настройки архива",
             "settingsDesc1": "@:{'common.appName'} может создавать и сохранять резервные копии ваших данных с выбранным интервалом. Эти архивы можно использовать для восстановления данных до предыдущего состояния.",
-            "pruneItems_one": "Убран {count} элемент",
+            "pruneItems_one": "Убран {count} элемент | Убрано {count} элементов",
             "pruneItems_few": "Убрано {count} элемента",
             "pruneItems_many": "Убрано {count} элементов",
             "preventPrune": "Предотвратить автоматическое удаление указанного элемента. Сохранённые архивы будут учитываться при расчёте ограничений размеров хранилища и доступного свободного места.",
@@ -2222,7 +2236,7 @@
         },
         "dataItem": {
             "retryConnection": "Повторная попытка подключения",
-            "deleteNItems_one": "Удалить {count} элемент",
+            "deleteNItems_one": "Удалить {count} элемент | Удалить {count} элементов",
             "deleteNItems_few": "Удалить {count} элемента",
             "deleteNItems_many": "Удалить {count} элементов",
             "convertToLocalDesc": "Убрать ссылку на источник в облаке. Данные хранятся локально.",
@@ -2298,7 +2312,7 @@
             "syncPartialText": "Не удалось полностью синхронизировать следующие элементы: {failures}. Это могло произойти в виду отсутствия локальных данных.",
             "syncCompleteTitle": "Синхронизировано {total}/{total} элементов",
             "syncCompleteText": "Все элементы были успешно синхронизированы.",
-            "deletionCompleteTitle_one": "{count} элемент был удалён навсегда",
+            "deletionCompleteTitle_one": "{count} элемент был удалён навсегда | {count} элементов были удалёны навсегда",
             "deletionCompleteTitle_few": "{count} элемента были удалёны навсегда",
             "deletionCompleteTitle_many": "{count} элементов были удалёны навсегда",
             "flaggedRemovedText": "Все помеченные элементы были удалены из облачного хранилища.",
@@ -2468,7 +2482,11 @@
             "roster": "Личный состав"
         },
         "desktop": {
-            "v2ImportsAwaitingResolution": "файлы импорта в формате v2 ожидают разрешения"
+            "v2ImportsAwaitingResolution": "файлы импорта в формате v2 ожидают разрешения",
+            "log": {
+                "campaign": "в разработке",
+                "about": "О @:{'common.appName'}"
+            }
         },
         "storageWarning": {
             "installCompconForReliableStorage": "Установите @:{'common.appName'} для надежного хранения данных",
@@ -2681,7 +2699,8 @@
             "pageBreak": "Разрыв страницы",
             "repairCapacityShort": "Ремзапас",
             "limitedBonusShort": "Модификатор РАС",
-            "limitedSystemShort": "РАС сис"
+            "limitedSystemShort": "РАС сис",
+            "maxStructure": "Максимальное значение Структуры"
         },
         "roster": {
             "history": "История отряда",
@@ -2720,13 +2739,13 @@
             "unitRegistrationReviewNotice": "Заполненные заявки на регистрацию подрзаделения будет рассмотрена сотрудниками Канцелярии АДС/КОМКАВ в порядке получения.",
             "unitRegistrationIntro": "Форма ИДЕНТ-CR-7a (РЕГИСТРАЦИЯ КАВАЛЕРИЙСКОГО ПОДРАЗДЕЛЕНИЯ) представляет собой автоматическую форму заявки на создание новых подразделений, в которые входят один или несколько пилотов, зарегистрированных в системе ИДЕНТ. Указанная форма заполняется пилотами, которые ещё не были прикомандированы к существующему подразделению, либо пилотами, которые впервые формируют новое подразделение. Если в ваше подразделение был направлен новый пилот, вам необходимо заполнить форму CR-7b (ОБНОВЛЕНИЕ ИНФОРМАЦИИ О КАВАЛЕРИЙСКОМ ПОДРАЗДЕЛЕНИИ).",
             "editGroupInformation": "Редактировать информацию об отряде",
-            "hiddenPilots_one": "{n} пилот скрыт",
+            "hiddenPilots_one": "{n} пилот скрыт | {n} пилотов скрыто",
             "hiddenPilots_few": "{n} пилота скрыто",
             "hiddenPilots_many": "{n} пилотов скрыто",
-            "andPilots_one": "и {n} Пилот",
+            "andPilots_one": "и {n} Пилот | и {n} Пилотов",
             "andPilots_few": "и {n} Пилота",
             "andPilots_many": "и {n} Пилотов",
-            "pilotCount_one": "{n} Пилот",
+            "pilotCount_one": "{n} Пилот | {n} Пилотов",
             "pilotCount_few": "{n} Пилота",
             "pilotCount_many": "{n} Пилотов",
             "groupDescription": "Описание отряда",
@@ -2737,7 +2756,8 @@
             "deletePilots": "Удалить пилотов",
             "selectPilotDataFile": "Выбор файла с данными о пилоте",
             "nameOrCallsign": "Имя или позывной…",
-            "setPilotGroup": "Задать отряд пилота"
+            "setPilotGroup": "Задать отряд пилота",
+            "deleteGroupTitle": "Удалить {name}?"
         },
         "shared": {
             "addMechSkillPoints": "Добавить {word} ({count}) пунктов навыков пилотирования.",
@@ -2760,10 +2780,10 @@
             "nb": "Обратите внимание",
             "issueCallsignInvalid": "ПОЗЫВНОЙ ПИЛОТА не заполнен, либо недействителен",
             "selectSkillTriggers": "Выберите {word} ({count}) навыков пилота.",
-            "selectLicenseRanks_one": "Выберите {word} ({count}) ранг лицензии.",
+            "selectLicenseRanks_one": "Выберите {word} ({count}) ранг лицензии. | Выберите {word} ({count}) рангов лицензии.",
             "selectLicenseRanks_few": "Выберите {word} ({count}) ранга лицензии.",
             "selectLicenseRanks_many": "Выберите {word} ({count}) рангов лицензии.",
-            "selectCoreBonusesN_one": "Выберите {word} ({count}) ключевое улучшение.",
+            "selectCoreBonusesN_one": "Выберите {word} ({count}) ключевое улучшение. | Выберите {word} ({count}) ключевых улучшений.",
             "selectCoreBonusesN_few": "Выберите {word} ({count}) ключевых улучшения.",
             "selectCoreBonusesN_many": "Выберите {word} ({count}) ключевых улучшений.",
             "improveMechSkills": "Улучшить навыки пилотирования",
@@ -2889,7 +2909,7 @@
             "equipment": "Снаряжение",
             "addReserve": "Добавить резерв",
             "coreBonusSelectionComplete": "Выбор ключевых улучшений завершён",
-            "coreBonusAvailable_one": "доступно {count} {mf} ключевое улучшение",
+            "coreBonusAvailable_one": "доступно {count} {mf} ключевое улучшение | доступно {count} {mf} ключевых улучшений",
             "coreBonusAvailable_few": "доступно {count} {mf} ключевых улучшения",
             "coreBonusAvailable_many": "доступно {count} {mf} ключевых улучшений",
             "exotic": "Особенное",
@@ -2910,7 +2930,8 @@
             "addSkill": "Добавить навык",
             "increaseSkillBonus": "Повысить модификатор навыка",
             "decreaseSkillBonus": "Понизить модификатор навыка",
-            "organizationInfluenceHelp": "Влияние обозначает размер, богатство, репутацию, а также возможность вашей организации оказывать влияние на кого-либо. Влияние может быть использовано для приобретения ресурсов, создания благоприятных ситуаций или изменения публичного мнения."
+            "organizationInfluenceHelp": "Влияние обозначает размер, богатство, репутацию, а также возможность вашей организации оказывать влияние на кого-либо. Влияние может быть использовано для приобретения ресурсов, создания благоприятных ситуаций или изменения публичного мнения.",
+            "projectFinished": "Завершено"
         },
         "link": {
             "tooManyRequestsPleaseTryAgain": "Слишком много запросов. Пожалуйста, повторите попытку позднее",
@@ -2928,10 +2949,10 @@
             "withShareCode": "с применением публичного кода",
             "mustBeReSyncedToThe": "должен быть повторно синхронизирован в аккаунте автора, прежде чем снова будет возможно посмотреть данные пилота.",
             "serverErrorTooManyRequests": "Ошибка сервера - слишком много запросов",
-            "retryMinutes_one": "{n} минута",
+            "retryMinutes_one": "{n} минута | {n} минут",
             "retryMinutes_few": "{n} минуты",
             "retryMinutes_many": "{n} минут",
-            "retrySeconds_one": "{n} секунда",
+            "retrySeconds_one": "{n} секунда | {n} секунд",
             "retrySeconds_few": "{n} секунды",
             "retrySeconds_many": "{n} секунд"
         },
@@ -3398,8 +3419,8 @@
         },
         "bond": {
             "bondPowers": "Способности уз",
-            "veteranPower": "Ветеранские способности",
-            "masterPower": "Исключительные способности",
+            "veteranPower": "Ветеранская способность",
+            "masterPower": "Исключительная способность",
             "minorIdeals": "Малые идеалы"
         },
         "lcp": {
@@ -3479,7 +3500,8 @@
             "itemFilters": "Фильтры предметов",
             "group": {
                 "none": "Без группировки"
-            }
+            },
+            "selectItem": "Выберите {item}"
         },
         "selectorScatter": {
             "xAxis": "Ось X",
@@ -3546,10 +3568,14 @@
             "copyShareLinkToClipboard": "Скопировать публичную ссылку в буфер обмена"
         },
         "eidolonLayer": {
-            "newShards": "Новые осколки: {n}"
+            "newShards": "Новые осколки: {count}"
         },
         "textEditor": {
             "editText": "Правка текста"
+        },
+        "bonus": {
+            "increases": "Увеличивает",
+            "decreases": "Снижает"
         }
     },
     "notify": {
@@ -3588,7 +3614,8 @@
             "collectionPublishedText": "Подборка {name} была опубликована с версией {version}",
             "collectionPublishFailedText": "Не удалось опубликовать подборку {name}",
             "cloudArchiveTitle": "Облачный архив",
-            "cloudArchiveCooldownText": "Вам необходимо подождать {seconds} секунд, а затем создать новый архив."
+            "cloudArchiveCooldownText": "Вам необходимо подождать {seconds} секунд, а затем создать новый архив.",
+            "syncedItems": "Успешно синхронизирован {n} элемент. | Успешно синхронизировано {n} элементов."
         },
         "gm": {
             "importCompleteTitle": "Импорт завершен",
@@ -3604,7 +3631,7 @@
             "uploadSuccessText": "Облачные данные обновлены!",
             "v2BackupTitle": "Импорт резервной копии v2",
             "npcImportErrorText": "Не удалось импортировать данные для ведущего: {error}",
-            "v2BackupText_one": "{count} элемент был сохранён в раздел ожидания на импорт в формате v2 в Управлении контентом.",
+            "v2BackupText_one": "{count} элемент был сохранён в раздел ожидания на импорт в формате v2 в Управлении контентом. | {count} элементов были сохранены в раздел ожидания на импорт в формате v2 в Управлении контентом.",
             "v2BackupText_few": "{count} элемента были сохранены в раздел ожидания на импорт в формате v2 в Управлении контентом.",
             "v2BackupText_many": "{count} элементов были сохранены в раздел ожидания на импорт в формате v2 в Управлении контентом.",
             "campaignPublishedTitle": "Кампания опубликована"
@@ -3635,7 +3662,7 @@
             "deletedPermanentlyTitle": "Элемент был безвозвратно удалён",
             "removedText": "Удалён {type} {name}.",
             "bulkPartialText": "Не удалось удалить: {items}",
-            "bulkDeletedTitle_one": "Удалён {n} элемент",
+            "bulkDeletedTitle_one": "Удалён {n} элемент | Удалено {n} элементов",
             "bulkDeletedTitle_few": "Удалено {n} элемента",
             "bulkDeletedTitle_many": "Удалено {n} элементов",
             "restoredText": "Восстановлено {type} {name}.",
@@ -3710,9 +3737,14 @@
         "generalOptions": "Стандартные опции для печати",
         "statblock": {
             "integratedMount": "Интегрированное крепление",
-            "noMechSelected": "Модель не выбрана",
+            "noMechSelected": "Мех не выбран",
             "edefShort": "Т. защ.",
-            "attackBonusValue": "Модификатор атаки"
+            "attackBonusValue": "Модификатор атаки {n}",
+            "sensorsShort": "Сенс",
+            "engi": "Инж. дело",
+            "structShort": "Струк",
+            "act": "Дейст",
+            "accuracyValue": "{n} Точность"
         }
     },
     "stats": {
@@ -3753,7 +3785,8 @@
         "includeMech": "Включить мех",
         "shareLink": "Поделиться ссылкой",
         "noShareCode": "Для указанного элемента отсутствует публичный код. Чтобы поделиться им, синхронизируйте его с вашим аккаунтом @:{'common.appName'}, нажав на кнопку \"Синхронизировать сейчас\" сверху.",
-        "shareCodesNote": "Публичной код позволяет любому пользователю с аккаунтом @:{'common.appName'} загрузить копию этого элемента и получать вносимые вами обновления. Пожалуйста, будьте внимательны при обмене данными с другими пользователями."
+        "shareCodesNote": "Публичной код позволяет любому пользователю с аккаунтом @:{'common.appName'} загрузить копию этого элемента и получать вносимые вами обновления. Пожалуйста, будьте внимательны при обмене данными с другими пользователями.",
+        "justNow": "Только что"
     },
     "compendium": {
         "categories": {
@@ -3823,7 +3856,7 @@
             "stagedCampaignData": "Запланированные к импорту данные кампании"
         },
         "search": {
-            "resultCount_one": "{count} результат",
+            "resultCount_one": "{count} результат | {count} результатов",
             "resultCount_few": "{count} результата",
             "resultCount_many": "{count} результатов"
         },
@@ -4002,27 +4035,30 @@
             "kia": "Убит в бою"
         },
         "syncItemCount": {
-            "item_one": "{n} элемент",
+            "item_one": "{n} элемент | {n} элементов",
             "item_few": "{n} элемента",
             "item_many": "{n} элементов",
-            "pilot_one": "{n} пилот",
+            "pilot_one": "{n} пилот | {n} пилотов",
             "pilot_few": "{n} пилота",
             "pilot_many": "{n} пилотов",
-            "unit_one": "{n} юнит",
+            "unit_one": "{n} юнит | {n} юнитов",
             "unit_few": "{n} юнита",
             "unit_many": "{n} юнитов",
-            "character_one": "{n} персонаж",
+            "character_one": "{n} персонаж | {n} персонажей",
             "character_few": "{n} персонажа",
             "character_many": "{n} персонажей",
-            "location_one": "{n} локация",
+            "location_one": "{n} локация | {n} локаций",
             "location_few": "{n} локации",
-            "location_many": "{n} локаций"
+            "location_many": "{n} локаций",
+            "npc": "{n} ПВ | {n} ПВ",
+            "collectionitem": "{n} элемент подборки | {n} элементов подборки",
+            "narrative": "{n} повествовательный элемент | {n} повествовательных элементов"
         }
     },
     "combat": {
         "timedEffect": {
             "retryMeltdown": "Попробуйте снова пройти проверку ИНЖЕНЕРНОГО ДЕЛА (полное действие), чтобы избежать расплава реактора",
-            "roundsRemaining_one": "Остался {n} раунд",
+            "roundsRemaining_one": "Остался {n} раунд | Осталось {n} раундов",
             "roundsRemaining_few": "Осталось {n} раунда",
             "roundsRemaining_many": "Осталось {n} раундов",
             "override": "Заменить",
@@ -4073,7 +4109,7 @@
         },
         "log": {
             "encounterStart": "Начало столкновения: {name}",
-            "encounterEnd_one": "Столкновение завершилось после {rounds} раунда: {result}",
+            "encounterEnd_one": "Столкновение завершилось после {rounds} раунда: {result} | Столкновение завершилось после {rounds} раундов: {result}",
             "encounterEnd_few": "Столкновение завершилось после {rounds} раундов: {result}",
             "encounterEnd_many": "Столкновение завершилось после {rounds} раундов: {result}",
             "roundStart": "Начало {round} раунда",
@@ -4117,6 +4153,17 @@
             "end": "в конце",
             "endsOnSelfTurn": "Заканчивается {when} вашего ({name}) хода",
             "endsOnOtherTurn": "Заканчивается {when} хода {name}"
+        }
+    },
+    "bonuses": {
+        "engineering": {
+            "title": "@:{'stats.engineering'}"
+        },
+        "engineeringCheck": {
+            "title": "@:{'stats.engineering'}"
+        },
+        "engineeringSave": {
+            "title": "@:{'stats.engineering'}"
         }
     }
 }
