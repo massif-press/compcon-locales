@@ -300,7 +300,11 @@
         "aStandardEnvironmentWithNoSpecial": "Um ambiente padrão, sem condições especiais de combate",
         "standardEncounterDescription": "Um confronto simples, com dois lados se enfrentando até que um deles seja derrotado ou destruído.",
         "titlePage": "Página de título",
-        "contributors": "Colaboradores"
+        "contributors": "Colaboradores",
+        "expressionVariable": {
+            "ll": "Nível de Licença",
+            "tier": "Patamar PNJ"
+        }
     },
     "nav": {
         "contentManager": {
