@@ -1414,5 +1414,7 @@
     "mw_prototype_2.description": "Получено при выборе таланта <i>\"Инженер\", ранг II</i>",
     "mw_prototype_3.description": "Получено при выборе таланта <i>\"Инженер\", ранг III</i>",
     "t_vanguard.rank_semper_vigilo.active_effect_semper_vigilo.name": "Всегда начеку",
-    "cb_integrated_weapon.action_integrated_weapon.trigger": "Вы стреляете из любого другого оружия, установленного на вашем мехе."
+    "cb_integrated_weapon.action_integrated_weapon.trigger": "Вы стреляете из любого другого оружия, установленного на вашем мехе.",
+    "mf_saladin.trait_reinforced_frame.description": "Саладин получает иммунитет к состоянию \"Изрешечён\".",
+    "mf_saladin.trait_reinforced_frame.active_effect_reinforced_frame.detail": "Вы получаете иммунитет к состоянию \"Изрешечён\"."
 }
