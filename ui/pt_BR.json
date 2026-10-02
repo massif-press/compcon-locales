@@ -259,7 +259,8 @@
         "tactics": "Táticas",
         "activateFreeAction": "Ativar (Ação Livre)",
         "damageDealt": "Causado",
-        "damageTaken": "Sofrido"
+        "damageTaken": "Sofrido",
+        "updated": "Atualizado"
     },
     "print": {
         "generalOptions": "Opções Gerais de Impressão"
