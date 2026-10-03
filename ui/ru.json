@@ -4329,7 +4329,8 @@
             "start": "в начале",
             "end": "в конце",
             "endsOnSelfTurn": "Заканчивается {when} вашего ({name}) хода",
-            "endsOnOtherTurn": "Заканчивается {when} хода {name}"
+            "endsOnOtherTurn": "Заканчивается {when} хода {name}",
+            "endsOnRound": "Заканчивается {when} раунда {round}"
         },
         "summary": {
             "criticalHit": "Критическое попадание!",
@@ -4340,11 +4341,13 @@
             "forDuration": "на {duration}",
             "damageTotal": "{value} {type}{tags} урон",
             "effectHeader": "{effect}:",
-            "apTag": "(ББ)"
+            "apTag": "(ББ)",
+            "targetExposed": "x2 (цель уязвима)"
         },
         "weaponUse": {
             "barrage": "Залп",
-            "skirmish": "Выпад"
+            "skirmish": "Выпад",
+            "additionalAux": "Доп. атака вспомогательным оружием"
         }
     },
     "bonuses": {
