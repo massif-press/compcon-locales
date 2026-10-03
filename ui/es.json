@@ -216,7 +216,7 @@
         "damage": "Daño",
         "pilots": "Pilotos",
         "bonds": "Lazos",
-        "gear": "EQUIPO",
+        "gear": "Equipo",
         "manufacturer": "Fabricante",
         "tags": "Descriptores",
         "uses": "Usos",
@@ -233,7 +233,7 @@
         "overkill": "Saña",
         "mechName": "Nombre Meca",
         "addTable": "Agregar Tabla",
-        "repairCap": "Lim. Reparaciones",
+        "repairCap": "Cap. Reparación",
         "allPilots": "Todos los Pilotos",
         "heatCapacity": "Capacidad de Calor",
         "repairCapacity": "Capacidad de Reparación",
@@ -309,7 +309,7 @@
             "interV3Default": "Inter (por defecto en v3)",
             "notoSansV3Alt": "Noto Sans (alternativa en v3 )",
             "helveticaV2Default": "Helvetica (por defecto en v2 )",
-            "opendyslexicExperimental": "OpenDyslexic (experimental)"
+            "opendyslexicExperimental": ""
         },
         "v2Import": {
             "deleteTitle": "Eliminar Respaldo",
@@ -397,6 +397,7 @@
             "resetAchievements": "Reiniciar Logros",
             "cannotAddTitle": "No Se Puede Añadir Logro",
             "hiddenCount_one": "{count} logro no mostrado",
+            "hiddenCount_many": "{count} logros no mostrados",
             "hiddenCount_other": "{count} logros no mostrados",
             "cannot": "no puede",
             "warningDataFull": "Esto {emphasis} los datos de progreso del usuario.",
@@ -459,7 +460,8 @@
             "deletedItems": "Artículos eliminados (sólo datos locales)",
             "deleteWarningBanner": "Advertencia // advertencia // advertencia",
             "areYouSure": "¿Está seguro de que desea continuar?",
-            "daysCount_one": "{count} días.",
+            "daysCount_one": "{count} día.",
+            "daysCount_many": "{count} días.",
             "daysCount_other": "{count} días.",
             "deleteConfirmUndone": "Este {undone}",
             "warningThresholdPct": "Umbral de alerta (%)",
@@ -494,15 +496,18 @@
         "packInstall": {
             "install": "Instalar",
             "alreadyInstalledWarning_one": "El siguiente paquete de contenido ya está instalado y será reemplazado:",
+            "alreadyInstalledWarning_many": "Los siguientes paquetes de contenido ya están instalados y serán reemplazados",
             "alreadyInstalledWarning_other": "Los siguientes paquetes de contenido ya están instalados y serán reemplazados",
             "dependencyError_one": "El siguiente paquete de contenido tiene dependencias no instaladas y no se puede instalar todavía. Será omitido:",
+            "dependencyError_many": "Los siguientes paquetes de contenido tienen dependencias no instaladas y no se pueden instalar todavía. Serán omitidos",
             "dependencyError_other": "Los siguientes paquetes de contenido tienen dependencias no instaladas y no se pueden instalar todavía. Serán omitidos",
             "willReplace": "Será reemplazado con esta copia.",
             "requiresContent": "Este LCP antes de añadirlo requiere que se instale el siguiente contenido",
             "byAuthorVersion": "por {author} {'@'} {version}",
             "byAuthorRequires": "por {author} requiere",
             "downgradeTo": "Degradar a {version}",
-            "installingPacks_one": "Instalar {count} paquete de contenido...",
+            "installingPacks_one": "Instalar {count} paquete de contenido…",
+            "installingPacks_many": "Instalar {count} paquetes de contenido…",
             "installingPacks_other": "Instalar {count} paquetes de contenido…",
             "willDowngradeTo": "Se degradará a {version}",
             "selectFile": "Seleccione un archivo .LCP",
@@ -513,7 +518,8 @@
             "upgradeFromTo": "Actualización de {from} a {to}",
             "noChange": "No hay cambio ({from} a {to})",
             "willUpgradeTo": "Se actualizará a v.{version}",
-            "patchStringCount_one": "{count} cadenas",
+            "patchStringCount_one": "{count} cadena",
+            "patchStringCount_many": "{count} cadenas",
             "patchStringCount_other": "{count} cadenas"
         },
         "packsDirectory": {
@@ -581,26 +587,33 @@
             "createConfig": "Crear configuración",
             "deleteConfig": "Eliminar esta configuración",
             "editConfig": "Editar esta configuración",
-            "lcpsList": "{list} LCPs",
+            "lcpsList": "",
             "noLcpsNotice": "No hay LCPs añadidos. Sólo contenido del {book} estará disponible."
         },
         "v2Auto": {
             "v2Data": "Datos V2",
             "migrationTitle": "Migración de datos V2",
             "pilotsImported_one": "{count} piloto importado",
+            "pilotsImported_many": "{count} pilotos importados",
             "pilotsImported_other": "{count} pilotos importados",
             "pilotsPending_one": "{count} piloto pendiente (LCPs faltantes)",
+            "pilotsPending_many": "{count} pilotos pendientes (LCPs faltantes)",
             "pilotsPending_other": "{count} pilotos pendientes (LCPs faltantes)",
             "npcsImported_one": "{count} PNJ importado",
+            "npcsImported_many": "{count} PNJs importados",
             "npcsImported_other": "{count} PNJs importados",
             "npcsPending_one": "{count} PNJ pendiente (LPCs faltantes)",
+            "npcsPending_many": "{count} PNJs pendientes (LPCs faltantes)",
             "npcsPending_other": "{count} PNJs pendientes (LPCs faltantes)",
             "encountersPending_one": "{count} encuentro pendiente (PNJs faltantes)",
+            "encountersPending_many": "{count} encuentros pendientes (PNJs faltantes)",
             "encountersPending_other": "{count} encuentros pendientes (PNJs faltantes)",
             "lcpsImported_one": "{count} paquete de contenido importado",
-            "lcpsImported_other": "{count} paquetes de contenido importado",
+            "lcpsImported_many": "{count} paquetes de contenido importados",
+            "lcpsImported_other": "{count} paquetes de contenido importados",
             "pendingNote": "Los elementos pendientes pueden ser reimportados en el panel Paquetes de Contenido después de instalar los LCP requeridos.",
             "errorsDuringMigration_one": "{count} error durante la migración",
+            "errorsDuringMigration_many": "{count} errores durante la migración",
             "errorsDuringMigration_other": "{count} errores durante la migración",
             "downloadBackup": "Descargar Respaldo v2",
             "autoMigrated": "Tus datos v2 se migraron automáticamente a v3 en el inicio.",
@@ -624,10 +637,13 @@
             "catFlavorText": "Texto Descriptivo",
             "catNpcStats": "Estadísticas PNJ",
             "foundFixable_one": "Hallado {count} problema reparable.",
+            "foundFixable_many": "Hallados {count} problemas reparables.",
             "foundFixable_other": "Hallados {count} problemas reparables.",
-            "requiresManual_one": "y {count} problema que requiere medidas manuales",
-            "requiresManual_other": "y {count} problemas que requieren medidas manuales",
+            "requiresManual_one": "{count} incidente requiere medidas manuales.",
+            "requiresManual_many": "{count} incidentes requieren medidas manuales.",
+            "requiresManual_other": "{count} incidentes requieren medidas manuales.",
             "applyFixesButton_one": "Aplicar {count} Reparación",
+            "applyFixesButton_many": "Aplicar {count} Reparaciones",
             "applyFixesButton_other": "Aplicar {count} Reparaciones"
         },
         "search": {
@@ -644,8 +660,10 @@
             "importedSuccessfully": "Importado correctamente.",
             "importFailedText": "Importación fallida: {error}",
             "reimportSuccessText_one": "{count} artículo importado con éxito.",
+            "reimportSuccessText_many": "{count} artículos importados con éxito.",
             "reimportSuccessText_other": "{count} artículos importados con éxito.",
             "reimportPendingText_one": "{count} artículo aún pendiente contenido faltante.",
+            "reimportPendingText_many": "{count} artículos aún pendientes contenido faltante.",
             "reimportPendingText_other": "{count} artículos aún pendientes contenido faltante.",
             "noItemsToReimport": "No hay artículos para reimportar.",
             "reimportFailedText": "Fallo en la re-importación: {error}",
@@ -686,6 +704,7 @@
             "encounterImportErrorText": "Fallo al importar encuentro:{error}",
             "v2BackupTitle": "Importado a Respaldos v2",
             "v2BackupText_one": "{count} encuentro guardado en Importados v2 para posterior importación.",
+            "v2BackupText_many": "{count} encuentros guardados en Importados v2 para posterior importación.",
             "v2BackupText_other": "{count} encuentros guardados en Importados v2 para posterior importación."
         },
         "campaign": {
@@ -748,6 +767,7 @@
             "confirmResetStats": "Confirme Reinicio de las Estadísticas",
             "addStat": "Añadir Estadística",
             "statCount_one": "{n} Estadística",
+            "statCount_many": "{n} Estadísticas",
             "statCount_other": "{n} Estadísticas"
         },
         "labelDialog": {
@@ -771,7 +791,8 @@
         "split": {
             "addType": "Añadir {type}",
             "createNewType": "Crear nuevo {type}",
-            "itemsHidden_one": "{n} artículos ocultos por filtrado",
+            "itemsHidden_one": "{n} artículo ocultos por filtrado",
+            "itemsHidden_many": "{n} artículos ocultos por filtrado",
             "itemsHidden_other": "{n} artículos ocultos por filtrado"
         },
         "itemCard": {
@@ -842,6 +863,7 @@
             "missingNpcs": "Este encuentro hace referencia a PNJs que aún no han sido importados. Se guardará en la colección Importados v2 en el Gestor de Contenidos y se podrá importar una vez que estén disponibles los PNJs requeridos.",
             "someMissingNpcs": "Algunos encuentros hacen referencia a PNJs que aún no han sido importados. Estos encuentros se guardarán en la colección Importados v2 en el Gestor de Contenidos y podrán ser importados cuando estén disponibles los PNJs requeridos.",
             "importCount_one": "Importar ({n} Encuentro)",
+            "importCount_many": "Importar ({n} Encuentros)",
             "importCount_other": "Importar ({n} Encuentros)"
         },
         "npcFeature": {
@@ -852,6 +874,7 @@
             "allAssignedFeatures": "Todas las Características Asignadas",
             "selectedClass": "Clase seleccionada",
             "selectedTemplate_one": "Plantilla seleccionada",
+            "selectedTemplate_many": "",
             "selectedTemplate_other": "Plantillas seleccionadas",
             "otherNpcClasses": "Otras Clases de PNJ",
             "otherNpcTemplates": "Otras Plantillas de PNJ",
@@ -865,8 +888,10 @@
         "npcAlert": {
             "selectionsComplete": "{source} selecciones completas",
             "selectUpTo_one": "Puede seleccionar hasta {n} característica adicional",
+            "selectUpTo_many": "Puede seleccionar hasta {n} características adicionales",
             "selectUpTo_other": "Puede seleccionar hasta {n} características adicionales",
             "selectN_one": "Seleccione {n} característica adicional",
+            "selectN_many": "Seleccione {n} características adicionales",
             "selectN_other": "Seleccione {n} características adicionales"
         },
         "npcTemplate": {
@@ -926,7 +951,8 @@
         "eidolonPrint": {
             "persistentTraits": "Rasgos Persistentes",
             "layer": "Capa",
-            "newShards_one": "Nuevos Fragmentos: {n}",
+            "newShards_one": "Nuevo Fragmento: {n}",
+            "newShards_many": "Nuevos Fragmentos: {n}",
             "newShards_other": "Nuevos Fragmentos: {n}"
         },
         "featurePrint": {
@@ -1125,6 +1151,15 @@
             "manageNonPlayerCombatUnits": "Gestionar unidades de combate no-jugadoras",
             "manageCharactersLocationsAndFactions": "Gestionar personajes, locaciones y facciones",
             "createCombatEncounters": "Crear encuentros de combate"
+        },
+        "npcSelection": {
+            "classExact": "El/La {name} elige {min} característica opcional adicional de la lista Características Opcionales de Clase {name} | El/La {name} elige {min} características opcionales adicionales de la lista Características Opcionales de Clase {name}",
+            "classExactPerTier": "El/La {name} elige {min} característica opcional adicional de la lista Características Opcionales de Clase {name} por Grado de PNJ | El/La {name} elige {min} características opcionales adicionales de la lista Características Opcionales de Clase {name} por Grado de PNJ",
+            "templateClassExact": "El/La {name} elige {min} característica opcional adicional de su clase | El/La {name} elige {min} características opcionales adicionales de su clase",
+            "templateClassExactPerTier": "El/La {name} elige {min} característica opcional adicional de su clase por Grado de PNJ | El/La {name} elige {min} características opcionales adicionales de su clase por Grado de PNJ",
+            "templateExact": "El/La {name} elige {min} opción de la lista Características Opcionales de Plantilla {name} | El/La {name} elige {min} opciones de la lista Características Opcionales de Plantilla {name}",
+            "templateMayExact": "El/La {name} puede elegir {min} opción de la lista Características Opcionales de Plantilla {name} | El/La {name} puede elegir {min} opciones de la lista Características Opcionales de Plantilla {name}",
+            "templatePerTier": "El/La {name} puede elegir una característica opcional adicional por Grado de PNJ | El/La {name} puede elegir {n} características opcionales adicionales por Grado de PNJ"
         }
     },
     "active": {
@@ -1221,7 +1256,8 @@
             "createNewEncounter": "Crear Nuevo Encuentro",
             "archivedEncounters": "Encuentros Archivados ({n})",
             "noArchivedFound": "No se hallaron encuentros archivados",
-            "roundsCount_one": "{n} Rondas",
+            "roundsCount_one": "{n} Ronda",
+            "roundsCount_many": "{n} Rondas",
             "roundsCount_other": "{n} Rondas",
             "afterActionReport": "Reporte Post-Acción",
             "copyReport": "Copiar Reporte",
@@ -1305,7 +1341,17 @@
             "sortByCreated": "Ordenar por tiempo de creación"
         },
         "organizer": {
-            "selected": "seleccionada"
+            "selected": "seleccionada",
+            "archiveHint": {
+                "sheet": "Mover hoja al archivo | Mover hojas seleccionadas al archivo",
+                "encounter": "Mover encuentro al archivo | Mover encuentros seleccionados al archivo",
+                "item": "Mover artículo al archivo | Mover artículos seleccionados al archivo"
+            },
+            "removeHint": {
+                "sheet": "Borrar hoja permanentemente | Borrar permanentemente las hojas seleccionadas",
+                "encounter": "Borrar encuentro permanentemente | Borrar permanentemente los encuentros seleccionados",
+                "item": "Borrar permanentemente artículo | Borrar permanentemente los artículos seleccionados"
+            }
         },
         "runnerHeader": {
             "lastSaved": "Guardado por Última Vez",
@@ -1334,7 +1380,8 @@
             "resolveBurn": "Resolver Incendio",
             "burnResolved": "Incendio resuelto",
             "burnRequired": "Resuelva o ignore su Incendio para terminar la ronda.",
-            "youHaveRemainingActions": "¡Tiene acciones restantes!"
+            "youHaveRemainingActions": "¡Tiene acciones restantes!",
+            "movementRemaining": "{n} casilla de movimiento se perderá. | {n} casillas de movimiento se perderán."
         },
         "joinTable": {
             "sortOnline": "Ordenar por Estado en línea",
@@ -1384,7 +1431,7 @@
             "setRound": "Seleccionar Ronda",
             "overrides": "Anula",
             "currentValue": "Actual",
-            "removeFromEncounter": "Quitar {name} Del Encuentro",
+            "removeFromEncounter": "Quitar {name} del encuentro",
             "noStatController": "No se halló Controlador de Estadística",
             "editReinforcements": "Editar Refuerzos",
             "noReinforcementSchedule": "No hay Agenda de Refuerzos",
@@ -1446,7 +1493,8 @@
             "reactorDestroyed": "Reactor destruido",
             "bracedDesc": "Usted cuenta como si tuviera RESISTENCIA a todo daño, calor y quemadura del ataque que provocó este Fortalecimiento, y hasta el final de su próximo turno, todos los otros ataques contra usted se hacen con +1 Dificultad.",
             "coverLabel": "{cover} cobertura",
-            "activationsRemaining_one": "{n} Activaciones restantes en esta ronda",
+            "activationsRemaining_one": "{n} Activación restante en esta ronda",
+            "activationsRemaining_many": "{n} Activaciones restantes en esta ronda",
             "activationsRemaining_other": "{n} Activaciones restantes en esta ronda",
             "aiControl": "Meca Controlado por IA",
             "selfDestructInitiated": "Auto destrucción iniciada"
@@ -1522,7 +1570,7 @@
             "exportText": "Exportar como Texto",
             "telemetry": "Telemetría",
             "rollup": {
-                "equipmentDestroyed": "Equipamiento Destruido",
+                "equipmentDestroyed": "Equipamiento destruido",
                 "deployables": "Desplegables"
             }
         },
@@ -1678,6 +1726,7 @@
             "persistentTraits": "Rasgos Persistentes ({n})",
             "noShards": "Capa no tiene Fragmentos",
             "generateShards_one": "Generar {n} Fragmento",
+            "generateShards_many": "Generar {n} Fragmentos",
             "generateShards_other": "Generar {n} Fragmentos"
         },
         "mechPanel": {
@@ -1765,7 +1814,7 @@
         },
         "customStatEditor": {
             "statValue": "Valor de Estadística",
-            "reactor": "Reactor",
+            "reactor": "",
             "activations": "Activaciones",
             "grapple": "Presa",
             "ram": "Embestir"
@@ -1804,6 +1853,9 @@
             "rollableTables": "Tablas de Tiradas",
             "encounterInfo": "Info de Encuentro",
             "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Lista descriptores presentes en personajes o equipamiento en este encuentro"
+        },
+        "aar": {
+            "roundsValue": "{n} ronda | {n} rondas"
         }
     },
     "mainMenu": {
@@ -1816,8 +1868,9 @@
             "syncPartialText": "Fallo de sincronización completa de los artículos {failures}. Esto puede deberse a la falta de datos locales.",
             "syncCompleteTitle": "{total}/{total} Artículos Sincronizados",
             "syncCompleteText": "Todos los artículos fueron sincronizados con éxito.",
-            "deletionCompleteTitle_one": "{count} Artículo Permanentemente Eliminado",
-            "deletionCompleteTitle_other": "{count} Artículos Permanentemente Eliminados",
+            "deletionCompleteTitle_one": "{count} Artículo Eliminado Permanentemente",
+            "deletionCompleteTitle_many": "{count} Artículos Eliminados Permanentemente",
+            "deletionCompleteTitle_other": "{count} Artículos Eliminados Permanentemente",
             "flaggedRemovedText": "Todos los elementos marcados han sido eliminados de la nube.",
             "noFlaggedText": "No se marcaron objetos para su eliminación.",
             "deletionFailedBulkText": "Se produjo un error al eliminar los elementos marcados.",
@@ -1844,7 +1897,7 @@
             "uploadDate": "Fecha de Carga",
             "lancerAndAbove": "Lancer (y superior)",
             "campaigns": "Campañas",
-            "lcps": "LCPs",
+            "lcps": "",
             "filename": "Nombre de Archivo",
             "paidLcpItchRequirement": "Contenido de LCP pagado requiere una compra itch.io enlazada antes de poder ser actualizados automáticamente. De momento, únicamente son soportados LCPs publicados por Massif."
         },
@@ -2062,16 +2115,20 @@
             "detectedText": "@:{'common.appName'} ha detectado que tiene una cuenta existente que aún no ha sido migrada al nuevo sistema de nube v3.",
             "migrationDesc": "{detected} La herramienta de migración de cuenta intentará transferir todos los datos de la nube v2 a la nueva plataforma v3. Este proceso puede tomar algún tiempo; por favor no refresque ni cierre la página durante el proceso de migración. Después de utilizar esta herramienta (o cerrarla), puede encontrarla de nuevo en la pestaña \"Datos de Nube\".",
             "pilotsDetected_one": "{count} Piloto",
+            "pilotsDetected_many": "{count} Pilotos",
             "pilotsDetected_other": "{count} Pilotos",
             "npcsDetected_one": "{count} PNJ",
+            "npcsDetected_many": "{count} PNJs",
             "npcsDetected_other": "{count} PNJs",
             "encountersDetected_one": "{count} Encuentro",
+            "encountersDetected_many": "{count} Encuentros",
             "encountersDetected_other": "{count} Encuentros",
             "contentPacksAvailable": "Paquetes de contenido (si están disponibles)",
             "v2NotModified": "Sus datos v2 {not} serán modificados o eliminados por este proceso.",
             "downloading": "Descargando e importando datos v2…",
             "noData": "No se encontraron datos importables en su almacenamiento en la nube v2.",
             "encountersImported_one": "{count} encuentro importado",
+            "encountersImported_many": "{count} encuentros importados",
             "encountersImported_other": "{count} encuentros importados",
             "completedSuccess": "¡Migración completada con éxito!",
             "dismissNote": "Este panel puede ser cerrado con seguridad. Si necesita reintentar la migración puede repetir este proceso desde la pestaña \"Datos de Nube\".",
@@ -2096,8 +2153,9 @@
             "settingsDesc1": "@:{'common.appName'} puede crear y guardar una copia de seguridad de sus datos en el intervalo seleccionado. Estos archivos se pueden utilizar para devolver sus datos a un estado anterior.",
             "settingsDesc2": "@:{'common.appName'} eliminará automáticamente archivos antiguos para guardar espacio. Este proceso funciona cuando se crea un nuevo archivo, o se puede activar manualmente haciendo clic en el botón Podar Artículos a continuación.",
             "storageLimit": "Límite de Almacenamiento",
-            "pruneItems_one": "Podado {count} Artículo",
-            "pruneItems_other": "Podados {count} Artículos",
+            "pruneItems_one": "Podar {count} Artículo",
+            "pruneItems_many": "Podar {count} Artículos",
+            "pruneItems_other": "Podar {count} Artículos",
             "nothingToPrune": "Nada para Podar",
             "fileSize": "Tamaño"
         },
@@ -2158,6 +2216,7 @@
             "deleteCloudItem": "Eliminar Artículo de Nube",
             "deleteCloudItemDesc": "Eliminar este artículo lo marcará como eliminado en la nube. No eliminará este artículo localmente, pero evitará que se sincronice a la nube o a otros dispositivos.",
             "deleteNItems_one": "Eliminar {count} Artículo",
+            "deleteNItems_many": "Eliminar {count} Artículos",
             "deleteNItems_other": "Eliminar {count} Artículos",
             "chooseDeleteMethod": "Elija cómo eliminar los elementos seleccionados"
         },
@@ -2294,7 +2353,7 @@
             "walkingArmorySelection": "Armería con patas// {selected}",
             "ammoCaseCost": "Coste::Caja de munición",
             "unionArmoryPrintid": "id impresión armería Unión",
-            "tapToAdd": "TOQUE Para añadir",
+            "tapToAdd": "Toque para añadir",
             "clickToAdd": "Clic Para añadir",
             "addNewLoadout": "Añadir Nuevo Equipamiento",
             "changeItem": "Cambiar Artículo",
@@ -2377,7 +2436,7 @@
             "formFieldBiography": "RM-4-04 // ARCHIVO BIOGRÁFICO ADJUNTO (SUPLEMENTO RM-4b)",
             "quickAccessSelection": "Prm-alt selección de acceso rápido",
             "mechArtCredit": "Arte de Mecha cortesía de",
-            "gmsEverest": "GMS everest"
+            "gmsEverest": ""
         },
         "sheet": {
             "exportLegacyJsonDescription": "Exportar este piloto como un archivo v2 JSON compatible con sistemas VTT y aplicaciones v2",
@@ -2567,11 +2626,14 @@
             "unitRegistrationReviewNotice": "La Oficina de Registros de la UAD/CAVCOM examinará la presentación del registro en el orden que se recibe.",
             "formFieldEncodedData": "CR-7-00 // datos remitidos codificados",
             "optional": "(Opcional)",
-            "hiddenPilots_one": "{n} piloto Oculto",
-            "hiddenPilots_other": "{n} pilotos Oculto",
+            "hiddenPilots_one": "{n} piloto oculto",
+            "hiddenPilots_many": "{n} pilotos ocultos",
+            "hiddenPilots_other": "{n} pilotos ocultos",
             "andPilots_one": "y {n} Piloto",
+            "andPilots_many": "y {n} Pilotos",
             "andPilots_other": "y {n} Pilotos",
             "pilotCount_one": "{n} Piloto",
+            "pilotCount_many": "{n} Pilotos",
             "pilotCount_other": "{n} Pilotos",
             "groupDescription": "Descripción Grupo",
             "setGroupEmblem": "Elegir Emblema de Grupo",
@@ -2601,6 +2663,7 @@
             "influence": "Influencia",
             "notInCompendium": "Los siguientes {type} no están presentes en el compendio",
             "coreBonusAvailable_one": "{count} {mf} Bono Base disponible",
+            "coreBonusAvailable_many": "{count} {mf} Bonos Base disponibles",
             "coreBonusAvailable_other": "{count} {mf} Bonos Base disponibles",
             "selectPilotBackground": "Seleccionar Trasfondo de Piloto",
             "addCustomReserve": "Añadir Reserva Personalizada",
@@ -2679,9 +2742,11 @@
             "addMechSkillPoints": "Añada {word} ({count}) Puntos de Habilidad Meca.",
             "selectPilotTalents": "Seleccione {word} ({count}) Talentos de Piloto.",
             "selectLicenseRanks_one": "Seleccione {word} ({count}) Rango de Licencia.",
+            "selectLicenseRanks_many": "Seleccione {word} ({count}) Rangos de Licencia.",
             "selectLicenseRanks_other": "Seleccione {word} ({count}) Rangos de Licencia.",
-            "selectCoreBonusesN_one": "Seleccione {word} ({count}) Base Bono.",
-            "selectCoreBonusesN_other": "Seleccione {word} ({count}) Base Bonos.",
+            "selectCoreBonusesN_one": "Seleccione {word} ({count}) Bono Base.",
+            "selectCoreBonusesN_many": "Seleccione {word} ({count}) Bonos Base.",
+            "selectCoreBonusesN_other": "Seleccione {word} ({count}) Bonos Base.",
             "coreBonusIneligible": "Piloto no eligible para bono base",
             "nb": "Tomar Nota",
             "otherClocks": "Otros Relojes",
@@ -2702,7 +2767,9 @@
             "eng": "Ing",
             "pilotBiography": "Biografía Piloto",
             "pilotAppearance": "Apariencia Piloto",
-            "serverErrorTooManyRequests": "Error de Servidor ‐ Demasiadas Peticiones"
+            "serverErrorTooManyRequests": "Error de Servidor ‐ Demasiadas Peticiones",
+            "retryMinutes": "{n} minuto | {n} minutos",
+            "retrySeconds": "{n} segundo | {n} segundos"
         },
         "common": {
             "installName": "Instalar {name}",
@@ -2821,7 +2888,7 @@
         },
         "mechSkillsSelector": {
             "mechHp": "PG MECA",
-            "limitedSystemsBonus": "BONO SISTEMAS LIMITADOS",
+            "limitedSystemsBonus": "Bonos Limitados por Sistemas",
             "hullSkillDescription": "Tu habilidad CASCO describe tu habilidad para construir y pilotar, mecas pesados y duraderos que puedan recibir puñetazos y seguir avante",
             "agilitySkillDescription": "Tu habilidad AGILIDAD describe tu habilidad para construir y pilotar mecas rápidos, evasivos",
             "systemsSkillDescription": "Tu habilidad SISTEMAS describe tu habilidad para construir y pilotar mecas técnicos con poderosas herramientas de guerra electrónica",
@@ -2831,6 +2898,9 @@
             "createAndModifyMechsAndTheirLoadouts": "Crear y Modificar Mecas y sus Equipamientos",
             "pilotSectionsSummary": "Detonantes de Piloto, Reservas, y Carga de Equipamiento de Piloto",
             "progressionSectionsSummary": "Licencias de Piloto, Habilidades Meca, Bonos BASE, y Talentos"
+        },
+        "logbook": {
+            "acrossN": "a través de {n} encuentro | a través de {n} encuentros"
         }
     },
     "share": {
@@ -2920,7 +2990,9 @@
             "serverError": "El servidor devolvió un error",
             "passwordFailedTitle": "La actualización de contraseña falló",
             "passwordChangedText": "Contraseña de usuario cambiada",
-            "updateCompleteTitle": "Actualización completada"
+            "updateCompleteTitle": "Actualización completada",
+            "syncedItems": "Sincronizado {n} artículo exitosamente. | Sincronizados {n} artículos exitosamente.",
+            "syncedPartial": "Sincronización {succeeded} de {n} artículo. {failed} fallida. | Sincronización {succeeded} de {n} artículos. {failed} fallida."
         },
         "achievement": {
             "unlockedTitle": "¡Logro Desbloqueado!"
@@ -2939,6 +3011,7 @@
             "campaignPublishedText": "La versión {version} de {name} ha sido publicada.",
             "campaignPublishedTitle": "Campaña Publicada",
             "v2BackupText_one": "{count} artículo guardado en las importaciones v2 pendientes en el Gestor de Contenidos.",
+            "v2BackupText_many": "{count} artículos guardados en las importaciones v2 pendientes en el Gestor de Contenidos.",
             "v2BackupText_other": "{count} artículos guardados en las importaciones v2 pendientes en el Gestor de Contenidos.",
             "v2BackupTitle": "Importar Respaldo v2",
             "npcImportErrorText": "No es posible importar datos DJ: {error}"
@@ -3002,6 +3075,7 @@
             "bulkPartialTitle": "{n} Eliminado, {f} Fallido",
             "bulkDeletedText": "Se han eliminado los elementos seleccionados.",
             "bulkDeletedTitle_one": "{n} Artículo Eliminado",
+            "bulkDeletedTitle_many": "{n} Artículos Eliminados",
             "bulkDeletedTitle_other": "{n} Artículos Eliminados"
         }
     },
@@ -3153,7 +3227,7 @@
             "remoteHelp": "Este {type} es un recurso remoto vinculado a la cuenta de otro usuario. Es sólo lectura y recibirá actualizaciones desde la cuenta vinculada.",
             "collectionHelp": "Este {type} está vinculado a una colección de contenidos. Es de solo lectura y recibirá actualizaciones cuando una nueva versión de la colección sea publicada por el autor de la colección.",
             "collectionResource": "Recurso de colección",
-            "addRemoteResourceInfo": "Añadir este artículo como recurso remoto creara una versión de solo lectura de este artículo vinculada a los datos originales del autor. Cuando el autor guarda una actualización a este artículo a su cuenta en la nube @:{'common.appName'}, su versión local puede recibir esos cambios."
+            "addRemoteResourceInfo": "Añadir este artículo como recurso remoto creara una versión de solo lectura de este artículo vinculada a los datos originales del autor. Cuando el autor guarde una actualización de este artículo a su cuenta en la nube @:{'common.appName'}, su versión local puede recibir esos cambios."
         },
         "dice": {
             "commitResult": "Enviar Resultado",
@@ -3263,6 +3337,7 @@
             "canBeAppliedTo": "Puede ser aplicado a",
             "weaponAttacks": "Esta arma puede hacer {count} ataques a la vez. Se pueden realizar múltiples ataques contra el mismo o diferentes objetivos.",
             "systemPoints_one": "Punto de sistema",
+            "systemPoints_many": "",
             "systemPoints_other": "Puntos de sistema",
             "kit": "Kit"
         },
@@ -3337,7 +3412,8 @@
             "vs": "VS",
             "diceD": "d",
             "self": "Propio",
-            "irreducibleNoExceptArmor": "Este daño puede ser reducido por las defensas del blanco, excepto la armadura"
+            "irreducibleNoExceptArmor": "Este daño puede ser reducido por las defensas del blanco, excepto la armadura",
+            "confirmKillHint": "{n} muerte será registrada | {n} muertes serán registradas"
         },
         "flow": {
             "request": {
@@ -3560,8 +3636,26 @@
             "kia": "MEA"
         },
         "syncItemCount": {
-            "item_one": "{n} artículos",
-            "item_other": "{n} artículos"
+            "item_one": "{n} artículo",
+            "item_many": "{n} artículos",
+            "item_other": "{n} artículos",
+            "pilot": "{n} piloto | {n} pilotos",
+            "pilotgroup": "{n} grupo de piloto | {n} grupos de pilotos",
+            "unit": "{n} unidad | {n} unidades",
+            "doodad": "",
+            "eidolon": "{n} eidolon | {n} eidolones",
+            "character": "{n} personaje | {n} personajes",
+            "faction": "{n} facción | {n} facciones",
+            "location": "{n} locación | {n} locaciones",
+            "encounter": "{n} encuentro | {n} encuentros",
+            "encounterinstance": "{n} encuentro activo | {n} encuentros activos",
+            "encounterarchive": "{n} encuentro archivado | {n} encuentros archivados",
+            "pilotsheet": "{n} hoja de piloto | {n} hojas de piloto",
+            "pilotlogbook": "{n} diario de navegación | {n} diarios de navegación",
+            "campaign": "{n} campaña | {n} campañas",
+            "npc": "{n} PNJ | {n} PNJs",
+            "collectionitem": "{n} artículo de colección | {n} artículos de colección",
+            "narrative": "{n} artículo narrativo | {n} artículos narrativos"
         }
     },
     "compendium": {
@@ -3606,6 +3700,7 @@
         },
         "search": {
             "resultCount_one": "{count} resultado",
+            "resultCount_many": "{count} resultados",
             "resultCount_other": "{count} resultados"
         },
         "content": {
@@ -3689,7 +3784,8 @@
     },
     "combat": {
         "timedEffect": {
-            "roundsRemaining_one": "{n} Rondas restantes",
+            "roundsRemaining_one": "{n} Ronda restante",
+            "roundsRemaining_many": "{n} Rondas restantes",
             "roundsRemaining_other": "{n} Rondas restantes",
             "override": "Anular"
         },
@@ -3708,6 +3804,14 @@
             "reroll": "Re-lanzar",
             "rollCheck": "Tirar {check}",
             "rollPrompt": "Tirar {n}d{die} y elegir el más bajo"
+        },
+        "log": {
+            "encounterEnd": "Encuentro terminado tras {rounds} ronda: {result} | Encuentro terminado tras {rounds} rondas: {result}",
+            "turnStart": "{who} inició un turno ({n} activación restante) | {who} inició un turno ({n} activaciones restantes)",
+            "turnEnd": "{who} terminó un turno ({n} activación restante) | {who} terminó un turno ({n} activaciones restantes)",
+            "meltdown": {
+                "scheduled": "el reactor de {who} se fundirá en {turns} turno | el reactor de {who} se fundirá en {turns} turnos"
+            }
         }
     }
 }

@@ -564,12 +564,12 @@
         "dataItem": {
             "bulkDeletedText": "선택된 아이템이 제거되었습니다.",
             "bulkPartialTitle": "{n}개 제거됨, {f}개 실패",
-            "bulkDeletedTitle_other": "{n} 개의 아이템 제거됨"
+            "bulkDeletedTitle": "{n} 개의 아이템 제거됨"
         }
     },
     "combat": {
         "timedEffect": {
-            "roundsRemaining_other": "{n} 라운드 남음"
+            "roundsRemaining": "{n} 라운드 남음"
         },
         "structureCheck": {
             "structure": "구조 피해"
