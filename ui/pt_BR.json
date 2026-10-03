@@ -263,7 +263,26 @@
         "updated": "Atualizado"
     },
     "print": {
-        "generalOptions": "Opções Gerais de Impressão"
+        "generalOptions": "Opções Gerais de Impressão",
+        "statblock": {
+            "integratedMount": "Encaixe Integrado",
+            "noMechSelected": "Nenhum Mecha Selecionado",
+            "repair": "Reparo",
+            "speedShort": "Vel",
+            "evasionShort": "Eva",
+            "edefShort": "EDef",
+            "sensorsShort": "Sens",
+            "engi": "Eng",
+            "limited": "Limitado",
+            "sense": "Sensores",
+            "structShort": "Estrut",
+            "act": "Ativ",
+            "buildHeader": "{source} {frame} {'@'} NL{n}",
+            "accuracyValue": "{n} Precisão",
+            "attackBonusValue": "{n} Bônus de Ataque",
+            "attacksPerActivation": "{n} Ataques/Ativação",
+            "save": "Salvamento"
+        }
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -303,7 +322,15 @@
         "contributors": "Colaboradores",
         "expressionVariable": {
             "ll": "Nível de Licença",
-            "tier": "Patamar PNJ"
+            "tier": "Patamar PNJ",
+            "structure": "Estrutura Máxima",
+            "stress": "Estresse Máximo do Reator",
+            "hp": "PV Máximo",
+            "currentStructure": "Estrutura Atual",
+            "currentStress": "Estresse Atual do Reator",
+            "currentHp": "PV Atual",
+            "heat": "Calor Atual",
+            "save": "Valor de Salvamento"
         }
     },
     "nav": {
@@ -662,7 +689,16 @@
             "applyFixesButton_one": "Aplicar {count} correção | Aplicar {count} correções",
             "applyFixesButton_many": "",
             "applyFixesButton_other": "",
-            "catLcpFlavorState": "Texto Personalizado de LCP"
+            "catLcpFlavorState": "Texto Personalizado de LCP",
+            "applyingFixes": "Aplicando correções ({progress} / {total})...",
+            "finding": {
+                "flavorMatchesDescription": "A descrição de ambientação corresponde ao texto de descrição do item",
+                "unresolvedOrigin": "O recurso tem origem em formato de objeto não resolvida; pode ser resolvido agora",
+                "unresolvableOrigin": "O recurso tem origem irresolvível. Exclua e reinstale o LCP para recuperar",
+                "missingFeature": "O recurso referenciado por \"{owner}\" está ausente. Reinstale o LCP \"{pack}\" para recuperar",
+                "bakedNpcState": "O recurso carrega estado por PNJ ({fields}) embutido nos dados do LCP",
+                "malformedNpcData": "O PNJ possui campos de dados v2 malformados que serão limpos ao salvar"
+            }
         },
         "achievementItem": {
             "dataRedacted": "Dados ocultados",
@@ -721,7 +757,8 @@
         "publicLinkNoteBold": "URL acessível publicamente",
         "sheetStyle": "Estilo da ficha",
         "includeMech": "Incluir mecha",
-        "noShareCode": "Este item não possui um código de compartilhamento. Para compartilhá-lo, sincronize-o com sua conta do @:{'common.appName'} clicando no botão \"Sincronizar Agora\" acima."
+        "noShareCode": "Este item não possui um código de compartilhamento. Para compartilhá-lo, sincronize-o com sua conta do @:{'common.appName'} clicando no botão \"Sincronizar Agora\" acima.",
+        "justNow": "Agora mesmo"
     },
     "compendium": {
         "returnToCompendium": "Retornar ao Compêndio",
@@ -762,7 +799,9 @@
             "lancerBasics": "Básico de Lancer",
             "usingCompcon": "usando @:{'common.appName'}",
             "narrativePlay": "jogo narrativo",
-            "statusConditions": "Condições"
+            "statusConditions": "Condições",
+            "combat": "Combate",
+            "mechs": "Mechas"
         },
         "search": {
             "resultCount_one": "{count} resultado | {count} resultados",
@@ -846,6 +885,10 @@
             "lineAreaOfEffect": "Área de Efeito \"Linha\"",
             "coneAreaOfEffect": "Área de Efeito \"Cone\"",
             "lcpContentHint": "Denota conteúdo adicionado por um arquivo Lancer Content Pack (.lcp)"
+        },
+        "searchBar": {
+            "searchTheCompendium": "Pesquisar no Compêndio",
+            "searchTheReference": "Pesquisar na Referência"
         }
     },
     "ui": {
@@ -1223,7 +1266,28 @@
             "explosiveDamage": "Dano Explosivo",
             "variableDamage": "Dano Variável",
             "evade": "Evasão",
-            "itemFilters": "Filtros de Item"
+            "itemFilters": "Filtros de Item",
+            "selectItem": "Selecionar {item}",
+            "view": {
+                "single": "Visualização Individual",
+                "list": "Visualização em Lista",
+                "table": "Visualização em Tabela",
+                "cards": "Visualização em Cartões",
+                "scatter": "Visualização em Dispersão",
+                "bar": "Visualização em Gráfico",
+                "compare": "Visualização de Comparação"
+            },
+            "group": {
+                "source": "Agrupar por Fonte",
+                "lcp": "Agrupar por LCP",
+                "license": "Agrupar por Licença",
+                "type": "Agrupar por Subtipo de Item",
+                "role": "Agrupar por Função do PNJ",
+                "featureType": "Agrupar por Tipo de Recurso",
+                "origin": "Agrupar por Origem",
+                "bond": "Agrupar por Vínculo",
+                "none": "Sem Agrupamento"
+            }
         },
         "selectorScatter": {
             "xAxis": "Eixo X",
@@ -1259,7 +1323,8 @@
         "remoteArchive": {
             "linkImage": "Vincular Imagem",
             "externalDataWarning": "Aviso de Dados Externos",
-            "linkARemotelyHostedImageTo": "Vincule uma imagem hospedada remotamente a este ativo. Essas imagens não são armazenadas nem gerenciadas pelo COMP/CON e estão sujeitas a alterações ou remoção com base em seus hosts."
+            "linkARemotelyHostedImageTo": "Vincule uma imagem hospedada remotamente a este ativo. Essas imagens não são armazenadas nem gerenciadas pelo COMP/CON e estão sujeitas a alterações ou remoção com base em seus hosts.",
+            "deleteImageConfirm": "Isso excluirá este link de imagem da sua biblioteca. Deseja continuar?"
         },
         "chips": {
             "resetAllInputs": "Resetar Todas as Entradas",
@@ -1288,6 +1353,25 @@
             "pleaseUseResponsibly": "Por favor, use com responsabilidade",
             "copyShareCodeToClipboard": "Copiar código de compartilhamento para a área de transferência",
             "copyShareLinkToClipboard": "Copiar link de compartilhamento para a área de transferência"
+        },
+        "eidolonLayer": {
+            "newShards": "Novos Fragmentos: {count}"
+        },
+        "coreSystemPanel": {
+            "title": "Sistema de Núcleo {frame}"
+        },
+        "textEditor": {
+            "editText": "Editar Texto"
+        },
+        "bonus": {
+            "increasesBy": "Aumenta {target} em {value}",
+            "decreasesBy": "Diminui {target} em {value}",
+            "setsTo": "Define {target} para {value}",
+            "takeAccuracy": "{target} recebe {n} de Precisão",
+            "takeDifficulty": "{target} recebe {n} de Dificuldade",
+            "increases": "Aumenta",
+            "decreases": "Diminui",
+            "unknown": "BÔNUS DESCONHECIDO"
         }
     },
     "stats": {
@@ -1698,7 +1782,8 @@
             "selectDataFile": "Selecionar Arquivo de Dados",
             "optional": "Opcional",
             "convertToLocalWarning": "A conversão deste item em dados locais permitirá a edição local, mas removerá seu vínculo remoto com a conta na nuvem do autor e impedirá que quaisquer atualizações futuras sejam recebidas. Para reativar a sincronização remota, você terá que importar este item novamente através do seu código de compartilhamento.",
-            "confirmDuplicationOfThisNpc": "Confirmar duplicação desse PNJ"
+            "confirmDuplicationOfThisNpc": "Confirmar duplicação desse PNJ",
+            "searchCollection": "Procurar {collection}"
         },
         "gmLabelEditor": {
             "valueOptional": "Valor (opcional)",
@@ -1742,7 +1827,9 @@
             "selectEncounterFile": "Selecionar Arquivo de Encontro",
             "enemyForces": "FORÇAS INIMIGAS",
             "alliedForces": "FORÇAS ALIADAS",
-            "sortBy": "Ordenar Por"
+            "sortBy": "Ordenar Por",
+            "searchEncounters": "Procurar Encontros",
+            "confirmRemoveCombatant": "Confirmar exclusão de {name} do encontro"
         },
         "npcRoster": {
             "selectLayer": "Selecionar Camada",
@@ -1810,6 +1897,10 @@
             "templatePerTier_one": "O {name} pode escolher uma característica opcional adicional por Grau de NPC | O {name} pode escolher {n} características opcionais adicionais por Grau de NPC",
             "templatePerTier_many": "",
             "templatePerTier_other": ""
+        },
+        "npcFeatureSelector": {
+            "allAvailable": "Todos Disponíveis",
+            "allAssigned": "Todos Atribuídos"
         }
     },
     "notify": {
@@ -2194,7 +2285,8 @@
                 "item_one": "Remover Item permanentemente",
                 "item_many": "Remover Itens selecionados permanentemente",
                 "item_other": "Remover Itens selecionados permanentemente"
-            }
+            },
+            "organizeCollection": "Organizar {collection}"
         },
         "runnerHeader": {
             "lastSaved": "Último Salvamento",
@@ -2326,7 +2418,11 @@
             "rollDice": "Rolar Dados",
             "rollResult": "Resultado da Rolagem",
             "noRolls": "Nenhuma rolagem ainda.",
-            "sessionHistory": "Histórico da Sessão"
+            "sessionHistory": "Histórico da Sessão",
+            "actorRolled": "{name} rolou:",
+            "gmRolled": "Mestre Rolou:",
+            "accuracyShort": "PRE",
+            "difficultyShort": "DIF"
         },
         "toolPalette": {
             "tagReference": "Referência de Tags",
@@ -2399,7 +2495,10 @@
             "statusesConditions": "Status/Condições",
             "counters": "Contadores",
             "endActivation": "Terminar Ativação",
-            "pilotGrit": "Brio do Piloto"
+            "pilotGrit": "Brio do Piloto",
+            "combatImage": "Imagem de Combate",
+            "setCombatImage": "Definir Imagem de Combate",
+            "clearCombatImage": "Limpar Imagem de Combate"
         },
         "damageMenu": {
             "takeDamage": "Sofrer Dano",
@@ -2495,7 +2594,10 @@
             "filterKind": "Filtrar por Evento",
             "allRounds": "Todas as Rodadas",
             "showing": "Exibindo {shown} de {total} entradas",
-            "noMatches": "Nenhum item corresponde ao seu filtro atual."
+            "noMatches": "Nenhum item corresponde ao seu filtro atual.",
+            "combatLogTitle": "Registro de Combate de {name}",
+            "combatTelemetryTitle": "Telemetria de Combate de {name}",
+            "currentStatsTitle": "Atributos Atuais de {name}"
         },
         "dmgCond": {
             "title": "Resist. / imune / vuln.",
@@ -2511,7 +2613,21 @@
         "statblockExport": {
             "title": "Bloco de Estatísticas de Combate",
             "include": "Incluir",
-            "exportText": "Exportar Bloco de Estatísticas em Texto"
+            "exportText": "Exportar Bloco de Estatísticas em Texto",
+            "notInCover": "Sem cobertura",
+            "inSoftCover": "Em cobertura leve",
+            "inHardCover": "Em cobertura pesada",
+            "corePower": "Poder de Núcleo: {value}",
+            "aiControlled": "CONTROLADO POR IA",
+            "selfDestruct": "AUTODESTRUIÇÃO INICIADA // T-{n}",
+            "techAttackShort": "Atq. Tec.",
+            "usesCount": "{uses} / {max} Usos",
+            "ready": "PRONTO",
+            "recharge": "recarregar {n}+",
+            "mechLoadoutHeader": "EQUIPAMENTO DO MECHA",
+            "noActiveMech": "Nenhum mecha ativo",
+            "roundHeader": "{name} - Rodada {round} ({date})",
+            "save": "Salvar"
         },
         "statusCond": {
             "title": "Status / Condições",
@@ -2731,7 +2847,14 @@
             "columnsLabel": "Dividir painéis em colunas",
             "showPortraitsTooltip": "Ocultar imagens dos retratos dos combatentes para caber mais informações na tela.",
             "showFlavor": "Mostar texto flavor",
-            "showFlavorTooltip": "Mostre texto descritivo e de história em cartas de equipamentos e recursos. Desative para ver apenas as regras."
+            "showFlavorTooltip": "Mostre texto descritivo e de história em cartas de equipamentos e recursos. Desative para ver apenas as regras.",
+            "layoutFor": "Layout para",
+            "actionGrouping": "Paleta de Ações",
+            "actionGroupings": {
+                "none": "Sem Agrupamento",
+                "standard": "Padrão",
+                "byType": "Por Tipo de Ação"
+            }
         },
         "charts": {
             "round": "Rodada",
@@ -2837,7 +2960,10 @@
             "reclaimControl": "Recuperar Controle",
             "markYourMechAsInCascade": "Marque seu mecha como EM CASCATA",
             "resetUses": "Redefinir Usos",
-            "toggleDestroyed": "Alternar Destruído"
+            "toggleDestroyed": "Alternar Destruído",
+            "cedeControlTooltip": "Ceda o controle do seu mecha para a PNH como uma Ação de Protocolo.",
+            "reclaimControlTooltip": "Retome o controle do seu mecha da PNH como uma Ação de Protocolo.",
+            "forceRecharge": "Forçar Recarga (Recarrega com: {recharge}+)"
         },
         "layoutOptionsControls": {
             "maxLoadoutFeatureSetColumns": "Colunas Máx de Equipamento / Conjunto de Sistemas",
@@ -2924,7 +3050,29 @@
             "mechStatus": "Status do Mecha",
             "next": "Próximo",
             "recordedStatuses": "STATUS REGISTRADOS"
-        }
+        },
+        "actionPalette": {
+            "markUsed": "Marcar Ação {type} como Usada",
+            "markUnused": "Marcar Ação {type} como Não Usada"
+        },
+        "playMode": {
+            "label": "Modo de Jogo",
+            "full": "Completo",
+            "simple": "Simples",
+            "fullDescription": "Automação de regras, caixas de diálogo de ataques e testes, roladores de dados, registros e telemetria.",
+            "simpleDescription": "Atributos, rastreadores, condições e equipamentos. As ações são apenas marcadas como usadas. Ideal para mesas virtuais e presenciais.",
+            "defaultTitle": "Modo de Jogo Padrão",
+            "defaultDescription": "O modo de jogo padrão em que novos encontros e fichas de piloto iniciam. Pode ser alterado nas opções de cada encontro.",
+            "undoChange": "Alterar modo de jogo",
+            "markUnused": "Marcar como não usado",
+            "hidingUnavailableActions": "Ocultando ações que não podem ser realizadas. Clique para mostrá-las.",
+            "showingUnavailableActions": "Mostrando ações que não podem ser realizadas. Clique para ocultá-las."
+        },
+        "options": {
+            "autosaveEncounterTooltip": "Salvar dados do encontro automaticamente ao final de cada rodada. Padrão: ATIVADO.",
+            "autosaveSheetTooltip": "Salvar dados da Ficha de Personagem automaticamente ao final de cada rodada. Padrão: ATIVADO."
+        },
+        "logsAndTelemetryTitle": "{name} - REGISTROS E TELEMETRIA"
     },
     "mainMenu": {
         "codeEntry": {
@@ -3055,7 +3203,9 @@
             "linkPatreon": "Vincular Patreon",
             "linkInfo": "Se você é assinante do Patreon do @:{'common.appName'}, vincular sua conta do Patreon aumentará seu espaço de armazenamento máximo na nuvem e desbloqueará a criação de tabelas em tempo real no modo do Mestre.",
             "tierName": "Patamar {title}",
-            "freeTier": "Livre"
+            "freeTier": "Livre",
+            "thanksFollowing": "Obrigado por acompanhar o projeto @:{'common.appName'}!",
+            "thanksSupport": "Obrigado pelo seu generoso apoio ao @:{'common.appName'}!"
         },
         "syncSettings": {
             "syncItems": "Sincronizar Itens",
@@ -3084,7 +3234,9 @@
             "dataIsOnlySyncedWhenYou": "Os dados só são sincronizados quando você clica em Sincronizar.",
             "syncOnOpenCloseDescription": "Sincroniza quando você abre e fecha o aplicativo. A sincronização ao fechar pode não ser suportada em todos os navegadores.",
             "syncsAutomaticallyEvery30MinutesRequires": "Sincroniza automaticamente a cada 30 minutos. Requer apoiador no Patreon.",
-            "syncsAutomaticallyEvery60MinutesRequires": "Sincroniza automaticamente a cada 60 minutos. Requer apoiador no Patreon."
+            "syncsAutomaticallyEvery60MinutesRequires": "Sincroniza automaticamente a cada 60 minutos. Requer apoiador no Patreon.",
+            "allItemTypes": "Todos os Tipos de Itens",
+            "noItemTypes": "Nenhum Tipo de Item"
         },
         "collection": {
             "byAuthor": "Por {author}",
@@ -3119,7 +3271,8 @@
             "accountDetails": "Detalhes da Conta",
             "accountDeletion": "Exclusão de Conta",
             "accountIdHelp": "Seu ID de conta exclusivo. Ele é usado para identificar sua conta na nuvem e pode ser solicitado para fins de solução de problemas.",
-            "usernameOptional": "Este é um campo <b>opcional</b> que você pode usar para definir um nome personalizado para sua conta. Esse nome de usuário <b>ficará</b> visível para outros usuários no modo ativo e ao compartilhar dados."
+            "usernameOptional": "Este é um campo <b>opcional</b> que você pode usar para definir um nome personalizado para sua conta. Esse nome de usuário <b>ficará</b> visível para outros usuários no modo ativo e ao compartilhar dados.",
+            "accountEmailTooltip": "Este é o endereço de e-mail associado à sua conta. Você pode usá-lo para fazer login no @:{'common.appName'}, Nautilus e outros aplicativos da Massif. Este endereço é visível apenas para você e <b>não será</b> exibido para outros usuários no modo ativo ou em dados compartilhados."
         },
         "deleteAccount": {
             "intro": "Esta ferramenta excluirá sua conta e todos os dados associados. Isso inclui",
@@ -3170,7 +3323,8 @@
             "deletedCollectionInfo": "A coleção \"{name}\" foi excluída pelo autor. Embora seus dados locais não tenham sido removidos, você não receberá mais atualizações desta coleção.",
             "authorContentShort": "Conteúdo do Autor",
             "authorContentHeader": "ASSINATURAS DE CONTEÚDO DO AUTOR",
-            "lcpHeader": "LCP de assinaturas"
+            "lcpHeader": "LCP de assinaturas",
+            "authorContentTooltip": "Você pode se inscrever em autores de conteúdo de dados do @:{'common.appName'} para receber atualizações quando eles publicarem novos conteúdos. Isso pode incluir pilotos, dados de Mestre como PNJs e Elementos Narrativos, e conteúdo de coleções limitadas ou reservadas, como homebrews específicos de mesas. Você pode adicionar novas inscrições inserindo o ID de Coleção de Conteúdo (CSID) do autor na lista abaixo.<br /><br /><strong>Nem a Massif Press nem o desenvolvedor do @:{'common.appName'} se responsabilizam por qualquer conteúdo publicado na coleção de qualquer autor. Inscreva-se em autores a seu próprio critério.</strong>"
         },
         "storage": {
             "iosWarning": "Navegadores iOS limitam o armazenamento para sites e podem {emphasis} após 7 dias de inatividade. Para evitar a perda de dados, instale o @:{'common.appName'} na sua tela inicial",
@@ -3267,7 +3421,8 @@
             "header": "PUBLICAÇÃO DE COLEÇÃO DE CONTEÚDO",
             "nameRequired": "Nome (obrigatório)",
             "authorRequired": "Autor (obrigatório)",
-            "noPublishingAccess": "Você não tem acesso à ferramenta de publicação de coleções."
+            "noPublishingAccess": "Você não tem acesso à ferramenta de publicação de coleções.",
+            "headerTooltip": "Através desta ferramenta você pode criar e publicar coleções de conteúdo do @:{'common.appName'} para outros usuários, que poderão se inscrever em suas coleções e receber atualizações automaticamente quando novos conteúdos forem publicados. Esta ferramenta é destinada a Mestres e criadores de conteúdo de @:{'common.gameName'}, e não é necessária para o uso geral ou jogo de @:{'common.gameName'}.<br /><br />Por favor, use esta ferramenta com responsabilidade. A publicação de conteúdo inadequado ou prejudicial, ou de conteúdo que você não tenha permissão para distribuir, pode resultar no banimento da sua conta do serviço em nuvem do @:{'common.appName'}."
         },
         "dataItem": {
             "cancelBulkSelection": "Cancelar Seleção em Lote",
@@ -3371,7 +3526,23 @@
             "roster": "Pilotos"
         },
         "desktop": {
-            "v2ImportsAwaitingResolution": "Importações v2 aguardando resolução"
+            "v2ImportsAwaitingResolution": "Importações v2 aguardando resolução",
+            "activeModeHelp": "Executar um Encontro ou Ficha Ativa de Personagem",
+            "compendiumHelp": "Banco de Dados de Equipamentos",
+            "contentManagerHelp": "Importar Pacotes de Conteúdo",
+            "gmToolkitHelp": "Gerenciar Campanhas, Encontros e PNJs",
+            "log": {
+                "compendium": "Navegue pelo banco de dados de chassis, equipamentos e regras de @:{'common.gameName'}",
+                "pilot": "Crie e gerencie pilotos e seus mechas, imprima fichas de personagem e ative o modo de jogo ativo",
+                "gm": "Crie e gerencie PNJs e encontros, e execute missões com PNJs e pilotos",
+                "campaign": "trabalho em andamento",
+                "content": "Gerencie e crie dados de expansão do @:{'common.appName'}",
+                "encounter": "Mestrar um Encontro, abrir ou continuar uma Ficha Ativa de Personagem, ou criar/entrar em uma Mesa na nuvem (em breve!)",
+                "options": "Abrir o gerenciador de opções",
+                "about": "Sobre o @:{'common.appName'}",
+                "help": "Abrir a página de ajuda do @:{'common.appName'}",
+                "update": "Ver histórico de alterações e atualizações mais recentes do @:{'common.appName'}"
+            }
         },
         "storageWarning": {
             "installCompconForReliableStorage": "Instale o @:{'common.appName'} para um Armazenamento Confiável",
@@ -3379,6 +3550,14 @@
         },
         "massifLcpTable": {
             "autoUpdate": "Atualização Automática"
+        },
+        "signIn": {
+            "hidePassword": "Ocultar senha",
+            "showPassword": "Mostrar senha"
+        },
+        "dataViewer": {
+            "activeEncounterRound": "Encontro Ativo // Rodada {round}",
+            "archive": "Arquivar"
         }
     },
     "pm": {
@@ -3449,7 +3628,8 @@
             "selectEquipment": "SELECIONAR EQUIPAMENTO",
             "selectDamage": "Selecionar Dano",
             "setMaximumUses": "Definir Usos Máximos",
-            "extendedHarness": "Coldre Estendido"
+            "extendedHarness": "Coldre Estendido",
+            "equipItem": "Equipar {item}"
         },
         "import": {
             "importSuccessTitle": "Importação Bem-sucedida",
@@ -3633,7 +3813,9 @@
             "identRecordNotice": "O uso indevido deste registro IDENT e/ou de seus dados constituintes pelo detentor do registro ou por quaisquer outras pessoas é punível de acordo com o DoJ/HR A-645-c. Este registro é propriedade do Escritório Administrativo da União e as informações contidas nele devem ser transmitidas mediante solicitação sob os protocolos de criptografia NDL-C-DISCORDANT-BREATH. Este registro RM-4 deve ser atualizado a cada cinco (5) Anos Padrão do Berço de tempo objetivo para reter os direitos de licenciamento da GMS. Operativos de campo distante que preveem implantações durando mais de cinco Anos Padrão do Berço e que não receberam um Gancho Omninet portátil devem solicitar a Extensão Suplementar (b) RM-11-B IDENT. Contate seu Oficial Administrativo da União local para quaisquer outros assuntos referentes a este registro. V-CDL//M-265-114-831 (A)",
             "requiresCloudAccount": "Requer Conta da Nuvem",
             "favoriteMech": "Mecha Favorito",
-            "unfavoriteMech": "Desfavoritar Mecha"
+            "unfavoriteMech": "Desfavoritar Mecha",
+            "frameTraitsTitle": "Traços de Chassi {source} {frame}",
+            "coreSystemTitle": "Sistema de Núcleo {source} {frame}"
         },
         "print": {
             "pilotSheetOptions": "Opções da Ficha de Piloto",
@@ -3679,7 +3861,11 @@
             "maxCount": "({n} máx)",
             "capacityCount": "({n} capacidade)",
             "pilotCombatHistory": "Histórico de Combate do Piloto",
-            "openLogbook": "Abrir Diário de Bordo do Piloto"
+            "openLogbook": "Abrir Diário de Bordo do Piloto",
+            "maxStructure": "Estrutura Máxima",
+            "maxStress": "Estresse Máximo",
+            "corePassiveNamed": "{name} (PASSIVO)",
+            "coreActiveNamed": "{name} (ATIVO)"
         },
         "roster": {
             "history": "Histórico",
@@ -3735,7 +3921,9 @@
             "deletePilots": "Excluir pilotos",
             "selectPilotDataFile": "Selecionar Arquivo de Dados do Piloto",
             "nameOrCallsign": "Nome ou codinome…",
-            "setPilotGroup": "Definir grupo de pilotos"
+            "setPilotGroup": "Definir grupo de pilotos",
+            "importPilotsCount": "Importar Pilotos ({count})",
+            "deleteGroupTitle": "Excluir {name}?"
         },
         "misc": {
             "skipStep": "Pular etapa"
@@ -3770,7 +3958,10 @@
             "addSkill": "Adicionar Perícia",
             "increaseSkillBonus": "Aumentar Bônus de Perícia",
             "decreaseSkillBonus": "Diminuir Bônus de Perícia",
-            "organizationInfluenceHelp": "A influência é o tamanho, o alcance, a riqueza e a reputação de sua organização. A influência pode ser usada para adquirir ativos, criar oportunidades ou influenciar a opinião pública."
+            "organizationInfluenceHelp": "A influência é o tamanho, o alcance, a riqueza e a reputação de sua organização. A influência pode ser usada para adquirir ativos, criar oportunidades ou influenciar a opinião pública.",
+            "organizationEfficiencyHelp": "Quão diretamente eficaz sua organização é no que faz (uma organização militar com alta eficiência seria boa em combate, por exemplo).<br />A Eficiência pode ser usada para realizar atividades relacionadas ao propósito de sua organização (científico, militar, etc.). Você pode usar essas vantagens como <strong>reservas.</strong>",
+            "projectComplicated": "Complicado",
+            "projectFinished": "Concluído"
         },
         "shared": {
             "criticalWarning": "Crítico",
@@ -3913,7 +4104,12 @@
             "exportALegacyFormatFor": "Exportar um formato legado para sistemas VTT e aplicativos v2",
             "convertToLocalDescription": "Converter este Piloto em uma instância de dados locais editáveis.",
             "editLicenseLevel": "Editar Nível de Licença",
-            "remotePilotNotice": "Este piloto é um recurso remoto vinculado à conta de outro usuário. É somente leitura e receberá atualizações da conta vinculada."
+            "remotePilotNotice": "Este piloto é um recurso remoto vinculado à conta de outro usuário. É somente leitura e receberá atualizações da conta vinculada.",
+            "editPilotSkillTriggersPoints": "Editar Gatilhos de Perícia do Piloto ({current}/{max})",
+            "editPilotMechSkillsPoints": "Editar Perícias de Mecha do Piloto ({current}/{max})",
+            "editPilotTalentsPoints": "Editar Talentos do Piloto ({current}/{max})",
+            "editPilotCoreBonusesPoints": "Editar Bônus de NÚCLEO do Piloto ({current}/{max})",
+            "editPilotLicensesPoints": "Editar Licenças do Piloto ({current}/{max})"
         },
         "bonds": {
             "selectPilotBond": "Selecionar Vínculo do Piloto",
@@ -3922,7 +4118,8 @@
             "pilotXp": "xp do piloto",
             "pilotStress": "estresse do piloto",
             "resetStressConfirm": "Isso redefinirá seu Estresse para zero e adicionará um novo Fardo. Continuar?",
-            "removeBondConfirm": "Isso removerá este vínculo do piloto e redefinirá todas as seleções relacionadas. Isso não pode ser desfeito. Continuar?"
+            "removeBondConfirm": "Isso removerá este vínculo do piloto e redefinirá todas as seleções relacionadas. Isso não pode ser desfeito. Continuar?",
+            "resetXpConfirm": "Isso redefinirá seu XP para zero e adicionará uma nova seleção de Poder de Vínculo. Isso só pode ser feito durante o <b>Tempo de Inatividade</b>. Continuar?"
         },
         "cloneBlock": {
             "cloneQuirks": "Peculiaridades de Clone",
@@ -4223,6 +4420,17 @@
             "destroyed": "DESTRUÍDO",
             "routed": "EM FUGA",
             "disengaged": "DESENGAJADO"
+        },
+        "effectDuration": {
+            "start_turn_self": "Início do Seu Turno",
+            "start_turn_target": "Início do Turno do Alvo",
+            "end_turn_self": "Fim do Seu Turno",
+            "end_turn_target": "Fim do Turno do Alvo",
+            "next_turn_end_self": "Fim do Seu Próximo Turno",
+            "next_turn_end_target": "Fim do Próximo Turno do Alvo",
+            "next_turn_start_self": "Início do Seu Próximo Turno",
+            "next_turn_start_target": "Início do Próximo Turno do Alvo",
+            "end_of_encounter": "o fim do Encontro"
         }
     },
     "combat": {
@@ -4438,6 +4646,482 @@
             "endsOnSelfTurn": "Termina no {when} do seu turno ({name})",
             "endsOnOtherTurn": "Termina no {when} do turno de {name}",
             "endsOnRound": "Termina no {when} da rodada {round}"
+        },
+        "summary": {
+            "attackWith": "{action} com {weapon}:",
+            "targetNumbered": "Alvo {n}",
+            "criticalHit": "Acerto Crítico!",
+            "rollVsDefense": "{roll} vs {value} {defense}",
+            "totalDamage": "Dano Total: {damage} {type}",
+            "reliable": "(Confiável {n})",
+            "takesHeat": "{actor} sofre {heat} de Calor ({sources})",
+            "onMissEffect": "Efeito se Errar",
+            "onAttackEffect": "Efeito ao Atacar",
+            "onHitEffect": "Efeito ao Acertar",
+            "onCritEffect": "Efeito em Acerto Crítico",
+            "additionalEffects": "Efeitos Adicionais",
+            "modEffects": "Efeitos de Modificação",
+            "rollPending": "rolagem pendente",
+            "overkillHeat": "+ {n} Overkill",
+            "bonusDamage": "+ {roll} Bônus",
+            "apTag": "(PA)",
+            "irreducibleTag": "(Irredutível)",
+            "damageTotal": "{value} de Dano {type}{tags}",
+            "targetImmune": "Sem Dano (alvo Imune)",
+            "targetExposed": "x2 (alvo Exposto)",
+            "targetVulnerable": "x2 (alvo Vulnerável)",
+            "targetArmorIgnored": "0 (Blindagem do alvo ignorada)",
+            "targetShredded": "0 (alvo Dilacerado)",
+            "targetArmor": "{armor} (Blindagem do alvo)",
+            "targetResistance": "/2 (Resistência do alvo)",
+            "effectAsActivation": "{effect} como uma Ação {activation}:",
+            "effectHeader": "{effect}:",
+            "targetedBy": "Alvejado por {effect} de {initiator}:",
+            "attackResult": "{roll} vs {value} {defense} : {result}",
+            "incomingAttack": "Recebendo {roll} vs {value} {defense} : {result}",
+            "failedSave": "Falha no Salvamento ({roll} vs {target})",
+            "successfulSave": "Sucesso no Salvamento ({roll} vs {target})",
+            "applied": "Aplicou {name}",
+            "gained": "Obteve {name}",
+            "forDuration": "por {duration}",
+            "appliedEffect": "Aplicou Efeito {type} {value}",
+            "gainedEffect": "Obteve Efeito {type} {value}"
+        },
+        "weaponUse": {
+            "barrage": "Barragem",
+            "skirmish": "Escaramuça",
+            "additionalAux": "Ataque Auxiliar Adicional"
+        }
+    },
+    "bonuses": {
+        "skillPoint": {
+            "title": "Gatilho de Perícia do Piloto",
+            "target": "o total de seleções de Perícia disponíveis do Piloto"
+        },
+        "mechSkillPoint": {
+            "title": "Ponto de Perícia de Mecha (CASE)",
+            "target": "o total de seleções de CAR/AGI/SIS/ENG disponíveis do Piloto"
+        },
+        "talentPoint": {
+            "title": "@:{'common.pilotTalent'}",
+            "target": "o total de seleções de Talentos disponíveis do Piloto"
+        },
+        "licensePoint": {
+            "title": "Licença de Piloto",
+            "target": "o total de seleções de Licença disponíveis do Piloto"
+        },
+        "cbPoint": {
+            "title": "Bônus de NÚCLEO do Piloto",
+            "target": "o total de seleções de Bônus de NÚCLEO disponíveis do Piloto"
+        },
+        "pilotGear": {
+            "title": "Capacidade de Equipamento de Piloto",
+            "target": "a capacidade total disponível de Equipamento de Piloto do Piloto"
+        },
+        "range": {
+            "title": "Alcance de Arma Modificado",
+            "detail": "{direction} o alcance {rangeTypes} de arma em {value} para armas{damageTypes}{weaponTypes}{weaponSizes}"
+        },
+        "damage": {
+            "title": "Dano de Arma Modificado",
+            "detail": "{direction}{damageTypes} o dano de arma em {value} para armas{weaponTypes}{weaponSizes}"
+        },
+        "hp": {
+            "title": "@:{'stats.hp'}",
+            "target": "total de Pontos de Vida"
+        },
+        "armor": {
+            "title": "@:{'stats.armor'}",
+            "target": "total de Blindagem"
+        },
+        "structure": {
+            "title": "@:{'stats.structure'}",
+            "target": "total de Estrutura"
+        },
+        "stress": {
+            "title": "@:{'combat.structureCheck.stress'}",
+            "target": "total de Estresse do Reator"
+        },
+        "heatcap": {
+            "title": "@:{'common.heatCapacity'}",
+            "target": "total de Capacidade de Calor"
+        },
+        "repcap": {
+            "title": "@:{'common.repairCapacity'}",
+            "target": "total de Capacidade de Reparo"
+        },
+        "corePower": {
+            "title": "@:{'active.trackable.corePower'}",
+            "target": "total de Poder de NÚCLEO"
+        },
+        "speed": {
+            "title": "@:{'stats.speed'}",
+            "target": "total de Velocidade"
+        },
+        "evasion": {
+            "title": "@:{'stats.evasion'}",
+            "target": "total de Evasão"
+        },
+        "edef": {
+            "title": "@:{'stats.edefense'}",
+            "target": "total de E-Defesa"
+        },
+        "sensor": {
+            "title": "@:{'common.sensorRange'}",
+            "target": "total de Alcance de Sensores"
+        },
+        "techAttack": {
+            "title": "@:{'stats.techAttack'}",
+            "target": "total de Ataque Tecnológico"
+        },
+        "save": {
+            "title": "Salvamento",
+            "target": "total de Salvamento"
+        },
+        "sp": {
+            "title": "@:{'stats.sp'}",
+            "target": "total de Pontos de Sistema"
+        },
+        "size": {
+            "title": "Tamanho Modificado",
+            "target": "@:{'stats.size'}"
+        },
+        "aiCap": {
+            "title": "Capacidade de IA",
+            "target": "total de Capacidade de IA"
+        },
+        "cheapStruct": {
+            "title": "Metade do Custo para Reparos de Estrutura",
+            "detail": "Reparos de Estrutura custam 1 Reparo em vez de 2"
+        },
+        "cheapStress": {
+            "title": "Metade do Custo para Reparos de Estresse do Reator",
+            "detail": "Reparos do Reator custam 1 Reparo em vez de 2"
+        },
+        "overcharge": {
+            "title": "Trilha de Sobrecarga Modificada",
+            "detail": "Modifica a trilha de Custo de Calor de Sobrecarga"
+        },
+        "limitedBonus": {
+            "title": "Usos Limitados de Equipamento",
+            "target": "o total de usos de Equipamento com a Etiqueta \"LIMITADO X\""
+        },
+        "pilotHp": {
+            "title": "@:{'pm.print.pilotHP'}",
+            "target": "total de Pontos de Vida do Piloto"
+        },
+        "pilotArmor": {
+            "title": "@:{'common.pilotArmor'}",
+            "target": "total de Blindagem do Piloto"
+        },
+        "pilotEvasion": {
+            "title": "Evasão do Piloto",
+            "target": "total de Evasão do Piloto"
+        },
+        "pilotEdef": {
+            "title": "E-Defesa do Piloto",
+            "target": "total de E-Defesa do Piloto"
+        },
+        "pilotSpeed": {
+            "title": "Adicionar Velocidade do Piloto",
+            "target": "total de Velocidade do Piloto"
+        },
+        "pilotGearSlots": {
+            "title": "Adicionar Espaço de Equipamento do Piloto",
+            "target": "total de espaços de Equipamento do Piloto"
+        },
+        "pilotWeaponSlots": {
+            "title": "Adicionar Espaço de Arma do Piloto",
+            "target": "total de espaços de Arma do Piloto"
+        },
+        "pilotArmorSlots": {
+            "title": "Adicionar Espaço de Armadura do Piloto",
+            "target": "total de espaços de Armadura do Piloto"
+        },
+        "deployableHp": {
+            "title": "PV para todos os Drones e Posicionáveis",
+            "target": "o total de PV de todos os Posicionáveis implantados"
+        },
+        "deployableSize": {
+            "title": "Tamanho para todos os Drones e Posicionáveis",
+            "target": "o Tamanho de todos os Posicionáveis implantados"
+        },
+        "deployableCharges": {
+            "title": "Cargas para todos os Drones e Posicionáveis",
+            "target": "o total de Cargas disponíveis para Equipamentos de Drone e Posicionáveis"
+        },
+        "deployableArmor": {
+            "title": "Blindagem para todos os Drones e Posicionáveis",
+            "target": "a Blindagem de todos os Posicionáveis implantados"
+        },
+        "deployableEvasion": {
+            "title": "Evasão para todos os Drones e Posicionáveis",
+            "target": "a Evasão de todos os Posicionáveis implantados"
+        },
+        "deployableEdef": {
+            "title": "E-Defesa para todos os Drones e Posicionáveis",
+            "target": "a E-Defesa de todos os Posicionáveis implantados"
+        },
+        "deployableHeatcap": {
+            "title": "Capacidade de Calor para todos os Drones e Posicionáveis",
+            "target": "a Capacidade de Calor de todos os Posicionáveis implantados"
+        },
+        "deployableRepcap": {
+            "title": "Capacidade de Reparo para todos os Drones e Posicionáveis",
+            "target": "a Capacidade de Reparo de todos os Posicionáveis implantados"
+        },
+        "deployableSensorRange": {
+            "title": "Alcance de Sensores para todos os Drones e Posicionáveis",
+            "target": "o Alcance de Sensores de todos os Posicionáveis implantados"
+        },
+        "deployableTechAttack": {
+            "title": "Ataque Tecnológico para todos os Drones e Posicionáveis",
+            "target": "o Ataque Tecnológico de todos os Posicionáveis implantados"
+        },
+        "deployableSave": {
+            "title": "Salvamento para todos os Drones e Posicionáveis",
+            "target": "o Salvamento de todos os Posicionáveis implantados"
+        },
+        "deployableSpeed": {
+            "title": "Velocidade para todos os Drones e Posicionáveis",
+            "target": "a Velocidade de todos os Posicionáveis implantados"
+        },
+        "deployCount": {
+            "title": "Quantidade de Posicionáveis",
+            "detail": "Implanta {value} Posicionáveis adicionais por ação de implantação"
+        },
+        "droneHp": {
+            "title": "PV para todos os Drones",
+            "target": "o total de PV de todos os Drones implantados"
+        },
+        "droneSize": {
+            "title": "Tamanho para todos os Drones",
+            "target": "o Tamanho de todos os Drones implantados"
+        },
+        "droneCharges": {
+            "title": "Cargas para todos os Drones",
+            "target": "@:{'bonuses.deployableCharges.target'}"
+        },
+        "droneArmor": {
+            "title": "Blindagem para todos os Drones",
+            "target": "a Blindagem de todos os Drones implantados"
+        },
+        "droneEvasion": {
+            "title": "Evasão para todos os Drones",
+            "target": "a Evasão de todos os Drones implantados"
+        },
+        "droneEdef": {
+            "title": "E-Defesa para todos os Drones",
+            "target": "a E-Defesa de todos os Drones implantados"
+        },
+        "droneHeatcap": {
+            "title": "Capacidade de Calor para todos os Drones",
+            "target": "a Capacidade de Calor de todos os Drones implantados"
+        },
+        "droneRepcap": {
+            "title": "Capacidade de Reparo para todos os Drones",
+            "target": "a Capacidade de Reparo de todos os Drones implantados"
+        },
+        "droneSensorRange": {
+            "title": "Alcance de Sensores para todos os Drones",
+            "target": "o Alcance de Sensores de todos os Drones implantados"
+        },
+        "droneTechAttack": {
+            "title": "Ataque Tecnológico para todos os Drones",
+            "target": "o Ataque Tecnológico de todos os Drones implantados"
+        },
+        "droneSave": {
+            "title": "Salvamento para todos os Drones",
+            "target": "o Salvamento de todos os Drones implantados"
+        },
+        "droneSpeed": {
+            "title": "Velocidade para todos os Drones",
+            "target": "a Velocidade de todos os Drones implantados"
+        },
+        "activations": {
+            "title": "@:{'active.customStatEditor.activations'}",
+            "detail": "Realiza {value} turnos adicionais por rodada"
+        },
+        "activationsPct": {
+            "title": "Ativações Por Jogador",
+            "detail": "Realiza um turno adicional por rodada se houver {value} ou mais personagens de PJ no encontro"
+        },
+        "hpPerPlayer": {
+            "title": "PV Por Jogador",
+            "detail": "{direction} PV em {value} por personagem de PJ no encontro"
+        },
+        "immunity": {
+            "title": "@:{'active.dmgCond.immunity'}",
+            "detail": "Concede imunidade a {value}. Isso anula todo o dano da fonte especificada."
+        },
+        "resistance": {
+            "title": "@:{'active.dmgCond.resistance'}",
+            "detail": "Concede resistência a {value}. Isso reduz o dano da fonte especificada pela metade."
+        },
+        "mountAccuracy": {
+            "title": "Precisão do Encaixe",
+            "detail": "Concede {value} de precisão a todos os ataques feitos por armas neste encaixe"
+        },
+        "mountRange": {
+            "title": "Alcance do Encaixe",
+            "detail": "Concede {value} de alcance a todos os ataques feitos por armas neste encaixe"
+        },
+        "mountDamage": {
+            "title": "Dano do Encaixe",
+            "detail": "Adiciona {value} de dano adicional a todos os ataques feitos por armas neste encaixe"
+        },
+        "mountDamageTypeOverride": {
+            "title": "Tipo de Dano do Encaixe",
+            "detail": "Converte todo o dano de armas montadas para Dano {value}"
+        },
+        "mountRangeTypeOverride": {
+            "title": "Tipo de Alcance do Encaixe",
+            "detail": "Converte todo o alcance de armas montadas para Alcance {value}"
+        },
+        "mountWeaponTypeOverride": {
+            "title": "Tipo de Arma do Encaixe",
+            "detail": "Converte todos os tipos de armas montadas para Armas {value}"
+        },
+        "addMount": {
+            "title": "Adicionar Encaixe",
+            "detail": "Adiciona um novo encaixe {value} a este mecha, se houver menos de {max} encaixes"
+        },
+        "noMods": {
+            "title": "Não Modificável",
+            "detail": "Este equipamento não pode ser modificado"
+        },
+        "armorMax": {
+            "title": "Blindagem Máxima",
+            "detail": "{direction} o valor máximo de blindagem do mecha para {value}"
+        },
+        "boost": {
+            "title": "Velocidade de Arrancada",
+            "detail": "{direction} a velocidade de Arrancada deste mecha para {value}"
+        },
+        "minRange": {
+            "title": "Alcance Mínimo",
+            "detail": "{direction} o alcance mínimo de arma para {value}"
+        },
+        "minDamage": {
+            "title": "Dano Mínimo",
+            "detail": "{direction} o dano mínimo de arma para {value}"
+        },
+        "extraAction": {
+            "title": "Ação Adicional",
+            "detail": "Concede uma Ação {value} adicional por Turno"
+        },
+        "unstableSystem": {
+            "title": "Sistema Instável"
+        },
+        "knockback": {
+            "title": "Empurrão",
+            "target": "valor de Empurrão"
+        },
+        "attack": {
+            "target": "@:{'ui.flow.request.attackRoll'}"
+        },
+        "noCascade": {
+            "title": "Prevenir Cascata"
+        },
+        "thrown": {
+            "title": "@:{'enums.rangeType.thrown'}",
+            "detail": "Adiciona Arremesso {value}"
+        },
+        "droneResist": {
+            "title": "Resistência de Drone",
+            "detail": "Adiciona Resistência {value} a Drones implantados"
+        },
+        "deployableResist": {
+            "title": "Resistência de Posicionável",
+            "detail": "Adiciona Resistência {value} a todos os equipamentos implantados"
+        },
+        "hull": {
+            "title": "@:{'stats.hull'}",
+            "target": "rolagens de Teste e Salvamento de Carcaça"
+        },
+        "hullCheck": {
+            "title": "@:{'stats.hull'}",
+            "target": "rolagens de Teste de Carcaça"
+        },
+        "hullSave": {
+            "title": "@:{'stats.hull'}",
+            "target": "rolagens de Salvamento de Carcaça"
+        },
+        "agility": {
+            "title": "@:{'stats.agility'}",
+            "target": "rolagens de Teste e Salvamento de Agilidade"
+        },
+        "agilityCheck": {
+            "title": "@:{'stats.agility'}",
+            "target": "rolagens de Teste de Agilidade"
+        },
+        "agilitySave": {
+            "title": "@:{'stats.agility'}",
+            "target": "rolagens de Salvamento de Agilidade"
+        },
+        "systems": {
+            "title": "@:{'stats.systems'}",
+            "target": "rolagens de Teste e Salvamento de Sistemas"
+        },
+        "systemsCheck": {
+            "title": "@:{'stats.systems'}",
+            "target": "rolagens de Teste de Sistemas"
+        },
+        "systemsSave": {
+            "title": "@:{'stats.systems'}",
+            "target": "rolagens de Salvamento de Sistemas"
+        },
+        "engineering": {
+            "title": "@:{'stats.engineering'}",
+            "target": "rolagens de Teste e Salvamento de Engenharia"
+        },
+        "engineeringCheck": {
+            "title": "@:{'stats.engineering'}",
+            "target": "rolagens de Teste de Engenharia"
+        },
+        "engineeringSave": {
+            "title": "@:{'stats.engineering'}",
+            "target": "rolagens de Salvamento de Engenharia"
+        },
+        "check": {
+            "title": "Testes",
+            "target": "todas as rolagens de Teste"
+        },
+        "threat": {
+            "title": "@:{'enums.rangeType.threat'}",
+            "target": "Ameaça da arma"
+        },
+        "setWeaponType": {
+            "title": "Definir Tipo de Arma",
+            "detail": "Trata a arma como uma arma {value}"
+        },
+        "addWeaponType": {
+            "title": "Adicionar Tipo de Arma",
+            "detail": "Trata armas afetadas como sendo também armas {value}"
+        },
+        "grapple": {
+            "title": "@:{'enums.rangeType.threat'}",
+            "target": "@:{'active.customStatEditor.grapple'}"
+        },
+        "ram": {
+            "title": "@:{'active.customStatEditor.ram'}",
+            "target": "@:{'active.customStatEditor.ram'}"
+        },
+        "sizes": {
+            "title": "Opções de Tamanho",
+            "detail": "Estende as opções de criação de tamanho de PNJ ({value})"
+        },
+        "melee": {
+            "title": "@:{'enums.weaponType.melee'}",
+            "target": "Ataques corpo a corpo"
+        },
+        "heatCap": {
+            "title": "Capacidade de Calor",
+            "target": "@:{'common.heatCapacity'}"
+        },
+        "accuracy": {
+            "title": "@:{'common.accuracy'}",
+            "detail": "{direction} ataques, testes e salvamentos em {value} de precisão"
         }
     }
 }
