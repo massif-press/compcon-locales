@@ -18,5 +18,10 @@
     "t_sysop.rank_aggressive_countermeasures.active_effect_aggressive_countermeasures.name": "Агрессивные контрмеры",
     "env_improvisedexplosives.name": "Самодельная взрывчатка",
     "env_fueltanks.name": "Топливные резервуары",
-    "mf_chomolungma.core_system.passive_name": "Комплект продвинутых программ-взломщиков"
+    "mf_chomolungma.core_system.passive_name": "Комплект продвинутых программ-взломщиков",
+    "t_demolitionist.rank_quarterback.name": "Квотербек",
+    "t_demolitionist.rank_quarterback.active_effect_quarterback.name": "Квотербек",
+    "reserve_sniper_team.name": "Отряд снайперов",
+    "reserve_recon_drone.name": "Разведывательный дрон",
+    "reserve_recon_drone.active_effect_recon_drone.name": "Разведывательный дрон"
 }
