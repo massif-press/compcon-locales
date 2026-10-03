@@ -55,5 +55,6 @@
     "ktb-bond-magus.name": "Волхв",
     "ktb-bond-pathfinder.name": "Следопыт",
     "ktb-bond-titan.name": "Исполин",
-    "ktb-bond-wolf.name": "Хищник"
+    "ktb-bond-wolf.name": "Хищник",
+    "ktb-bond-wolf.power_discipline.name": "Дисциплина"
 }
