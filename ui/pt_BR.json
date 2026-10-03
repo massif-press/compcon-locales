@@ -4662,7 +4662,7 @@
             "additionalEffects": "Efeitos Adicionais",
             "modEffects": "Efeitos de Modificação",
             "rollPending": "rolagem pendente",
-            "overkillHeat": "+ {n} Overkill",
+            "overkillHeat": "+ {n} Exagero",
             "bonusDamage": "+ {roll} Bônus",
             "apTag": "(PA)",
             "irreducibleTag": "(Irredutível)",
