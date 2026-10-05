@@ -195,5 +195,6 @@
     "npcf_no_pilot_rpv.name": "Беспилотное",
     "npcf_no_pilot_rpv.active_effect_no_pilot.name": "Беспилотное",
     "npcf_opportunist_mercenary.name": "Оппортунист",
-    "npcf_acid_spittle_monstrosity.name": "Кислотная слюна"
+    "npcf_acid_spittle_monstrosity.name": "Кислотная слюна",
+    "npcf_barrel_roll_ace.action_barrel_roll.detail": "Вы совершаете \"бочку\", пролетая 6 клеток в любом направлении, заставляя противника промахнуться. Указанное передвижение игнорирует клинч и не провоцирует реакции."
 }
