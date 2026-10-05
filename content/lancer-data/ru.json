@@ -312,7 +312,7 @@
     "mf_mourning_cloak.trait_hunter.active_effect_hunter.name": "Охотник",
     "mf_mourning_cloak.trait_hunter.name": "Охотник",
     "t_leader.name": "Лидер",
-    "tg_exotic.name": "Нестандартное снаряжение",
+    "tg_exotic.name": "Особенное снаряжение",
     "tg_free_action.name": "Свободное действие",
     "tg_full_action.name": "Полное действие",
     "tg_gear.name": "Снаряжение",
@@ -1393,7 +1393,7 @@
     "mf_napoleon.trait_heavy_shielding.active_effect_heavy_shielding.name": "Усиленные щиты",
     "ms_comp_con_class_assistant_unit.name": "Цифровой помощник класса КОМП/КОН",
     "ms_metahook.name": "Метакрюк",
-    "cb_all_theater_movement_suite.effect": "Вы можете считать совершаемое передвижение полётом (полностью, либо частично); в конце каждого вашего хода вы получаете 1 пункт нагрева за каждую клетку, которую вы пролетели подобным образом.",
+    "cb_all_theater_movement_suite.effect": "Вы можете считать любое совершаемое передвижение полётом; в конце каждого вашего хода вы получаете 1 пункт нагрева за каждую клетку, которую вы пролетели подобным образом.",
     "mf_saladin.trait_warp_shield.action_warp_shield.name": "Искажающий щит",
     "ms_external_ammo_feed.name": "Внешняя подача боепитания",
     "ms_explosive_vents.name": "Теплоотвод взрывного типа",
@@ -1429,5 +1429,7 @@
     "ms_flash_charges.action_flash_grenade.name": "Ослепляющая граната",
     "ms_flash_charges.deployable_flash_mine.name": "Ослепляющая мина",
     "ms_flash_charges.name": "Ослепляющие заряды",
-    "ctr_monitor_module.name": "Модуль \"Монитор\""
+    "ctr_monitor_module.name": "Модуль \"Монитор\"",
+    "ms_type_i_flight_system.effect": "Вы можете считать любое совершаемое передвижение полётом; в конце каждого вашего хода вы получаете количество пунктов Нагрева, равное значению Размера+1, за каждую клетку, которую вы пролетели подобным образом.",
+    "ms_type_i_flight_system.active_effect_type_i_flight_system.detail": "Вы можете считать любое совершаемое передвижение полётом; в конце каждого вашего хода вы получаете количество пунктов Нагрева, равное значению Размера+1, за каждую клетку, которую вы пролетели подобным образом."
 }
