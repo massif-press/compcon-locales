@@ -57,5 +57,6 @@
     "ktb-bond-titan.name": "Исполин",
     "ktb-bond-wolf.name": "Хищник",
     "ktb-bond-wolf.power_discipline.name": "Дисциплина",
-    "tg_efficient.name": "Восстанавливающееся"
+    "tg_efficient.name": "Восстанавливающееся",
+    "ktb-bond-builder.power_sanctuary.name": "Убежище"
 }
