@@ -63,5 +63,6 @@
     "nrfaw-npc_npcf_deadly_avenger.name": "Смертоносный",
     "nrfaw-npc_npcf_deadly_avenger.active_effect_deadly.name": "Смертоносный",
     "nrfaw-npc_npcf_deadly_avenger.effect": "Мститель наносит +1к6 урона в случае критического попадания.",
-    "nrfaw-npc_npcf_deadly_avenger.active_effect_deadly.detail": "Мститель наносит +1к6 урона в случае критического попадания."
+    "nrfaw-npc_npcf_deadly_avenger.active_effect_deadly.detail": "Мститель наносит +1к6 урона в случае критического попадания.",
+    "nrfaw-npc_npcf_guardian_spite.name": "Защитник"
 }
