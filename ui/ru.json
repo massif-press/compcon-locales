@@ -228,15 +228,15 @@
         "latestVersion": "Последняя версия",
         "installedVersion": "Установленная версия",
         "narrativeElement": "Элемент повествования",
-        "contentPack": "Наборы материалов",
+        "contentPack": "Набор материалов",
         "gmToolkit": "Инструментарий",
-        "npcRoster": "Ростер персонажей ведущего",
+        "npcRoster": "Ростер ПВ",
         "extraction": "Извлечение",
         "groupBy": "Группировать по",
         "overkill": "Избыточное",
         "mechName": "Название меха",
         "addTable": "Добавить таблицу",
-        "repairCap": "Запас ремкомплектов.",
+        "repairCap": "Ремзапас.",
         "allPilots": "Все пилоты",
         "heatCapacity": "Теплоёмкость",
         "repairCapacity": "Запас ремкомплектов",
@@ -278,7 +278,7 @@
         "newClock": "Новый счётчик",
         "newTable": "Новая таблица",
         "newCharacter": "Новый персонаж",
-        "newNarrativeItem": "Новый нарративный элемент",
+        "newNarrativeItem": "Новый элемент повествования",
         "newEidolon": "Новый эйдолон",
         "newSitrep": "Новая оперсводка",
         "newDoodad": "Новая штуковина",
@@ -308,7 +308,7 @@
         "components": {
             "ui": "Интерфейс",
             "lancer-data": "Каталог",
-            "lancer-srd": "Справочник по правилам"
+            "lancer-srd": "Справочник (правила)"
         }
     },
     "nav": {
