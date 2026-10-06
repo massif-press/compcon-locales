@@ -3934,7 +3934,7 @@
             "equipmentTags": "Метки снаряжения",
             "npcClasses": "Классы персонажей ведущего",
             "statusesConditions": "Статусы и состояния",
-            "environments": "Варианты обстановки",
+            "environments": "Типы обстановки",
             "sitreps": "Оперсводки",
             "npcFeatures": "Особенности персонажа ведущего",
             "downtimeActions": "Действия простоя"
