@@ -4449,7 +4449,8 @@
             "attackWith": "{action}, используя {weapon}:",
             "totalDamage": "Всего урона: {damage} {type}",
             "targetShredded": "0 (цель Изрешечена)",
-            "failedSave": "Испытание провалено ({roll} vs {target})"
+            "failedSave": "Испытание провалено ({roll} vs {target})",
+            "successfulSave": "Испытание пройдено ({roll} vs {target})"
         },
         "weaponUse": {
             "barrage": "Залп",
