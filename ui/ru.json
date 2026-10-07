@@ -4450,7 +4450,8 @@
             "totalDamage": "Всего урона: {damage} {type}",
             "targetShredded": "0 (цель Изрешечена)",
             "failedSave": "Испытание провалено ({roll} vs {target})",
-            "successfulSave": "Испытание пройдено ({roll} vs {target})"
+            "successfulSave": "Испытание пройдено ({roll} vs {target})",
+            "incomingAttack": "Входящая атака {roll} против {value} {defense} : {result}"
         },
         "weaponUse": {
             "barrage": "Залп",
