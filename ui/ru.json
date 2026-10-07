@@ -4451,7 +4451,9 @@
             "targetShredded": "0 (цель Изрешечена)",
             "failedSave": "Испытание провалено ({roll} vs {target})",
             "successfulSave": "Испытание пройдено ({roll} vs {target})",
-            "incomingAttack": "Входящая атака {roll} против {value} {defense} : {result}"
+            "incomingAttack": "Входящая атака {roll} против {value} {defense} : {result}",
+            "takesHeat": "{actor} получил (получила) {heat} пунктов Нагрева ({sources})",
+            "attackResult": "{roll} против {value} {defense} : {result}"
         },
         "weaponUse": {
             "barrage": "Залп",
