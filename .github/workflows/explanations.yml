@@ -1,0 +1,32 @@
+name: Push explanations to Weblate
+
+on:
+  push:
+    branches: [master]
+    paths: ['explanations.json']
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: explanations
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Apply explanations.json to Weblate
+        shell: bash
+        env:
+          WLC_TOKEN: ${{ secrets.WLC_TOKEN }}
+        run: node explanations.mjs --apply | tee -a "$GITHUB_STEP_SUMMARY"

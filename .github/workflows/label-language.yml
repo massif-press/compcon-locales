@@ -20,16 +20,14 @@ jobs:
             const langMatch = body.match(/### Language\s*\n+([^\n]+)/);
             if (langMatch) {
               const langMap = {
-                'العربية - Arabic (ar)':            'lang: Arabic',
                 'Deutsch - German (de)':             'lang: German',
                 'Español - Spanish (es)':            'lang: Spanish',
                 'Français - French (fr)':            'lang: French',
-                'हिन्दी - Hindi (hi)':              'lang: Hindi',
                 'Italiano - Italian (it)':           'lang: Italian',
-                '日本語 - Japanese (ja)':             'lang: Japanese',
                 '한국어 - Korean (ko)':               'lang: Korean',
                 'Português - Portuguese (pt)':       'lang: Portuguese',
                 'Русский - Russian (ru)':            'lang: Russian',
+                'ไทย - Thai (th)':                   'lang: Thai',
                 '中文 - Chinese Simplified (zh_Hans)': 'lang: Chinese Simplified',
               };
               const label = langMap[langMatch[1].trim()];

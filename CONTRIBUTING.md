@@ -26,7 +26,7 @@ Strings can contain `{param}` placeholder tokens the app replaces at runtime:
 
 ### 2. Plurals
 
-Weblate shows one field per plural form your language needs (for example `one` / `few` / `many` / `other` in Russian, only `other` in Japanese), each labeled with sample counts. Fill every field; the count goes in as `{count}` or `{n}`.
+Weblate shows one field per plural form your language needs (for example `one` / `few` / `many` / `other` in Russian, only `other` in Korean), each labeled with sample counts. Fill every field; the count goes in as `{count}` or `{n}`.
 
 When plural support was switched on, existing translations were copied into `one` and `other`, and any extra forms (`few`, `many`, `zero`, `two`) were left empty. Those strings show as untranslated until the missing forms are filled in. Until then the app uses your `other` form for those counts.
 

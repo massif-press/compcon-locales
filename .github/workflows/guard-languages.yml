@@ -1,0 +1,18 @@
+name: Guard languages
+
+on: pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Allowlist must match language_regex in weblate.yaml
+      - name: Reject unapproved language files
+        run: |
+          bad=$(find ui glossary content -type f | grep -vE '/(en|de|es|fr|it|ko|pt_BR|ru|th|zh_Hans)\.(json|csv)$' || true)
+          [ -z "$bad" ] || { echo "::error::Unapproved language files:"; echo "$bad"; exit 1; }

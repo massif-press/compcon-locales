@@ -8,16 +8,14 @@ body:
       label: Language
       description: Which language has the issue?
       options:
-        - العربية - Arabic (ar)
         - Deutsch - German (de)
         - Español - Spanish (es)
         - Français - French (fr)
-        - हिन्दी - Hindi (hi)
         - Italiano - Italian (it)
-        - 日本語 - Japanese (ja)
         - 한국어 - Korean (ko)
         - Português - Portuguese (pt)
         - Русский - Russian (ru)
+        - ไทย - Thai (th)
         - 中文 - Chinese Simplified (zh_Hans)
     validations:
       required: true

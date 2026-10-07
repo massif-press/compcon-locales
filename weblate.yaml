@@ -11,8 +11,8 @@ defaults:
   push_branch: weblate
   merge_style: rebase
   file_format: json
-  new_lang: add
-  language_regex: '^[^.]+$'
+  new_lang: none
+  language_regex: '^(en|de|es|fr|it|ko|pt_BR|ru|th|zh_Hans)$'
   file_format_params:
     dos_eol: false
     json_indent: 4
