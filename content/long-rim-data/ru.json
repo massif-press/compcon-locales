@@ -104,5 +104,6 @@
     "t_spaceborn.rank_home_in_the_void.name": "Космос, дом родной",
     "t_black_thumb.name": "Механик",
     "ms_spike_charges.action_spike_grenade.name": "Шипованная граната",
-    "ms_spike_charges.deployable_spike_mine.name": "Шипованная мина"
+    "ms_spike_charges.deployable_spike_mine.name": "Шипованная мина",
+    "mw_caliban_integrated.profile_autochoke_equipped.name": "Авточок установлен"
 }
