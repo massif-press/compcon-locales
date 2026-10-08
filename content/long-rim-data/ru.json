@@ -2,7 +2,7 @@
     "mf_atlas.name": "Атлас",
     "mf_caliban.name": "Калибан",
     "mf_caliban.core_system.name": "Дробовик \"Живодёр\"",
-    "mw_caliban_integrated.name": "Тяжёлый крупнокалиберный дробовик HHS-075 \"Живодёр\"",
+    "mw_caliban_integrated.name": "Тяжёлый гаубичный дробовик HHS-075 \"Живодёр\"",
     "ms_unhinge_chronoflow.action_slow.name": "Замедлить",
     "mf_sunzi.trait_safe_harbor.active_effect_safe_harbor.name": "Безопасная гавань",
     "mf_sunzi.trait_safe_harbor.name": "Безопасная гавань",
@@ -18,7 +18,7 @@
     "mw_terashima_blade.action_drop_stance.name": "Выйти из стойки",
     "mw_terashima_blade.profile_troll_stance.name": "Стойка тролля",
     "mw_terashima_blade.action_change_stance.name": "Сменить стойку",
-    "mw_hhs_155_cannibal.name": "Тяжёлый крупнокалиберный дробовик HHS-155 \"Каннибал\"",
+    "mw_hhs_155_cannibal.name": "Тяжёлый гаубичный дробовик HHS-155 \"Каннибал\"",
     "mw_terashima_blade.profile_storm_stance.name": "Стойка бури",
     "mw_terashima_blade.profile_storm_stance.action_storm_stance_reaction.name": "Реакция \"Стойка бури\"",
     "mw_terashima_blade.profile_no_stance.name": "Стойка отсутствует",
@@ -105,5 +105,11 @@
     "t_black_thumb.name": "Механик",
     "ms_spike_charges.action_spike_grenade.name": "Шипованная граната",
     "ms_spike_charges.deployable_spike_mine.name": "Шипованная мина",
-    "mw_caliban_integrated.profile_autochoke_equipped.name": "Авточок установлен"
+    "mw_caliban_integrated.profile_autochoke_equipped.name": "Авточок установлен",
+    "ms_rapid_maneuver_jets.name": "Скоростные манёвровые двигатели",
+    "ms_rapid_maneuver_jets.active_effect_rapid_maneuver_jets.name": "Скоростные манёвровые двигатели",
+    "mw_d_d_288.name": "Ударный кулак D/D 288",
+    "mw_d_d_288.action_charge_d_d_288.name": "Зарядить D/D 288",
+    "mw_d_d_288.action_charge_d_d_288.detail": "Зарядить D/D 288. Оружие использует \"Заряженный\" профиль, если на начало любого вашего хода D/D 288 заряжено. Вы получаете состояние \"Замедлен\" и считаетесь находящимися в частичном укрытии. Помимо этого, в начале ващего хода вы получаете 2 пункта Нагрева.<br/>Оружие с профилем \"Заряженный\" нельзя использовать для совершения Выпада.",
+    "mw_hammer_u_rpl.name": "Универсальный роторный гранатомёт \"Молот\""
 }
