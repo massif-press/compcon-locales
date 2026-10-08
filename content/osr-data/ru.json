@@ -23,5 +23,6 @@
     "t_demolitionist.rank_quarterback.active_effect_quarterback.name": "Квотербек",
     "reserve_sniper_team.name": "Отряд снайперов",
     "reserve_recon_drone.name": "Разведывательный дрон",
-    "reserve_recon_drone.active_effect_recon_drone.name": "Разведывательный дрон"
+    "reserve_recon_drone.active_effect_recon_drone.name": "Разведывательный дрон",
+    "ms_pattern_c_advanced_charges.name": "Продвинутые заряды образца C"
 }
