@@ -411,7 +411,7 @@
         "returnToCompendium": "Torna al Compendio",
         "search": {
             "resultCount_one": "{count} risultato",
-            "resultCount_many": "",
+            "resultCount_many": "{count} risultati",
             "resultCount_other": "{count} risultati"
         },
         "selectItem": "Seleziona {name}",
@@ -468,7 +468,9 @@
             "updateCompleteTitle": "Aggiornamento completato",
             "updateFailedTitle": "Aggiornamento non riuscito",
             "verificationSentText": "Controlla la tua casella di posta per il codice di verifica",
-            "verificationSentTitle": "E-mail di verifica inviata"
+            "verificationSentTitle": "E-mail di verifica inviata",
+            "syncedItems": "{n} elemento sincronizzato con successo. | {n} elementi sincronizzati con successo.",
+            "syncedPartial": "Sincronizzati: {succeeded} su {n}. Non riusciti: {failed}. | Sincronizzati: {succeeded} su {n}. Non riusciti: {failed}."
         },
         "achievement": {
             "unlockedTitle": "Obiettivo Sbloccato!"
@@ -500,7 +502,8 @@
             "restoredText": "{type} {name} ripristinato.",
             "retryFailedText": "Impossibile trovare l'elemento remoto per {name}.",
             "retryFailedTitle": "Nuovo tentativo non riuscito",
-            "serverError": "Impossibile comunicare con il server. {err}"
+            "serverError": "Impossibile comunicare con il server. {err}",
+            "bulkDeletedTitle": "{n} Elemento Eliminato | {n} Elementi Eliminati"
         },
         "gm": {
             "campaignPublishedText": "La versione {version} di {name} è stata pubblicata.",
@@ -517,7 +520,7 @@
             "uploadSuccessText": "Dati cloud aggiornati!",
             "uploadSuccessTitle": "Caricamento Riuscito",
             "v2BackupText_one": "{count} elemento salvato nelle importazioni v2 in sospeso nella Gestione Contenuti.",
-            "v2BackupText_many": "",
+            "v2BackupText_many": "{count} elementi salvati nelle importazioni v2 in sospeso nella Gestione Contenuti.",
             "v2BackupText_other": "{count} elementi salvati nelle importazioni v2 in sospeso nella Gestione Contenuti.",
             "v2BackupTitle": "Backup Importazione v2"
         },
@@ -679,7 +682,7 @@
             "progress": "{count} di {total} sbloccati",
             "othersCount": "(+{count} altri)",
             "hiddenCount_one": "{count} obiettivo non mostrato",
-            "hiddenCount_many": "",
+            "hiddenCount_many": "{count} obiettivi non mostrati",
             "hiddenCount_other": "{count} obiettivi non mostrati",
             "cannot": "non può",
             "warningDataFull": "Questa operazione {emphasis} i dati degli obiettivi utente.",
@@ -788,8 +791,8 @@
             "storageUsageFull": "@:{'common.appName'} sta attualmente usando {used} di {total}, ovvero il {percent} dello spazio disponibile. Questo include lo spazio riservato da @:{'common.appName'} per la gestione dell'app.",
             "neverAutoDeleteFull": "@:{'common.appName'} non eliminerà {never} automaticamente i dati contrassegnati per l'eliminazione.",
             "autoDeleteFull": "@:{'common.appName'} eliminerà definitivamente i dati dopo che sono stati contrassegnati come eliminati per almeno {days} Questo non influirà sugli elementi non già contrassegnati per l'eliminazione.",
-            "daysCount_one": "{count} giorni.",
-            "daysCount_many": "",
+            "daysCount_one": "{count} giorno.",
+            "daysCount_many": "{count} giorni.",
             "daysCount_other": "{count} giorni.",
             "deleteConfirmIntro": "Questo eliminerà {confirm} i dati locali di @:{'common.appName'}.",
             "deleteConfirmUndone": "Questa operazione {undone}",
@@ -823,11 +826,11 @@
             "selectFile": "Seleziona un file .LCP",
             "install": "Installa",
             "alreadyInstalledWarning_one": "Il seguente pacchetto di contenuti è già installato e verrà sostituito:",
-            "alreadyInstalledWarning_many": "",
+            "alreadyInstalledWarning_many": "I seguenti pacchetti di contenuti sono già installati e verranno sostituiti",
             "alreadyInstalledWarning_other": "I seguenti pacchetti di contenuti sono già installati e verranno sostituiti",
             "v3Warning": "I seguenti contenuti non sono stati registrati come compatibili con la v3. Questi pacchetti funzioneranno comunque, ma non potranno sfruttare le funzionalità della v3, specialmente in modalità attiva.",
             "dependencyError_one": "Il seguente pacchetto di contenuti ha dipendenze non installate e non può ancora essere installato. Verrà saltato:",
-            "dependencyError_many": "",
+            "dependencyError_many": "I seguenti pacchetti di contenuti hanno dipendenze non installate e non possono ancora essere installati. Verranno saltati",
             "dependencyError_other": "I seguenti pacchetti di contenuti hanno dipendenze non installate e non possono ancora essere installati. Verranno saltati",
             "noPackSelected": "Nessun pacchetto di contenuti selezionato",
             "alreadyInstalledNote": "Un pacchetto con lo stesso nome e autore è già installato.",
@@ -840,12 +843,12 @@
             "downgradeTo": "Retrocedi a {version}",
             "noChange": "Nessuna modifica (da {from} a {to})",
             "installingPacks_one": "Installazione di {count} pacchetto di contenuti…",
-            "installingPacks_many": "",
+            "installingPacks_many": "Installazione di {count} pacchetti di contenuti…",
             "installingPacks_other": "Installazione di {count} pacchetti di contenuti…",
             "willUpgradeTo": "Verrà aggiornato alla v.{version}",
             "willDowngradeTo": "Verrà retrocesso alla versione {version}",
-            "patchStringCount_one": "{count} stringhe",
-            "patchStringCount_many": "",
+            "patchStringCount_one": "{count} stringa",
+            "patchStringCount_many": "{count} stringhe",
             "patchStringCount_other": "{count} stringhe"
         },
         "packsDirectory": {
@@ -907,26 +910,26 @@
             "migrationTitle": "Migrazione Dati V2",
             "autoMigrated": "I tuoi dati v2 sono stati migrati automaticamente alla v3 all'avvio.",
             "pilotsImported_one": "{count} pilota importato",
-            "pilotsImported_many": "",
+            "pilotsImported_many": "{count} piloti importati",
             "pilotsImported_other": "{count} piloti importati",
             "pilotsPending_one": "{count} pilota in sospeso (LCP mancanti)",
-            "pilotsPending_many": "",
+            "pilotsPending_many": "{count} piloti in sospeso (LCP mancanti)",
             "pilotsPending_other": "{count} piloti in sospeso (LCP mancanti)",
             "npcsImported_one": "{count} PNG importato",
-            "npcsImported_many": "",
+            "npcsImported_many": "{count} PNG importati",
             "npcsImported_other": "{count} PNG importati",
             "npcsPending_one": "{count} PNG in sospeso (LCP mancanti)",
-            "npcsPending_many": "",
+            "npcsPending_many": "{count} PNG in sospeso (LCP mancanti)",
             "npcsPending_other": "{count} PNG in sospeso (LCP mancanti)",
             "encountersPending_one": "{count} scontro in sospeso (PNG mancanti)",
-            "encountersPending_many": "",
+            "encountersPending_many": "{count} scontri in sospeso (PNG mancanti)",
             "encountersPending_other": "{count} scontri in sospeso (PNG mancanti)",
             "lcpsImported_one": "{count} pacchetto di contenuti importato",
-            "lcpsImported_many": "",
+            "lcpsImported_many": "{count} pacchetti di contenuti importati",
             "lcpsImported_other": "{count} pacchetti di contenuti importati",
             "pendingNote": "Gli elementi in sospeso possono essere reimportati dal pannello Pacchetti di Contenuti dopo aver installato gli LCP richiesti.",
             "errorsDuringMigration_one": "{count} errore durante la migrazione",
-            "errorsDuringMigration_many": "",
+            "errorsDuringMigration_many": "{count} errori durante la migrazione",
             "errorsDuringMigration_other": "{count} errori durante la migrazione",
             "downloadBackup": "Scarica Backup v2",
             "downloadBackupTooltip": "Questo file .compcon può essere usato in un ambiente v2 su https://old.compcon.app. Può essere scaricato in qualsiasi momento dal menu Opzioni"
@@ -945,13 +948,13 @@
             "catLcpOrigin": "Origine LCP",
             "catNpcStats": "Statistiche PNG",
             "foundFixable_one": "Trovato {count} problema risolvibile.",
-            "foundFixable_many": "",
+            "foundFixable_many": "Trovati {count} problemi risolvibili.",
             "foundFixable_other": "Trovati {count} problemi risolvibili.",
-            "requiresManual_one": "e {count} problema che richiede intervento manuale",
-            "requiresManual_many": "",
-            "requiresManual_other": "e {count} problemi che richiedono intervento manuale",
+            "requiresManual_one": "{count} problema richiede un intervento manuale.",
+            "requiresManual_many": "{count} problemi richiedono un intervento manuale.",
+            "requiresManual_other": "{count} problemi richiedono un intervento manuale.",
             "applyFixesButton_one": "Applica {count} Correzione",
-            "applyFixesButton_many": "",
+            "applyFixesButton_many": "Applica {count} Correzioni",
             "applyFixesButton_other": "Applica {count} Correzioni",
             "catLcpFlavorState": "Testo personalizzato LCP"
         },
@@ -965,10 +968,10 @@
         },
         "v2ImportNotify": {
             "reimportSuccessText_one": "{count} elemento importato con successo.",
-            "reimportSuccessText_many": "",
+            "reimportSuccessText_many": "{count} elementi importati con successo.",
             "reimportSuccessText_other": "{count} elementi importati con successo.",
             "reimportPendingText_one": "{count} elemento ancora in sospeso per contenuti mancanti.",
-            "reimportPendingText_many": "",
+            "reimportPendingText_many": "{count} elementi ancora in sospeso per contenuti mancanti.",
             "reimportPendingText_other": "{count} elementi ancora in sospeso per contenuti mancanti.",
             "noItemsToReimport": "Nessun elemento da reimportare.",
             "reimportFailedText": "Reimportazione non riuscita: {error}",
@@ -994,7 +997,7 @@
             "collectionUpdatedText": "Gli elementi della raccolta sono stati aggiornati con successo.",
             "collectionUpdatedTitle": "Raccolta Aggiornata",
             "deletionCompleteTitle_one": "{count} Elemento Eliminato Definitivamente",
-            "deletionCompleteTitle_many": "",
+            "deletionCompleteTitle_many": "{count} Elementi Eliminati Definitivamente",
             "deletionCompleteTitle_other": "{count} Elementi Eliminati Definitivamente",
             "deletionFailedBulkText": "Si è verificato un errore durante l'eliminazione degli elementi contrassegnati.",
             "flaggedRemovedText": "Tutti gli elementi contrassegnati sono stati rimossi dal cloud.",
@@ -1030,7 +1033,7 @@
             "patreonOnly": "A causa dei costi del server associati alla creazione e all'archiviazione dei dati di backup, questa funzionalità è disponibile solo per gli abbonati Patreon. Se desideri accedere ai backup cloud automatici, valuta di {link} per sostenere lo sviluppo di @:{'common.appName'} e ottenere funzionalità aggiuntive.",
             "preventPrune": "Impedisci l'eliminazione automatica di questo elemento. Gli archivi preservati contano comunque per i limiti di dimensione e spazio.",
             "pruneItems_one": "Elimina {count} Elemento",
-            "pruneItems_many": "",
+            "pruneItems_many": "Elimina {count} Elementi",
             "pruneItems_other": "Elimina {count} Elementi",
             "removeProtection": "Rimuovi le protezioni di eliminazione automatica su questo elemento",
             "revertTitle": "Ripristina @:{'common.appName'}",
@@ -1103,7 +1106,7 @@
             "deleteLocalData": "Elimina Dati Locali",
             "deleteLocalDataDesc": "Questo contrassegna questo elemento come eliminato localmente, verrà rimosso da questa tabella e non verrà sincronizzato. Le opzioni di recupero degli elementi eliminati si trovano nelle impostazioni utente.",
             "deleteNItems_one": "Elimina {count} Elemento",
-            "deleteNItems_many": "",
+            "deleteNItems_many": "Elimina {count} Elementi",
             "deleteNItems_other": "Elimina {count} Elementi",
             "deletePermanentlyDesc": "Questo rimuoverà definitivamente l'elemento dall'archiviazione locale. Se l'elemento è stato sincronizzato sul cloud, verrà contrassegnato come eliminato anche lì.",
             "deleteSelected": "Elimina Selezionati ({count})",
@@ -1205,19 +1208,19 @@
             "dismissNote": "Questo pannello può essere chiuso senza problemi. Se devi ritentare la migrazione, puoi ripetere questo processo dalla scheda \"Dati Cloud\".",
             "downloading": "Download e importazione dei dati v2…",
             "encountersDetected_one": "{count} Scontro",
-            "encountersDetected_many": "",
+            "encountersDetected_many": "{count} Scontri",
             "encountersDetected_other": "{count} Scontri",
             "encountersImported_one": "{count} scontro importato",
-            "encountersImported_many": "",
+            "encountersImported_many": "{count} scontri importati",
             "encountersImported_other": "{count} scontri importati",
             "migrateNow": "Migra Ora",
             "migrationDesc": "{detected} Lo strumento di migrazione account tenterà di trasferire tutti i dati cloud v2 al nuovo backend v3. Questo processo può richiedere del tempo; non aggiornare o chiudere la pagina durante la migrazione. Dopo aver usato questo strumento (o averlo chiuso), potrai ritrovarlo nella scheda \"Dati Cloud\".",
             "noData": "Nessun dato importabile trovato nella tua archiviazione cloud v2.",
             "npcsDetected_one": "{count} PNG",
-            "npcsDetected_many": "",
+            "npcsDetected_many": "{count} PNG",
             "npcsDetected_other": "{count} PNG",
             "pilotsDetected_one": "{count} Pilota",
-            "pilotsDetected_many": "",
+            "pilotsDetected_many": "{count} Piloti",
             "pilotsDetected_other": "{count} Piloti",
             "previousError": "Un tentativo di migrazione precedente ha riscontrato un errore. Puoi riprovare qui sotto.",
             "retryMigration": "Ritenta Migrazione",
@@ -1427,7 +1430,8 @@
             "templateOptionalFeatures": "Caratteristiche Opzionali del Modello",
             "tierColumns": "R1 / R2 / R3",
             "variantFrame": "Telaio Variante",
-            "weaponAttacks": "Quest'arma può effettuare {count} attacchi alla volta. Più attacchi possono essere effettuati contro lo stesso bersaglio o bersagli diversi."
+            "weaponAttacks": "Quest'arma può effettuare {count} attacchi alla volta. Più attacchi possono essere effettuati contro lo stesso bersaglio o bersagli diversi.",
+            "systemPoints": "Punto Sistema | Punti Sistema"
         },
         "cascade": {
             "alert": "Allarme Cascata",
@@ -1511,7 +1515,8 @@
             "vs": "CONTRO",
             "vsStat": "contro {stat}",
             "vsTarget": "contro quella del Bersaglio",
-            "irreducibleNoExceptArmor": "Questo danno può essere ridotto dalle difese del bersaglio, tranne l'armatura"
+            "irreducibleNoExceptArmor": "Questo danno può essere ridotto dalle difese del bersaglio, tranne l'armatura",
+            "confirmKillHint": "Verrà registrata {n} uccisione | Verranno registrate {n} uccisioni"
         },
         "confirm": {
             "heading": "// Interruzione processo: autorizzazione richiesta //"
@@ -1646,7 +1651,7 @@
         },
         "shareImport": {
             "alreadyAdded": "Questo elemento è già stato aggiunto come risorsa remota.",
-            "dataFound": "dati {type} trovati",
+            "dataFound": "Dati {type} trovati",
             "findItem": "Trova Elemento",
             "itemShareCode": "Codice di Condivisione Elemento",
             "noItemFound": "Nessun elemento trovato con il codice {code}.",
@@ -1766,7 +1771,7 @@
             "encounterImportErrorText": "Impossibile importare lo scontro: {error}",
             "v2BackupTitle": "Importato nei Backup v2",
             "v2BackupText_one": "{count} scontro salvato nelle Importazioni v2 per un'importazione successiva.",
-            "v2BackupText_many": "",
+            "v2BackupText_many": "{count} scontri salvati nelle Importazioni v2 per un'importazione successiva.",
             "v2BackupText_other": "{count} scontri salvati nelle Importazioni v2 per un'importazione successiva."
         },
         "sync": {
@@ -1833,7 +1838,7 @@
             "addStat": "Aggiungi Statistica",
             "custom": "Personalizzata",
             "statCount_one": "{n} Statistica",
-            "statCount_many": "",
+            "statCount_many": "{n} Statistiche",
             "statCount_other": "{n} Statistiche"
         },
         "editorFooter": {
@@ -1877,8 +1882,8 @@
             "clearAllFilters": "Cancella Tutti i Filtri"
         },
         "split": {
-            "itemsHidden_one": "{n} elementi nascosti dal filtro",
-            "itemsHidden_many": "",
+            "itemsHidden_one": "{n} elemento nascosto dal filtro",
+            "itemsHidden_many": "{n} elementi nascosti dal filtro",
             "itemsHidden_other": "{n} elementi nascosti dal filtro",
             "addType": "Aggiungi {type}",
             "createNewType": "Crea Nuovo {type}"
@@ -2012,7 +2017,7 @@
             "missingNpcs": "Questo scontro fa riferimento a PNG non ancora importati. Verrà salvato nella raccolta Importazioni v2 nella Gestione Contenuti e potrà essere importato una volta disponibili i PNG richiesti.",
             "someMissingNpcs": "Alcuni scontri fanno riferimento a PNG non ancora importati. Questi scontri verranno salvati nella raccolta Importazioni v2 nella Gestione Contenuti e potranno essere importati una volta disponibili i PNG richiesti.",
             "importCount_one": "Importa ({n} scontro)",
-            "importCount_many": "",
+            "importCount_many": "Importa ({n} scontri)",
             "importCount_other": "Importa ({n} scontri)"
         },
         "gmNotes": "Note GM",
@@ -2032,15 +2037,15 @@
             "noAssigned": "Nessuna Caratteristica PNG assegnata",
             "noneFound": "Nessuna Caratteristica PNG trovata per questa selezione",
             "selectedTemplate_one": "Template selezionato",
-            "selectedTemplate_many": "",
+            "selectedTemplate_many": "Template selezionati",
             "selectedTemplate_other": "Template selezionati"
         },
         "npcAlert": {
             "selectUpTo_one": "Puoi selezionare fino a {n} caratteristica aggiuntiva",
-            "selectUpTo_many": "",
+            "selectUpTo_many": "Puoi selezionare fino a {n} caratteristiche aggiuntive",
             "selectUpTo_other": "Puoi selezionare fino a {n} caratteristiche aggiuntive",
             "selectN_one": "Seleziona {n} caratteristica aggiuntiva",
-            "selectN_many": "",
+            "selectN_many": "Seleziona {n} caratteristiche aggiuntive",
             "selectN_other": "Seleziona {n} caratteristiche aggiuntive",
             "selectionsComplete": "Selezioni {source} completate"
         },
@@ -2101,8 +2106,8 @@
         "eidolonPrint": {
             "persistentTraits": "Tratti Persistenti",
             "layer": "Strato",
-            "newShards_one": "Nuove Schegge: {n}",
-            "newShards_many": "",
+            "newShards_one": "Nuova Scheggia: {n}",
+            "newShards_many": "Nuove Schegge: {n}",
             "newShards_other": "Nuove Schegge: {n}"
         },
         "featurePrint": {
@@ -2215,6 +2220,15 @@
             "manageNonPlayerCombatUnits": "Gestisci unità in combattimento non giocanti",
             "manageCharactersLocationsAndFactions": "Gestisci personaggi, luoghi e fazioni",
             "createCombatEncounters": "Crea scontri"
+        },
+        "npcSelection": {
+            "classExact": "{name} sceglie {min} caratteristica opzionale aggiuntiva dalla lista Caratteristiche Opzionali della Classe {name} | {name} sceglie {min} caratteristiche opzionali aggiuntive dalla lista Caratteristiche Opzionali della Classe {name}",
+            "classExactPerTier": "{name} sceglie {min} caratteristica opzionale aggiuntiva dalla lista Caratteristiche Opzionali della Classe {name} per ogni Rango PNG | {name} sceglie {min} caratteristiche opzionali aggiuntive dalla lista Caratteristiche Opzionali della Classe {name} per ogni Rango PNG",
+            "templateClassExact": "{name} sceglie {min} caratteristica opzionale aggiuntiva dalla propria classe | {name} sceglie {min} caratteristiche opzionali aggiuntive dalla propria classe",
+            "templateClassExactPerTier": "{name} sceglie {min} caratteristica opzionale aggiuntiva dalla propria classe per ogni Rango PNG | {name} sceglie {min} caratteristiche opzionali aggiuntive dalla propria classe per ogni Rango PNG",
+            "templateExact": "{name} sceglie {min} opzione dalla lista Caratteristiche Opzionali del Modello {name} | {name} sceglie {min} opzioni dalla lista Caratteristiche Opzionali del Modello {name}",
+            "templateMayExact": "{name} può scegliere {min} opzione dalla lista Caratteristiche Opzionali del Modello {name} | {name} può scegliere {min} opzioni dalla lista Caratteristiche Opzionali del Modello {name}",
+            "templatePerTier": "{name} può scegliere una caratteristica opzionale aggiuntiva per ogni Rango PNG | {name} può scegliere {n} caratteristiche opzionali aggiuntive per ogni Rango PNG"
         }
     },
     "active": {
@@ -2314,7 +2328,7 @@
             "archivedEncounters": "Scontri Archiviati ({n})",
             "noArchivedFound": "Nessuno scontro archiviato trovato",
             "roundsCount_one": "{n} Round",
-            "roundsCount_many": "",
+            "roundsCount_many": "{n} Round",
             "roundsCount_other": "{n} Round",
             "afterActionReport": "Rapporto Post-Azione",
             "copyReport": "Copia Rapporto",
@@ -2409,7 +2423,17 @@
             "sortByCreated": "Ordina per data di creazione"
         },
         "organizer": {
-            "selected": "selezionati"
+            "selected": "selezionati",
+            "archiveHint": {
+                "sheet": "Sposta la scheda in archivio | Sposta le schede selezionate in archivio",
+                "encounter": "Sposta lo scontro in archivio | Sposta gli scontri selezionati in archivio",
+                "item": "Sposta l'elemento in archivio | Sposta gli elementi selezionati in archivio"
+            },
+            "removeHint": {
+                "sheet": "Rimuovi definitivamente la scheda | Rimuovi definitivamente le schede selezionate",
+                "encounter": "Rimuovi definitivamente lo scontro | Rimuovi definitivamente gli scontri selezionati",
+                "item": "Rimuovi definitivamente l'elemento | Rimuovi definitivamente gli elementi selezionati"
+            }
         },
         "runnerHeader": {
             "lastSaved": "Ultimo Salvataggio",
@@ -2441,8 +2465,8 @@
             "burnResolved": "Fuoco risolto",
             "burnRequired": "Risolvi o ignora il danno da Fuoco per concludere il round.",
             "movementRemainingTitle": "Hai ancora del movimento disponibile",
-            "movementRemaining_one": "{n} spazi di movimento saranno persi.",
-            "movementRemaining_many": "",
+            "movementRemaining_one": "{n} spazio di movimento sarà perso.",
+            "movementRemaining_many": "{n} spazi di movimento saranno persi.",
             "movementRemaining_other": "{n} spazi di movimento saranno persi.",
             "youHaveRemainingActions": "Hai ancora azioni disponibili!"
         },
@@ -2565,8 +2589,8 @@
             "reactorDestroyed": "Reattore distrutto",
             "bracedDesc": "Conti come dotato di RESISTENZA a tutti i danni, calore e fuoco dell'attacco che ha innescato questo Incassare e, fino alla fine del tuo prossimo turno, tutti gli altri attacchi contro di te sono effettuati a +1 Difficoltà.",
             "coverLabel": "copertura {cover}",
-            "activationsRemaining_one": "{n} Attivazioni rimanenti in questo round",
-            "activationsRemaining_many": "",
+            "activationsRemaining_one": "{n} Attivazione rimanente in questo round",
+            "activationsRemaining_many": "{n} Attivazioni rimanenti in questo round",
             "activationsRemaining_other": "{n} Attivazioni rimanenti in questo round",
             "aiControl": "Mech sotto Controllo IA",
             "selfDestructInitiated": "Autodistruzione avviata",
@@ -2694,7 +2718,9 @@
                 "damageDealtUnmounted": "Danni inflitti da appiedato",
                 "damageTakenUnmounted": "Danni subiti da appiedato",
                 "movementUnmounted": "Spazi attraversati da appiedato",
-                "summaryHeader": "{name} - {n} round"
+                "summaryHeader": "{name} - {n} round",
+                "overchargesValue": "{n} ({heat} calore)",
+                "logEntryHeader": "Round {n} ({time})"
             }
         },
         "actorLogs": {
@@ -2752,7 +2778,8 @@
             "overcharge": "Sovralimentazione",
             "spent": "Utilizzata",
             "restoreAction": "Clicca per recuperare questa azione",
-            "overchargeReady": "Sovralimentato - qualsiasi azione rapida è gratuita"
+            "overchargeReady": "Sovralimentato - qualsiasi azione rapida è gratuita",
+            "quickN": "Rapida {n}"
         },
         "deploy": {
             "deployNamed": "Dispiega {name}",
@@ -2858,7 +2885,7 @@
             "noShards": "Lo strato non ha Schegge",
             "persistentTraits": "Tratti Persistenti ({n})",
             "generateShards_one": "Genera {n} Scheggia",
-            "generateShards_many": "",
+            "generateShards_many": "Genera {n} Schegge",
             "generateShards_other": "Genera {n} Schegge"
         },
         "mechPanel": {
@@ -2957,7 +2984,8 @@
             "manageData": "Gestisci dati telemetria",
             "deleteTitle": "Elimina dati telemetria",
             "deleteConfirm": "Questa azione eliminerà definitivamente {count} scontri archiviati, inclusi tutti i dati di telemetria. L'azione non può essere annullata.",
-            "omitted": "{count} scontri archiviati non contengono dati di telemetria e sono stati omessi."
+            "omitted": "{count} scontri archiviati non contengono dati di telemetria e sono stati omessi.",
+            "groupSummary": "{appearances} comparse, {dealt} inflitti, {taken} subiti"
         },
         "charts": {
             "noData": "Raccolta dati incompleta. Archivia ulteriori scontri.",
@@ -3068,6 +3096,9 @@
             "rollableTables": "Tabelle Casuali",
             "encounterInfo": "Info Scontro",
             "listTagsPresentOnCharactersOrEquipmentInThisEncounter": "Elenca i tag presenti su personaggi o equipaggiamento in questo scontro"
+        },
+        "aar": {
+            "roundsValue": "{n} round | {n} round"
         }
     },
     "pm": {
@@ -3389,14 +3420,14 @@
             "doneReordering": "Riordino Completato",
             "addGroup": "Aggiungi Gruppo",
             "addANewPilotToName": "Aggiungi un nuovo pilota a {name}",
-            "hiddenPilots_one": "{n} pilota Nascosto",
-            "hiddenPilots_many": "",
-            "hiddenPilots_other": "{n} piloti Nascosto",
+            "hiddenPilots_one": "{n} pilota nascosto",
+            "hiddenPilots_many": "{n} piloti nascosti",
+            "hiddenPilots_other": "{n} piloti nascosti",
             "andPilots_one": "e {n} Pilota",
-            "andPilots_many": "",
+            "andPilots_many": "e {n} Piloti",
             "andPilots_other": "e {n} Piloti",
             "pilotCount_one": "{n} Pilota",
-            "pilotCount_many": "",
+            "pilotCount_many": "{n} Piloti",
             "pilotCount_other": "{n} Piloti",
             "groupDescription": "Descrizione Gruppo",
             "setGroupEmblem": "Imposta Emblema Gruppo",
@@ -3437,7 +3468,8 @@
             "resourceName": "Nome Risorsa",
             "addSkill": "Aggiungi Impulso",
             "increaseSkillBonus": "Aumenta Bonus Impulso",
-            "decreaseSkillBonus": "Diminuisci Bonus Impulso"
+            "decreaseSkillBonus": "Diminuisci Bonus Impulso",
+            "coreBonusAvailable": "{count} Bonus Licenza {mf} disponibile | {count} Bonus Licenza {mf} disponibili"
         },
         "shared": {
             "criticalWarning": "Critico",
@@ -3503,10 +3535,10 @@
             "addMechSkillPoints": "Aggiungi {word} ({count}) Punti Abilità Mech.",
             "selectPilotTalents": "Seleziona {word} ({count}) Talenti del Pilota.",
             "selectLicenseRanks_one": "Seleziona {word} ({count}) Grado di Licenza.",
-            "selectLicenseRanks_many": "",
+            "selectLicenseRanks_many": "Seleziona {word} ({count}) Gradi di Licenza.",
             "selectLicenseRanks_other": "Seleziona {word} ({count}) Gradi di Licenza.",
             "selectCoreBonusesN_one": "Seleziona {word} ({count}) Bonus Licenza.",
-            "selectCoreBonusesN_many": "",
+            "selectCoreBonusesN_many": "Seleziona {word} ({count}) Bonus Licenza.",
             "selectCoreBonusesN_other": "Seleziona {word} ({count}) Bonus Licenza.",
             "otherClocks": "Altri Orologi",
             "generateRandomName": "Genera nome casuale"
@@ -3526,7 +3558,9 @@
             "pilotRequiresReSync": "Il pilota richiede una nuova sincronizzazione",
             "withShareCode": "con codice di condivisione",
             "mustBeReSyncedToThe": "deve essere risincronizzato con l'account dell'autore prima di poter essere visualizzato.",
-            "serverErrorTooManyRequests": "Errore Server - Troppe Richieste"
+            "serverErrorTooManyRequests": "Errore Server - Troppe Richieste",
+            "retryMinutes": "{n} minuto | {n} minuti",
+            "retrySeconds": "{n} secondo | {n} secondi"
         },
         "common": {
             "installName": "Installa {name}",
@@ -3613,6 +3647,9 @@
             "createAndModifyMechsAndTheirLoadouts": "Crea e Modifica i Mech e i loro Equipaggiamenti",
             "pilotSectionsSummary": "Impulsi del Pilota, Risorse ed Equipaggiamento Attrezzatura del Pilota",
             "progressionSectionsSummary": "Licenze del Pilota, Abilità Mech, Bonus Licenza e Talenti"
+        },
+        "logbook": {
+            "acrossN": "in {n} scontro | in {n} scontri"
         }
     },
     "enums": {
@@ -3638,16 +3675,33 @@
             "kia": "KIA"
         },
         "syncItemCount": {
-            "item_one": "{n} elementi",
-            "item_many": "",
-            "item_other": "{n} elementi"
+            "item_one": "{n} elemento",
+            "item_many": "{n} elementi",
+            "item_other": "{n} elementi",
+            "pilot": "{n} pilota | {n} piloti",
+            "pilotgroup": "{n} gruppo piloti | {n} gruppi piloti",
+            "unit": "{n} unità | {n} unità",
+            "doodad": "{n} aggeggio | {n} aggeggi",
+            "eidolon": "{n} eidolon | {n} eidolon",
+            "character": "{n} personaggio | {n} personaggi",
+            "faction": "{n} fazione | {n} fazioni",
+            "location": "{n} luogo | {n} luoghi",
+            "encounter": "{n} scontro | {n} scontri",
+            "encounterinstance": "{n} scontro attivo | {n} scontri attivi",
+            "encounterarchive": "{n} scontro archiviato | {n} scontri archiviati",
+            "pilotsheet": "{n} scheda pilota | {n} schede pilota",
+            "pilotlogbook": "{n} registro | {n} registri",
+            "campaign": "{n} campagna | {n} campagne",
+            "npc": "{n} PNG | {n} PNG",
+            "collectionitem": "{n} elemento della raccolta | {n} elementi della raccolta",
+            "narrative": "{n} elemento narrativo | {n} elementi narrativi"
         }
     },
     "combat": {
         "timedEffect": {
             "retryMeltdown": "Ritenta la prova INGEGNERIA (azione completa) per evitare la fusione del nocciolo",
-            "roundsRemaining_one": "{n} Round rimanenti",
-            "roundsRemaining_many": "",
+            "roundsRemaining_one": "{n} Round rimanente",
+            "roundsRemaining_many": "{n} Round rimanenti",
             "roundsRemaining_other": "{n} Round rimanenti",
             "override": "Forza",
             "selfDestructName": "Autodistruzione",
@@ -3698,16 +3752,16 @@
         "log": {
             "encounterStart": "Scontro avviato: {name}",
             "encounterEnd_one": "Scontro terminato dopo {rounds} round: {result}",
-            "encounterEnd_many": "",
+            "encounterEnd_many": "Scontro terminato dopo {rounds} round: {result}",
             "encounterEnd_other": "Scontro terminato dopo {rounds} round: {result}",
             "roundStart": "Inizio round {round}",
             "roundEnd": "Fine round {round}",
-            "turnStart_one": "{who} inizia il turno ({n} attivazione/i rimasta/e)",
-            "turnStart_many": "",
-            "turnStart_other": "{who} inizia il turno ({n} attivazione/i rimasta/e)",
-            "turnEnd_one": "{who} termina il turno ({n} attivazione/i rimasta/e)",
-            "turnEnd_many": "",
-            "turnEnd_other": "{who} termina il turno ({n} attivazione/i rimasta/e)",
+            "turnStart_one": "{who} inizia il turno ({n} attivazione rimasta)",
+            "turnStart_many": "{who} inizia il turno ({n} attivazioni rimaste)",
+            "turnStart_other": "{who} inizia il turno ({n} attivazioni rimaste)",
+            "turnEnd_one": "{who} termina il turno ({n} attivazione rimasta)",
+            "turnEnd_many": "{who} termina il turno ({n} attivazioni rimaste)",
+            "turnEnd_other": "{who} termina il turno ({n} attivazioni rimaste)",
             "action": "{who} usa {action} come azione {activation}",
             "actionFree": "{who} usa {action} come azione gratuita",
             "actionPlain": "{who} usa {action}",
@@ -3779,9 +3833,9 @@
             "prepareRelease": "{who} esegue l'azione approntata",
             "blocked": "{who} non può {action}: {reason}",
             "meltdown": {
-                "scheduled_one": "Il reattore di {who} raggiungerà la fusione del nocciolo in {turns} turno/i",
-                "scheduled_many": "",
-                "scheduled_other": "Il reattore di {who} raggiungerà la fusione del nocciolo in {turns} turno/i",
+                "scheduled_one": "Il reattore di {who} raggiungerà la fusione del nocciolo tra {turns} turno",
+                "scheduled_many": "Il reattore di {who} raggiungerà la fusione del nocciolo tra {turns} turni",
+                "scheduled_other": "Il reattore di {who} raggiungerà la fusione del nocciolo tra {turns} turni",
                 "averted": "{who} ha evitato la fusione del nocciolo",
                 "committed": "Il reattore di {who} ha raggiunto la fusione del nocciolo",
                 "self_destruct": "{who} attiva l'autodistruzione"
