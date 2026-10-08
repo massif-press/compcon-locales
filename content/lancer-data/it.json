@@ -48,5 +48,14 @@
     "act_improvised_attack_npc.name": "Attacco Improvvisato",
     "act_improvised_attack_npc.terse": "Attacco in mischia con il calcio di un fucile, un pugno o un’altra arma impropria.",
     "act_improvised_attack.name": "Attacco Improvvisato",
-    "act_improvised_attack.terse": "Attacco in mischia con il calcio di un fucile, un pugno o un’altra arma impropria."
+    "act_improvised_attack.terse": "Attacco in mischia con il calcio di un fucile, un pugno o un’altra arma impropria.",
+    "act_inv_fragment_signal.detail": "Invii false informazioni, messaggi osceni o segnali fantasma al computer del bersaglio, che viene COMPROMESSO e RALLENTATO fino al termine del suo prossimo turno.",
+    "act_inv_fragment_signal.name": "Frammentare Segnale",
+    "act_invade.detail": "INVADERE significa effettuare un attacco elettronico diretto contro il bersaglio. Effettua un attacco tech contro un personaggio in linea di vista ed entro SENSORI. Con un successo, questi subisce 2 calore e gli infliggi uno degli effetti a tua disposizione. FRAMMENTARE SEGNALE è disponibile a tutti, le altre derivano da sistemi ed equipaggiamenti con il tag INVADERE. È possibile INVADERE i propri alleati per attivare determinati effetti. Se il bersaglio è consenziente la prova ha automaticamente successo, non conta come un attacco e il bersaglio non riceve calore.",
+    "act_invade.terse": "Effettua un attacco elettronico diretto contro il bersaglio.",
+    "act_jockey_damage.detail": "Colpire giunti, portelli e così via infligge 4 danni cinetici al mech.",
+    "act_jockey_damage.name": "Danneggiare",
+    "act_jockey_distract.detail": "Il mech è COMPROMESSO e RALLENTATO fino al termine del suo prossimo turno.",
+    "act_jockey_distract.name": "Distrarre",
+    "act_jockey_distract.terse": "Il mech è COMPROMESSO e RALLENTATO fino al termine del suo prossimo turno."
 }
