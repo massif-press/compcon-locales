@@ -46,5 +46,7 @@
     "act_grapple.name": "Afferrare",
     "act_hide.name": "Nascondersi",
     "act_improvised_attack_npc.name": "Attacco Improvvisato",
-    "act_improvised_attack_npc.terse": "Attacco in mischia con il calcio di un fucile, un pugno o un’altra arma impropria."
+    "act_improvised_attack_npc.terse": "Attacco in mischia con il calcio di un fucile, un pugno o un’altra arma impropria.",
+    "act_improvised_attack.name": "Attacco Improvvisato",
+    "act_improvised_attack.terse": "Attacco in mischia con il calcio di un fucile, un pugno o un’altra arma impropria."
 }
