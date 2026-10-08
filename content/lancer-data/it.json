@@ -62,5 +62,6 @@
     "act_jockey_shred.name": "Lacerare",
     "act_jockey_shred.terse": "Infligge 2 calore",
     "act_jockey.detail": "Tentare un ABBORDAGGIO vuol dire assalire un mech mentre si è appiedati. È impossibile sottolineare quanto ciò sia folle e pericoloso.<br/>Se sei adiacente al mech, come azione completa, effettua una prova contrapposta di GRINTA (o un impulso appropriato secondo il GM) contro SCAFO. Se vinci ti arrampichi sul bersaglio, condividendone lo spazio sulla mappa e muovendoti con esso. Il mech può tentare di liberarsi di te effettuando un’altra prova contrapposta come azione completa. In alternativa, puoi saltare giù come parte del tuo movimento.",
-    "act_jockey.name": "Abbordaggio"
+    "act_jockey.name": "Abbordaggio",
+    "act_lockon.detail": "AGGANCIARE significa marcare elettronicamente un bersaglio, così che gli alleati possano bersagliarne sistemi e punti deboli.<br/>Scegli un personaggio in linea di vista ed entro SENSORI, che diviene AGGANCIATO. Chi lo attacca ottiene +1 precisione e, una volta risolto l’attacco, la condizione AGGANCIATO viene rimossa. Ciò è detto consumare l’AGGANCIO."
 }
