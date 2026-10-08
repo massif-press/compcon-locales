@@ -29,8 +29,10 @@
     "act_disengage.terse": "Muoversi con prudenza fuori da una situazione pericolosa. Fino al termine di questo turno, ignori gli ingaggi e non provochi reazioni muovendoti.",
     "act_dismount.name": "Smontare",
     "act_dismount.detail": "SMONTARE consiste nel scendere da un mech. Smontare è il termine che molti usano per indicare l'entrata e l'uscita.<br/>SMONTARE richiede un'azione completa. Quando SMONTI, ti ritrovi in uno spazio libero accanto al mech. Se non ce ne sono non puoi smontare.<br/>È anche possibile SMONTARE da mech e veicoli alleati e consenzienti.",
-    "act_dismount.terse": "Scendere dal mech.",
-    "act_eject.detail": "EIETTEARSI è un’azione rapida che ti scaglia di 6 spazi in una direzione di tua scelta. Questo sistema d’emergenza può essere usato solo una volta e il mech risulta COMPROMESSO per il resto della missione. Non è possibile rimuovere questa condizione o EIETTARSI di nuovo prima di una RIPARAZIONE COMPLETA.",
+    "act_dismount.terse": "Esci dal tuo mech.",
+    "act_eject.detail": "EIETTARSI, invece, è un’azione rapida che ti scaglia di 6 spazi in una direzione di tua scelta. Questo sistema d’emergenza può essere usato solo una volta e il mech risulta COMPROMESSO per il resto della missione. Non è possibile rimuovere questa condizione o EIETTARSI di nuovo prima di una RIPARAZIONE COMPLETA.",
     "act_eject.name": "Eiettarsi",
-    "act_eject.terse": "Eiettarsi dal proprio mech, scagliandosi 6 spazi in una direzione scelta."
+    "act_eject.terse": "Ti eietti dal tuo mech, venendo scagliato di 6 spazi in una direzione di tua scelta.",
+    "act_fight.name": "Combattere",
+    "act_invade.name": "INVADERE"
 }
