@@ -5,7 +5,7 @@
     "emergency_coolant_reservoir.name": "Бак экстренного охлаждения",
     "env_automatedrepairstations.name": "Автоматизированные станции техобслуживания",
     "env_chokingdust.name": "Удушливая пыль",
-    "mw_reaper_assault_cannon.profile_superheavy.name": "Сверхтяжёлое",
+    "mw_reaper_assault_cannon.profile_superheavy.name": "Сверхтяжёлый режим",
     "mf_micro_monarch.name": "Наместник",
     "mf_störtebeker.name": "Штёртебекер",
     "ms_madrigal_boarding_shotgun.name": "Абордажный дробовик Мадригал",
@@ -19,7 +19,7 @@
     "transcendence_die.name": "Кость трансцендентности",
     "mf_störtebeker.core_system.passive_name": "Доктрина Хопкинса",
     "mw_reaper_assault_cannon.profile_standard.name": "Стандартный режим",
-    "mf_micro_monarch.trait_pressure_plating.name": "Герметичная обшивка",
+    "mf_micro_monarch.trait_pressure_plating.name": "Противофугасная обшивка",
     "ms_iconoclast.name": "Нестабильная НЧЛ",
     "t_field_analyst.name": "Полевой аналитик",
     "t_field_analyst.rank_active_interference.action_active_interference.name": "Активное вмешательство",
@@ -49,7 +49,11 @@
     "t_iconoclast.rank_transmutation.action_transmuting_spark.name": "Трансмутирующая искра",
     "t_prospector.rank_stake_a_claim.action_create_entrance.name": "Создать проход",
     "t_prospector.rank_stake_a_claim.name": "Заявить права на участок",
-    "mw_reaper_assault_cannon.name": "Штурмовой пулемёт \"Жнец\"",
+    "mw_reaper_assault_cannon.name": "Штурмовая пушка \"Жнец\"",
     "mw_tempest_charged_blade.name": "Заряженный меч \"Вихрь\"",
-    "npcf_automated_battlefield_awareness_node_spec_op.action_battlefield_awareness.name": "Тактическая боеготовность"
+    "npcf_automated_battlefield_awareness_node_spec_op.action_battlefield_awareness.name": "Тактическая боеготовность",
+    "reserve_military_grade_jetpack.active_effect_military_grade_jetpack.name": "Армейский ракетный ранец",
+    "reserve_military_grade_jetpack.name": "Армейский ракетный ранец",
+    "npcf_burst_jets_spec_op.active_effect_jump_packs.name": "Прыжковые ранцы",
+    "npcf_burst_jets_spec_op.name": "Прыжковые ранцы"
 }
