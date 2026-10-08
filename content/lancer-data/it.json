@@ -35,5 +35,7 @@
     "act_eject.terse": "Ti eietti dal tuo mech, venendo scagliato di 6 spazi in una direzione di tua scelta.",
     "act_fight.name": "Combattere",
     "act_invade.name": "INVADERE",
-    "act_fight.detail": "COMBATTERE significa attaccare con un’arma da mischia o a distanza.<br/>Come azione completa, scegli un’arma e attacca un bersaglio entro GITTATA o MINACCIA e in linea di vista. Gli attacchi a distanza sono modificati dalle coperture e subiscono +1 difficoltà se sei INGAGGIATO."
+    "act_fight.detail": "COMBATTERE significa attaccare con un’arma da mischia o a distanza.<br/>Come azione completa, scegli un’arma e attacca un bersaglio entro GITTATA o MINACCIA e in linea di vista. Gli attacchi a distanza sono modificati dalle coperture e subiscono +1 difficoltà se sei INGAGGIATO.",
+    "act_free_action.detail": "Le azioni gratuite si ottengono grazie a sistemi, talenti, equipaggiamenti e SOVRALIMENTARE. Se ne possono effettuare quante se ne vuole, ma solo nel proprio turno e solo quelle a cui si ha accesso. Possono essere usate per duplicare azioni già effettuate.<br/>Il tipo più comune è PROTOCOLLO, che viene fornita da equipaggiamenti e sistemi che possono essere attivati o disattivati all’inizio del proprio turno. Ogni PROTOCOLLO può essere impiegato solo una volta per turno.",
+    "act_free_action.name": "Azioni Gratuite"
 }
