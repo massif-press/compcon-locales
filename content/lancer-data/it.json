@@ -34,5 +34,6 @@
     "act_eject.name": "Eiettarsi",
     "act_eject.terse": "Ti eietti dal tuo mech, venendo scagliato di 6 spazi in una direzione di tua scelta.",
     "act_fight.name": "Combattere",
-    "act_invade.name": "INVADERE"
+    "act_invade.name": "INVADERE",
+    "act_fight.detail": "COMBATTERE significa attaccare con un’arma da mischia o a distanza.<br/>Come azione completa, scegli un’arma e attacca un bersaglio entro GITTATA o MINACCIA e in linea di vista. Gli attacchi a distanza sono modificati dalle coperture e subiscono +1 difficoltà se sei INGAGGIATO."
 }
