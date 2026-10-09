@@ -57,6 +57,8 @@
     "ktb-bond-titan.name": "Исполин",
     "ktb-bond-wolf.name": "Хищник",
     "ktb-bond-wolf.power_discipline.name": "Дисциплина",
-    "tg_efficient.name": "Восстанавливающееся",
-    "ktb-bond-builder.power_sanctuary.name": "Убежище"
+    "tg_efficient.name": "Возобновляемое",
+    "ktb-bond-builder.power_sanctuary.name": "Убежище",
+    "tg_efficient.description": "Если вы используете систему с этой меткой в рамках любой сцены, в конце сцены вы восстанавливаете 1 заряд ключевой способности.",
+    "t_house_guard.terse": "Позволяет вам лучше защищать своих союзников."
 }

@@ -6,5 +6,6 @@
     "npcc_ows_mbt_stabilized_railgun.name": "Стабилизированный рельсотрон",
     "npcc_ows_mbt_siege_mode.name": "Осадный режим",
     "npcc_ows_mbt_siege_mode.action_siege_mode.name": "Осадный режим",
-    "npct_marine.name": "Морпех"
+    "npct_marine.name": "Морпех",
+    "npcc_ows_mbt_antares.name": "Лазерная винтовка образца АНТАРЕС"
 }
