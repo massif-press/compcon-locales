@@ -236,7 +236,7 @@
         "overkill": "Избыточное",
         "mechName": "Название меха",
         "addTable": "Добавить таблицу",
-        "repairCap": "Ремзапас.",
+        "repairCap": "Запас ремкомплектов.",
         "allPilots": "Все пилоты",
         "heatCapacity": "Теплоёмкость",
         "repairCapacity": "Запас ремкомплектов",
@@ -1262,7 +1262,9 @@
             "engineeringCheck": "Проверка навыка (Инженерное дело)",
             "quickRoll": "Быстрый бросок",
             "accuracyShort": "ТОЧ",
-            "difficultyShort": "ПОМ"
+            "difficultyShort": "ПОМ",
+            "actorRolled": "{name} сделал(а) бросок:",
+            "gmRolled": "Ведущий сделал бросок:"
         },
         "damageMenu": {
             "totalDamage": "Суммарный урон",
@@ -1347,7 +1349,11 @@
             "recharge": "восстанавливается на {n}+",
             "inSoftCover": "В частичном укрытии",
             "inHardCover": "В полном укрытии",
-            "aiControlled": "ПОД КОНТРОЛЕМ ИИ"
+            "aiControlled": "ПОД КОНТРОЛЕМ ИИ",
+            "selfDestruct": "ИНИЦИИРОВАНА ПРОЦЕДУРА САМОУНИЧТОЖЕНИЯ // T-{n}",
+            "roundHeader": "{name} - Раунд {round} ({date})",
+            "mechLoadoutHeader": "ВЫКЛАДКА МЕХА",
+            "noActiveMech": "Активный мех не выбран"
         },
         "scan": {
             "scan": "Сканировать"
@@ -1429,7 +1435,9 @@
             "setRound": "Настроить раунд",
             "noStatController": "Управление характеристиками не найдено",
             "noReinforcementSchedule": "Время прибытия подкреплений не указано",
-            "undoEditOverrides": "Отредактировать изменения {name}"
+            "undoEditOverrides": "Отредактировать изменения {name}",
+            "invalidEncounterFile": "Некорректный копия столкновения.",
+            "importFailed": "Не удалось импортировать указанный файл столкновения."
         },
         "panelBase": {
             "counters": "Счётчики",
@@ -1447,7 +1455,9 @@
             "reduceActivations": "Это приведёт к снижению общего количества активаций на 1 и сбросит все трекеры действий.",
             "endActivation": "Конец активации (хода)",
             "pilotGrit": "Закалка пилота",
-            "combatImage": "Отображение в бою"
+            "combatImage": "Отображение в бою",
+            "setCombatImage": "Задать изображение для боя",
+            "clearCombatImage": "Сбросить изображение для боя"
         },
         "equipCmd": {
             "reload": "Перезарядить",
@@ -1551,7 +1561,7 @@
         "sheetItem": {
             "na": "Отсутствует",
             "started": "начало использования",
-            "archiveSheet": "Архивный лист персонажа",
+            "archiveSheet": "Добавить лист персонажа в архив",
             "deleteSheet": "Удалить лист персонажа",
             "unmounted": "Не закреплено",
             "exportSheet": "Экспортировать лист персонажа",
@@ -1607,7 +1617,9 @@
             "noMatches": "Записи, соответствующие выбранным параметрам сортировки, не найдены.",
             "showing": "Отображаются {shown} из {total} записей",
             "round": "Раунд {n}",
-            "currentStatsTitle": "{name} текущие характеристики"
+            "currentStatsTitle": "{name} Текущие характеристики",
+            "combatTelemetryTitle": "{name} Боевая телеметрия",
+            "combatLogTitle": "{name} Лог боя"
         },
         "combatAction": {
             "alreadyUsed": "Указанное действие уже было использовано в этом ходу.",
@@ -1626,7 +1638,8 @@
         },
         "statusCond": {
             "title": "Статусы / Состояния",
-            "addCustom": "Добавить пользовательский статус"
+            "addCustom": "Добавить пользовательский статус",
+            "braceCooldownDetail": "Из-за напряжения, вызванного укреплением, вы не можете совершать реакции до конца вашего следующего хода, и в этом ходу вы можете совершить только одно быстрое действие — вы не можете совершать форсаж, перемещаться, совершать полные или свободные действия."
         },
         "sortBar": {
             "sortByCreated": "Сортировать по дате создания",
@@ -1768,7 +1781,8 @@
             "importState": "Импорт листа персонажа в текущем состоянии",
             "importFileLabel": "Файл импорта копии листа персонажа (.json)",
             "warningReplace": "Предупреждение: состояние листа персонажа из импортированного файла заменит его текущее состояние.",
-            "atRound": "за Раунд"
+            "atRound": "за Раунд",
+            "invalidSheetFile": "Некорректная копия листа персонажа."
         },
         "initiative": {
             "reinforcementsN": "({n}) подкреплений",
@@ -1781,7 +1795,8 @@
                 "pc_victory": "ПОБЕДА ПИ",
                 "enemy_victory": "ПОБЕДА ПРОТИВНИКОВ",
                 "stalemate": "ПАТОВАЯ СИТУАЦИЯ"
-            }
+            },
+            "gmConfirm": "Завершение столкновения приведёт к закрытию активной версии и отправке копии в архив. Заархивированное столкновение нельзя продолжить (но можно начать сначала). Вы уверены, что хотите продолжить?"
         },
         "endRound": {
             "endRound": "Завершить раунд",
@@ -1950,8 +1965,10 @@
             "resetToDefault": "Сброс к настройкам по умолчанию",
             "actionGroupings": {
                 "none": "Без группировки",
-                "standard": "Стандартная"
-            }
+                "standard": "Стандартная",
+                "byType": "По типу действия"
+            },
+            "actionGrouping": "Палитра действий"
         },
         "charts": {
             "round": "Раунд",
@@ -1970,14 +1987,21 @@
             "careerDamage": "Урон за карьеру",
             "classVsTemplate": "Класс против шаблона",
             "damageDealtByType": "Нанесённый урон (по типу)",
-            "encounterLength": "Продолжительность столкновений"
+            "encounterLength": "Продолжительность столкновений",
+            "damageBySide": "Урон по типу",
+            "heatCurveSub": "Теплоёмкость {n}",
+            "showChart": "Отобразить в виде таблицы",
+            "accuracyOverTimeSub": "В среднем за карьеру {n}%",
+            "dataSet": "Набор данных"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
             "allFolders": "Все папки",
-            "byTemplate": "Шаблон персонажа ведущего",
+            "byTemplate": "Шаблон ПВ",
             "allLabels": "Все метки",
-            "byType": "Тип актора"
+            "byType": "Тип актора",
+            "manageData": "Управление данными телеметрии",
+            "deleteTitle": "Удалить данные телеметрии"
         },
         "weaponSelect": {
             "unavailableCount": "недоступно"
@@ -2081,19 +2105,28 @@
             "highlights": {
                 "topKills": "Больше всего поражённых целей",
                 "topOvercharges": "Больше всего форсажей"
-            }
+            },
+            "outcomeTitle": "РЕЗУЛЬТАТ СТОЛКНОВЕНИЯ",
+            "rowSummary": "{dealt} нанесено / {taken} получено / {kills} поражено целей"
         },
         "playMode": {
             "undoChange": "Изменить режим игры",
             "markUnused": "Отметить как неиспользованное",
             "label": "Режим игры",
             "full": "Полный",
-            "simple": "Упрощённый"
+            "simple": "Упрощённый",
+            "fullDescription": "Автоматизация правил, всплывающие диалоговые окна для атак, проверок навыков и испытаний, а также бросание костей, логирование и телеметрия.",
+            "simpleDescription": "Характеристики, трекеры, статусы, снаряжение. Действия помечаются, как использованные и не могут быть отменены. Лучше всего подходит для виртуальных столов и игры вживую.",
+            "defaultTitle": "Стандартный режим игры",
+            "defaultDescription": "Выбор режима игры для новых столкновений и листов персонажа. Его можно настроить отдельно в параметрах столкновения.",
+            "hidingUnavailableActions": "Недоступные действия скрыты. Нажмите здесь, чтобы отобразить их.",
+            "showingUnavailableActions": "Недоступные действия отображаются. Нажмите здесь, чтобы скрыть их."
         },
         "actionPalette": {
             "markUsed": "Пометить использование {type} действия",
             "markUnused": "Пометить {type} действие, как неиспользованное"
-        }
+        },
+        "logsAndTelemetryTitle": "{name} - ЛОГИ И ТЕЛЕМЕТРИЯ"
     },
     "mainMenu": {
         "auth": {
@@ -2777,7 +2810,7 @@
             "grit": "ЗАКАЛКА",
             "mechSheetOptions": "Доступные действия (лист меха)",
             "pageBreak": "Разрыв страницы",
-            "repairCapacityShort": "Ремзапас",
+            "repairCapacityShort": "Запас ремкомплектов",
             "limitedBonusShort": "Модификатор РАС",
             "limitedSystemShort": "РАС сис",
             "maxStructure": "Макс. значение Структуры",
@@ -2785,7 +2818,7 @@
             "coreActiveNamed": "{name} (АКТИВНАЯ КС)",
             "pilotCombatHistory": "Боевой послужной список пилота",
             "openLogbook": "Открыть бортовой журнал пилота",
-            "maxStress": "Макс. значение Износа"
+            "maxStress": "Макс. значение Стресса"
         },
         "roster": {
             "history": "История отряда",
@@ -3145,7 +3178,7 @@
         },
         "bonds": {
             "selectPilotBond": "Выбор уз пилота",
-            "maximumStress": "Максимальное значение стресса",
+            "maximumStress": "Максимальное значение Стресса",
             "editPilotBonds": "Редактировать данные о выбранных пилотом Узах",
             "pilotXp": "опыт пилота",
             "pilotStress": "стресс пилота",
@@ -3214,7 +3247,7 @@
         },
         "mechSkillsSelector": {
             "mechHp": "ПЗ МЕХА",
-            "limitedSystemsBonus": "Модификатор зарядов расходуемых систем",
+            "limitedSystemsBonus": "Модификатор зарядов РС",
             "hullSkillDescription": "Корпус отражает способность пилота создавать и пилотировать прочных, тяжёлых мехов, которые способны выдержать много урона",
             "agilitySkillDescription": "Ловкость отражает способность пилота создавать и пилотировать быстрых и манёвренных мехов",
             "systemsSkillDescription": "Системы отражают способность пилота создавать и пилотировать мехов с внушительным арсеналом средств радиоэлектронной борьбы",
@@ -3880,7 +3913,8 @@
             "speedShort": "Скр",
             "evasionShort": "Укл",
             "limited": "Расходуемое",
-            "attacksPerActivation": "{n} атак за активацию"
+            "attacksPerActivation": "{n} атак за активацию",
+            "repair": "Ремкомплекты"
         }
     },
     "stats": {
@@ -3936,7 +3970,7 @@
             "statusesConditions": "Статусы и состояния",
             "environments": "Типы обстановки",
             "sitreps": "Оперсводки",
-            "npcFeatures": "Особенности персонажа ведущего",
+            "npcFeatures": "Особенности персонажей ведущего",
             "downtimeActions": "Действия простоя"
         },
         "reference": {
@@ -4307,7 +4341,9 @@
                 "crit": "КРИТ"
             },
             "resist": {
-                "vulnerable": "уязвимый"
+                "vulnerable": "уязвимый",
+                "immunity": "с иммунитетом",
+                "resistance": "с сопротивлением"
             },
             "condition": {
                 "exposed": "Уязвим",
@@ -4317,7 +4353,9 @@
                 "immobilized": "обездвижен",
                 "engaged": "клинч",
                 "unavailable": "недоступно",
-                "no_weapon": "оружие не выбрано"
+                "no_weapon": "оружие не выбрано",
+                "already_applied": "уже разрешено",
+                "no_target": "цель не выбрана"
             },
             "side": {
                 "ally": "СОЮЗНИКИ",
@@ -4337,7 +4375,8 @@
             "turnStart": "{who} начал ход (осталось {n} активаций) | {who} начали ход (осталось {n} активаций)",
             "turnEnd": "{who} закончил ход (осталось {n} активаций) | {who} закончили ход (осталось {n} активаций)",
             "meltdown": {
-                "scheduled": "Реактор {who} расплавится через {turns} ход | Реактор {who} расплавится через {turns} ходов"
+                "scheduled": "Реактор {who} расплавится через {turns} ход | Реактор {who} расплавится через {turns} ходов",
+                "self_destruct": "{who} самоуничтожился (самоуничтожилась)"
             },
             "self": "СЕБЕ",
             "clause": {
@@ -4360,7 +4399,22 @@
             "saveSuccess": "{who} прошёл (прошла) испытание {stat}: {roll} против {target}",
             "saveSuccessUnrolled": "{who} прошёл (прошла) испытание {stat}",
             "saveFailure": "{who} провалил (провалила) испытание {stat}: {roll} vs {target}",
-            "saveFailureUnrolled": "{who} провалил (провалила) испытание {stat}"
+            "saveFailureUnrolled": "{who} провалил (провалила) испытание {stat}",
+            "stressCheck": "{who} совершил проверку Износа реактора: [{dice}] наименьшее {lowest} - {row}",
+            "repair": "{who} отремонтировал(а): {kind}",
+            "equipmentRepaired": "{item} {who} был отремонтирован",
+            "blocked": "{who} не смог (не смогла) совершить {action}: {reason}",
+            "stabilize": "{who} стабилизировался (стабилизировалась): {choices}",
+            "attackInvisible": "промахнулся (промахнулась) из-за невидимости цели",
+            "check": "{who} совершил проверку {stat} : {roll} против {target} - {result}",
+            "checkContested": "{who} совершил встречную проверку ({stat}) против {opponent}: {roll} - {result}",
+            "structureCheck": "{who} сделал(а) проверку по таблице структурного урона: [{dice}] наименьшее значение {lowest} - {row}",
+            "move": "{who} использовал(а) {n} клеток передвижения",
+            "deployableLaunch": "{who} развернул (развернула) {name}",
+            "moveBoost": "{who} использовал(а) {n} клеток передвижения от Ускорения",
+            "moveBoosted": "{who} Ускорился (Ускорилась), получив {n} клеток передвижения",
+            "reload": "{who} перезарядил(а) {items}",
+            "cover": "{who} использовал {cover} укрытие"
         },
         "expiration": {
             "start": "в начале",
@@ -4379,7 +4433,27 @@
             "damageTotal": "{value} {type}{tags} урон",
             "effectHeader": "{effect}:",
             "apTag": "(ББ)",
-            "targetExposed": "x2 (цель уязвима)"
+            "targetExposed": "x2 (цель уязвима)",
+            "targetNumbered": "{n} целей",
+            "onMissEffect": "Эффект (при промахе)",
+            "onAttackEffect": "Эффект (при совершении атаки)",
+            "onHitEffect": "Эффект (при попадании атакой)",
+            "onCritEffect": "Эффект (при критическом попадании)",
+            "targetArmorIgnored": "0 (значение Брони цели игнорируется)",
+            "rollVsDefense": "{roll} против {value} {defense}",
+            "targetVulnerable": "x2 (цель Уязвима к урону)",
+            "targetImmune": "Без урона (у цели Иммунитет)",
+            "targetArmor": "{armor} (значение Брони цели)",
+            "bonusDamage": "+ {roll} модификатор",
+            "targetResistance": "/2 (у цели Сопротивление к урону)",
+            "attackWith": "{action}, используя {weapon}:",
+            "totalDamage": "Всего урона: {damage} {type}",
+            "targetShredded": "0 (цель Изрешечена)",
+            "failedSave": "Испытание провалено ({roll} vs {target})",
+            "successfulSave": "Испытание пройдено ({roll} vs {target})",
+            "incomingAttack": "Входящая атака {roll} против {value} {defense} : {result}",
+            "takesHeat": "{actor} получил (получила) {heat} пунктов Нагрева ({sources})",
+            "attackResult": "{roll} против {value} {defense} : {result}"
         },
         "weaponUse": {
             "barrage": "Залп",
@@ -4529,13 +4603,16 @@
             "title": "@:{'stats.structure'}"
         },
         "stress": {
-            "title": "@:{'combat.structureCheck.stress'}"
+            "title": "@:{'combat.structureCheck.stress'}",
+            "target": "суммарное значение Износа реактора"
         },
         "heatcap": {
-            "title": "@:{'common.heatCapacity'}"
+            "title": "@:{'common.heatCapacity'}",
+            "target": "суммарная Теплоёмкость"
         },
         "repcap": {
-            "title": "@:{'common.repairCapacity'}"
+            "title": "@:{'common.repairCapacity'}",
+            "target": "суммарный Запас ремкомплектов"
         },
         "corePower": {
             "title": "@:{'active.trackable.corePower'}"
@@ -4586,6 +4663,14 @@
         "mechSkillPoint": {
             "title": "Пункт навыка пилотирования (КЛСИ)",
             "target": "количество доступных для распределения пунктов навыков пилотирования (КОРП/ЛОВ/СИС/ИНЖ)"
+        },
+        "cheapStress": {
+            "title": "Восстановление пунктов Износа реактора за половину стоимости",
+            "detail": "Ремонт реактора требует 1 Ремкомплект вместо 2"
+        },
+        "cheapStruct": {
+            "title": "Восстановление пунктов Структуры за половину стоимости",
+            "detail": "Ремонт структуры требует 1 Ремкомплект вместо 2"
         }
     }
 }
