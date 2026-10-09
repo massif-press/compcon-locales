@@ -925,7 +925,6 @@
             "patchStringCount_other": "{count} stringhe"
         },
         "packsDirectory": {
-            "officialContent": "Ufficiali",
             "massifPress": "MASSIF PRESS",
             "communityContent": "Contenuti della Community @:{'common.gameName'}",
             "communityContentTitle": "Pacchetti di Contenuti della Community @:{'common.gameName'}",

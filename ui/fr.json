@@ -897,7 +897,6 @@
             "willDowngradeTo": "Il va être mis à jour à la v.{version}"
         },
         "packsDirectory": {
-            "officialContent": "Contenu officiel",
             "massifPress": "",
             "communityContent": "Contenu communautaire de @:{'common.gameName'}",
             "communityContribute": "Si vous êtes intéressé par la création de votre propre contenu @:{'common.gameName'} maison, ou la présentation de votre contenu dans ce répertoire, merci de",

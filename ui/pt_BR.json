@@ -532,7 +532,6 @@
             "patchStringCount_other": "{count} strings"
         },
         "packsDirectory": {
-            "officialContent": "Oficial",
             "communityContent": "@:{'common.gameName'} Conteúdo da comunidade",
             "communityContentTitle": "@:{'common.gameName'} Pacotes de Conteúdo da Comunidade",
             "clickHere": "clique aqui.",

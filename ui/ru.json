@@ -513,7 +513,6 @@
             "patchStringCount_many": "{count} строк"
         },
         "packsDirectory": {
-            "officialContent": "Официальные",
             "clickHere": "нажмите здесь.",
             "massifPress": "MASSIF PRESS",
             "communityAbout": "@:{'common.appName'} рад сотрудничать с фанатами @:{'common.gameName'} и помочь с распространением указанных фанатских наборов материалов. Они предоставляются как есть, по усмотрению автора(ов).",

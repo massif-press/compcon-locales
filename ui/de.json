@@ -604,7 +604,6 @@
             "errorReportingStatus": "Fehlerberichterstattung {status}"
         },
         "packsDirectory": {
-            "officialContent": "Offiziell",
             "communityContent": "@:{'common.gameName'} Community Inhalt",
             "communityContentTitle": "@:{'common.gameName'} Community Inhaltspakete",
             "communityAbout": "@:{'common.appName'} ist stolz darauf, mit der @:{'common.gameName'} Community zusammenzuarbeiten, um diese inoffiziellen Inhaltspakete zur Verfügung zu stellen. Sie werden auf diese Weise nach Ermessen der Autor:innen angeboten.",

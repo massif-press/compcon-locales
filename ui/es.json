@@ -523,7 +523,6 @@
             "patchStringCount_other": "{count} cadenas"
         },
         "packsDirectory": {
-            "officialContent": "Oficial",
             "communityContent": "Contenido comunitario de @:{'common.gameName'}",
             "communityContentTitle": "Paquetes de Contenido de la Comunidad @:{'common.gameName'}",
             "communityAbout": "@:{'common.appName'} se enorgullece de colaborar con la comunidad @:{'common.gameName'} para poner a disposición estos paquetes de contenido no oficiales. Se les ofrece tal cual como son a la discreción del autor.",
