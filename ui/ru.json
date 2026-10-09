@@ -4461,7 +4461,8 @@
             "aiControlOff": "{who} забирает контроль у ИИ",
             "prepare": "{who} заготавливает действие",
             "prepareRelease": "{who} использует заготовленное действие",
-            "equipmentDestroyed": "Развёрнутое {who} {name} было уничтожено"
+            "equipmentDestroyed": "Развёрнутое {who} {name} было уничтожено",
+            "damageUntargetedNone": "{who} не наносит урона {target} от {incoming} {type}"
         },
         "expiration": {
             "start": "в начале",
