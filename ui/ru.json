@@ -4349,7 +4349,7 @@
             "stressRemainingOne": "1 пункт Износа",
             "durationEndOfNextTurn": "до конца своего следующего хода",
             "durationRestOfScene": "до конца сцены",
-            "noteAfterDieTurns": "после 1к6 ваших ходов",
+            "noteAfterDieTurns": "через 1к6 ваших ходов",
             "noteEndOfNextTurn": "в конце вашего следующего хода",
             "damage": "{roll} {type} урона",
             "nothingDestroyable": "Нет снаряжения, которое можно уничтожить - Прямое попадание",
