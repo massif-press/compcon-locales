@@ -18,6 +18,26 @@ Translations are managed through **[Weblate](https://weblate.org/)**. You should
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
+## Translating third-party LCPs
+
+Third party content packs are not translated here. Instead, a pack author or translator ships a language patch (`.llp`) that COMP/CON installs alongside the pack. [`build-lcp.mjs`](./build-lcp.mjs) generates these. COMP/CON CI keeps keys aligned:
+
+```sh
+curl -O https://raw.githubusercontent.com/massif-press/compcon-locales/master/build-lcp.mjs
+
+# 1. extract every translatable string from an unpacked LCP (the folder containing lib/ or the *.json files)
+node build-lcp.mjs extract ./my-lcp --lang fr --out my-pack.fr.llp
+
+# 2. translate the values under "data" and fill in "translator"; leave the keys alone
+
+# 3. distribute the .llp on its own, or add it to the .lcp so both install as one file
+node build-lcp.mjs bundle my-pack.lcp my-pack.fr.llp
+```
+
+`extract` takes a directory, so packaged `.lcp` files must be first extracted. If you already have a flat `"<id>.<field>": "text"` JSON map, `node build-lcp.mjs pack fr.json --target <pack-id>` wraps it in a `.llp` header.
+
+Users install a `.llp` from the same screen as a `.lcp`.
+
 ## License
 
 [GPLv3](./LICENSE), matching COMP/CON. Translations contributed via Weblate are licensed under the same terms.
