@@ -1601,7 +1601,7 @@
             "roundsCount_one": "{n} раунд | {n} раундов",
             "roundsCount_few": "{n} раунда",
             "roundsCount_many": "{n} раундов",
-            "afterActionReport": "Отчёт о результатах боя",
+            "afterActionReport": "Отчёт о боевых действиях",
             "copyReport": "Скопировать отчёт",
             "logsTelemetry": "Логи и телеметрия",
             "deleteArchivePrompt": "Удалить архив?",
@@ -2028,8 +2028,8 @@
         },
         "weaponSelect": {
             "unavailableCount": "недоступно",
-            "hidingUnavailable": "Недоступные действия скрыты. Нажмите здесь, чтобы отобразить их.",
-            "showingUnavailable": "Недоступные действия отображаются. Нажмите здесь, чтобы скрыть их."
+            "hidingUnavailable": "Недоступное оружие скрыто. Нажмите здесь, чтобы отобразить.",
+            "showingUnavailable": "Недоступное оружие отображается. Нажмите здесь, чтобы скрыть."
         },
         "shared": {
             "archived": "Архивные",
@@ -2155,6 +2155,13 @@
         "logsAndTelemetryTitle": "{name} - ЛОГИ И ТЕЛЕМЕТРИЯ",
         "pcEndEncounter": {
             "confirm": "Завершение столкновения приведёт к закрытию версии листа персонажа для игрового режима, отправке копии листа персонажа в архив и созданию записи о столкновении в бортовой журнал пилота. Вы уверены, что хотите продолжить?"
+        },
+        "turnWizard": {
+            "moveRemaining": "(остаётся {n})",
+            "dontAskAgain": "Не спрашивать вновь",
+            "keepActions": "Сохранить",
+            "turnComplete": "Ход завершён",
+            "completeTurn": "Завершить ход"
         }
     },
     "mainMenu": {
@@ -3158,7 +3165,8 @@
             "survived": "Выжил(а)",
             "encounterHistory": "История столкновений",
             "acrossN": "за {n} столкновение | за {n} столкновения",
-            "totalKills": "Пораженные цели (всего)"
+            "totalKills": "Пораженные цели (всего)",
+            "sourceGm": "Записано ведущим"
         },
         "pilotStatus": {
             "active": "Активно",
@@ -3295,7 +3303,7 @@
             "systemPoints_few": "Пункта систем",
             "systemPoints_many": "Пунктов систем",
             "integrations": "Интеграции",
-            "equipmentDeployables": "Виды размещаемого снаряжения",
+            "equipmentDeployables": "Размещаемое снаряжение",
             "weaponAttacks": "Это оружие позволяет совершать {count} атак одновременно. Атаки могут быть совершены против одной и той же цели, либо разных.",
             "suggestedSkills": "Рекомендуемые навыки",
             "modifies": "Влияет на",
@@ -3311,10 +3319,10 @@
             "compendiumData": "Данные каталога",
             "combatProfile": "Боевой профиль",
             "classStats": "Характеристики класса",
-            "classBaseFeatures": "Базовые особенности класса",
+            "classBaseFeatures": "Базовые способности класса",
             "canBeAppliedTo": "Может быть применена к",
             "profileTags": "Метки профиля",
-            "templateBaseFeatures": "Базовые особенности шаблона",
+            "templateBaseFeatures": "Базовые способности шаблона",
             "templateOptionalFeatures": "Дополнительные способности шаблона",
             "onboardCore": "Встроенная ключевая система",
             "profileDeployables": "Профиль размещаемого снаряжения"
@@ -3943,7 +3951,8 @@
             "evasionShort": "Укл",
             "limited": "Расходуемое",
             "attacksPerActivation": "{n} атак за активацию",
-            "repair": "Ремкомплекты"
+            "repair": "Ремкомплекты",
+            "sense": "Сенсоры"
         }
     },
     "stats": {
@@ -4384,7 +4393,18 @@
                 "unavailable": "недоступно",
                 "no_weapon": "оружие не выбрано",
                 "already_applied": "уже разрешено",
-                "no_target": "цель не выбрана"
+                "no_target": "цель не выбрана",
+                "prone": "не опрокинут(а)",
+                "mounted": "уже осёдлан(а)",
+                "unmounted": "не осёдлан(а)",
+                "immune": "цель имеет иммунитет",
+                "shut_down": "уже отключён",
+                "no_uses": "не осталось зарядов",
+                "duplicate": "уже использовано в этом ходу",
+                "insufficient": "не хватает действий",
+                "ordnance": "оружие с меткой \"Артиллерийское\" нельзя использовать после передвижения",
+                "untargetable": "цель не может быть атакована",
+                "unknown_status": "неизвестный статус"
             },
             "side": {
                 "ally": "СОЮЗНИКИ",
@@ -4405,7 +4425,9 @@
             "turnEnd": "{who} заканчивает ход (осталась {n} активация) | {who} заканчивает ход (осталось {n} активаций)",
             "meltdown": {
                 "scheduled": "Реактор {who} расплавится через {turns} ход | Реактор {who} расплавится через {turns} ходов",
-                "self_destruct": "{who} самоуничтожился (самоуничтожилась)"
+                "self_destruct": "{who} самоуничтожается",
+                "averted": "{who} избегает расплава реактора",
+                "committed": "Реактор {who} подвергается расплаву"
             },
             "self": "СЕБЕ",
             "clause": {
@@ -4431,10 +4453,10 @@
             "saveFailureUnrolled": "{who} проваливает испытание ({stat})",
             "stressCheck": "{who} совершает проверку Износа реактора: [{dice}] наименьшее {lowest} - {row}",
             "repair": "{who} проводит ремонт: {kind}",
-            "equipmentRepaired": "{item} {who} был отремонтирован",
+            "equipmentRepaired": "{item} установленное на {who} было отремонтировано",
             "blocked": "{who} не может совершить {action}: {reason}",
             "stabilize": "{who} стабилизируется: {choices}",
-            "attackInvisible": "промахнулся (промахнулась) из-за невидимости цели",
+            "attackInvisible": "промахивается из-за невидимости",
             "check": "{who} совершает проверку ({stat}): {roll} против {target} - {result}",
             "checkContested": "{who} совершает встречную проверку ({stat}) против {opponent}: {roll} - {result}",
             "structureCheck": "{who} делает проверку по таблице структурного урона: [{dice}] наименьшее значение {lowest} - {row}",
@@ -4461,9 +4483,23 @@
             "aiControlOff": "{who} забирает контроль у ИИ",
             "prepare": "{who} заготавливает действие",
             "prepareRelease": "{who} использует заготовленное действие",
-            "equipmentDestroyed": "Развёрнутое {who} {name} было уничтожено",
-            "damageUntargetedNone": "{who} не наносит урона {target} от {incoming} {type}",
-            "damageUntargeted": "{who} наносит {amount} {type} пунктов урона {target}"
+            "equipmentDestroyed": "{item} установленное у {who} было уничтожено",
+            "damageUntargetedNone": "{who} не наносит урона от {incoming} {type}",
+            "damageUntargeted": "{who} наносит {amount} пунктов {type} урона",
+            "carry": {
+                "drag": "{who} начинает волочить",
+                "lift": "{who} начинает поднимать",
+                "none": "{who} перестаёт тащить"
+            },
+            "damageSelf": "{who} получает {amount} пунктов {type} урона",
+            "damageSelfNone": "{who} не получает урона от {incoming} {type}",
+            "promptSkipped": "{who} пропускает {label}",
+            "attackOverridden": "результат выставлен ведущим",
+            "equipmentUsed": "{who} помечает использование {item}",
+            "equipmentUnused": "{who} убирает метку \"Использовано\" с {item}",
+            "counterUp": "{who} повышает {counter} на {n} до {to}",
+            "counterDown": "{who} понижает {counter} на {n} до {to}",
+            "statusManual": "задано в отчёте о боевых действиях"
         },
         "expiration": {
             "start": "в начале",
@@ -4576,7 +4612,8 @@
             "title": "Минимальный урон"
         },
         "extraAction": {
-            "title": "Дополнительное действие"
+            "title": "Дополнительное действие",
+            "detail": "Позволяет использовать дополнительное {value} действие за ход"
         },
         "noCascade": {
             "title": "Предотвращает каскад"
@@ -4723,6 +4760,10 @@
         },
         "pilotGear": {
             "title": "Вместимость снаряжения пилота"
+        },
+        "limitedBonus": {
+            "title": "Количество зарядов расходуемого снаряжения",
+            "target": "Суммарное количество использований снаряжения с меткой \"РАСХОДУЕМОЕ X\""
         }
     }
 }
