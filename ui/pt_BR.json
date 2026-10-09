@@ -3089,7 +3089,9 @@
             "closePromptTitle": "Manter ações do Assistente de Turno?",
             "closePromptText": "As ações realizadas no Assistente de Turno desde o último turno concluído podem ser mantidas ou desfeitas.",
             "undoLabel": "Ações do Assistente de Turno",
-            "weaponAction": "{action}: {weapon}"
+            "weaponAction": "{action}: {weapon}",
+            "keepActions": "Manter",
+            "dontAskAgain": "Não perguntar novamente"
         }
     },
     "mainMenu": {
