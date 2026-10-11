@@ -209,7 +209,9 @@
         "status": "Statut",
         "destroyed": "Détruit",
         "equipmentNotes": "Notes d'équipement",
-        "selectTarget": "Sélectionner une cible"
+        "selectTarget": "Sélectionner une cible",
+        "deselectAll": "Tout déselectionner",
+        "updated": "Mis à jour"
     },
     "gm": {
         "import": {
@@ -974,7 +976,8 @@
             "saveSuccessful": "Sauvegarde réussie",
             "saveFailed": "Sauvegarde échouée",
             "copiedToClipboard": "Copiée dans le presse-papier",
-            "nominal": "Nominal"
+            "nominal": "Nominal",
+            "invalidJsonFile": "Fichier JSON invalide"
         },
         "roster": {
             "addFromRoster": "Ajouter depuis le tableau de service",
