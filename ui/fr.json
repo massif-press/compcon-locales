@@ -601,8 +601,8 @@
         "newEnvironmentDescription": "Un nouvel environnement",
         "unknownLicense": "Licence inconnue",
         "newDoodad": "Nouveau bidule",
-        "aStandardEnvironmentWithNoSpecial": "Un environnement standard avec aucune particularité spéciale de combat",
-        "standardEncounterDescription": "Une simple affaire, avec deux camps l'un contre l'autre jusqu'à ce que l'un d'entre eux soit vaincu ou détruit.",
+        "aStandardEnvironmentWithNoSpecial": "Un environnement standard sans particularité d'affrontement",
+        "standardEncounterDescription": "Une simple affaire, avec deux camps l'un contre l'autre jusqu'à ce que l'un d'eux soit vaincu ou détruit.",
         "titlePage": "Titre de page",
         "contributors": "Contributeurs"
     },
