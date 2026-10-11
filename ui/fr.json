@@ -12,7 +12,7 @@
         "search": "Rechercher",
         "add": "Ajouter",
         "yes": "Oui",
-        "submit": "Soumettre",
+        "submit": "Valider",
         "editAction": "Modifier",
         "resetAction": "Réinitialiser",
         "continue": "Continuer",
@@ -57,7 +57,7 @@
         "lcpDirectory": "Répertoire des LCP",
         "addContent": "Ajouter un contenu",
         "updateAll": "Tout mettre à jour",
-        "deletePilot": "Effacer le pilote",
+        "deletePilot": "Supprimer le pilote",
         "about": "À propos",
         "addName": "Ajouter {name}",
         "armorBonus": "Bonus de blindage",
@@ -67,7 +67,7 @@
         "overcharge": "Surmener le réacteur",
         "overshield": "Surarmure",
         "pilotSheet": "Fiche de pilote",
-        "removeName": "Enlever {name}",
+        "removeName": "Retirer {name}",
         "reserves": "Réserves tactiques",
         "setCustomDescription": "Saisir une description personnalisée",
         "setCustomName": "Saisir un nom personnalisé",
@@ -131,8 +131,8 @@
         "hidden": "Masqué | Masqués",
         "changelog": "Nouveautés",
         "alert": "Alerte",
-        "ok": "Ok",
-        "skipToMainContent": "Sauter jusqu'au contenu principal",
+        "ok": "",
+        "skipToMainContent": "Avancer jusqu'au contenu principal",
         "pilotGroup": "Groupe de pilotes",
         "statsLabel": "Caractéristiques",
         "weaponMount": "Affût",
@@ -148,7 +148,7 @@
         "created": "Créé le",
         "logLevel": "Filtre de journal",
         "pilotTalents": "Talents de pilote",
-        "sensorRange": "Portée de capteurs",
+        "sensorRange": "Portée des capteurs",
         "pilotSkillTriggers": "Spécialités de pilote",
         "pilotTalent": "Talent de pilote",
         "all": "Tout",
@@ -205,7 +205,11 @@
         "reportedAppearances": "Apparitions signalées",
         "hints": "Indices",
         "rules": "Règles",
-        "tactics": "Tactiques"
+        "tactics": "Tactiques",
+        "status": "Statut",
+        "destroyed": "Détruit",
+        "equipmentNotes": "Notes d'équipement",
+        "selectTarget": "Sélectionner une cible"
     },
     "gm": {
         "import": {
@@ -1994,7 +1998,8 @@
             "serverErrorTooManyRequests": "Erreur serveur - Trop de requêtes"
         },
         "common": {
-            "installName": "Installer {name}"
+            "installName": "Installer {name}",
+            "unknownBackground": "Historique inconnu"
         },
         "a11y": {
             "dragToReorderGroup": "Glisser pour réorganiser le groupe"
