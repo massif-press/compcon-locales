@@ -625,7 +625,7 @@
             "storageLimitReachedNotice": "Aucun nouvel élément ne sera sauvegardé avant que la limite ne soit augmenté ou des données supprimées.",
             "storageWarningTooltip": "@:{'common.appName'} a dépassé un seuil de stockage. Plus de détails disponibles dans l'onglet Stockage dans le menu des Options.",
             "storageAlertTooltip": "@:{'common.appName'} a dépassé la limite maximum de stockage.",
-            "storageDetails": "Plus de détails sont disponibles dans l'onglet <b>Stockage</b> dans le menu des options.",
+            "storageDetails": "Plus d'informations sont disponibles dans l'onglet <b>Stockage</b> dans le menu des options.",
             "achievements": "Succès",
             "quickReference": "Aide-mémoire",
             "supportCompcon": "Support @:{'common.appName'}"
@@ -851,10 +851,10 @@
             "storageUsageFull": "@:{'common.appName'} utilise actuellement {used} sur {total}, ou {percent} de votre stockage disponible. Cela inclut l'espace réservé par @:{'common.appName'} pour la gestion de l'aplication.",
             "neverAutoDeleteFull": "@:{'common.appName'} ne supprimera {never} automatiquement les données marqué pour suppression.",
             "autoDeleteFull": "@:{'common.appName'} supprimera définitivement les données marquées comme supprimées depuis au moins {days}. Cela n'affectera pas les éléments non marqués pour suppression.",
-            "daysCount_one": "{count} jours.",
-            "daysCount_many": "",
+            "daysCount_one": "{count} jour.",
+            "daysCount_many": "{count} jours.",
             "daysCount_other": "{count} jours.",
-            "deleteAllConfirm": "TOUT",
+            "deleteAllConfirm": "TOUTES",
             "storageSettings": "Paramètres de stockage",
             "storageThresholds": "Limites de stockage",
             "maxThresholdPct": "Limite maximale (%)",
@@ -866,7 +866,7 @@
             "deletedItems": "Éléments supprimés (données locales uniquement)",
             "userData": "Données d'utilisateur",
             "deleteWarningBanner": "Alerte // alerte // alerte",
-            "areYouSure": "Êtes vous certain de vouloir continuer ?",
+            "areYouSure": "Êtes vous certain de vouloir continuer?",
             "deleteAllUserData": "Supprimer toutes les données d'utilisateur",
             "warningThresholdPct": "Seuil d'avertissement (%)",
             "warningThresholdMb": "Seuil d'avertissement (MB)",
@@ -876,7 +876,10 @@
             "x1Month": "1 mois",
             "x3Months": "3 mois",
             "x6Months": "6 mois",
-            "x1Year": "1 an"
+            "x1Year": "1 an",
+            "deleteConfirmIntro": "Cela supprimera {confirm} les données locales de {'common.appName'}.",
+            "cannotBeUndone": "ne peut être annulé.",
+            "deleteConfirmUndone": "Cela"
         },
         "log": {
             "copiedToClipboard": "Entrée de journal copiée dans le presse-papier",
@@ -884,15 +887,18 @@
             "caller": "Origine",
             "exportThisSession": "Exporter le journal de cette session",
             "exportAllSessions": "Exporter les journaux de toutes les sessions",
-            "clearLog": "Effacer le journal"
+            "clearLog": "Effacer le journal",
+            "clearAllLogs": "Effacer tous les journaux",
+            "clearAllLogsConfirm": "Cela supprimera définitivement toutes les entrées de journal de toutes les sessions, y compris les sessions enregistrées de visites précédentes."
         },
         "deletedItems": {
             "noItemsFound": "Aucun élément trouvé",
-            "itemType": "",
+            "itemType": "Type",
             "deletedOn": "Supprimé le",
             "permanentlyDelete": "Supprimer définitivement",
             "restoreAll": "Tout restaurer",
-            "permanentlyDeleteAll": "Tout supprimer définitivement"
+            "permanentlyDeleteAll": "Tout supprimer définitivement",
+            "itemName": "Nom de l'élément"
         },
         "userDataViewer": {
             "description": "Ce sont les données d'utilisateur sauvegardées localement. Ces éléments ne devraient généralement pas être réinitialisées, mais peuvent être utiles pour débugguer ou résoudre des problèmes persistants de chargement.",
@@ -902,14 +908,15 @@
         "packInstall": {
             "selectFile": "Sélectionner un fichier .LCP",
             "install": "Installer",
-            "willReplace": "Il va être remplacé par cette copie.",
+            "willReplace": "Il sera remplacé par cette copie.",
             "requiresContent": "Ce LCP requiert le contenu suivant pour être installé avant d'être ajouté",
             "byAuthorVersion": "par {author} {'@'} {version}",
             "byAuthorRequires": "Par {author} requiert",
-            "upgradeFromTo": "",
-            "noChange": "Aucun changement {from} à {to}",
+            "upgradeFromTo": "Mettre à jour de la {from} à la {to}",
+            "noChange": "Aucun changement ({from} à {to})",
             "willUpgradeTo": "Il va être mis à jour à la v.{version}",
-            "willDowngradeTo": "Il va être mis à jour à la v.{version}"
+            "willDowngradeTo": "Il va être rétrogradé à la v.{version}",
+            "downgradeTo": "Rétrograder à la {version}"
         },
         "packsDirectory": {
             "massifPress": "",
