@@ -2161,7 +2161,9 @@
             "dontAskAgain": "Не спрашивать вновь",
             "keepActions": "Сохранить",
             "turnComplete": "Ход завершён",
-            "completeTurn": "Завершить ход"
+            "completeTurn": "Завершить ход",
+            "title": "Цифровой помощник (ход)",
+            "weaponAction": "{action}: {weapon}"
         }
     },
     "mainMenu": {
