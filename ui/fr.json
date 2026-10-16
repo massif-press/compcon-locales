@@ -223,7 +223,8 @@
             "v2BackupTitle": "Importé vers une sauvegarde de données V2",
             "v2BackupText_one": "{count} engagement enregistré vers les importations V2 pour importation ultérieure.",
             "v2BackupText_many": "{count} engagements enregistrés vers les importations V2 pour importation ultérieure.",
-            "v2BackupText_other": "{count} engagements enregistrés vers les importations V2 pour importation ultérieure."
+            "v2BackupText_other": "{count} engagements enregistrés vers les importations V2 pour importation ultérieure.",
+            "stagedItems": "Éléments sélectionnés"
         },
         "sync": {
             "syncCompleteText": "{itemType} {name} synchronisé.",
@@ -311,7 +312,9 @@
         },
         "folder": {
             "collectionFolder": "Dossier de collection",
-            "noFolder": "Pas de dossier"
+            "noFolder": "Pas de dossier",
+            "setFolder": "Choisir un dossier",
+            "deleteFolderWarning": "Cela supprimer le dossier '{folder}'. Tous ses éléments seront déplacés dans le groupe '{noFolder}'"
         },
         "filter": {
             "filters": "Filtres",
@@ -383,12 +386,12 @@
         },
         "narrativeLink": {
             "noElementSelected": "Aucun élément sélectionné",
-            "noEncounterSelected": "Aucune rencontre sélectionnée",
-            "linkedHelp": "Cet élément est actuellement liée à un élément narratif de votre collection de MJ. Lorsque des modifications sont faites sur l'élément liée, cet élément recevra des mises à jour automatiquement. Cliquez sur le bouton pour délier cet élément de la collection de MJ et le garder comme un élément instancié dans vos données de campagne.",
-            "relinkHelp": "Pour relier cet élément, sélectionnez-le dans le menu \"Insérer un élément narratif\".",
-            "notLinkedHelp": "Cet élément n'est pas lié à un élément narratif dans votre collection de MJ et ne recevra pas de mise à jour automatique, mais il sera sauvegardé comme un élément instancié dans les données de campagne.",
-            "linkHelp": "Pour lier cet élément à un élément narratif, sélectionnez le dans le menu \"Insérer un élément narratif\".",
-            "unlinkElement": "Délier l'élément",
+            "noEncounterSelected": "Aucun engagement sélectionné",
+            "linkedHelp": "Cet élément est actuellement associé à un élément narratif de votre collection de MJ. Lorsque des modifications sont faites sur l'élément associé, cet élément recevra des mises à jour automatiquement. Cliquez sur le bouton pour dissocier cet élément de la collection de MJ et le garder comme un élément instancié dans vos données de campagne.",
+            "relinkHelp": "Pour réassocier cet élément, sélectionnez-le dans le menu \"Insérer un élément narratif\".",
+            "notLinkedHelp": "Cet élément n'est pas associé à un élément narratif de votre collection de MJ et ne recevra pas de mise à jour automatique, mais il sera enregistré comme un élément instancié dans les données de campagne.",
+            "linkHelp": "Pour associer cet élément à un élément narratif, sélectionnez le dans le menu \"Insérer un élément narratif\".",
+            "unlinkElement": "Dissocier l'élément",
             "setNarrativeElement": "Insérer un élément narratif"
         },
         "encounterContent": {
@@ -396,31 +399,35 @@
         },
         "combatant": {
             "combatants": "Combattants",
-            "addNpc": "Ajouter PNJ",
-            "selectNpc": "Sélectionner PNJ",
-            "currentlyEditing": "En cours d'édition",
-            "uniqueInstanceHelp": "Ceci est une instance unique de ce PNJ lié aux données de cette rencontre. Modifier ce PNJ n'affectera les données de PNJ originales.",
-            "linkedSource": "La source de l'instance de ce PNJ est présent dans votre roster de PNJ ({name}) et peut recevoir des mises à jour depuis l'original",
-            "notLinkedToSource": "Cette instance de PNJ n'est pas lié à une source valide dans votre roster de PNJ.",
-            "sourceLinked": "Source liée",
-            "sourceUnavailable": "Source non disponible",
+            "addNpc": "Ajouter un PNJ",
+            "selectNpc": "Sélectionner un PNJ",
+            "currentlyEditing": "Actuellement en modification",
+            "uniqueInstanceHelp": "Ceci est l'instance unique de ce PNJ associé aux données de cet engagement. Modifier ce PNJ n'affectera pas les données du PNJ d'origine.",
+            "linkedSource": "L'instance de ce PNJ provient de votre roster de PNJ ({name}) et peut être mis à jour depuis sa source",
+            "notLinkedToSource": "L'instance de ce PNJ n'est pas associé à une source valide dans votre roster de PNJ.",
+            "sourceLinked": "Source associée",
+            "sourceUnavailable": "Source indisponible",
             "instanceSource": "Source de l'instance",
-            "change": "Modification",
+            "change": "Modifications",
             "thisInstance": "Cette instance",
-            "updateInstanceTooltip": "Mettez à jour cette propriété d'instance à la source",
-            "updateAllTooltip": "Mettez à jour toutes les propriétés d'instance à la source",
+            "updateInstanceTooltip": "Mettez à jour cette propriété de cette instance depuis la source",
+            "updateAllTooltip": "Mettez à jour toutes les propriétés de cette instance depuis la source",
             "noChanges": "Aucune modification",
-            "pcsCount": "({n}+ Pjs)",
+            "pcsCount": "({n} PJs ou +)",
             "clickToEdit": "Cliquez pour modifier",
-            "atPcCountHelp": "Ce PNJ sera marqué comme faisant parti de la rencontre seulement il y a au moins autant de personnages joueurs qu'indiqué. Laissez cette section vide indiquera qu'il fera parti de la rencontre quelque soit le nombre de PJs.",
+            "atPcCountHelp": "Ce PNJ sera ajouté à l'engagement si il y a autant de personnages joueurs qu'indiqué. Laisser cette section vide l'ajoutera à l'engagement qu'importe le nombre de PJs présents.",
             "addToRoster": "Copier vers le roster",
-            "addToRosterTooltip": "Ajouter une copie de ce PNJ à votre roster et lier cette instance à cette nouvelle entrée du roster."
+            "addToRosterTooltip": "Ajoute une copie de ce PNJ à votre roster et associe cette instance au nouvel ajout du roster.",
+            "encounterInstance": "(Instance d'engagement #{n})",
+            "mainForce": "Force principale",
+            "atPcCount": "Nombre de PJ"
         },
         "encounterEditor": {
-            "details": "Détails de la rencontre",
-            "noMapData": "Aucune donnée de carte",
+            "details": "Informations de l'engagement",
+            "noMapData": "Aucune données cartographiques",
             "additionalNotes": "Notes supplémentaires",
-            "setMapImage": "Insérer image de la carte"
+            "setMapImage": "Insérer image de la carte",
+            "deleteEncounterConfirm": "Cela supprimera cet engagement de votre bibliothèque. Êtes vous sûr?"
         },
         "sitrep": {
             "presets": "Préréglages",
@@ -438,19 +445,20 @@
         },
         "encounterIndex": {
             "addFolder": "Ajouter un dossier",
-            "addNew": "Ajouter une nouvelle rencontre"
+            "addNew": "Ajouter un nouvel engagement"
         },
         "combatantSelector": {
             "selectNpc": "Sélectionner un PNJ"
         },
         "encImport": {
-            "notEncounterFile": "Le fichier sélectionné ne contient pas de données de rencontre.",
-            "readyForImport": "La rencontre est prête pour l'importation",
-            "missingNpcs": "Cette rencontre référence des PNJs qui n'ont pas encore été importés. Elle sera sauvegardée dans la collection des importations V2 dans le gestionnaire de contenu et peut être importés une fois que les PNJs requis seront disponibles.",
-            "someMissingNpcs": "Plusieurs rencontres référencent des PNJs qui n'ont pas encore été importés. Elles seront sauvegardées dans la collection des importations V2 dans le gestionnaire de contenu et peuvent être importées une fois que les PNJs requis seront disponibles.",
-            "importCount_one": "Importer ({n} rencontre)",
-            "importCount_many": "",
-            "importCount_other": "Importer ({n} rencontres)"
+            "notEncounterFile": "Le fichier sélectionné ne contient pas de données d'engagement.",
+            "readyForImport": "L'engagement est prêt pour l'importation",
+            "missingNpcs": "Cet engagement inclut des PNJs qui n'ont pas encore été importés. Il sera enregistré dans la collection des importations V2 du gestionnaire de contenu et peut être importé une fois que les PNJs requis sont disponibles.",
+            "someMissingNpcs": "Plusieurs engagements incluent des PNJs qui n'ont pas encore été importés. Ils seront enregistré dans la collection des importations V2 du gestionnaire de contenu et peuvent être importé une fois que les PNJs requis sont disponibles.",
+            "importCount_one": "Importer ({n} engagement)",
+            "importCount_many": "Importer ({n} engagements)",
+            "importCount_other": "Importer ({n} engagements)",
+            "stagedEncounters": "Engagements sélectionnés"
         },
         "gmNotes": "Notes de MJ",
         "npcFeature": {
@@ -583,7 +591,7 @@
             "createModifyAndBrowseLancerCampaigns": "Créer, modifier et consulter les campagnes LANCER (v3.1)",
             "manageNonPlayerCombatUnits": "Gérer les unités de combat non joueur",
             "manageCharactersLocationsAndFactions": "Gérer les personnages, lieux et factions",
-            "createCombatEncounters": "Créer un affrontement"
+            "createCombatEncounters": "Créer des affrontements"
         },
         "labelDialog": {
             "orOverwrite": "ou écrasera"
