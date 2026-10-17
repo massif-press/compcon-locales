@@ -87,7 +87,7 @@
         "settings": "Paramètres",
         "deployment": "Déploiement",
         "objective": "Objectif",
-        "reinforcement": "Renforts",
+        "reinforcement": "Renfort",
         "clearAllData": "Effacer toutes les données",
         "encounters": "Rencontres",
         "activeMode": "Mode actif",
@@ -137,7 +137,7 @@
         "statsLabel": "Caractéristiques",
         "weaponMount": "Affût",
         "done": "Terminé",
-        "features": "Fonctionnalités",
+        "features": "",
         "rollNoun": "Jet",
         "background": "Historique",
         "mech": "Mécha",
@@ -307,7 +307,7 @@
         },
         "relationships": {
             "addRelationship": "Ajouter une relation",
-            "linkedEntities": "Entité liée",
+            "linkedEntities": "Entité associée",
             "label": "Relations"
         },
         "folder": {
@@ -392,7 +392,8 @@
             "notLinkedHelp": "Cet élément n'est pas associé à un élément narratif de votre collection de MJ et ne recevra pas de mise à jour automatique, mais il sera enregistré comme un élément instancié dans les données de campagne.",
             "linkHelp": "Pour associer cet élément à un élément narratif, sélectionnez le dans le menu \"Insérer un élément narratif\".",
             "unlinkElement": "Dissocier l'élément",
-            "setNarrativeElement": "Insérer un élément narratif"
+            "setNarrativeElement": "[PH] Insérer un élément narratif",
+            "setEncounter": "[PH] Insérer un engagament"
         },
         "encounterContent": {
             "map": "Carte"
@@ -463,10 +464,18 @@
         "gmNotes": "Notes de MJ",
         "npcFeature": {
             "selectedClass": "Classe sélectionnée",
-            "otherNpcClasses": "Autres classes de PNJ"
+            "otherNpcClasses": "Autres classes de PNJ",
+            "selectedTemplate": "Archétype sélectionné | Archétypes sélectionnés",
+            "otherNpcTemplates": "Autres archétypes de PNJ",
+            "base": "[PH] Base"
         },
         "npcTemplate": {
-            "cannotAssign": "Ne peut pas être assigné (En conflit avec {conflict})"
+            "cannotAssign": "Ne peut pas être assigné (En conflit avec {conflict})",
+            "noTemplates": "Pas d'archétype",
+            "assignTemplates": "Assigner un archétype de PNJ",
+            "removeTemplate": "Retirer l'archétype",
+            "assignTemplate": "Assigner l'archétype",
+            "editTemplates": "Modifier un archétype de PNJ"
         },
         "tier": {
             "changeTo": "Modifier vers l'Échelon {n}",
@@ -482,34 +491,36 @@
         "layerSelector": {
             "noData": "Aucune donnée d'Eidolon trouvé!",
             "help1": "Les Eidolons sont inclus dans le livre de campagne No Room for a Wallflower et ne sont donc pas incluses avec @:{'common.appName'} par défaut. Vous pouvez trouver les Eidolons en tant que contenu supplémentaire sur la {link} page du livre de campagne.",
-            "help2": "Si vous avez déjà téléchargé les données des Eidolons, vous pouvez les importer dans @:{'common.appName'} via le gestionnaire de contenu disponible dans le menu principal ou le menu des options sur le côté droit de la barre de navigation."
+            "help2": "Si vous avez déjà téléchargé les données des Eidolons, vous pouvez les importer dans @:{'common.appName'} via le gestionnaire de contenu disponible dans le menu principal ou dans les options à droite de la barre de navigation."
         },
         "eidolonData": {
-            "noData": "Aucune données d'éditeur d'Eidolon trouvé!",
-            "help1": "Les Eidolons sont inclus avec la version payante de No Room for a Wallflower: Acte 1, et peut être trouvé dans la section du contenu téléchargeable sur le {link}",
-            "linkText": "Page itch.io de No Room for a Wallflower: Acte 1.",
-            "help2": "Si vous avez déjà téléchargé le LCP de MJ de No Room for a Wallflower, vous pouvz l'importer dans @:{'common.appName'} via le gestionnaire de contenu disponible dans le menu principal ou le menu des options sur le côté droit de la barre de navigation."
+            "noData": "Aucune donnés d'éditeur d'Eidolon trouvé!",
+            "help1": "Les Eidolons sont inclus avec la version payante de No Room for a Wallflower: Acte 1, et peuvent être trouvé dans la section du contenu téléchargeable sur la {link}",
+            "linkText": "page itch.io de No Room for a Wallflower: Acte 1.",
+            "help2": "Si vous avez déjà téléchargé le LCP de MJ de No Room for a Wallflower, vous pouvez l'importer dans @:{'common.appName'} via le gestionnaire de contenu disponible dans le menu principal ou dans les options à droite de la barre de navigation."
         },
         "npcBuilder": {
             "npcClass": "Classe de PNJ",
             "noClass": "Pas de classe de PNJ",
-            "setClass": "Définir classe de PNJ",
-            "templates": "Modèles"
+            "setClass": "Choisir une classe de PNJ",
+            "templates": "Archétype(s)"
         },
         "npcFeatures": {
-            "saveConfig": "Sauvegarder la configuration"
+            "saveConfig": "Enregistrer la disposition"
         },
         "eidolonPrint": {
             "layer": "Strate"
         },
         "npcEditor": {
-            "v2Export": "Exportation V2"
+            "v2Export": "Exportation V2",
+            "statblock": "Profil",
+            "noTelemetry": "Aucune télémétrie pour ce PNJ. Les données télémétriques sont enregistrées quand un engagement dans lequel il apparaît est archivé."
         },
         "a11y": {
             "dragToReorder": "Glisser pour réorganiser"
         },
         "doodad": {
-            "whatIs": "Qu'est-ce qu'un bidule ?"
+            "whatIs": "Qu'est-ce qu'un engin?"
         },
         "featurePrint": {
             "weaponAttacks": "Cette arme peut faire {count} attaques à la fois."
@@ -517,10 +528,10 @@
         "shared": {
             "labels": "Étiquettes",
             "setGmLabel": "Définir étiquette de MJ",
-            "doodads": "Bidules",
+            "doodads": "Engins",
             "eidolons": "Eidolons",
             "gmLabels": "Étiquettes de MJ",
-            "encounterEditor": "Éditeur de rencontre",
+            "encounterEditor": "Éditeur d'engagement",
             "alias": "Alias",
             "pronouns": "Pronoms",
             "selectDataFile": "Sélectionner un fichier de données",
@@ -532,7 +543,7 @@
             "addLabel": "Ajouter une étiquette",
             "sortAlphabetically": "Trier alphabétiquement",
             "sortByUsage": "Trier par utilisation",
-            "noLabelsAvailable": "Aucune étiquette disponible",
+            "noLabelsAvailable": "[PH] Aucune étiquette disponible",
             "noLabels": "Aucune étiquette"
         },
         "sectionAddMenu": {
@@ -540,17 +551,18 @@
             "addMission": "Ajouter une mission",
             "addCombat": "Ajouter un combat",
             "addDowntime": "Ajouter un temps libre",
-            "addANewEmptyFreeform": "Ajouter une nouvelle section libre sous cette page. Une section est un conteneur pour d'autres éléments de contenu et peuvent être utilisé pour organiser votre campagne de la manière qui vous convient.",
-            "addANewEmptyMission": "Ajouter une nouvelle mission sous cette page. Une mission contient des buts et objectifs qui peuvent être complétés en un temps donné, et contient typiquement des combats.",
-            "addANewEmptyCombat": "Ajouter un nouveau combat sous cette page. Un combat contient des rencontres, ainsi que des directives de MJ, des détails narratifs concernant la bataille, et les résultats possibles.",
-            "addANewEmptyDowntime": "Ajouter un nouveau Temps Libre sur cette page. Le Temps Libre est l'espace narratif entre les missions, où les actions précises importent peu et le jeu de rôle bien davantage."
+            "addANewEmptyFreeform": "Ajouter une nouvelle section libre sur cette page. Une section est un conteneur pour d'autres éléments de contenu et peuvent être utilisé pour organiser votre campagne de la manière qui vous convienne.",
+            "addANewEmptyMission": "Ajouter une nouvelle mission sur cette page. Une mission comporte des buts et objectifs qui peuvent être complétés en un temps donné, et contient typiquement des combats.",
+            "addANewEmptyCombat": "Ajouter un nouveau combat sur cette page. Un combat comporte des engagements, ainsi que des directives de MJ, des détails narratifs concernant la bataille, et ses issues possibles.",
+            "addANewEmptyDowntime": "Ajouter un nouveau temps libre sur cette page. Les temps sibres sont les espaces narratifs entre les missions, où les actions précises importent peu et le jeu de rôle bien davantage."
         },
         "pageContentContainer": {
             "textSection": "Section de texte",
             "rollableTable": "Table aléatoire",
             "clock": "Compteur",
-            "combatEncounter": "Rencontre de combat",
-            "imageUrl": "URL de l'image"
+            "combatEncounter": "Engagement",
+            "imageUrl": "URL de l'image",
+            "caption": "Légende"
         },
         "campaigns": {
             "image": "Image",
@@ -559,33 +571,38 @@
         "encounters": {
             "missingNpcs": "PNJs manquants",
             "environmentDataModified": "données d'environnement modifiées",
-            "deletePreset": "supprimer le préréglage",
-            "organizeEncounters": "organiser les rencontres",
-            "selectEncounterFile": "Sélectionner un fichier de rencontre",
+            "deletePreset": "",
+            "organizeEncounters": "organiser les engagements",
+            "selectEncounterFile": "Sélectionner un fichier d'engagement",
             "enemyForces": "FORCES ENNEMIES",
             "alliedForces": "FORCES ALLIÉES",
-            "sortBy": "Trier par"
+            "sortBy": "Trier par",
+            "searchEncounters": "Rechercher dans les engagements",
+            "confirmRemoveCombatant": "Confirmer la suppression de {name} de l'engagement"
         },
         "npcRoster": {
-            "selectLayer": "Choisissez une couche",
+            "selectLayer": "",
             "selectNpcClass": "sélectionner une classe de PNJ",
-            "allowDuplicates": "Permettre les duplications"
+            "allowDuplicates": "Permettre les doublons",
+            "npcStatblock": "Profil du PNJ",
+            "selectTemplate": "sélectionner un archétype",
+            "doodadDescription": "Les objets non-joueur (comme les éléments du terrain) qui peuvent être suivis pendant les engagements."
         },
         "npcTierSelector": {
-            "confirmTierChange": "Confirmer modification de Tier",
+            "confirmTierChange": "",
             "tierChangeAdjustEdited": "Modifier le tier et ajuster les statistiques modifiés par la même quantité que les modifications de statistiques par défaut.",
             "tierChangeKeepEdited": "Modifier le tier et garder les valeurs de statistiques modifiées, même si elles sont inférieures au valeurs par défaut du nouveau tier.",
             "tierChangeDiscardEdited": "Modifier le tier et oublier toutes les valeurs modifiées de statistiques."
         },
         "routes": {
             "campaignEditor": "Éditeur de campagne",
-            "narrativeItemManager": "Gestionnaire d'éléments narratifs"
+            "narrativeItemManager": "Gestionnaire des éléments narratifs"
         },
         "gmItemHeaders": {
             "class": "Classe"
         },
         "organizer": {
-            "addSetOrDeleteA": "Ajouter, définir ou supprimer une étiquette de MJ"
+            "addSetOrDeleteA": "Ajouter, choisir ou supprimer une étiquette de MJ"
         },
         "landing": {
             "createModifyAndBrowseLancerCampaigns": "Créer, modifier et consulter les campagnes LANCER (v3.1)",
@@ -595,6 +612,9 @@
         },
         "labelDialog": {
             "orOverwrite": "ou écrasera"
+        },
+        "npcAlert": {
+            "selectionsComplete": "Sélections de {source} complété"
         }
     },
     "language": {
