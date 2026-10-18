@@ -3393,7 +3393,7 @@
             "noSelection": "Не выбрано",
             "missingData": "Данные отсутствуют",
             "click": "Нажмите",
-            "toClose": "Закрыть",
+            "toClose": ", чтобы закрыть",
             "selectedCount": "{n} выбрано",
             "tap": "НАЖМИТЕ",
             "selectDamageType": "Выберите тип урона",
