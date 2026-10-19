@@ -54,7 +54,7 @@
         "effect": "Effet",
         "tierN": "Échelon {n}",
         "tierShort": "É{n}",
-        "lcpDirectory": "Répertoire des LCP",
+        "lcpDirectory": "Répertoire de modules",
         "addContent": "Ajouter un contenu",
         "updateAll": "Tout mettre à jour",
         "deletePilot": "Supprimer le pilote",
@@ -212,7 +212,8 @@
         "selectTarget": "Sélectionner une cible",
         "deselectAll": "Tout déselectionner",
         "updated": "Mis à jour",
-        "none": "Aucun"
+        "none": "Aucun",
+        "campaignLibrary": "Bibliothèque de campagne"
     },
     "gm": {
         "import": {
@@ -968,7 +969,7 @@
         "packsDirectory": {
             "massifPress": "",
             "communityContent": "Contenu communautaire de @:{'common.gameName'}",
-            "communityContribute": "Si vous êtes intéressé par la création de votre propre contenu @:{'common.gameName'} maison, ou la présentation de votre contenu dans ce répertoire, merci de",
+            "communityContribute": "Si vous êtes intéressé par la création de votre propre contenu @:{'common.gameName'} maison, ou la présentation de votre contenu dans ce catalogue, merci de",
             "clickHere": "cliquer ici.",
             "developmentBlog": "blog de développement",
             "officialContentHeading": "Contenu {publisher} officiel"
@@ -2124,31 +2125,41 @@
         }
     },
     "compendium": {
-        "returnToCompendium": "Retourner au catalogue",
+        "returnToCompendium": "Retourner au Compendium",
         "selectItem": "Sélectionner {name}",
         "categories": {
             "frames": "Châssis",
             "environments": "Environnements",
-            "npcTemplates": "Modèle de PNJ",
-            "manufacturers": "Manufactureurs",
+            "npcTemplates": "Archétypes de PNJ",
+            "manufacturers": "Constructeurs",
             "npcClasses": "Classes de PNJ",
-            "downtimeActions": "Actions de Temps Libre"
+            "downtimeActions": "Actions de Temps Libre",
+            "pilotBackground": "Historique de pilote",
+            "statusesConditions": "États et Défaillances"
         },
         "reference": {
             "or": "ou",
             "glossary": "Glossaire",
             "faqErrata": "FAQ & errata",
-            "pleaseNote": "Merci de considérer",
-            "faqErrataNotice": "Cette FAQ et Erratas sont un projet porté par la communauté et n'est pas une publication officielle de Massif Press pour @:{'common.gameName'}. Cette page est approvisionné depuis le {repoLink} sur GitHub, maintenu actuellement par lenaleciel. Ce document est aussi disponible sur {siteLink}.",
+            "pleaseNote": "Merci de prendre en compte",
+            "faqErrataNotice": "Cette FAQ et ces erratas sont un projet porté par la communauté et n'est pas une publication officielle de Massif Press pour @:{'common.gameName'}. Cette page est sourcée depuis le {repoLink} sur GitHub, et actuellement maintenu par lenaleciel. Ce document est aussi disponible sur {siteLink}.",
             "lancerFaqRepo": "lancer-faq repository",
             "bookPage": "{book}, p. {page}",
-            "damageTables": "Tableaux des dégâts",
+            "damageTables": "Table des dégâts",
             "iconGuide": "Guide Visuel",
-            "narrativePlay": "jeu narratif"
+            "narrativePlay": "jeu narratif",
+            "mechActions": "Actions de mécha",
+            "pilotActions": "Actions de pilote",
+            "statuses": "États",
+            "statusConditions": "Défaillances",
+            "combat": "Combat",
+            "mechs": "Méchas",
+            "lancerBasics": "Fondamentaux de Lancer",
+            "usingCompcon": "Utiliser @:{'common.appName'}"
         },
         "search": {
             "resultCount_one": "{count} résultat",
-            "resultCount_many": "",
+            "resultCount_many": "{count} résultats",
             "resultCount_other": "{count} résultats"
         },
         "content": {
@@ -2160,27 +2171,38 @@
             "developmentPreview": "Les campagnes sont actuellement en développement et ne seront pas disponibles avant la V3.1. Cet aperçu devrait ignoré pour les tests, mais explorez les fonctionnalités existantes à votre guise.",
             "noCampaignsFound": "Aucune campagne trouvée",
             "importHint": "Les campagnes peuvent être importé via l'importation de fichier ou le répertoire de campagnes Lancer",
-            "newVersionAvailable": "Il y a une nouvelle version de cette campagne disponible. Cliquez dessous pour télécharger et installer la dernière de cette campagne.",
+            "newVersionAvailable": "Il y a une nouvelle version de cette campagne disponible. Cliquez pour télécharger et installer la dernière de cette campagne.",
             "updateCampaign": "Mettre à jour la campagne",
             "removeFromCollection": "Retirer de la collection",
             "removeConfirm": "Cela retirera la campagne de votre collection. Êtes vous sûr?",
             "openCampaign": "Ouvrir la campagne",
             "campaignWebsite": "Site de la campagne ({url})",
             "sortByTitle": "Trier par titre",
-            "sortByAuthor": "Trier par auteur",
-            "sortBySuggestedPlayers": "Trier par joueurs suggérés",
+            "sortByAuthor": "Trier par auteur·rice",
+            "sortBySuggestedPlayers": "Trier par joueurs recommandé",
             "lancerCampaignDirectory": "Répertoire de campagne @:{'common.gameName'}",
-            "directoryComingSoon": "Après la sortie de la V3, ceci sera un répertoire navigable de campagnes de Massif Press et de la commuanuté. SI vous êtes connectés et avez associé votre compte itch.io, vous serez capable d'importer des campagnes directement depuis le répertoire. Autrement, vous serez redirigé vers la page itch.io pour acheter et télécharger la campagne.",
+            "directoryComingSoon": "Après la sortie de la V3, ceci sera un répertoire navigable des campagnes de Massif Press et de la communauté. SI vous êtes connecté et avez associé votre compte itch.io, vous pourrez importer des campagnes directement depuis le répertoire. Autrement, vous serez redirigé vers la page itch.io pour acheter et télécharger la campagne.",
             "existingNewer": "La campagne existante est plus récente que les données importées.",
             "index": "Index",
             "tableOfContents": "Table des matières",
-            "addCampaign": "Ajouter une campagne"
+            "addCampaign": "Ajouter une campagne",
+            "recommendedLicenseLevel": "Niveau de licence recommandé",
+            "sortByLicenseLevel": "Trier par niveau de licence",
+            "recommendedForLine": "Recommandé pour {players} joueurs au niveau de licence {levels}",
+            "returnToLibrary": "Retourner à la bibliothèque",
+            "campaignForLine": "Une campagne {lancer} pour {players} pilotes débutant au niveau de licence {levels}."
         },
         "shared": {
-            "reference": "Référence",
-            "eidolonLayers": "Strates de l'Eidolon",
+            "reference": "Référentiel",
+            "eidolonLayers": "Strates d'Eidolon",
             "pilotBackgrounds": "Historiques de pilote",
-            "lists": "Listes"
+            "lists": "Listes",
+            "referencePilots": "Référentiel : Pilotes",
+            "referenceMechs": "Référentiel : Méchas",
+            "referenceCombat": "Référentiel : Combat",
+            "referenceNarrativePlay": "Référentiel : Jeu narratif",
+            "referenceErrata": "Référentiel : Errata",
+            "referenceGlossary": "Référentiel : Glossaire"
         },
         "campaignBookshelf": {
             "notYetImplemented": "Pas encore implémenté",
@@ -2190,6 +2212,21 @@
         "categoryView": {
             "noEidolonData": "Pas de données d'Eidolon",
             "icon": "Icône"
+        },
+        "nav": {
+            "systemReference": "Référentiel de règles"
+        },
+        "campaignLibrary": {
+            "developmentPreview": "Aperçu de développement",
+            "searchTheCampaignLibrary": "Rechercher dans la bibliothèque de campagne"
+        },
+        "routes": {
+            "referenceBasics": "Référentiel : Fondamentaux",
+            "referenceCompCon": "Référentiel : COMP/CON"
+        },
+        "searchBar": {
+            "searchTheCompendium": "Rechercher dans le Compendium",
+            "searchTheReference": "Rechercher dans le Référentiel"
         }
     },
     "ui": {
@@ -2413,15 +2450,15 @@
     "notify": {
         "dataItem": {
             "bulkDeletedTitle_one": "{n} élément supprimé",
-            "bulkDeletedTitle_many": "",
+            "bulkDeletedTitle_many": "{n} éléments supprimés",
             "bulkDeletedTitle_other": "{n} éléments supprimés",
             "bulkDeletedText": "Les éléments sélectionnés ont été supprimés.",
-            "bulkPartialTitle": "{n} supprimé, {f} échoué",
-            "bulkPartialText": "Ne pouvait pas supprimer: {items}",
+            "bulkPartialTitle": "{n} supprimé(s), {f} échoué(s)",
+            "bulkPartialText": "N'a pas pu supprimer: {items}",
             "connectionRestoredTitle": "Connexion restaurée",
             "connectionRestoredText": "{name} est associé à nouveau.",
-            "retryFailedTitle": "Nouvel essai échoué",
-            "retryFailedText": "L'élément distant pour {name} n'a pas été trouvé.",
+            "retryFailedTitle": "Le nouvel essai a échoué",
+            "retryFailedText": "L'élément externe pour {name} n'a pu être trouvé.",
             "convertedTitle": "Converti en données locales",
             "convertedText": "{name} est maintenant un élément uniquement local.",
             "itemDeletedTitle": "Élément supprimé",
@@ -2438,7 +2475,7 @@
         "share": {
             "syncInProgressTitle": "Synchronisation en cours",
             "syncInProgressText": "Merci de patienter pour la complétion de la synchronisation.",
-            "syncCompleteTitle": "Synchronisation complété",
+            "syncCompleteTitle": "Synchronisation terminée",
             "syncCompleteText": "{name} synchronisé avec les données en ligne.",
             "syncFailedTitle": "Synchronisation échoué"
         },
@@ -2446,9 +2483,9 @@
             "copied": "Copié"
         },
         "transfer": {
-            "uploadCompleteTitle": "Téléchargement fini",
-            "uploadFailedTitle": "Téléchargement échoué",
-            "downloadCompleteTitle": "Téléchargement fini",
+            "uploadCompleteTitle": "Téléversement terminé",
+            "uploadFailedTitle": "Téléversement échoué",
+            "downloadCompleteTitle": "Téléchargement terminé",
             "downloadFailedTitle": "Téléchargement échoué",
             "itemSynced": "{type}{name} synchronisé.",
             "itemSyncFailed": "Echec de la synchronisation de {type}{name}. {err}",
@@ -2464,16 +2501,18 @@
         "pilot": {
             "upToDateTitle": "Le pilote est à jour",
             "upToDateText": "Le pilote @:{'common.pilotDisplayName'} est déjà à jour avec les données en ligne. Aucune mise à jour nécessaire.",
-            "syncedText": "Le pilote @:{'common.pilotDisplayName'} est synchronisé.",
+            "syncedText": "Le pilote @:{'common.pilotDisplayName'} a été synchronisé.",
             "syncFailedText": "Échec de synchronisation du pilote @:{'common.pilotDisplayName'}. {err}"
         },
         "statblock": {
-            "copiedText": "Copié avec succès"
+            "copiedText": "Copié avec succès",
+            "errorText": "Impossible de copier le profil",
+            "copiedTitle": "Profil copié dans le presse-papier"
         },
         "gm": {
             "npcImportErrorText": "Impossible d'importer les données de MJ: {error}",
             "campaignPublishedTitle": "Campagne publiée",
-            "campaignPublishedText": "Version {version} de {name} a été publiée.",
+            "campaignPublishedText": "La version {version} de {name} a été publiée.",
             "importCompleteTitle": "Importation terminée",
             "importCompleteText": "Campagne ajoutée à la collection locale!",
             "importErrorTitle": "Erreur d'importation",
@@ -2481,9 +2520,11 @@
             "loginRequiredTitle": "Connexion demandée",
             "loginRequiredText": "Vous devez être connecté pour téléverser des données de campagne en ligne.",
             "uploadSuccessTitle": "Téléversé avec succès",
-            "uploadSuccessText": "Données en ligne mis à jour!",
+            "uploadSuccessText": "Données en ligne mises à jour!",
             "uploadErrorTitle": "Erreur de téléversement",
-            "uploadErrorText": "Impossible de mettre à jour les données en ligne: {error}"
+            "uploadErrorText": "Impossible de mettre à jour les données en ligne: {error}",
+            "v2BackupText": "{count} élément a été enregistré dans les importations v2 en attente dans le gestionnaire de contenu.| {count} éléments ont été enregistré dans les importations v2 en attente dans le gestionnaire de contenu.",
+            "v2BackupTitle": "Sauvegarde des importations V2"
         },
         "account": {
             "updateCompleteTitle": "Mise à jour terminée",
@@ -2494,9 +2535,9 @@
             "verificationSentText": "Merci de vérifier votre boîte de réception pour le code de vérification",
             "signOutTitle": "Déconnecté avec succès",
             "dataUpdatedText": "Données d'utilisateur mis à jour",
-            "updateFailedTitle": "Mis à jour échoué",
-            "emailChangeCompleteTitle": "Modification d'adresse électronique terminé",
-            "emailChangeCompleteText": "Votre adresse électronique a été modifié",
+            "updateFailedTitle": "Mise à jour échoué",
+            "emailChangeCompleteTitle": "Modification de l'adresse électronique terminé",
+            "emailChangeCompleteText": "Votre adresse électronique a été modifiée",
             "itchLinkedTitle": "Itch.io associé",
             "itchLinkedText": "Votre compte itch.io a bien été associé",
             "itchLinkFailedTitle": "Échec de l'association avec itch.io",
@@ -2506,7 +2547,7 @@
             "patreonLinkedTitle": "Patreon associé",
             "patreonLinkedText": "Votre compte Patreon a bien été associé",
             "noSubscriptionTitle": "Aucune contribution trouvée",
-            "noSubscriptionText": "Votre compte Patreon a été associé, mais aucun palier de contribution a été trouvé. Merci de contribuer au Patreon @:{'common.appName'} et de réessayer.",
+            "noSubscriptionText": "Votre compte Patreon a été associé, mais aucun palier de contribution n'a été trouvé. Merci de contribuer au Patreon de @:{'common.appName'} et de réessayer.",
             "patreonLinkFailedTitle": "Échec de l'association avec Patreon",
             "patreonLinkFailedText": "Il y a eu une erreur en essayant d'associer votre compte Patreon",
             "patreonUnlinkedTitle": "Patreon dissocié",
@@ -2514,7 +2555,14 @@
             "publishedTitle": "Publié",
             "collectionPublishFailedText": "Échec de la publication de la collection {name}",
             "cloudArchiveTitle": "Archive en ligne",
-            "cloudArchiveCooldownText": "Vous devez attendre {seconds} secondes avant de créer une nouvelle archive."
+            "cloudArchiveCooldownText": "Vous devez attendre {seconds} secondes avant de créer une nouvelle archive.",
+            "emailChangeInitFailedTitle": "Échec du changement d'adresse électronique",
+            "emailChangeFailedTitle": "Modification de l'adresse électronique échoué",
+            "emailChangeCancelledTitle": "Changement de l'adresse électronique annulé",
+            "emailChangeCancelledText": "La modification de l'adresse électronique a été annulé",
+            "collectionPublishedText": "Collection {name} publié sous la version {version}",
+            "syncedItems": "{n} élément synchronisé avec succès. | {n} éléments synchronisé avec succès.",
+            "syncedPartial": "Synchronisation de {succeeded} sur {n} élément. {failed} ont échoué. | Synchronisation de {succeeded} sur {n} éléments. {failed} ont échoué."
         },
         "settings": {
             "unableToReadFileTitle": "Impossible de lire le fichier",
@@ -2548,7 +2596,7 @@
             "copiedText": "Le lien statique de {name} a été copié dans le presse-papier."
         },
         "achievement": {
-            "unlockedTitle": "Succès débloqué!"
+            "unlockedTitle": "Succès accompli!"
         }
     },
     "share": {
