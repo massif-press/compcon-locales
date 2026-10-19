@@ -3984,7 +3984,7 @@
         "resultLastUpdated": "Дата последнего обновления",
         "addAsRemote": "добавить, как удалённый источник",
         "addAsLocalCopy": "добавить как локальную копию",
-        "publicLinkNoteBold": "публично доступная ссылка",
+        "publicLinkNoteBold": "публично доступной URL-ссылкой",
         "lastLocalUpdate": "Последнее локальное обновление",
         "lastSynced": "Дата последней синхронизации",
         "notYetSynced": "Ещё не синхронизировано",
