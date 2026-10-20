@@ -152,7 +152,7 @@
         "pilotSkillTriggers": "Spécialités de pilote",
         "pilotTalent": "Talent de pilote",
         "all": "Tout",
-        "pilotGear": "Équipement de pilote",
+        "pilotGear": "Équipements de pilote",
         "pilotDisplayName": "{callsign} // {name}",
         "unknown": "Inconnu",
         "sortOrder": "Trier",
@@ -213,7 +213,8 @@
         "deselectAll": "Tout déselectionner",
         "updated": "Mis à jour",
         "none": "Aucun",
-        "campaignLibrary": "Bibliothèque de campagne"
+        "campaignLibrary": "Bibliothèque de campagne",
+        "dismiss": "Masquer"
     },
     "gm": {
         "import": {
@@ -252,8 +253,8 @@
             "publishCampaign": "Publier la campagne",
             "exportCampaignJson": "Exporter le JSON de campagne",
             "returnToIndex": "Retour à l'index",
-            "major": "Majeur",
-            "minor": "Mineur",
+            "major": "Génération",
+            "minor": "Révision",
             "patch": "Correctif",
             "versionExists": "La version {version} existe déjà!",
             "publishNewVersion": "Publier une nouvelle version",
@@ -1659,7 +1660,7 @@
             "title": "Migration de compte V3",
             "previousError": "Une précédente tentative de migration a rencontré une erreur. Vous pouvez réessayer ci-dessous.",
             "detectedText": "@:{'common.appName'} a détecté que vous avez un compte existant qui n'a pas encore migré vers la v3.",
-            "migrationDesc": "{detected} L'outil de migration va tenter de transférer toutes les données en ligne V2 vers le nouvelle version V3. Ce processus peut prendre un peu de temps; merci de ne pas actualiser ou fermer la page pendant la migration. Après avoir utilisé (ou rejeté) cet outil, vous pourrez le trouver à nouveau dans le menu \"Données en ligne\".",
+            "migrationDesc": "{detected} L'outil de migration va tenter de transférer toutes les données en ligne V2 vers le nouvelle version V3. Ce processus peut prendre un peu de temps; merci de ne pas actualiser ou fermer la page pendant la migration. Après avoir utilisé (ou masqué) cet outil, vous pourrez le trouver à nouveau dans le menu \"Données en ligne\".",
             "pilotsDetected_one": "{count} Pilote",
             "pilotsDetected_many": "",
             "pilotsDetected_other": "{count} Pilotes",
@@ -2145,7 +2146,7 @@
             "faqErrataNotice": "Cette FAQ et ces erratas sont un projet porté par la communauté et n'est pas une publication officielle de Massif Press pour @:{'common.gameName'}. Cette page est sourcée depuis le {repoLink} sur GitHub, et actuellement maintenu par lenaleciel. Ce document est aussi disponible sur {siteLink}.",
             "lancerFaqRepo": "lancer-faq repository",
             "bookPage": "{book}, p. {page}",
-            "damageTables": "Table des dégâts",
+            "damageTables": "Tables des dégâts",
             "iconGuide": "Guide Visuel",
             "narrativePlay": "jeu narratif",
             "mechActions": "Actions de mécha",
@@ -2470,7 +2471,8 @@
             "restoreFailedTitle": "Restauration échoué",
             "deletedPermanentlyTitle": "Élément supprimé définitivement",
             "removedText": "{type}{name} a été retiré.",
-            "failedToDeleteText": "Échec de la suppression de {type}{name}. {err}"
+            "failedToDeleteText": "Échec de la suppression de {type}{name}. {err}",
+            "bulkFailedTitle": "Échec de la suppression multiple"
         },
         "share": {
             "syncInProgressTitle": "Synchronisation en cours",
@@ -2562,7 +2564,8 @@
             "emailChangeCancelledText": "La modification de l'adresse électronique a été annulé",
             "collectionPublishedText": "Collection {name} publié sous la version {version}",
             "syncedItems": "{n} élément synchronisé avec succès. | {n} éléments synchronisé avec succès.",
-            "syncedPartial": "Synchronisation de {succeeded} sur {n} élément. {failed} ont échoué. | Synchronisation de {succeeded} sur {n} éléments. {failed} ont échoué."
+            "syncedPartial": "Synchronisation de {succeeded} sur {n} élément. {failed} ont échoué. | Synchronisation de {succeeded} sur {n} éléments. {failed} ont échoué.",
+            "signOutText": "Le service d'authentification indique une déconnexion réussie"
         },
         "settings": {
             "unableToReadFileTitle": "Impossible de lire le fichier",
@@ -2575,7 +2578,7 @@
             "unableToImportTitle": "Impossible d'importer les données"
         },
         "lcp": {
-            "removedInvalidVersionText": "{name} a été retirée de l'importation -- invalid version string breaks semver",
+            "removedInvalidVersionText": "{name} a été retiré de l'importation -- la version est invalide et ne respecte pas le versionnage sémantique",
             "lcpUpdatedTitle": "LCP mis à jour",
             "lcpUpdatedText": "La dernière version de {pack} a été téléchargée et installé.",
             "lcpUpdateErrorTitle": "Erreur en mettant à jour les LCP",
@@ -2593,7 +2596,7 @@
         },
         "link": {
             "copiedTitle": "Lien copié",
-            "copiedText": "Le lien statique de {name} a été copié dans le presse-papier."
+            "copiedText": "Le lien de {name} a été copié dans le presse-papier."
         },
         "achievement": {
             "unlockedTitle": "Succès accompli!"
@@ -2617,7 +2620,7 @@
         "addAsLocalCopy": "ajouter comme copie locale"
     },
     "print": {
-        "generalOptions": "Options d'impression générales"
+        "generalOptions": "Options générales d'impression"
     },
     "enums": {
         "activationType": {
