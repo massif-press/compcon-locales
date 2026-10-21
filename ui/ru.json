@@ -4501,7 +4501,8 @@
             "equipmentUnused": "{who} убирает метку \"Использовано\" с {item}",
             "counterUp": "{who} повышает {counter} на {n} до {to}",
             "counterDown": "{who} понижает {counter} на {n} до {to}",
-            "statusManual": "задано в отчёте о боевых действиях"
+            "statusManual": "задано в отчёте о боевых действиях",
+            "blockedOverridden": "{who} преодолевает блок {action}: {reason}"
         },
         "expiration": {
             "start": "в начале",
