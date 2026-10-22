@@ -1427,18 +1427,18 @@
             "npcsAddedViaCode": "Votre compte a accès aux données de PNJ du Lancer Core Book. Ce contenu a été ajouté à votre compte via un lien QR Code."
         },
         "account": {
-            "imageDeletedText": "{itemType}{name} retiré.",
+            "imageDeletedText": "{itemType} {name} retiré.",
             "lcpUpdatedText": "La dernière version de {title} a été téléchargée et installée.",
             "lcpUpdateErrorText": "Une erreur s'est produite en tentant de télécharger {title}.",
             "allLcpsUpdatedTitle": "LCPs mis à jour",
             "allLcpsUpdatedText": "Tous les LCPs ont été mis à jour.",
             "allLcpsUpdateErrorTitle": "Erreur de mise à jour des LCPs",
             "allLcpsUpdateErrorText": "Une erreur s'est produite en tentant de mettre à jour vos LCPs.",
-            "syncPartialTitle": "{synced}/{total} éléments synchronisés",
-            "syncCompleteTitle": "{total}/{total} éléments synchronisés",
+            "syncPartialTitle": "{synced}/{total} élément(s) synchronisé(s)",
+            "syncCompleteTitle": "{total}/{total} élément(s) synchronisé(s)",
             "syncCompleteText": "Tous les éléments ont été synchronisé avec succès.",
             "deletionCompleteTitle_one": "{count} élément supprimé définitivement",
-            "deletionCompleteTitle_many": "",
+            "deletionCompleteTitle_many": "{count} éléments supprimés définitivement",
             "deletionCompleteTitle_other": "{count} éléments supprimés définitivement",
             "noFlaggedText": "Aucun élément n'a été marqué pour suppression.",
             "deletionFailedBulkText": "Une erreur s'est produite pendant la suppression des éléments marqués.",
@@ -1447,7 +1447,7 @@
             "collectionUpdatedTitle": "Collection mise à jour",
             "collectionUpdatedText": "Les éléments de la collection ont été mis à jour avec succès.",
             "itemAddedTitle": "Élément ajouté",
-            "itemAddedText": "L'élément {name} ajouté à la collection",
+            "itemAddedText": "L'élément {name} a été ajouté à la collection",
             "jwtCopiedTitle": "JWT copié",
             "jwtCopyFailedTitle": "Copie du JWT échoué",
             "doNotShowThisWarningAgain": "Ne plus montrer cet avertissement à nouveau",
@@ -1456,13 +1456,15 @@
             "addNewSubscription": "Ajouter un nouvel abonnement",
             "linkedMassifContent": "Contenu Massif associé",
             "membershipBenefits": "Avantages d'adhésion",
-            "manualOnly": "Manuel uniquement",
-            "pilotGroups": "Groupes de pilote",
+            "manualOnly": "Uniquement manuellement",
+            "pilotGroups": "Groupe de pilotes",
             "uploadDate": "Date de téléversement",
             "campaigns": "Campagnes",
             "lcps": "LCPs",
             "filename": "Nom du fichier",
-            "paidLcpItchRequirement": "Le contenu LCP payant requiert un achat itch.io associé avant de pouvoir être mis à jour automatiquement. Pour le moment, seul les LCP publiés par Massif Press sont pris en charge."
+            "paidLcpItchRequirement": "Le contenu LCP payant requiert un achat itch.io associé avant de pouvoir être mis à jour automatiquement. Pour le moment, seul les LCPs publiés par Massif Press sont pris en charge.",
+            "syncPartialText": "Échec de la synchronisation de {failures} élément(s). Cela peut être dû à des données locales manquantes.",
+            "flaggedRemovedText": "Tous les éléments marqués ont été supprimé des données en ligne."
         },
         "auth": {
             "accountCreated": "Compte d'utilisateur créé avec succès. Redirection vers la page de connexion.",
@@ -1487,7 +1489,7 @@
             "inputCodeToFinish": "Entrer le code de vérification pour finir la création de votre compte",
             "confirmVerificationCode": "Confirmer le code de vérification",
             "signupEmailInfo": "L'adresse électronique que vous saisissez sera utilisé pour envoyer un code de confirmation pour finaliser la création de votre compte. Après cela, votre adresse ne sera utilisé que pour vous connecter à votre compte @:{'common.appName'}.",
-            "signupPrivacyInfo": "Nous nous engageons à garder votre adresse électronique confidentielle. Nous ne vendons, louons ou cédons aucune donnée à des tiers, et nous ne communiquerons jamais vos données personnelles à un individu tiers, des agences gouvernementales ou des entreprises, à aucun moment ni pour aucune raison.",
+            "signupPrivacyInfo": "Nous nous engageons à garder votre adresse électronique confidentielle. Nous ne vendons, louons ou cédons aucune donnée à des tiers, et nous ne communiquerons jamais vos données personnelles à un individu tiers, des agences gouvernementales ou des entreprises, à aucun moment ni aucune raison.",
             "resetPassword": "Réinitialiser le mot de passe",
             "sendPasswordResetEmail": "Envoyer un courriel de réinitialisation de mot de passe",
             "resetCodeSentTo": "Code de réinitialisation du mot de passe envoyé à {email}",
@@ -1510,12 +1512,13 @@
             "requiresItchPurchase": "Requiert un achat itch.io associé",
             "accountManagement": "Gestion de compte",
             "cloudData": "Données en ligne",
-            "contentSubscriptions": "Contenus abonnés",
-            "viewImage": "Voir image",
+            "contentSubscriptions": "Contenus suivis",
+            "viewImage": "Voir l'image",
             "downloadCopy": "Télécharger une copie",
             "imageDeleteWarning": "Cette action cassera toutes les associations de cette image dans vos données. Cette action ne peut pas être annulée.",
             "unlinked": "Dissocié",
-            "unlink": "Dissocier"
+            "unlink": "Dissocier",
+            "contentPublishing": "Publication de contenus"
         },
         "itemLink": {
             "noItemWithIdLabel": "Aucun élément avec cette ID",
@@ -1525,39 +1528,44 @@
         "dataUsage": {
             "title": "Utilisation des données",
             "ofMaxMb": "sur {max} MB",
-            "resetMigrationTool": "Réinitialiser les outils de migration de compte"
+            "resetMigrationTool": "Réinitialiser la migration de compte"
         },
         "patreon": {
             "accountLabel": "Compte Patreon",
             "linkPatreon": "Associer un Patreon",
-            "linkInfo": "Si vous êtes abonnés au Patreon de @:{'common.appName'}, associer votre compte Patreon augmentera vos capacités de stockage en ligne et débloquera la création de table en temps réel en mode MJ."
+            "linkInfo": "Si vous êtes abonnés au Patreon de @:{'common.appName'}, associer votre compte Patreon augmentera vos capacités de stockage en ligne et débloquera la création de table en temps réel en mode MJ.",
+            "freeTier": "Gratuit",
+            "thanksFollowing": "Merci beaucoup de votre suivi du projet @:{'common.appName'}!",
+            "thanksSupport": "Merci pour votre généreux soutien de @:{'common.appName'}!"
         },
         "syncSettings": {
-            "syncItems": "Synchroniser les éléments",
+            "syncItems": "Synchroniser",
             "pilotsOnly": "Pilotes uniquement",
             "updateSyncSettings": "Mettre à jour les paramètres de synchronisation",
             "cloudFullSync": "Plus de place dans votre stockage en ligne! Impossible de synchroniser de nouvelles données.",
-            "lastSynced": "Dernière synchronisation: {label}",
+            "lastSynced": "Synchronisé dernièrement: {label}",
             "syncWithSettings": "synchroniser avec les paramètres actuels",
-            "syncOverrides": "Outrepasser la synchronisation",
-            "syncOverridesNote": "Les opérations suivantes outrepassent les paramètres de synchronisation et devraient être utilisés avec prudence.",
+            "syncOverrides": "Outrepassement de la synchronisation",
+            "syncOverridesNote": "Les opérations suivantes outrepassent les paramètres de synchronisation et devraient être utilisées avec prudence.",
             "itemTypes": "Types d'élément",
             "syncSettings": "Paramètres de synchronisation",
-            "removeDeletedItems": "Retirer les éléments supprimer",
+            "removeDeletedItems": "Retirer les éléments supprimés",
             "onOpenClose": "A l'ouverture et la fermeture",
             "every30Minutes": "Toutes les 30 minutes",
             "every60Minutes": "Toutes les 60 minutes",
             "pilotData": "Données de pilote",
             "npcData": "Données de PNJ",
-            "narrativeData": "Données de narration",
+            "narrativeData": "Données narratives",
             "syncSettingsHelp": "Ces options contrôlent comment et quand vos données sont synchronisées en ligne. Par défaut, les données sont synchronisés manuellement uniquement. A la différence d'autres paramètres, ceux-ci sont appliqués à tous les appareils que vous utilisez.",
             "syncFrequencyHelp": "Contrôle la fréquence à laquelle vos données sont synchronisées. A cause des coûts des serveurs, certaines options ne sont disponibles que pour les contributeurs Patreon.",
             "syncDataTypesHelp": "Contrôle quels types de données sont synchronisées.",
-            "permanentlyRemovesItemsFlaggedFor": "Retire définitivement les éléments marqués pour suppression.",
+            "permanentlyRemovesItemsFlaggedFor": "Retire définitivement les éléments supprimés.",
             "dataIsOnlySyncedWhenYou": "Les données ne sont synchronisées qu'en appuyant sur Synchroniser.",
             "syncOnOpenCloseDescription": "Synchronise quand vous ouvrez et fermez l'application. Les synchronisation à la fermeture peuvent ne pas être pris en charge par tous les navigateurs.",
             "syncsAutomaticallyEvery30MinutesRequires": "Synchronise automatiquement toutes les 30 minutes. Nécessite de contribuer sur Patreon.",
-            "syncsAutomaticallyEvery60MinutesRequires": "Synchronise automatiquement toutes les 60 minutes. Nécessite de contribuer sur Patreon."
+            "syncsAutomaticallyEvery60MinutesRequires": "Synchronise automatiquement toutes les 60 minutes. Nécessite de contribuer sur Patreon.",
+            "allItemTypes": "Tous les types d'élément",
+            "noItemTypes": "Aucun type d'élément"
         },
         "collection": {
             "byAuthor": "Par {author}",
@@ -1660,7 +1668,7 @@
             "title": "Migration de compte V3",
             "previousError": "Une précédente tentative de migration a rencontré une erreur. Vous pouvez réessayer ci-dessous.",
             "detectedText": "@:{'common.appName'} a détecté que vous avez un compte existant qui n'a pas encore migré vers la v3.",
-            "migrationDesc": "{detected} L'outil de migration va tenter de transférer toutes les données en ligne V2 vers le nouvelle version V3. Ce processus peut prendre un peu de temps; merci de ne pas actualiser ou fermer la page pendant la migration. Après avoir utilisé (ou masqué) cet outil, vous pourrez le trouver à nouveau dans le menu \"Données en ligne\".",
+            "migrationDesc": "{detected} La migration du compte tentera de transférer toutes les données en ligne V2 vers la nouvelle version V3. Ce processus peut prendre un peu de temps; merci de ne pas actualiser ou fermer la page pendant la migration. Après avoir utilisé (ou masqué) cet outil, vous pourrez le trouver à nouveau dans le menu \"Données en ligne\".",
             "pilotsDetected_one": "{count} Pilote",
             "pilotsDetected_many": "",
             "pilotsDetected_other": "{count} Pilotes",
@@ -1725,7 +1733,7 @@
             "noPublishingAccess": "Vous n'avez pas accès à l'outil de publication des collections."
         },
         "dataItem": {
-            "deleteSelected": "Supprimer le ({count}) sélectionné| Supprimer les ({count}) sélectionnés",
+            "deleteSelected": "Supprimer la sélection ({count})",
             "remoteItemDesc": "Cet élément est lié aux données d'un autre utilisateur. Toute modification qu'il fera sera téléchargé à la synchronisation.",
             "remoteInaccessibleDesc": "Les données en ligne de cet élément n'ont pas pu être trouvées. Cela peut arriver quand son propriétaire supprime l'élément, ou si il y a eu une erreur pendant la synchronisation. Vous pouvez tenter de restaurer le lien à distance ou convertir cet élément en une copie locale.",
             "typeCampaignData": "Données de campagne",
@@ -1758,7 +1766,7 @@
             "remoteItem": "Élément externe",
             "remoteItemInaccessible": "Élément externe inaccessible",
             "bulkDelete": "Sélectionner",
-            "cancelBulkSelection": "Ne pas sélectionner"
+            "cancelBulkSelection": "Annuler la sélection"
         },
         "a11y": {
             "cancelAndClose": "Annuler et fermer",
@@ -1767,7 +1775,7 @@
         },
         "authorSubscriptions": {
             "updates": "Mises à jour",
-            "contentCollection": "Collection de contenu",
+            "contentCollection": "Collection de contenus",
             "onStartup": "Au démarrage"
         },
         "cloudArchive": {
@@ -2312,7 +2320,7 @@
         },
         "shareImport": {
             "itemShareCode": "Code de partage de l'élément",
-            "findItem": "Trouver un élément",
+            "findItem": "Obtenir l'élément",
             "noItemFound": "Aucun élément trouvé avec le code {code}.",
             "dataFound": "données de {type} trouvés",
             "userOwned": "Vous êtes l'auteur·rice de cet élément. Vous ne pouvez pas ajouter vos propres éléments comme ressources à distance.",
