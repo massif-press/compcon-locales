@@ -1715,55 +1715,61 @@
             "fileSize": "Taille"
         },
         "publishing": {
-            "accessInfo": "A causes des coûts liés associés à la création et la distribution de ces collections, cette fonctionnalité n'est disponible que pour les contributeurs Patreon. Si vous voulez avoir accès à cet outil et créer et distribuer des collections de votre contenu @:{'common.appName'}, considérez {link} pour soutenir le développement de @:{'common.appName'} et gagner l'accès à des fonctionnalités supplémentaires.",
+            "accessInfo": "A causes des coûts liés associés à la création et la distribution de ces collections, cette fonctionnalité n'est disponible que pour les contributeurs Patreon. Si vous voulez avoir accès à cet outil et créer et distribuer des collections de votre contenu @:{'common.appName'}, vous pouvez {link} pour soutenir le développement de @:{'common.appName'} et gagner l'accès à des fonctionnalités supplémentaires.",
             "howeverView": "Cependant, vous pouvez toujours voir et vous abonner aux collections créés par d'autres utilisateurs.",
             "collectionsHeader": "Collections ({count}/ {limit})",
-            "addNew": "Ajouter nouveau",
+            "addNew": "Ajouter une nouvelle",
             "itemUpToDate": "Cet élément est à jour avec la version trouvée dans les données locales.",
-            "itemNotFound": "Cet élément n'a pas pu être trouvés dans vos données locales et n'a pas pu être mis à jour. Il restera dans le collection jusqu'à son retrait.",
-            "removeItemTooltip": "Retirer cet élément de cette collection. Cela ne retirera pas l'élément de votre stockage @:{'common.appName'} local ou en ligne.",
-            "viewFullChangelog": "Voir le journal des modifications.",
-            "collectionChangelogTitle": "Journal des modifications de {name}",
+            "itemNotFound": "Cet élément n'a pas pu être trouvé dans vos données locales et n'a pas pu être mis à jour. Il restera dans le collection jusqu'à son retrait.",
+            "removeItemTooltip": "Retirer cet élément de la collection. Cela ne retirera pas l'élément de votre stockage @:{'common.appName'} local ou en ligne.",
+            "viewFullChangelog": "Voir l'historique complet.",
+            "collectionChangelogTitle": "Historique de {name}",
             "versionN": "version {version}",
             "saveDraft": "Enregistrer un brouillon",
             "collectionShareCode": "Code de partage de la collection",
             "lastUpdateOn": "Dernière mise à jour le {date}",
             "mustPublish": "La collection doit être publiée pour générer un code de partage.",
             "deleteCollection": "Supprimer la collection",
-            "deleteCollectionWarning": "Supprimer cette collection retirera la collection de vos données locales et en ligne, et supprimera les archives de cette collection du stockage en ligne. Les utilisateurs ne pourront plus s'abonner à ce contenu et les abonnés actuels ne pourront plus mettre à jours la collection. Cela {willNot} supprimera aucun contenu de collection, localement ou en ligne, pour vous ou les abonnés.",
+            "deleteCollectionWarning": "Supprimer cette collection la retirera de vos données locales et en ligne, et supprimera ses archives du stockage en ligne. Les utilisateurs ne pourront plus s'abonner à ce contenu et les abonnés actuels ne pourront plus mettre à jours la collection. Cela ne supprimera {willNot} de contenu de la collection, localement ou en ligne, pour vous ou les abonnés.",
             "willNotLabel": "pas",
             "confirmDelete": "Êtes vous sûr de vouloir supprimer cette collection?",
-            "noPublishingAccess": "Vous n'avez pas accès à l'outil de publication des collections."
+            "noPublishingAccess": "Vous n'avez pas accès à la publication de collection.",
+            "itemModified": "Cet élément a été modifié localement et sera mis à jour à la dernière version lors de la publication.",
+            "publishMinor": "Publier une révision ({version})",
+            "headerShort": "PUBLICATION DE COLLECTION",
+            "header": "PUBLICATION DE COLLECTION DE CONTENUS",
+            "nameRequired": "Nom (requis)",
+            "authorRequired": "Auteur·rice (requis)"
         },
         "dataItem": {
             "deleteSelected": "Supprimer la sélection ({count})",
-            "remoteItemDesc": "Cet élément est lié aux données d'un autre utilisateur. Toute modification qu'il fera sera téléchargé à la synchronisation.",
-            "remoteInaccessibleDesc": "Les données en ligne de cet élément n'ont pas pu être trouvées. Cela peut arriver quand son propriétaire supprime l'élément, ou si il y a eu une erreur pendant la synchronisation. Vous pouvez tenter de restaurer le lien à distance ou convertir cet élément en une copie locale.",
+            "remoteItemDesc": "Cet élément est lié aux données d'un autre utilisateur. Toute modification qu'il y fera sera téléchargé à la synchronisation.",
+            "remoteInaccessibleDesc": "Les données en ligne de cet élément n'ont pas pu être trouvées. Cela peut arriver quand son propriétaire supprime l'élément, ou si il y a eu une erreur pendant la synchronisation. Vous pouvez tenter de restaurer la connexion ou le convertir comme un élément local.",
             "typeCampaignData": "Données de campagne",
-            "typeActiveEncounter": "Rencontre active",
-            "typeArchivedEncounter": "Rencontre archivée",
-            "remoteLinkBroken": "Lien à distance rompu — Les données du propriétaire n'ont pas pu être trouvées. Réessayez ou convertissez ces données en local.",
+            "typeActiveEncounter": "Engagement actif",
+            "typeArchivedEncounter": "Engagement archivé",
+            "remoteLinkBroken": "Lien rompu — Les données du propriétaire n'ont pu être trouvées. Réessayez ou convertissez les en une version locale.",
             "deletedLocally": "Supprimé localement",
             "markedDeletedCloud": "Marqué comme supprimé en ligne.",
             "cloudOnly": "En ligne uniquement — pas encore téléchargé.",
             "localOnly": "Local uniquement — Pas encore synchronisé.",
             "pendingSync": "Synchronisation en attente.",
-            "editableCampaignDesc": "Ceci est une campagne modifiable que vous avez créé dans l'éditeur de campagne MJ. Ces données peuvent être synchronisées en ligne pour sa sûreté et partagés avec d'autres appareils, mais ne peuvent être partagés via le système de code de partage.",
-            "retryConnection": "Réessayer la connexion",
-            "convertToLocalDesc": "Retirer ce lien à distance. Les données sont gardées localement.",
+            "editableCampaignDesc": "Ceci est une campagne modifiable que vous avez créé dans l'éditeur de campagne MJ. Ces données peuvent être synchronisées en ligne pour sa sûreté et partagés avec d'autres appareils, mais ne peuvent être partagés via un code de partage.",
+            "retryConnection": "Essayer de reconnecter",
+            "convertToLocalDesc": "Retirer le lien. Les données sont gardées localement.",
             "restoreLocalDesc": "Restaurer cet élément localement.",
             "restoreItemDesc": "Restaurer cet élément. Cet élément ne sera plus marqué comme supprimé et se synchronisera avec tous les autres appareils.",
-            "manualControls": "Contrôles manuels",
-            "deletePermanentlyDesc": "Cela retirera définitivement cet élément du stockage locale. Si cet élément a été synchronisé en ligne, il y sera aussi marqué pour suppression.",
+            "manualControls": "Contrôle manuel",
+            "deletePermanentlyDesc": "Cela retirera définitivement cet élément du stockage local. Si cet élément a été synchronisé en ligne, il y sera aussi marqué pour suppression.",
             "deleteImmediately": "Supprimer immédiatement",
             "deleteImmediatelyDesc": "Supprimer cet élément le retirera des données en ligne. Cela ne modifiera aucune copie locale de cet élément.",
-            "deleteLocalData": "Supprimer les données locales",
-            "deleteLocalDataDesc": "Cela marquera cet élément comme supprimé localement, et sera retiré de cette table et ne synchronisera plus. Les options de restauration des éléments supprimés peuvent être trouvés dans les paramètres utilisateurs.",
+            "deleteLocalData": "Supprimer des données locales",
+            "deleteLocalDataDesc": "Cela marquera cet élément comme supprimé localement, il sera retiré de cette table et ne synchronisera plus. Les options de restauration des éléments supprimés peuvent être trouvés dans les paramètres utilisateurs.",
             "deleteCloudData": "Supprimer les données en ligne",
             "deleteCloudItem": "Supprimer un élément en ligne",
-            "deleteCloudItemDesc": "Supprimer cet élément le marquera comme supprimé en ligne. Cela ne supprimera pas cet élément localement, mais l'empêchera de se synchroniser en lignes ou sur d'autres appareils.",
+            "deleteCloudItemDesc": "Supprimer cet élément le marquera comme supprimé en ligne. Cela ne supprimera pas cet élément localement, mais l'empêchera de se synchroniser en ligne ou sur d'autres appareils.",
             "deleteNItems_one": "Supprimer {count} élément",
-            "deleteNItems_many": "",
+            "deleteNItems_many": "Supprimer {count} éléments",
             "deleteNItems_other": "Supprimer {count} éléments",
             "chooseDeleteMethod": "Choisissez comment supprimer les éléments sélectionnés",
             "remoteItem": "Élément externe",
@@ -1779,7 +1785,7 @@
         "authorSubscriptions": {
             "updates": "Mises à jour",
             "contentCollection": "Collection de contenus",
-            "onStartup": "Au démarrage"
+            "onStartup": "Au chargement"
         },
         "cloudArchive": {
             "autoBackupFrequency": "Fréquence de sauvegarde automatique",
@@ -1791,8 +1797,8 @@
             "last10": "Les 10 derniers",
             "last5": "Les 5 derniers",
             "mostRecentOnly": "Les plus récent uniquement",
-            "onAppStart": "Au démarrage",
-            "preserve": "Préserver",
+            "onAppStart": "Au chargement",
+            "preserve": "Conserver",
             "daily": "Quotidiennement",
             "weekly": "Hebdomadairement",
             "monthly": "Mensuellement",
@@ -1810,12 +1816,15 @@
         },
         "itemDataTab": {
             "showLocallyDeleted": "Montrer les éléments supprimés localement",
-            "deleteCloudDataOnlyKeep": "Supprimer les données en ligne uniquement (Garde les données locales)",
+            "deleteCloudDataOnlyKeep": "Supprimer les données en ligne uniquement (Données locales conservées)",
             "convertToLocalData": "Convertir en données locales",
             "confirmDelete": "Confirmer la suppression",
             "lastSync": "Dernière synchronisation",
             "mergeAndSyncThisItem": "Fusionner et synchroniser cet élément immédiatement.",
-            "itemUnlinkDescription": "Retirer le lien à distance et garder les données localement."
+            "itemUnlinkDescription": "Rompre le lien et garder les données localement.",
+            "deleteCloudAndMarkLocalAsDeleted": "Supprimer des données en ligne et marquer localement comme supprimé",
+            "itemForcePushDescription": "Envoyer les données en ligne sans conditions, écrasant les données.",
+            "itemMergeDescription": "Fusionner les données en lignes avec cet élément, conservant les entrées locales les plus récentes."
         },
         "shared": {
             "newPassword": "Nouveau mot de passe",
@@ -1832,7 +1841,18 @@
             "roster": "Roster"
         },
         "desktop": {
-            "v2ImportsAwaitingResolution": "Importation v2 en attente de résolution"
+            "v2ImportsAwaitingResolution": "Importation v2 en attente de résolution",
+            "compendiumHelp": "Base de données des équipements",
+            "gmToolkitHelp": "Gérer les campagnes, les engagements et les PNJs",
+            "log": {
+                "compendium": "Parcourir la base de données des châssis, équipements et règles de @:{'common.gameName'}",
+                "gm": "Créer et gérer les PNJs et engagements, et lancer des missions avec des PNJs et pilotes",
+                "campaign": "Travail en cours",
+                "options": "Ouvrir le gestionnaire d'options",
+                "about": "A propos de @:{'common.appName'}",
+                "help": "Ouvrir la page d'aide de @:{'common.appName'}",
+                "update": "Voir les dernières mises à jours et nouveautés de @:{'common.appName'}"
+            }
         },
         "storageWarning": {
             "installCompconForReliableStorage": "Installer @:{'common.appName'} pour un stockage fiable",
@@ -1840,6 +1860,13 @@
         },
         "massifLcpTable": {
             "autoUpdate": "Mise à jour automatique"
+        },
+        "signIn": {
+            "hidePassword": "Cacher le mot de passe",
+            "showPassword": "Révéler le mot de passe"
+        },
+        "dataViewer": {
+            "archive": "Archive"
         }
     },
     "pm": {
@@ -2626,7 +2653,7 @@
         "sheetStyle": "Style de fiche",
         "includeMech": "Inclus le mécha",
         "noShareCode": "Cet élément n'a pas de code de partage. Pour le partager, synchronisez le avec votre compte @:{'common.appName'} en cliquant sur le bouton \"Synchronisez\" au dessus.",
-        "resultLastUpdated": "Dernière mise à jour",
+        "resultLastUpdated": "Dernièrement mis à jour",
         "addAsRemote": "ajouter comme ressource distante",
         "addAsLocalCopy": "ajouter comme copie locale"
     },
