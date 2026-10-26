@@ -10,5 +10,6 @@
     "sotw-bond-firebrand.name": "Бунтарь",
     "sotw-bond-firebrand.power_iconoclast.name": "Иконоборец",
     "sotw-bond-knave.name": "Плут",
-    "sotw-bond-seneschal.name": "Паладин"
+    "sotw-bond-seneschal.name": "Паладин",
+    "mf_balor_alt_hecatoncheires.core_system.active_action_enrage_swarm.name": "Разъярить рой"
 }
