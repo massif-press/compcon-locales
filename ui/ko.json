@@ -574,5 +574,10 @@
         "structureCheck": {
             "structure": "구조 피해"
         }
+    },
+    "bonuses": {
+        "heatCap": {
+            "title": "열 한계치"
+        }
     }
 }
