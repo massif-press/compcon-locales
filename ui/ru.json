@@ -1421,7 +1421,7 @@
             "organizeCollection": "Упорядочить {collection}"
         },
         "trackable": {
-            "corePower": "заряд ядра",
+            "corePower": "Заряд ключевой системы",
             "corePowerReady": "Доступен заряд ключевой способности",
             "corePowerUnavailable": "Заряд ключевой способности недоступен",
             "clearCorePowerQ": "Пометить использование заряда ключевой способности указанного меха?",
