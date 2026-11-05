@@ -198,5 +198,8 @@
     "npcf_acid_spittle_monstrosity.name": "Кислотная слюна",
     "npcf_barrel_roll_ace.action_barrel_roll.detail": "Вы совершаете \"бочку\", пролетая 6 клеток в любом направлении, заставляя противника промахнуться. Указанное передвижение игнорирует клинч и не провоцирует реакции.",
     "npcf_javelin_rockets_rainmaker.action_javelin_rockets.name": "Ракеты \"Дротик\"",
-    "npcf_javelin_rockets_rainmaker.name": "Ракеты \"Дротик\""
+    "npcf_javelin_rockets_rainmaker.name": "Ракеты \"Дротик\"",
+    "npcf_heavy_frame_demolisher.active_effect_heavy_frame.detail": "Персонажи меньшего размера не могут толкать, притягивать, опрокидывать или отталкивать вас.",
+    "npcf_heavy_frame_goliath.active_effect_heavy_frame.detail": "Персонажи меньшего размера не могут толкать, притягивать, опрокидывать или отталкивать вас.",
+    "npcf_superior_reactor_ultra.name": "Непревзойдённый реактор"
 }
