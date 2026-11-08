@@ -4044,7 +4044,6 @@
         },
         "reference": {
             "statuses": "Статусы",
-            "glossary": "Словарь",
             "pleaseNote": "Обратите внимание",
             "faqErrataNotice": "Разделы «Часто задаваемые вопросы» и «Исправления» являются фанатскими проектами и не связаны с официальным релизом @:{'common.gameName'} от Massif Press. Данная страница наполняется данными по Часто задаваемым вопросам из {repoLink} на Github, в настоящее время обновляется lenaleciel. Указанные материалы также доступны по ссылке {siteLink}.",
             "faqErrata": "Часто задаваемые вопросы, исправления и пояснения",
@@ -4060,10 +4059,7 @@
             "twoQuickActions": "2 быстрых действия",
             "lancerBasics": "Основы Lancer",
             "usingCompcon": "Как использовать @:{'common.appName'}",
-            "narrativePlay": "Повествование",
-            "statusConditions": "Состояния",
-            "combat": "Бои",
-            "mechs": "Мехи"
+            "statusConditions": "Состояния"
         },
         "campaign": {
             "removeFromCollection": "Удалить из подборки",
@@ -4112,7 +4108,6 @@
             "reference": "Справка",
             "eidolonLayers": "Слои эйдолона",
             "pilotBackgrounds": "Варианты происхождения пилотов",
-            "referencePilots": "Пилоты",
             "referenceMechs": "Мехи",
             "referenceCombat": "Бои",
             "referenceNarrativePlay": "Повествование",

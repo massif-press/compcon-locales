@@ -431,7 +431,6 @@
             "faqErrata": "FAQ ed errata",
             "faqErrataNotice": "Queste FAQ ed errata sono un progetto guidato dalla community e non fanno parte di una release ufficiale @:{'common.gameName'} di Massif Press. Questa pagina è alimentata dai dati FAQ del {repoLink} su GitHub, attualmente gestito da lenaleciel. Questo documento è disponibile anche su {siteLink}.",
             "fullAction": "Azione Completa",
-            "glossary": "Glossario",
             "iconGuide": "Guida alle Icone",
             "lancerFaqRepo": "repository lancer-faq",
             "mechActions": "Azioni del Mech",
@@ -443,10 +442,7 @@
             "twoQuickActions": "2 Azioni Rapide",
             "lancerBasics": "Basi di Lancer",
             "usingCompcon": "usare @:{'common.appName'}",
-            "narrativePlay": "gioco narrativo",
-            "statusConditions": "Condizioni",
-            "combat": "Combattimento",
-            "mechs": "Mech"
+            "statusConditions": "Condizioni"
         },
         "returnToCompendium": "Torna al Compendio",
         "search": {
@@ -464,8 +460,7 @@
             "referenceErrata": "Riferimento: Errata",
             "referenceGlossary": "Riferimento: Glossario",
             "referenceMechs": "Riferimento: Mech",
-            "referenceNarrativePlay": "Riferimento: Gioco Narrativo",
-            "referencePilots": "Riferimento: Piloti"
+            "referenceNarrativePlay": "Riferimento: Gioco Narrativo"
         },
         "campaignBookshelf": {
             "notYetImplemented": "Non ancora implementato",
