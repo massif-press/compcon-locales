@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*!
-Build LCP language patches (.llp). Two modes:
+Build LCP language patches (.llp). Three modes:
 
   extract <lcp-dir> [--lang <code>] [--out <file>]
     Walk an unpacked LCP's JSON collections and emit an English base .llp holding every
@@ -9,6 +9,9 @@ Build LCP language patches (.llp). Two modes:
   pack <flat.json> --target <pack-id> [--lang <code>] [--out <file>]
     Wrap an already-translated flat `<id>.<field>` map (like a Weblate content/<c>/<lang>.json)
     in a .llp header.
+
+  bundle <file.lcp> <patch.llp> [more.llp ...] [--out <file>]
+    Add finished .llp patches to a .lcp so the pack and its translations ship as one file.
 
 Keys match exactly what the localize() resolver reads, so authors don't need to guess paths.
 */
@@ -39,7 +42,8 @@ var ALLOWLIST = {
   tags: ["name", "description"],
   talents: ["name", "terse", "description"],
   weapons: ["name", "description", "effect"],
-  downtime_actions: ["name", "terse", "detail"]
+  downtime_actions: ["name", "terse", "detail"],
+  tables: ["title", "description"]
 };
 var LCP_FIELDS = {
   npc_classes: ["name", "flavor", "tactics", "terse"],
@@ -60,6 +64,15 @@ function bondPowerEntries(power, origin = power.origin) {
     `${bondPowerPrefix(origin, power.name)}.${f}`,
     String(power[f])
   ]);
+}
+function tableRowPrefix(tableId, row) {
+  const s = row.title ? slug(row.title) : "x";
+  return `${tableId}.row_${s === "x" ? `${row.min}_${row.max}` : s}`;
+}
+function tableRowEntries(table) {
+  return (table.results ?? []).flatMap(
+    (row) => ["title", "result"].filter((f) => row[f] != null && String(row[f]).trim()).map((f) => [`${tableRowPrefix(table.id, row)}.${f}`, String(row[f])])
+  );
 }
 function bondEntries(bond) {
   const out = [];
@@ -216,6 +229,7 @@ function markupFault(str) {
 var core_layer_default = {
   id: "el_core",
   name: "Core",
+  stats: { hp: 1, size: 0.5 },
   rules: "The Eidolon\u2019s core has no shards. Any shards on the field when this layer is revealed are immediately vaporized, destroyed in the blink of an eye. Once the core is destroyed, the Eidolon is defeated.",
   features: [
     {
@@ -223,19 +237,7 @@ var core_layer_default = {
       name: "Pulsing Core",
       origin: "el_core",
       type: "Trait",
-      effect: "This layer is Size 1/2 and has 1 HP.",
-      bonuses: [
-        {
-          id: "size",
-          val: 0.5,
-          overwrite: true
-        },
-        {
-          id: "hp",
-          val: 1,
-          overwrite: true
-        }
-      ]
+      effect: "This layer is Size 1/2 and has 1 HP."
     },
     {
       id: "el_core_anticausal_thought",
@@ -246,6 +248,11 @@ var core_layer_default = {
       weapon_type: "Superheavy Memetic",
       attack_bonus: [2, 4, 6],
       accuracy: 2,
+      tags: [
+        {
+          id: "tg_ap"
+        }
+      ],
       damage: [
         {
           type: "Energy",
@@ -282,7 +289,7 @@ var persistent_traits_default = [
   },
   {
     name: "Memetic Weapons",
-    detail: "Eidolons have a new type of weapons: MEMETIC weapons. These weapons ignore engagement and do not affect allied characters, even if they are caught in their area of effect."
+    detail: "Eidolons have a new type of weapon: MEMETIC weapons. These ranged weapons ignore engagement and do not affect allied characters, even if they are caught in their area of effect."
   },
   {
     name: "Bonus Activations",
@@ -364,6 +371,7 @@ function extractFromLcp(dir) {
       if (!nested) continue;
       for (const { prefix, fields: nf } of nestedEntries(collection, item))
         for (const [field, val] of Object.entries(nf)) put(`${prefix}.${field}`, val);
+      if (collection === "tables") for (const [key, val] of tableRowEntries(item)) put(key, val);
     }
   };
   for (const [collection, fields] of Object.entries(ALLOWLIST)) {
