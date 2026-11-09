@@ -152,7 +152,7 @@
         "limitedBonus": "Модификатор зарядов РС",
         "systemPoints": "Пункты систем",
         "repairs": "Ремкомплект",
-        "contentLabel": "Содержимое",
+        "contentLabel": "Доп. материалы",
         "deleteItemsPermanently": "Безвозвратно удалить указанные элементы",
         "item": "Элемент",
         "coreSystem": "Ключевая способность",
@@ -3671,7 +3671,7 @@
         },
         "lcp": {
             "downloadLcp": "Скачать LCP",
-            "content": "содержимое контент-пака",
+            "content": "Содержимое LCP",
             "updateLcp": "обновить контент-пак",
             "installedDisabled": "Контент-пак установлен, но не включён"
         },
@@ -4002,7 +4002,10 @@
             "lcpUpdateErrorText": "При попытке скачать {pack} произошла ошибка.",
             "lcpUpdatedTitle": "LCP обновлены",
             "lcpUpdateErrorTitle": "Не удалось обновить LCP",
-            "removedInvalidVersionText": "{name} убран из списка элементов для импорта -- строка недействительной версии (не соблюдается semver)"
+            "removedInvalidVersionText": "{name} убран из списка элементов для импорта -- строка недействительной версии (не соблюдается semver)",
+            "readErrorText": "Не удалось распознать {file}: {error}",
+            "installErrorText": "Не удалось установить {pack}. Детали можно найти в отчёте об ошибках.",
+            "installSkippedText": "{pack}: не удалось загрузить {count} элемент, он был пропущен. | {pack}: не удалось загрузить {count} элементов, они были пропущены."
         },
         "compendium": {
             "campaignUpdatedText": "Кампания успешно обновлена",
@@ -4192,7 +4195,27 @@
             "lineAreaOfEffect": "Тип урона по площади \"Линия\"",
             "coneAreaOfEffect": "Тип урона по площади \"Конус\"",
             "lcpContentHint": "Обозначает материалы, добавленные набором игровых материалов для Lancer (файл формата .lcp)",
-            "damageTypes": "Типы урона"
+            "damageTypes": "Типы урона",
+            "rangeAttackTypes": "Дальность / Типы атак",
+            "trackedStats": "Отслеживаемые характеристики",
+            "variableOrOther": "Вариативный/иной",
+            "meleeAttack": "Атака ближнего боя",
+            "rangedAttack": "Дальнобойная атака",
+            "saveRoll": "Порог испытания",
+            "systemPoint": "Пункт систем",
+            "freeAction": "Свободное действие",
+            "weaponMod": "Модификация оружия",
+            "trait": "Черта",
+            "coreBonus": "Ключевое улучшение",
+            "talent": "Талант",
+            "skillTrigger": "Навык пилота",
+            "reserveTactical": "Резерв (Тактический)",
+            "reserveMech": "Резерв (Мех)",
+            "reserveResource": "Резерв (Ресурс)",
+            "vehicle": "Техника",
+            "ship": "Корабль",
+            "biological": "Биологический",
+            "squad": "Отряд"
         },
         "searchBar": {
             "searchTheCompendium": "Поиск по Каталогу",
@@ -4821,7 +4844,8 @@
             "title": "Заряды (для всех Дронов)"
         },
         "activations": {
-            "title": "@:{'active.customStatEditor.activations'}"
+            "title": "@:{'active.customStatEditor.activations'}",
+            "detail": "Вы можете совершать {value} дополнительных ходов за раунд"
         },
         "immunity": {
             "title": "@:{'active.dmgCond.immunity'}"
