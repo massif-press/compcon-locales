@@ -796,7 +796,6 @@
             "or": "ou",
             "twoQuickActions": "2 Ações Rápidas",
             "statuses": "Status",
-            "glossary": "Glossário",
             "faqErrata": "FAQ e Errata",
             "pleaseNote": "Atenção",
             "faqErrataNotice": "Este FAQ e Errata é um projeto conduzido pela comunidade e não faz parte de um lançamento oficial da Massif Press para o @:{'common.gameName'}. Esta página é fornecida pelos dados do FAQ de {repoLink} no GitHub, atualmente mantido por lenaleciel. Este documento também está disponível em {siteLink}.",
@@ -804,10 +803,7 @@
             "bookPage": "{book}, p. {page}",
             "lancerBasics": "Básico de Lancer",
             "usingCompcon": "usando @:{'common.appName'}",
-            "narrativePlay": "jogo narrativo",
-            "statusConditions": "Condições",
-            "combat": "Combate",
-            "mechs": "Mechas"
+            "statusConditions": "Condições"
         },
         "search": {
             "resultCount_one": "{count} resultado | {count} resultados",
@@ -851,7 +847,6 @@
             "reference": "Referência",
             "eidolonLayers": "Camadas de Eidolon",
             "pilotBackgrounds": "Antecedentes de Piloto",
-            "referencePilots": "Referência: Pilotos",
             "referenceMechs": "Referência: Mechas",
             "referenceCombat": "Referência: Combate",
             "referenceNarrativePlay": "Referência: Jogo Narrativo",

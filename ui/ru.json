@@ -435,7 +435,8 @@
             "errorReportingStatus": "Ведение отчётов об ошибках {status}",
             "turnWizardClosePolicyLabel": "При закрытии помощника",
             "turnWizardClosePolicy": {
-                "keep": "Запомнить выбранные действия"
+                "keep": "Запомнить выбранные действия",
+                "undo": "Отменить действия"
             }
         },
         "storage": {
@@ -1404,7 +1405,9 @@
             "persistentTraits": "Постоянные черты ({n})",
             "generateShards_one": "Сконструировать {n} Осколок | Сконструировать {n} Осколков",
             "generateShards_few": "Сконструировать {n} Осколка",
-            "generateShards_many": "Сконструировать {n} Осколков"
+            "generateShards_many": "Сконструировать {n} Осколков",
+            "shardFeatures": "Способности осколка ({n})",
+            "metamorphose": "Метаморфоза"
         },
         "organizer": {
             "selected": "выбрано",
@@ -1475,7 +1478,8 @@
             "pilotGrit": "Закалка пилота",
             "combatImage": "Отображение в бою",
             "setCombatImage": "Задать изображение для боя",
-            "clearCombatImage": "Сбросить изображение для боя"
+            "clearCombatImage": "Сбросить изображение для боя",
+            "rollCheck": "Сделайте проверку {stat}"
         },
         "equipCmd": {
             "reload": "Перезарядить",
@@ -1857,13 +1861,14 @@
             "hostAnOnlineTable": "Создать виртуальный стол (онлайн)",
             "spectatorMode": "Режим зрителя",
             "campaignDisplay": "Отображение кампании",
-            "observer": "НАБЛЮДАТЕЛЬ",
+            "observer": "Наблюдатель",
             "inDevelopmentReleaseV32": "В разработке (релиз - вер. 3.2.)",
             "createManageAndRunActivePlayer": "Создание, управление, а также возможность играть с применением интерактивных листов персонажей игроков",
             "resumeLast": "возобновить предыдущее",
             "featureInDevelopmentV32": "Функция в разработке (v3.2)",
             "localEncountersDescription": "Создание, управление и проведение столкновений в Lancer на вашем устройстве",
-            "featureInDevelopmentV31": "Функция в разработке (v3.1)"
+            "featureInDevelopmentV31": "Функция в разработке (v3.1)",
+            "lancer_gameterm": "Улан"
         },
         "gmEndRound": {
             "endsOnTargetTurn": "{when} хода {target}",
@@ -1977,17 +1982,38 @@
             "columnsLabel": "Разбивка панелей на колонки",
             "content": "Содержимое",
             "showPortraits": "Показывать изображения пилотов",
-            "showPortraitsTooltip": "Скрывать изображения бойцов, чтобы уместить больше информации на экране.",
+            "showPortraitsTooltip": "Скрывать портреты на панелях бойцов, чтобы уместить больше информации на экране. Не влияет на боковую панель инициативы.",
             "showFlavor": "Показывать художественный текст",
             "showFlavorTooltip": "Показывать описания и художественный текст на карточках снаряжения и способностей. Если выключено, будет отображаться только текст правил.",
             "resetToDefault": "Сброс к настройкам по умолчанию",
             "actionGroupings": {
                 "none": "Без группировки",
                 "standard": "Стандартная",
-                "byType": "По типу действия"
+                "byType": "По типу действия",
+                "menus": "Меню действий"
             },
             "actionGrouping": "Палитра действий",
-            "layoutFor": "Разметка для"
+            "layoutFor": "Разметка для",
+            "savedAsDefault": "Разметка была сохранена в качестве выбора по умолчанию.",
+            "showTurnStates": "Показывать переключатели состояния хода",
+            "sidebarLabels": "Метки боковой панели инициативы",
+            "showTurnStatesTooltip": "Показывать переключатели \"Оседлал\", \"Укрепился\", \"Перехват\" и \"Подготовился\" на панелях бойцов.",
+            "showCover": "Показывать укрытие",
+            "showCoverTooltip": "Показывать выбор укрытия на панелях бойцов.",
+            "showActiveEffects": "Показывать активные эффекты",
+            "showActiveEffectsTooltip": "Показывать активные эффекты от снаряжения, талантов и способностей на панелях бойцов.",
+            "showActionDetails": "Детальное отображение действий",
+            "showActionDetailsTooltip": "Показывать полный текст правил для каждого действия и развёртываемого снаряжения непосредственно на карточках снаряжения и способностей.",
+            "trackMovement": "Отслеживать передвижение",
+            "trackMovementTooltip": "Отслеживать использованные клетки передвижения за каждый ход. Если эта настройка отключена, управление передвижением отключено и количество клеток не отмечается в конце хода.",
+            "scrollOnSelect": "При выборе бойца",
+            "scrollModes": {
+                "top": "Вернуться наверх"
+            },
+            "sectionDisplay": "Отображение",
+            "sectionActions": "Действия",
+            "sectionBehavior": "Поведение",
+            "saveAsDefault": "Сохранить выбранные настройки как выбранные по умолчанию"
         },
         "charts": {
             "round": "Раунд",
@@ -2022,7 +2048,12 @@
             "encounterTimelineSub": "Действия пилота, раунд за раундом",
             "damageByGroup": "Урона нанесено группой",
             "heatPerEncounter": "Нагрев за столкновение",
-            "collapseChart": "Скрыть таблицу"
+            "collapseChart": "Скрыть таблицу",
+            "accuracyOverTime": "Точность (за период времени)",
+            "mostUsedActions": "Наиболее часто используемые действия",
+            "threatVsDurability": "Досягаемость против Выносливости",
+            "lethalityPerAppearance": "Летальность за появление",
+            "lethalityPerAppearanceSub": "Общее количество поражённых целей, поделённое на количество появлений"
         },
         "gmTelemetry": {
             "allCampaigns": "Все кампании",
@@ -2146,7 +2177,9 @@
             "highlights": {
                 "topKills": "Больше всего поражённых целей",
                 "topOvercharges": "Больше всего форсажей",
-                "topCrits": "Больше всего крит. попаданий"
+                "topCrits": "Больше всего крит. попаданий",
+                "topDealt": "Нанесено больше всего урона",
+                "topTaken": "Получено больше всего урона"
             },
             "outcomeTitle": "РЕЗУЛЬТАТ СТОЛКНОВЕНИЯ",
             "rowSummary": "{dealt} нанесено / {taken} получено / {kills} поражено целей"
@@ -2183,11 +2216,19 @@
             "closePromptTitle": "Запомнить действия помощника?",
             "undoLabel": "Действия в цифровом помощнике",
             "moveSpaces": "Клеток передвижения",
-            "commitMove": "Подтвердить передвижение"
+            "commitMove": "Подтвердить передвижение",
+            "closePromptText": "Действия, которые были совершены через цифрового помощника с момента предыдущего завершённого хода, могут быть отменены, либо сохранены."
         },
         "options": {
             "autosaveEncounterTooltip": "Автосохранение данных столкновения в конце каждого раунда. По умолчанию ВКЛЮЧЕНО.",
             "autosaveSheetTooltip": "Автосохранение данных листа пилота в конце каждого раунда. По умолчанию ВКЛЮЧЕНО."
+        },
+        "override": {
+            "prompt": "Невозможно завершить: {reason}. Разрешить его?",
+            "promptNamed": "Нельзя совершить {action}: {reason}. Разрешить его?"
+        },
+        "targetedAction": {
+            "rollFirst": "Сделайте бросок атаки ближнего боя, чтобы разрешить указанное действие."
         }
     },
     "mainMenu": {
@@ -3197,7 +3238,11 @@
             "notALog": "Указанный файл не является допустимым боевым отчётом.",
             "unnamed": "Безымянное столкновение",
             "manageData": "Управление данными бортового журнала",
-            "deleteTitle": "Удалить данные бортового журнала"
+            "deleteTitle": "Удалить данные бортового журнала",
+            "candidateSummary": "{rounds} раундов, {date}, {participants} участников, {events} записанных событий",
+            "heldSummary": "{rounds} раундов, {date}",
+            "totalDealt": "Всего нанесено урона",
+            "encounterLogs": "Боевые отчёты"
         },
         "pilotStatus": {
             "active": "Активно",
@@ -3993,7 +4038,7 @@
         "agi": "Ловк",
         "hp": "ПЗ",
         "sensors": "Сенсоры",
-        "structure": "Структура",
+        "structure": "Целостность",
         "evasion": "Уклонение",
         "edef": "Т. защ.",
         "armor": "Броня",
@@ -4044,7 +4089,6 @@
         },
         "reference": {
             "statuses": "Статусы",
-            "glossary": "Словарь",
             "pleaseNote": "Обратите внимание",
             "faqErrataNotice": "Разделы «Часто задаваемые вопросы» и «Исправления» являются фанатскими проектами и не связаны с официальным релизом @:{'common.gameName'} от Massif Press. Данная страница наполняется данными по Часто задаваемым вопросам из {repoLink} на Github, в настоящее время обновляется lenaleciel. Указанные материалы также доступны по ссылке {siteLink}.",
             "faqErrata": "Часто задаваемые вопросы, исправления и пояснения",
@@ -4060,10 +4104,7 @@
             "twoQuickActions": "2 быстрых действия",
             "lancerBasics": "Основы Lancer",
             "usingCompcon": "Как использовать @:{'common.appName'}",
-            "narrativePlay": "Повествование",
-            "statusConditions": "Состояния",
-            "combat": "Бои",
-            "mechs": "Мехи"
+            "statusConditions": "Состояния"
         },
         "campaign": {
             "removeFromCollection": "Удалить из подборки",
@@ -4112,7 +4153,6 @@
             "reference": "Справка",
             "eidolonLayers": "Слои эйдолона",
             "pilotBackgrounds": "Варианты происхождения пилотов",
-            "referencePilots": "Пилоты",
             "referenceMechs": "Мехи",
             "referenceCombat": "Бои",
             "referenceNarrativePlay": "Повествование",
@@ -4151,7 +4191,8 @@
             "blastAreaOfEffect": "Тип урона по площади \"Взрыв\"",
             "lineAreaOfEffect": "Тип урона по площади \"Линия\"",
             "coneAreaOfEffect": "Тип урона по площади \"Конус\"",
-            "lcpContentHint": "Обозначает материалы, добавленные набором игровых материалов для Lancer (файл формата .lcp)"
+            "lcpContentHint": "Обозначает материалы, добавленные набором игровых материалов для Lancer (файл формата .lcp)",
+            "damageTypes": "Типы урона"
         },
         "searchBar": {
             "searchTheCompendium": "Поиск по Каталогу",
@@ -4354,7 +4395,7 @@
             "specialExpiredDetail": "Особый статус {attribute} истёк."
         },
         "structureCheck": {
-            "structure": "Структурный урон",
+            "structure": "Нарушение целостности",
             "stress": "Износ реактора",
             "pending": "{type} отмечен",
             "rollLabel": "Бросок {n}к{die}",
@@ -4462,7 +4503,8 @@
             },
             "self": "СЕБЕ",
             "clause": {
-                "kill": "ЦЕЛЬ УНИЧТОЖЕНА"
+                "kill": "ЦЕЛЬ УНИЧТОЖЕНА",
+                "damage": "на {amount} пунктов {type} урона"
             },
             "mount": "{who} седлает",
             "mountDismount": "{who} спешивается",
@@ -4531,7 +4573,8 @@
             "counterUp": "{who} повышает {counter} на {n} до {to}",
             "counterDown": "{who} понижает {counter} на {n} до {to}",
             "statusManual": "задано в отчёте о боевых действиях",
-            "blockedOverridden": "{who} преодолевает блок {action}: {reason}"
+            "blockedOverridden": "{who} преодолевает блок {action}: {reason}",
+            "blockedNoAction": "{who} блокируется: {reason}"
         },
         "expiration": {
             "start": "в начале",
@@ -4572,7 +4615,9 @@
             "takesHeat": "{actor} получил (получила) {heat} пунктов Нагрева ({sources})",
             "attackResult": "{roll} против {value} {defense} : {result}",
             "targetedBy": "Является целью {initiator} {effect}:",
-            "rollPending": "ожидается бросок"
+            "rollPending": "ожидается бросок",
+            "applied": "Наложено {name}",
+            "gained": "Получено {name}"
         },
         "weaponUse": {
             "barrage": "Залп",
@@ -4674,7 +4719,8 @@
             "target": "Испытание (Системы)"
         },
         "attack": {
-            "target": "@:{'ui.flow.request.attackRoll'}"
+            "target": "@:{'ui.flow.request.attackRoll'}",
+            "title": "@:{'common.attackBonus'}"
         },
         "thrown": {
             "title": "@:{'enums.rangeType.thrown'}"
@@ -4967,7 +5013,8 @@
             "title": "Тип оружия крепления"
         },
         "armorMax": {
-            "title": "Максимальное значение Брони"
+            "title": "Максимальное значение Брони",
+            "detail": "{direction} максимальное значение Брони меха на {value}"
         },
         "boost": {
             "title": "Скорость при Ускорении"
@@ -4980,6 +5027,10 @@
         },
         "sizes": {
             "title": "Варианты размера"
+        },
+        "superheavyMounting": {
+            "title": "Сверхтяжёлое крепление",
+            "detail": "Если у меха меньше трёх оружейных креплений, на него устанавливается Сверхтяжёлое крепление"
         }
     }
 }

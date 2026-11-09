@@ -2957,7 +2957,6 @@
             "or": "oder",
             "twoQuickActions": "2 Schnelle Aktionen",
             "statuses": "Status",
-            "glossary": "Glossar",
             "faqErrata": "FAQ & Errata",
             "pleaseNote": "Anmerkung",
             "faqErrataNotice": "Diese FAQ und Errata sind von der Community erstellte Projekte und nicht Teil der offiziellen Massif Press @:{'common.gameName'}-Veröffentlichungen. Diese Seite erhält ihre FAQ-Daten aus dem {repoLink} auf GitHub, welches aktuell von lenaleciel instand gehalten wird. Dieses Dokument ist auch auf {siteLink} verfügbar.",
@@ -2965,7 +2964,6 @@
             "bookPage": "{book}, S. {page}",
             "lancerBasics": "Lancer-Grundlagen",
             "usingCompcon": "Benutzung von @:{'common.appName'}",
-            "narrativePlay": "Erzählendes Spiel",
             "statusConditions": "Zustände"
         },
         "content": {
@@ -3005,7 +3003,6 @@
             "reference": "Verweis",
             "eidolonLayers": "Eidolonschichten",
             "pilotBackgrounds": "Pilot:innenhintergründe",
-            "referencePilots": "Verweis: Pilot:innen",
             "referenceMechs": "Verweis: Mechs",
             "referenceCombat": "Verweis: Kampf",
             "referenceNarrativePlay": "Verweis: Erzählendes Spiel",

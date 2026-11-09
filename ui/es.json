@@ -3688,14 +3688,12 @@
             "twoQuickActions": "2 Acciones Rápidas",
             "faqErrata": "PF & erratas",
             "statuses": "Estados",
-            "glossary": "Glosario",
             "pleaseNote": "Por favor tenga en cuenta",
             "faqErrataNotice": "Este PF y Erratas es un proyecto impulsado por la comunidad y no forma parte de un lanzamiento oficial de Massif Press @:{'common.gameName'}. Esta página está alimentada por datos de preguntas frecuentes del {repoLink} en GitHub, actualmente mantenido por lenaleciel. Este documento también está disponible en {siteLink}.",
             "lancerFaqRepo": "repositorio de lancer-faq",
             "bookPage": "{book}, p. {page}",
             "lancerBasics": "Lancer Básico",
-            "usingCompcon": "usando @:{'common.appName'}",
-            "narrativePlay": "juego narrativo"
+            "usingCompcon": "usando @:{'common.appName'}"
         },
         "search": {
             "resultCount_one": "{count} resultado | {count} resultados",
@@ -3739,7 +3737,6 @@
             "reference": "Referencia",
             "eidolonLayers": "Capas Eidolon",
             "pilotBackgrounds": "Trasfondos de Piloto",
-            "referencePilots": "Referencia: Pilotos",
             "referenceMechs": "Referencia: Mecas",
             "referenceCombat": "Referencia: Combate",
             "referenceNarrativePlay": "Referencia: Juego Narrativo",
