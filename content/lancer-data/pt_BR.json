@@ -2966,5 +2966,6 @@
     "mw_siege_cannon.profile_siege_mode.on_attack.detail": "Escolha atirar no modo de cerco ou modo de tiro direto.",
     "mw_tachyon_lance.on_attack.detail": "Se estiver na Zona de Perigo, crie um cone 3 de exaustão de plasma ardente na direção oposta ao disparo. Personagens dentro da área afetada devem obter sucesso em um salvamento de Engenharia ou sofrem 4 de Queimadura e 2 de Calor. Até o início do seu próximo turno, a área afetada fornece cobertura leve.",
     "mw_variable_sword.on_crit.detail": "Causa +1d6 de Dano bônus.",
-    "wm_thermal_charge.on_hit.detail": "Ao acertar com essa arma, gaste uma carga como uma Ação Livre para ativar seu detonador e causar +1d6 Explosivo de Dano bônus."
+    "wm_thermal_charge.on_hit.detail": "Ao acertar com essa arma, gaste uma carga como uma Ação Livre para ativar seu detonador e causar +1d6 Explosivo de Dano bônus.",
+    "core-monstrosity-structure-damage.row_dismemberment.title": "Desmembramento"
 }
