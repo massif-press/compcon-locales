@@ -177,8 +177,8 @@
     "npcf_insulated_veteran.effect": "Ветеран получает иммунитет к Плавлению.",
     "npcf_juggernaut_ultra.active_effect_juggernaut.name": "Джаггернаут",
     "npcf_juggernaut_ultra.name": "Джаггернаут",
-    "npcf_kai_bioplating_assassin.active_effect_kai_bioplating.name": "Биологическая обшивка \"Кай\"",
-    "npcf_kai_bioplating_assassin.name": "Биологическая обшивка \"Кай\"",
+    "npcf_kai_bioplating_assassin.active_effect_kai_bioplating.name": "Биопокрытие \"Кай\"",
+    "npcf_kai_bioplating_assassin.name": "Биопокрытие \"Кай\"",
     "npcf_kinetic_compensation_demolisher.active_effect_kinetic_compensation.name": "Кинетическая компенсация",
     "npcf_kinetic_compensation_demolisher.name": "Кинетическая компенсация",
     "npcf_juggernaut_berserker.name": "Джаггернаут",
@@ -201,5 +201,7 @@
     "npcf_javelin_rockets_rainmaker.name": "Ракеты \"Дротик\"",
     "npcf_heavy_frame_demolisher.active_effect_heavy_frame.detail": "Персонажи меньшего размера не могут толкать, притягивать, опрокидывать или отталкивать вас.",
     "npcf_heavy_frame_goliath.active_effect_heavy_frame.detail": "Персонажи меньшего размера не могут толкать, притягивать, опрокидывать или отталкивать вас.",
-    "npcf_superior_reactor_ultra.name": "Непревзойдённый реактор"
+    "npcf_superior_reactor_ultra.name": "Непревзойдённый реактор",
+    "npcf_rank_discipline_assault.active_effect_rank_discipline.name": "Строевая дисциплина",
+    "npcf_rank_discipline_assault.name": "Строевая дисциплина"
 }
