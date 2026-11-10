@@ -257,7 +257,10 @@
         "hints": "Hinweise",
         "rules": "Regeln",
         "tactics": "Strategie",
-        "activateFreeAction": "Aktivieren (Freie Aktion)"
+        "activateFreeAction": "Aktivieren (Freie Aktion)",
+        "damageDealt": "Zugefügt",
+        "damageTaken": "Genommen",
+        "updated": "Aktualisiert"
     },
     "language": {
         "experimentalNote": "Nicht-englische Übersetzungen werden von der Community geschrieben und sind aktuell in Entwicklung. Einige Texte könnten nicht übersetzt oder fehlerhaft sein.",
@@ -294,7 +297,13 @@
         "aStandardEnvironmentWithNoSpecial": "Eine Standardumgebung ohne besondere Kampfbedingungen",
         "standardEncounterDescription": "Eine simple Angelegenheit. Zwei Seiten treten einander entgegen, bis eine der beiden bricht oder zerstört wird.",
         "titlePage": "Titelseite",
-        "contributors": "Mitwirkende"
+        "contributors": "Mitwirkende",
+        "expressionVariable": {
+            "ll": "Lizenzlevel der Pilot:in",
+            "tier": "NSC-Rang",
+            "structure": "Maximale Struktur",
+            "stress": "Maximale Reaktorstabilität"
+        }
     },
     "nav": {
         "contentManager": {
