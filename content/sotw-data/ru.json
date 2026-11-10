@@ -105,5 +105,18 @@
     "mf_balor_alt_hecatoncheires.trait_panoptes_targeting.active_effect_panoptes_targeting.name": "Целеуказание \"Панопт\"",
     "mf_balor_alt_hecatoncheires.trait_panoptes_targeting.description": "Оружие Гекатонхейра с меткой \"Умное\" игнорирует статус \"Невидимый\" для персонажей в пределах значения Сенсоров.",
     "ms_champions_favor.name": "Лавры победителя",
-    "ms_champions_favor.active_effect_champion_s_favor.name": "Лавры победителя"
+    "ms_champions_favor.active_effect_champion_s_favor.name": "Лавры победителя",
+    "sotw-bond-celebrant.power_live_and_learn.description": "При провале РИСКОВАННОЙ или ГЕРОИЧЕСКОЙ проверки, вы получаете +1 Точность на следующую проверку при условии, что вы используете тот же навык пилота.",
+    "sotw-bond-celebrant.power_the_beautiful_life.prerequisite": "Вы можете получить эту способность только после получения четырёх других способностей этого архетипа, включая Ветеранскую способность.",
+    "sotw-bond-celebrant.power_the_beautiful_life.name": "Жизнь прекрасна",
+    "sotw-bond-firebrand.power_do_you_hear_the_people_sing.prerequisite": "Вы можете получить эту способность только после получения четырёх других способностей этого архетипа, включая Ветеранскую способность.",
+    "sotw-bond-knave.power_do_or_die.prerequisite": "Вы можете получить эту способность только после получения четырёх других способностей этого архетипа, включая Ветеранскую способность.",
+    "sotw-bond-seneschal.power_durendal_my_brand.prerequisite": "Вы можете получить эту способность только после получения четырёх других способностей этого архетипа, включая Ветеранскую способность.",
+    "sotw-bond-seneschal.power_forbearance.description": "Когда вы предлагаете прощение или свободу поверженному врагу, ведущий выбирает один из вариантов:<ul><li>Они смиряются с поражением.</li><li>Они убегают, поклявшись отомстить вам и вашим союзникам. Все союзники, участвующие в сцене, получают 1 ПО.</li></ul>",
+    "sotw-bond-knave.question_1": "Чем вы поступитесь, чтобы достичь своей цели?",
+    "sotw-bond-knave.power_i_ll_do_it_myself.description": "Когда ваш союзник проваливает проверку навыка, вы можете попробовать пройти ту же проверку, используя тот же навык пилота. Союзник всё ещё сталкивается с последствиями провала проверки.",
+    "sotw-bond-celebrant.major_ideal_2": "Мне пришлось столкнуться с проблемами из-за моих травм или происхождения.",
+    "sotw-bond-knave.major_ideal_2": "Мне пришлось столкнуться с проблемами из-за моих травм или происхождения.",
+    "sotw-bond-seneschal.major_ideal_2": "Мне пришлось столкнуться с проблемами из-за моих травм или происхождения.",
+    "sotw-bond-firebrand.major_ideal_2": "Мне пришлось столкнуться с проблемами из-за моих травм или происхождения."
 }
