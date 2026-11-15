@@ -203,5 +203,6 @@
     "npcf_heavy_frame_goliath.active_effect_heavy_frame.detail": "Персонажи меньшего размера не могут толкать, притягивать, опрокидывать или отталкивать вас.",
     "npcf_superior_reactor_ultra.name": "Непревзойдённый реактор",
     "npcf_rank_discipline_assault.active_effect_rank_discipline.name": "Строевая дисциплина",
-    "npcf_rank_discipline_assault.name": "Строевая дисциплина"
+    "npcf_rank_discipline_assault.name": "Строевая дисциплина",
+    "npcf_deadly_ultra.effect": "В случае критического попадания, Ультра наносит +1к6 урона."
 }
