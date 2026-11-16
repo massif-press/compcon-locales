@@ -257,7 +257,8 @@
         "rules": "Reglas",
         "tactics": "Tácticas",
         "activateFreeAction": "Activar (Acción Libre)",
-        "deselectAll": "Deseleccionar Todo"
+        "deselectAll": "Deseleccionar Todo",
+        "updated": "Actualizado"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -294,7 +295,10 @@
         "aStandardEnvironmentWithNoSpecial": "Un entorno estándar sin condiciones especiales de combate",
         "standardEncounterDescription": "Un duelo simple, con dos bandos enfrentados entre si hasta que uno de ellos es quebrado o destruido.",
         "titlePage": "Página Titular",
-        "contributors": "Contribuidores"
+        "contributors": "Contribuidores",
+        "expressionVariable": {
+            "ll": "Editar Nivel de Licencia"
+        }
     },
     "nav": {
         "contentManager": {
