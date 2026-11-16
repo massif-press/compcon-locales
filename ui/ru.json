@@ -4055,7 +4055,7 @@
         "repCap": "Ремзапас",
         "range": "Дальность",
         "heatCap": "Теплоёмкость",
-        "techAtk": "Тех. атака"
+        "techAtk": "Т. атк."
     },
     "share": {
         "resultLastUpdated": "Дата последнего обновления",
@@ -4243,7 +4243,7 @@
         },
         "reserveType": {
             "resources": "Ресурсы",
-            "tactical": "Тактические",
+            "tactical": "Тактический",
             "mech": "Мех",
             "project": "Проект",
             "organization": "Организация",
@@ -4282,7 +4282,7 @@
             "aux": "Вспомогательное",
             "main_aux": "Осн/Вспом",
             "flex": "Адаптивное",
-            "integrated": "Интегрированное"
+            "integrated": "Встроенное"
         },
         "rangeType": {
             "range": "Дальность",
@@ -4299,7 +4299,7 @@
             "deployable": "Развёртываемое",
             "drone": "Дрон",
             "tech": "Тех.",
-            "integrated": "Интегрированное",
+            "integrated": "Встроенное",
             "mod": "Модификация",
             "mine": "Мина",
             "grenade": "Граната",
@@ -4335,7 +4335,7 @@
         },
         "attackType": {
             "melee": "Холодное",
-            "ranged": "Дальнобойное",
+            "ranged": "Дальнобойная",
             "tech": "Тех."
         },
         "pilotStatus": {
