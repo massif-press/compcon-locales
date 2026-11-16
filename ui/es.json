@@ -257,8 +257,10 @@
         "rules": "Reglas",
         "tactics": "Tácticas",
         "activateFreeAction": "Activar (Acción Libre)",
-        "deselectAll": "Deseleccionar Todo",
-        "updated": "Actualizado"
+        "deselectAll": "De‐seleccionar Todo",
+        "updated": "Actualizado",
+        "damageDealt": "Dispensado",
+        "damageTaken": "Recibido"
     },
     "language": {
         "selectLanguage": "Idioma",
@@ -297,7 +299,16 @@
         "titlePage": "Página Titular",
         "contributors": "Contribuidores",
         "expressionVariable": {
-            "ll": "Editar Nivel de Licencia"
+            "ll": "Nivel de Licencia del Piloto",
+            "tier": "Grado PNJ",
+            "structure": "Máximo Estructura",
+            "stress": "Máximo Estrés del Reactor",
+            "hp": "Máximo PG",
+            "currentStructure": "Estructura Actual",
+            "currentStress": "Estrés del Reactor Actual",
+            "currentHp": "PG Actuales",
+            "heat": "Calor Actual",
+            "save": "Salvación"
         }
     },
     "nav": {
@@ -447,7 +458,13 @@
             "v2AppendNote": "las importaciones de copia de seguridad v2 siempre se procesan utilizando la estrategia de \"apéndice\".",
             "showDesktopTablesTooltip": "Por defecto, @:{'common.appName'} muestra una vista simplificada de las tablas de Compendio en dispósitivos móviles para mejorar la legibilidad y desempeño. Activar esta opción mostrará la versión completa de escritorio de las tablas en todos los dispositivos. Esto puede hacer que algunas tablas sean difíciles de leer o causar problemas de desempeño en algunos dispositivos móviles.",
             "showDesktopTablesLabel": "Forzar Tablas completas del Compendio",
-            "errorReportingStatus": "Error al reportar {status}"
+            "errorReportingStatus": "Error al reportar {status}",
+            "turnWizardClosePolicyLabel": "Al cerrar el Asistente de Turno",
+            "turnWizardClosePolicy": {
+                "ask": "Preguntar para conservar o deshacer acciones",
+                "keep": "Conservar acciones",
+                "undo": "Deshacer acciones"
+            }
         },
         "storage": {
             "userData": "Datos del usuario",
@@ -535,7 +552,8 @@
             "clickHere": "presione aquí.",
             "communityNotice": "La descarga dentro de aplicaciones y la suscripción automática a las actualizaciones de LCP de la comunidad aún no son soportadas . Una vez disponibles las herramientas de soporte del autor, los LCP comunitarios serán migrados a v3 y podrán aprovechar los mismos mecanismos de actualización y suscripción que los paquetes oficiales de contenido de Massif Press. Siga el {blog} para mantenerse al día en el progreso.",
             "developmentBlog": "bitácora de desarrollo",
-            "massifPress": "Massif Press"
+            "massifPress": "Massif Press",
+            "officialContentHeading": "Contenido Oficial {publisher}"
         },
         "packInfo": {
             "v2ContentTitle": "Contenido v2",
@@ -577,7 +595,9 @@
             "caller": "Llamado por",
             "clearLog": "Limpiar Bitácora",
             "exportThisSession": "Exportar Bitácora de Esta Sesión",
-            "exportAllSessions": "Exportar Bitácora de Todas las Sesiones"
+            "exportAllSessions": "Exportar Bitácora de Todas las Sesiones",
+            "clearAllLogs": "Limpiar Todas las Bitácoras",
+            "clearAllLogsConfirm": "Esto borrará permanentemente todas las entradas en bitácora de cada sesión, incluyendo sesiones de visitas previas."
         },
         "packConfig": {
             "title": "Configuraciones de Contenido",
@@ -648,7 +668,17 @@
             "requiresManual_other": "{count} incidentes requieren medidas manuales.",
             "applyFixesButton_one": "Aplicar {count} Reparación | Aplicar {count} Reparaciones",
             "applyFixesButton_many": "Aplicar {count} Reparaciones",
-            "applyFixesButton_other": "Aplicar {count} Reparaciones"
+            "applyFixesButton_other": "Aplicar {count} Reparaciones",
+            "catLcpFlavorState": "LCP Texto Personalizado",
+            "applyingFixes": "Aplicando arreglos ({progress} / {total})...",
+            "finding": {
+                "flavorMatchesDescription": "Descripción del tono coincide con el texto de la descripción del artículo",
+                "unresolvedOrigin": "Característica tiene origen objeto-forma sin resolver; puede ser resuelto ahora",
+                "unresolvableOrigin": "Característica tiene origen que no se puede resolver. Borre y reinstale el LCP para recuperar",
+                "missingFeature": "Característica referenciada por \"{owner}\" faltante. Reinstale el LCP \"{pack}\" para recuperar",
+                "bakedNpcState": "Característica porta {fields} de estado por PNJ integrados en los datos del LCP",
+                "malformedNpcData": "PNJ tiene campos de datos v2 malformados que serán limpiados al guardar"
+            }
         },
         "search": {
             "searchResults": "resultados de la búsqueda",
@@ -694,6 +724,16 @@
         "extraContent": {
             "backedUp": "Respaldado",
             "missing": "Faltante"
+        },
+        "packIssues": {
+            "badgeTitle": "Problemas de los datos del paquete de contenido",
+            "skippedCount": "{count} artículo no pudo ser cargado y fue omitido. | {count} artículos no pudieron ser cargados y fueron omitidos.",
+            "warningCount": "{count} problema de datos puede causar comportamiento incorrecto. | {count} problemas de datos pueden causar comportamiento incorrecto.",
+            "loadError": "Falla al cargar: {detail}",
+            "invalidField": "Campo faltante o inválido: {field}",
+            "unknownValue": "Valor de {field} no reconocido: {value}",
+            "notArray": "Contenido del archivo no es una lista. Nada en este fue cargado.",
+            "authorHint": "Estos problemas están en los datos del paquete de contenido y pueden ser arreglados únicamente por su autor."
         }
     },
     "gm": {
@@ -782,7 +822,8 @@
         "folder": {
             "noFolder": "No hay Carpeta",
             "setFolder": "Seleccionar carpeta",
-            "collectionFolder": "Directorio de colección"
+            "collectionFolder": "Directorio de colección",
+            "deleteFolderWarning": "Esto borrará el directorio '{folder}'. Todos los artículos serán enviados al grupo '{noFolder}'"
         },
         "filter": {
             "showItemsWith": "Mostrar artículos con",
@@ -809,7 +850,11 @@
         "narrative": {
             "additionalDetail": "Detalle adicional",
             "clocks": "Relojes",
-            "viewCollections": "Ver Colecciones"
+            "viewCollections": "Ver Colecciones",
+            "collectionTitle": {
+                "character": "Personajes",
+                "location": "Locaciones"
+            }
         },
         "print": {
             "othersCount": "(+{n} otros)"
@@ -1328,7 +1373,7 @@
             "hostAnOnlineTable": "Alojar una Mesa En Línea",
             "spectatorMode": "Modo Espectador",
             "campaignDisplay": "Mostrar Campaña",
-            "observer": "OBSERVADOR",
+            "observer": "Observador",
             "inDevelopmentReleaseV32": "En Desarrollo (lanzamiento v3.2)",
             "createManageAndRunActivePlayer": "Crear, gestionar, y ejecutar hojas de Personaje Jugador activas",
             "resumeLast": "reanudar última",
@@ -3742,11 +3787,11 @@
             "reference": "Referencia",
             "eidolonLayers": "Capas Eidolon",
             "pilotBackgrounds": "Trasfondos de Piloto",
-            "referenceMechs": "Referencia: Mecas",
-            "referenceCombat": "Referencia: Combate",
-            "referenceNarrativePlay": "Referencia: Juego Narrativo",
-            "referenceErrata": "Referencia: Erratas",
-            "referenceGlossary": "Referencia: Glosario",
+            "referenceMechs": "Mecas",
+            "referenceCombat": "Combate",
+            "referenceNarrativePlay": "Juego Narrativo",
+            "referenceErrata": "Erratas",
+            "referenceGlossary": "Glosario",
             "lists": "Listas"
         },
         "campaignBookshelf": {
