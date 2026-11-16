@@ -256,7 +256,8 @@
         "hints": "Pistas",
         "rules": "Reglas",
         "tactics": "Tácticas",
-        "activateFreeAction": "Activar (Acción Libre)"
+        "activateFreeAction": "Activar (Acción Libre)",
+        "deselectAll": "Deseleccionar Todo"
     },
     "language": {
         "selectLanguage": "Idioma",
