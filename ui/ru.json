@@ -3136,7 +3136,7 @@
             "selectEquipment": "ВЫБОР СНАРЯЖЕНИЯ",
             "selectDamage": "Выбор урона",
             "setMaximumUses": "Установить максимальное количество использований",
-            "extendedHarness": "Расширенный инвентарь",
+            "extendedHarness": "Дополнительные ремни",
             "equipItem": "Установить {item}"
         },
         "selectors": {
