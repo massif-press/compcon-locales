@@ -1678,7 +1678,7 @@
     "reserve_extra_repairs.description": "Припасы, дающие меху +2 РЕМКОМПЛЕКТА.",
     "mw_vorpal_gun.description": "СМОТРЕТЬ В ДУЛО СТРОГО ЗАПРЕЩЕНО.",
     "mw_fuel_rod_gun.description": "Получено от таланта \"Ядерный кавалер\", ранг 3",
-    "ms_turret_drones.deployable_turret_drone.action_turret_attack.trigger": "Союзный персонаж в пределах Дальности 10 от туррельного дрона успешно совершает атаку.",
+    "ms_turret_drones.deployable_turret_drone.action_turret_attack.trigger": "Союзный персонаж в пределах Дальности 10 от турельного дрона успешно совершает атаку.",
     "ms_assassin_drone.deployable_assassin_drone.action_area_denial.trigger": "Враждебный персонаж начинает движение, либо входит в зону, которая является целью вашего дрона-убийцы.",
     "mf_deaths_head.core_system.active_effect": "Вы получаете доступ к действию \"Смертельный приговор\" до конца сцены.",
     "mf_deaths_head.core_system.active_action_mark_for_death.name": "Смертельный приговор",
@@ -1888,5 +1888,9 @@
     "t_crack_shot.terse": "Вы выравниваете прицел и получаете кости Точности, дополнительный урон, а также возможность накладывать негативные эффекты",
     "t_drone_commander.terse": "Улучшает и усиливает ваших дронов, чтобы помогать союзникам и наносить больше вреда врагам",
     "t_engineer.terse": "Вы создаёте экспериментальное оружие для вашего меха, которое можно изменять и улучшать",
-    "t_engineer.rank_final_draft.description": "Ваше экспериментальное оружие становится Расходуемым [2к6] и наносит 1к6+4 пунктов урона."
+    "t_engineer.rank_final_draft.description": "Ваше экспериментальное оружие становится Расходуемым [2к6] и наносит 1к6+4 пунктов урона.",
+    "ms_turret_drones.name": "Турельные дроны",
+    "ms_turret_drones.deployable_turret_drone.action_turret_attack.detail": "Турельный дрон наносит цели 3 пункта кинетического урона, до тех пор, пока цель находится в поле зрения дрона.",
+    "ms_turret_drones.deployable_turret_drone.action_turret_attack.name": "Атака с турели",
+    "ms_turret_drones.deployable_turret_drone.name": "Турельный дрон"
 }
