@@ -149,7 +149,7 @@
         "activeMode": "Игровой режим",
         "deletePermanently": "Удалить безвозвратно",
         "features": "Возможности",
-        "limitedBonus": "Модификатор зарядов РС",
+        "limitedBonus": "Модификатор расходуемых зарядов",
         "systemPoints": "Пункты систем",
         "repairs": "Ремкомплект",
         "contentLabel": "Доп. материалы",
@@ -2929,8 +2929,8 @@
             "grit": "ЗАКАЛКА",
             "mechSheetOptions": "Доступные действия (лист меха)",
             "pageBreak": "Разрыв страницы",
-            "repairCapacityShort": "Запас ремкомплектов",
-            "limitedBonusShort": "Модификатор зарядов РС",
+            "repairCapacityShort": "Ремзапас",
+            "limitedBonusShort": "Модификатор РЗ",
             "limitedSystemShort": "РАС сис",
             "maxStructure": "Макс. значение Структуры",
             "corePassiveNamed": "{name} (ПАССИВНАЯ КС)",
@@ -3376,7 +3376,7 @@
         },
         "mechSkillsSelector": {
             "mechHp": "ПЗ МЕХА",
-            "limitedSystemsBonus": "Модификатор зарядов РС",
+            "limitedSystemsBonus": "Модификатор расходуемых зарядов",
             "hullSkillDescription": "Корпус отражает способность пилота создавать и пилотировать прочных, тяжёлых мехов, которые способны выдержать много урона",
             "agilitySkillDescription": "Ловкость отражает способность пилота создавать и пилотировать быстрых и манёвренных мехов",
             "systemsSkillDescription": "Системы отражают способность пилота создавать и пилотировать мехов с внушительным арсеналом средств радиоэлектронной борьбы",
@@ -4321,7 +4321,7 @@
             "grenade": "Граната",
             "invade": "Взлом",
             "ai": "ИИ",
-            "flight_system": "Система управления полётом"
+            "flight_system": "Полётная система"
         },
         "duration": {
             "scene": "Сцена",
