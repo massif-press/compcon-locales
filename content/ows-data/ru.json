@@ -31,5 +31,10 @@
     "mw_integrated_shock_claws.profile_ruined.on_attack.detail": "Вы можете нанести 1к6 бронебойного энергетического урона другому персонажу в пределах Дальности 3 от первой цели на ваш выбор.",
     "mw_integrated_shock_claws.profile_damaged.on_attack.detail": "Вы можете нанести 1к6 бронебойного энергетического урона другому персонажу в пределах Дальности 3 от первой цели на ваш выбор.",
     "mw_integrated_shock_claws.profile_damaged.name": "Повреждены",
-    "mw_integrated_shock_claws.profile_ruined.name": "Уничтожены"
+    "mw_integrated_shock_claws.profile_ruined.name": "Уничтожены",
+    "cb_order_of_leander.action_order_of_leander.trigger": "Вы или союзный персонаж в пределах Дальности 10 совершает атаку, проходит проверку навыка или испытание.",
+    "cb_order_of_leander.active_effect_order_of_leander_structure_damage.name": "Орден Леандра: нарушение целостности",
+    "cb_order_of_leander.active_effect_order_of_leander_structure_damage.detail": "Вы можете использовать Орден Леандра второй раз за сцену.",
+    "mf_amber_phantom.trait_battle_oracle.action_battle_oracle.detail": "Вы притягиваете персонажа в пределах значения Сенсоров на 2 клетки в любом направлении.",
+    "mf_amber_phantom.trait_battle_oracle.action_battle_oracle.trigger": "Враждебный персонаж промахивается при атаке по вам."
 }
