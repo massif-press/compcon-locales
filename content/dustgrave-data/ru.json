@@ -55,5 +55,9 @@
     "reserve_military_grade_jetpack.active_effect_military_grade_jetpack.name": "Армейский ракетный ранец",
     "reserve_military_grade_jetpack.name": "Армейский ракетный ранец",
     "npcf_burst_jets_spec_op.active_effect_jump_packs.name": "Прыжковые ранцы",
-    "npcf_burst_jets_spec_op.name": "Прыжковые ранцы"
+    "npcf_burst_jets_spec_op.name": "Прыжковые ранцы",
+    "npcf_serrated_machete_spec_op.on_crit.detail": "Цель становится Изрешечённой до конца своего следующего хода.",
+    "npct_commando_spec_op.name": "Спецназ",
+    "npct_horror.name": "Аберрация",
+    "npcf_serrated_machete_spec_op.name": "Зазубренный мачете"
 }
