@@ -18,5 +18,6 @@
     "npcf_marine_deck_anchors.action_deck_anchors.detail": "Морпех игнорирует это движение.",
     "npcf_marine_filo.name": "\"Первым поступил – последним выбыл\"",
     "npcf_marine_manuverable.name": "Манёвренный",
-    "npcf_marine_pointman_plating.name": "Обшивка \"Проводник\""
+    "npcf_marine_pointman_plating.name": "Обшивка \"Проводник\"",
+    "npcc_ows_mbt_antitank_gun.on_crit.detail": "Цель становится Изрешечённой до конца своего следующего хода."
 }
