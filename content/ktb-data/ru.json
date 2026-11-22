@@ -188,5 +188,21 @@
     "ktb-bond-titan.minor_ideal_0": "Мне удалось защитить кого-то слабее меня.",
     "ktb-bond-broker.power_boon_of_order.description": "В конце каждой сессии, если вы можете описать, как всё прошло согласно плану, сделайте это. Дайте 1 ПО кому-то, кто, по вашему мнению, действовал согласно плану.",
     "ktb-bond-magus.minor_ideal_0": "Мне довелось узреть нечто пугающее, великолепное или непознаваемое.",
-    "ktb-bond-harlequin.power_ridi_pagliacci.description": "В каждой сессии вы можете апеллировать к своим травмам (один раз для каждой), чтобы получить +1 Точность на любой бросок."
+    "ktb-bond-harlequin.power_ridi_pagliacci.description": "В каждой сессии вы можете апеллировать к своим травмам (один раз для каждой), чтобы получить +1 Точность на любой бросок.",
+    "mf_minotaur_alt_wraith.core_system.active_action_weighing_of_inequitable_hearts.name": "Взвешивание пристрастных сердец",
+    "mf_black_witch_alt_orchidea.core_system.active_action_helion.name": "Гелион",
+    "mf_black_witch_alt_orchidea.core_system.active_name": "Гелион",
+    "mf_black_witch_alt_orchidea.core_system.name": "Гелион",
+    "mf_minotaur_alt_wraith.core_system.active_effect_weighing_of_inequitable_hearts.name": "Взвешивание пристрастных сердец",
+    "mf_minotaur_alt_wraith.core_system.active_name": "Взвешивание пристрастных сердец",
+    "mf_minotaur_alt_wraith.trait_grammaton_law.active_effect_grammaton_law.detail": "ЗАМЕДЛЕННЫЕ враждебные персонажи также считаются ИЗРЕШЕЧЁННЫМИ, пока находятся в пределах Дальности 3 от Календулы.",
+    "mf_minotaur_alt_wraith.trait_grammaton_law.description": "ЗАМЕДЛЕННЫЕ враждебные персонажи также считаются ИЗРЕШЕЧЁННЫМИ, пока находятся в пределах Дальности 3 от Календулы.",
+    "mf_white_witch.trait_harden.active_effect_harden.detail": "При Укреплении вы получаете количество пунктов Сверхщитов, равное 4+значение ЗАКАЛКИ, до момента получения урона.",
+    "mf_white_witch.trait_harden.description": "При Укреплении Белая Ведьма получаете количество пунктов Сверхщитов, равное 4+значение ЗАКАЛКИ пилота, до момента получения урона.",
+    "mf_white_witch.trait_harden.synergy_0.detail": "При Укреплении Белая Ведьма получаете количество пунктов Сверхщитов, равное 4+значение ЗАКАЛКИ пилота, до момента получения урона.",
+    "mf_white_witch.trait_rooted.action_rooted.detail": "Вы Обездвижены до конца вашего следующего хода.",
+    "t_pankrati.rank_veni.active_effect_veni.detail": "Вы получаете +1 Точность на атаки ближнего боя против Обездвиженных, либо Замедленных целей.",
+    "t_pankrati.rank_veni.description": "Вы получаете +1 Точность на атаки ближнего боя против Обездвиженных, либо Замедленных целей.",
+    "mw_retort_loop.profile_0_charges.name": "0 Зарядов",
+    "t_pankrati.rank_veni.synergy_0.detail": "Вы получаете +1 Точность на атаки ближнего боя против Замедленных, либо Обездвиженных целей."
 }
