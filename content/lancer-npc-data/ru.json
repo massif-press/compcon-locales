@@ -346,5 +346,6 @@
     "npcf_veterancy_veteran.active_effect_veterancy.name": "Ветеранство",
     "npcf_veterancy_veteran.name": "Ветеранство",
     "npcf_undersize_squad.name": "Малый размер",
-    "npcf_underslung_grenade_launcher_assault.name": "Подствольный гранатомёт"
+    "npcf_underslung_grenade_launcher_assault.name": "Подствольный гранатомёт",
+    "npcf_parting_gift_veteran.action_self_destruct.name": "Самоуничтожение"
 }
