@@ -1,1 +1,22 @@
-{}
+{
+    "act_lr_go_diving.name": "A bucear (Ganancias)",
+    "act_lr_go_diving.terse": "Adéntrate en los bajos fondos de una estación.",
+    "act_lr_go_diving_2.name": "A bucear (Pérdida)",
+    "act_lr_go_diving_2.terse": "Adéntrate en los bajos fondos de una estación.",
+    "act_lr_gunfight.name": "Tiroteo",
+    "act_lr_gunfight.terse": "Enfréntate a alguien en un duelo individual.",
+    "ctr_art_of_war.name": "El arte de la guerra",
+    "mf_atlas.core_system.active_effect_final_hunt_hide.detail": "Durante el resto de la escena, puedes OCULTARTE incluso al aire libre, sin necesidad de cubrirte.",
+    "mf_atlas.core_system.active_effect_final_hunt_hide.name": "Caza final: Oculta",
+    "mf_atlas.core_system.active_effect_final_hunt_knockdown.name": "Caza final: Derribo",
+    "mf_atlas.core_system.active_effect_final_hunt_movement.name": "Caza final: Movimiento",
+    "mf_atlas.name": "Atlas",
+    "mf_atlas.trait_giantkiller.active_effect_giantkiller.name": "Matagigantes",
+    "mf_atlas.trait_giantkiller.description": "El Atlas se considera de TAMAÑO 1 para RAM y GARRO. Ignora el enfrentamiento con personajes más grandes y puede moverse libremente y compartir los espacios que estos ocupan (incluso si son hostiles). Mientras ocupa los mismos espacios que cualquier personaje, obtiene cobertura parcial, incluso de ese mismo personaje.",
+    "mf_atlas.trait_giantkiller.name": "Matagigantes",
+    "mf_atlas.trait_j_ger_dodge.action_j_ger_dodge.name": "Jäger Dodge",
+    "mf_atlas.trait_j_ger_dodge.name": "Jäger Dodge",
+    "mf_caliban.core_system.active_action_equip_autochoke.name": "Equipo auto‐estrangulador",
+    "mf_caliban.trait_slam.active_effect_slam.name": "Golpe",
+    "mf_caliban.trait_slam.name": "Golpe"
+}
