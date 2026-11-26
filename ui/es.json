@@ -1668,9 +1668,11 @@
             "telemetry": "Telemetría",
             "rollup": {
                 "equipmentDestroyed": "Equipamiento destruido",
-                "deployables": "Desplegables"
+                "deployables": "Desplegables",
+                "kills": "Muertes"
             },
-            "actions": "Acción tomada"
+            "actions": "Acción tomada",
+            "crits": "Impactos Críticos"
         },
         "actorLogs": {
             "noEntries": "No hay registros de combate.",
@@ -1691,7 +1693,8 @@
         "statblockExport": {
             "title": "Bloque de Estadísticas de Combate",
             "include": "Incluir",
-            "exportText": "Exportar Texto de Bloque de Estadísticas"
+            "exportText": "Exportar Texto de Bloque de Estadísticas",
+            "notInCover": "Sin portada"
         },
         "statusCond": {
             "title": "Estados / Condiciones",
