@@ -1,1 +1,5 @@
-{}
+{
+    "act_ace_supersonic_spinup.name": "Schubdüsen Starten",
+    "act_activate_full.terse": "Aktiviere ein System oder eine Ausrüstung, die eine Volle Aktion erfordert.",
+    "act_activate_quick.detail": "Wenn du AKTIVIERST, nutze ein System oder ein Stück Ausrüstung, das eine schnelle oder volle Aktion erfordert. Diese Systeme haben die SCHNELLE AKTION oder VOLLE AKTION Marken. Du kannst in deinem Zug beliebig häufig, aber nicht dasselbe System nie mehr als einmal AKTIVIEREN, es sei denn du machst dies als freie Aktion."
+}
