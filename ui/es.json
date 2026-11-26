@@ -2019,19 +2019,23 @@
                 "dense": "Densa",
                 "phone": "Teléfono",
                 "custom": "Personalizado",
-                "textFirst": "Primer Texto"
+                "textFirst": "Primer Texto",
+                "default": "Por defecto"
             },
             "labels": "Etiquetas",
             "labelModes": {
                 "icon": "Sólo iconos",
-                "iconText": "Iconos con texto"
+                "iconText": "Iconos con texto",
+                "text": "Solo texto"
             },
             "densities": {
-                "comfortable": "Confortable"
+                "comfortable": "Confortable",
+                "default": "Por defecto"
             },
             "actionGroupings": {
                 "byType": "Por Tipo de Acción",
-                "menus": "Menúes de Acción"
+                "menus": "Menúes de Acción",
+                "standard": "Estándar"
             },
             "statSet": "Iniciar Pantalla",
             "statSets": {
@@ -2043,7 +2047,8 @@
             "showFlavorTooltip": "Muestra texto descriptivo y texto popular en equipamiento y características. Apáguelo para ver solo las reglas.",
             "showTurnStates": "Mostrar interruptores de estado de turno",
             "showTurnStatesTooltip": "Muestra los interruptores de Montado, En posición de combate, Vigilancia y Preparado en los paneles de combatientes.",
-            "showCover": "Mostrar cobertura"
+            "showCover": "Mostrar cobertura",
+            "content": "Contenido"
         }
     },
     "mainMenu": {
