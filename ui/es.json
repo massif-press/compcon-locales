@@ -325,7 +325,7 @@
             "interV3Default": "Inter (por defecto en v3)",
             "notoSansV3Alt": "Noto Sans (alternativa en v3 )",
             "helveticaV2Default": "Helvetica (por defecto en v2 )",
-            "opendyslexicExperimental": ""
+            "opendyslexicExperimental": "OpenDyslexic (experimental)"
         },
         "v2Import": {
             "deleteTitle": "Eliminar Respaldo",
@@ -611,7 +611,7 @@
             "createConfig": "Crear configuración",
             "deleteConfig": "Eliminar esta configuración",
             "editConfig": "Editar esta configuración",
-            "lcpsList": "",
+            "lcpsList": "{list} LCP",
             "noLcpsNotice": "No hay LCPs añadidos. Sólo contenido del {book} estará disponible."
         },
         "v2Auto": {
@@ -1412,7 +1412,8 @@
             "resumeLast": "reanudar última",
             "featureInDevelopmentV32": "Característica en desarrollo (v3.2)",
             "localEncountersDescription": "Crear, gestionar, y correr Encuentros locales para sus juegos Lancer",
-            "featureInDevelopmentV31": "Característica en desarrollo (v3.1)"
+            "featureInDevelopmentV31": "Característica en desarrollo (v3.1)",
+            "lancer_gameterm": "Lancero"
         },
         "endEnc": {
             "endEncounter": "Finalizar Encuentro",
@@ -1594,7 +1595,8 @@
             "activationsRemaining_many": "{n} Activaciones restantes en esta ronda",
             "activationsRemaining_other": "{n} Activaciones restantes en esta ronda",
             "aiControl": "Meca Controlado por IA",
-            "selfDestructInitiated": "Auto destrucción iniciada"
+            "selfDestructInitiated": "Auto destrucción iniciada",
+            "resistanceLineOther": "{condition} a {type}"
         },
         "addRoster": {
             "addPc": "Agregar PJ",
@@ -1635,7 +1637,10 @@
             "statusesConditions": "Estados/Condiciones",
             "counters": "Contadores",
             "endActivation": "Terminar Activación",
-            "pilotGrit": "Temple de Piloto"
+            "pilotGrit": "Temple de Piloto",
+            "combatImage": "Imagen del Combate",
+            "setCombatImage": "Establecer Imagen de Combate",
+            "clearCombatImage": "Quitar Imagen del Combate"
         },
         "damageMenu": {
             "takeDamage": "Recibe Daño",
@@ -1652,7 +1657,13 @@
             "damageIgnoresArmorAndResistance": "Daño ignora armadura y resistencia."
         },
         "trackable": {
-            "corePower": "Poder Base"
+            "corePower": "Poder Base",
+            "corePowerReady": "Poder Base Preparado",
+            "corePowerUnavailable": "Poder Base Indisponible",
+            "clearCorePowerQ": "¿Quito este poder base de mech?",
+            "restoreCorePowerQ": "¿Restauro el poder base de mech?",
+            "confirmClearCore": "Confirmar Núcleo Vaciado",
+            "confirmRestoreCore": "Confirmar Núcleo Restaurado"
         },
         "customStat": {
             "editStats": "Editar Estadísticas",
@@ -1669,10 +1680,33 @@
             "rollup": {
                 "equipmentDestroyed": "Equipamiento destruido",
                 "deployables": "Desplegables",
-                "kills": "Muertes"
+                "kills": "Muertes",
+                "saves": "Ahorros",
+                "savesValue": "{passed} pasado, {failed} fallado",
+                "damageTaken": "Daño obtenido",
+                "reducedByArmor": "Reducido por armadura",
+                "heatGained": "Calor obtenido",
+                "heatCleared": "Calor liberado",
+                "overcharges": "Sobrecargas",
+                "overchargesValue": "{n} ({heat} calor)",
+                "structureChecks": "Estructura comprobada",
+                "stressChecks": "Estrés comprobado",
+                "deployablesValue": "{n} lanzados",
+                "coreEnergySpent": "Energía de núcleo gastada"
             },
-            "actions": "Acción tomada",
-            "crits": "Impactos Críticos"
+            "actions": "Acciones Tomadas",
+            "crits": "Impactos Críticos",
+            "offense": "Ofensa",
+            "defense": "Defensa",
+            "checks": "Marcar y Guardar",
+            "attacks": "Impacto de Ataques",
+            "mechsLost": "Mechs Perdidos",
+            "savesPassed": "Guarda Accesos",
+            "savesFailed": "Guardados Incorrectos",
+            "overcharges": "Sobrecargas (Calor)",
+            "deployablesLaunched": "Despliegues Lanzados",
+            "deployablesDestroyed": "Despliegues Destruidos",
+            "none": "Ninguno grabado"
         },
         "actorLogs": {
             "noEntries": "No hay registros de combate.",
@@ -1688,14 +1722,19 @@
             "doubleDamage": "Daño doble",
             "fullDamage": "Daño Completo",
             "resistance": "Resistencia",
-            "fromAttacks": "de ataques {type}."
+            "fromAttacks": "de ataques {type}.",
+            "normal": "Usual"
         },
         "statblockExport": {
             "title": "Bloque de Estadísticas de Combate",
             "include": "Incluir",
             "exportText": "Exportar Texto de Bloque de Estadísticas",
-            "notInCover": "Sin portada",
-            "save": "Guardar"
+            "notInCover": "No cubierto",
+            "save": "Guardar",
+            "inSoftCover": "En cobertura ligera",
+            "inHardCover": "En cobertura densa",
+            "techAttackShort": "Ataq Tec.",
+            "recharge": "recargar {n}+"
         },
         "statusCond": {
             "title": "Estados / Condiciones",
@@ -1716,7 +1755,11 @@
             "insufficient": "Insuficiente",
             "actionsRemaining": "acciones restantes para este turno.",
             "activationAction": "{n} Acción",
-            "overcharge": "Sobrecarga"
+            "overcharge": "Sobrecarga",
+            "quickN": "Rápido {n}",
+            "spent": "Gasto",
+            "asOvercharge": "Como Sobrecarga",
+            "restoreAction": "Pulse para restaurar esta acción"
         },
         "deploy": {
             "deployNamed": "Desplegar {name}",
@@ -1744,7 +1787,9 @@
             "rechargesFeatures": "Recarga las siguientes características",
             "rechargesOn": "(Recarga en {n}+)",
             "clickToRoll": "Haga clic para lanzar. Las características de PNJ se recargarán en lanzamientos iguales o superiores a su valor de tirada.",
-            "reroll": "relanzar"
+            "reroll": "relanzar",
+            "hidingPassiveFeatures": "Ocultación de características pasivas",
+            "showingPassiveFeatures": "Muestra de características pasivas"
         },
         "gmRunner": {
             "loading": "Cargando instancia de encuentro…",
@@ -1818,7 +1863,7 @@
             "redeployment": "redespliegue",
             "redeploy": "Redesplegar",
             "ownedBy": "Propietario",
-            "recall": "Retirar",
+            "recall": "Destitución",
             "removeType": "Quitar {type}"
         },
         "eidolon": {
@@ -1828,9 +1873,13 @@
             "active": "(Activo)",
             "persistentTraits": "Rasgos Persistentes ({n})",
             "noShards": "Capa no tiene Fragmentos",
-            "generateShards_one": "Generar {n} Fragmento | Generar {n} Fragmentos",
+            "generateShards_one": "Generar {n} Fragmento",
             "generateShards_many": "Generar {n} Fragmentos",
-            "generateShards_other": "Generar {n} Fragmentos"
+            "generateShards_other": "Generar {n} Fragmentos",
+            "shardFeatures": "Carac. Fragmento ({n})",
+            "manifestLayer": "Manifiesto {name}",
+            "metamorphose": "Metamorfosis",
+            "metamorphosisDetail": "Esta capa está destruída. El Eidolon y sus fragmentos eliminan todos los estados, condiciones y efectos, y la siguiente capa se manifiesta al comienzo del siguiente turno del Eidolon."
         },
         "mechPanel": {
             "meltdown": "Este meca ha sufrido una fusión del reactor. Está permanentemente destruido y no se puede reparar.",
@@ -1851,7 +1900,8 @@
         "pcPanel": {
             "pilotMounted": "Piloto Montado",
             "pilotUnmounted": "Piloto desmontado",
-            "noReserves": "No hay reservas disponibles"
+            "noReserves": "No hay reservas disponibles",
+            "unusedOnly": "Solo Sin Uso"
         },
         "pilotActions": {
             "preparedTitle": "Piloto Preparado",
@@ -1968,12 +2018,32 @@
             "presets": {
                 "dense": "Densa",
                 "phone": "Teléfono",
-                "custom": "Personalizado"
+                "custom": "Personalizado",
+                "textFirst": "Primer Texto"
             },
             "labels": "Etiquetas",
             "labelModes": {
-                "icon": "Sólo icono"
-            }
+                "icon": "Sólo iconos",
+                "iconText": "Iconos con texto"
+            },
+            "densities": {
+                "comfortable": "Confortable"
+            },
+            "actionGroupings": {
+                "byType": "Por Tipo de Acción",
+                "menus": "Menúes de Acción"
+            },
+            "statSet": "Iniciar Pantalla",
+            "statSets": {
+                "all": "Todas las estadísticas"
+            },
+            "showPortraits": "Mostrar retratos",
+            "showPortraitsTooltip": "Oculta imágenes de retrato en paneles de combate para ajustar más información en la pantalla. La iniciativa de barra lateral no está afectada.",
+            "showFlavor": "Mostrar texto descriptivo",
+            "showFlavorTooltip": "Muestra texto descriptivo y texto popular en equipamiento y características. Apáguelo para ver solo las reglas.",
+            "showTurnStates": "Mostrar interruptores de estado de turno",
+            "showTurnStatesTooltip": "Muestra los interruptores de Montado, En posición de combate, Vigilancia y Preparado en los paneles de combatientes.",
+            "showCover": "Mostrar cobertura"
         }
     },
     "mainMenu": {
