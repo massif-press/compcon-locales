@@ -1694,7 +1694,8 @@
             "title": "Bloque de Estadísticas de Combate",
             "include": "Incluir",
             "exportText": "Exportar Texto de Bloque de Estadísticas",
-            "notInCover": "Sin portada"
+            "notInCover": "Sin portada",
+            "save": "Guardar"
         },
         "statusCond": {
             "title": "Estados / Condiciones",
@@ -1714,7 +1715,8 @@
             "alreadyUsed": "Esta acción ya se ha utilizado en este turno.",
             "insufficient": "Insuficiente",
             "actionsRemaining": "acciones restantes para este turno.",
-            "activationAction": "{n} Acción"
+            "activationAction": "{n} Acción",
+            "overcharge": "Sobrecarga"
         },
         "deploy": {
             "deployNamed": "Desplegar {name}",
@@ -1957,6 +1959,21 @@
         },
         "aar": {
             "roundsValue": "{n} ronda | {n} rondas"
+        },
+        "playMode": {
+            "full": "Completo",
+            "simple": "Simple"
+        },
+        "layout": {
+            "presets": {
+                "dense": "Densa",
+                "phone": "Teléfono",
+                "custom": "Personalizado"
+            },
+            "labels": "Etiquetas",
+            "labelModes": {
+                "icon": "Sólo icono"
+            }
         }
     },
     "mainMenu": {
