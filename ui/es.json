@@ -1394,7 +1394,7 @@
             "unmounted": "Sin Montar",
             "started": "iniciado",
             "lastTurn": "último turno",
-            "na": "",
+            "na": "N/D",
             "noCampaignInformation": "Sin Información de Campaña"
         },
         "landing": {
@@ -1669,7 +1669,8 @@
             "rollup": {
                 "equipmentDestroyed": "Equipamiento destruido",
                 "deployables": "Desplegables"
-            }
+            },
+            "actions": "Acción tomada"
         },
         "actorLogs": {
             "noEntries": "No hay registros de combate.",
