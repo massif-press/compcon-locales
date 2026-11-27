@@ -1,1 +1,12 @@
-{}
+{
+    "act_ace_supersonic_spinup.name": "Schubdüsen Starten",
+    "act_activate_full.terse": "Aktiviere ein System oder eine Ausrüstung, die eine Volle Aktion erfordert.",
+    "act_activate_quick.detail": "Wenn du AKTIVIERST, nutze ein System oder ein Stück Ausrüstung, das eine schnelle oder volle Aktion erfordert. Diese Systeme haben die SCHNELLE AKTION oder VOLLE AKTION Marken. Du kannst in deinem Zug beliebig häufig, aber nicht dasselbe System nie mehr als einmal AKTIVIEREN, es sei denn du machst dies als freie Aktion.",
+    "act_activate_full.name": "Volle Aktivierung",
+    "act_activate_quick.name": "Schnelle Aktivierung",
+    "act_ace_supersonic_spinup.detail": "Als eine Schnelle Aktion während deines Zuges kannst du deine Schubdüsen starten. Wenn du deinen Zug während des Fluges beendest, darfst du einen Charakter aussuchen, der sich innerhalb deiner Reichweite und in deiner Sichtlinie befindet und erhältst Zugriff auf die Überschall Reaktion.",
+    "act_activate_full.detail": "Wenn du AKTIVIERST, benutzt du ein System oder eine Ausrüstung, dass entweder eine Schnelle oder Volle Aktion erfordert. Diese Systeme haben das Kennzeichen SCHNELLE AKTION oder VOLLE AKTION. Du kannst beliebig oft während deines Zuges AKTIVIEREN, aber dasselbe System nicht mehr als einmal, außer es ist eine freie Aktion.",
+    "act_activate_quick.terse": "Aktiviere ein System oder eine Ausrüstung, die eine Schnelle Aktion erfordert.",
+    "act_bolster.detail": "Wenn du STÄRKEN verwendest, wird die überragende Rechenleistung deines Mechs genutzt um die Systeme eines anderen Charakters zu verbessern.<br/>",
+    "act_bolster.special_0.detail": "Erhalte +2 Genauigkeit auf deinen nächsten Fertigkeits- oder Rettungswurf."
+}
